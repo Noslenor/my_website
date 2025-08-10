@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Operation-ish: OR Suite</title>
+<style>
+  :root{
+    --bg:#0b1220;
+    --panel:#0f172a;
+    --panel2:#111827;
+    --ink:#e5e7eb;
+    --muted:#94a3b8;
+    --accent:#60a5fa;
+    --warn:#fb7185;
+    --ok:#34d399;
+    --gold:#fbbf24;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; background: radial-gradient(1200px 600px at 50% 0%, #0e1629, var(--bg));
+    color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Inter, Roboto, Arial;
+    overflow:hidden;
+  }
+  header{
+    display:flex; align-items:center; gap:.8rem;
+    padding:.6rem .8rem; background:rgba(255,255,255,.03);
+    border-bottom:1px solid rgba(255,255,255,.08);
+    backdrop-filter:saturate(140%) blur(4px);
+  }
+  header h1{font-size:1.05rem; margin:0; color:var(--accent); letter-spacing:.3px}
+  header .sp{flex:1}
+  header .btn{
+    background:var(--panel2); border:1px solid rgba(255,255,255,.1);
+    color:var(--ink); padding:.35rem .6rem; border-radius:.5rem; cursor:pointer; font-size:.9rem;
+  }
+  header .btn:hover{border-color:rgba(255,255,255,.3)}
+  #wrap{
+    display:grid; grid-template-columns: 1fr 280px; gap:.6rem; padding:.6rem; height:calc(100% - 54px);
+  }
+  #boardWrap{
+    position:relative; background:var(--panel);
+    border:1px solid rgba(255,255,255,.08); border-radius:.8rem; overflow:hidden;
+  }
+  canvas{display:block; width:100%; height:100%}
+  #hud{
+    background:var(--panel); border:1px solid rgba(255,255,255,.08); border-radius:.8rem; padding:.6rem;
+    display:flex; flex-direction:column; gap:.6rem;
+  }
+  .card{
+    background:var(--panel2); border:1px solid rgba(255,255,255,.08);
+    border-radius:.7rem; padding:.6rem;
+  }
+  .row{display:flex; align-items:center; justify-content:space-between; gap:.6rem}
+  .stat{font-size:1.9rem; font-weight:700}
+  .muted{color:var(--muted)}
+  .pill{padding:.15rem .5rem; border-radius:999px; border:1px solid rgba(255,255,255,.15);}
+  .ok{color:var(--ok)} .warn{color:var(--warn)} .gold{color:var(--gold)}
+  .kbd{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    font-size:.85rem; padding:.05rem .35rem; border-radius:.3rem;
+    border:1px solid rgba(255,255,255,.2); background:#0b1220; color:#e2e8f0;
+  }
+  ul{margin:.3rem 0 .1rem .9rem; padding:0}
+  li{margin:.25rem 0}
+  footer{position:absolute; bottom:.6rem; right:.8rem; font-size:.85rem; color:var(--muted)}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>🫀 Operation‑ish: OR Suite</h1>
+  <span class="sp"></span>
+  <button class="btn" id="newBtn">New Game</button>
+  <button class="btn" id="muteBtn">🔊 Sound</button>
+  <button class="btn" id="helpBtn">Help</button>
+</header>
+
+<div id="wrap">
+  <div id="boardWrap">
+    <canvas id="game" width="960" height="600"></canvas>
+    <footer>Drag organs out to the tray without touching the red walls. Rotate with <span class="kbd">←</span>/<span class="kbd">→</span> (or <span class="kbd">A</span>/<span class="kbd">D</span>).</footer>
+  </div>
+  <aside id="hud">
+    <div class="card">
+      <div class="row"><div>Score</div><div class="stat" id="score">0</div></div>
+      <div class="row"><div>Lives</div><div id="lives" class="stat">❤️❤️❤️</div></div>
+      <div class="row"><div>Time</div><div class="stat" id="time">00:00</div></div>
+    </div>
+    <div class="card">
+      <div class="row"><div>Objective</div><span class="pill">Extract safely</span></div>
+      <ul class="muted">
+        <li>Click an organ to grab it with forceps.</li>
+        <li>Drag toward the tray on the right.</li>
+        <li>Rotate with <span class="kbd">←</span>/<span class="kbd">→</span> or <span class="kbd">A</span>/<span class="kbd">D</span>.</li>
+        <li>Touching the red walls: <span class="warn">BUZZ + lose a life</span>.</li>
+        <li>Extract all organs before time runs out!</li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="row"><div>Difficulty</div>
+        <select id="diffSel" class="btn">
+          <option value="easy">Easy</option>
+          <option value="normal" selected>Normal</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+      <div class="row" style="margin-top:.4rem">
+        <div>Sensitivity</div>
+        <input id="sens" type="range" min="0.5" max="2.0" step="0.1" value="1.0">
+      </div>
+    </div>
+    <div class="card muted">
+      Built with ❤️ and vanilla JS Canvas. <br>
+      <small>Tip: This page works great on GitHub Pages.</small>
+    </div>
+  </aside>
+</div>
+
+<script>
+// ========= Helpers =========
+const $ = s => document.querySelector(s);
+const clamp = (v,min,max)=>Math.max(min,Math.min(max,v));
+function lerp(a,b,t){return a+(b-a)*t}
+
+// Timer
+class GameTimer{
+  constructor(){ this.reset() }
+  reset(){ this.start = performance.now(); this.elapsed = 0; this.running=false }
+  play(){ if(!this.running){ this.start = performance.now()-this.elapsed; this.running=true } }
+  pause(){ if(this.running){ this.elapsed = performance.now()-this.start; this.running=false } }
+  secs(){ return (this.running ? performance.now()-this.start : this.elapsed)/1000 }
+  fmt(){
+    const s = Math.floor(this.secs());
+    const m = Math.floor(s/60), ss=(s%60).toString().padStart(2,'0');
+    return `${m.toString().padStart(2,'0')}:${ss}`
+  }
+}
+
+// Audio (WebAudio minimal)
+const AudioSys = (()=>{
+  let ctx, vol=0.8, muted=false;
+  function ensure(){ if(!ctx) ctx = new (window.AudioContext||window.webkitAudioContext)() }
+  function beep({freq=440, dur=0.08, type='square', gain=0.2}){
+    if(muted) return;
+    ensure();
+    const o = ctx.createOscillator();
+    const g = ctx.createGain();
+    o.type = type; o.frequency.value=freq;
+    g.gain.value = gain*vol;
+    o.connect(g).connect(ctx.destination);
+    o.start();
+    o.stop(ctx.currentTime+dur);
+  }
+  function buzz(){ // quick buzz
+    beep({freq:220,dur:0.06,type:'square',gain:0.25});
+    setTimeout(()=>beep({freq:160,dur:0.06,type:'square',gain:0.25}),80);
+    setTimeout(()=>beep({freq:120,dur:0.1,type:'square',gain:0.25}),160);
+  }
+  function success(){ beep({freq:880,dur:0.08,type:'square',gain:0.18}); setTimeout(()=>beep({freq:1180,dur:0.12,type:'square',gain:0.18}),90) }
+  return {beep,buzz,success, toggle(){muted=!muted; return muted} }
+})();
+
+// ========= Game Model =========
+const cvs = $('#game'), ctx = cvs.getContext('2d');
+let W = cvs.width, H = cvs.height;
+const timer = new GameTimer();
+let state;
+
+const DIFFS = {
+  easy:{walls:10, lives:5, time:180},
+  normal:{walls:16, lives:3, time:150},
+  hard:{walls:22, lives:2, time:120},
+};
+
+// Red mask canvas to test collisions against red walls
+const mask = document.createElement('canvas'); mask.width=W; mask.height=H;
+const mctx = mask.getContext('2d');
+
+function resetGame(mode='normal'){
+  const d = DIFFS[mode] || DIFFS.normal;
+  state = {
+    mode,
+    score:0,
+    lives:d.lives,
+    done:false,
+    dragging:null, // index of organ being moved
+    organs: makeOrgans(),
+    walls: makeWalls(d.walls),
+    tray: {x: W-180, y: 60, w: 120, h: H-120},
+    sensitivity: parseFloat($('#sens').value || '1.0'),
+  };
+  buildMask();
+  timer.reset(); timer.play();
+  updateHUD();
+}
+
+function makeOrgans(){
+  // Three organs with shapes (arrays of points) in local coords, plus start positions
+  const pieces = [];
+  // Heart (polygon)
+  pieces.push(makePiece('Heart','red', polyHeart(), {x: 360, y: 250, ang: 0}));
+  // Bone (capsule-ish rectangle)
+  pieces.push(makePiece('Bone','white', polyBone(), {x: 520, y: 380, ang: Math.PI/12}));
+  // Kidney (ellipse approximated polygon)
+  pieces.push(makePiece('Kidney','#c084fc', polyKidney(), {x: 300, y: 410, ang: -Math.PI/14}));
+  return pieces;
+}
+
+function makePiece(name, color, poly, pose){
+  const box = bounds(poly);
+  return {name, color, poly, pose: {...pose}, home: {...pose}, extracted:false}
+}
+
+function polyHeart(){
+  // simple symmetric heart shape
+  const p=[]; const r=26;
+  for(let a=-Math.PI; a<=0; a+=Math.PI/16){
+    const x = 0.8*r*Math.sin(a)**3;
+    const y = - ( 0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)) );
+    p.push([x,y]);
+  }
+  for(let a=0; a<=Math.PI; a+=Math.PI/16){
+    const x = 0.8*r*Math.sin(a)**3;
+    const y = - ( 0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)) );
+    p.push([x,y]);
+  }
+  // scale down
+  return p.map(([x,y])=>[x*0.35, y*0.35]);
+}
+
+function polyKidney(){
+  const p=[]; const rx=28, ry=36;
+  for(let a=0; a<Math.PI*2; a+=Math.PI/18){
+    let x = Math.cos(a)*rx;
+    let y = Math.sin(a)*ry;
+    // pinch to kidney
+    x += -10*Math.exp(-((a-Math.PI/2)**2)/0.3);
+    p.push([x,y]);
+  }
+  return p;
+}
+
+function polyBone(){
+  // capsule-like bone (two circles + rect approximated)
+  const p=[]; const w=85, h=22, r=16;
+  // top arc
+  for(let a=Math.PI; a<=Math.PI*2; a+=Math.PI/18) p.push([-w/2,0, a]);
+  // right arc
+  for(let a=Math.PI/2; a<=Math.PI*3/2; a+=Math.PI/18) p.push([w/2,0, a]);
+  // convert arcs to points
+  const pts=[];
+  for(const it of p){
+    const [cx,cy,a]=it;
+    pts.push([cx + Math.cos(a)*r, cy + Math.sin(a)*r]);
+  }
+  // connect via small offsets to thicken
+  const extra=[[w/2,-h/2],[ -w/2,-h/2],[ -w/2,h/2],[ w/2,h/2]];
+  return pts.concat(extra);
+}
+
+function bounds(poly){
+  let minx=Infinity,miny=Infinity,maxx=-Infinity,maxy=-Infinity;
+  for(const [x,y] of poly){ if(x<minx)minx=x; if(y<miny)miny=y; if(x>maxx)maxx=x; if(y>maxy)maxy=y; }
+  return {minx,miny,maxx,maxy, w:maxx-minx, h:maxy-miny};
+}
+
+// walls as thin red polygons (rects and slalom)
+function makeWalls(n){
+  const ws=[];
+  // perimeter
+  ws.push({x:60,y:40,w:W-240,h:520}); // cavity outer
+  // cut paths (slots)
+  // we'll create slalom corridors by carving "safe paths" later; for mask we draw border
+  // We'll store as rectangles for rendering outlines
+  // Additionally, sprinkle inner partitions
+  for(let i=0;i<n;i++){
+    const x = 120 + (i%4)*150 + (Math.random()*20-10);
+    const y = 70 + Math.floor(i/4)*60 + (Math.random()*10-5);
+    const w = 80 + Math.random()*40;
+    const h = 10 + Math.random()*10;
+    ws.push({x, y, w, h});
+  }
+  return ws;
+}
+
+function buildMask(){
+  // Draw red walls to mask; collision checks sample mask pixels for red
+  mctx.clearRect(0,0,W,H);
+  // Cavity border: draw big rounded shape with thick red border
+  mctx.save();
+  mctx.lineWidth = 18;
+  mctx.strokeStyle = '#ff3344';
+  mctx.beginPath();
+  const cav = {x:60,y:40,w:W-240,h:520,r:50};
+  roundRectPath(mctx, cav.x, cav.y, cav.w, cav.h, cav.r);
+  mctx.stroke();
+  mctx.restore();
+  // inner partitions
+  for(const r of state.walls.slice(1)){
+    mctx.save();
+    mctx.strokeStyle='#ff3344';
+    mctx.lineWidth = 12;
+    mctx.beginPath();
+    mctx.moveTo(r.x, r.y);
+    mctx.lineTo(r.x+r.w, r.y);
+    mctx.stroke();
+    mctx.restore();
+  }
+  // tray border not collidable
+}
+
+function roundRectPath(c,x,y,w,h,r){
+  c.moveTo(x+r,y);
+  c.arcTo(x+w,y,x+w,y+h,r);
+  c.arcTo(x+w,y+h,x,y+h,r);
+  c.arcTo(x,y+h,x,y,r);
+  c.arcTo(x,y,x+w,y,r);
+}
+
+function pointHitsRed(x,y){
+  x = Math.floor(clamp(x,0,W-1));
+  y = Math.floor(clamp(y,0,H-1));
+  const d = mctx.getImageData(x,y,1,1).data;
+  // red-ish threshold
+  return d[0]>200 && d[1]<100 && d[2]<100 && d[3]>10;
+}
+
+function polyTransformed(poly, pose){
+  const s = Math.sin(pose.ang), c = Math.cos(pose.ang);
+  return poly.map(([x,y])=>[ pose.x + x*c - y*s, pose.y + x*s + y*c ]);
+}
+
+function sampleEdge(polyT, step=6){
+  // sample points along poly edges at fixed spacing
+  const pts=[];
+  for(let i=0;i<polyT.length;i++){
+    const a = polyT[i], b = polyT[(i+1)%polyT.length];
+    const dx=b[0]-a[0], dy=b[1]-a[1];
+    const len = Math.hypot(dx,dy);
+    const n = Math.max(1, Math.floor(len/step));
+    for(let t=0;t<=n;t++){
+      pts.push([a[0]+dx*t/n, a[1]+dy*t/n]);
+    }
+  }
+  return pts;
+}
+
+function collisionFor(pose, poly){
+  const polyT = polyTransformed(poly, pose);
+  const edge = sampleEdge(polyT, 5);
+  for(const [x,y] of edge){
+    if(pointHitsRed(x,y)) return true;
+  }
+  return false;
+}
+
+// ========= Input =========
+let mouse = {x:0,y:0, down:false};
+cvs.addEventListener('mousemove', e=>{
+  const rect = cvs.getBoundingClientRect();
+  mouse.x = (e.clientX-rect.left)/rect.width * W;
+  mouse.y = (e.clientY-rect.top)/rect.height * H;
+});
+cvs.addEventListener('mousedown', e=>{
+  mouse.down = true;
+  // start dragging if on a piece
+  const i = hitTestOrgans(mouse.x, mouse.y);
+  if(i>=0 && !state.organs[i].extracted){
+    state.dragging = {idx:i, dx: mouse.x - state.organs[i].pose.x, dy: mouse.y - state.organs[i].pose.y};
+    AudioSys.beep({freq:640, dur:0.05, type:'square'});
+  }
+});
+window.addEventListener('mouseup', e=>{
+  if(state.dragging){
+    // drop: check if inside tray = success
+    const g = state.organs[state.dragging.idx];
+    const inside = pointInRect(g.pose.x, g.pose.y, state.tray);
+    if(inside && !collisionFor(g.pose, g.poly)){
+      g.extracted = true;
+      state.score += 100;
+      AudioSys.success();
+    }else{
+      // snap back home
+      g.pose = {...g.home};
+    }
+    state.dragging=null;
+  }
+  mouse.down = false;
+});
+
+function pointInRect(x,y,r){ return x>r.x && x<r.x+r.w && y>r.y && y<r.y+r.h }
+
+window.addEventListener('keydown', e=>{
+  if(!state.dragging) return;
+  const g = state.organs[state.dragging.idx];
+  if(['ArrowLeft','a','A'].includes(e.key)) g.pose.ang -= 0.1*state.sensitivity;
+  if(['ArrowRight','d','D'].includes(e.key)) g.pose.ang += 0.1*state.sensitivity;
+});
+
+// ========= Hit testing =========
+function hitTestOrgans(x,y){
+  // check from top-most to bottom
+  for(let i=state.organs.length-1;i>=0;i--){
+    const g = state.organs[i];
+    if(g.extracted) continue;
+    // point in polygon test on transformed poly
+    const polyT = polyTransformed(g.poly, g.pose);
+    if(pointInPoly([x,y], polyT)) return i;
+  }
+  return -1;
+}
+
+function pointInPoly(p, poly){
+  let c = false;
+  for(let i=0,j=poly.length-1;i<poly.length;j=i++){
+    const xi=poly[i][0], yi=poly[i][1];
+    const xj=poly[j][0], yj=poly[j][1];
+    const intersect = ((yi>p[1])!=(yj>p[1])) && (p[0] < (xj - xi) * (p[1] - yi) / (yj - yi + 1e-9) + xi);
+    if(intersect) c = !c;
+  }
+  return c;
+}
+
+// ========= Loop =========
+let last=0;
+function frame(ts){
+  const dt = (ts-last)/1000; last=ts;
+  update(dt);
+  draw();
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+function update(dt){
+  // time & fail conditions
+  const total = DIFFS[state.mode].time;
+  const left = Math.max(0, total - timer.secs());
+  $('#time').textContent = fmtTime(left);
+  if(left<=0 && !state.done){
+    state.done = true; timer.pause();
+  }
+  // drag update
+  if(state.dragging){
+    const g = state.organs[state.dragging.idx];
+    const s = state.sensitivity;
+    g.pose.x = lerp(g.pose.x, mouse.x - state.dragging.dx, 0.65*s);
+    g.pose.y = lerp(g.pose.y, mouse.y - state.dragging.dy, 0.65*s);
+    // if collide with red, penalize
+    if(collisionFor(g.pose, g.poly)){
+      // buzz + life -1 + snap home
+      state.lives -= 1;
+      updateHUD();
+      AudioSys.buzz();
+      g.pose = {...g.home};
+      state.dragging=null;
+      if(state.lives<=0){ state.done=true; timer.pause(); }
+    }
+  }
+  // win condition
+  if(state.organs.every(o=>o.extracted) && !state.done){
+    state.done = true; timer.pause();
+    state.score += Math.floor(100 * (DIFFS[state.mode].time - timer.secs()));
+    updateHUD();
+  }
+}
+
+function fmtTime(s){ const m=Math.floor(s/60); const ss=Math.floor(s%60).toString().padStart(2,'0'); return `${m}:${ss}` }
+
+function draw(){
+  // clear
+  ctx.clearRect(0,0,W,H);
+  // backdrop
+  drawBackdrop();
+  // cavity walls (pretty) — draw around the mask path for visuals
+  drawWallsPretty();
+  // tray
+  drawTray(state.tray);
+  // organs
+  for(const g of state.organs){
+    if(g.extracted) continue;
+    drawOrgan(g);
+  }
+  // overlay: done states
+  if(state.done){
+    ctx.save();
+    ctx.fillStyle = 'rgba(0,0,0,0.55)'; ctx.fillRect(0,0,W,H);
+    ctx.fillStyle = '#e5e7eb';
+    ctx.textAlign='center';
+    ctx.font = 'bold 42px ui-sans-serif, system-ui, -apple-system';
+    const win = state.organs.every(o=>o.extracted);
+    ctx.fillText(win?'🎉 Success! Patient stable':'💥 BUZZ! Surgery failed', W/2, H/2 - 14);
+    ctx.font = '20px ui-sans-serif, system-ui, -apple-system';
+    ctx.fillStyle = win ? '#34d399' : '#fb7185';
+    ctx.fillText(win?`Score: ${state.score}`:`Try again`, W/2, H/2 + 22);
+    ctx.restore();
+  }
+}
+
+function drawBackdrop(){
+  const grd = ctx.createLinearGradient(0,0,0,H);
+  grd.addColorStop(0,'#0f172a'); grd.addColorStop(1,'#0b1220');
+  ctx.fillStyle = grd; ctx.fillRect(0,0,W,H);
+  // subtle grid
+  ctx.strokeStyle='rgba(255,255,255,0.04)';
+  ctx.lineWidth=1;
+  for(let x=0;x<W;x+=40){ ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,H); ctx.stroke(); }
+  for(let y=0;y<H;y+=40){ ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(W,y); ctx.stroke(); }
+}
+
+function drawWallsPretty(){
+  // draw same shapes as mask but prettier
+  ctx.save();
+  // cavity
+  const cav = {x:60,y:40,w:W-240,h:520,r:50};
+  ctx.strokeStyle='#ef4444'; ctx.lineWidth=18; ctx.globalAlpha=0.85;
+  ctx.beginPath(); roundRectPath(ctx, cav.x, cav.y, cav.w, cav.h, cav.r); ctx.stroke();
+  // inner partitions
+  ctx.lineWidth=12;
+  for(const r of state.walls.slice(1)){
+    ctx.beginPath();
+    ctx.moveTo(r.x, r.y);
+    ctx.lineTo(r.x+r.w, r.y);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+
+function drawTray(t){
+  ctx.save();
+  ctx.shadowColor='rgba(0,0,0,0.4)'; ctx.shadowBlur=8;
+  ctx.fillStyle = '#1f2937'; ctx.fillRect(t.x, t.y, t.w, t.h);
+  ctx.strokeStyle = '#60a5fa'; ctx.lineWidth=3; ctx.strokeRect(t.x+1.5, t.y+1.5, t.w-3, t.h-3);
+  ctx.fillStyle = 'rgba(96,165,250,.12)';
+  ctx.fillRect(t.x+6, t.y+6, t.w-12, t.h-12);
+  ctx.fillStyle = '#93c5fd';
+  ctx.font='600 16px ui-sans-serif, system-ui, -apple-system';
+  ctx.textAlign='center';
+  ctx.fillText('Instrument Tray', t.x+t.w/2, t.y+22);
+  ctx.restore();
+}
+
+function drawOrgan(g){
+  ctx.save();
+  ctx.translate(g.pose.x, g.pose.y);
+  ctx.rotate(g.pose.ang);
+  // glow
+  ctx.shadowColor = 'rgba(0,0,0,0.35)'; ctx.shadowBlur=6;
+  ctx.fillStyle = g.color;
+  ctx.strokeStyle = '#0b0b0b'; ctx.lineWidth=2;
+  ctx.beginPath(); movePoly(ctx, g.poly); ctx.closePath(); ctx.fill(); ctx.stroke();
+  // label
+  ctx.font = 'bold 14px ui-sans-serif, system-ui, -apple-system';
+  ctx.fillStyle = '#0b1220';
+  ctx.textAlign='center';
+  ctx.fillText(g.name, 0, 6);
+  ctx.restore();
+}
+
+function movePoly(c, poly){ if(poly.length) c.moveTo(poly[0][0], poly[0][1]); for(let i=1;i<poly.length;i++) c.lineTo(poly[i][0], poly[i][1]) }
+
+function updateHUD(){
+  $('#score').textContent = state.score.toString();
+  $('#lives').textContent = '❤️'.repeat(Math.max(0,state.lives));
+}
+
+// ========= Events =========
+$('#newBtn').addEventListener('click', ()=>resetGame($('#diffSel').value));
+$('#diffSel').addEventListener('change', ()=>resetGame($('#diffSel').value));
+$('#sens').addEventListener('input', e=>{ state.sensitivity = parseFloat(e.target.value) });
+$('#muteBtn').addEventListener('click', ()=>{
+  const m = AudioSys.toggle();
+  $('#muteBtn').textContent = m ? '🔇 Muted' : '🔊 Sound';
+});
+$('#helpBtn').addEventListener('click', ()=>{
+  alert(`How to play
+• Click an organ to grab it with the forceps, then drag toward the blue tray.
+• Rotate carefully with Left/Right arrows (or A/D).
+• If the organ's edges touch the red walls, you "buzz" and lose a life.
+• Drop an organ inside the tray to extract it.
+• Clear all organs before the timer ends!`);
+});
+
+// ========= Init =========
+resetGame('normal');
+</script>
+</body>
+</html>
