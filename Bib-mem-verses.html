@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bible Verse Memory</title>
+<style>
+:root {
+  --card-w: 140px; --card-h: 180px; --gap: 12px;
+  --bg:#0b1220; --text:#f7f9ff; --muted:#cfd6e6;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif; background: var(--bg); color: var(--text); }
+header { display: flex; flex-direction: column; align-items: center; padding: 16px; gap: 10px; }
+.title { font-size: 1.9rem; font-weight: 800; letter-spacing:.3px; }
+.panel { display: flex; gap: .8rem; flex-wrap: wrap; align-items: center; background: rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08); padding: 10px 12px; border-radius: 12px; }
+.panel label { display:flex; align-items:center; gap:.35rem; background: rgba(255,255,255,.06); padding:6px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.08) }
+.panel input[type=radio], .panel input[type=checkbox]{ accent-color:#ffd166 }
+.stat { font-weight: 800; }
+
+.board { display: grid; grid-template-columns: repeat(5, var(--card-w)); gap: var(--gap); justify-content: center; padding: 18px; }
+.card { width: var(--card-w); height: var(--card-h); perspective: 1000px; cursor: pointer; }
+.card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.7s cubic-bezier(.2,.8,.2,1); transform-style: preserve-3d; }
+.card.flip .card-inner { transform: rotateY(180deg); }
+.face { position: absolute; inset:0; backface-visibility: hidden; border-radius: 12px; display: flex; align-items: center; justify-content: center; padding: 10px; text-align: center; }
+
+/* Face-down back */
+.face.front {
+  background: #0d1324 url('https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
+  border:1px solid rgba(255,255,255,.14);
+}
+/* Revealed content */
+.face.back { background: #fff; color: #000; transform: rotateY(180deg); overflow: hidden; border:1px solid rgba(0,0,0,.1) }
+.ref-txt { font-weight:900; font-size: 18px; }
+.verse-txt { font-weight:700; font-size: 14px; line-height:1.25; display:-webkit-box; -webkit-line-clamp:6; -webkit-box-orient: vertical; overflow:hidden; }
+
+/* Easy mode: distinguish REFERENCE cards while face-down */
+body.easy .card[data-kind="ref"] .face.front { filter: invert(1) hue-rotate(180deg) contrast(1.1); }
+
+.matched .card-inner{ box-shadow: 0 0 0 2px #74c69d inset; border-radius:12px; }
+
+/* Modal */
+.modal{ position:fixed; inset:0; display:none; place-items:center; background: rgba(0,0,0,.55); }
+.modal.show{ display:grid; }
+.modal-card{ width:min(700px,92vw); background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.15); padding:22px; border-radius:14px; box-shadow:0 30px 60px rgba(0,0,0,.55); }
+.btn{ cursor:pointer; border:none; border-radius:999px; padding:10px 14px; font-weight:800; color:#0f231b; background:linear-gradient(180deg,#a8e6cf,#74c69d); }
+
+/* Responsive grid for phones */
+@media (max-width: 760px){ .board{ grid-template-columns: repeat(2, var(--card-w)); } }
+@media (min-width: 761px) and (max-width: 1120px){ .board{ grid-template-columns: repeat(4, var(--card-w)); } }
+
+</style>
+</head>
+<body>
+<header>
+  <div class="title">Bible Verse Memory</div>
+  <div class="panel">
+    <label><input type="radio" name="testament" value="both" checked> Both</label>
+    <label><input type="radio" name="testament" value="ot"> Old</label>
+    <label><input type="radio" name="testament" value="nt"> New</label>
+    <label title="Show reference backs differently when face-down">
+      <input type="checkbox" id="easyMode"> Easy Mode
+    </label>
+    <span>Time: <span id="time" class="stat">00:00</span></span>
+    <span>Flips: <span id="flips" class="stat">0</span></span>
+    <span>Matches: <span id="matches" class="stat">0/5</span></span>
+    <button id="restart" class="btn">Restart</button>
+    <label><input type="checkbox" id="mute"> Mute Sounds</label>
+  </div>
+</header>
+
+<main>
+  <div id="board" class="board" aria-label="Card board"></div>
+</main>
+
+<!-- Win Modal -->
+<div id="winModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="winTitle">
+  <div class="modal-card">
+    <h2 id="winTitle" style="margin:0 0 8px 0">🎉 Well done!</h2>
+    <div id="winStats" style="font-weight:800"></div>
+    <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn" onclick="hideWin(); newGame();">Play again</button>
+      <button class="btn" style="background:linear-gradient(180deg,#ffe19b,#ffd166)" onclick="hideWin()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Verse Modal -->
+<div id="verseModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="verseTitle">
+  <div class="modal-card">
+    <h3 id="verseTitle" style="margin:0 0 8px 0"></h3>
+    <div id="verseContent" style="white-space:pre-wrap; font-weight:700; line-height:1.35"></div>
+    <div style="margin-top:12px">
+      <button class="btn" onclick="hideVerse()">Close</button>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Tiny helper to avoid padStart issues on old mobile Safari
+function pad2(n){ n = n|0; return (n<10?'0':'') + n; }
+
+// ===== Data (WEB – Public Domain) =====
+const VERSES = [
+  // OT
+  {ref:'Genesis 1:1', text:'In the beginning, God created the heavens and the earth.', t:'ot'},
+  {ref:'Deuteronomy 6:5', text:'You shall love Yahweh your God with all your heart, with all your soul, and with all your might.', t:'ot'},
+  {ref:'Joshua 1:9', text:'Haven’t I commanded you? Be strong and courageous. Don’t be afraid; for Yahweh your God is with you wherever you go.', t:'ot'},
+  {ref:'Psalm 23:1', text:'Yahweh is my shepherd; I shall lack nothing.', t:'ot'},
+  {ref:'Psalm 27:1', text:'Yahweh is my light and my salvation. Whom shall I fear?', t:'ot'},
+  {ref:'Psalm 46:10', text:'“Be still, and know that I am God.”', t:'ot'},
+  {ref:'Psalm 118:24', text:'This is the day that Yahweh has made. We will rejoice and be glad in it!', t:'ot'},
+  {ref:'Proverbs 3:5', text:'Trust in Yahweh with all your heart, and don’t lean on your own understanding.', t:'ot'},
+  {ref:'Proverbs 3:6', text:'In all your ways acknowledge him, and he will make your paths straight.', t:'ot'},
+  {ref:'Proverbs 9:10', text:'The fear of Yahweh is the beginning of wisdom.', t:'ot'},
+  {ref:'Isaiah 9:6', text:'For to us a child is born, to us a son is given...', t:'ot'},
+  {ref:'Isaiah 40:31', text:'Those who wait for Yahweh will renew their strength. They will mount up with wings like eagles...', t:'ot'},
+  {ref:'Jeremiah 29:11', text:'“For I know the plans that I have for you,” says Yahweh, “plans for peace, and not for evil, to give you hope and a future.”', t:'ot'},
+  {ref:'Micah 6:8', text:'He has shown you what is good: to do justly, to love kindness, and to walk humbly with your God.', t:'ot'},
+  // NT
+  {ref:'Matthew 5:9', text:'Blessed are the peacemakers, for they shall be called children of God.', t:'nt'},
+  {ref:'Matthew 6:33', text:'But seek first God’s Kingdom and his righteousness; and all these things will be given to you as well.', t:'nt'},
+  {ref:'Matthew 11:28', text:'Come to me, all you who labor and are heavily burdened, and I will give you rest.', t:'nt'},
+  {ref:'Luke 2:11', text:'For there is born to you today, in David’s city, a Savior, who is Christ the Lord.', t:'nt'},
+  {ref:'John 3:16', text:'For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.', t:'nt'},
+  {ref:'John 14:6', text:'Jesus said to him, “I am the way, the truth, and the life.”', t:'nt'},
+  {ref:'Acts 16:31', text:'“Believe in the Lord Jesus Christ, and you will be saved, you and your household.”', t:'nt'},
+  {ref:'Romans 8:28', text:'We know that all things work together for good for those who love God, to those who are called according to his purpose.', t:'nt'},
+  {ref:'Romans 10:9', text:'If you will confess with your mouth that Jesus is Lord, and believe in your heart that God raised him from the dead, you will be saved.', t:'nt'},
+  {ref:'1 Corinthians 13:4', text:'Love is patient and is kind; love doesn’t envy. Love doesn’t brag, is not proud...', t:'nt'},
+  {ref:'2 Corinthians 5:7', text:'For we walk by faith, not by sight.', t:'nt'},
+  {ref:'Galatians 5:22-23', text:'The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control.', t:'nt'},
+  {ref:'Ephesians 2:8-9', text:'For by grace you have been saved through faith… it is the gift of God, not of works, that no one would boast.', t:'nt'},
+  {ref:'Philippians 4:6', text:'In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God.', t:'nt'},
+  {ref:'Philippians 4:13', text:'I can do all things through Christ who strengthens me.', t:'nt'},
+  {ref:'2 Timothy 1:7', text:'For God didn’t give us a spirit of fear, but of power, love, and self-control.', t:'nt'},
+  {ref:'Hebrews 11:1', text:'Now faith is assurance of things hoped for, proof of things not seen.', t:'nt'},
+  {ref:'James 1:5', text:'But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach; and it will be given to him.', t:'nt'},
+  {ref:'1 Peter 5:7', text:'Casting all your worries on him, because he cares for you.', t:'nt'},
+  {ref:'1 John 4:8', text:'He who doesn’t love doesn’t know God, for God is love.', t:'nt'}
+];
+
+function verseByRef(ref){ return VERSES.find(v => v.ref === ref); }
+
+function boot(){
+  const boardEl = document.getElementById('board');
+  const timeEl = document.getElementById('time');
+  const flipsEl = document.getElementById('flips');
+  const matchesEl = document.getElementById('matches');
+  const restartBtn = document.getElementById('restart');
+  const muteCheckbox = document.getElementById('mute');
+  const easyModeCheckbox = document.getElementById('easyMode');
+  const winModal = document.getElementById('winModal');
+  const winStats = document.getElementById('winStats');
+  const verseModal = document.getElementById('verseModal');
+
+  const state = { flips:0, matches:0, first:null, allow:true, mute:false, easy:false, started:false, seconds:0, timer:null, chosen:'both' };
+
+  // Timer
+  function fmtTime(s){ var m = Math.floor(s/60); var ss = s%60; return pad2(m)+':'+pad2(ss); }
+  function tick(){ state.seconds++; timeEl.textContent = fmtTime(state.seconds); }
+  function startTimer(){ if(state.started) return; state.started=true; state.timer = setInterval(tick,1000); }
+  function stopTimer(){ clearInterval(state.timer); state.started=false; }
+
+  // Audio (guard for older Safari)
+  const AudioCtx = window.AudioContext || window.webkitAudioContext;
+  var audioCtx = null;
+  function getCtx(){ if(!AudioCtx) return null; if(!audioCtx){ try{ audioCtx = new AudioCtx(); }catch(e){ audioCtx=null; } } return audioCtx; }
+  function tone(opts){
+    if(state.mute) return;
+    const ctx = getCtx(); if(!ctx) return;
+    var freq=opts.freq||440, duration=opts.duration||140, type=opts.type||'sine', gain=(opts.gain||0.05);
+    const t0 = ctx.currentTime; const osc = ctx.createOscillator(); const g = ctx.createGain();
+    osc.type=type; osc.frequency.value=freq;
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(gain, t0+.01);
+    g.gain.exponentialRampToValueAtTime(0.0001, t0+duration/1000);
+    osc.connect(g).connect(ctx.destination); osc.start(); osc.stop(t0+duration/1000+.02);
+  }
+  const sfx = {
+    flip: function(){ tone({freq:420, type:'square', duration:90, gain:.04}); },
+    match: function(){ tone({freq:660, type:'triangle', duration:100, gain:.05}); setTimeout(function(){ tone({freq:880, type:'triangle', duration:120, gain:.05}); }, 90); },
+    wrong: function(){ tone({freq:240, type:'sawtooth', duration:120, gain:.05}); setTimeout(function(){ tone({freq:170, type:'square', duration:140, gain:.05}); }, 110); },
+    win: function(){ [523,659,784,1046].forEach(function(f,i){ setTimeout(function(){ tone({freq:f, duration:160, type:'sine', gain:.07}); }, i*160); }); }
+  };
+
+  // Deck
+  function pickVerses(pool, n){ var a=pool.slice().sort(function(){return Math.random()-.5}); return a.slice(0,n); }
+  function currentPool(){ if(state.chosen==='ot') return VERSES.filter(function(v){return v.t==='ot'}); if(state.chosen==='nt') return VERSES.filter(function(v){return v.t==='nt'}); return VERSES; }
+  function buildDeck(){
+    var pool = currentPool(); if(pool.length<5) throw new Error('Not enough verses in selected set.');
+    var chosen = pickVerses(pool, 5);
+    var deck=[]; chosen.forEach(function(v){ deck.push({id:v.ref, kind:'ref', label:v.ref}); deck.push({id:v.ref, kind:'text', label:v.text}); });
+    for(var i=deck.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var tmp=deck[i]; deck[i]=deck[j]; deck[j]=tmp; }
+    return deck;
+  }
+
+  // Render
+  function cardHTML(card){
+    var isRef = card.kind==='ref';
+    var content = isRef?'<div class="ref-txt">'+card.label+'</div>':'<div class="verse-txt">'+card.label+'</div>';
+    return (
+      '<div class="card" data-id="'+card.id+'" data-kind="'+card.kind+'">'+
+        '<div class="card-inner">'+
+          '<div class="face front"></div>'+
+          '<div class="face back">'+content+'</div>'+
+        '</div>'+
+      '</div>'
+    );
+  }
+  function mountDeck(deck){ boardEl.innerHTML = deck.map(cardHTML).join(''); document.body.classList.toggle('easy', state.easy); }
+
+  // Reset/New game
+  function reset(){ stopTimer(); state.seconds=0; timeEl.textContent='00:00'; state.flips=0; flipsEl.textContent='0'; state.matches=0; matchesEl.textContent='0/5'; state.first=null; state.allow=true; }
+  window.newGame = function(){ reset(); mountDeck(buildDeck()); };
+
+  // Modals
+  function showWin(){ winStats.textContent = 'Time '+fmtTime(state.seconds)+' • Flips '+state.flips; winModal.classList.add('show'); sfx.win(); }
+  window.hideWin = function(){ winModal.classList.remove('show'); };
+  function showVerse(ref){ var v = verseByRef(ref); if(!v) return; document.getElementById('verseTitle').textContent = v.ref; document.getElementById('verseContent').textContent = v.text; verseModal.classList.add('show'); }
+  window.hideVerse = function(){ verseModal.classList.remove('show'); };
+
+  // Events
+  boardEl.addEventListener('click', function(e){
+    var card = e.target.closest('.card'); if(!card) return;
+    if(card.classList.contains('matched')){ showVerse(card.dataset.id); return; }
+    onCard(card);
+  });
+  function onCard(card){
+    if(!state.allow) return; if(card.classList.contains('flip')||card.classList.contains('matched')) return;
+    startTimer(); sfx.flip(); card.classList.add('flip'); state.flips++; flipsEl.textContent=String(state.flips);
+    if(!state.first){ state.first=card; return; }
+    state.allow=false; var a=state.first, b=card; var match = a.dataset.id===b.dataset.id && a.dataset.kind!==b.dataset.kind;
+    if(match){
+      setTimeout(function(){
+        a.classList.add('matched'); b.classList.add('matched');
+        state.matches++; matchesEl.textContent=String(state.matches)+'/5';
+        state.first=null; state.allow=true; sfx.match();
+        if(state.matches===5){ stopTimer(); setTimeout(showWin, 250); }
+      }, 280);
+    } else {
+      sfx.wrong();
+      setTimeout(function(){
+        a.classList.remove('flip'); b.classList.remove('flip');
+        state.first=null; state.allow=true;
+      }, 1500);
+    }
+  }
+
+  restartBtn.addEventListener('click', function(){ hideWin(); hideVerse(); newGame(); });
+  [].forEach.call(document.querySelectorAll('input[name="testament"]'), function(r){
+    r.addEventListener('change', function(e){ state.chosen=e.target.value; hideWin(); hideVerse(); newGame(); });
+  });
+  muteCheckbox.addEventListener('change', function(e){ state.mute=e.target.checked; });
+  easyModeCheckbox.addEventListener('change', function(e){ state.easy=e.target.checked; document.body.classList.toggle('easy', state.easy); });
+
+  // Boot
+  newGame();
+}
+
+// CodePen runs JS after DOM is ready, but this keeps it robust if you export it later
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', boot);
+} else {
+  boot();
+}
+
+</script>
+</body>
+</html>
