@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Operation-ish</title>
+<title>Operation-ish — Image Board</title>
 <style>
   :root{
     --bg:#0b1220; --panel:#0f172a; --panel2:#111827; --ink:#e5e7eb;
@@ -52,7 +52,7 @@
 </head>
 <body>
 <header>
-  <h1>🫀 Operation-ish</h1>
+  <h1>🫀 Operation-ish — Image Board</h1>
   <span class="sp"></span>
   <button class="btn" id="newBtn">New Game</button>
   <button class="btn" id="muteBtn">🔊 Sound</button>
@@ -180,5 +180,19 @@ function draw(){
   ctx.fillStyle='rgba(96,165,250,.12)'; ctx.fillRect(t.x+6,t.y+6,t.w-12,t.h-12);
   ctx.fillStyle='#93c5fd'; ctx.font='600 16px ui-sans-serif,system-ui,-apple-system'; ctx.textAlign='center'; ctx.fillText('Instrument Tray', t.x+t.w/2, t.y+22); ctx.restore();
   for(const g of state.organs){ if(g.extracted) continue; ctx.save(); ctx.translate(g.pose.x,g.pose.y); ctx.rotate(g.pose.ang); ctx.shadowColor='rgba(0,0,0,0.35)'; ctx.shadowBlur=6; ctx.fillStyle=g.color; ctx.strokeStyle='#0b0b0b'; ctx.lineWidth=2; ctx.beginPath(); movePoly(ctx,g.poly); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.font='bold 14px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle='#0b1220'; ctx.textAlign='center'; ctx.fillText(g.name,0,6); ctx.restore(); }
-  if(state.done){ ctx.save(); ctx.fillStyle='rgba(0,0,0,0.55)'; ctx.fillRect(0,0,W,H); ctx.fillStyle='#e5e7eb'; ctx.textAlign='center'; ctx.font='bold 42px ui-sans-serif,system-ui,-apple-system'; const win=state.organs.every(o=>o.extracted); ctx.fillText(win?'🎉 Success!':'💥 BUZZ! Out of lives', W/2, H/2-14); ctx.font='20px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle=win?'#34d399':'#fb7185'; ctx.fillText(win?`Score: ${
+  if(state.done){ ctx.save(); ctx.fillStyle='rgba(0,0,0,0.55)'; ctx.fillRect(0,0,W,H); ctx.fillStyle='#e5e7eb'; ctx.textAlign='center'; ctx.font='bold 42px ui-sans-serif,system-ui,-apple-system'; const win=state.organs.every(o=>o.extracted); ctx.fillText(win?'🎉 Success!':'💥 BUZZ! Out of lives', W/2, H/2-14); ctx.font='20px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle=win?'#34d399':'#fb7185'; ctx.fillText(win?`Score: ${state.score}`:`Final Score: ${state.score}`, W/2, H/2+20); ctx.restore(); }
+}
 
+function updateHUD(){ $('#score').textContent = state.score; $('#lives').textContent = '❤️'.repeat(Math.max(0,state.lives)); }
+function movePoly(ctx,poly){ctx.moveTo(poly[0][0],poly[0][1]); for(let i=1;i<poly.length;i++) ctx.lineTo(poly[i][0],poly[i][1]);}
+
+// Buttons
+$('#newBtn').onclick=()=>reset($('#diffSel').value);
+$('#muteBtn').onclick=()=>{const m=AudioSys.toggle(); $('#muteBtn').textContent = m?'🔇 Muted':'🔊 Sound'};
+$('#helpBtn').onclick=()=>alert('Drag pieces to the blue tray without touching dark borders.\nRotate with arrow keys.\nChange difficulty or sensitivity in the right panel.');
+$('#diffSel').onchange=()=>reset($('#diffSel').value);
+$('#sens').oninput=()=>{state.sensitivity=parseFloat($('#sens').value)};
+
+</script>
+</body>
+</html>
