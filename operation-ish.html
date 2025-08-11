@@ -71,6 +71,24 @@
     <div class="card muted">This version creates a thin edge-mask from your PNG (no big embedded image).</div>
   </aside>
 </div>
+// ===== DEBUG: Show Mouse Coordinates =====
+let mouseX = 0, mouseY = 0;
+canvas.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouseX = Math.round(e.clientX - rect.left);
+    mouseY = Math.round(e.clientY - rect.top);
+});
+
+// Draw coordinates overlay each frame
+const _oldDraw = draw;
+draw = function() {
+    _oldDraw(); // draw original game stuff
+    ctx.save();
+    ctx.fillStyle = 'rgba(0,0,0,0.7)';
+    ctx.font = '16px monospace';
+    ctx.fillText(`X: ${mouseX}, Y: ${mouseY}`, 10, 20);
+    ctx.restore();
+};
 
 <script>
 const BOARD_URL = "operation-board.png";
