@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Operation-ish — Image Board</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Operation-ish — Image Edge Walls</title>
 <style>
-  :root{
-    --bg:#0b1220; --panel:#0f172a; --panel2:#111827; --ink:#e5e7eb;
-    --accent:#60a5fa; --warn:#fb7185; --ok:#34d399; --muted:#94a3b8;
-  }
-  *{box-sizing:border-box}
-  html,body{height:100%}
-  body{
-    margin:0;background:radial-gradient(1000px 600px at 50% 0%, #0e1629, var(--bg));color:var(--ink);
-    font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial;overflow:hidden
-  }
-  header{
-    display:flex;align-items:center;gap:.8rem;padding:.6rem .8rem;background:rgba(255,255,255,.03);
-    border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:saturate(140%) blur(4px)
-  }
-  header h1{font-size:1.05rem;margin:0;color:var(--accent)}
-  header .sp{flex:1}
-  header .btn{
-    background:var(--panel2);border:1px solid rgba(255,255,255,.1);color:var(--ink);
-    padding:.35rem .6rem;border-radius:.5rem;cursor:pointer;font-size:.9rem
-  }
-  header .btn:hover{border-color:rgba(255,255,255,.3)}
-  #wrap{
-    display:grid;grid-template-columns:1fr 300px;gap:.6rem;padding:.6rem;height:calc(100% - 54px)
-  }
-  #boardWrap{
-    position:relative;background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:.8rem;overflow:hidden
-  }
+  :root{--bg:#0b1220;--panel:#0f172a;--panel2:#111827;--ink:#e5e7eb;--accent:#60a5fa;--muted:#94a3b8}
+  *{box-sizing:border-box} html,body{height:100%}
+  body{margin:0;background:radial-gradient(1000px 600px at 50% 0,#0e1629,var(--bg));color:var(--ink);
+       font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Inter,Roboto,Arial;overflow:hidden}
+  header{display:flex;align-items:center;gap:.8rem;padding:.6rem .8rem;background:rgba(255,255,255,.03);
+         border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:saturate(140%) blur(4px)}
+  header h1{margin:0;font-size:1.05rem;color:var(--accent)} header .sp{flex:1}
+  header .btn{background:var(--panel2);border:1px solid rgba(255,255,255,.1);color:var(--ink);
+              padding:.35rem .6rem;border-radius:.5rem;cursor:pointer;font-size:.9rem}
+  #wrap{display:grid;grid-template-columns:1fr 320px;gap:.6rem;padding:.6rem;height:calc(100% - 54px)}
+  #boardWrap{position:relative;background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:.8rem;overflow:hidden}
   canvas{display:block;width:100%;height:100%}
-  #hud{
-    background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:.8rem;padding:.6rem;
-    display:flex;flex-direction:column;gap:.6rem
-  }
-  .card{
-    background:var(--panel2);border:1px solid rgba(255,255,255,.08);border-radius:.7rem;padding:.6rem
-  }
+  #hud{background:var(--panel);border:1px solid rgba(255,255,255,.08);border-radius:.8rem;padding:.6rem;
+       display:flex;flex-direction:column;gap:.6rem}
+  .card{background:var(--panel2);border:1px solid rgba(255,255,255,.08);border-radius:.7rem;padding:.6rem}
   .row{display:flex;align-items:center;justify-content:space-between;gap:.6rem}
-  .stat{font-size:1.8rem;font-weight:700}
-  .muted{color:var(--muted)}
-  .kbd{
-    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.85rem;
-    padding:.05rem .35rem;border-radius:.3rem;border:1px solid rgba(255,255,255,.2);background:#0b1220;color:#e2e8f0
-  }
+  .stat{font-size:1.8rem;font-weight:700} .muted{color:var(--muted)}
+  .kbd{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85rem;padding:.05rem .35rem;border-radius:.3rem;
+       border:1px solid rgba(255,255,255,.2);background:#0b1220;color:#e2e8f0}
   footer.note{position:absolute;bottom:.6rem;right:.8rem;font-size:.85rem;color:var(--muted)}
+  input[type="range"]{width:140px}
 </style>
 </head>
 <body>
 <header>
-  <h1>🫀 Operation-ish — Image Board</h1>
+  <h1>🫀 Operation-ish — Image Edge Walls</h1>
   <span class="sp"></span>
   <button class="btn" id="newBtn">New Game</button>
   <button class="btn" id="muteBtn">🔊 Sound</button>
@@ -62,7 +40,7 @@
 <div id="wrap">
   <div id="boardWrap">
     <canvas id="game" width="768" height="1152"></canvas>
-    <footer class="note">Drag organs to the blue tray. Avoid dark borders. Rotate with <span class="kbd">←</span>/<span class="kbd">→</span>.</footer>
+    <footer class="note">Drag organs to the blue tray. Borders only buzz. Rotate with <span class="kbd">←</span>/<span class="kbd">→</span>.</footer>
   </div>
   <aside id="hud">
     <div class="card">
@@ -71,128 +49,202 @@
       <div class="row"><div>Time</div><div class="stat" id="time">00:00</div></div>
     </div>
     <div class="card">
-      <div class="row"><div>Difficulty</div>
+      <div class="row">
+        <div>Difficulty</div>
         <select id="diffSel" class="btn">
           <option value="easy">Easy</option>
           <option value="normal" selected>Normal</option>
           <option value="hard">Hard</option>
         </select>
       </div>
-      <div class="row" style="margin-top:.4rem"><div>Sensitivity</div><input id="sens" type="range" min="0.6" max="2" step="0.1" value="1"></div>
+      <div class="row" style="margin-top:.4rem">
+        <div>Sensitivity</div><input id="sens" type="range" min="0.6" max="2" step="0.1" value="1" />
+      </div>
+      <div class="row" style="margin-top:.4rem">
+        <div>Edge threshold</div><input id="edge" type="range" min="40" max="200" step="5" value="100" />
+      </div>
+      <div class="row">
+        <div>Dark-limit</div><input id="dark" type="range" min="50" max="160" step="5" value="120" />
+      </div>
+      <small class="muted">If it still feels too “hot,” raise the <b>Edge threshold</b> or lower <b>Dark-limit</b>.</small>
     </div>
-    <div class="card muted">
-      This version loads the board image file separately and detects dark areas as collision zones.
-    </div>
+    <div class="card muted">This version creates a thin edge-mask from your PNG (no big embedded image).</div>
   </aside>
 </div>
 
 <script>
-// Path to your PNG in the same folder
 const BOARD_URL = "operation-board.png";
 
-// ==== Helper Functions ====
+// ---------- helpers ----------
 const $ = s => document.querySelector(s);
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 function lerp(a,b,t){return a+(b-a)*t}
-class Timer{constructor(){this.reset()} reset(){this.t0=performance.now();this.run=false;this.acc=0} play(){if(!this.run){this.t0=performance.now()-this.acc;this.run=true}} pause(){if(this.run){this.acc=performance.now()-this.t0;this.run=false}} secs(){return (this.run?performance.now()-this.t0:this.acc)/1000}}
-const AudioSys=(()=>{let ctx,muted=false;function ensure(){if(!ctx) ctx=new (window.AudioContext||window.webkitAudioContext)()}function beep(f=880,d=0.08,g=0.15){if(muted) return;ensure();const o=ctx.createOscillator(),gn=ctx.createGain();o.type='square';o.frequency.value=f;gn.gain.value=g;o.connect(gn).connect(ctx.destination);o.start();o.stop(ctx.currentTime+d)}function buzz(){beep(220,0.06,0.25);setTimeout(()=>beep(160,0.06,0.25),80);setTimeout(()=>beep(120,0.1,0.25),160)}function ok(){beep(880,0.07,0.16);setTimeout(()=>beep(1180,0.12,0.16),90)}return{buzz,ok,toggle(){muted=!muted;return muted}}})();
+class Timer{constructor(){this.reset()} reset(){this.t0=performance.now();this.run=false;this.acc=0}
+  play(){if(!this.run){this.t0=performance.now()-this.acc;this.run=true}}
+  pause(){if(this.run){this.acc=performance.now()-this.t0;this.run=false}}
+  secs(){return (this.run?performance.now()-this.t0:this.acc)/1000}}
+const AudioSys=(()=>{let ctx,muted=false;function ensure(){if(!ctx) ctx=new (window.AudioContext||window.webkitAudioContext)()}
+  function beep(f=880,d=0.08,g=0.15){if(muted) return;ensure();const o=ctx.createOscillator(),gn=ctx.createGain();o.type='square';o.frequency.value=f;gn.gain.value=g;o.connect(gn).connect(ctx.destination);o.start();o.stop(ctx.currentTime+d)}
+  function buzz(){beep(220,0.06,0.25);setTimeout(()=>beep(160,0.06,0.25),80);setTimeout(()=>beep(120,0.1,0.25),160)}
+  function ok(){beep(880,0.07,0.16);setTimeout(()=>beep(1180,0.12,0.16),90)}
+  return{buzz,ok,toggle(){muted=!muted;return muted}}})();
 
-// ==== Game Setup ====
+// ---------- setup ----------
 const cvs=$('#game'), ctx=cvs.getContext('2d');
 let W=cvs.width, H=cvs.height;
 const timer = new Timer();
 let state={};
-const DIFFS = {easy:{lives:5,time:180}, normal:{lives:3,time:150}, hard:{lives:2,time:120}};
+const DIFFS={easy:{lives:5,time:180}, normal:{lives:3,time:150}, hard:{lives:2,time:120}};
 
-const boardImg = new Image();
-boardImg.src = BOARD_URL;
-const mask = document.createElement('canvas');
-const mctx = mask.getContext('2d');
+// edge mask (precomputed once or when sliders change)
+const boardImg = new Image(); boardImg.src = BOARD_URL;
+const mask = document.createElement('canvas'); const mctx = mask.getContext('2d');
+let edgeData = null;
 
 boardImg.onload = ()=>{
-  cvs.width = boardImg.width; cvs.height = boardImg.height; 
-  W = cvs.width; H = cvs.height;
+  cvs.width = boardImg.width; cvs.height = boardImg.height; W=cvs.width; H=cvs.height;
   mask.width=W; mask.height=H;
+  rebuildEdgeMask();                  // create the thin “walls”
   reset('normal');
   requestAnimationFrame(loop);
 };
 
+// build edge map using Sobel on luminance, then threshold + (optional) dark-limit
+function rebuildEdgeMask(){
+  const EDGE_T = parseInt($('#edge').value,10);     // gradient threshold
+  const DARK_T = parseInt($('#dark').value,10);     // only keep edges around dark features
+  mctx.clearRect(0,0,W,H);
+  mctx.drawImage(boardImg,0,0,W,H);
+  const img = mctx.getImageData(0,0,W,H);
+  const src = img.data;
+  // grayscale luminance
+  const gray = new Uint8ClampedArray(W*H);
+  for(let i=0,j=0;i<src.length;i+=4,j++){
+    gray[j] = 0.2126*src[i] + 0.7152*src[i+1] + 0.0722*src[i+2];
+  }
+  const out = new Uint8ClampedArray(W*H); // edge map
+  const gxK = [-1,0,1,-2,0,2,-1,0,1];
+  const gyK = [-1,-2,-1,0,0,0,1,2,1];
+  for(let y=1;y<H-1;y++){
+    for(let x=1;x<W-1;x++){
+      let gx=0, gy=0, k=0;
+      for(let j=-1;j<=1;j++){
+        for(let i=-1;i<=1;i++){
+          const v = gray[(y+j)*W + (x+i)];
+          gx += v * gxK[k]; gy += v * gyK[k]; k++;
+        }
+      }
+      const mag = Math.sqrt(gx*gx + gy*gy);
+      const idx = y*W + x;
+      // keep only strong edges and only where the center pixel is dark-ish (to ignore face/skin)
+      out[idx] = (mag > EDGE_T && gray[idx] < DARK_T) ? 255 : 0;
+    }
+  }
+  // write to mask canvas (alpha=out)
+  const edgeImg = mctx.createImageData(W,H);
+  for(let i=0;i<W*H;i++){
+    const v = out[i];
+    edgeImg.data[i*4+0]=255; // red (for debugging if needed)
+    edgeImg.data[i*4+1]=0;
+    edgeImg.data[i*4+2]=0;
+    edgeImg.data[i*4+3]=v;   // alpha = edge presence
+  }
+  mctx.putImageData(edgeImg,0,0);
+  edgeData = out; // keep cpu-side for quick sampling
+}
+
+$('#edge').addEventListener('input', ()=>rebuildEdgeMask());
+$('#dark').addEventListener('input', ()=>rebuildEdgeMask());
+
+function pointHitsEdge(x,y){
+  const xi = clamp(Math.round(x),0,W-1), yi = clamp(Math.round(y),0,H-1);
+  return edgeData && edgeData[yi*W + xi] > 0;
+}
+
+// ---------- game model ----------
 function reset(mode){
-  const d = DIFFS[mode]||DIFFS.normal;
+  const d=DIFFS[mode]||DIFFS.normal;
   state = {
     mode, score:0, lives:d.lives, done:false, dragging:null,
     tray: {x: W-220, y: H*0.15, w: 160, h: H*0.7},
     sensitivity: parseFloat($('#sens').value||'1'),
     organs: [
-      makePiece('Heart','red', polyHeart(), {x: W*0.43, y: H*0.36, ang: 0}),
-      makePiece('Bone','white', polyBone(), {x: W*0.57, y: H*0.58, ang: 0.2}),
-      makePiece('Kidney','#c084fc', polyKidney(), {x: W*0.38, y: H*0.54, ang: -0.18}),
+      makePiece('Heart','red', polyHeart(),  {x: W*0.44, y: H*0.35, ang: 0}),
+      makePiece('Bone','white', polyBone(),  {x: W*0.56, y: H*0.62, ang: 0.2}),
+      makePiece('Kidney','#c084fc', polyKidney(), {x: W*0.36, y: H*0.56, ang: -0.18}),
     ],
   };
-  timer.reset(); timer.play();
-  updateHUD();
+  timer.reset(); timer.play(); updateHUD();
 }
 
 function makePiece(name,color,poly,pose){ return {name,color,poly,pose:{...pose},home:{...pose},extracted:false} }
-function polyHeart(){const p=[];const r=28;for(let a=-Math.PI;a<=0;a+=Math.PI/16){const x=0.8*r*Math.sin(a)**3;const y=-(0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)));p.push([x,y]);}for(let a=0;a<=Math.PI;a+=Math.PI/16){const x=0.8*r*Math.sin(a)**3;const y=-(0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)));p.push([x,y]);}return p.map(([x,y])=>[x*0.32,y*0.32]);}
+function polyHeart(){const p=[];const r=28;for(let a=-Math.PI;a<=0;a+=Math.PI/16){const x=0.8*r*Math.sin(a)**3;const y=-(0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)));p.push([x,y]);}
+  for(let a=0;a<=Math.PI;a+=Math.PI/16){const x=0.8*r*Math.sin(a)**3;const y=-(0.5*r*(13*Math.cos(a)-5*Math.cos(2*a)-2*Math.cos(3*a)-Math.cos(4*a)));p.push([x,y]);}
+  return p.map(([x,y])=>[x*0.32,y*0.32]);}
 function polyKidney(){const p=[];const rx=26,ry=34;for(let a=0;a<Math.PI*2;a+=Math.PI/18){let x=Math.cos(a)*rx;let y=Math.sin(a)*ry;x+=-9*Math.exp(-((a-Math.PI/2)**2)/0.3);p.push([x,y]);}return p;}
 function polyBone(){const pts=[];const w=85,h=22,r=16;const p=[];for(let a=Math.PI;a<=Math.PI*2;a+=Math.PI/18)p.push([-w/2,0,a]);for(let a=Math.PI/2;a<=Math.PI*3/2;a+=Math.PI/18)p.push([w/2,0,a]);for(const it of p){const[cx,cy,a]=it;pts.push([cx+Math.cos(a)*r,cy+Math.sin(a)*r]);}return pts.concat([[w/2,-h/2],[-w/2,-h/2],[-w/2,h/2],[w/2,h/2]]);}
-
 function polyTrans(poly, pose){const s=Math.sin(pose.ang),c=Math.cos(pose.ang);return poly.map(([x,y])=>[pose.x + x*c - y*s, pose.y + x*s + y*c])}
 function sampleEdge(polyT, step=6){const pts=[];for(let i=0;i<polyT.length;i++){const a=polyT[i], b=polyT[(i+1)%polyT.length];const dx=b[0]-a[0],dy=b[1]-a[1];const len=Math.hypot(dx,dy);const n=Math.max(1,Math.floor(len/step));for(let t=0;t<=n;t++) pts.push([a[0]+dx*t/n, a[1]+dy*t/n]);}return pts;}
-function pointInPoly(p,poly){let c=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const xi=poly[i][0],yi=poly[i][1];const xj=poly[j][0], yj=poly[j][1];const inter=((yi>p[1])!=(yj>p[1])) && (p[0] < (xj-xi)*(p[1]-yi)/(yj-yi+1e-9)+xi);if(inter) c=!c;}return c;}
+function collisionFor(pose, poly){const edge = sampleEdge(polyTrans(poly,pose),5); for(const [x,y] of edge){ if(pointHitsEdge(x,y)) return true } return false }
 
-function buildMask(){ mctx.clearRect(0,0,W,H); mctx.drawImage(boardImg, 0,0, W,H); }
-function pointHitsDark(x,y){x = Math.floor(clamp(x,0,W-1)); y = Math.floor(clamp(y,0,H-1)); const d = mctx.getImageData(x,y,1,1).data; const lum = 0.2126*d[0] + 0.7152*d[1] + 0.0722*d[2]; return lum < 60;}
-
-function collisionFor(pose, poly){const polyT = polyTrans(poly, pose); const edge = sampleEdge(polyT, 5); for(const [x,y] of edge) if(pointHitsDark(x,y)) return true; return false;}
-
-// Input
+// ---------- input ----------
 let mouse={x:0,y:0,down:false};
 cvs.addEventListener('mousemove',e=>{const r=cvs.getBoundingClientRect();mouse.x=(e.clientX-r.left)/r.width*W;mouse.y=(e.clientY-r.top)/r.height*H;});
-cvs.addEventListener('mousedown',e=>{mouse.down=true;const i=hitTest(mouse.x,mouse.y);if(i>=0 && !state.organs[i].extracted) state.dragging={idx:i,dx:mouse.x-state.organs[i].pose.x,dy:mouse.y-state.organs[i].pose.y};});
-window.addEventListener('mouseup',()=>{if(state.dragging){const g=state.organs[state.dragging.idx];const inside=pointInRect(g.pose.x,g.pose.y,state.tray); if(inside && !collisionFor(g.pose,g.poly)){g.extracted=true;state.score+=100;AudioSys.ok();} else {g.pose={...g.home};} state.dragging=null;} mouse.down=false;});
+cvs.addEventListener('mousedown',()=>{mouse.down=true;const i=hitTest(mouse.x,mouse.y);if(i>=0 && !state.organs[i].extracted) state.dragging={idx:i,dx:mouse.x-state.organs[i].pose.x,dy:mouse.y-state.organs[i].pose.y};});
+window.addEventListener('mouseup',()=>{if(state.dragging){const g=state.organs[state.dragging.idx];const inside=pointInRect(g.pose.x,g.pose.y,state.tray);
+  if(inside && !collisionFor(g.pose,g.poly)){g.extracted=true;state.score+=100;AudioSys.ok();} else {g.pose={...g.home};}
+  state.dragging=null;} mouse.down=false;});
+window.addEventListener('keydown',e=>{if(!state.dragging) return;const g=state.organs[state.dragging.idx];
+  if(['ArrowLeft','a','A'].includes(e.key)) g.pose.ang -= 0.1*state.sensitivity;
+  if(['ArrowRight','d','D'].includes(e.key)) g.pose.ang += 0.1*state.sensitivity;});
 function pointInRect(x,y,r){return x>r.x && x<r.x+r.w && y>r.y && y<r.y+r.h}
-window.addEventListener('keydown',e=>{if(!state.dragging) return;const g=state.organs[state.dragging.idx]; if(['ArrowLeft','a','A'].includes(e.key)) g.pose.ang -= 0.1*state.sensitivity; if(['ArrowRight','d','D'].includes(e.key)) g.pose.ang += 0.1*state.sensitivity;});
-
 function hitTest(x,y){for(let i=state.organs.length-1;i>=0;i--){const g=state.organs[i]; if(g.extracted) continue; if(pointInPoly([x,y], polyTrans(g.poly,g.pose))) return i;} return -1;}
+function pointInPoly(p,poly){let c=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const xi=poly[i][0],yi=poly[i][1];const xj=poly[j][0], yj=poly[j][1];
+  const inter=((yi>p[1])!=(yj>p[1])) && (p[0] < (xj-xi)*(p[1]-yi)/(yj-yi+1e-9)+xi); if(inter) c=!c;} return c;}
 
-// Loop
-let last=0;
-function loop(ts){const dt=(ts-last)/1000;last=ts;update(dt);draw();requestAnimationFrame(loop);}
+// ---------- loop ----------
+let last=0; function loop(ts){const dt=(ts-last)/1000;last=ts;update(dt);draw();requestAnimationFrame(loop);}
 function fmt(s){const m=Math.floor(s/60), ss=Math.floor(s%60).toString().padStart(2,'0');return `${m}:${ss}`}
-
 function update(dt){
-  buildMask();
-  const total=DIFFS[state.mode].time, left=Math.max(0, total - timer.secs()); $('#time').textContent = fmt(left);
+  const total=DIFFS[state.mode].time, left=Math.max(0,total - timer.secs()); $('#time').textContent = fmt(left);
   if(left<=0 && !state.done){state.done=true; timer.pause();}
-  if(state.dragging){const g=state.organs[state.dragging.idx]; const s=state.sensitivity; g.pose.x = lerp(g.pose.x, mouse.x - state.dragging.dx, 0.6*s); g.pose.y = lerp(g.pose.y, mouse.y - state.dragging.dy, 0.6*s);
+  if(state.dragging){const g=state.organs[state.dragging.idx]; const s=state.sensitivity; g.pose.x=lerp(g.pose.x, mouse.x - state.dragging.dx, 0.6*s); g.pose.y=lerp(g.pose.y, mouse.y - state.dragging.dy, 0.6*s);
     if(collisionFor(g.pose,g.poly)){ state.lives -= 1; updateHUD(); AudioSys.buzz(); g.pose={...g.home}; state.dragging=null; if(state.lives<=0){state.done=true; timer.pause();} }
   }
   if(state.organs.every(o=>o.extracted) && !state.done){state.done=true; timer.pause(); state.score += Math.floor(100*(DIFFS[state.mode].time - timer.secs())); updateHUD();}
 }
-
 function draw(){
   ctx.clearRect(0,0,W,H);
   ctx.drawImage(boardImg,0,0,W,H);
+  // tray
   const t=state.tray; ctx.save(); ctx.shadowColor='rgba(0,0,0,0.4)'; ctx.shadowBlur=8;
   ctx.fillStyle='#1f2937'; ctx.fillRect(t.x,t.y,t.w,t.h); ctx.strokeStyle='#60a5fa'; ctx.lineWidth=3; ctx.strokeRect(t.x+1.5,t.y+1.5,t.w-3,t.h-3);
   ctx.fillStyle='rgba(96,165,250,.12)'; ctx.fillRect(t.x+6,t.y+6,t.w-12,t.h-12);
   ctx.fillStyle='#93c5fd'; ctx.font='600 16px ui-sans-serif,system-ui,-apple-system'; ctx.textAlign='center'; ctx.fillText('Instrument Tray', t.x+t.w/2, t.y+22); ctx.restore();
-  for(const g of state.organs){ if(g.extracted) continue; ctx.save(); ctx.translate(g.pose.x,g.pose.y); ctx.rotate(g.pose.ang); ctx.shadowColor='rgba(0,0,0,0.35)'; ctx.shadowBlur=6; ctx.fillStyle=g.color; ctx.strokeStyle='#0b0b0b'; ctx.lineWidth=2; ctx.beginPath(); movePoly(ctx,g.poly); ctx.closePath(); ctx.fill(); ctx.stroke(); ctx.font='bold 14px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle='#0b1220'; ctx.textAlign='center'; ctx.fillText(g.name,0,6); ctx.restore(); }
-  if(state.done){ ctx.save(); ctx.fillStyle='rgba(0,0,0,0.55)'; ctx.fillRect(0,0,W,H); ctx.fillStyle='#e5e7eb'; ctx.textAlign='center'; ctx.font='bold 42px ui-sans-serif,system-ui,-apple-system'; const win=state.organs.every(o=>o.extracted); ctx.fillText(win?'🎉 Success!':'💥 BUZZ! Out of lives', W/2, H/2-14); ctx.font='20px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle=win?'#34d399':'#fb7185'; ctx.fillText(win?`Score: ${state.score}`:`Final Score: ${state.score}`, W/2, H/2+20); ctx.restore(); }
+  // organs
+  for(const g of state.organs){ if(g.extracted) continue; ctx.save(); ctx.translate(g.pose.x,g.pose.y); ctx.rotate(g.pose.ang);
+    ctx.shadowColor='rgba(0,0,0,0.35)'; ctx.shadowBlur=6; ctx.fillStyle=g.color; ctx.strokeStyle='#0b0b0b'; ctx.lineWidth=2;
+    ctx.beginPath(); movePoly(ctx,g.poly); ctx.closePath(); ctx.fill(); ctx.stroke();
+    ctx.font='bold 14px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle='#0b1220'; ctx.textAlign='center'; ctx.fillText(g.name,0,6);
+    ctx.restore(); }
+  // debug overlay (press D in console to toggle if you want)
+  // ctx.putImageData(mctx.getImageData(0,0,W,H),0,0); // shows red edges
+  if(state.done){ ctx.save(); ctx.fillStyle='rgba(0,0,0,0.55)'; ctx.fillRect(0,0,W,H);
+    ctx.fillStyle='#e5e7eb'; ctx.textAlign='center'; ctx.font='bold 42px ui-sans-serif,system-ui,-apple-system';
+    const win=state.organs.every(o=>o.extracted); ctx.fillText(win?'🎉 Success!':'💥 BUZZ! Out of lives', W/2, H/2-14);
+    ctx.font='20px ui-sans-serif,system-ui,-apple-system'; ctx.fillStyle=win?'#34d399':'#fb7185';
+    ctx.fillText(`Score: ${state.score}`, W/2, H/2+20); ctx.restore(); }
 }
-
-function updateHUD(){ $('#score').textContent = state.score; $('#lives').textContent = '❤️'.repeat(Math.max(0,state.lives)); }
+function updateHUD(){ $('#score').textContent=state.score; $('#lives').textContent='❤️'.repeat(Math.max(0,state.lives)); }
 function movePoly(ctx,poly){ctx.moveTo(poly[0][0],poly[0][1]); for(let i=1;i<poly.length;i++) ctx.lineTo(poly[i][0],poly[i][1]);}
 
-// Buttons
+// ---------- UI ----------
 $('#newBtn').onclick=()=>reset($('#diffSel').value);
-$('#muteBtn').onclick=()=>{const m=AudioSys.toggle(); $('#muteBtn').textContent = m?'🔇 Muted':'🔊 Sound'};
-$('#helpBtn').onclick=()=>alert('Drag pieces to the blue tray without touching dark borders.\nRotate with arrow keys.\nChange difficulty or sensitivity in the right panel.');
 $('#diffSel').onchange=()=>reset($('#diffSel').value);
 $('#sens').oninput=()=>{state.sensitivity=parseFloat($('#sens').value)};
-
+$('#muteBtn').onclick=()=>{const m=AudioSys.toggle(); $('#muteBtn').textContent=m?'🔇 Muted':'🔊 Sound'};
+$('#helpBtn').onclick=()=>alert('Drag organs to the blue tray. Only the thin border buzzes.\nRotate with Left/Right (A/D).\nUse Edge/Dark sliders if it feels too sensitive.');
 </script>
 </body>
 </html>
+
