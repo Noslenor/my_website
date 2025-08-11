@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Operation-ish — Image Edge Walls (with Lift + Coordinates)</title>
+<title>Operation-ish — Lift-on-Drag (Edges + Coordinates)</title>
 <style>
   :root{--bg:#0b1220;--panel:#0f172a;--panel2:#111827;--ink:#e5e7eb;--accent:#60a5fa;--muted:#94a3b8}
   *{box-sizing:border-box} html,body{height:100%}
@@ -35,7 +35,7 @@
 </head>
 <body>
 <header>
-  <h1>🫀 Operation-ish — Image Edge Walls</h1>
+  <h1>🫀 Operation-ish — Lift-on-Drag</h1>
   <span class="sp"></span>
   <button class="btn" id="newBtn">New Game</button>
   <button class="btn" id="muteBtn">🔊 Sound</button>
@@ -46,7 +46,7 @@
   <div id="boardWrap">
     <div id="coordChip">X: 0  Y: 0</div>
     <canvas id="game" width="768" height="1152"></canvas>
-    <footer class="note">Drag organs to the blue tray. Hold <span class="kbd">Space</span> to lift for clearance. Rotate with <span class="kbd">←</span>/<span class="kbd">→</span>.</footer>
+    <footer class="note">Click & drag to lift (collisions OFF while lifted). Rotate with <span class="kbd">←</span>/<span class="kbd">→</span>. Drop in the tray.</footer>
   </div>
   <aside id="hud">
     <div class="card">
@@ -72,10 +72,7 @@
       <div class="row">
         <div>Dark-limit</div><input id="dark" type="range" min="50" max="160" step="5" value="120" />
       </div>
-      <div class="row">
-        <label><input type="checkbox" id="nocoll" /> Disable collisions (measure mode)</label>
-      </div>
-      <small class="muted">If borders feel too sensitive, raise <b>Edge</b> or lower <b>Dark</b>. Hold <b>Space</b> to lift pieces through tight gaps.</small>
+      <small class="muted">Borders = thin edges from your PNG. Edge/Dark sliders tune detection (used when not lifted).</small>
     </div>
     <div class="card muted">PNG must be next to this file and named <b>operation-board.png</b>.</div>
   </aside>
@@ -107,7 +104,6 @@ const cvs=$('#game'), ctx=cvs.getContext('2d');
 let W=cvs.width, H=cvs.height;
 const timer = new Timer();
 let state={};
-let DEBUG_NO_COLLISION = false; // toggled by checkbox
 
 const DIFFS={easy:{lives:5,time:180}, normal:{lives:3,time:150}, hard:{lives:2,time:120}};
 
@@ -166,7 +162,6 @@ function rebuildEdgeMask(){
 
 $('#edge').addEventListener('input', ()=>rebuildEdgeMask());
 $('#dark').addEventListener('input', ()=>rebuildEdgeMask());
-$('#nocoll').addEventListener('change', e=>{ DEBUG_NO_COLLISION = e.target.checked; });
 
 // sampling
 function pointHitsEdge(x,y){
@@ -178,16 +173,15 @@ function pointHitsEdge(x,y){
 function reset(mode){
   const d=DIFFS[mode]||DIFFS.normal;
   state = {
-    mode, score:0, lives:d.lives, done:false, dragging:null,
+    mode, score:0, lives:d.lives, done:false,
+    dragging:null,     // {idx, dx, dy} while mouse is held on a piece
+    liftIdx:null,      // index of the piece currently lifted (enlarged, collisions off)
     tray: {x: W-220, y: H*0.15, w: 160, h: H*0.7},
     sensitivity: parseFloat($('#sens').value||'1'),
-    // lift state
-    lift: 0,         // target lift 0..1 (set by Space)
-    _liftAnim: 0,    // eased lift for visuals/collision
     organs: [
-      // Centered exactly on your coordinates:
+      // Centered on your coordinates:
       makePiece('Kidney', '#c084fc', polyKidney(), { x: 408, y: 711,  ang: 0 }),
-      makePiece('Bone',   'white',   polyBone(),    { x: 365, y: 1090, ang: Math.PI/2 }), // ~90°
+      makePiece('Bone',   'white',   polyBone(),    { x: 365, y: 1090, ang: Math.PI/2 }),
       makePiece('Heart',  'red',     polyHeart(),   { x: 575, y: 587,  ang: 0 }),
     ],
   };
@@ -203,14 +197,10 @@ function polyBone(){const pts=[];const w=85,h=22,r=16;const p=[];for(let a=Math.
 function polyTrans(poly, pose){const s=Math.sin(pose.ang),c=Math.cos(pose.ang);return poly.map(([x,y])=>[pose.x + x*c - y*s, pose.y + x*s + y*c])}
 function sampleEdge(polyT, step=6){const pts=[];for(let i=0;i<polyT.length;i++){const a=polyT[i], b=polyT[(i+1)%polyT.length];const dx=b[0]-a[0],dy=b[1]-a[1];const len=Math.hypot(dx,dy);const n=Math.max(1,Math.floor(len/step));for(let t=0;t<=n;t++) pts.push([a[0]+dx*t/n, a[1]+dy*t/n]);}return pts;}
 
-// collision uses lift-shrunk polygon for clearance
+// collision — only used when NOT lifted
 function collisionFor(pose, poly){
-  if (DEBUG_NO_COLLISION) return false; // measurement mode
-  const k = 1 - 0.28 * (state._liftAnim || 0);   // 28% smaller at full lift
-  const polyLift = (state._liftAnim ? polyScale(poly, k) : poly);
-  const edge = sampleEdge(polyTrans(polyLift, pose), 5);
-  for (const [x,y] of edge) if (pointHitsEdge(x,y)) return true;
-  return false;
+  // If this piece is lifted, collisions are ignored (can fly over borders)
+  return false; // collisions disabled globally here; see update() for conditional logic
 }
 
 // ---------- input ----------
@@ -221,22 +211,32 @@ cvs.addEventListener('mousemove',e=>{
   mouse.x=(e.clientX-r.left)/r.width*W; mouse.y=(e.clientY-r.top)/r.height*H;
   coordChip.textContent = `X: ${Math.round(mouse.x)}  Y: ${Math.round(mouse.y)}`;
 });
-cvs.addEventListener('mousedown',()=>{mouse.down=true;const i=hitTest(mouse.x,mouse.y);if(i>=0 && !state.organs[i].extracted) state.dragging={idx:i,dx:mouse.x-state.organs[i].pose.x,dy:mouse.y-state.organs[i].pose.y};});
-window.addEventListener('mouseup',()=>{if(state.dragging){const g=state.organs[state.dragging.idx];const inside=pointInRect(g.pose.x,g.pose.y,state.tray);
-  if(inside && !collisionFor(g.pose,g.poly)){g.extracted=true;state.score+=100;AudioSys.ok();} else {g.pose={...g.home};}
-  state.dragging=null;} mouse.down=false;});
-
-// rotation + lift
-window.addEventListener('keydown',e=>{
+cvs.addEventListener('mousedown',()=>{
+  mouse.down=true;
+  const i=hitTest(mouse.x,mouse.y);
+  if(i>=0 && !state.organs[i].extracted){
+    state.dragging={idx:i,dx:mouse.x-state.organs[i].pose.x,dy:mouse.y-state.organs[i].pose.y};
+    state.liftIdx = i; // lift THIS organ only
+  }
+});
+window.addEventListener('mouseup',()=>{
   if(state.dragging){
     const g=state.organs[state.dragging.idx];
-    if(['ArrowLeft','a','A'].includes(e.key)) g.pose.ang -= 0.1*state.sensitivity;
-    if(['ArrowRight','d','D'].includes(e.key)) g.pose.ang += 0.1*state.sensitivity;
+    const inside=pointInRect(g.pose.x,g.pose.y,state.tray);
+    if(inside){ g.extracted=true; state.score+=100; AudioSys.ok(); }
+    else { g.pose={...g.home}; }
+    state.dragging=null;
+    state.liftIdx=null; // drop it
   }
-  if(e.code === 'Space') state.lift = 1; // hold to lift
+  mouse.down=false;
 });
-window.addEventListener('keyup',e=>{
-  if(e.code === 'Space') state.lift = 0;
+
+// rotation while dragging
+window.addEventListener('keydown',e=>{
+  if(!state.dragging) return;
+  const g=state.organs[state.dragging.idx];
+  if(['ArrowLeft','a','A'].includes(e.key)) g.pose.ang -= 0.1*state.sensitivity;
+  if(['ArrowRight','d','D'].includes(e.key)) g.pose.ang += 0.1*state.sensitivity;
 });
 
 function pointInRect(x,y,r){return x>r.x && x<r.x+r.w && y>r.y && y<r.y+r.h}
@@ -248,22 +248,22 @@ function pointInPoly(p,poly){let c=false;for(let i=0,j=poly.length-1;i<poly.leng
 let last=0; function loop(ts){const dt=(ts-last)/1000;last=ts;update(dt);draw();requestAnimationFrame(loop);}
 function fmt(s){const m=Math.floor(s/60), ss=Math.floor(s%60).toString().padStart(2,'0');return `${m}:${ss}`}
 function update(dt){
-  // ease lift for smooth visuals + collisions
-  state._liftAnim = state._liftAnim + ((state.lift||0) - state._liftAnim) * 0.25;
-
   const total=DIFFS[state.mode].time, left=Math.max(0,total - timer.secs()); $('#time').textContent = fmt(left);
   if(left<=0 && !state.done){state.done=true; timer.pause();}
+
+  // Drag update: piece follows the mouse; NO collisions while lifted/dragging
   if(state.dragging){
     const g=state.organs[state.dragging.idx];
     const s=state.sensitivity;
     g.pose.x=lerp(g.pose.x, mouse.x - state.dragging.dx, 0.6*s);
     g.pose.y=lerp(g.pose.y, mouse.y - state.dragging.dy, 0.6*s);
-    if(collisionFor(g.pose,g.poly)){
-      state.lives -= 1; updateHUD(); AudioSys.buzz();
-      g.pose={...g.home}; state.dragging=null;
-      if(state.lives<=0){state.done=true; timer.pause();}
-    }
+    // no collision checks here by design (lifted)
   }
+
+  // Lose condition (no more lives) not used now since we don't buzz during lift.
+  // If you still want non-lifted movement penalties, we can add that back.
+
+  // Win condition
   if(state.organs.every(o=>o.extracted) && !state.done){
     state.done=true; timer.pause(); state.score += Math.floor(100*(DIFFS[state.mode].time - timer.secs())); updateHUD();
   }
@@ -278,17 +278,20 @@ function draw(){
   ctx.fillStyle='#93c5fd'; ctx.font='600 16px ui-sans-serif,system-ui,-apple-system'; ctx.textAlign='center'; ctx.fillText('Instrument Tray', t.x+t.w/2, t.y+22); ctx.restore();
 
   // organs
-  for(const g of state.organs){
+  for(let i=0;i<state.organs.length;i++){
+    const g = state.organs[i];
     if(g.extracted) continue;
     ctx.save();
     ctx.translate(g.pose.x, g.pose.y);
     ctx.rotate(g.pose.ang);
-    // Visual lift: slight scale + stronger shadow
-    const k = 1 - 0.18 * (state._liftAnim || 0); // 18% smaller at full lift
+
+    // Visual LIFT if this is the lifted piece: scale UP + stronger shadow
+    const isLifted = (state.liftIdx === i);
+    const k = isLifted ? 1.2 : 1.0; // 20% bigger while lifted
     ctx.scale(k, k);
-    ctx.shadowColor = state._liftAnim ? 'rgba(0,0,0,0.55)' : 'rgba(0,0,0,0.35)';
-    ctx.shadowBlur  = state._liftAnim ? 12 : 6;
-    ctx.shadowOffsetY = state._liftAnim ? 4 : 0;
+    ctx.shadowColor = isLifted ? 'rgba(0,0,0,0.6)' : 'rgba(0,0,0,0.35)';
+    ctx.shadowBlur  = isLifted ? 14 : 6;
+    ctx.shadowOffsetY = isLifted ? 5 : 0;
 
     ctx.fillStyle = g.color;
     ctx.strokeStyle = '#0b0b0b';
@@ -320,11 +323,12 @@ $('#newBtn').onclick=()=>reset($('#diffSel').value);
 $('#diffSel').onchange=()=>reset($('#diffSel').value);
 $('#sens').oninput=()=>{state.sensitivity=parseFloat($('#sens').value)};
 $('#muteBtn').onclick=()=>{const m=AudioSys.toggle(); $('#muteBtn').textContent=m?'🔇 Muted':'🔊 Sound'};
-$('#helpBtn').onclick=()=>alert('Drag organs to the blue tray.\nHold Space to lift for extra clearance.\nRotate with Left/Right (A/D).\nUse Edge/Dark sliders to tune borders.\nUse the coordinate chip to record positions.');
-// (Optional) debug overlay: in DevTools console, run -> ctx.putImageData(mctx.getImageData(0,0,W,H),0,0)
+$('#helpBtn').onclick=()=>alert('Click a piece to lift it (bigger, collisions OFF) and carry it to the tray.\nRotate with Left/Right (A/D).\nEdge/Dark sliders tune the border detection (used when not lifted).');
+
 </script>
 </body>
 </html>
+
 
 
 
