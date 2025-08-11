@@ -179,10 +179,10 @@ function reset(mode){
     tray: {x: W-220, y: H*0.15, w: 160, h: H*0.7},
     sensitivity: parseFloat($('#sens').value||'1'),
     organs: [
-      // TEMP starter positions (you'll replace with your measured coords)
-      makePiece('Heart','red',              polyHeart(),  {x: W*0.44, y: H*0.35, ang: 0}),
-      makePiece('Bone','white',             polyBone(),   {x: W*0.56, y: H*0.62, ang: 0.2}),
-      makePiece('Kidney','#c084fc',         polyKidney(), {x: W*0.36, y: H*0.56, ang: -0.18}),
+      // centered exactly on your coordinates
+      makePiece('Kidney', '#c084fc', polyKidney(), { x: 408, y: 711, ang: 0 }),
+      makePiece('Bone', 'white',    polyBone(),    { x: 365, y: 1090, ang: Math.PI / 2 }), // ~90°
+      makePiece('Heart', 'red',     polyHeart(),   { x: 575, y: 587, ang: 0 }),
     ],
   };
   timer.reset(); timer.play(); updateHUD();
