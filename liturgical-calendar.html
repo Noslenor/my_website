@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liturgical Calendar</title>
+<meta name="description" content="The Roman Catholic liturgical calendar for the United States: season, color, celebration, Sunday and weekday cycles, psalter week, and links to the day's readings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f3ea;
+    --card: #fffdf8;
+    --ink: #2a2520;
+    --muted: #6f665b;
+    --line: #e4dccd;
+    --shadow: 0 1px 2px rgba(60,40,10,.06), 0 8px 24px rgba(60,40,10,.07);
+    --violet: #5e3a8c; --rose: #c9668f; --white: #b8922e; --red: #b02a30; --green: #2e6b43; --black: #2b2b2b;
+    --tint-violet: #efe8f6; --tint-rose: #f9e8ef; --tint-white: #faf3df; --tint-red: #f8e6e5; --tint-green: #e5f1e8; --tint-black: #e9e9e9;
+    --accent: var(--green); --tint: var(--tint-green);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #16130f; --card: #201c17; --ink: #efe8dc; --muted: #a99d8c; --line: #3a332a;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+      --violet: #b394e0; --rose: #ec9cbd; --white: #e2c36a; --red: #ef7f7f; --green: #79c393; --black: #bdbdbd;
+      --tint-violet: #2a2236; --tint-rose: #352330; --tint-white: #2f2918; --tint-red: #352021; --tint-green: #1d2c22; --tint-black: #2a2a2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font: 16px/1.5 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
+  .top {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 16px 0 8px; font-size: .9rem; color: var(--muted);
+  }
+  .top a { text-decoration: none; }
+  .top a:hover { text-decoration: underline; }
+  .brand { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.35rem; font-weight: 600; color: var(--ink); letter-spacing: .2px; }
+
+  /* Navigation */
+  .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0 16px; }
+  .btn {
+    appearance: none; border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    border-radius: 10px; padding: 8px 12px; font: inherit; font-size: .92rem; cursor: pointer; line-height: 1.2;
+  }
+  .btn:hover { border-color: var(--accent); }
+  .btn:focus-visible, input:focus-visible, .cell:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .btn.icon { width: 40px; padding: 8px 0; text-align: center; }
+  input[type="date"] {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 10px;
+    padding: 7px 10px; font: inherit; font-size: .92rem; color-scheme: light dark;
+  }
+  .spacer { flex: 1; }
+
+  /* Day card */
+  .day {
+    position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+    box-shadow: var(--shadow); overflow: hidden;
+  }
+  .day::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 6px; background: var(--accent); }
+  .day-head { padding: 28px 28px 20px; background: linear-gradient(180deg, var(--tint), transparent 85%); }
+  .date-line { font-size: .95rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+  .date-line strong { color: var(--ink); font-weight: 600; }
+  h1.celebration {
+    font-family: "Cormorant Garamond", Georgia, serif; font-weight: 600;
+    font-size: clamp(1.9rem, 4.6vw, 2.9rem); line-height: 1.1; margin: 10px 0 6px; letter-spacing: .1px;
+  }
+  .nick { font-family: "Cormorant Garamond", Georgia, serif; font-style: italic; font-size: 1.25rem; color: var(--muted); margin: 0 0 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; padding: 5px 12px;
+    font-size: .85rem; font-weight: 500; border: 1px solid var(--line); background: var(--card);
+  }
+  .swatch { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(0,0,0,.18); flex: none; }
+  .chip.notice { border-color: var(--accent); color: var(--accent); background: transparent; }
+  .facts {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0;
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+  }
+  .fact { padding: 14px 28px; border-right: 1px solid var(--line); }
+  .fact:last-child { border-right: 0; }
+  .fact .k { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .fact .v { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.55rem; font-weight: 600; line-height: 1.2; margin-top: 2px; }
+  .fact .s { font-size: .8rem; color: var(--muted); }
+  .day-body { padding: 18px 28px 0; display: grid; gap: 14px; }
+  .day-body:empty { display: none; }
+  .sub h3 { margin: 0 0 6px; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 600; }
+  .opt { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .opt li { display: flex; gap: 10px; align-items: baseline; }
+  .opt .swatch { transform: translateY(2px); }
+  .opt .lbl { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+  .note { font-size: .92rem; color: var(--muted); margin: 0 0 6px; }
+  .note:last-child { margin-bottom: 0; }
+  .note b { color: var(--ink); font-weight: 600; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; padding: 18px 28px 26px; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+  @media (prefers-color-scheme: dark) { .btn.primary { color: #16130f; } }
+
+  /* Lower section */
+  .lower { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 20px; margin-top: 22px; align-items: start; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); padding: 18px; }
+  .panel h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.45rem; font-weight: 600; margin: 0; }
+  .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
+
+  /* Month grid */
+  .grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+  .dow { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); text-align: center; padding: 2px 0 6px; }
+  .cell {
+    position: relative; min-height: 74px; border-radius: 10px; border: 1px solid var(--line); background: var(--card);
+    padding: 6px 6px 8px; text-align: left; font: inherit; color: inherit; cursor: pointer; overflow: hidden;
+    display: flex; flex-direction: column; gap: 3px;
+  }
+  .cell:hover { border-color: var(--muted); }
+  .cell.out { opacity: .38; }
+  .cell .num { font-size: .82rem; font-weight: 600; }
+  .cell .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; }
+  .cell .lbl { font-size: .68rem; line-height: 1.2; -webkit-hyphens: auto; hyphens: auto; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .cell.big .lbl { color: var(--ink); font-weight: 500; }
+  .cell.today .num { background: var(--ink); color: var(--card); border-radius: 999px; padding: 0 6px; align-self: flex-start; }
+  .cell.sel { border: 2px solid var(--accent); padding: 5px 5px 7px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 12px; font-size: .8rem; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+  /* Key dates */
+  .keys { list-style: none; margin: 0; padding: 0; }
+  .keys li { display: flex; justify-content: space-between; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--line); font-size: .92rem; }
+  .keys li:last-child { border-bottom: 0; }
+  .keys button { all: unset; cursor: pointer; }
+  .keys button:hover { text-decoration: underline; }
+  .keys button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  .keys .when { color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .keys li.past { opacity: .5; }
+  .keys li.next .what { font-weight: 600; }
+  .yr { font-size: .85rem; color: var(--muted); margin: -6px 0 10px; }
+
+  .settings { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .88rem; }
+  .settings label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
+  .settings input { margin-top: 3px; accent-color: var(--accent); }
+  .settings small { color: var(--muted); display: block; }
+
+  footer { margin-top: 28px; font-size: .82rem; color: var(--muted); line-height: 1.6; }
+  footer p { margin: 0 0 8px; max-width: 72ch; }
+
+  @media (max-width: 820px) {
+    .lower { grid-template-columns: 1fr; }
+    .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .fact:nth-child(2) { border-right: 0; }
+    .fact:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+  }
+  @media (max-width: 560px) {
+    .day-head { padding: 22px 18px 16px; }
+    .fact { padding: 12px 18px; }
+    .day-body { padding: 16px 18px 0; }
+    .actions { padding: 16px 18px 20px; }
+    .actions .btn { flex: 1; justify-content: center; }
+    .brand { font-size: 1.2rem; }
+    .back-long { display: none; }
+    .cell { min-height: 46px; padding: 4px 4px 7px; }
+    .cell.sel { padding: 3px 3px 6px; }
+    .cell .lbl { display: none; }
+    .grid { gap: 3px; }
+    .nav { display: grid; grid-template-columns: 40px 1fr 1fr 40px; }
+    .nav input[type="date"] { grid-column: span 2; min-width: 0; width: 100%; }
+    .nav #today, .nav #share { grid-column: span 2; }
+    .nav .spacer { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <span class="brand">Liturgical Calendar</span>
+    <a href="index.html">← <span class="back-long">Noslenor’s </span>Game Room</a>
+  </div>
+
+  <div class="nav" role="group" aria-label="Choose a date">
+    <button class="btn icon" id="prev" title="Previous day (←)" aria-label="Previous day">‹</button>
+    <input type="date" id="pick" aria-label="Date">
+    <button class="btn icon" id="next" title="Next day (→)" aria-label="Next day">›</button>
+    <button class="btn" id="today">Today</button>
+    <span class="spacer"></span>
+    <button class="btn" id="share" title="Copy a link to this day">Copy link</button>
+  </div>
+
+  <article class="day" id="day" aria-live="polite">
+    <div class="day-head">
+      <div class="date-line" id="dateLine"></div>
+      <h1 class="celebration" id="celebration"></h1>
+      <p class="nick" id="nick" hidden></p>
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="facts" id="facts"></div>
+    <div class="day-body" id="body"></div>
+    <div class="actions">
+      <a class="btn primary" id="readings" target="_blank" rel="noopener">Today’s readings at USCCB ↗</a>
+    </div>
+  </article>
+
+  <div class="lower">
+    <section class="panel" aria-labelledby="monthTitle">
+      <div class="panel-head">
+        <button class="btn icon" id="mPrev" aria-label="Previous month">‹</button>
+        <h2 id="monthTitle"></h2>
+        <button class="btn icon" id="mNext" aria-label="Next month">›</button>
+      </div>
+      <div class="grid" id="grid"></div>
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <section class="panel" aria-labelledby="keysTitle">
+      <div class="panel-head"><h2 id="keysTitle">The year at a glance</h2></div>
+      <p class="yr" id="yearNote"></p>
+      <ul class="keys" id="keys"></ul>
+      <div class="settings">
+        <label>
+          <input type="checkbox" id="ascThu">
+          <span>Celebrate the Ascension on Thursday
+            <small>For the ecclesiastical provinces of Boston, Hartford, New York, Newark, Philadelphia and Omaha. Elsewhere in the United States it moves to the following Sunday.</small>
+          </span>
+        </label>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Follows the General Roman Calendar with the proper calendar of the United States, applying the precedence and transfer rules of the <em>Universal Norms on the Liturgical Year and the Calendar</em>. Everything is calculated in your browser, so it works for any year.</p>
+    <p>Diocesan and parish celebrations (patronal feasts, dedications) are not included; check your diocesan Ordo for those. Saints’ list adapted from the open-source <a href="https://github.com/romcal/romcal">romcal</a> project (MIT License).</p>
+  </footer>
+</div>
+
+<script>
+const SANCTORAL = [
+  "0102|M|W|Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+  "0103|O|W|The Most Holy Name of Jesus",
+  "0104|U|W|Saint Elizabeth Ann Seton, Religious",
+  "0105|U|W|Saint John Neumann, Bishop",
+  "0106|O|W|Saint André Bessette, Religious",
+  "0107|O|W|Saint Raymond of Penyafort, Priest",
+  "0113|O|W|Saint Hilary, Bishop and Doctor of the Church",
+  "0117|M|W|Saint Anthony, Abbot",
+  "0120|O|R|Saint Fabian, Pope and Martyr",
+  "0120|O|R|Saint Sebastian, Martyr",
+  "0121|M|R|Saint Agnes, Virgin and Martyr",
+  "0122|O|W|Day of Prayer for the Legal Protection of Unborn Children",
+  "0123|O|R|Saint Vincent, Deacon and Martyr",
+  "0123|O|W|Saint Marianne Cope, Virgin",
+  "0124|M|W|Saint Francis de Sales, Bishop and Doctor of the Church",
+  "0125|F|W|The Conversion of Saint Paul the Apostle",
+  "0126|M|W|Saints Timothy and Titus, Bishops",
+  "0127|O|W|Saint Angela Merici, Virgin",
+  "0128|M|W|Saint Thomas Aquinas, Priest and Doctor of the Church",
+  "0131|M|W|Saint John Bosco, Priest",
+  "0202|L|W|The Presentation of the Lord",
+  "0203|O|R|Saint Blaise, Bishop and Martyr",
+  "0203|O|W|Saint Ansgar, Bishop",
+  "0205|M|R|Saint Agatha, Virgin and Martyr",
+  "0206|M|R|Saint Paul Miki and Companions, Martyrs",
+  "0208|O|W|Saint Jerome Emiliani",
+  "0208|O|W|Saint Josephine Bakhita, Virgin",
+  "0210|M|W|Saint Scholastica, Virgin",
+  "0211|O|W|Our Lady of Lourdes",
+  "0214|M|W|Saints Cyril, Monk, and Methodius, Bishop",
+  "0217|O|W|The Seven Holy Founders of the Servite Order",
+  "0221|O|W|Saint Peter Damian, Bishop and Doctor of the Church",
+  "0222|F|W|The Chair of Saint Peter the Apostle",
+  "0223|M|R|Saint Polycarp, Bishop and Martyr",
+  "0227|O|W|Saint Gregory of Narek, Abbot and Doctor of the Church",
+  "0303|O|W|Saint Katharine Drexel, Virgin",
+  "0304|O|W|Saint Casimir",
+  "0307|M|R|Saints Perpetua and Felicity, Martyrs",
+  "0308|O|W|Saint John of God, Religious",
+  "0309|O|W|Saint Frances of Rome, Religious",
+  "0317|O|W|Saint Patrick, Bishop",
+  "0318|O|W|Saint Cyril of Jerusalem, Bishop and Doctor of the Church",
+  "0319|S|W|Saint Joseph, Spouse of the Blessed Virgin Mary",
+  "0323|O|W|Saint Turibius of Mogrovejo, Bishop",
+  "0325|S|W|The Annunciation of the Lord",
+  "0402|O|W|Saint Francis of Paola, Hermit",
+  "0404|O|W|Saint Isidore, Bishop and Doctor of the Church",
+  "0405|O|W|Saint Vincent Ferrer, Priest",
+  "0407|M|W|Saint John Baptist de la Salle, Priest",
+  "0411|M|R|Saint Stanislaus, Bishop and Martyr",
+  "0413|O|R|Saint Martin I, Pope and Martyr",
+  "0421|O|W|Saint Anselm, Bishop and Doctor of the Church",
+  "0423|O|R|Saint George, Martyr",
+  "0423|O|R|Saint Adalbert, Bishop and Martyr",
+  "0424|O|R|Saint Fidelis of Sigmaringen, Priest and Martyr",
+  "0425|F|R|Saint Mark, Evangelist",
+  "0428|O|R|Saint Peter Chanel, Priest and Martyr",
+  "0428|O|W|Saint Louis Grignion de Montfort, Priest",
+  "0429|M|W|Saint Catherine of Siena, Virgin and Doctor of the Church",
+  "0430|O|W|Saint Pius V, Pope",
+  "0501|O|W|Saint Joseph the Worker",
+  "0502|M|W|Saint Athanasius, Bishop and Doctor of the Church",
+  "0503|F|R|Saints Philip and James, Apostles",
+  "0510|O|W|Saint John of Ávila, Priest and Doctor of the Church",
+  "0510|O|W|Saint Damien de Veuster, Priest",
+  "0512|O|R|Saints Nereus and Achilleus, Martyrs",
+  "0512|O|R|Saint Pancras, Martyr",
+  "0513|O|W|Our Lady of Fatima",
+  "0514|F|R|Saint Matthias, Apostle",
+  "0515|O|W|Saint Isidore",
+  "0518|O|R|Saint John I, Pope and Martyr",
+  "0520|O|W|Saint Bernardine of Siena, Priest",
+  "0521|O|R|Saint Christopher Magallanes, Priest, and Companions, Martyrs",
+  "0522|O|W|Saint Rita of Cascia, Religious",
+  "0525|O|W|Saint Bede the Venerable, Priest and Doctor of the Church",
+  "0525|O|W|Saint Gregory VII, Pope",
+  "0525|O|W|Saint Mary Magdalene de’ Pazzi, Virgin",
+  "0526|M|W|Saint Philip Neri, Priest",
+  "0527|O|W|Saint Augustine of Canterbury, Bishop",
+  "0529|O|W|Saint Paul VI, Pope",
+  "0531|F|W|The Visitation of the Blessed Virgin Mary",
+  "0601|M|R|Saint Justin, Martyr",
+  "0602|O|R|Saints Marcellinus and Peter, Martyrs",
+  "0603|M|R|Saints Charles Lwanga and Companions, Martyrs",
+  "0605|M|R|Saint Boniface, Bishop and Martyr",
+  "0606|O|W|Saint Norbert, Bishop",
+  "0609|O|W|Saint Ephrem, Deacon and Doctor of the Church",
+  "0611|M|R|Saint Barnabas, Apostle",
+  "0613|M|W|Saint Anthony of Padua, Priest and Doctor of the Church",
+  "0619|O|W|Saint Romuald, Abbot",
+  "0621|M|W|Saint Aloysius Gonzaga, Religious",
+  "0622|O|W|Saint Paulinus of Nola, Bishop",
+  "0622|O|R|Saints John Fisher, Bishop, and Thomas More, Martyrs",
+  "0624|S|W|The Nativity of Saint John the Baptist",
+  "0627|O|W|Saint Cyril of Alexandria, Bishop and Doctor of the Church",
+  "0628|M|R|Saint Irenaeus, Bishop, Martyr and Doctor of the Church",
+  "0629|S|R|Saints Peter and Paul, Apostles",
+  "0630|O|R|The First Martyrs of the Holy Roman Church",
+  "0701|O|W|Saint Junípero Serra, Priest",
+  "0703|F|R|Saint Thomas, Apostle",
+  "0704|O|W|Independence Day",
+  "0705|O|W|Saint Elizabeth of Portugal",
+  "0705|O|W|Saint Anthony Zaccaria, Priest",
+  "0706|O|R|Saint Maria Goretti, Virgin and Martyr",
+  "0709|O|R|Saint Augustine Zhao Rong, Priest, and Companions, Martyrs",
+  "0711|M|W|Saint Benedict, Abbot",
+  "0713|O|W|Saint Henry",
+  "0714|U|W|Saint Kateri Tekakwitha, Virgin",
+  "0715|M|W|Saint Bonaventure, Bishop and Doctor of the Church",
+  "0716|O|W|Our Lady of Mount Carmel",
+  "0718|O|W|Saint Camillus de Lellis, Priest",
+  "0720|O|R|Saint Apollinaris, Bishop and Martyr",
+  "0721|O|W|Saint Lawrence of Brindisi, Priest and Doctor of the Church",
+  "0722|F|W|Saint Mary Magdalene",
+  "0723|O|W|Saint Bridget, Religious",
+  "0724|O|W|Saint Sharbel Makhlūf, Priest",
+  "0725|F|R|Saint James, Apostle",
+  "0726|M|W|Saints Joachim and Anne, Parents of the Blessed Virgin Mary",
+  "0729|M|W|Saints Martha, Mary and Lazarus",
+  "0730|O|W|Saint Peter Chrysologus, Bishop and Doctor of the Church",
+  "0731|M|W|Saint Ignatius of Loyola, Priest",
+  "0801|M|W|Saint Alphonsus Mary Liguori, Bishop and Doctor of the Church",
+  "0802|O|W|Saint Eusebius of Vercelli, Bishop",
+  "0802|O|W|Saint Peter Julian Eymard, Priest",
+  "0804|M|W|Saint John Mary Vianney, Priest",
+  "0805|O|W|The Dedication of the Basilica of Saint Mary Major",
+  "0806|L|W|The Transfiguration of the Lord",
+  "0807|O|R|Saint Sixtus II, Pope, and Companions, Martyrs",
+  "0807|O|W|Saint Cajetan, Priest",
+  "0808|M|W|Saint Dominic, Priest",
+  "0809|O|R|Saint Teresa Benedicta of the Cross, Virgin and Martyr",
+  "0810|F|R|Saint Lawrence, Deacon and Martyr",
+  "0811|M|W|Saint Clare, Virgin",
+  "0812|O|W|Saint Jane Frances de Chantal, Religious",
+  "0813|O|R|Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+  "0814|M|R|Saint Maximilian Mary Kolbe, Priest and Martyr",
+  "0815|S|W|The Assumption of the Blessed Virgin Mary",
+  "0816|O|W|Saint Stephen of Hungary",
+  "0819|O|W|Saint John Eudes, Priest",
+  "0820|M|W|Saint Bernard, Abbot and Doctor of the Church",
+  "0821|M|W|Saint Pius X, Pope",
+  "0822|M|W|The Queenship of the Blessed Virgin Mary",
+  "0823|O|W|Saint Rose of Lima, Virgin",
+  "0824|F|R|Saint Bartholomew, Apostle",
+  "0825|O|W|Saint Louis",
+  "0825|O|W|Saint Joseph of Calasanz, Priest",
+  "0827|M|W|Saint Monica",
+  "0828|M|W|Saint Augustine, Bishop and Doctor of the Church",
+  "0829|M|R|The Passion of Saint John the Baptist",
+  "0903|M|W|Saint Gregory the Great, Pope and Doctor of the Church",
+  "0905|O|W|Saint Teresa of Calcutta, Virgin",
+  "0908|F|W|The Nativity of the Blessed Virgin Mary",
+  "0909|U|W|Saint Peter Claver, Priest",
+  "0912|O|W|The Most Holy Name of Mary",
+  "0913|M|W|Saint John Chrysostom, Bishop and Doctor of the Church",
+  "0914|L|R|The Exaltation of the Holy Cross",
+  "0915|M|W|Our Lady of Sorrows",
+  "0916|M|R|Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+  "0917|O|W|Saint Hildegard of Bingen, Abbess and Doctor of the Church",
+  "0917|O|W|Saint Robert Bellarmine, Bishop and Doctor of the Church",
+  "0919|O|R|Saint Januarius, Bishop and Martyr",
+  "0920|M|R|Saints Andrew Kim Tae-gŏn, Priest, Paul Chŏng Ha-sang and Companions, Martyrs",
+  "0921|F|R|Saint Matthew, Apostle and Evangelist",
+  "0923|M|W|Saint Pius of Pietrelcina, Priest",
+  "0926|O|R|Saints Cosmas and Damian, Martyrs",
+  "0927|M|W|Saint Vincent de Paul, Priest",
+  "0928|O|R|Saint Wenceslaus, Martyr",
+  "0928|O|R|Saint Lawrence Ruiz and Companions, Martyrs",
+  "0929|F|W|Saints Michael, Gabriel and Raphael, Archangels",
+  "0930|M|W|Saint Jerome, Priest and Doctor of the Church",
+  "1001|M|W|Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+  "1002|M|W|The Holy Guardian Angels",
+  "1004|M|W|Saint Francis of Assisi",
+  "1005|O|W|Saint Faustina Kowalska, Virgin",
+  "1005|O|W|Blessed Francis Xavier Seelos, Priest",
+  "1006|O|W|Saint Bruno, Priest",
+  "1006|O|W|Blessed Marie Rose Durocher, Virgin",
+  "1007|M|W|Our Lady of the Rosary",
+  "1009|O|R|Saint Denis, Bishop, and Companions, Martyrs",
+  "1009|O|W|Saint John Leonardi, Priest",
+  "1009|O|W|Saint John Henry Newman, Priest and Doctor of the Church",
+  "1011|O|W|Saint John XXIII, Pope",
+  "1014|O|R|Saint Callistus I, Pope and Martyr",
+  "1015|M|W|Saint Teresa of Jesus, Virgin and Doctor of the Church",
+  "1016|O|W|Saint Hedwig, Religious",
+  "1016|O|W|Saint Margaret Mary Alacoque, Virgin",
+  "1017|M|R|Saint Ignatius of Antioch, Bishop and Martyr",
+  "1018|F|R|Saint Luke, Evangelist",
+  "1019|U|R|Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+  "1020|O|W|Saint Paul of the Cross, Priest",
+  "1022|O|W|Saint John Paul II, Pope",
+  "1023|O|W|Saint John of Capistrano, Priest",
+  "1024|O|W|Saint Anthony Mary Claret, Bishop",
+  "1028|F|R|Saints Simon and Jude, Apostles",
+  "1101|S|W|All Saints",
+  "1102|S|K|The Commemoration of All the Faithful Departed (All Souls’ Day)",
+  "1103|O|W|Saint Martin de Porres, Religious",
+  "1104|M|W|Saint Charles Borromeo, Bishop",
+  "1109|L|W|The Dedication of the Lateran Basilica",
+  "1110|M|W|Saint Leo the Great, Pope and Doctor of the Church",
+  "1111|M|W|Saint Martin of Tours, Bishop",
+  "1112|M|R|Saint Josaphat, Bishop and Martyr",
+  "1113|U|W|Saint Frances Xavier Cabrini, Virgin",
+  "1115|O|W|Saint Albert the Great, Bishop and Doctor of the Church",
+  "1116|O|W|Saint Margaret of Scotland",
+  "1116|O|W|Saint Gertrude, Virgin",
+  "1117|M|W|Saint Elizabeth of Hungary, Religious",
+  "1118|O|W|The Dedication of the Basilicas of Saints Peter and Paul, Apostles",
+  "1118|O|W|Saint Rose Philippine Duchesne, Virgin",
+  "1121|M|W|The Presentation of the Blessed Virgin Mary",
+  "1122|M|R|Saint Cecilia, Virgin and Martyr",
+  "1123|O|R|Saint Clement I, Pope and Martyr",
+  "1123|O|W|Saint Columban, Abbot",
+  "1123|O|R|Blessed Miguel Agustín Pro, Priest and Martyr",
+  "1124|M|R|Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+  "1125|O|R|Saint Catherine of Alexandria, Virgin and Martyr",
+  "1130|F|R|Saint Andrew, Apostle",
+  "1203|M|W|Saint Francis Xavier, Priest",
+  "1204|O|W|Saint John Damascene, Priest and Doctor of the Church",
+  "1206|O|W|Saint Nicholas, Bishop",
+  "1207|M|W|Saint Ambrose, Bishop and Doctor of the Church",
+  "1208|S|W|The Immaculate Conception of the Blessed Virgin Mary, Patroness of the USA",
+  "1209|O|W|Saint Juan Diego Cuauhtlatoatzin",
+  "1210|O|W|Our Lady of Loreto",
+  "1211|O|W|Saint Damasus I, Pope",
+  "1212|P|W|Our Lady of Guadalupe, Patroness of the Americas",
+  "1213|M|R|Saint Lucy, Virgin and Martyr",
+  "1214|M|W|Saint John of the Cross, Priest and Doctor of the Church",
+  "1221|O|W|Saint Peter Canisius, Priest and Doctor of the Church",
+  "1223|O|W|Saint John of Kanty, Priest",
+  "1226|F|R|Saint Stephen, the First Martyr",
+  "1227|F|W|Saint John, Apostle and Evangelist",
+  "1228|F|R|The Holy Innocents, Martyrs",
+  "1229|O|R|Saint Thomas Becket, Bishop and Martyr",
+  "1231|O|W|Saint Sylvester I, Pope"
+];
+/* Liturgical calendar engine — Roman Rite (Ordinary Form), United States.
+   Pure functions; no DOM. getDay(y, m, d, opts) -> info for that date. */
+const LitCal = (() => {
+  const DAY = 864e5;
+  const dn = (y, m, d) => Math.round(Date.UTC(y, m - 1, d) / DAY);
+  const ymd = n => { const t = new Date(n * DAY); return { y: t.getUTCFullYear(), m: t.getUTCMonth() + 1, d: t.getUTCDate(), dow: t.getUTCDay() }; };
+  const dow = n => ((n % 7) + 11) % 7; // 1970-01-01 (n=0) was a Thursday
+  const sundayOnOrBefore = n => n - dow(n);
+
+  const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  const ORD = ['', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth', 'Tenth', 'Eleventh', 'Twelfth',
+    'Thirteenth', 'Fourteenth', 'Fifteenth', 'Sixteenth', 'Seventeenth', 'Eighteenth', 'Nineteenth', 'Twentieth', 'Twenty-first',
+    'Twenty-second', 'Twenty-third', 'Twenty-fourth', 'Twenty-fifth', 'Twenty-sixth', 'Twenty-seventh', 'Twenty-eighth',
+    'Twenty-ninth', 'Thirtieth', 'Thirty-first', 'Thirty-second', 'Thirty-third', 'Thirty-fourth'];
+  const ROMAN = ['Proper', 'I', 'II', 'III', 'IV'];
+
+  // Gregorian Easter (anonymous algorithm)
+  function easter(y) {
+    const a = y % 19, b = Math.floor(y / 100), c = y % 100, d = Math.floor(b / 4), e = b % 4;
+    const f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const month = Math.floor((h + l - 7 * m + 114) / 31), day = ((h + l - 7 * m + 114) % 31) + 1;
+    return dn(y, month, day);
+  }
+
+  // Key dates of the civil year y (US practice: Epiphany, Ascension*, Corpus Christi on Sunday)
+  const keyCache = new Map();
+  function keys(y, ascThu) {
+    const ck = y + (ascThu ? 't' : 's');
+    if (keyCache.has(ck)) return keyCache.get(ck);
+    const E = easter(y);
+    const jan2 = dn(y, 1, 2);
+    const epiphany = jan2 + ((7 - dow(jan2)) % 7);              // Sunday Jan 2–8
+    const baptism = ymd(epiphany).d >= 7 ? epiphany + 1 : epiphany + 7; // Monday if Epiphany is Jan 7/8
+    const dec3 = dn(y, 12, 3);
+    const advent1 = dec3 - dow(dec3);                           // Sunday Nov 27 – Dec 3
+    const xmas = dn(y, 12, 25);
+    const holyFamily = dow(xmas) === 0 ? dn(y, 12, 30) : xmas + (7 - dow(xmas));
+    const k = {
+      y, E, epiphany, baptism, advent1, xmas, holyFamily,
+      ashWed: E - 46, lent1: E - 42, palm: E - 7, holyThu: E - 3, goodFri: E - 2, holySat: E - 1,
+      divineMercy: E + 7, ascension: ascThu ? E + 39 : E + 42, pentecost: E + 49, maryChurch: E + 50,
+      trinity: E + 56, corpus: E + 63, sacredHeart: E + 68, immHeart: E + 69, christKing: advent1 - 7,
+    };
+    keyCache.set(ck, k);
+    return k;
+  }
+
+  // Ranks follow the Table of Liturgical Days (lower = higher precedence)
+  const RANK_LABEL = { S: 'Solemnity', L: 'Feast', F: 'Feast', P: 'Feast', M: 'Memorial', U: 'Memorial', O: 'Optional Memorial' };
+  const SANCT_RANK = { S: 3, L: 5, F: 7, P: 8, M: 10, U: 11, O: 12 };
+  const COLOR = { W: 'white', R: 'red', V: 'violet', K: 'violet', G: 'green', P: 'rose' };
+
+  // ---- Proper of Time ----
+  function temporal(n, k, kPrev) {
+    const { m, d, dow: wd } = ymd(n);
+    const W = WEEKDAYS[wd];
+    const t = (name, rank, color, extra = {}) => Object.assign({ name, rank, color, source: 'temporal' }, extra);
+
+    // Advent
+    if (n >= k.advent1 && n < k.xmas) {
+      const wk = Math.floor((n - k.advent1) / 7) + 1;
+      const base = { season: 'advent', week: wk };
+      if (wd === 0) return t(`${ORD[wk]} Sunday of Advent`, 2, wk === 3 ? 'rose' : 'violet', Object.assign(base, { kind: 'sunday', alt: wk === 3 ? 'violet' : null, nick: wk === 3 ? 'Gaudete Sunday' : null }));
+      if (d >= 17) return t(`Advent Weekday — ${MONTHS[11]} ${d}`, 9, 'violet', Object.assign(base, { kind: 'weekday', privileged: true }));
+      return t(`${W} of the ${ORD[wk]} Week of Advent`, 13, 'violet', Object.assign(base, { kind: 'weekday' }));
+    }
+    // Christmas Time (late December)
+    if (n >= k.xmas) {
+      const base = { season: 'christmas' };
+      if (n === k.xmas) return t('The Nativity of the Lord (Christmas)', 2, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+      if (n === k.holyFamily) return t('The Holy Family of Jesus, Mary and Joseph', 5, 'white', Object.assign(base, { kind: 'feast', lord: true }));
+      const day = d - 24;
+      return t(`${ORD[day]} Day within the Octave of the Nativity of the Lord`, 9, 'white', Object.assign(base, { kind: 'weekday', privileged: true }));
+    }
+    // Christmas Time (January)
+    if (n <= k.baptism) {
+      const base = { season: 'christmas' };
+      if (m === 1 && d === 1) return t('Mary, the Holy Mother of God', 3, 'white', Object.assign(base, { kind: 'solemnity', nick: 'Octave Day of the Nativity of the Lord' }));
+      if (n === k.epiphany) return t('The Epiphany of the Lord', 2, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+      if (n === k.baptism) return t('The Baptism of the Lord', 5, 'white', Object.assign(base, { kind: 'feast', lord: true }));
+      if (n < k.epiphany) return t(`Christmas Weekday — ${MONTHS[0]} ${d}`, 13, 'white', Object.assign(base, { kind: 'weekday' }));
+      return t(`${W} after the Epiphany of the Lord`, 13, 'white', Object.assign(base, { kind: 'weekday' }));
+    }
+    // Ordinary Time, before Lent
+    if (n < k.ashWed) {
+      const wk = Math.floor((n - sundayOnOrBefore(k.baptism)) / 7) + 1;
+      const base = { season: 'ordinary', week: wk };
+      if (wd === 0) return t(`${ORD[wk]} Sunday in Ordinary Time`, 6, 'green', Object.assign(base, { kind: 'sunday', nick: wk === 3 ? 'Sunday of the Word of God' : null }));
+      return t(`${W} of the ${ORD[wk]} Week in Ordinary Time`, 13, 'green', Object.assign(base, { kind: 'weekday' }));
+    }
+    // Lent
+    if (n < k.palm) {
+      if (n === k.ashWed) return t('Ash Wednesday', 2, 'violet', { season: 'lent', week: 0, kind: 'weekday' });
+      if (n < k.lent1) return t(`${W} after Ash Wednesday`, 9, 'violet', { season: 'lent', week: 0, kind: 'weekday', privileged: true });
+      const wk = Math.floor((n - k.lent1) / 7) + 1;
+      const base = { season: 'lent', week: wk };
+      if (wd === 0) return t(`${ORD[wk]} Sunday of Lent`, 2, wk === 4 ? 'rose' : 'violet', Object.assign(base, { kind: 'sunday', alt: wk === 4 ? 'violet' : null, nick: wk === 4 ? 'Laetare Sunday' : null }));
+      return t(`${W} of the ${ORD[wk]} Week of Lent`, 9, 'violet', Object.assign(base, { kind: 'weekday', privileged: true }));
+    }
+    // Holy Week & Paschal Triduum
+    if (n < k.E) {
+      const base = { season: 'lent', week: 6, holyWeek: true };
+      if (n === k.palm) return t('Palm Sunday of the Passion of the Lord', 2, 'red', Object.assign(base, { kind: 'sunday' }));
+      if (n < k.holyThu) return t(`${W} of Holy Week`, 2, 'violet', Object.assign(base, { kind: 'weekday' }));
+      if (n === k.holyThu) return t('Holy Thursday', 1, 'white', Object.assign(base, { kind: 'triduum', triduum: true, note: 'Lent ends and the Paschal Triduum begins with the evening Mass of the Lord’s Supper (white). The Chrism Mass is often celebrated this morning or earlier in Holy Week.' }));
+      if (n === k.goodFri) return t('Friday of the Passion of the Lord (Good Friday)', 1, 'red', { season: 'triduum', kind: 'triduum', triduum: true, holyWeek: true, note: 'No Mass is celebrated; the Celebration of the Lord’s Passion takes place in the afternoon or evening.' });
+      return t('Holy Saturday', 1, 'violet', { season: 'triduum', kind: 'triduum', triduum: true, holyWeek: true, noColor: true, note: 'No Mass during the day. The Easter Vigil (white) begins after nightfall.' });
+    }
+    // Easter Time
+    if (n <= k.pentecost) {
+      const wk = Math.floor((n - k.E) / 7) + 1;
+      const base = { season: 'easter', week: wk };
+      if (n === k.E) return t('Easter Sunday of the Resurrection of the Lord', 1, 'white', Object.assign(base, { kind: 'solemnity', lord: true, triduum: true }));
+      if (n < k.divineMercy) return t(`${W} within the Octave of Easter`, 2, 'white', Object.assign(base, { kind: 'solemnity', octave: true }));
+      if (n === k.ascension) return t('The Ascension of the Lord', 2, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+      if (n === k.pentecost) return t('Pentecost Sunday', 2, 'red', Object.assign(base, { kind: 'solemnity', lord: true }));
+      if (wd === 0) return t(`${ORD[wk]} Sunday of Easter`, 2, 'white', Object.assign(base, { kind: 'sunday', nick: wk === 2 ? 'Sunday of Divine Mercy' : null }));
+      return t(`${W} of the ${ORD[wk]} Week of Easter`, 13, 'white', Object.assign(base, { kind: 'weekday' }));
+    }
+    // Ordinary Time, after Pentecost
+    const wk = 34 - Math.floor((k.christKing - sundayOnOrBefore(n)) / 7);
+    const base = { season: 'ordinary', week: wk };
+    if (n === k.trinity) return t('The Most Holy Trinity', 3, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+    if (n === k.corpus) return t('The Most Holy Body and Blood of Christ (Corpus Christi)', 3, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+    if (n === k.sacredHeart) return t('The Most Sacred Heart of Jesus', 3, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+    if (n === k.christKing) return t('Our Lord Jesus Christ, King of the Universe', 3, 'white', Object.assign(base, { kind: 'solemnity', lord: true }));
+    if (wd === 0) return t(`${ORD[wk]} Sunday in Ordinary Time`, 6, 'green', Object.assign(base, { kind: 'sunday' }));
+    if (n === k.maryChurch) return t(`${W} of the ${ORD[wk]} Week in Ordinary Time`, 13, 'green', Object.assign(base, { kind: 'weekday', movable: { name: 'The Blessed Virgin Mary, Mother of the Church', rank: 10, color: 'white', code: 'M', prevails: true } }));
+    if (n === k.immHeart) return t(`${W} of the ${ORD[wk]} Week in Ordinary Time`, 13, 'green', Object.assign(base, { kind: 'weekday', movable: { name: 'The Immaculate Heart of the Blessed Virgin Mary', rank: 10, color: 'white', code: 'M', prevails: true } }));
+    return t(`${W} of the ${ORD[wk]} Week in Ordinary Time`, 13, 'green', Object.assign(base, { kind: 'weekday' }));
+  }
+
+  // ---- Proper of Saints, with transfers of impeded solemnities ----
+  let SANCT = null;
+  function parseSanctoral() {
+    if (SANCT) return SANCT;
+    SANCT = SANCTORAL.map(s => { const [md, r, c, name] = s.split('|'); return { m: +md.slice(0, 2), d: +md.slice(2), r, c, name }; });
+    return SANCT;
+  }
+
+  const yearCache = new Map();
+  function sanctoralYear(y, ascThu) {
+    const ck = y + (ascThu ? 't' : 's');
+    if (yearCache.has(ck)) return yearCache.get(ck);
+    const k = keys(y, ascThu), kPrev = keys(y - 1, ascThu);
+    const tAt = n => temporal(n, k, kPrev);
+    const map = new Map();
+    const add = (n, e) => { if (!map.has(n)) map.set(n, []); map.get(n).push(e); };
+    const solemnities = [];
+    for (const s of parseSanctoral()) {
+      let n = dn(y, s.m, s.d);
+      const e = { name: s.name, rank: SANCT_RANK[s.r], code: s.r, color: COLOR[s.c], label: RANK_LABEL[s.r], source: 'sanctoral' };
+      if (s.c === 'K') e.alt = 'black';
+      if (s.m === 1 && s.d === 22) { // Day of Prayer for the Legal Protection of Unborn Children
+        if (dow(n) === 0) n += 1;
+        e.color = 'white'; e.alt = 'violet'; e.label = 'Day of Prayer'; e.prayerDay = true;
+        e.note = 'A particular day of prayer and penance in the dioceses of the United States.';
+      }
+      if (s.r === 'S') solemnities.push([n, e]); else add(n, e);
+    }
+    // Thanksgiving Day: fourth Thursday of November (optional proper Mass)
+    const nov1 = dn(y, 11, 1);
+    add(nov1 + ((4 - dow(nov1) + 7) % 7) + 21, { name: 'Thanksgiving Day', rank: 12, code: 'O', color: 'white', label: 'Optional Mass', source: 'sanctoral', civic: true });
+    // Place solemnities, transferring any that are impeded
+    const occupied = n => tAt(n).rank <= 8 || (map.get(n) || []).some(e => e.rank <= 8);
+    for (const [n0, e] of solemnities) {
+      let n = n0;
+      const t = tAt(n);
+      const impeded = t.rank < e.rank || (t.rank === e.rank && t.source === 'temporal');
+      if (impeded) {
+        const md = s => e.name.startsWith(s);
+        if (md('Saint Joseph') && n >= k.palm && n < k.E) n = k.palm - 1;          // anticipated to Saturday before Palm Sunday
+        else if (md('The Annunciation') && n >= k.palm && n <= k.divineMercy) n = k.divineMercy + 1; // Monday after Divine Mercy Sunday
+        else if (t.kind === 'sunday' || t.rank <= 2) { do { n++; } while (occupied(n)); } // following day
+        else { // clash with another solemnity: nearest free day, preferring the day before
+          for (let i = 1; i < 10; i++) { if (!occupied(n0 - i)) { n = n0 - i; break; } if (!occupied(n0 + i)) { n = n0 + i; break; } }
+        }
+        e.transferred = { from: n0 };
+      }
+      add(n, e);
+    }
+    yearCache.set(ck, map);
+    return map;
+  }
+
+  function cycles(n, k) {
+    const ly = n >= k.advent1 ? k.y + 1 : k.y; // liturgical year is named by the year in which it ends
+    return { litYear: ly, sunday: ['C', 'A', 'B'][ly % 3], weekday: ly % 2 ? 'I' : 'II' };
+  }
+
+  function psalterWeek(n, t, k, kPrev) {
+    if (t.season === 'ordinary') return ((t.week - 1) % 4) + 1;
+    if (t.season === 'lent') return t.week === 0 ? 4 : ((t.week - 1) % 4) + 1;
+    if (t.season === 'easter' || (t.season === 'triduum')) {
+      if (t.season === 'triduum') return 0; // proper psalmody
+      return ((t.week - 1) % 4) + 1;
+    }
+    // Advent and Christmas: weeks run on from the First Sunday of Advent
+    const a1 = n >= k.advent1 ? k.advent1 : kPrev.advent1;
+    return (Math.floor((sundayOnOrBefore(n) - a1) / 7) % 4) + 1;
+  }
+
+  function getDay(y, m, d, opts = {}) {
+    const ascThu = !!opts.ascensionThursday;
+    const n = dn(y, m, d);
+    const k = keys(y, ascThu), kPrev = keys(y - 1, ascThu);
+    const t = temporal(n, k, kPrev);
+    const sanct = (sanctoralYear(y, ascThu).get(n) || []).map(e => Object.assign({}, e));
+    if (t.movable) sanct.push(Object.assign({ label: 'Memorial', source: 'temporal' }, t.movable));
+
+    let principal = t;
+    const optional = [];
+    const omitted = [];
+    // Higher-ranked sanctoral celebration (solemnity / feast) replaces the day
+    const top = sanct.filter(e => e.rank <= 8).sort((a, b) => a.rank - b.rank)[0];
+    if (top && top.rank < t.rank) principal = top;
+    for (const e of sanct) {
+      if (e === principal) continue;
+      if (e.rank <= 8) { omitted.push(e); continue; }              // feast impeded by a higher day: omitted this year
+      if (principal !== t || t.rank <= 6 || t.kind === 'sunday') { omitted.push(e); continue; }
+      if (t.rank <= 2) { omitted.push(e); continue; }              // Ash Wednesday, Holy Week, Easter Octave
+      if (t.privileged) { optional.push(Object.assign(e, { label: 'Commemoration', commemoration: true })); continue; }
+      optional.push(e);
+    }
+    // An obligatory memorial on an ordinary weekday becomes the day's celebration
+    if (principal === t && t.rank === 13) {
+      let mems = optional.filter(e => e.rank <= 11 && !e.commemoration);
+      // Memorials of Mary, Mother of the Church and of the Immaculate Heart prevail over a saint's memorial (CDW, 24 March 2018)
+      const marian = mems.find(e => e.prevails);
+      if (marian) mems = [marian];
+      if (mems.length === 1) principal = mems[0];
+      else if (mems.length > 1) mems.forEach(e => { e.label = 'Optional Memorial'; e.rank = 12; e.note = 'Two obligatory memorials coincide, so both become optional this year.'; });
+      if (principal !== t) // on an obligatory memorial, the day's other memorials are not celebrated
+        for (const e of optional.splice(0)) if (e !== principal) (e.civic ? optional : omitted).push(e);
+    }
+    // Saturday Memorial of the Blessed Virgin Mary (Ordinary Time Saturdays without an obligatory memorial)
+    const wd = ymd(n).dow;
+    if (wd === 6 && t.season === 'ordinary' && principal === t && t.rank === 13)
+      optional.push({ name: 'Saturday Memorial of the Blessed Virgin Mary', rank: 12, color: 'white', label: 'Optional Memorial', source: 'common' });
+
+    const cy = cycles(n, k);
+    const ps = psalterWeek(n, t, k, kPrev);
+
+    // Holy days of obligation (United States)
+    let obligation = null;
+    if (wd === 0) obligation = 'sunday';
+    const isSatMon = wd === 6 || wd === 1;
+    const pname = principal.name;
+    if (n === k.xmas) obligation = 'yes';
+    else if (m === 1 && d === 1) obligation = isSatMon ? 'abrogated' : 'yes';
+    else if (ascThu && n === k.ascension) obligation = 'yes';
+    else if (/^The Assumption/.test(pname) && !principal.transferred) obligation = isSatMon ? 'abrogated' : 'yes';
+    else if (/^All Saints/.test(pname) && !principal.transferred) obligation = isSatMon ? 'abrogated' : 'yes';
+    else if (/^The Immaculate Conception/.test(pname)) obligation = principal.transferred ? 'notTransferred' : 'yes';
+    if (wd === 0 && obligation !== 'sunday' && obligation !== null) obligation = 'yes';
+
+    // Fast and abstinence (Latin Catholics, United States)
+    let penance = null;
+    if (n === k.ashWed || n === k.goodFri) penance = 'fast';
+    else if (wd === 5 && n > k.ashWed && n < k.E && !(principal.rank <= 3 && principal.source === 'sanctoral')) penance = 'abstinence';
+    else if (wd === 5 && n > k.ashWed && n < k.E) penance = 'solemnityFriday';
+
+    return {
+      date: { y, m, d, dow: wd, weekday: WEEKDAYS[wd], month: MONTHS[m - 1] },
+      n, principal, temporal: t, optional, omitted,
+      season: t.season, week: t.week, sundayCycle: cy.sunday, weekdayCycle: cy.weekday, litYear: cy.litYear,
+      psalter: ROMAN[ps], obligation, penance,
+    };
+  }
+
+  function keyDates(y, opts = {}) {
+    const k = keys(y, !!opts.ascensionThursday);
+    const kn = keys(y + 1, !!opts.ascensionThursday);
+    const f = n => ymd(n);
+    return [
+      ['The Baptism of the Lord', k.baptism], ['Ash Wednesday', k.ashWed], ['Palm Sunday', k.palm],
+      ['Holy Thursday', k.holyThu], ['Good Friday', k.goodFri], ['Easter Sunday', k.E], ['Divine Mercy Sunday', k.divineMercy],
+      ['The Ascension of the Lord', k.ascension], ['Pentecost Sunday', k.pentecost], ['The Most Holy Trinity', k.trinity],
+      ['Corpus Christi', k.corpus], ['The Most Sacred Heart of Jesus', k.sacredHeart], ['Christ the King', k.christKing],
+      ['First Sunday of Advent', k.advent1], ['Christmas', k.xmas], ['The Holy Family', k.holyFamily],
+      ['The Epiphany of the Lord', kn.epiphany],
+    ].map(([name, n]) => ({ name, n, ...f(n) }));
+  }
+
+  return { getDay, keyDates, easter, dn, ymd, keys, MONTHS, WEEKDAYS };
+})();
+
+(function () {
+  const $ = id => document.getElementById(id);
+  const COLOR_NAME = { violet: 'Violet', rose: 'Rose', white: 'White', red: 'Red', green: 'Green', black: 'Black' };
+  const SEASON_NAME = { advent: 'Advent', christmas: 'Christmas Time', lent: 'Lent', triduum: 'Paschal Triduum', easter: 'Easter Time', ordinary: 'Ordinary Time' };
+  const SEASON_COLOR = { advent: 'violet', christmas: 'white', lent: 'violet', triduum: 'red', easter: 'white', ordinary: 'green' };
+
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage unavailable */ } },
+  };
+  let opts = { ascensionThursday: store.get('litcal.ascThu') === '1' };
+  $('ascThu').checked = opts.ascensionThursday;
+
+  const now = new Date();
+  const todayN = LitCal.dn(now.getFullYear(), now.getMonth() + 1, now.getDate());
+  let cur = todayN;           // selected day
+  let view = null;            // {y, m} shown in month grid
+
+  const iso = ({ y, m, d }) => `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+  const pad = v => String(v).padStart(2, '0');
+  const fmtShort = ({ y, m, d, dow }) => `${LitCal.WEEKDAYS[dow].slice(0, 3)}, ${LitCal.MONTHS[m - 1].slice(0, 3)} ${d}`;
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const swatch = c => `<span class="swatch" style="background:var(--${c})" aria-hidden="true"></span>`;
+  const info = n => { const t = LitCal.ymd(n); return LitCal.getDay(t.y, t.m, t.d, opts); };
+
+  function rankLabel(p) {
+    if (p.label) return p.label;
+    return { solemnity: 'Solemnity', feast: 'Feast', sunday: 'Sunday', weekday: 'Weekday', triduum: 'Paschal Triduum' }[p.kind] || '';
+  }
+
+  function seasonLine(x) {
+    const t = x.temporal;
+    if (x.season === 'triduum' || t.triduum && x.season !== 'easter') return 'Paschal Triduum';
+    if (t.holyWeek) return 'Lent · Holy Week';
+    if (x.season === 'lent' && x.week === 0) return 'Lent · Days after Ash Wednesday';
+    if (x.season === 'christmas') return 'Christmas Time';
+    if (x.season === 'easter' && t.octave) return 'Easter Time · Octave of Easter';
+    if (x.week && x.week <= 34 && !(x.season === 'easter' && x.week > 7)) return `${SEASON_NAME[x.season]} · Week ${x.week}`;
+    return SEASON_NAME[x.season];
+  }
+
+  function render() {
+    const x = info(cur);
+    const p = x.principal;
+    const color = p.noColor ? SEASON_COLOR[x.season] : p.color;
+    document.documentElement.style.setProperty('--accent', `var(--${color})`);
+    document.documentElement.style.setProperty('--tint', `var(--tint-${color})`);
+
+    const isToday = cur === todayN;
+    $('dateLine').innerHTML = `<strong>${x.date.weekday}, ${x.date.month} ${x.date.d}, ${x.date.y}</strong>` +
+      (isToday ? '<span>Today</span>' : '') + `<span>${esc(seasonLine(x))}</span>`;
+    $('celebration').textContent = p.name;
+    const nick = p.nick || null;
+    $('nick').hidden = !nick; $('nick').textContent = nick || '';
+
+    // chips
+    const chips = [];
+    const rl = rankLabel(p);
+    if (rl) chips.push(`<span class="chip">${esc(rl)}</span>`);
+    if (p.noColor) chips.push(`<span class="chip">No Mass during the day</span>`);
+    else chips.push(`<span class="chip">${swatch(p.color)}${COLOR_NAME[p.color]}${p.alt ? ` <span style="color:var(--muted);font-weight:400">or ${COLOR_NAME[p.alt].toLowerCase()}</span>` : ''}</span>`);
+    if (x.obligation === 'yes') chips.push(`<span class="chip notice">Holy Day of Obligation</span>`);
+    if (x.penance === 'fast') chips.push(`<span class="chip notice">Fasting &amp; abstinence</span>`);
+    if (x.penance === 'abstinence') chips.push(`<span class="chip notice">Abstinence from meat</span>`);
+    $('chips').innerHTML = chips.join('');
+
+    // facts
+    const ly = x.litYear;
+    $('facts').innerHTML = [
+      ['Season', SEASON_NAME[x.season === 'triduum' ? 'triduum' : x.season], ''],
+      ['Sunday cycle', `Year ${x.sundayCycle}`, `${ly - 1}–${String(ly).slice(2)}`],
+      ['Weekday cycle', `Year ${x.weekdayCycle}`, x.weekdayCycle === 'I' ? 'odd years' : 'even years'],
+      ['Psalter', x.psalter === 'Proper' ? 'Proper' : `Week ${x.psalter}`, 'Liturgy of the Hours'],
+    ].map(([k, v, s]) => `<div class="fact"><div class="k">${k}</div><div class="v">${esc(v)}</div>${s ? `<div class="s">${esc(s)}</div>` : ''}</div>`).join('');
+
+    // body
+    const parts = [];
+    const notes = [];
+    if (p.note) notes.push(esc(p.note));
+    if (p.transferred) { const f = LitCal.ymd(p.transferred.from); notes.push(`<b>Transferred</b> from ${LitCal.WEEKDAYS[f.dow]}, ${LitCal.MONTHS[f.m - 1]} ${f.d}, because another celebration takes precedence that day.`); }
+    if (p !== x.temporal && x.temporal.rank >= 6) notes.push(`The day in the Proper of Time: ${esc(x.temporal.name)}.`);
+    if (x.obligation === 'abrogated') notes.push('<b>Not a holy day of obligation this year.</b> In the United States the obligation is lifted when this solemnity falls on a Saturday or a Monday.');
+    if (x.obligation === 'notTransferred') notes.push('<b>No obligation this year.</b> When the Immaculate Conception moves off a Sunday of Advent, the obligation to attend Mass does not transfer with it.');
+    if (x.penance === 'solemnityFriday') notes.push('A solemnity falls on this Friday of Lent, so the usual abstinence from meat does not apply.');
+    const moved = x.omitted.filter(e => e.rank <= 8 && e.source === 'sanctoral');
+    if (moved.length) notes.push(`Not celebrated this year because it is outranked: ${moved.map(e => esc(e.name)).join('; ')}.`);
+    if (x.temporal.nick && p !== x.temporal) notes.push(esc(x.temporal.nick) + '.');
+
+    if (x.optional.length) {
+      const heading = x.optional.every(o => o.commemoration) ? 'Commemoration' : x.optional.some(o => o.prayerDay) ? 'Also today' : 'Optional';
+      parts.push(`<div class="sub"><h3>${heading}</h3><ul class="opt">` + x.optional.map(o =>
+        `<li>${swatch(o.color)}<span>${esc(o.name)}${o.note ? `<br><span class="lbl" style="white-space:normal">${esc(o.note)}</span>` : ''}</span><span class="lbl">${esc(o.label || '')}</span></li>`).join('') + `</ul></div>`);
+      if (x.optional.some(o => o.commemoration)) notes.push('During privileged seasons a saint’s memorial may be observed as a commemoration, using the saint’s collect.');
+    }
+    if (notes.length) parts.push(`<div class="sub"><h3>Notes</h3>${notes.map(n => `<p class="note">${n}</p>`).join('')}</div>`);
+    $('body').innerHTML = parts.join('');
+
+    // readings link (USCCB uses MMDDYY)
+    const t = x.date;
+    $('readings').href = `https://bible.usccb.org/bible/readings/${pad(t.m)}${pad(t.d)}${String(t.y).slice(2)}.cfm`;
+    $('readings').textContent = (isToday ? 'Today’s readings' : 'Readings for this day') + ' at USCCB ↗';
+
+    $('pick').value = iso(t);
+    const want = { y: t.y, m: t.m };
+    if (!view || view.y !== want.y || view.m !== want.m) view = want;
+    renderMonth();
+    renderKeys(x);
+    const h = '#' + iso(t);
+    if (location.hash !== h) history.replaceState(null, '', cur === todayN ? location.pathname : h);
+    document.title = `${p.name} · Liturgical Calendar`;
+  }
+
+  const ordinal = n => n + (n % 100 >= 11 && n % 100 <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][n % 10] || 'th');
+  function shortName(p, x) {
+    if (p.source === 'temporal' && p.kind === 'sunday' && x.week) {
+      if (p.name.startsWith('Palm')) return 'Palm Sunday';
+      return `${ordinal(x.week)} Sunday` + ({ advent: ' of Advent', lent: ' of Lent', easter: ' of Easter' }[x.season] || '');
+    }
+    if (/within the Octave of Easter/.test(p.name)) return 'Easter Octave';
+    if (/^Easter Sunday/.test(p.name)) return 'Easter Sunday';
+    if (/^Friday of the Passion/.test(p.name)) return 'Good Friday';
+    return p.name.replace(/^Saints? /, m => m.startsWith('Saints') ? 'Sts. ' : 'St. ')
+      .replace(/^The /, '').replace(/, (Bishop|Priest|Virgin|Pope|Religious|Abbot|Deacon|Martyr|Apostle|Evangelist).*$/, '');
+  }
+
+  function renderMonth() {
+    const { y, m } = view;
+    $('monthTitle').textContent = `${LitCal.MONTHS[m - 1]} ${y}`;
+    const first = LitCal.dn(y, m, 1);
+    const start = first - LitCal.ymd(first).dow;
+    const lastDay = (m === 12 ? LitCal.dn(y + 1, 1, 1) : LitCal.dn(y, m + 1, 1)) - 1;
+    const end = lastDay + (6 - LitCal.ymd(lastDay).dow);
+    let html = LitCal.WEEKDAYS.map(w => `<div class="dow">${w.slice(0, 3)}</div>`).join('');
+    for (let n = start; n <= end; n++) {
+      const x = info(n), p = x.principal, t = LitCal.ymd(n);
+      const color = p.noColor ? 'violet' : p.color;
+      const big = p.rank <= 8 || (p.rank <= 11 && p.source !== 'temporal') || p.kind === 'sunday';
+      const label = big ? shortName(p, x) : '';
+      const cls = ['cell', t.m !== m ? 'out' : '', n === todayN ? 'today' : '', n === cur ? 'sel' : '', big ? 'big' : ''].join(' ');
+      html += `<button class="${cls}" data-n="${n}" title="${esc(p.name)}" aria-label="${esc(`${LitCal.MONTHS[t.m - 1]} ${t.d}: ${p.name}`)}">` +
+        `<span class="num">${t.d}</span><span class="lbl">${esc(label)}</span><span class="bar" style="background:var(--${color})"></span></button>`;
+    }
+    $('grid').innerHTML = html;
+  }
+
+  function renderKeys(x) {
+    // Show the liturgical year containing the selected day (Advent to Christ the King)
+    const ly = x.litYear;
+    const prev = LitCal.keyDates(ly - 1, opts).filter(k => ['First Sunday of Advent', 'Christmas', 'The Holy Family'].includes(k.name));
+    const cur_ = LitCal.keyDates(ly, opts).filter(k => !['First Sunday of Advent', 'Christmas', 'The Holy Family', 'The Epiphany of the Lord'].includes(k.name));
+    const epi = LitCal.keyDates(ly - 1, opts).find(k => k.name === 'The Epiphany of the Lord');
+    const list = [...prev, epi, ...cur_].sort((a, b) => a.n - b.n);
+    $('yearNote').textContent = `Liturgical year ${ly - 1}–${ly} · Sunday Year ${x.sundayCycle}, Weekday Year ${x.weekdayCycle}`;
+    const nextIdx = list.findIndex(k => k.n >= todayN);
+    $('keys').innerHTML = list.map((k, i) => {
+      const cls = k.n < todayN ? 'past' : i === nextIdx ? 'next' : '';
+      const name = k.name === 'The Ascension of the Lord' ? `Ascension (${opts.ascensionThursday ? 'Thursday' : 'Sunday'})` : k.name;
+      return `<li class="${cls}"><button class="what" data-n="${k.n}">${esc(name)}</button><span class="when">${fmtShort(k)}${k.y !== LitCal.ymd(cur).y ? ` ${k.y}` : ''}</span></li>`;
+    }).join('');
+  }
+
+  function legend() {
+    $('legend').innerHTML = ['violet', 'rose', 'white', 'red', 'green'].map(c => `<span>${swatch(c)}${COLOR_NAME[c]}</span>`).join('') +
+      '<span style="color:var(--muted)">White days are shown in gold.</span>';
+  }
+
+  // Events
+  const go = n => { cur = n; render(); };
+  $('prev').onclick = () => go(cur - 1);
+  $('next').onclick = () => go(cur + 1);
+  $('today').onclick = () => go(todayN);
+  $('pick').onchange = e => { const [y, m, d] = e.target.value.split('-').map(Number); if (y && m && d) go(LitCal.dn(y, m, d)); };
+  $('mPrev').onclick = () => { view = view.m === 1 ? { y: view.y - 1, m: 12 } : { y: view.y, m: view.m - 1 }; renderMonth(); };
+  $('mNext').onclick = () => { view = view.m === 12 ? { y: view.y + 1, m: 1 } : { y: view.y, m: view.m + 1 }; renderMonth(); };
+  $('grid').onclick = e => { const b = e.target.closest('[data-n]'); if (b) go(+b.dataset.n); };
+  $('keys').onclick = e => { const b = e.target.closest('[data-n]'); if (b) { go(+b.dataset.n); $('day').scrollIntoView({ behavior: 'smooth', block: 'start' }); } };
+  $('ascThu').onchange = e => { opts = { ascensionThursday: e.target.checked }; store.set('litcal.ascThu', e.target.checked ? '1' : '0'); render(); };
+  $('share').onclick = async () => {
+    const url = location.origin + location.pathname + '#' + iso(LitCal.ymd(cur));
+    try { await navigator.clipboard.writeText(url); $('share').textContent = 'Link copied'; }
+    catch (e) { $('share').textContent = 'Copy failed'; }
+    setTimeout(() => { $('share').textContent = 'Copy link'; }, 1600);
+  };
+  document.addEventListener('keydown', e => {
+    if (e.target.matches('input, textarea, select') || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === 'ArrowLeft') go(cur - 1);
+    if (e.key === 'ArrowRight') go(cur + 1);
+    if (e.key === 't' || e.key === 'T') go(todayN);
+  });
+  function fromHash() {
+    const m = /^#(\d{4})-(\d{2})-(\d{2})$/.exec(location.hash);
+    if (m) cur = LitCal.dn(+m[1], +m[2], +m[3]);
+  }
+  window.addEventListener('hashchange', () => { fromHash(); render(); });
+
+  fromHash();
+  legend();
+  render();
+})();
+</script>
+</body>
+</html>
