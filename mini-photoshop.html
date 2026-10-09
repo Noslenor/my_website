@@ -119,21 +119,17 @@
     justify-content:center;
     overflow:auto;
   }
-  #checker{
-    position:absolute;inset:0;pointer-events:none;
+  /* Checkerboard sits BEHIND the canvas, so it only shows through transparent pixels */
+  canvas#view{
+    background-color:#0f1626;
     background-image:linear-gradient(45deg,#1b2338 25%,transparent 25%),linear-gradient(-45deg,#1b2338 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#1b2338 75%),linear-gradient(-45deg,transparent 75%,#1b2338 75%);
     background-size:20px 20px;
     background-position:0 0,0 10px,10px -10px,-10px 0px;
-    opacity:.55;
-  }
-  canvas#view{
-    background:transparent;
     outline:1px solid rgba(255,255,255,.08);
     border-radius:.4rem;
-    max-width:95%;
-    max-height:95%;
     image-rendering:auto;
   }
+  canvas#view.no-checker{background-image:none;background-color:#ffffff}
   #overlayTextInput{
     position:absolute;
     display:none;
@@ -245,7 +241,6 @@
 
     <!-- Canvas Stage -->
     <section class="panel" id="stage-wrap">
-      <div id="checker"></div>
       <canvas id="view" width="1024" height="768"></canvas>
       <input id="overlayTextInput" type="text" placeholder="Type text… (Enter=commit, Esc=cancel)">
     </section>
@@ -472,11 +467,11 @@ function resizeCanvas(w,h){
   const scale = dpr;
   canvas.width = Math.round(w*scale);
   canvas.height = Math.round(h*scale);
-  canvas.style.width = w+'px';
-  canvas.style.height = h+'px';
+  // display size is set by fitCanvas(), which keeps the proportions
   // Changing canvas.width resets the transform; draw in logical (CSS) pixels on high-DPI screens
   ctx.setTransform(scale, 0, 0, scale, 0, 0);
   viewW = w; viewH = h;
+  fitCanvas();
   // Resize each layer surface keeping pixels (scale into new surface)
   state.layers = state.layers.map(old=>{
     const n = makeLayer(old.name, w, h);
@@ -487,6 +482,16 @@ function resizeCanvas(w,h){
   refreshLayersUI();
   render();
 }
+
+// Fit the canvas inside the stage without distorting it (never enlarges past 100%)
+function fitCanvas(){
+  const stage = canvas.parentElement;
+  const availW = stage.clientWidth * 0.95, availH = stage.clientHeight * 0.95;
+  const k = Math.min(1, availW / viewW, availH / viewH) || 1;
+  canvas.style.width = Math.round(viewW * k) + 'px';
+  canvas.style.height = Math.round(viewH * k) + 'px';
+}
+window.addEventListener('resize', fitCanvas);
 
 // ---------- UI: Tools ----------
 const toolLabel = $('#toolLabel');
@@ -619,8 +624,10 @@ canvas.addEventListener('mouseup', (e)=>{
 const textInput = $('#overlayTextInput');
 function showTextOverlay(x,y){
   textInput.value='';
-  textInput.style.left = (x + canvas.getBoundingClientRect().left - canvas.parentElement.getBoundingClientRect().left) + 'px';
-  textInput.style.top  = (y + canvas.getBoundingClientRect().top - canvas.parentElement.getBoundingClientRect().top) + 'px';
+  const cr = canvas.getBoundingClientRect(), pr = canvas.parentElement.getBoundingClientRect();
+  const sx = cr.width / viewW, sy = cr.height / viewH; // canvas units -> screen pixels
+  textInput.style.left = (cr.left - pr.left + canvas.parentElement.scrollLeft + x * sx) + 'px';
+  textInput.style.top  = (cr.top - pr.top + canvas.parentElement.scrollTop + y * sy) + 'px';
   textInput.style.display='block';
   textInput.focus();
   textInput.onkeydown = (ev)=>{
@@ -825,7 +832,7 @@ $('#resizeBtn').addEventListener('click', ()=>{
 
 $('#bgToggleBtn').addEventListener('click', ()=>{
   state.showChecker = !state.showChecker;
-  $('#checker').style.display = state.showChecker ? 'block' : 'none';
+  canvas.classList.toggle('no-checker', !state.showChecker);
 });
 
 // ---------- Layer buttons ----------
