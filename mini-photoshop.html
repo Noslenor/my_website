@@ -474,6 +474,8 @@ function resizeCanvas(w,h){
   canvas.height = Math.round(h*scale);
   canvas.style.width = w+'px';
   canvas.style.height = h+'px';
+  // Changing canvas.width resets the transform; draw in logical (CSS) pixels on high-DPI screens
+  ctx.setTransform(scale, 0, 0, scale, 0, 0);
   viewW = w; viewH = h;
   // Resize each layer surface keeping pixels (scale into new surface)
   state.layers = state.layers.map(old=>{
@@ -569,7 +571,7 @@ canvas.addEventListener('click', (e)=>{
   if(!L) return;
   if(state.tool==='picker'){
     const comp = compositeToTemp();
-    const d = comp.getContext('2d').getImageData(pos.x, pos.y, 1, 1).data;
+    const d = comp.getContext('2d').getImageData(Math.floor(pos.x*dpr), Math.floor(pos.y*dpr), 1, 1).data;
     const hex = '#'+[d[0],d[1],d[2]].map(v=>v.toString(16).padStart(2,'0')).join('');
     state.color = hex; $('#color').value = hex;
   }
@@ -649,7 +651,8 @@ function commitText(x,y,str){
 function applyFilter(fn){
   const L = state.layers[state.activeLayer];
   if(!L) return;
-  const img = L.ctx.getImageData(0,0,viewW,viewH);
+  // getImageData/putImageData work in device pixels, so use the layer's full backing size
+  const img = L.ctx.getImageData(0,0,L.canvas.width,L.canvas.height);
   const d = img.data;
   fn(d);
   L.ctx.putImageData(img,0,0);
