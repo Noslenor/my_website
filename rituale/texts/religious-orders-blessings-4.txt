@@ -1,0 +1,335 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessings proper to religious orders, part 4 (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Crown (Chaplet) of Our Lord
+// ──────────────────────────────────────────────────────────────────────
+# crown-our-lord | Benedictio Coronæ Domini | Blessing of the Crown (Chaplet) of Our Lord | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Camaldulensium)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Benedíces corónæ anni benignitátis tuæ. || You will bless the crown of the year of Your goodness.
+x: Et campi tui replebúntur ubertáte. || And Your fields shall be filled with plenty.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui in similitúdinem hóminum factus, trigínta et tribus annis es conversátus in mundo, et multa passus pro hóminum salúte, in Cruce demum mori voluísti: dignáre, quǽsumus, hanc (has) bene✠dícere et sancti✠ficáre corónam, quam (corónas, quas) beáto Michaéli Eremítæ Camaldulénsi ad vitam, passiónem et mortem tuam recoléndam institúere jussísti; ut, qui eam (eas) pie gestáverit (gestáverint) et devóte recitáverit (recitáverint), multíplici gratiárum et indulgentiárum consecutióne corónas in cælo ætérnas obtinére mereátur (mereántur). Per te, Jesu Christe, Salvátor mundi: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who, made in the likeness of men, lived thirty-three years in the world, suffered much for the salvation of men, and at last willed to die on the Cross: deign, we beseech You, to ✠ bless and ✠ sanctify this crown (these crowns), which You commanded blessed Michael, the Camaldolese hermit, to institute for the recalling of Your life, passion, and death; that whoever piously wears it (they who piously wear them) and devoutly recites it (recite them) may be worthy, by obtaining manifold graces and indulgences, to gain eternal crowns in heaven. Through You, Jesus Christ, Savior of the world, who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur (vel aspergantur) aqua benedicta. || And it is (or they are) sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Chaplets of the Most Precious Blood
+// ──────────────────────────────────────────────────────────────────────
+# precious-blood-chaplets | Benedictio Coronarum Pretiosissimi Sanguinis | Blessing of Chaplets of the Most Precious Blood | Proper to Religious Orders | Appendix, Benedictiones propriæ (Congr. Missionariorum pretiosissimi Sanguinis)
+r: Constat corona precatoria triginta tribus granulis, in septem distinctis partes, quarum quæque quinque habet granulos, septima parte excepta, quæ tantum tres numerat; ut ita honorentur septem Sanguinis Christi præcipuæ effusiones recitatione triginta trium Pater et septem Glória. || The chaplet consists of thirty-three beads, divided into seven parts, each of which has five beads, except the seventh part, which counts only three; so that the seven chief sheddings of the Blood of Christ may thus be honored by the recitation of thirty-three Our Fathers and seven Glory Be's.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Redemísti nos, Dómine, in Sánguine tuo. || You have redeemed us, O Lord, in Your Blood.
+x: Et fecísti nos Deo nostro regnum. || And have made us a kingdom for our God.
+v: Te ergo quǽsumus, tuis fámulis súbveni. || We therefore beseech You, help Your servants,
+x: Quos pretióso Sánguine redemísti. || Whom You have redeemed with Your precious Blood.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, qui propter exímiam caritátem tuam, qua dilexísti nos, Fílium tuum unigénitum, Dóminum nostrum Jesum Christum, de cælis in terram descéndere, et de beatíssimæ Vírginis Maríæ Dóminæ nostræ útero sacratíssimo, Angelo nuntiánte, carnem suscípere voluísti, ut nos eríperes de potestáte diáboli: obsecrámus imménsam cleméntiam tuam; ut has corónas in honórem, et laudem pretiósi Sánguinis ejúsdem Fílii tui ab Ecclésia tua fidéli dicátas bene✠dícas, et sancti✠fices, eísque tantam infúndas virtútem Spíritus ✠ Sancti, ut, quicúmque harum quámlibet secum portáverit, aut in domo sua reverénter tenúerit, ab omni hoste visíbili et invisíbili semper et ubíque in hoc sǽculo liberétur, et post éxitum suum, méritis ipsíus pretiosíssimi Sánguinis, ad ætérnam beatitúdinem felíciter pervéniat. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Almighty and merciful God, who, because of the exceeding love with which You loved us, willed that Your only-begotten Son, our Lord Jesus Christ, should come down from heaven to earth and take flesh at the message of an Angel in the most sacred womb of our Lady, the most blessed Virgin Mary, to rescue us from the power of the devil: we implore Your boundless mercy that You would ✠ bless and ✠ sanctify these chaplets, dedicated by Your faithful Church to the honor and praise of the precious Blood of the same Son of Yours, and pour into them such power of the Holy ✠ Spirit that whoever carries any one of them with him, or keeps it reverently in his home, may be delivered always and everywhere in this world from every enemy, visible and invisible, and after his departure may happily attain to eternal blessedness through the merits of that most precious Blood. Through the same Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Roses for the Society of the Most Holy Rosary
+// ──────────────────────────────────────────────────────────────────────
+# roses-rosary-society | Benedictio Rosarum Societatis Sacratissimi Rosarii | Blessing of Roses for the Society of the Most Holy Rosary | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Prædicatorum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, creátor et conservátor géneris humáni, dator grátiæ spirituális, et largítor ætérnæ salútis, benedictióne tua sancta béne✠dic has rosas, quas pro grátiis tibi exsolvéndis cum devotióne ac veneratióne beátæ sempérque Vírginis Maríæ, ejúsque Rosárii, hódie tibi præsentámus et pétimus benedíci: et infúnde eis per virtútem sanctæ Cru✠cis benedictiónem cæléstem, qui eas ad odóris suavitátem, et repelléndas infirmitátes humáno úsui tribuísti; talémque signáculo sanctæ Cru✠cis benedictiónem accípiant, ut, quibuscúmque in infirmitátibus appósitæ fúerint, seu qui eas in dómibus suis portáverint, ab infirmitáte sanéntur: discédant diáboli, contremíscant et fúgiant pávidi cum suis minístris de habitatiónibus illis, nec ámplius tibi serviéntes inquietáre præsúmant. Per Christum, Dóminum nostrum. ℟. Amen. || O God, Creator and Preserver of the human race, Giver of spiritual grace and Bestower of eternal salvation, with Your holy blessing ✠ bless these roses, which we present to You today in thanksgiving, with devotion and veneration for blessed Mary ever Virgin and her Rosary, and ask to have blessed; and pour into them a heavenly blessing through the power of the holy ✠ Cross, You who have given them for the use of man, for the sweetness of their fragrance and for driving away infirmities; and may they receive such a blessing through the sign of the holy ✠ Cross that whatever sick persons they are placed upon, and whoever keeps them in their homes, may be healed of their infirmity; may the devils depart, and with their ministers tremble and flee in fear from those dwellings, and no longer presume to disturb those who serve You. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Candles for the Society of the Most Holy Rosary
+// ──────────────────────────────────────────────────────────────────────
+# candles-rosary-society | Benedictio Candelarum Societatis Sacratissimi Rosarii | Blessing of Candles for the Society of the Most Holy Rosary | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Prædicatorum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, lux vera, qui illúminas omnem hóminem veniéntem in hunc mundum: effúnde per intercessiónem beátæ Vírginis Maríæ matris tuæ, et per quíndecim ejus Rosárii mystéria, bene✠dictiónem tuam super hos céreos et candélas, et sancti✠fica eas lúmine tuæ grátiæ; et concéde propítius, ut, sicut hæc luminária igne visíbili accénsa noctúrnas depéllunt ténebras, ita corda nostra, invisíbili igne ac Spíritus ✠ Sancti splendóre illustráta, ómnium vitiórum cæcitáte cáreant: ut puro mentis óculo cérnere semper possímus, quæ tibi sunt plácita et nostræ salúti utília, quátenus post hujus sǽculi caliginósa discrímina, ad lucem indeficiéntem perveníre mereámur: Qui vivis et regnas per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, true Light, who enlighten every man coming into this world: through the intercession of the blessed Virgin Mary, Your Mother, and through the fifteen mysteries of her Rosary, pour forth Your ✠ blessing upon these tapers and candles, and ✠ sanctify them with the light of Your grace; and graciously grant that, as these lights, kindled with visible fire, dispel the darkness of night, so our hearts, enlightened by invisible fire and the splendor of the Holy ✠ Spirit, may be free from the blindness of all vices; that with the pure eye of the mind we may always discern what is pleasing to You and profitable for our salvation, so that after the dark perils of this world we may be worthy to come to the never-failing light. You who live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of St. Bridget Chaplets
+// ──────────────────────────────────────────────────────────────────────
+# birgitta-chaplets | Benedictio Coronarum S. Birgittæ | Blessing of St. Bridget Chaplets | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Ssmi Salvatoris)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, qui propter nímiam caritátem tuam, qua dilexísti nos, Fílium tuum, Dóminum nostrum Jesum Christum pro redemptióne nostra de cælis in terram descéndere, et de beatíssimæ Vírginis útero, Angelo nuntiánte, carnem suscípere voluísti, ut nos eríperes de potestáte diáboli: obsecrámus imménsam cleméntiam tuam, ut has corónas in honórem et laudem Genetrícis Fílii tui ab Ecclésia tua fidéli dicátas bene✠dícas, et sancti✠fices, eísque tantam infúndas virtútem Spíritus ✠ Sancti; ut, quicúmque eas portáverit, vel recitáverit, aut domi reverénter tenúerit, ab omni hoste et adversitáte semper et ubíque liberétur, indulgéntias lucrári possit juxta mandátum sanctæ Románæ Ecclésiæ, et in éxitu mortis suæ a beatíssima Vírgine tibi plenus méritis præsentári mereátur. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus. ℟. Amen. || Almighty and merciful God, who, because of the great love with which You loved us, willed that Your Son, our Lord Jesus Christ, should come down from heaven to earth for our redemption and take flesh in the womb of the most blessed Virgin at the message of an Angel, to rescue us from the power of the devil: we implore Your boundless mercy that You would ✠ bless and ✠ sanctify these chaplets, dedicated by Your faithful Church to the honor and praise of the Mother of Your Son, and pour into them such power of the Holy ✠ Spirit that whoever carries them, or recites them, or keeps them reverently at home, may be delivered always and everywhere from every enemy and adversity, may be able to gain indulgences according to the command of the holy Roman Church, and at the hour of his death may be worthy to be presented to You, full of merits, by the most blessed Virgin. Through the same Jesus Christ our Lord, Your Son, who lives and reigns with You in the unity of the same Spirit. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti descéndat super vos, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Chaplet of St. Joseph
+// ──────────────────────────────────────────────────────────────────────
+# crown-st-joseph | Benedictio Coronæ S. Joseph | Blessing of the Chaplet of St. Joseph | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Carmelitarum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, qui propter nímiam caritátem, qua dilexísti nos, Fílium tuum unigénitum, Dóminum nostrum Jesum Christum pro redemptióne nostra de cælis in terram descéndere, et de beatíssimæ Vírginis Maríæ útero, Angelo nuntiánte, carnem suscípere voluísti, ut nos de potestáte inimíci eríperes: obsecrámus cleméntiam tuam, ut hanc corónam in honórem, et laudem ejúsdem Genetrícis Fílii tui, ac perdilécti ejus Sponsi Joseph, conféctam, et dicátam, bene✠dícas, eíque tantam Sancti Spíritus virtútem infúndas; ut, quicúmque hanc secum portáverit, atque in domo sua reverénter tenúerit, ab omni hoste visíbili et invisíbili, semper et ubíque in hoc sǽculo liberétur, et in éxitu suo, a beatíssimis illis Sponsis, plenus bonis opéribus tibi præsentári mereátur. Per eúndem Dóminum... in unitáte ejúsdem Spíritus. ℟. Amen. || Almighty and merciful God, who, because of the great love with which You loved us, willed that Your only-begotten Son, our Lord Jesus Christ, should come down from heaven to earth for our redemption and take flesh in the womb of the most blessed Virgin Mary at the message of an Angel, to rescue us from the power of the enemy: we implore Your mercy that You would ✠ bless this chaplet, made and dedicated in honor and praise of the same Mother of Your Son and of her most beloved Spouse Joseph, and pour into it such power of the Holy Spirit that whoever carries it with him and keeps it reverently in his home may be delivered always and everywhere in this world from every enemy, visible and invisible, and at his departure may be worthy to be presented to You, full of good works, by those most blessed Spouses. Through the same Lord... in the unity of the same Spirit. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Ring of St. Joseph
+// ──────────────────────────────────────────────────────────────────────
+# ring-st-joseph | Benedictio Anuli S. Joseph | Blessing of the Ring of St. Joseph | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Carmelitarum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cujus verbo sanctificántur ómnia, quæ percípimus: effúnde, quǽsumus, bene✠dictiónem tuam super nos et super hunc ánulum; ut per intercessiónem beátæ Maríæ semper Vírginis, ac ejus Sponsi Joseph, quæcúmque præséntis vitæ necéssitas póstulat, misericórditer cum gratiárum actióne assequámur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, by whose word all things that we receive are sanctified: pour forth, we beseech You, Your ✠ blessing upon us and upon this ring; that through the intercession of blessed Mary ever Virgin and of her Spouse Joseph, we may mercifully obtain, with thanksgiving, whatever the needs of this present life require. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Sick with the Wood of the Most Holy Cross, or the Sign of St. Maurus, Abbot
+// ──────────────────────────────────────────────────────────────────────
+# sick-st-maurus | Benedictio Infirmorum cum Ligno Sanctissimæ Crucis D. N. J. C. seu Signum S. Mauri Abbatis | Blessing of the Sick with the Wood of the Most Holy Cross, or the Sign of St. Maurus, Abbot | The Sick | Appendix, Benedictiones propriæ (Ord. S. Benedicti)
+r: Antea rite exponatur Reliquia veræ Crucis Dominicæ, duabus saltem candelis accensis. Excitetur deinde in infirmo actus contritionis, et firma fiducia, ut adjutus meritis S. P. Benedicti et S. Mauri, ipsis intercedentibus, si Deo placeat, sanitatem obtineat. Recitentur tres Pater totidemque Ave, María et Glória in honorem sanctissimæ Trinitatis: tum Sacerdos, indutus superpelliceo et stola rubri coloris, manu dextera tenens elevatam Reliquiam sanctæ Crucis coram infirmo, dicit: || First a relic of the true Cross of the Lord is duly exposed, with at least two candles lit. Then the sick person is stirred to an act of contrition and to firm confidence that, helped by the merits of our holy Father Benedict and of St. Maurus, and through their intercession, he may obtain health, if it please God. Three Our Fathers and as many Hail Marys and Glory Be's are recited in honor of the most Holy Trinity; then the priest, vested in surplice and red stole, holding the relic of the holy Cross raised in his right hand before the sick person, says:
+v: Benedíctio et cláritas et sapiéntia et gratiárum áctio, honor, virtus et fortitúdo Deo nostro in sǽcula sæculórum. || Blessing and glory and wisdom and thanksgiving, honor, power, and strength be to our God for ever and ever.
+x: Amen. || Amen.
+v: Pes meus stetit in dirécto. || My foot has stood on level ground.
+x: In ecclésiis benedícam te, Dómine. || In the churches I will bless You, O Lord.
+h: Invocatio || Invocation
+t: Per sanctíssimum nomen Dómini invocátum, optátam tibi donet sanitátem illa fides, qua sanctus Maurus per sequéntia verba ægrótos sanávit, et in qua ego, licet indígnus peccátor, eásdem preces super te humíliter prófero: || By the most holy name of the Lord which has been invoked, may that faith grant you the health you desire, by which St. Maurus healed the sick with the following words, and in which I, though an unworthy sinner, humbly pronounce the same prayers over you:
+t: In nómine sanctíssimæ et indivíduæ Trinitátis, adjútus méritis sanctíssimi Patris Benedícti, sta sanus (-a), o N., et incólumis super pedes tuos rectus (-a). In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || In the name of the most holy and undivided Trinity, helped by the merits of our most holy Father Benedict, stand up healthy, O N., and sound, upright upon your feet. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+t: *Ant.* Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit, cujus livóre sanáti sumus. || *Ant.* Surely He has borne our infirmities and carried our sorrows; by His bruises we are healed.
+v: Qui propitiátur iniquitátibus hóminum. || May He who forgives the iniquities of men
+x: Ipse sanet infirmitátes tuas. || Himself heal your infirmities.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus ómnium cónditor creaturárum, qui ad restauratiónem humáni géneris únicum Fílium tuum, cooperánte Spíritu Sancto, ex María Vírgine incarnári constituísti, et per sacrosánctum ac gloriósum vivíficæ Crucis lignum vulnéribus et languóribus animárum nostrárum, nos rediméndo, subveníre dignátus es: ipse hunc fámulum tuum N. (hanc fámulam tuam N.) per vitális hujus signi virtútem ad prístinam redúcere dignéris sanitátem. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || O God, Maker of all creatures, who for the restoration of the human race decreed that Your only Son should become incarnate of the Virgin Mary by the working of the Holy Spirit, and who deigned, in redeeming us, to relieve the wounds and infirmities of our souls through the most holy and glorious wood of the life-giving Cross: deign Yourself to restore this Your servant N. (this Your handmaid N.) to former health by the power of this life-giving sign. Through the same Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui magístro meo beáto Benedícto dedísti potestátem apud te impetráre, quod in nómine tuo péteret: tu per ipsíus intercessiónem cunctos ab hoc fámulo tuo (ab hac fámula tua) languóres repéllere dignáre; ut sanitáte percépta, gratiárum actiónem réferat nómini sancto tuo: Qui cum Patre et Spíritu Sancto vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who gave my master, blessed Benedict, the power to obtain from You whatever he asked in Your name: through his intercession deign to drive away all ailments from this Your servant (this Your handmaid); that, having regained health, he (she) may render thanks to Your holy name. You who live and reign with the Father and the Holy Spirit for ever and ever. ℟. Amen.
+h: Signum || The Sign
+t: Per invocatiónem immaculátæ Dei Matris et semper Vírginis Maríæ, et per intercessiónem sanctórum Benedícti et Mauri, Poténtia ✠ Dei Patris, Sapiéntia ✠ Dei Fílii, Virtus ✠ Spíritus Sancti líberet te ab ista infirmitáte. Amen. || Through the invocation of the immaculate Mother of God and ever Virgin Mary, and through the intercession of Saints Benedict and Maurus, may the ✠ Power of God the Father, the ✠ Wisdom of God the Son, and the ✠ Strength of the Holy Spirit deliver you from this infirmity. Amen.
+t: Sicut fúerit beneplácitum ejus, sic fiat, et fiat tibi, sicut petis et desíderas ad laudem et honórem sanctíssimæ Crucis Dómini nostri Jesu Christi. || As it shall be His good pleasure, so be it done; and be it done to you as you ask and desire, to the praise and honor of the most holy Cross of our Lord Jesus Christ.
+r: Ultimo benedicit infirmo Reliquia S. Crucis, dicens: || Finally he blesses the sick person with the relic of the holy Cross, saying:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Et porrigit ad osculum. || And he offers it to be kissed.
+r: Hoc signum, si opus sit, repetitur per tres vices, sive diversis diebus, sive eadem die, juxta necessitatem. Tres etiam Missæ votivæ, si lubet, nempe de Passione, de S. Mauro Abbate, et pro defunctis celebrandæ erunt: alioquin beatissimæ Virginis Mariæ Rosarium in tres partes distributum juxta præfatam intentionem infirmus, si potest, recitabit vel recitare faciet. || If need be, this sign is repeated three times, either on different days or on the same day, as necessity requires. Three votive Masses may also be celebrated, if desired, namely of the Passion, of St. Maurus, Abbot, and for the dead; otherwise the sick person, if he can, shall recite, or have recited, the Rosary of the most blessed Virgin Mary, divided into three parts, for the aforesaid intention.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of the Blessed Virgin Mary and St. Torello, Confessor, for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# water-st-torello | Benedictio Aquæ in honorem B. M. V. et S. Torelli Confessoris pro infirmis | Blessing of Water in Honor of the Blessed Virgin Mary and St. Torello, Confessor, for the Sick | Holy Water | Appendix, Benedictiones propriæ (Breve 16 Dec. 1628)
+r: (Breve 16 Decembris 1628) || (Brief of December 16, 1628)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui miseratióne tua cælésti homínibus nóxia súbtrahis, et benígna concédis, quique mota per Angelum tuum aqua languórem in probática piscína eripiéndo valetúdinem contulísti: infúnde in aqua ista tuæ bene✠dictiónis rorem; ut de ea suméntes, méritis et précibus beatíssimæ Maríæ Vírginis, ac sancti Torélli Confessóris, sanitátem consequántur infírmi, paritérque fecundátæ mulíeres a malis ingruéntibus salvæ, partúsque suos ad sacrosáncti Baptísmi grátiam felíciter perdúcant. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who in Your heavenly compassion take away from men what is harmful and grant what is good, and who, when the water was stirred by Your Angel at the sheep pool, restored health by taking away infirmity: pour into this water the dew of Your ✠ blessing; that those who take of it, through the merits and prayers of the most blessed Virgin Mary and of St. Torello, Confessor, may obtain health if they are sick, and likewise that expectant mothers, kept safe from the evils that threaten them, may happily bring their offspring to the grace of holy Baptism. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water with Relics of St. Peter Martyr
+// ──────────────────────────────────────────────────────────────────────
+# water-st-peter-martyr | Benedictio Aquæ cum Reliquiis S. Petri Mart. | Blessing of Water with Relics of St. Peter Martyr | Holy Water | Appendix, Benedictiones propriæ (Ord. Prædicatorum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui ad salútem humáni géneris máxima quæque sacraménta in aquárum substántia condidísti, adésto propítius invocatiónibus nostris, et eleménto huic aquæ, quod beáti Petri Mártyris tui virtúte consignámus, virtútem tuæ bene✠dictiónis infúnde: ut per intervéntum ejúsdem Mártyris tui, sit fidélibus tuis in remédium salutáre, dæmones ab eis ejíciens, morbos ac infirmitátes córporis et ánimæ repéllens, et præsta; ut, quicúmque eam súmpserint, vel ea aspérsi fúerint, ab omni adversitáte ánimæ et córporis liberéntur, et utriúsque hóminis recípiant sanitátem. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who for the salvation of the human race have hidden Your greatest mysteries in the substance of water: be graciously present at our invocations, and pour the power of Your ✠ blessing into this element of water, which we seal with the power of blessed Peter, Your Martyr; that through the intercession of the same Martyr of Yours it may be to Your faithful a saving remedy, casting out devils from them and driving away diseases and infirmities of body and soul; and grant that whoever take of it, or are sprinkled with it, may be delivered from every adversity of soul and body, and receive health of both the inner and the outer man. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Imménsam cleméntiam tuam, omnípotens ætérne Deus, humíliter implorámus: ut hos fidéles tuos, ad relíquias beáti Petri Mártyris devóte accedéntes, et ejus suffrágia postulántes, tua ineffábili virtúte bene✠dícere dignéris; ut per intervéntum ejúsdem Mártyris tui, ab omni ægritúdine mentis et córporis liberáti, tuáque hic et ubíque misericórdia custodíti, et grátia salváti, post hujus quoque viæ ac vitæ cursum, ad ætérna mereántur gáudia perveníre. Per Christum, Dóminum nostrum. ℟. Amen. || We humbly implore Your boundless mercy, almighty, eternal God, that You would deign by Your ineffable power to ✠ bless these Your faithful, who devoutly approach the relics of blessed Peter, Martyr, and ask his intercession; that, through the intercession of the same Martyr of Yours, delivered from every sickness of mind and body, guarded here and everywhere by Your mercy, and saved by Your grace, they may be worthy, after the course of this journey and this life, to attain to eternal joys. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Palms or Other Branches on the Feast of St. Peter Martyr
+// ──────────────────────────────────────────────────────────────────────
+# palms-st-peter-martyr | Benedictio Palmarum vel aliorum Ramorum in festo S. Petri Martyris | Blessing of Palms or Other Branches on the Feast of St. Peter Martyr | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Prædicatorum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, béne✠dic hos árborum ramos supplicatiónibus nostris: et infúnde eis, Dómine, per virtútem sanctæ Cru✠cis et per intercessiónem beáti Petri Mártyris, benedictiónem cæléstem, qui triumphatúrus de hoste géneris humáni per manus puerórum palmas et árborum ramos in honórem tuum adhibére voluísti, talémque benedictiónem signáculo sanctæ Cru✠cis accípiant: ut, in quibuscúmque locis áliquid ex eis pósitum fúerit, discédant príncipes tenebrárum et contremíscant et fúgiant pávidi cum ómnibus minístris suis de locis vel habitatiónibus illis. Non ibi nóceant fúlmina et tempestátes, non fructus terræ consúmat aut depérdat ulla intempéries eleménti, nihílque inquiétet aut moléstet serviéntes tibi omnipoténti Deo: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, at our supplication ✠ bless these branches of trees; and pour into them, O Lord, through the power of the holy ✠ Cross and through the intercession of blessed Peter, Martyr, a heavenly blessing, You who, when about to triumph over the enemy of the human race, willed that palms and branches of trees be used in Your honor by the hands of children; and may they receive such a blessing through the sign of the holy ✠ Cross that, in whatever places any part of them is put, the princes of darkness may depart, and with all their ministers tremble and flee in fear from those places or dwellings. May lightning and storms do no harm there; may no inclemency of the elements consume or destroy the fruits of the earth; and may nothing disturb or trouble those who serve You, the almighty God. You who live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of St. Vincent Ferrer for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# water-st-vincent-ferrer | Benedictio Aquæ in honorem S. Vincentii Ferrerii pro infirmis | Blessing of Water in Honor of St. Vincent Ferrer for the Sick | Holy Water | Appendix, Benedictiones propriæ (Ord. Prædicatorum)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc, et usque in sǽculum. || From this time forth and for evermore.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Majestátem tuam, Dómine, súpplices exorámus, ut, qui in desérto erémi petram benedixísti, ut bis a virga Móysi percússa, aquæ ex ea largíssime egrederéntur, et géminam illam percussiónem sacraméntum Passiónis, et duo ligna Crucis significáre voluísti; tua quoque benignitáte et cleméntia per ejúsdem sanctæ Crucis mystérium, aquam istam larga bene✠dictióne sanctífices, ut omnis infírmus, qui de ea bíberit, vel ex ea aspérsus fúerit, séntiat statim salutárem tuæ benedictiónis efféctum. Per Christum, Dóminum nostrum. ℟. Amen. || We humbly entreat Your majesty, O Lord, that You, who in the wilderness of the desert blessed the rock so that, struck twice by the rod of Moses, waters flowed from it most abundantly, and who willed that double striking to signify the mystery of the Passion and the two beams of the Cross, may likewise in Your goodness and mercy, through the mystery of the same holy Cross, sanctify this water with an abundant ✠ blessing; that every sick person who drinks of it or is sprinkled with it may at once feel the saving effect of Your blessing. Through Christ our Lord. ℟. Amen.
+t: Benedíco hanc aquam in nómine Dei ✠ Patris omnipoténtis, qui hoc ad usum humánum gratum creávit eleméntum, ut sit sórdium lavácrum córporis et ánimæ, mira omnipoténtia elevátum; potum sitiéntibus tríbuat, refrigérium sit æstuántibus, via et sémita navigántibus; et qui in aqua et per aquam in mundi univérsi submersióne sacraméntum novæ legis præsignávit, cum octo ánimas salvávit in arca super eam ambulánte, apértis cataráctis cæli plúere fecit eam quadragínta diébus et quadragínta nóctibus super terram, hanc aquam bene✠dícat, et sancti✠ficet, ut ad sui sancti nóminis et sancti Vincéntii invocatiónem ægrótum sanet, consólidet infírmum, dejéctum érigat, immúndum puríficet ac peténti ab eo salútem poténter restítuat. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || I bless this water in the name of God the ✠ Father almighty, who created this element pleasing to the use of man, raised up by His wondrous omnipotence to be a cleansing of the stains of body and soul; may it give drink to the thirsty, refreshment to those who burn with heat, a way and a path to those who sail; and may He who, in and through water, foreshadowed the mystery of the new law in the submersion of the whole world, when He saved eight souls in the ark moving upon it, opening the floodgates of heaven and making it rain upon the earth forty days and forty nights, ✠ bless and ✠ sanctify this water, that at the invocation of His holy name and of St. Vincent it may heal the sick, strengthen the weak, raise up the downcast, cleanse the unclean, and powerfully restore health to him who asks it of Him. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Sacerdos tangens vas aquæ Reliquia vel Imagine S. Vincentii, dicat: || The priest, touching the vessel of water with a relic or image of St. Vincent, says:
+t: Orémus. || Let us pray.
+t: Adésto, Dómine, supplicatiónibus nostris, et eleménto huic aquæ méritis sancti Vincéntii, cujus Relíquia (vel Imágine) tángitur, virtútem tuæ iterátæ benedictiónis infúnde, ut bibénti fiat potus ad salútem. ℟. Amen. || Be present, O Lord, at our supplications, and through the merits of St. Vincent, with whose relic (or image) it is touched, pour into this element of water the power of Your renewed blessing, that it may become a drink of health to him who drinks it. ℟. Amen.
+t: In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Crux præsignata fieri debet cum Reliquia vel Imagine. || The sign of the cross marked above is to be made with the relic or image.
+r: Deinde Sacerdos dicat: || Then the priest says:
+t: *Ant.* Adsit nobis propítius in hujus vitæ véspere, ad Christum nos Vincéntius tuto ferens itínere. || *Ant.* May Vincent be graciously with us in the evening of this life, bearing us safely on the way to Christ.
+v: Ora pro nobis, beáte Vincénti. || Pray for us, blessed Vincent,
+x: Ut digni efficiámur promissiónibus Christi. || That we may be made worthy of the promises of Christ.
+t: Orémus. || Let us pray.
+t: Deus, qui géntium multitúdinem, mira beáti Vincéntii Confessóris tui prædicatióne, ad agnitiónem tui nóminis veníre tribuísti: præsta, quǽsumus; ut, quem ventúrum júdicem nuntiávit in terris, præmiatórem habére mereámur in cælis. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who through the wondrous preaching of blessed Vincent, Your Confessor, granted a multitude of nations to come to the knowledge of Your name: grant, we beseech You, that we may be worthy to have as our rewarder in heaven Him whom he proclaimed on earth as the Judge who is to come. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of St. Raymond Nonnatus for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# water-st-raymond-nonnatus | Benedictio Aquæ in honorem S. Raymundi Nonnati pro infirmis | Blessing of Water in Honor of St. Raymond Nonnatus for the Sick | Holy Water | Appendix, Benedictiones propriæ (Ord. B. M. V. de Mercede)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, fidélium ómnium fortitúdo et salus, qui socrum beáti Petri Apóstoli tui fébribus magnis deténtam, piæ rogatiónis intúitu perfécte sanásti: sancti✠ficáre, et bene✠dícere dignéris creatúram hanc aquæ in tuo sanctíssimo nómine, et Confessóris tui Raymúndi, quem, spreto sǽculo, ad almæ Genetrícis Vírginis Maríæ religiónem vocáre dignátus es, concéde, quǽsumus, ejus gloriósis méritis, et intercessióne; ut, quicúmque fébrium vexatióne gravántur, per hujus lotiónem, aspersiónem vel potiónem aquæ, a cunctis ánimæ et córporis infirmitátibus liberéntur, atque Ecclésiæ tuæ incólumes repræsentári mereántur, gratiárum tibi actiónes in ea júgiter referéntes: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, the strength and salvation of all the faithful, who, in regard of a loving entreaty, perfectly healed the mother-in-law of blessed Peter, Your Apostle, when she lay sick with a great fever: deign to ✠ sanctify and ✠ bless this creature of water in Your most holy name and in that of Your Confessor Raymond, whom You deigned to call, when he had spurned the world, to the religious order of the gracious Mother, the Virgin Mary; grant, we beseech You, through his glorious merits and intercession, that whoever are afflicted with fevers may, by washing with, sprinkling with, or drinking of this water, be delivered from all infirmities of soul and body, and be worthy to be presented again unharmed to Your Church, ever giving You thanks in it. You who live and reign for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, méritis beáti Raymúndi creatúram hanc aquæ, qui glorióso tuo córpore benedixísti aquas Jordánis: et præsta; ut omnes gustántes ex ea, vel eam attingéntes, tam córporis, quam ánimæ recípiant sanitátem: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || ✠ Bless, O Lord, through the merits of blessed Raymond, this creature of water, You who blessed the waters of the Jordan with Your glorious body; and grant that all who taste of it or touch it may receive health of body as well as of soul. You who live and reign for ever and ever. ℟. Amen.
+t: *Ant.* O Raymúnde, norma mundítiæ, puritátis, et continéntiæ! Ora Matrem misericórdiæ, ut in hac valle misériæ nos deféndat a pravo scélere, atque exúti a mortáli córpore perfruámur ætérna réquie. || *Ant.* O Raymond, model of cleanness, purity, and continence! Pray to the Mother of mercy that in this valley of misery she may defend us from wicked crime, and that, set free from this mortal body, we may enjoy eternal rest.
+t: Orémus. || Let us pray.
+t: Concéde, quǽsumus, omnípotens Deus, ut per virtútem benedictiónis hujus aquæ, et per mérita passiónis Dómini nostri Jesu Christi, per intercessiónem beátæ Maríæ Vírginis, et beáti Raymúndi, et ómnium Sanctórum, omnes fidéles, qui pie et devóte aquam istam gustáverint, vel attígerint, ánimæ et córporis sanitátem váleant recípere, et in tuo sancto servítio permanére. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, almighty God, that through the power of the blessing of this water, through the merits of the passion of our Lord Jesus Christ, and through the intercession of the blessed Virgin Mary, of blessed Raymond, and of all the Saints, all the faithful who piously and devoutly taste or touch this water may be able to receive health of soul and body and to persevere in Your holy service. Through the same Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui dedísti fámulis tuis in confessióne veræ fídei, ætérnæ Trinitátis glóriam agnóscere, et in poténtia majestátis adoráre unitátem: quǽsumus; ut ejúsdem fídei firmitáte, ab ómnibus semper muniámur advérsis. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who have granted Your servants, in the confession of the true faith, to acknowledge the glory of the eternal Trinity and to adore the Unity in the power of Your majesty: we beseech You that by steadfastness in this same faith we may ever be defended from all adversities. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia. Per Christum, Dóminum nostrum. ℟. Amen. || Grant us Your servants, we beseech You, O Lord God, to enjoy lasting health of mind and body; and by the glorious intercession of blessed Mary ever Virgin, to be delivered from present sorrow and to enjoy eternal gladness. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui in liberándis fidélibus tuis ab impiórum captivitáte beátum Raymúndum Confessórem tuum mirábilem effecísti: ejus nobis intercessióne concéde; ut a peccatórum vínculis absolúti, quæ tibi sunt plácita, líberis méntibus exsequámur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who made blessed Raymond, Your Confessor, wonderful in freeing Your faithful from captivity among the ungodly: grant us through his intercession that, loosed from the bonds of our sins, we may carry out with free minds what is pleasing to You. Through Christ our Lord. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super has aquas, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon these waters and remain for ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Candles in Honor of St. Raymond Nonnatus
+// ──────────────────────────────────────────────────────────────────────
+# candles-st-raymond-nonnatus | Benedictio Candelarum in honorem S. Raymundi Nonnati | Blessing of Candles in Honor of St. Raymond Nonnatus | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. B. M. V. de Mercede)
+r: quæ præsertim pro felici partu accendi solent || which are customarily lit especially for a safe childbirth
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, ætérnæ vitæ lumen, qui candelárum usus ad repelléndas ténebras tribuísti; béne✠dic candélas istas méritis beáti Raymúndi Confessóris supplicatiónibus nostris inclinátus, et infúnde eis per virtútem sanctæ Crucis tuam bene✠dictiónem cæléstem talémque benedictiónem signáculo sanctæ Cru✠cis accípiant; ut, quibuscúmque locis accénsæ, sive pósitæ fúerint, discédant príncipes tenebrárum, et contremíscant, et fúgiant pávidi cum ómnibus minístris suis ab habitatiónibus illis, nec præsúmant ámplius inquietáre, nec molestáre serviéntes tibi omnipoténti Deo: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, Light of eternal life, who have given the use of candles to drive away darkness: inclined by our supplications, ✠ bless these candles through the merits of blessed Raymond, Confessor, and through the power of the holy Cross pour into them Your heavenly ✠ blessing; and may they receive such a blessing through the sign of the holy ✠ Cross that, in whatever places they are lit or set, the princes of darkness may depart, and with all their ministers tremble and flee in fear from those dwellings, and no longer presume to disturb or trouble those who serve You, the almighty God. You who live and reign for ever and ever. ℟. Amen.
+r: Dicto Orémus, adduntur tres Orationes, Omnípotens, Concéde, Deus, qui in liberándis, ut in præcedenti benedictione aquæ. Deinde dicitur: || After "Let us pray," the three prayers "Almighty," "Grant," and "O God, who in freeing" are added, as in the preceding Blessing of Water in Honor of St. Raymond Nonnatus (Benedictio Aquæ in honorem S. Raymundi Nonnati). Then is said:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super has candélas, et máneat semper. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon these candles and remain for ever. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Oil in Honor of St. Serapion, Martyr
+// ──────────────────────────────────────────────────────────────────────
+# oil-st-serapion | Benedictio Olei in honorem S. Serapionis Mart. | Blessing of Oil in Honor of St. Serapion, Martyr | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. B. M. V. de Mercede)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, totíus humáni géneris phármacum et levámen: sancti✠ficáre dignéris ólei creatúram hanc, quam bene✠dícimus in nómine tuo, strenuíque tui athlétæ Serapiónis almi; ut ulcéribus, fractúris atque omnígeni dolóris gravámine decumbéntes, hoc sancto óleo perúncti, ejus qui in cruciátu tot fuit truces perpéssus dolóres, interveniéntibus précibus et juvámine, temporálem séntiant opem, et salútem adipiscántur ætérnam. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, remedy and relief of the whole human race: deign to ✠ sanctify this creature of oil, which we ✠ bless in Your name and in that of Your valiant champion, the holy Serapion; that those who lie afflicted with ulcers, fractures, and the burden of every kind of pain, being anointed with this holy oil, may feel temporal help through the prayers and aid of him who in his torment endured so many cruel pains, and may obtain eternal salvation. Through Christ our Lord. ℟. Amen.
+t: *Ant.* Serápion, athléta nóbilis, Mariánæ milítiæ sígnifer, Vírgini matri diléctus, passióne præclárus, intercéde pro nobis ad Dóminum, qui in tot dolórum strépitu, virtútem tibi cóntulit et constántiam. || *Ant.* Serapion, noble champion, standard-bearer of Mary's militia, beloved of the Virgin Mother, renowned for your passion, intercede for us with the Lord, who amid the tumult of so many pains granted you strength and constancy.
+t: Orémus. || Let us pray.
+t: Corda nostra tui amóris igne, Jesu Redémptor, inflámma: ut, sicut beátus Serápion pro fidélibus rediméndis actus in crucem te secútus occúbuit; ita pia ejus intercessióne nullis frangámur advérsis, et tuæ Crucis semper inhæreámus ampléxibus: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Inflame our hearts, O Jesus our Redeemer, with the fire of Your love; that as blessed Serapion, in redeeming the faithful, was put upon a cross and died following You, so by his loving intercession we may be broken by no adversities and may ever cling to the embrace of Your Cross. You who live and reign for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Miserátor et miséricors Dómine, béne✠dic egrégiis méritis acerbíssimæ passiónis neotérici legis grátiæ Machabǽi, sancti Serapiónis Mártyris tui, et per virtútem tuæ bene✠dictiónis sanctífica óleum istud: et præsta; ut, quicúmque quovis dolóris génere vexéntur, et in honórem Mártyris tui devóte sint perúncti, te adjuvánte, córporis nanciscántur solámen, ac mentis medélam, te opitulánte, recípiant, ut tandem réddita sibi sanitáte gratiárum tibi in Ecclésia réferant actiónes. Per Christum, Dóminum nostrum. ℟. Amen. || Compassionate and merciful Lord, ✠ bless, through the outstanding merits of the most bitter passion of St. Serapion, Your Martyr, a new Maccabee of the law of grace, and through the power of Your ✠ blessing sanctify this oil; and grant that whoever are afflicted with any kind of pain and are devoutly anointed in honor of Your Martyr, may with Your help obtain relief of body and, with Your aid, receive healing of mind, so that at length, their health restored, they may give You thanks in the Church. Through Christ our Lord. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super hoc óleum, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon this oil and remain for ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of St. Albert, Confessor
+// ──────────────────────────────────────────────────────────────────────
+# water-st-albert | Benedictio Aquæ in honorem S. Alberti Conf. | Blessing of Water in Honor of St. Albert, Confessor | Holy Water | Appendix, Benedictiones propriæ (Ord. Carmelit. Excalc.)
+r: Sacerdos indutus superpelliceo et stola, vel saltem stola, ministro cum accensa candela comitante, accedens ad locum, ubi Reliquiæ sancti Alberti sunt repositæ, extrahit illas reverenter, et, aqua benedicenda in vase decenti præparata, dicit: || The priest, vested in surplice and stole, or at least in a stole, accompanied by a server with a lighted candle, goes to the place where the relics of St. Albert are kept, reverently takes them out, and, the water to be blessed having been prepared in a fitting vessel, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc et usque in sǽculum. || From this time forth and for evermore.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, fidélium ómnium fortitúdo et salus, qui socrum beáti Petri Apóstoli tui fébribus magnis deténtam perfécte sanásti, sanctificáre et bene✠dícere dignéris creatúram hanc aquæ: ut, intercedénte beáto Albérto Confessóre tuo, quem, spreto sǽculo, ad almæ Genetrícis tuæ Vírginis Maríæ religiónem vocáre dignátus es, quicúmque fébrium vexatióne gravántur, per hujus aquæ húmilem sumptiónem a cunctis ánimæ et córporis languóribus liberéntur, atque Ecclésiæ tuæ incólumes repræsentári mereántur, gratiárum tibi actiónes in ea júgiter referéntes: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, the strength and salvation of all the faithful, who perfectly healed the mother-in-law of blessed Peter, Your Apostle, when she lay sick with a great fever: deign to sanctify and ✠ bless this creature of water; that, through the intercession of blessed Albert, Your Confessor, whom You deigned to call, when he had spurned the world, to the religious order of Your gracious Mother, the Virgin Mary, whoever are afflicted with fevers may, by humbly drinking this water, be delivered from all ailments of soul and body, and be worthy to be presented again unharmed to Your Church, ever giving You thanks in it. You who live and reign for ever and ever. ℟. Amen.
+r: Deinde accipiens reverenter Reliquias, immergit eas in aquam in modum crucis, simul dicens: || Then, reverently taking the relics, he immerses them in the water in the form of a cross, saying at the same time:
+t: Béne✠dic, Dómine, méritis sancti Albérti creatúram hanc aquæ, qui glorióso tuo córpore benedixísti aquas Jordánis: et præsta; ut omnes gustántes ex ea tam córporis quam ánimæ recípiant sanitátem: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || ✠ Bless, O Lord, through the merits of St. Albert, this creature of water, You who blessed the waters of the Jordan with Your glorious body; and grant that all who taste of it may receive health of body as well as of soul. You who live and reign for ever and ever. ℟. Amen.
+r: Deinde dicitur: || Then is said:
+t: *Ant.* O Albérte, norma mundítiæ, puritátis et continéntiæ, ora Matrem misericórdiæ, ut in hac valle misériæ nos deféndat ab omni labe, et, exúto mortáli córpore, perfruámur ætérna réquie. || *Ant.* O Albert, model of cleanness, purity, and continence, pray to the Mother of mercy that in this valley of misery she may defend us from every stain, and that, having put off this mortal body, we may enjoy eternal rest.
+v: Ora pro nobis, beáte Albérte. || Pray for us, blessed Albert,
+x: Ut digni efficiámur promissiónibus Christi. || That we may be made worthy of the promises of Christ.
+t: Orémus. || Let us pray.
+t: Concéde, quǽsumus, omnípotens et miséricors Deus: ut, intercedénte beáto Albérto Confessóre tuo, omnes fidéles, qui pie et devóte aquam istam gustáverint, ánimæ et córporis sanitátem recípere et in tuo sancto servítio permanére váleant. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, almighty and merciful God, that, through the intercession of blessed Albert, Your Confessor, all the faithful who piously and devoutly taste this water may be able to receive health of soul and body and to persevere in Your holy service. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of St. Ignatius, Confessor
+// ──────────────────────────────────────────────────────────────────────
+# water-st-ignatius | Benedictio Aquæ in honorem S. Ignatii Conf. | Blessing of Water in Honor of St. Ignatius, Confessor | Holy Water | Appendix, Benedictiones propriæ (Societatis Jesu)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc, et usque in sǽculum. || From this time forth and for evermore.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, ætérne Deus, qui benedictiónis tuæ grátiam ægris infundéndo corpóribus, factúram tuam multíplici pietáte custódis, ad invocatiónem nóminis tui benígnus assíste, ut intercedénte beáto Ignátio Confessóre tuo, fámulos tuos ab ægritúdine liberátos et sanitáte donátos, déxtera tua érigas, virtúte confírmes, potestáte tueáris atque Ecclésiæ tuæ sanctæ cum omni prosperitáte restítuas. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O holy Lord, almighty Father, eternal God, who, by pouring the grace of Your blessing into sick bodies, watch over Your creation with manifold kindness: be graciously present at the invocation of Your name; that, through the intercession of blessed Ignatius, Your Confessor, You may raise up with Your right hand Your servants, freed from sickness and endowed with health, strengthen them by Your might, protect them by Your power, and restore them to Your holy Church in all prosperity. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Immergitur in aquam numisma seu Reliquiarium sancti Ignatii, et immersum tenetur usque ad finem sequentis Orationis. || A medal or reliquary of St. Ignatius is immersed in the water and kept immersed until the end of the following prayer.
+t: Béne✠dic, Dómine, hanc aquam, ut sit remédium salutáre géneri humáno, et per intercessiónem beáti Ignátii, cujus numísma (vel relíquiæ) in eam immérgitur (immergúntur), præsta; ut, quicúmque ex ea súmpserint, córporis sanitátem et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this water, that it may be a saving remedy for mankind; and through the intercession of blessed Ignatius, whose medal (or relics) is (are) immersed in it, grant that whoever take of it may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Educitur ex aqua numisma seu Reliquiarium. || The medal or reliquary is taken out of the water.
+t: Orémus. || Let us pray.
+t: Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut ejus auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cælis. Per Dóminum. ℟. Amen. || O God, who, for spreading the greater glory of Your name, strengthened the Church militant with new help through blessed Ignatius: grant that, striving on earth with his help and after his example, we may be worthy to be crowned with him in heaven. Through our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water in Honor of St. Vincent de Paul for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# water-st-vincent-de-paul | Benedictio Aquæ in honorem S. Vincentii a Paulo pro infirmis | Blessing of Water in Honor of St. Vincent de Paul for the Sick | Holy Water | Appendix, Benedictiones propriæ (Congr. Missionis)
+r: (Approbata a S. R. C. die 16 Martii 1882) || (Approved by the Sacred Congregation of Rites, March 16, 1882)
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc et usque in sǽculum. || From this time forth and for evermore.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, ætérne Deus, qui benedictiónis tuæ grátiam ægris infundéndo corpóribus, factúram tuam multíplici pietáte custódis, ad invocatiónem sanctíssimi nóminis tui benígnus assíste; ut, intercedénte beáto Vincéntio Confessóre tuo, fámulos tuos ab ægritúdine liberátos et sanitáte donátos, déxtera tua érigas, virtúte confírmes, potestáte tueáris, atque Ecclésiæ tuæ sanctæ cum omni prosperitáte restítuas. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O holy Lord, almighty Father, eternal God, who, by pouring the grace of Your blessing into sick bodies, watch over Your creation with manifold kindness: be graciously present at the invocation of Your most holy name; that, through the intercession of blessed Vincent, Your Confessor, You may raise up with Your right hand Your servants, freed from sickness and endowed with health, strengthen them by Your might, protect them by Your power, and restore them to Your holy Church in all prosperity. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Immergitur in aquam Reliquiarium vel numisma S. Vincentii a Paulo, et immersum tenetur usque ad finem sequentis Orationis: || A reliquary or medal of St. Vincent de Paul is immersed in the water and kept immersed until the end of the following prayer:
+t: Béne✠dic, Dómine, hanc aquam, ut sit remédium salutáre géneri humáno, et per intercessiónem beáti Vincéntii Confessóris tui, cujus relíquiæ (vel numísma) in eam immergúntur (immérgitur), præsta; ut, quicúmque ex ea súmpserint, córporis sanitátem, et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this water, that it may be a saving remedy for mankind; and through the intercession of blessed Vincent, Your Confessor, whose relics (or medal) are (is) immersed in it, grant that whoever take of it may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Educitur ex aqua Reliquiarium vel numisma. || The reliquary or medal is taken out of the water.
+t: *Ant.* Páuperes Sion saturábo pánibus, sacerdótes ejus índuam salutári, et sancti ejus exsultatióne exsultábunt. || *Ant.* I will satisfy the poor of Sion with bread; I will clothe her priests with salvation, and her saints shall rejoice with exultation.
+v: Parásti in dulcédine tua páuperi, Deus. || In Your sweetness, O God, You have provided for the poor.
+x: Dóminus dabit verbum evangelizántibus virtúte multa. || The Lord shall give the word to those who preach good tidings with great power.
+t: Orémus. || Let us pray.
+t: Deus, qui ad salútem páuperum et cleri disciplínam novam in Ecclésia tua per beátum Vincéntium famíliam congregásti: da, quǽsumus; ut eódem nos quoque spíritu fervéntes, et amémus quod amávit, et quod dócuit operémur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who through blessed Vincent gathered a new family in Your Church for the salvation of the poor and the training of the clergy: grant, we beseech You, that we too, fervent with the same spirit, may both love what he loved and practice what he taught. Through Christ our Lord. ℟. Amen.

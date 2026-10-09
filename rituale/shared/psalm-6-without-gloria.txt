@@ -1,0 +1,14 @@
+// SHARED TEXT: psalm-6-without-gloria
+// Inserted wherever a rite has the line  @psalm-6-without-gloria
+// Editing it here changes it everywhere it is used.
+h: Psalmus 6 || Psalm 6
+t: Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me. || O Lord, rebuke me not in Your fury, * nor chastise me in Your wrath.
+t: Miserére mei, Dómine, quóniam infírmus sum: * sana me, Dómine, quóniam conturbáta sunt ossa mea. || Have mercy on me, O Lord, for I am weak; * heal me, O Lord, for my bones are troubled.
+t: Et ánima mea turbáta est valde: * sed tu, Dómine, úsquequo? || And my soul is greatly troubled; * but You, O Lord, how long?
+t: Convértere, Dómine, et éripe ánimam meam: * salvum me fac propter misericórdiam tuam. || Turn to me, O Lord, and deliver my soul; * save me for Your mercy's sake.
+t: Quóniam non est in morte qui memor sit tui: * in inférno autem quis confitébitur tibi? || For in death there is no one who remembers You; * and who shall give You praise in the grave?
+t: Laborávi in gémitu meo, lavábo per síngulas noctes lectum meum: * lácrimis meis stratum meum rigábo. || I have labored in my groaning; every night I will wash my bed; * I will water my couch with my tears.
+t: Turbátus est a furóre óculus meus: * inveterávi inter omnes inimícos meos. || My eye is troubled through indignation; * I have grown old among all my enemies.
+t: Discédite a me, omnes, qui operámini iniquitátem: * quóniam exaudívit Dóminus vocem fletus mei. || Depart from me, all you who work iniquity, * for the Lord has heard the voice of my weeping.
+t: Exaudívit Dóminus deprecatiónem meam, * Dóminus oratiónem meam suscépit. || The Lord has heard my supplication; * the Lord has received my prayer.
+t: Erubéscant, et conturbéntur veheménter omnes inimíci mei: * convertántur et erubéscant valde velóciter. || Let all my enemies be ashamed and greatly troubled; * let them be turned back and put to shame very speedily.

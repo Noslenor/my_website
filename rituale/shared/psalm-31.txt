@@ -1,0 +1,19 @@
+// SHARED TEXT: psalm-31
+// Inserted wherever a rite has the line  @psalm-31
+// Editing it here changes it everywhere it is used.
+h: Psalmus 31 || Psalm 31
+t: Beáti, quorum remíssæ sunt iniquitátes: * et quorum tecta sunt peccáta. || Blessed are they whose iniquities are forgiven, * and whose sins are covered.
+t: Beátus vir, cui non imputávit Dóminus peccátum, * nec est in spíritu ejus dolus. || Blessed is the man to whom the Lord has not imputed sin, * and in whose spirit there is no guile.
+t: Quóniam tácui, inveteravérunt ossa mea, * dum clamárem tota die. || Because I kept silence, my bones grew old, * while I cried out all the day long.
+t: Quóniam die ac nocte graváta est super me manus tua: * convérsus sum in ærúmna mea, dum confígitur spina. || For day and night Your hand was heavy upon me; * I am turned in my anguish, while the thorn is fastened.
+t: Delíctum meum cógnitum tibi feci: * et injustítiam meam non abscóndi. || I have made known my sin to You, * and my injustice I have not concealed.
+t: Dixi: Confitébor advérsum me injustítiam meam Dómino: * et tu remisísti impietátem peccáti mei. || I said: I will confess against myself my injustice to the Lord; * and You forgave the wickedness of my sin.
+t: Pro hac orábit ad te omnis sanctus, * in témpore opportúno. || For this shall every holy one pray to You * in due time.
+t: Verúmtamen in dilúvio aquárum multárum, * ad eum non approximábunt. || And yet in a flood of many waters * they shall not come near him.
+t: Tu es refúgium meum a tribulatióne, quæ circúmdedit me: * exsultátio mea, érue me a circumdántibus me. || You are my refuge from the trouble that surrounds me; * my joy, deliver me from those who surround me.
+t: Intelléctum tibi dabo, et ínstruam te in via hac, qua gradiéris: * firmábo super te óculos meos. || I will give you understanding, and I will instruct you in the way in which you shall go; * I will fix My eyes upon you.
+t: Nolíte fíeri sicut equus et mulus, * quibus non est intelléctus. || Do not become like the horse and the mule, * which have no understanding.
+t: In camo et freno maxíllas eórum constrínge, * qui non appróximant ad te. || With bit and bridle bind fast their jaws, * who do not come near to You.
+t: Multa flagélla peccatóris, * sperántem autem in Dómino misericórdia circúmdabit. || Many are the scourges of the sinner, * but mercy shall surround him who hopes in the Lord.
+t: Lætámini in Dómino et exsultáte, justi, * et gloriámini, omnes recti corde. || Be glad in the Lord and rejoice, you just, * and glory, all you upright of heart.
+@gloria-patri

@@ -1,0 +1,79 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Vestments, altar linens, tabernacle (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Priestly Vestments
+// ──────────────────────────────────────────────────────────────────────
+# vestments | Benedictio Sacerdotalium Indumentorum | Blessing of Priestly Vestments | Churches & Sacred Things | Tit. VIII, cap. 20
+n: Chapters 20–25 are headed in the Rituale "Blessings to be given by bishops or by others who have the faculty."
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui per Móysen fámulum tuum pontificália, et sacerdotália, seu levítica vestiménta, ad expléndum in conspéctu tuo ministérium eórum, ad honórem et decórem nóminis tui fíeri decrevísti: adésto propítius invocatiónibus nostris: ut hæc induménta sacerdotália (hoc induméntum sacerdotále), désuper irrigánte grátia tua, ingénti benedictióne per nostræ humilitátis servítium purificáre, bene✠dícere, et conse✠cráre dignéris: ut divínis cúltibus et sacris mystériis apta et benedícta exsístant (aptum et benedíctum exsístat): his quoque sacris véstibus (hac quoque sacra veste) Pontífices, et Sacerdótes, seu Levítæ tui indúti, ab ómnibus impulsiónibus, seu tentatiónibus malignórum spirítuum muníti et defénsi esse mereántur: tuísque mystériis apte et condígne servíre et inhærére, atque in his tibi plácite et devóte perseveráre tríbue. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who through Your servant Moses decreed that vestments for the high priests, priests, and Levites be made, for the fulfilling of their ministry in Your sight and for the honor and beauty of Your name: graciously hear our prayers, and deign, with the dew of Your grace from above, through the service of our lowliness, to purify, ✠ bless, and ✠ consecrate these priestly vestments (this priestly vestment) with an abundant blessing, so that they may be (it may be) fit and blessed for divine worship and the sacred mysteries. Grant also that Your bishops, priests, and deacons clothed in these sacred garments (this sacred garment) may be fortified and defended against all the assaults and temptations of evil spirits, and that they may fittingly and worthily serve and cleave to Your mysteries, and persevere in them pleasingly and devoutly before You. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus invíctæ virtútis triumphátor, et ómnium rerum creátor ac sanctificátor: inténde propítius preces nostras; et hæc induménta (hoc induméntum) levítica, sacerdotális, et pontificális glóriæ, minístris tuis fruénda (fruéndum), tuo ore próprio bene✠dícere, sancti✠ficáre, et conse✠cráre dignéris: omnésque eis (eo) uténtes, tuis mystériis aptos, et tibi in eis devóte ac laudabíliter serviéntes, gratos effícere dignéris. Per Christum, Dóminum nostrum. ℟. Amen. || O God, triumphant in unconquered power, Creator and Sanctifier of all things: graciously attend to our prayers, and deign by Your own word to ✠ bless, ✠ sanctify, and ✠ consecrate these vestments (this vestment) of levitical, priestly, and pontifical dignity, to be used by Your ministers; and deign to make all who use them fit for Your mysteries and pleasing to You as they serve You in them devoutly and worthily. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui vestiménta Pontifícibus, Sacerdótibus, et Levítis in usum tabernáculi fœ́deris necessária, Móysen fámulum tuum ágere jussísti, eúmque spíritu sapiéntiæ ad id peragéndum replevísti: hæc vestiménta (hoc vestiméntum) in usum et cultum mystérii tui bene✠dícere, sancti✠ficáre, et conse✠cráre dignéris: atque minístros altáris tui, qui ea (id) indúerint, septifórmis Spíritus grátia dignánter repléri, atque castitátis stola, beáta fácias cum bonórum fructu óperum ministérii congruéntis immortalitáte vestíri. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God almighty, who commanded Your servant Moses to make the vestments needed by the high priests, priests, and Levites for the service of the tabernacle of the covenant, and filled him with the spirit of wisdom to accomplish it: deign to ✠ bless, ✠ sanctify, and ✠ consecrate these vestments (this vestment) for the use and worship of Your mystery; and graciously fill the ministers of Your altar who wear them with the grace of the sevenfold Spirit, and clothe them with the robe of chastity and, with the fruit of good works befitting their ministry, with blessed immortality. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the same Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergantur (aspergatur) aqua benedicta. || And they are (it is) sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Altar Cloths
+// ──────────────────────────────────────────────────────────────────────
+# altar-linens | Benedictio Mapparum seu Tobalearum Altaris | Blessing of Altar Cloths | Churches & Sacred Things | Tit. VIII, cap. 21
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Exáudi, Dómine, preces nostras: et hæc linteámina (hoc linteámen), sacri Altáris úsui præparáta (præparátum), bene✠dícere, et sancti✠ficáre dignéris. Per Christum, Dóminum nostrum. ℟. Amen. || Hear our prayers, O Lord, and deign to ✠ bless and ✠ sanctify these linens (this linen) prepared for the use of the holy altar. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui Móysen fámulum tuum ornaménta et linteámina fácere per quadragínta dies docuísti, quæ étiam María téxuit, et fecit in usum ministérii tabernáculi fœ́deris; bene✠dícere, sancti✠ficáre, et conse✠cráre dignéris hæc linteámina (hoc linteámen) ad tegéndum involvendúmque altáre gloriosíssimi Fílii tui Dómini nostri Jesu Christi: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God almighty, who during forty days taught Your servant Moses to make the ornaments and linens which Miriam also wove and made for the service of the tabernacle of the covenant: deign to ✠ bless, ✠ sanctify, and ✠ consecrate these linens (this linen) for covering and enfolding the altar of Your most glorious Son, our Lord Jesus Christ, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergantur (aspergatur) aqua benedicta. || And they are (it is) sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Pall and Corporal
+// ──────────────────────────────────────────────────────────────────────
+# pall-corporal | Benedictio Pallæ et Corporalis | Blessing of a Pall and Corporal | Churches & Sacred Things | Tit. VIII, cap. 22
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Clementíssime Dómine, cujus inenarrábilis est virtus, cujus mystéria arcánis mirabílibus celebrántur: tríbue, quǽsumus; ut hoc linteámen tuæ propitiatiónis bene✠dictióne sanctificétur ad consecrándum super illud Corpus et Sánguinem Dei et Dómini nostri Jesu Christi, Fílii tui: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Most merciful Lord, whose power is beyond words and whose mysteries are celebrated with hidden wonders: grant, we beseech You, that this linen may be sanctified by the ✠ blessing of Your favor, for the consecrating upon it of the Body and Blood of our God and Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, bene✠dícere, sancti✠ficáre, et conse✠cráre dignéris linteámen istud ad tegéndum involvendúmque Corpus et Sánguinem Dómini nostri Jesu Christi, Fílii tui: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, deign to ✠ bless, ✠ sanctify, and ✠ consecrate this linen for covering and enfolding the Body and Blood of our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens Deus, mánibus nostris opem tuæ benedictiónis infúnde: ut per nostram bene✠dictiónem hoc linteámen sanctificétur, et Córporis ac Sánguinis Redemptóris nostri novum sudárium, Spíritus Sancti grátia efficiátur. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty God, pour the help of Your blessing into our hands, that through our ✠ blessing this linen may be sanctified and, by the grace of the Holy Spirit, become a new shroud for the Body and Blood of our Redeemer. Through the same Jesus Christ, Your Son, our Lord, who lives and reigns with You in the unity of the same Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Tabernacle or Vessel for Reserving the Holy Eucharist
+// ──────────────────────────────────────────────────────────────────────
+# tabernacle | Benedictio Tabernaculi seu Vasculi pro sacrosancta Eucharistia conservanda | Blessing of a Tabernacle or Vessel for Reserving the Holy Eucharist | Churches & Sacred Things | Tit. VIII, cap. 23
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, majestátem tuam súpplices deprecámur: ut tabernáculum (seu vásculum) hoc pro Córpore Fílii tui, Dómini nostri Jesu Christi, in eo condéndo fabricátum, bene✠dictiónis tuæ grátia dicáre dignéris. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, we humbly entreat Your majesty that You would deign by the grace of Your ✠ blessing to dedicate this tabernacle (or vessel), made for reserving within it the Body of Your Son, our Lord Jesus Christ. Through the same Jesus Christ, Your Son, our Lord, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.

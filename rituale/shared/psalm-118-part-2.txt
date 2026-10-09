@@ -1,0 +1,21 @@
+// SHARED TEXT: psalm-118-part-2
+// Inserted wherever a rite has the line  @psalm-118-part-2
+// Editing it here changes it everywhere it is used.
+h: Psalmus 118, ii || Psalm 118, ii
+t: Retríbue servo tuo, vivífica me: * et custódiam sermónes tuos. || Deal bountifully with Your servant, give me life, * and I will keep Your words.
+t: Revéla óculos meos: * et considerábo mirabília de lege tua. || Open my eyes, * and I will consider the wonders of Your law.
+t: Íncola ego sum in terra: * non abscóndas a me mandáta tua. || I am a sojourner on the earth; * do not hide Your commandments from me.
+t: Concupívit ánima mea desideráre justificatiónes tuas, * in omni témpore. || My soul has longed to desire Your statutes * at all times.
+t: Increpásti supérbos: * maledícti qui declínant a mandátis tuis. || You have rebuked the proud; * cursed are they who turn aside from Your commandments.
+t: Aufer a me oppróbrium, et contémptum: * quia testimónia tua exquisívi. || Take from me reproach and contempt, * for I have sought out Your testimonies.
+t: Étenim sedérunt príncipes, et advérsum me loquebántur: * servus autem tuus exercebátur in justificatiónibus tuis. || For princes sat and spoke against me, * but Your servant was occupied with Your statutes.
+t: Nam et testimónia tua meditátio mea est: * et consílium meum justificatiónes tuæ. || For Your testimonies are my meditation, * and Your statutes are my counsel.
+t: Adhǽsit paviménto ánima mea: * vivífica me secúndum verbum tuum. || My soul cleaves to the dust; * give me life according to Your word.
+t: Vias meas enuntiávi, et exaudísti me: * doce me justificatiónes tuas. || I declared my ways, and You heard me; * teach me Your statutes.
+t: Viam justificatiónum tuárum ínstrue me: * et exercébor in mirabílibus tuis. || Instruct me in the way of Your statutes, * and I will meditate on Your wonders.
+t: Dormitávit ánima mea præ tǽdio: * confírma me in verbis tuis. || My soul has slumbered through weariness; * strengthen me in Your words.
+t: Viam iniquitátis ámove a me: * et de lege tua miserére mei. || Remove from me the way of iniquity, * and in Your law have mercy on me.
+t: Viam veritátis elégi: * judícia tua non sum oblítus. || I have chosen the way of truth; * I have not forgotten Your judgments.
+t: Adhǽsi testimóniis tuis, Dómine: * noli me confúndere. || I have clung to Your testimonies, O Lord; * do not put me to shame.
+t: Viam mandatórum tuórum cucúrri, * cum dilatásti cor meum. || I have run the way of Your commandments, * when You enlarged my heart.
+@gloria-patri

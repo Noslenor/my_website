@@ -1,0 +1,12 @@
+// SHARED TEXT: psalm-129-without-gloria
+// Inserted wherever a rite has the line  @psalm-129-without-gloria
+// Editing it here changes it everywhere it is used.
+h: Psalmus 129 || Psalm 129
+t: De profúndis clamávi ad te, Dómine: * Dómine, exáudi vocem meam. || Out of the depths I have cried to You, O Lord; * Lord, hear my voice.
+t: Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ. || Let Your ears be attentive * to the voice of my supplication.
+t: Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit? || If You, O Lord, mark iniquities, * Lord, who shall stand?
+t: Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine. || For with You there is forgiveness, * and because of Your law I have waited for You, O Lord.
+t: Sustínuit ánima mea in verbo ejus: * sperávit ánima mea in Dómino. || My soul has relied on His word; * my soul has hoped in the Lord.
+t: A custódia matutína usque ad noctem: * speret Israel in Dómino. || From the morning watch even until night, * let Israel hope in the Lord.
+t: Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio. || For with the Lord there is mercy, * and with Him plentiful redemption.
+t: Et ipse rédimet Israel, * ex ómnibus iniquitátibus ejus. || And He shall redeem Israel * from all its iniquities.

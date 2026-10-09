@@ -1,0 +1,5 @@
+// SHARED TEXT: requiem-aeternam
+// Inserted wherever a rite has the line  @requiem-aeternam
+// Editing it here changes it everywhere it is used.
+t: Réquiem ætérnam * dona eis, Dómine. || Eternal rest * grant unto them, O Lord.
+t: Et lux perpétua * lúceat eis. || And let perpetual light * shine upon them.

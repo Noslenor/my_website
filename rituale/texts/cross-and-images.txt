@@ -1,0 +1,48 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Crosses and sacred images (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Solemn Blessing of a Cross
+// ──────────────────────────────────────────────────────────────────────
+# cross | Sollemnis Benedictio Crucis | Solemn Blessing of a Cross | Objects of Devotion | Tit. VIII, cap. 24
+r: Si Cruces, publicæ venerationi expositæ, sollemniter benedicantur, hæc benedictio Ordinario reservatur, qui tamen potest eam cuilibet Sacerdoti committere. Privatim autem hæc benedictio a quolibet Sacerdote fieri potest sine ulla Ordinarii licentia. || If crosses exposed for public veneration are blessed solemnly, this blessing is reserved to the Ordinary, who may, however, entrust it to any priest. Privately, however, this blessing may be given by any priest without any permission from the Ordinary.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Rogámus te, Dómine sancte, Pater omnípotens, ætérne Deus: ut dignéris bene✠dícere hoc signum Crucis, ut sit remédium salutáre géneri humáno; sit solíditas fídei, proféctus bonórum óperum, redémptio animárum; sit solámen, et protéctio, ac tutéla contra sæva jácula inimicórum. Per Christum, Dóminum nostrum. ℟. Amen. || We beseech You, holy Lord, Father almighty, everlasting God, that You would deign to ✠ bless this sign of the Cross, that it may be a saving remedy for mankind; that it may be the steadfastness of faith, the increase of good works, the redemption of souls; and that it may be a comfort, protection, and safeguard against the cruel darts of the enemy. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine Jesu Christe, hanc Crucem, per quam eripuísti mundum a potestáte dæmonum, et superásti passióne tua suggestórem peccáti, qui gaudébat in prævaricatióne primi hóminis per ligni vétiti sumptiónem. *(Hic aspergatur aqua benedicta.)* Sanctificétur hoc signum Crucis in nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti; ut orántes, inclinantésque se propter Dóminum ante istam Crucem, invéniant córporis et ánimæ sanitátem. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, Lord Jesus Christ, this Cross, by which You rescued the world from the power of demons and by Your Passion overcame the tempter to sin, who rejoiced in the fall of the first man through his eating of the forbidden tree. *(Here it is sprinkled with holy water.)* May this sign of the Cross be sanctified in the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit; so that those who pray and bow before this Cross for the Lord's sake may find health of body and soul. Through the same Christ our Lord. ℟. Amen.
+r: 2. Postea Sacerdos ante Crucem genuflexus ipsam devote adorat, et osculatur, et idem faciunt quicumque voluerint. || 2. Afterward the priest, kneeling before the Cross, devoutly venerates and kisses it, and all who wish do the same.
+
+// ──────────────────────────────────────────────────────────────────────
+// Solemn Blessing of an Image of Our Lord, of the Blessed Virgin Mary, or of a Saint
+// ──────────────────────────────────────────────────────────────────────
+# image | Sollemnis Benedictio Imaginis Jesu Christi Domini nostri vel B. Mariæ Virginis vel alius Sancti | Solemn Blessing of an Image of Our Lord, of the Blessed Virgin Mary, or of a Saint | Objects of Devotion | Tit. VIII, cap. 25
+r: Si imagines, publicæ venerationi expositæ, sollemniter benedicantur, hæc benedictio Ordinario reservatur, qui tamen potest eam cuilibet Sacerdoti committere. Privatim autem hæc benedictio a quolibet Sacerdote fieri potest sine ulla Ordinarii licentia. || If images exposed for public veneration are blessed solemnly, this blessing is reserved to the Ordinary, who may, however, entrust it to any priest. Privately, however, this blessing may be given by any priest without any permission from the Ordinary.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui Sanctórum tuórum imágines (sive effígies) sculpi, aut pingi non réprobas, ut quóties illas óculis córporis intuémur, tóties eórum actus et sanctitátem ad imitándum memóriæ óculis meditémur: hanc, quǽsumus, imáginem (seu sculptúram) in honórem et memóriam unigéniti Fílii tui Dómini nostri Jesu Christi (vel beatíssimæ Vírginis Maríæ, Matris Dómini nostri Jesu Christi, vel beáti N. Apóstoli tui, vel Mártyris, vel Pontíficis, vel Confessóris, vel beátæ N. Vírginis, vel Mártyris) adaptátam bene✠dícere, et sancti✠ficáre dignéris: et præsta; ut quicúmque coram illa unigénitum Fílium tuum (vel beatíssimam Vírginem, vel gloriósum Apóstolum, vel Mártyrem, vel Pontíficem, vel Confessórem, vel gloriósam Vírginem, vel Mártyrem) supplíciter cólere et honoráre studúerit, illíus méritis et obténtu a te grátiam in præsénti, et ætérnam glóriam obtíneat in futúrum. Per (eúndem) Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who do not disapprove of the carving or painting of images (or likenesses) of Your Saints, so that as often as we look upon them with bodily eyes we may meditate with the eyes of memory on their deeds and holiness, in order to imitate them: deign, we beseech You, to ✠ bless and ✠ sanctify this image (or statue), made in honor and memory of Your only-begotten Son, our Lord Jesus Christ (or of the most blessed Virgin Mary, Mother of our Lord Jesus Christ; or of blessed N., Your Apostle, or Martyr, or Bishop, or Confessor; or of blessed N., Virgin, or Martyr); and grant that whoever humbly strives to worship and honor Your only-begotten Son (or the most blessed Virgin, or the glorious Apostle, Martyr, Bishop, Confessor, Virgin, or Martyr) before it may, by his (her) merits and intercession, obtain from You grace in the present life and eternal glory in the life to come. Through (the same) Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.

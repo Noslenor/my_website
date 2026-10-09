@@ -1,0 +1,85 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessings of the sick (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Sick Adult
+// ──────────────────────────────────────────────────────────────────────
+# sick-adult | Benedictio Adulti Ægrotantis | Blessing of a Sick Adult | The Sick | Appendix, Benedictiones non reservatæ, 41
+r: Sacerdos cubiculum ægrotantis ingrediens dicat: || The priest, entering the sick person's room, says:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: Et continuo ad infirmum accedens subjungat: || And going straight to the sick person, he adds:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Intróeat, Dómine Jesu Christe, domum hanc ad nostræ humilitátis ingréssum pax et misericórdia tua; effúgiat ex hoc loco omnis nequítia dæmonum, adsint Angeli pacis, domúmque hanc déserat omnis malígna discórdia. Magnífica, Dómine, super nos nomen sanctum tuum: et bénedic nostræ conversatióni: Qui sanctus et pius es, et pérmanes cum Patre et Spíritu Sancto in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, as we in our lowliness enter this house, may Your peace and mercy enter with us. Let every wickedness of the demons flee from this place; let the Angels of peace be present, and let all evil discord depart from this house. Magnify Your holy name upon us, O Lord, and bless our coming among them; who are holy and merciful, and abide with the Father and the Holy Spirit for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Réspice, Dómine, fámulum tuum (fámulam tuam) in infirmitáte córporis laborántem, et ánimam réfove quam creásti: ut castigatiónibus emendátus (-a), contínuo se séntiat tua miseratióne salvátum (-am). Per Christum, Dóminum nostrum. ℟. Amen. || Look down, O Lord, upon Your servant, laboring under bodily illness, and revive the soul You created; so that, made better by these trials, he (she) may soon feel himself (herself) restored by Your mercy. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Miséricors, Dómine, fidélium consolátor, quǽsumus imménsam pietátem tuam, ut ad intróitum humilitátis nostræ hunc fámulum tuum (hanc fámulam tuam) super lectum dolóris sui jacéntem, visitáre dignéris, sicut socrum Simónis visitásti: propítius adésto ei, Dómine, quátenus prístina sanitáte recépta, gratiárum tibi in Ecclésia tua réferat actiónes: Qui vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || O merciful Lord, consoler of the faithful, we beseech Your boundless goodness that, as we in our lowliness enter, You would deign to visit this Your servant lying on his (her) bed of pain, as You visited Simon's mother-in-law. Graciously stand by him (her), O Lord, so that, his (her) former health restored, he (she) may give thanks to You in Your Church. Who live and reign, God, for ever and ever. ℟. Amen.
+r: Deinde, extendens dexteram versus ægrotum, dicat: || Then, extending his right hand toward the sick person, he says:
+t: Dóminus Jesus Christus apud te sit, ut te deféndat: intra te sit, ut te consérvet: ante te sit, ut te ducat: post te sit, ut te custódiat: super te sit, ut te benedícat: Qui cum Patre et Spíritu Sancto vivit et regnat in sǽcula sæculórum. ℟. Amen. || May the Lord Jesus Christ be with you to defend you, within you to sustain you, before you to lead you, behind you to guard you, above you to bless you; who with the Father and the Holy Spirit lives and reigns for ever and ever. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Demum aspergat infirmum aqua benedicta. || Finally he sprinkles the sick person with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Same Blessing for Several Sick Persons
+// ──────────────────────────────────────────────────────────────────────
+# sick-several | Eadem Benedictio pro Pluribus Infirmis | The Same Blessing for Several Sick Persons | The Sick | Appendix, Benedictiones non reservatæ, 42
+r: Sacerdos cubiculum ægrotantium ingrediens dicat: || The priest, entering the room of the sick, says:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: Et continuo ad infirmos accedens subjungat: || And going straight to the sick, he adds:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Intróeat, Dómine Jesu Christe, domum hanc ad nostræ humilitátis ingréssum pax et misericórdia tua: effúgiat ex hoc loco omnis nequítia dæmonum, adsint Angeli pacis, domúmque hanc déserat omnis malígna discórdia. Magnífica, Dómine, super nos nomen sanctum tuum: et bénedic nostræ conversatióni: Qui sanctus et pius es, et pérmanes cum Patre et Spíritu Sancto in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, as we in our lowliness enter this house, may Your peace and mercy enter with us. Let every wickedness of the demons flee from this place; let the Angels of peace be present, and let all evil discord depart from this house. Magnify Your holy name upon us, O Lord, and bless our coming among them; who are holy and merciful, and abide with the Father and the Holy Spirit for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Réspice, Dómine, fámulos tuos (fámulas tuas) in infirmitáte córporis laborántes, et ánimas réfove, quas creásti: ut castigatiónibus emendáti (-æ), contínuo se séntiant tua miseratióne salvátos (-as). Per Christum, Dóminum nostrum. ℟. Amen. || Look down, O Lord, upon Your servants, laboring under bodily illness, and revive the souls You created; so that, made better by these trials, they may soon feel themselves restored by Your mercy. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Miséricors, Dómine, fidélium consolátor, quǽsumus imménsam pietátem tuam, ut ad intróitum humilitátis nostræ hos fámulos tuos (has fámulas tuas) super lectum dolóris sui jacéntes, visitáre dignéris, sicut socrum Simónis visitásti: propítius adésto eis, Dómine, quátenus prístina sanitáte recépta, gratiárum tibi in Ecclésia tua réferant actiónes: Qui vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || O merciful Lord, consoler of the faithful, we beseech Your boundless goodness that, as we in our lowliness enter, You would deign to visit these Your servants lying on their beds of pain, as You visited Simon's mother-in-law. Graciously stand by them, O Lord, so that, their former health restored, they may give thanks to You in Your Church. Who live and reign, God, for ever and ever. ℟. Amen.
+r: Deinde, extendens dexteram versus ægrotos, dicat: || Then, extending his right hand toward the sick, he says:
+t: Dóminus Jesus Christus apud vos sit, ut vos deféndat: intra vos sit, ut vos consérvet: ante vos sit, ut vos ducat: post vos sit, ut vos custódiat: super vos sit, ut vos benedícat: Qui cum Patre et Spíritu Sancto vivit et regnat in sǽcula sæculórum. ℟. Amen. || May the Lord Jesus Christ be with you to defend you, within you to sustain you, before you to lead you, behind you to guard you, above you to bless you; who with the Father and the Holy Spirit lives and reigns for ever and ever. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Demum aspergat infirmos aqua benedicta. || Finally he sprinkles the sick with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Sick Pilgrims
+// ──────────────────────────────────────────────────────────────────────
+# sick-pilgrims | Benedictio Peregrinorum Ægrotantium | Blessing of Sick Pilgrims | The Sick | Appendix, Benedictiones non reservatæ, 43
+r: Sacerdos indutus superpelliceo et stola albi coloris, ponat extremitatem stolæ super caput infirmi, Evangeliumque recitet modo sequenti; si vero plures sint infirmi, stolam ipse teneat elevatam manu dextera, et benedictiones dicat in plurali. || The priest, vested in surplice and white stole, places the end of the stole on the sick person's head and reads the Gospel as follows; if there are several sick persons, he holds the stole raised in his right hand and says the blessings in the plural.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: ✠ Sequéntia sancti Evangélii secúndum Matthǽum. *(Cap. 13, 44-52)* || ✠ The continuation of the holy Gospel according to Matthew. *(Chapter 13:44-52)*
+x: Glória tibi, Dómine. || Glory to You, O Lord.
+t: In illo témpore: Dixit Jesus discípulis suis parábolam hanc: Símile est regnum cælórum thesáuro abscóndito in agro: quem qui invénit homo, abscóndit, et præ gáudio illíus vadit, et vendit univérsa, quæ habet, et emit agrum illum. Iterum símile est regnum cælórum hómini negotiatóri, quærénti bonas margarítas. Invénta autem una pretiósa margaríta, ábiit, et véndidit ómnia, quæ hábuit, et emit eam. Iterum símile est regnum cælórum sagénæ missæ in mare, et ex omni génere píscium congregánti. Quam, cum impléta esset, educéntes, et secus litus sedéntes, elegérunt bonos in vasa, malos autem foras misérunt. Sic erit in consummatióne sǽculi: exíbunt Angeli, et separábunt malos de médio justórum, et mittent eos in camínum ignis: ibi erit fletus, et stridor déntium. Intellexístis hæc ómnia? Dicunt ei: Etiam. Ait illis: Ideo omnis scriba doctus in regno cælórum símilis est hómini patrifamílias, qui profert de thesáuro suo nova et vétera. || At that time Jesus told His disciples this parable: The kingdom of heaven is like a treasure hidden in a field, which a man found and hid; and in his joy he goes and sells all that he has and buys that field. Again, the kingdom of heaven is like a merchant seeking fine pearls; who, on finding one pearl of great price, went and sold all that he had and bought it. Again, the kingdom of heaven is like a net cast into the sea that gathered in fish of every kind. When it was full, they drew it ashore, sat down, and gathered the good into vessels, but threw the bad away. So it will be at the end of the world: the Angels will go out and separate the wicked from among the just, and cast them into the furnace of fire; there will be weeping and gnashing of teeth. Have you understood all these things? They said to Him: Yes. And He said to them: Therefore every scribe instructed in the kingdom of heaven is like a householder who brings out of his treasure things new and old.
+r: Post Evangelium benedicit infirmum dicens: || After the Gospel he blesses the sick person, saying:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te (vos), et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Deinde porrigit extremitatem stolæ deosculandam infirmo, ipsumque aspergit aqua benedicta, dicens: || Then he offers the end of the stole to the sick person to kiss, and sprinkles him with holy water, saying:
+t: Aspérgat te (vos) Deus rore grátiæ suæ in vitam ætérnam. ℟. Amen. || May God sprinkle you with the dew of His grace unto life everlasting. ℟. Amen.

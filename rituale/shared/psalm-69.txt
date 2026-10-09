@@ -1,0 +1,12 @@
+// SHARED TEXT: psalm-69
+// Inserted wherever a rite has the line  @psalm-69
+// Editing it here changes it everywhere it is used.
+h: Psalmus 69 || Psalm 69
+t: Deus, in adjutórium meum inténde: * Dómine, ad adjuvándum me festína. || O God, come to my assistance; * O Lord, make haste to help me.
+t: Confundántur et revereántur, * qui quærunt ánimam meam. || Let them be confounded and ashamed * who seek my life.
+t: Avertántur retrórsum, et erubéscant, * qui volunt mihi mala. || Let them be turned backward and put to shame * who desire evil for me.
+t: Avertántur statim erubescéntes, * qui dicunt mihi: Euge, euge. || Let them be turned back at once in shame * who say to me: Aha, aha!
+t: Exsúltent et læténtur in te omnes qui quærunt te, * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum. || Let all who seek You rejoice and be glad in You, * and let those who love Your salvation say always: The Lord be magnified.
+t: Ego vero egénus, et pauper sum: * Deus, ádjuva me. || But I am needy and poor; * O God, help me.
+t: Adjútor meus, et liberátor meus es tu: * Dómine, ne moréris. || You are my helper and my deliverer; * O Lord, do not delay.
+@gloria-patri

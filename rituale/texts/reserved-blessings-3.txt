@@ -1,0 +1,285 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Reserved blessings, part 3 (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Telegraph
+// ──────────────────────────────────────────────────────────────────────
+# telegraph | Benedictio Telegraphi | Blessing of a Telegraph | Work & Travel | Appendix, Benedictiones reservatæ, 9
+r: Clerus, vel a proximiori ecclesia, vel ab aliquo alio loco ad hoc parato, procedit usque ad stationem telegraphi, canendo vel recitando: || The clergy, either from the nearest church or from some other place prepared for the purpose, go in procession to the telegraph station, singing or reciting:
+h: Canticum Zachariæ (Luc. 1, 68-79) || Canticle of Zachary (Luke 1:68-79)
+@canticle-benedictus
+@gloria-patri
+r: Ibi Sacerdos delegatus intonat: || There the delegated priest intones:
+t: *Ant.* Benedíctus es, Dómine, * qui ponis nubem ascénsum tuum: qui ámbulas super pennas ventórum, qui facis Angelos tuos spíritus, et minístros tuos ignem uréntem. || *Ant.* Blessed are You, O Lord, * who make the clouds Your chariot, who walk upon the wings of the winds, who make Your Angels spirits and Your ministers a burning fire.
+r: Postea dicitur || Afterwards is said
+h: Psalmus 103 || Psalm 103
+t: Bénedic, ánima mea, Dómino: * Dómine, Deus meus, magnificátus es veheménter. || Bless the Lord, O my soul; * O Lord my God, You are exceedingly great.
+t: Confessiónem, et decórem induísti: * amíctus lúmine sicut vestiménto: || You have put on praise and beauty, * clothed with light as with a garment,
+t: Exténdens cælum sicut pellem: * qui tegis aquis superióra ejus. || Stretching out the heavens like a tent, * You who cover its upper rooms with waters.
+t: Qui ponis nubem ascénsum tuum: * qui ámbulas super pennas ventórum. || You make the clouds Your chariot; * You walk upon the wings of the winds.
+t: Qui facis Angelos tuos, spíritus: * et minístros tuos ignem uréntem. || You make Your Angels spirits, * and Your ministers a burning fire.
+t: Qui fundásti terram super stabilitátem suam: * non inclinábitur in sǽculum sǽculi. || You founded the earth upon its firm base; * it shall not be moved for ever and ever.
+t: Abýssus, sicut vestiméntum, amíctus ejus: * super montes stabunt aquæ. || The deep, like a garment, is its clothing; * above the mountains the waters stand.
+t: Ab increpatióne tua fúgient: * a voce tonítrui tui formidábunt. || At Your rebuke they flee; * at the voice of Your thunder they tremble.
+t: Ascéndunt montes: et descéndunt campi * in locum, quem fundásti eis. || The mountains rise and the plains go down * to the place which You established for them.
+t: Términum posuísti, quem non transgrediéntur: * neque converténtur operíre terram. || You set a bound which they shall not pass, * nor shall they return to cover the earth.
+t: Qui emíttis fontes in convállibus: * inter médium móntium pertransíbunt aquæ. || You send forth springs in the valleys; * between the midst of the hills the waters shall pass.
+t: Potábunt omnes béstiæ agri: * exspectábunt ónagri in siti sua. || All the beasts of the field shall drink; * the wild asses shall wait for them in their thirst.
+t: Super ea vólucres cæli habitábunt: * de médio petrárum dabunt voces. || Above them the birds of the air shall dwell; * from the midst of the rocks they shall give forth their voices.
+t: Rigans montes de superióribus suis: * de fructu óperum tuórum satiábitur terra: || You water the hills from Your upper rooms; * the earth shall be filled with the fruit of Your works,
+t: Prodúcens fænum juméntis, * et herbam servitúti hóminum: || Bringing forth grass for the cattle, * and plants for the service of men,
+t: Ut edúcas panem de terra: * et vinum lætíficet cor hóminis: || That You may bring bread out of the earth, * and that wine may gladden the heart of man,
+t: Ut exhílaret fáciem in óleo: * et panis cor hóminis confírmet. || That he may make his face cheerful with oil, * and that bread may strengthen man's heart.
+t: Saturabúntur ligna campi, et cedri Líbani, quas plantávit: * illic pásseres nidificábunt. || The trees of the field shall be filled, and the cedars of Lebanon which He planted; * there the sparrows shall make their nests.
+t: Heródii domus dux est eórum: * montes excélsi cervis: petra refúgium herináciis. || The highest of them is the house of the heron; * the high hills are a refuge for the harts, the rock for the badgers.
+t: Fecit lunam in témpora: * sol cognóvit occásum suum. || He made the moon to mark the seasons; * the sun knows its going down.
+t: Posuísti ténebras, et facta est nox: * in ipsa pertransíbunt omnes béstiæ silvæ. || You appointed darkness, and it was night; * in it all the beasts of the forest roam about.
+t: Cátuli leónum rugiéntes, ut rápiant, * et quærant a Deo escam sibi. || The young lions roar for their prey, * and seek their food from God.
+t: Ortus est sol, et congregáti sunt: * et in cubílibus suis collocabúntur. || The sun rises, and they gather together, * and lie down in their dens.
+t: Exíbit homo ad opus suum: * et ad operatiónem suam usque ad vésperum. || Man goes forth to his work, * and to his labor until the evening.
+t: Quam magnificáta sunt ópera tua, Dómine! * ómnia in sapiéntia fecísti: impléta est terra possessióne tua. || How great are Your works, O Lord! * You have made all things in wisdom; the earth is filled with Your riches.
+t: Hoc mare magnum, et spatiósum mánibus: * illic reptília, quorum non est númerus. || So is this great sea, which stretches wide its arms; * there are creeping things without number,
+t: Animália pusílla cum magnis: * illic naves pertransíbunt. || Creatures small and great; * there the ships shall pass.
+t: Draco iste, quem formásti ad illudéndum ei: * ómnia a te exspéctant ut des illis escam in témpore. || This sea-dragon which You formed to play therein: * all look to You to give them their food in due season.
+t: Dante te illis, cólligent: * aperiénte te manum tuam, ómnia implebúntur bonitáte. || When You give to them, they shall gather it up; * when You open Your hand, they shall all be filled with good.
+t: Averténte autem te fáciem, turbabúntur: * áuferes spíritum eórum, et defícient, et in púlverem suum reverténtur. || But when You turn away Your face, they shall be troubled; * You shall take away their breath, and they shall fail and return to their dust.
+t: Emíttes spíritum tuum, et creabúntur: * et renovábis fáciem terræ. || You shall send forth Your Spirit, and they shall be created; * and You shall renew the face of the earth.
+t: Sit glória Dómini in sǽculum: * lætábitur Dóminus in opéribus suis: || May the glory of the Lord endure for ever; * the Lord shall rejoice in His works.
+t: Qui réspicit terram, et facit eam trémere: * qui tangit montes, et fúmigant. || He looks upon the earth and makes it tremble; * He touches the mountains, and they smoke.
+t: Cantábo Dómino in vita mea: * psallam Deo meo, quámdiu sum. || I will sing to the Lord as long as I live; * I will sing psalms to my God while I have being.
+t: Jucúndum sit ei elóquium meum: * ego vero delectábor in Dómino. || May my words be pleasing to Him; * but I will take delight in the Lord.
+t: Defíciant peccatóres a terra, et iníqui ita ut non sint: * bénedic, ánima mea, Dómino. || Let sinners vanish from the earth, and the wicked, so that they be no more. * Bless the Lord, O my soul.
+@gloria-patri
+t: *Ant.* Benedíctus es, Dómine, qui ponis nubem ascénsum tuum: qui ámbulas super pennas ventórum, qui facis Angelos tuos spíritus, et minístros tuos ignem uréntem. || *Ant.* Blessed are You, O Lord, who make the clouds Your chariot, who walk upon the wings of the winds, who make Your Angels spirits and Your ministers a burning fire.
+r: Deinde dicit: || Then he says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, O Lord God, that we Your servants may enjoy lasting health of mind and body, and by the glorious intercession of blessed Mary ever Virgin be delivered from present sorrow and enjoy everlasting gladness. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui ámbulas super pennas ventórum, et facis mirabília solus: concéde, ut, cum per vim huic metállo índitam fulmíneo ictu celérius huc abséntia, et hinc álio præséntia transmíttis; ita nos invéntis novis edócti, tua grátia opitulánte, prómptius et facílius ad te veníre valeámus. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who walk upon the wings of the winds and who alone work wonders: grant that, as through the power placed in this metal You send hither with lightning speed what is far away, and send hence elsewhere what is at hand, so we, instructed by new inventions, may with the help of Your grace come to You more readily and more easily. Through Christ our Lord. ℟. Amen.
+r: Et aspergit telegraphum aqua benedicta. || And he sprinkles the telegraph with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// More Solemn Blessing of a Railway and Its Cars
+// ──────────────────────────────────────────────────────────────────────
+# railway-solemn | Benedictio Sollemnior Viæ Ferreæ et Curruum | More Solemn Blessing of a Railway and Its Cars | Work & Travel | Appendix, Benedictiones reservatæ, 10
+r: Clerus, vel a proximiori ecclesia, vel ab aliquo alio loco ad hoc parato, procedit usque ad stationem viæ ferreæ, canendo vel recitando: || The clergy, either from the nearest church or from some other place prepared for the purpose, go in procession to the railway station, singing or reciting:
+h: Antiphona || Antiphon
+t: In viam pacis et prosperitátis dírigat nos omnípotens et miséricors Dóminus: et Angelus Ráphaël comitétur nobíscum in via, ut cum pace, salúte, et gáudio revertámur ad própria. || May the almighty and merciful Lord guide us into the way of peace and prosperity, and may the Angel Raphael accompany us on the way, so that we may return home in peace, health, and joy.
+r: Canticum Zachariæ, ut supra (in Benedictione telegraphi). || The Canticle of Zachary, as above (in the Blessing of a Telegraph).
+h: Canticum Zachariæ (Luc. 1, 68-79) || Canticle of Zachary (Luke 1:68-79)
+@canticle-benedictus
+@gloria-patri
+r: Ibi Sacerdos delegatus, repetita Antiphona, dicit: || There, the antiphon having been repeated, the delegated priest says:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, my God.
+v: Mitte nobis, Dómine, auxílium de sancto. || Send us help, O Lord, from Your holy place.
+x: Et de Sion tuére nos. || And from Zion watch over us.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be to us, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no power over us.
+x: Et fílius iniquitátis non appónat nocére nobis. || And let the son of wickedness not presume to harm us.
+v: Benedíctus Dóminus die cotídie. || Blessed be the Lord day by day.
+x: Prósperum iter fáciat nobis Deus salutárium nostrórum. || May the God of our salvation grant us a prosperous journey.
+v: Vias tuas, Dómine, demónstra nobis. || Show us Your ways, O Lord.
+x: Et sémitas tuas édoce nos. || And teach us Your paths.
+v: Utinam dirigántur viæ nostræ. || O that our ways may be directed
+x: Ad custodiéndas justificatiónes tuas. || To keep Your statutes.
+v: Erunt prava in dirécta. || The crooked shall be made straight.
+x: Et áspera in vias planas. || And the rough ways smooth.
+v: Angelis suis Deus mandávit de te. || God has given His Angels charge over you.
+x: Ut custódiant te in ómnibus viis tuis. || To keep you in all your ways.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui ómnia eleménta ad tuam glóriam, utilitatémque hóminum condidísti: dignáre, quǽsumus, hanc viam férream, ejúsque instruménta bene✠dícere, et benígna semper tua providéntia tuéri; ut, dum fámuli tui velóciter próperant in via, in lege tua ambulántes, et viam mandatórum tuórum curréntes, ad cæléstem pátriam felíciter perveníre váleant. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who created all the elements for Your glory and for the benefit of mankind: deign, we beseech You, to ✠ bless this railway and its equipment, and ever to protect it by Your kindly providence; so that, while Your servants speed swiftly along the way, walking in Your law and running in the way of Your commandments, they may happily reach their heavenly home. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Propítiare, Dómine Deus, supplicatiónibus nostris, et béne✠dic currus istos déxtera tua sancta, adjúnge ad ipsos sanctos Angelos tuos, ut omnes, qui in eis vehéntur, líberent et custódiant semper a perículis univérsis; et quemádmodum viro Æthíopi super currum suum sedénti, et sacra elóquia legénti, per Levítam tuum Philíppum fidem et grátiam contulísti: ita fámulis tuis viam salútis osténde, qui tua grátia adjúti, bonísque opéribus júgiter inténti, post omnes viæ et vitæ hujus varietátes ætérna gáudia cónsequi mereántur. Per Christum, Dóminum nostrum. ℟. Amen. || Be favorable, O Lord God, to our supplications, and ✠ bless these cars with Your holy right hand; join to them Your holy Angels, to free and guard always from every danger all who ride in them; and as You bestowed faith and grace, through Your Levite Philip, on the man of Ethiopia who sat in his chariot reading the sacred word, so show the way of salvation to Your servants, that, aided by Your grace and ever intent on good works, they may be worthy, after all the changes and chances of the road and of this life, to attain everlasting joys. Through Christ our Lord. ℟. Amen.
+r: Deinde aspergit viam et currus aqua benedicta. || Then he sprinkles the railway and the cars with holy water.
+r: Post utramque Benedictionem dicitur Te Deum, cum Oratione Deus, cujus misericórdiæ, etc., ut infra (in Ritu erigendi Stationes Viæ Crucis). || After both blessings the Te Deum is said, with the prayer "O God, whose mercies are without number," etc., as below (in the Rite of Erecting the Stations of the Way of the Cross).
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Machine for Generating Electric Light
+// ──────────────────────────────────────────────────────────────────────
+# electric-dynamo | Benedictio Machinæ ad Excitandam Lucem Electricam | Blessing of a Machine for Generating Electric Light | Work & Travel | Appendix, Benedictiones reservatæ, 11
+r: Clerus, a proximiori ecclesia vel ab aliquo alio loco ad hoc parato, procedit usque ad stationem machinæ benedicendæ, canendo vel recitando: || The clergy, from the nearest church or from some other place prepared for the purpose, go in procession to the place where the machine to be blessed stands, singing or reciting:
+h: Canticum Zachariæ (Luc. 1, 68-79) || Canticle of Zachary (Luke 1:68-79)
+@canticle-benedictus
+@gloria-patri
+r: Ibi Sacerdos delegatus intonat || There the delegated priest intones
+t: *Ant.* Lux orta est * justo: rectis corde lætítia. || *Ant.* Light has dawned * for the just, and gladness for the upright of heart.
+h: Psalmus 96 || Psalm 96
+n: The psalm is printed in two columns that are scrambled in the scan; the verses are given according to the Vulgate.
+t: Dóminus regnávit, exsúltet terra: * læténtur ínsulæ multæ. || The Lord has reigned; let the earth rejoice; * let the many islands be glad.
+t: Nubes, et calígo in circúitu ejus: * justítia, et judícium corréctio sedis ejus. || Clouds and darkness are round about Him; * justice and judgment are the foundation of His throne.
+t: Ignis ante ipsum præcédet, * et inflammábit in circúitu inimícos ejus. || A fire shall go before Him, * and shall burn up His enemies round about.
+t: Illuxérunt fúlgura ejus orbi terræ: * vidit, et commóta est terra. || His lightnings lit up the world; * the earth saw and trembled.
+t: Montes, sicut cera fluxérunt a fácie Dómini: * a fácie Dómini omnis terra. || The mountains melted like wax at the presence of the Lord, * at the presence of the Lord of all the earth.
+t: Annuntiavérunt cæli justítiam ejus: * et vidérunt omnes pópuli glóriam ejus. || The heavens proclaimed His justice, * and all the peoples saw His glory.
+t: Confundántur omnes, qui adórant sculptília: * et qui gloriántur in simulácris suis. || Let all be put to shame who adore graven things, * and who glory in their idols.
+t: Adoráte eum, omnes Angeli ejus: * audívit, et lætáta est Sion. || Adore Him, all you His Angels. * Zion heard and was glad,
+t: Et exsultavérunt fíliæ Judæ, * propter judícia tua, Dómine: || And the daughters of Judah rejoiced * because of Your judgments, O Lord.
+t: Quóniam tu Dóminus Altíssimus super omnem terram: * nimis exaltátus es super omnes deos. || For You, Lord, are Most High over all the earth; * You are exalted far above all gods.
+t: Qui dilígitis Dóminum, odíte malum: * custódit Dóminus ánimas sanctórum suórum, de manu peccatóris liberábit eos. || You who love the Lord, hate evil; * the Lord keeps the souls of His saints; He will deliver them from the hand of the sinner.
+t: Lux orta est justo, * et rectis corde lætítia. || Light has dawned for the just, * and gladness for the upright of heart.
+t: Lætámini, justi, in Dómino: * et confitémini memóriæ sanctificatiónis ejus. || Rejoice in the Lord, you just, * and give praise to the remembrance of His holiness.
+@gloria-patri
+t: *Ant.* Lux orta est justo: rectis corde lætítia. || *Ant.* Light has dawned for the just, and gladness for the upright of heart.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, O Lord God, that we Your servants may enjoy lasting health of mind and body, and by the glorious intercession of blessed Mary ever Virgin be delivered from present sorrow and enjoy everlasting gladness. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui es cónditor ómnium lúminum, béne✠dic hanc máchinam ad lumen excitándum nóviter cónditam: et præsta; ut ad te, qui es lux indefíciens, post hujus sǽculi calíginem perveníre valeámus. Per Christum, Dóminum nostrum. ℟. Amen. || O Lord God almighty, maker of all lights, ✠ bless this machine newly built for producing light; and grant that, after the darkness of this world, we may come to You, who are the unfailing light. Through Christ our Lord. ℟. Amen.
+r: Deinde aspergit machinam aqua benedicta. || Then he sprinkles the machine with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Deprecatory Blessing against Mice, Locusts, Grubs, Worms, and Other Harmful Creatures
+// ──────────────────────────────────────────────────────────────────────
+# deprecatory-vermin | Benedictio Deprecatoria contra mures, locustas, bruchos, vermes et alia animalia nociva | Deprecatory Blessing against Mice, Locusts, Grubs, Worms, and Other Harmful Creatures | Fields & Animals | Appendix, Benedictiones reservatæ, 12
+r: Sacerdos delegatus, indutus superpelliceo et stola coloris violacei, veniat ad agros, a locustis, bruchis vel aliis animalibus noxiis vexatos, et dicat: || The delegated priest, vested in surplice and violet stole, goes to the fields troubled by locusts, grubs, or other harmful creatures, and says:
+t: *Ant.* Exsúrge, Dómine, ádjuva nos: et líbera nos propter nomen tuum. || *Ant.* Arise, O Lord, help us, and deliver us for Your name's sake.
+t: *Ps. 43* Deus, áuribus nostris audívimus: patres nostri annuntiavérunt nobis. || *Ps. 43* O God, we have heard with our ears; our fathers have declared it to us.
+v: Glória Patri. Sicut erat. || Glory be to the Father. As it was.
+r: Repetitur Antiphona: Exsúrge, etc. || The antiphon "Arise," etc., is repeated.
+t: *Ant.* Exsúrge, Dómine, ádjuva nos: et líbera nos propter nomen tuum. || *Ant.* Arise, O Lord, help us, and deliver us for Your name's sake.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Preces nostras, quǽsumus, Dómine, cleménter exáudi: ut, qui juste pro peccátis nostris afflígimur, et hanc múrium (vel locustárum, vel bruchórum, vel vérmium, sive aliórum animálium) persecutiónem pátimur, pro tui nóminis glória ab ea misericórditer liberémur; ut tua poténtia procul expúlsi (-æ) nulli nóceant, et campos, agrósque nostros in tranquillitáte, et quiéte dimíttant, quátenus ex eis surgéntia et orta tuæ majestáti desérviant, et nostræ necessitáti subvéniant. Per Christum, Dóminum nostrum. ℟. Amen. || Graciously hear our prayers, we beseech You, O Lord, that we who are justly afflicted for our sins and suffer this plague of mice (or locusts, or grubs, or worms, or other creatures) may for the glory of Your name be mercifully delivered from it; that, driven far away by Your power, they may harm no one and may leave our fields and lands in peace and quiet, so that what springs up and grows from them may serve Your majesty and supply our needs. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens, sempitérne Deus, ómnium bonórum remunerátor, et peccatórum máximus miserátor, in cujus nómine ómnia genuflectúntur, cæléstia, terréstria, et infernália: tua poténtia nobis peccatóribus concéde; ut, quod de tua misericórdia confísi ágimus, per tuam grátiam efficácem ejus consequámur efféctum; quátenus hos (has) pestíferos (-as) mures (vel locústas, vel bruchos, vel vermes, vel alia animália) per nos servos tuos maledicéndo maledícas, segregándo ségreges, exterminándo extérmines; ut per tuam cleméntiam ab hac peste liberáti, gratiárum actiónes majestáti tuæ líbere referámus. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, rewarder of all good and most merciful pardoner of sins, at whose name all things bend the knee, in heaven, on earth, and under the earth: grant by Your power to us sinners that what we do trusting in Your mercy may by Your grace achieve its effect; so that through us Your servants You may curse these pestilent mice (or locusts, or grubs, or worms, or other creatures) with Your curse, separate them with Your separation, and destroy them with Your destruction; that, freed from this plague by Your clemency, we may freely render thanks to Your majesty. Through Christ our Lord. ℟. Amen.
+h: Exorcismus || Exorcism
+t: Exorcízo vos pestíferos (-as) mures (vel locústas, vel bruchos, vel vermes, vel alia animália), per Deum ✠ Patrem omnipoténtem, per Jesum ✠ Christum, Fílium ejus únicum, per Spíritum ✠ Sanctum ab utróque procedéntem, ut conféstim recedátis a campis et agris nostris, nec ámplius in eis habitétis, sed ad ea loca transeátis, in quibus némini nocére possítis: pro parte omnipoténtis Dei, et totíus cúriæ cæléstis, et Ecclésiæ sanctæ Dei vos maledícens, ut, quocúmque iéritis, sitis maledícti (-æ), deficiéntes de die in diem in vos ipsos (ipsas), et decrescéntes; quátenus relíquiæ de vobis nullo in loco inveniántur, nisi necessáriæ ad salútem et usum humánum. Quod præstáre dignétur, qui ventúrus est judicáre vivos et mórtuos, et sǽculum per ignem. ℟. Amen. || I exorcise you, pestilent mice (or locusts, or grubs, or worms, or other creatures), by God ✠ the Father almighty, by Jesus ✠ Christ, His only Son, and by the Holy ✠ Spirit, who proceeds from both, that you depart at once from our fields and lands, dwell in them no longer, but go away to places where you can harm no one; and on behalf of almighty God, of the whole court of heaven, and of the holy Church of God, I curse you, that wherever you go you may be accursed, dwindling from day to day and decreasing, until no remnant of you is found anywhere, save what is needful for the health and use of mankind. May He deign to grant this, who is to come to judge the living and the dead and the world by fire. ℟. Amen.
+r: Postremo loca infecta aspergantur aqua benedicta. || Finally the infested places are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Clerical Habit
+// ──────────────────────────────────────────────────────────────────────
+# clerical-habit | Benedictio Habitus Clericalis | Blessing of the Clerical Habit | Other | Appendix, Benedictiones reservatæ, 13
+r: Si quis militiæ clericalis candidatus, impetrata facultate induendi ejusdem ordinis habitum, ipsum petierit a Sacerdote benedici, Sacerdos delegatus habitum clericalem, quem induendus genuflexus brachiis sustentat, hac forma benedicat: || If a candidate for the clerical state, having obtained permission to wear the habit of that order, asks a priest to bless it, the delegated priest blesses the clerical habit, which the one to be vested holds on his arms while kneeling, in this form:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui tégumen nostræ mortalitátis indúere dignátus es, obsecrámus imménsam tuæ largitátis abundántiam: ut hoc genus vestiménti, quod sancti patres ad innocéntiæ vel humilitátis indícium, deponéntes ignomíniam sæculáris hábitus, ferre sanxérunt, tu ita bene✠dícere dignéris, ut hi fámuli tui, qui hoc indúti fúerint (vel hic fámulus tuus, qui hoc indútus fúerit) vestiménto, te quoque indúere mereántur (-átur), et tibi agnoscántur (-átur) esse dicáti (-átus): Qui vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who deigned to put on the garment of our mortality, we implore the boundless abundance of Your generosity: that You would so ✠ bless this kind of garment, which the holy fathers ordained to be worn as a sign of innocence and humility, laying aside the disgrace of worldly attire, that these Your servants who shall be clothed in it (or this Your servant who shall be clothed in it) may be worthy also to put You on, and may be known to be consecrated to You: who live and reign, God, for ever and ever. ℟. Amen.
+r: Deinde vestes seu vestem aspergat aqua benedicta. || Then he sprinkles the garments or garment with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Cinctures in Honor of Saint Joseph, Spouse of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# st-joseph-cinctures | Benedictio Cingulorum in honorem sancti Joseph Sponsi B. M. V. | Blessing of Cinctures in Honor of Saint Joseph, Spouse of the Blessed Virgin Mary | Sacramentals & Scapulars | Appendix, Benedictiones reservatæ, II, 1
+r: II. Benedictiones faciendæ a Sacerdotibus Apostolicum indultum habentibus. || II. Blessings to be given by priests who have an Apostolic indult.
+r: (Approbata a S. R. C. die 19 Sept. 1859) || (Approved by the S. Congregation of Rites, 19 September 1859)
+r: Sacerdos qui ab Apostolica Sede privilegium obtinuerit benedicendi cingula in honorem S. Joseph Sponsi B. M. V., superpelliceo et stola alba indutus, dicit: || A priest who has obtained from the Apostolic See the privilege of blessing cinctures in honor of Saint Joseph, Spouse of the Blessed Virgin Mary, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui virginitátis consílium et amórem íngeris atque castitátem præcipis: orámus cleméntiam tuam, ut hæc cíngula castitátis tésseram bene✠dícere, et sancti✠ficáre dignéris, ut, quicúmque pro castitáte servánda illis præcíncti fúerint, intercedénte beáto Joseph, sanctíssimæ Genetrícis tuæ sponso, gratam tibi continéntiam, mandatorúmque tuórum obœdiéntiam servent, atque véniam peccatórum suórum obtíneant, et sanitátem mentis et córporis percípiant, vitámque consequántur ætérnam: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who inspire the counsel and love of virginity and command chastity: we implore Your clemency that You deign to ✠ bless and ✠ sanctify these cinctures as a token of chastity, so that all who shall be girded with them for the keeping of chastity, through the intercession of blessed Joseph, spouse of Your most holy Mother, may preserve a continence pleasing to You and obedience to Your commandments, obtain pardon of their sins, receive health of mind and body, and attain eternal life: who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Da, quǽsumus, omnípotens ætérne Deus: ut puríssimæ Vírginis Maríæ, ejúsque sponsi Joseph, integérrimam virginitátem venerántes, eórum intercessiónibus puritátem mentis et córporis consequámur. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, almighty, eternal God, that we who venerate the spotless virginity of the most pure Virgin Mary and of her spouse Joseph, may by their intercession attain purity of mind and body. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui castíssimo viro Joseph puríssimam Maríam semper Vírginem, et púerum Jesum commisísti: te súpplices exorámus; ut fidéles tui, qui his cíngulis in honórem, et sub protectióne ejúsdem sancti Joseph præcíncti fúerint, te largiénte, et ipso intercedénte, in castitáte semper devóte persístant. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, who entrusted the most pure Mary ever Virgin and the Child Jesus to Joseph, most chaste of men: we humbly implore You that Your faithful who shall be girded with these cinctures in honor and under the protection of the same Saint Joseph may, by Your gift and his intercession, ever devoutly persevere in chastity. Through the same Jesus Christ our Lord, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, innocéntiæ restitútor et amátor: quǽsumus, ut fidéles tui, qui hæc cíngula adhibúerint, intercedénte beáto Joseph, sanctíssimæ Genetrícis tuæ sponso, in lumbis suis sint semper præcíncti, et lucérnas ardéntes gestent in mánibus suis; ac símiles sint homínibus exspectántibus dóminum suum, quando revertátur a núptiis, ut, cum vénerit et pulsáverit, conféstim apériant ei, et in ætérna gáudia récipi mereántur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, restorer and lover of innocence: we beseech You that Your faithful who shall wear these cinctures may, through the intercession of blessed Joseph, spouse of Your most holy Mother, always have their loins girded and carry burning lamps in their hands, and be like men waiting for their master when he returns from the wedding, so that when he comes and knocks they may open to him at once and be worthy to be received into everlasting joys: who live and reign for ever and ever. ℟. Amen.
+r: Deinde Sacerdos, imposito thure in thuribulo, aqua benedicta aspergit cingula, dicens: Aspérges me, Dómine, hyssópo et mundábor; lavábis me, et super nivem dealbábor; postea incensat, et tandem dicit: || Then the priest, having put incense into the thurible, sprinkles the cinctures with holy water, saying: "Sprinkle me, O Lord, with hyssop, and I shall be cleansed; wash me, and I shall be made whiter than snow"; afterwards he incenses them, and finally says:
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, my God.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from Your holy place.
+x: Et de Sion tuére eos. || And from Zion watch over them.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Pater miséricors, Deus clemens, cui bona cuncta placent, sine quo nihil boni inchoátur, nihílque boni perfícitur: adsint nostris humíllimis précibus tuæ pietátis aures, et fidéles tuos, qui in tuo sancto nómine cíngulo benedícto in honórem et sub protectióne sancti Joseph præcíncti fúerint, a mundi impediménto, vel sæculári desidério defénde; et concéde eis, ut in hoc sancto propósito devóti persístere, et remissióne percépta ad electórum tuórum váleant perveníre consórtium. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Merciful Father, gracious God, to whom all good things are pleasing, without whom nothing good is begun and nothing good is completed: let the ears of Your goodness be open to our most humble prayers, and defend from the hindrances of the world and from worldly desire Your faithful who in Your holy name shall be girded with the blessed cincture in honor and under the protection of Saint Joseph; and grant them to persevere devoutly in this holy resolve and, having received forgiveness, to come into the company of Your elect. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Lilies on the Feast of Saint Anthony of Padua, Confessor
+// ──────────────────────────────────────────────────────────────────────
+# st-anthony-lilies | Benedictio Liliorum in Festo S. Antonii Patavini Conf. | Blessing of Lilies on the Feast of Saint Anthony of Padua, Confessor | Feasts of the Year | Appendix, Benedictiones reservatæ, II, 2
+r: (Approbata a S. R. C. die 26 Febr. 1901) || (Approved by the S. Congregation of Rites, 26 February 1901)
+r: Sacerdos facultatem habens ab Apostolica Sede concessam, superpelliceo et stola coloris albi indutus, lilia benedicturus dicit: || The priest who has the faculty granted by the Apostolic See, vested in surplice and white stole, about to bless the lilies, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, Creátor et Conservátor géneris humáni, sanctæ puritátis amátor, dator grátiæ spirituális, et largítor ætérnæ salútis, benedictióne tua sancta béne✠dic hæc lília, quæ pro grátiis exsolvéndis, in honórem sancti Antónii Confessóris tui súpplices hódie tibi præsentámus, et pétimus benedíci. Infúnde illis salutári signáculo sanctíssimæ Cru✠cis rorem cæléstem. Tu benigníssime, qui ea ad odóris suavitátem depellendásque infirmitátes humáno usui tribuísti, tali virtúte reple et confírma; ut, quibuscúmque morbis adhíbita, seu in dómibus locísque pósita, vel cum devotióne portáta fúerint, intercedénte eódem fámulo tuo António, fugent dǽmones, continéntiam salutárem indúcant, languóres avértant, tibíque serviéntibus pacem et grátiam concílient. Per Christum, Dóminum nostrum. ℟. Amen. || O God, Creator and Preserver of the human race, lover of holy purity, giver of spiritual grace and bestower of eternal salvation: with Your holy blessing ✠ bless these lilies, which we humbly present to You today in thanksgiving and in honor of Saint Anthony, Your Confessor, and ask to have blessed. Pour upon them heavenly dew by the saving sign of the most holy ✠ Cross. Most kind Lord, who gave them to man's use for the sweetness of their fragrance and the driving away of ailments, fill and strengthen them with such power that, whether applied to any illness, or placed in homes and other places, or devoutly carried, through the intercession of Your same servant Anthony they may put demons to flight, foster wholesome continence, ward off sickness, and win peace and grace for those who serve You. Through Christ our Lord. ℟. Amen.
+r: Deinde aspergit lilia aqua benedicta, interim dicens: Aspérges me, Dómine, hyssópo et mundábor: lavábis me, et super nivem dealbábor, ac postea subdit: || Then he sprinkles the lilies with holy water, saying meanwhile: "Sprinkle me, O Lord, with hyssop, and I shall be cleansed; wash me, and I shall be made whiter than snow," and afterwards adds:
+v: Ora pro nobis, beáte Antóni. || Pray for us, blessed Anthony.
+x: Ut digni efficiámur promissiónibus Christi. || That we may be made worthy of the promises of Christ.
+t: Orémus. || Let us pray.
+t: Subvéniat plebi tuæ, quǽsumus, Dómine, præclári Confessóris tui beáti Antónii devóta et júgis deprecátio: quæ in præsénti nos tua grátia dignos effíciat, et in futúro gáudia donet ætérna. Per Christum, Dóminum nostrum. ℟. Amen. || May the devout and unceasing prayer of blessed Anthony, Your illustrious Confessor, come to the aid of Your people, we beseech You, O Lord, that it may make us worthy of Your grace in this present life and obtain for us everlasting joys in the life to come. Through Christ our Lord. ℟. Amen.
+r: His dictis, lilia distribuit. || This said, he distributes the lilies.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Boys and Girls on the Feasts of the Pious Association of the Holy Childhood
+// ──────────────────────────────────────────────────────────────────────
+# holy-childhood-children | Benedictio Puerorum et Puellarum in Festis piæ Unionis a Sancta Infantia nuncupatæ | Blessing of Boys and Girls on the Feasts of the Pious Association of the Holy Childhood | Mothers & Children | Appendix, Benedictiones reservatæ, II, 3
+r: Sacerdos ex Apostolico indulto delegatus dicat: || The priest delegated by Apostolic indult says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Quǽsumus, omnípotens Deus, púeris istis, pro quibus tuam deprecámur cleméntiam, benedícere dignáre: et per virtútem Sancti Spíritus corda eórum corróbora, vitam sanctífica, castimóniam prómove, sensus eórum bonis opéribus únice inténtos custódi, próspera tríbue, pacem concéde, salútem confer, caritátem largíre, et ab ómnibus diabólicis atque humánis insídiis tua protectióne et virtúte semper defénde; ut, te miseránte, paradísi réquiem tandem felíciter assequántur. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || We beseech You, almighty God, deign to bless these children for whom we implore Your clemency; and by the power of the Holy Spirit strengthen their hearts, sanctify their lives, foster their purity, keep their minds intent on good works alone, grant them prosperity, give them peace, bestow health, lavish charity upon them, and ever defend them by Your protection and power from all the snares of the devil and of men; so that, by Your mercy, they may at last happily attain the rest of paradise. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui párvulos tibi oblátos et ad te veniéntes complectebáris *(hic ponat manus super capita puerorum)*, manúsque super illos impónens, eis benedicébas, dicens: Sínite párvulos veníre ad me, et nolíte prohibére eos: tálium est enim regnum cælórum, et Angeli eórum semper vident fáciem Patris mei; réspice, quǽsumus, ad puerórum et puellárum præséntium devotiónem, et benedíctio tua copiósa super illos descéndat, ut in tua grátia et caritáte profíciant, te sápiant, te díligant, te tímeant, mandáta tua custódiant, et ad exoptátum finem pervéniant, per te, Salvátor mundi, qui cum Patre et Spíritu Sancto vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who embraced the little ones offered to You and coming to You *(here he lays his hands on the children's heads)*, and laying Your hands upon them blessed them, saying: "Let the little children come to Me, and do not forbid them, for of such is the kingdom of heaven, and their Angels always behold the face of My Father": look, we beseech You, upon the devotion of the boys and girls here present, and let Your abundant blessing come down upon them, that they may grow in Your grace and love, know You, love You, fear You, keep Your commandments, and reach the end they long for, through You, Savior of the world, who with the Father and the Holy Spirit live and reign, God, for ever and ever. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, custódiat atque dírigat vos, et máneat semper vobíscum. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you, guard and guide you, and remain with you always. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Form of the Papal Blessing with Plenary Indulgence at the End of Sermons
+// ──────────────────────────────────────────────────────────────────────
+# papal-blessing-sermons | Formula Benedictionis Papalis cum Indulgentia Plenaria in fine contionum | Form of the Papal Blessing with Plenary Indulgence at the End of Sermons | Other | Appendix, Benedictiones reservatæ, II, 4
+r: (Approbata a S. R. C. die 11 Maji 1911) || (Approved by the S. Congregation of Rites, 11 May 1911)
+r: Si in Brevi edicitur, ut Benedictio cum indulgentia plenaria in fine contionum a Sacerdote populo impertiatur cum Crucifixo, juxta ritum formulamque præscriptam, fiat unicum signum crucis cum Crucifixo, adhibita formula: || If a Brief directs that the blessing with plenary indulgence be imparted to the people by the priest at the end of sermons with the crucifix, according to the prescribed rite and form, a single sign of the cross is made with the crucifix, using the formula:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Shorter Form of the Blessing with Plenary Indulgence for Secular Tertiaries Having a Special Indult
+// ──────────────────────────────────────────────────────────────────────
+# plenary-indulgence-tertiaries | Formula Brevior Benedictionis cum Indulgentia Plenaria pro Tertiariis sæcularibus speciale indultum habentibus | Shorter Form of the Blessing with Plenary Indulgence for Secular Tertiaries Having a Special Indult | Other | Appendix, Benedictiones reservatæ, II, 5
+r: Si hæc indulgentia immediate post sacramentalem absolutionem impertiatur, et adjuncta vetent integram adhibere formulam in hoc Rituali Romano (Tit. VIII, cap. 33) præscriptam, Sacerdos, reliquis omissis, dicere poterit: || If this indulgence is imparted immediately after sacramental absolution, and circumstances prevent the use of the full form prescribed in this Roman Ritual (Tit. VIII, cap. 33: Rite of General Absolution and Papal Blessing), the priest, omitting the rest, may say:
+t: Auctoritáte a Summis Pontifícibus mihi concéssa, plenáriam ómnium peccatórum tuórum indulgéntiam tibi impértior. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || By the authority granted to me by the Supreme Pontiffs, I impart to you a plenary indulgence of all your sins. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.

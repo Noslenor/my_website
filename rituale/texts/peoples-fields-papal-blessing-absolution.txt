@@ -1,0 +1,202 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessing peoples and fields; Papal Blessing; General Absolution (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Peoples and Fields by Indult of the Apostolic See
+// ──────────────────────────────────────────────────────────────────────
+# peoples-fields | Ritus Benedicendi Populos et Agros ex Apostolicæ Sedis indulto | Blessing of Peoples and Fields by Indult of the Apostolic See | Fields & Animals | Tit. VIII, cap. 31
+r: 1. Accepto diplomate pontificio, constituatur dies Dominica, Delegato et populo commodior, pro ejusdem diplomatis publicatione, et exsecutionis inchoatione. || 1. When the papal document has been received, a Sunday convenient to the delegate and the people is appointed for its publication and the beginning of its execution.
+r: 2. Die constituta, mane fiat contio, qua doceatur populus de contentis in diplomate pontificio, et de præparatione ad futuram Absolutionem et Benedictionem. Deinde a Delegato celebretur Missa pro remissione peccatorum, in paramentis violaceis, sine Glória in excélsis, et cum Credo, ad instar Missæ votivæ sollemnis pro re gravi et publica simul causa; qua finita, Celebrans, depositis casula et manipulo, induatur pluviali violaceo, et, si sit Episcopus, mitram auriphrygiatam assumat: tum, omnibus genuflexis ante Altare, cantentur Litaniæ Sanctorum, omissis Precibus et Orationibus post eas dici solitis. || 2. On the appointed day, in the morning, a sermon is given in which the people are taught about the contents of the papal document and about preparing for the coming absolution and blessing. Then the delegate celebrates the Mass for the remission of sins, in violet vestments, without the Gloria and with the Creed, in the manner of a solemn votive Mass for a grave and public cause. When it is finished, the celebrant lays aside the chasuble and maniple and puts on a violet cope (and, if he is a bishop, the orphreyed mitre); then, all kneeling before the altar, the Litany of the Saints is sung, omitting the prayers and orations usually said after it.
+@litany-of-the-saints
+r: 3. Sedeat Delegatus, finitis Litaniis, cooperto capite, in sede sibi parata super scabello Altaris, vel in sede episcopali, si est Episcopus, seu super faldistorio posito super dicto scabello, cum duobus Ministris paratis more diaconali et subdiaconali sine manipulis, astantibus hinc inde a lateribus omnibus de Clero: et alta voce ab aliquo legatur diploma coram populo: quo lecto, dicat Delegatus: Deo grátias. || 3. When the Litany is finished, the delegate sits with head covered on a seat prepared for him on the altar step (or on the episcopal throne if he is a bishop, or on a faldstool placed on that step), with two ministers vested as deacon and subdeacon without maniples, and all the clergy standing at either side. Someone reads the document aloud before the people; when it has been read, the delegate says: "Thanks be to God."
+r: 4. Tunc nomine populi ille, qui ibi pro Diacono assistit, profunde inclinatus a sinistris Delegati facit confessionem in cantu: || 4. Then the one who assists as deacon, bowing profoundly at the delegate's left, makes the confession in the name of the people, singing:
+t: Confíteor Deo omnipoténti, beátæ Maríæ semper Vírgini, beáto Michaéli Archángelo, beáto Joánni Baptístæ, sanctis Apóstolis Petro et Paulo, ómnibus Sanctis, et tibi, pater: quia peccávi nimis cogitatióne, verbo et ópere: mea culpa, mea culpa, mea máxima culpa. Ídeo precor beátam Maríam semper Vírginem, beátum Michaélem Archángelum, beátum Joánnem Baptístam, sanctos Apóstolos Petrum et Paulum, omnes Sanctos, et te, pater, oráre pro me ad Dóminum Deum nostrum. || I confess to almighty God, to blessed Mary ever Virgin, to blessed Michael the Archangel, to blessed John the Baptist, to the holy Apostles Peter and Paul, to all the Saints, and to you, father, that I have sinned exceedingly in thought, word, and deed: through my fault, through my fault, through my most grievous fault. Therefore I beseech blessed Mary ever Virgin, blessed Michael the Archangel, blessed John the Baptist, the holy Apostles Peter and Paul, all the Saints, and you, father, to pray for me to the Lord our God.
+r: 5. Qua finita, Delegatus, assumpto baculo pastorali in sinistra manu, si est Episcopus, et adhuc sedens cooperto capite incipit Psalmum Miserére, in cujus fine dicitur Glória Patri: et deinde incipit Psalmum Deus misereátur. 6. Hi Psalmi recitantur sine cantu, alternatim a Delegato et a Clero, super universum Clerum et populum genuflexum. || 5. When it is finished, the delegate (taking the pastoral staff in his left hand if he is a bishop), still seated with head covered, begins the psalm "Have mercy," at the end of which the Glory be is said; and then he begins the psalm "May God have mercy on us." 6. These psalms are recited without chant, alternately by the delegate and the clergy, over all the clergy and people kneeling.
+@psalm-50
+@psalm-66
+r: 7. Quibus finitis, Delegatus stans detecto capite, baculoque deposito, si est Episcopus, versus populum manibus junctis, dicit: Kýrie, eléison. Clerus prosequitur: Christe, eléison. Kýrie, eléison. Delegatus subjungit: || 7. When they are finished, the delegate, standing bareheaded (and laying aside the staff if he is a bishop), turns to the people with joined hands and says: "Lord, have mercy." The clergy continue: "Christ, have mercy. Lord, have mercy." The delegate adds:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || O my God, who hope in You.
+v: Nihil profíciat inimícus in eis. || Let the enemy have no power over them,
+x: Et fílius iniquitátis non appónat nocére eis. || Nor the son of iniquity draw near to harm them.
+v: Esto eis, Dómine, turris fortitúdinis. || Be unto them, O Lord, a tower of strength
+x: A fácie inimíci. || Against the face of the enemy.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere: súscipe deprecatiónem nostram; ut nos et omnes fámulos tuos, quos delictórum caténa constríngit, miserátio tuæ pietátis cleménter absólvat. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, whose nature it is always to have mercy and to spare, receive our petition, that the compassion of Your kindness may mercifully set free us and all Your servants who are bound by the chain of sin. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 8. Deinde sedens Delegatus cooperto capite, et, si est Episcopus, assumpto baculo, dicit: || 8. Then the delegate, seated with head covered (and taking the staff if he is a bishop), says:
+t: Misereátur vestri omnípotens Deus, et dimíssis peccátis vestris, perdúcat vos ad vitam ætérnam. ℟. Amen. || May almighty God have mercy on you, forgive you your sins, and bring you to everlasting life. ℟. Amen.
+t: Indulgéntiam, absolutiónem, et remissiónem peccatórum vestrórum tríbuat vobis omnípotens et miséricors Dóminus. ℟. Amen. || May the almighty and merciful Lord grant you pardon, absolution, and remission of your sins. ℟. Amen.
+r: 9. Manuque dextera super populum genuflexum extensa, addit: || 9. And with his right hand extended over the kneeling people, he adds:
+t: Auctoritáte Dei omnipoténtis, et beatórum Apostolórum Petri et Pauli, a sanctíssimo Dómino nostro Papa N. mihi concéssa, absólvo vos et omnes hujus loci, ab omni vínculo excommunicatiónis, suspensiónis, interdícti, aliísque ecclesiásticis senténtiis, censúris, et pœnis per vos incúrsis, quas modo ignorátis, juxta tenórem pontifícii diplómatis próxime lecti. Et restítuo vos omnes communióni, et unitáti fidélium, et sanctis sacraméntis Ecclésiæ. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || By the authority of almighty God and of the blessed Apostles Peter and Paul, granted to me by our most holy Lord Pope N., I absolve you and all of this place from every bond of excommunication, suspension, and interdict, and from other ecclesiastical sentences, censures, and penalties which you may have incurred and of which you are now unaware, according to the tenor of the papal document just read. And I restore you all to the communion and unity of the faithful and to the holy sacraments of the Church. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: 10. Si est Episcopus, facit ter signum crucis, dum dicit: In nómine Patris, et Fílii, et Spíritus Sancti. || 10. If he is a bishop, he makes the sign of the cross three times while saying: "In the name of the Father, and of the Son, and of the Holy Spirit."
+r: 11. Tunc Delegatus adhuc sedens, per se ipsum, vel alium firmioris vocis, indicet dies tres singillatim pro jejunio; et decernat diem Dominicam sequentem, vel aliam arbitrio suo, pro Communione, Benedictione agrorum et populi, et Indulgentia plenaria. || 11. Then the delegate, still seated, either himself or through someone with a stronger voice, announces three separate days of fasting, and appoints the following Sunday, or another day at his discretion, for Communion, the blessing of the fields and of the people, and the plenary indulgence.
+r: 12. Die constituta, populus universus debebit communicare, et hora competenti Delegatus cantabit Missam, quæ est ad finem Missalis, sub titulo Pro quacumque necessitate, cum paramentis violaceis, sine Glória, et cum Credo, ad instar Missæ votivæ sollemnis pro re gravi et publica simul causa. In fine Missæ Celebrans benedicit de more, et, si est Episcopus, non dat Indulgentias. || 12. On the appointed day all the people are to receive Communion, and at a suitable hour the delegate sings the Mass found at the end of the Missal under the title "For any necessity," in violet vestments, without the Gloria and with the Creed, in the manner of a solemn votive Mass for a grave and public cause. At the end of Mass the celebrant blesses as usual, and if he is a bishop he does not grant indulgences.
+r: 13. Finita Missa, Delegatus et duo Ministri assumunt paramenta alba, et Delegatus, si est Episcopus, mitram pretiosam; tum, genuflexis ante Altare cum universo Clero et populo, cantantur Litaniæ Sanctorum, repetito ter: || 13. After Mass the delegate and the two ministers put on white vestments (the delegate, if a bishop, the precious mitre); then, kneeling before the altar with all the clergy and people, they sing the Litany of the Saints, repeating three times:
+v: Ut fructus terræ dare, et conserváre dignéris. || That You deign to give and preserve the fruits of the earth.
+x: Te rogámus, audi nos. || We beseech You, hear us.
+r: Iisque finitis, Delegatus stans detecto capite, manibus junctis dicit: || When the Litany is finished, the delegate, standing bareheaded with joined hands, says:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Et additur a Clero in cantu: || And the clergy add, singing:
+h: Psalmus 84 || Psalm 84
+t: Benedixísti, Dómine, terram tuam: * avertísti captivitátem Jacob. || You have blessed Your land, O Lord; * You have turned away the captivity of Jacob.
+t: Remisísti iniquitátem plebis tuæ: * operuísti ómnia peccáta eórum. || You have forgiven the iniquity of Your people; * You have covered all their sins.
+t: Mitigásti omnem iram tuam: * avertísti ab ira indignatiónis tuæ. || You have softened all Your anger; * You have turned away from the wrath of Your indignation.
+t: Convérte nos, Deus, salutáris noster: * et avérte iram tuam a nobis. || Turn us, O God our Savior, * and turn away Your anger from us.
+t: Numquid in ætérnum irascéris nobis? * aut exténdes iram tuam a generatióne in generatiónem? || Will You be angry with us for ever? * Or will You extend Your wrath from generation to generation?
+t: Deus, tu convérsus vivificábis nos: * et plebs tua lætábitur in te. || O God, You will turn again and bring us to life, * and Your people shall rejoice in You.
+t: Osténde nobis, Dómine, misericórdiam tuam: * et salutáre tuum da nobis. || Show us, O Lord, Your mercy, * and grant us Your salvation.
+t: Áudiam quid loquátur in me Dóminus Deus: * quóniam loquétur pacem in plebem suam. || I will hear what the Lord God will speak in me, * for He will speak peace to His people,
+t: Et super sanctos suos: * et in eos, qui convertúntur ad cor. || And to His saints, * and to those who turn to Him in their heart.
+t: Verúmtamen prope timéntes eum salutáre ipsíus: * ut inhábitet glória in terra nostra. || Surely His salvation is near to those who fear Him, * that glory may dwell in our land.
+t: Misericórdia, et véritas obviavérunt sibi: * justítia, et pax osculátæ sunt. || Mercy and truth have met each other; * justice and peace have kissed.
+t: Véritas de terra orta est: * et justítia de cælo prospéxit. || Truth has sprung out of the earth, * and justice has looked down from heaven.
+t: Étenim Dóminus dabit benignitátem: * et terra nostra dabit fructum suum. || For the Lord will give goodness, * and our earth shall yield its fruit.
+t: Justítia ante eum ambulábit: * et ponet in via gressus suos. || Justice shall walk before Him, * and shall set His steps in the way.
+@gloria-patri
+r: Quo finito, Delegatus dicit: || When it is finished, the delegate says:
+v: Benedíces corónæ anni benignitátis tuæ. || You will crown the year with Your goodness,
+x: Et campi tui replebúntur ubertáte. || And Your fields shall be filled with plenty.
+v: Óculi ómnium in te sperant, Dómine. || The eyes of all hope in You, O Lord,
+x: Et tu das illis escam in témpore opportúno. || And You give them their food in due season.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. || O God, our refuge and strength, the very author of all goodness, be attentive to the devout prayers of Your Church, and grant that what we ask in faith we may effectually obtain.
+t: Deus, qui in omni loco dominatiónis tuæ clemens et benígnus assístis: exáudi nos, quǽsumus, et concéde; ut in pósterum inviolábilis hujus loci permáneat bene✠díctio, et tui múneris benefícia, univérsitas hæc fidélium, quæ súpplicat, percípere mereátur. || O God, who are present, merciful and kind, in every place of Your dominion: hear us, we beseech You, and grant that the ✠ blessing of this place may hereafter remain inviolate, and that all these faithful who make their supplication may be worthy to receive the benefits of Your bounty.
+t: Orámus pietátem tuam, omnípotens Deus: ut fructus terræ, quos áëris et plúviæ temperaménto nutríre dignáris, benedictiónis tuæ imbre perfúndas, et tríbuas huic pópulo tuo de tuis munéribus tibi semper grátias ágere; ut fertilitáte terræ, esuriéntium ánimas bonis affluéntibus répleas, et egénus et pauper laudent nomen glóriæ tuæ. Per Christum, Dóminum nostrum. ℟. Amen. || We entreat Your loving kindness, almighty God, that You would pour the shower of Your blessing upon the fruits of the earth, which You deign to nourish with the gentle balance of air and rain, and grant this Your people always to give You thanks for Your gifts; that by the fruitfulness of the earth You may fill the souls of the hungry with an abundance of good things, and the needy and the poor may praise the name of Your glory. Through Christ our Lord. ℟. Amen.
+r: 14. Postea assumpto baculo, si est Episcopus, et cooperto capite, dicit Delegatus: || 14. Then, taking the staff if he is a bishop, and with head covered, the delegate says:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, super agros, et bona quæcúmque loci hujus, plena descéndat, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down in fullness upon the fields and upon all the goods of this place, and remain for ever. ℟. Amen.
+r: 15. Si est Episcopus, facit ter signum crucis, dum dicit prædicta verba. 16. Deinde accepto de manu dignioris de Clero aquæ benedictæ aspersorio, aspergit versus quatuor mundi partes, dicens sine cantu, et sine Psalmo Antiphonam: || 15. If he is a bishop, he makes the sign of the cross three times while saying these words. 16. Then, receiving the holy water sprinkler from the hand of the senior cleric, he sprinkles toward the four quarters of the world, saying the antiphon without chant and without the psalm:
+t: *Ant.* Aspérges me, Dómine, hyssópo, et mundábor: lavábis me, et super nivem dealbábor. || *Ant.* You will sprinkle me, O Lord, with hyssop, and I shall be cleansed; You will wash me, and I shall be made whiter than snow.
+r: 17. Pro Benedictione populi, operto capite, manibus junctis, dicit: || 17. For the blessing of the people, with head covered and hands joined, he says:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || O my God, who hope in You.
+v: Non secúndum peccáta nostra fácias nobis. || Deal not with us according to our sins,
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Mitte nobis, Dómine, auxílium de sancto. || Send us help, O Lord, from the sanctuary,
+x: Et de Sion tuére nos. || And defend us out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Protéctor in te sperántium, Deus, exáudi preces pópuli tui, et præsta; ut véniat super nos speráta a te benedictiónis ubértas, et pietátis tuæ munéribus júgiter perfruámur. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, protector of those who hope in You, hear the prayers of Your people, and grant that the abundant blessing we hope for from You may come upon us, and that we may continually enjoy the gifts of Your goodness. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 18. Tunc Diaconus cantat alta voce: || 18. Then the deacon sings in a loud voice:
+t: Humiliáte vos ad apostólicam Benedictiónem. || Humble yourselves for the Apostolic Blessing.
+r: Postea Delegatus stans operto capite, et, si est Episcopus, baculum sinistra tenens manu, benedicit semel, et, si est Episcopus, ter, dicens: || Then the delegate, standing with head covered (holding the staff in his left hand if he is a bishop), blesses once (three times if he is a bishop), saying:
+t: Auctoritáte Dei omnipoténtis, et beatórum Apostolórum Petri et Pauli, et sanctíssimi Dómini nostri Papæ N. benedíco vos, et omnes hujus loci: In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || By the authority of almighty God, of the blessed Apostles Peter and Paul, and of our most holy Lord Pope N., I bless you and all of this place: in the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: 19. Demum cantatur Hymnus Te Deum, inchoatus a Delegato; quo finito, Delegatus cantat Orationem pro gratiarum actione: || 19. Finally the hymn Te Deum is sung, intoned by the delegate; when it is finished, the delegate sings the prayer of thanksgiving:
+@hymn-te-deum
+t: Orémus. || Let us pray.
+t: Deus, cujus misericórdiæ non est númerus, et bonitátis infinítus est thesáurus: piíssimæ majestáti tuæ pro collátis donis grátias ágimus, tuam semper cleméntiam exorántes; ut, qui peténtibus postuláta concédis, eósdem non déserens, ad præmia futúra dispónas. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, whose mercies are without number and whose treasure of goodness is infinite: we give thanks to Your most gracious majesty for the gifts You have bestowed, always entreating Your mercy, that You who grant the petitions of those who ask may not forsake them, but prepare them for the rewards to come. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Cantores addunt: || The cantors add:
+v: Benedicámus Dómino. || Let us bless the Lord.
+x: Deo grátias. || Thanks be to God.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Apostolic Blessing to Be Given to the People on Appointed Days
+// ──────────────────────────────────────────────────────────────────────
+# apostolic-blessing | Ritus Benedictionis Apostolicæ statis diebus super populum elargiendæ | The Apostolic Blessing to Be Given to the People on Appointed Days | Proper to Religious Orders | Tit. VIII, cap. 32
+r: Servandus a Regularibus quibus a S. Sede hujusmodi facultas indulta est vel indulgebitur. || To be observed by religious to whom the Holy See has granted or will grant this faculty.
+r: 1. Admoneatur populus de Indulgentia a Sede Apostolica concessa, de præceptis operibus pro ea lucrifacienda, de die, quo visitanda est designata ecclesia, de hora denique, qua dabitur pontificia Benedictio. De quibus, quatenus opus sit, etiam schedis impressis, et consuetis locis palam affixis, certior fiat. || 1. The people are to be informed of the indulgence granted by the Apostolic See, of the works prescribed for gaining it, of the day on which the designated church is to be visited, and of the hour at which the papal blessing will be given. If necessary, they should also be informed of these things by printed notices publicly posted in the usual places.
+r: 2. Postquam statutis die et hora populus ad ecclesiam convenerit, alta voce legantur apostolicæ litteræ, seu decreta, quibus Indulgentia conceditur, una cum potestate Benedictionem apostolicam super populum effundendi, ut de delegatione audientibus constet; et concessio, ex latino sermone in vulgarem accommodatum ad populi intellegentiam conversa, pronuntietur. Populus ad suorum scelerum detestationem pio brevique sermone excitetur: post quæ Sacerdos, nullis circumstantibus ministris, superpelliceo et stola alba indutus, ante Altare genuflexus, sequentibus verbis Dei opem imploret: || 2. When the people have gathered in the church on the appointed day and hour, the apostolic letters or decrees granting the indulgence, together with the faculty to impart the Apostolic Blessing to the people, are read aloud, so that those present may know of the delegation; and the grant is announced in the vernacular, translated from the Latin so that the people may understand it. The people are moved to detest their sins by a short and devout sermon. After this the priest, with no ministers attending, vested in surplice and white stole and kneeling before the altar, implores God's help with these words:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Salvum fac pópulum tuum, Dómine. || Save Your people, O Lord,
+x: Et bénedic hereditáti tuæ. || And bless Your inheritance.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: Deinde stans sequentem recitet Orationem: || Then, standing, he recites the following prayer:
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, da nobis auxílium de sancto, et vota pópuli hujus in humilitáte cordis véniam peccatórum poscéntis, tuámque benedictiónem præstolántis et grátiam, cleménter exáudi: déxteram tuam super eum benígnus exténde, ac plenitúdinem divínæ benedictiónis effúnde, qua bonis ómnibus cumulátus, felicitátem et vitam consequátur ætérnam. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty and merciful God, send us help from the sanctuary, and mercifully hear the prayers of this people, who in humility of heart ask pardon for their sins and await Your blessing and grace. Kindly stretch out Your right hand over them and pour out the fullness of divine blessing, that, enriched with all good things, they may obtain happiness and eternal life. Through Christ our Lord. ℟. Amen.
+r: 3. Postea ad cornu Epistolæ accedat; et ibi stans, non trina, idest triplici signo crucis, sed una benedictione, unico videlicet signo crucis, benedicat, proferens alta voce hæc verba: || 3. Then he goes to the Epistle side and, standing there, blesses not with a triple sign of the cross but with a single blessing, that is, with one sign of the cross, saying aloud these words:
+t: Benedícat vos omnípotens Deus, Pater, et Fílius, ✠ et Spíritus Sanctus. ℟. Amen. || May almighty God bless you, the Father, and the Son, ✠ and the Holy Spirit. ℟. Amen.
+r: 4. Regulares, qui privilegium habent impertiendi Benedictionem Papalem, non solum obligatione tenentur servandi formulam præscriptam, sed hoc privilegio uti nequeunt, nisi in suis ecclesiis et in ecclesiis Monialium vel Tertiariorum suo Ordini legitime aggregatorum; non autem eodem die et loco quo Episcopus eam impertiat. || 4. Religious who have the privilege of imparting the Papal Blessing are not only bound to observe the prescribed form, but may use this privilege only in their own churches and in the churches of nuns or tertiaries lawfully affiliated with their order; and not on the same day and in the same place as the bishop imparts it.
+
+// ──────────────────────────────────────────────────────────────────────
+// General Absolution for Religious and Blessing with Plenary Indulgence for Tertiaries
+// ──────────────────────────────────────────────────────────────────────
+# general-absolution | Ritus Absolutionis Generalis et Benedictionis Papalis | General Absolution for Religious and Blessing with Plenary Indulgence for Tertiaries | Proper to Religious Orders | Tit. VIII, cap. 33
+r: Ex Apostolicæ Sedis indulto pro regularibus Ordinibus et Tertiariis ad eos pertinentibus. || By indult of the Apostolic See, for religious orders and the tertiaries belonging to them.
+r: 1. Pro Benedictione Apostolica cum indulgentia plenaria in articulo mortis retineatur in omnibus formula superius præscripta, addito tantum ad Confíteor nomine Sancti proprii Fundatoris. 2. Benedictio Summi Pontificis nomine super Congregationem impertienda detur cum formula superius tradita, sed nonnisi bis in anno, et sub condicione quod hæc Benedictio numquam detur eodem die et loco quo Episcopus eam impertiat. 3. In Absolutione generali pro Regularibus cujuscumque Ordinis, atque in Benedictione cum indulgentia plenaria pro Tertiariis sæcularibus adhibeantur omnino duæ insequentes formulæ. || 1. For the Apostolic Blessing with plenary indulgence at the hour of death, the form prescribed earlier in this book is to be kept in every respect, adding only the name of the proper holy Founder in the Confiteor. 2. The blessing to be given to the community in the name of the Supreme Pontiff is given with the form set out above (cap. 32), but only twice a year, and on condition that it is never given on the same day and in the same place as the bishop imparts it. 3. For the general absolution of religious of any order, and for the blessing with plenary indulgence for secular tertiaries, the two following forms are always to be used.
+h: I. Formula Absolutionis generalis pro Regularibus cujuscumque Ordinis hoc privilegio fruentibus || I. Form of General Absolution for Religious of Any Order Enjoying This Privilege
+r: Sacerdos, superpelliceo et stola violacea indutus, dicit: || The priest, vested in surplice and violet stole, says:
+t: *Ant.* Ne reminiscáris, Dómine, delícta nostra vel paréntum nostrórum, neque vindíctam sumas de peccátis nostris. || *Ant.* Remember not, O Lord, our offenses or those of our parents, and take not vengeance on our sins.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Osténde nobis, Dómine, misericórdiam tuam. || Show us, O Lord, Your mercy,
+x: Et salutáre tuum da nobis. || And grant us Your salvation.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere, súscipe deprecatiónem nostram, ut nos, et omnes fámulos tuos, quos delictórum caténa constríngit, miserátio tuæ pietátis cleménter absólvat. || O God, whose nature it is always to have mercy and to spare, receive our petition, that the compassion of Your kindness may mercifully set free us and all Your servants who are bound by the chain of sin.
+t: Exáudi, quǽsumus, Dómine, súpplicum preces, et confiténtium tibi parce peccátis, ut páriter nobis indulgéntiam tríbuas benígnus et pacem. || Hear, we beseech You, O Lord, the prayers of Your suppliants, and spare the sins of those who confess to You, that in Your goodness You may grant us both pardon and peace.
+t: Ineffábilem nobis, Dómine, misericórdiam tuam cleménter osténde: ut simul nos et a peccátis ómnibus éxuas, et a pœnis, quas pro his merémur, erípias. || Mercifully show us, O Lord, Your unspeakable mercy, that You may both strip us of all our sins and deliver us from the punishments we deserve for them.
+t: Deus, qui culpa offénderis, pœniténtia placáris: preces pópuli tui supplicántis propítius réspice; et flagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who are offended by sin and appeased by penance, graciously regard the prayers of Your people who entreat You, and turn away the scourges of Your anger, which we deserve for our sins. Through Christ our Lord. ℟. Amen.
+r: Completis precibus, ab uno ex astantibus dicitur Confíteor, addito nomine Sancti proprii Fundatoris. Deinde Sacerdos dicit: Misereátur vestri, etc., Indulgéntiam, absolutiónem, etc. Postea subjungit: || When the prayers are finished, one of those present says the Confiteor, adding the name of the proper holy Founder. Then the priest says: "May almighty God have mercy on you," etc., and "May the almighty and merciful Lord grant you pardon, absolution," etc. Then he adds:
+t: Dóminus noster Jesus Christus per mérita suæ sacratíssimæ passiónis vos absólvat, et grátiam suam vobis infúndat. Et ego auctoritáte ipsíus, et beatórum Apostolórum Petri et Pauli, et Summórum Pontíficum Ordini nostro ac vobis concéssa, et mihi in hac parte commíssa, absólvo vos ab omni vínculo excommunicatiónis, suspensiónis et interdícti, si quod forte incurrístis, et restítuo vos unióni, et participatióni fidélium, necnon sacrosánctis Ecclésiæ sacraméntis. Item eádem auctoritáte absólvo vos ab omni transgressióne votórum et régulæ, constitutiónum, ordinatiónum et admonitiónum majórum nostrórum, ab ómnibus pœniténtiis oblítis, seu étiam negléctis, concédens vobis remissiónem et indulgéntiam ómnium peccatórum, quibus contra Deum et próximum fragilitáte humána, ignorántia, vel malítia deliquístis, ac de quibus jam conféssi estis: In nómine Patris, et Fílii, ✠ et Spíritus Sancti. Amen. || May our Lord Jesus Christ, through the merits of His most sacred Passion, absolve you and pour His grace into you. And I, by His authority and that of the blessed Apostles Peter and Paul and of the Supreme Pontiffs, granted to our Order and to you and entrusted to me in this matter, absolve you from every bond of excommunication, suspension, and interdict, if perhaps you have incurred any, and restore you to the union and fellowship of the faithful and to the most holy sacraments of the Church. Likewise, by the same authority, I absolve you from every transgression of the vows and of the Rule, of the constitutions, ordinances, and admonitions of our superiors, and from all penances forgotten or neglected, granting you remission and pardon of all the sins you have committed against God and neighbor through human frailty, ignorance, or malice, and which you have already confessed: In the name of the Father, and of the Son, ✠ and of the Holy Spirit. Amen.
+h: II. Formula Benedictionis cum indulgentia plenaria pro Tertiariis sæcularibus || II. Form of Blessing with Plenary Indulgence for Secular Tertiaries
+r: Ceterisque omnibus communicationem privilegiorum et gratiarum cum iisdem, vel cum Regularibus cujuscumque Ordinis habentibus. Sacerdos, superpelliceo et stola violacea indutus, dicit: || And for all others who share in the privileges and graces of these, or of religious of any order. The priest, vested in surplice and violet stole, says:
+t: *Ant.* Intret orátio mea in conspéctu tuo, Dómine; inclína aurem tuam ad preces nostras; parce, Dómine, parce pópulo tuo, quem redemísti sánguine tuo pretióso, ne in ætérnum irascáris nobis. || *Ant.* Let my prayer come before You, O Lord; incline Your ear to our petitions. Spare, O Lord, spare Your people, whom You have redeemed with Your precious blood, and be not angry with us for ever.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || O my God, who hope in You.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from the sanctuary,
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Esto eis, Dómine, turris fortitúdinis. || Be unto them, O Lord, a tower of strength
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no power over us,
+x: Et fílius iniquitátis non appónat nocére nobis. || Nor the son of iniquity draw near to harm us.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere, súscipe deprecatiónem nostram, ut nos, et omnes fámulos tuos, quos delictórum caténa constríngit, miserátio tuæ pietátis cleménter absólvat. || O God, whose nature it is always to have mercy and to spare, receive our petition, that the compassion of Your kindness may mercifully set free us and all Your servants who are bound by the chain of sin.
+t: Exáudi, quǽsumus, Dómine, súpplicum preces, et confiténtium tibi parce peccátis: ut páriter nobis indulgéntiam tríbuas benígnus et pacem. || Hear, we beseech You, O Lord, the prayers of Your suppliants, and spare the sins of those who confess to You, that in Your goodness You may grant us both pardon and peace.
+t: Ineffábilem nobis, Dómine, misericórdiam tuam cleménter osténde: ut simul nos et a peccátis ómnibus éxuas, et a pœnis, quas pro his merémur, erípias. || Mercifully show us, O Lord, Your unspeakable mercy, that You may both strip us of all our sins and deliver us from the punishments we deserve for them.
+t: Deus, qui culpa offénderis, pœniténtia placáris: preces pópuli tui supplicántis propítius réspice, et flagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who are offended by sin and appeased by penance, graciously regard the prayers of Your people who entreat You, and turn away the scourges of Your anger, which we deserve for our sins. Through Christ our Lord. ℟. Amen.
+r: Dicto deinde Confíteor, etc., Misereátur, etc., Indulgéntiam, etc., Sacerdos prosequitur: || Then, after the Confiteor, "May almighty God have mercy," and "May the almighty and merciful Lord grant you pardon," the priest continues:
+t: Dóminus noster Jesus Christus, qui beáto Petro Apóstolo dedit potestátem ligándi atque solvéndi, ille vos absólvat ab omni vínculo delictórum, ut habeátis vitam ætérnam et vivátis in sǽcula sæculórum. Amen. || May our Lord Jesus Christ, who gave to blessed Peter the Apostle the power of binding and loosing, absolve you from every bond of sin, that you may have eternal life and live for ever and ever. Amen.
+t: Per sacratíssimam passiónem et mortem Dómini nostri Jesu Christi, précibus et méritis beatíssimæ semper Vírginis Maríæ, beatórum Apostolórum Petri et Pauli, beáti Patris nostri N. et ómnium Sanctórum, auctoritáte a Summis Pontifícibus mihi commíssa, plenáriam indulgéntiam ómnium peccatórum vestrórum vobis impértior. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. Amen. || Through the most sacred Passion and death of our Lord Jesus Christ, and by the prayers and merits of the most blessed ever-Virgin Mary, of the blessed Apostles Peter and Paul, of our blessed Father N., and of all the Saints, by the authority entrusted to me by the Supreme Pontiffs, I grant you a plenary indulgence for all your sins. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. Amen.
+r: Si hæc indulgentia immediate post sacramentalem absolutionem impertiatur, reliquis omissis, Sacerdos absolute incipiat a verbis: Dóminus noster Jesus Christus, etc., et ita prosequatur usque ad finem, plurali tantum numero in singularem immutato. || If this indulgence is imparted immediately after sacramental absolution, the rest is omitted, and the priest begins directly with the words "May our Lord Jesus Christ," etc., and continues to the end, changing only the plural to the singular.

@@ -1,0 +1,110 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Epiphany blessings; St. Blaise (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Gold, Frankincense and Myrrh on the Epiphany
+// ──────────────────────────────────────────────────────────────────────
+# gold-frankincense-myrrh | Benedictio Auri, Thuris et Myrrhæ in Festo Epiphaniæ | Blessing of Gold, Frankincense and Myrrh on the Epiphany | Feasts of the Year | Appendix, Benedictiones non reservatæ, 4
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Súscipe, sancte Pater, a me indígno fámulo tuo hæc múnera, quæ in honórem nóminis tui sancti, et in títulum omnipoténtiæ tuæ majestátis, humíliter tibi óffero: sicut suscepísti sacrifícium Abel justi, et sicut eádem múnera a tribus Magis tibi quondam offeréntibus suscepísti. || Receive, holy Father, from me, Your unworthy servant, these gifts which I humbly offer You in honor of Your holy name and in acknowledgment of Your almighty majesty, as You received the sacrifice of just Abel, and as You once received these same gifts from the three Magi who offered them to You.
+t: Exorcízo te, creatúra auri, thuris et myrrhæ, per Pa✠trem omnipoténtem, per Jesum ✠ Christum, Fílium ejus unigénitum, et per Spíritum ✠ Sanctum Paráclitum: ut a te discédat omnis fraus, dolus, et nequítia diáboli, et sis remédium salutáre humáno géneri contra insídias inimíci: et quicúmque divíno freti auxílio te in suis lóculis, dómibus, aut circa se habúerint, per virtútem et mérita Dómini et Salvatóris nostri, ac intercessiónem ejus sanctíssimæ Genetrícis et Vírginis Maríæ, ac eórum, qui hódie simílibus munéribus Christum Dóminum veneráti sunt, omniúmque Sanctórum, ab ómnibus perículis ánimæ et córporis liberéntur, et bonis ómnibus pérfrui mereántur. ℟. Amen. || I exorcise you, creature of gold, frankincense, and myrrh, by the ✠ Father almighty, by Jesus ✠ Christ, His only-begotten Son, and by the Holy ✠ Spirit, the Paraclete: that all deceit, guile, and wickedness of the devil may depart from you, and that you may be a saving remedy to mankind against the snares of the enemy; and that all who, trusting in divine help, keep you in their chests, their homes, or about their persons may, by the power and merits of our Lord and Savior, by the intercession of His most holy Mother, the Virgin Mary, of those who on this day honored Christ the Lord with like gifts, and of all the Saints, be delivered from all dangers of soul and body and be worthy to enjoy all good things. ℟. Amen.
+t: Deus invisíbilis et interminábilis, pietátem tuam per sanctum et treméndum Fílii tui nomen, supplíciter deprecámur: ut in hanc creatúram auri, thuris, myrrhæ bene✠dictiónem ac operatiónem tuæ virtútis infúndas: ut, qui ea penes se habúerint, ab omni ægritúdinis et læsiónis incúrsu tuti sint; et omnes morbos córporis et ánimæ effúgiant, nullum dominétur eis perículum, et læti, ac incólumes tibi in Ecclésia tua desérviant: Qui in Trinitáte perfécta vivis et regnas Deus per ómnia sǽcula sæculórum. ℟. Amen. || O God, invisible and without end, we humbly beseech Your mercy, by the holy and awesome name of Your Son, that You would pour into this creature of gold, frankincense, and myrrh the ✠ blessing and working of Your power, so that those who keep them may be safe from every onset of sickness and injury, may escape all diseases of body and soul, may be ruled by no danger, and may serve You in Your Church joyful and unharmed. Who in perfect Trinity live and reign, God, for ever and ever. ℟. Amen.
+t: Et benedíctio Dei omnipoténtis, Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti, descéndat super hanc creatúram auri, thuris et myrrhæ, et máneat semper. ℟. Amen. || And may the blessing of almighty God, the ✠ Father, and the ✠ Son, and the Holy ✠ Spirit, come down upon this creature of gold, frankincense, and myrrh, and remain for ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Chalk on the Epiphany
+// ──────────────────────────────────────────────────────────────────────
+# chalk-epiphany | Benedictio Cretæ in Festo Epiphaniæ | Blessing of Chalk on the Epiphany | Feasts of the Year | Appendix, Benedictiones non reservatæ, 5
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine Deus, creatúram istam cretæ: ut sit salutáris humáno géneri; et præsta per invocatiónem nóminis tui sanctíssimi, ut, quicúmque ex ea súmpserint, vel in ea in domus suæ portis scrípserint nómina sanctórum tuórum Gásparis, Melchióris et Baltássar, per eórum intercessiónem et mérita, córporis sanitátem, et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord God, this creature of chalk, that it may be a means of salvation to mankind; and grant, through the invocation of Your most holy name, that whoever takes some of it, or writes with it on the doors of his house the names of Your saints Gaspar, Melchior, and Balthasar, may through their intercession and merits receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Homes on the Epiphany
+// ──────────────────────────────────────────────────────────────────────
+# homes-epiphany | Benedictio Domorum in Festo Epiphaniæ | Blessing of Homes on the Epiphany | Feasts of the Year | Appendix, Benedictiones non reservatæ, 6
+r: In ingressu: || On entering:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+t: *Ant.* Ab Oriénte venérunt Magi in Béthlehem, adoráre Dóminum: et apértis thesáuris suis pretiósa múnera obtulérunt, aurum Regi magno, thus Deo vero, myrrham sepultúræ ejus. Allelúja. || *Ant.* From the East came Magi to Bethlehem to adore the Lord; and opening their treasures they offered precious gifts: gold to the great King, incense to the true God, and myrrh for His burial. Alleluia.
+h: Canticum beatæ Mariæ Virginis (Luc. 1, 46-55) || The Canticle of the Blessed Virgin Mary (Luke 1:46-55)
+t: Magníficat * ánima mea Dóminum: || My soul * magnifies the Lord,
+t: Et exsultávit spíritus meus * in Deo, salutári meo. || And my spirit has rejoiced * in God my Savior.
+t: Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes. || For He has regarded the lowliness of His handmaid; * for behold, from henceforth all generations shall call me blessed.
+t: Quia fecit mihi magna qui potens est: * et sanctum nomen ejus. || For He who is mighty has done great things for me, * and holy is His name.
+t: Et misericórdia ejus a progénie in progénies * timéntibus eum. || And His mercy is from generation to generation * on those who fear Him.
+t: Fecit poténtiam in bráchio suo: * dispérsit supérbos mente cordis sui. || He has shown might with His arm; * He has scattered the proud in the conceit of their heart.
+t: Depósuit poténtes de sede, * et exaltávit húmiles. || He has put down the mighty from their throne, * and has exalted the lowly.
+t: Esuriéntes implévit bonis: * et dívites dimísit inánes. || He has filled the hungry with good things, * and the rich He has sent away empty.
+t: Suscépit Israel, púerum suum, * recordátus misericórdiæ suæ. || He has received Israel His servant, * being mindful of His mercy,
+t: Sicut locútus est ad patres nostros, * Abraham, et sémini ejus in sǽcula. || As He spoke to our fathers, * to Abraham and to his seed for ever.
+t: Glória Patri. || Glory be to the Father.
+r: Interea aspergitur, et incensatur domus, et in fine repetitur Antiphona: Ab Oriénte venérunt, etc. || Meanwhile the house is sprinkled and incensed, and at the end the antiphon "From the East came," etc., is repeated.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Omnes de Saba vénient. || All they from Saba shall come,
+x: Aurum et thus deferéntes. || Bringing gold and frankincense.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who on this day revealed Your only-begotten Son to the nations by the guidance of a star: mercifully grant that we, who already know You by faith, may be led on to contemplate the beauty of Your majesty. Through the same Jesus Christ our Lord, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: *Responsorium.* Illumináre, illumináre, Jerúsalem, quia venit lux tua: et glória Dómini super te orta est, Jesus Christus ex María Vírgine. || *Responsory.* Arise, be enlightened, O Jerusalem, for your light has come, and the glory of the Lord has risen upon you: Jesus Christ, born of the Virgin Mary.
+v: Et ambulábunt gentes in lúmine tuo: et reges in splendóre ortus tui. || And the nations shall walk in your light, and kings in the brightness of your rising.
+x: Et glória Dómini super te orta est. || And the glory of the Lord has risen upon you.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, Deus omnípotens, locum istum (vel domum istam): ut sit in eo (ea) sánitas, cástitas, victória, virtus, humílitas, bónitas, et mansuetúdo, plenitúdo legis, et gratiárum áctio Deo Patri, et Fílio, et Spirítui Sancto; et hæc benedíctio máneat super hunc locum (vel hanc domum), et super habitántes in eo (ea). Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord God almighty, this place (or this house), that in it there may be health, chastity, victory, strength, humility, goodness and gentleness, the fullness of the law, and thanksgiving to God the Father, and to the Son, and to the Holy Spirit; and may this blessing remain upon this place (or this house) and upon those who dwell in it. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Candles on the Feast of St. Blaise, and the Blessing of Throats
+// ──────────────────────────────────────────────────────────────────────
+# candles-st-blaise | Benedictio Candelarum in Festo S. Blasii Episcopi et Martyris | Blessing of Candles on the Feast of St. Blaise, and the Blessing of Throats | Feasts of the Year | Appendix, Benedictiones non reservatæ, 7
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et mitíssime Deus, qui ómnium mundi rerum diversitátes solo Verbo creásti, et ad hóminum reformatiónem illud idem Verbum, per quod facta sunt ómnia, incarnári voluísti; qui magnus es, et imménsus, terríbilis atque laudábilis, ac fáciens mirabília: pro cujus fídei confessióne gloriósus Martyr et Póntifex Blásius, diversórum tormentórum génera non pavéscens, martyrii palmam felíciter est adéptus: quique eídem, inter céteras grátias, hanc prærogatívam contulísti, ut quoscúmque gútturis morbos tua virtúte curáret; majestátem tuam supplíciter exorámus, ut non inspéctu reátus nostri, sed ejus placátus méritis et précibus, hanc ceræ creatúram bene✠dícere, ac sancti✠ficáre tua venerábili pietáte dignéris, tuam grátiam infundéndo; ut omnes, quorum colla per eam ex bona fide tacta fúerint, a quocúmque gútturis morbo ipsíus passiónis méritis liberéntur, et in Ecclésia sancta tua sani et hílares tibi gratiárum réferant actiónes, laudéntque nomen tuum gloriósum, quod est benedíctum in sǽcula sæculórum. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty and most gentle God, who created the diversity of all things in the world by Your Word alone, and willed that the same Word, by whom all things were made, should take flesh for the renewal of mankind; who are great and boundless, awesome and worthy of praise, the doer of wonders: for the confession of whose faith the glorious martyr and bishop Blaise, not dreading tortures of every kind, happily won the palm of martyrdom; and on whom, among other graces, You bestowed this privilege, that by Your power he should cure all ailments of the throat: we humbly beseech Your majesty that, looking not on our guilt but appeased by his merits and prayers, You would deign in Your venerable goodness to ✠ bless and ✠ sanctify this creature of wax, pouring in Your grace; so that all whose throats are touched with it in good faith may, by the merits of his passion, be delivered from every ailment of the throat, and, healthy and joyful, give thanks to You in Your holy Church and praise Your glorious name, which is blessed for ever and ever. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. Deinde Sacerdos duos cereos in modum crucis aptatos apponit sub mento gutturi singulorum, qui benedicendi sunt, ipsis ante Altare genuflectentibus, dicens: || And they are sprinkled with holy water. Then the priest places two candles, arranged in the form of a cross, under the chin against the throat of each person to be blessed, as they kneel before the altar, saying:
+t: Per intercessiónem sancti Blásii, Epíscopi et Mártyris, líberet te Deus a malo gútturis, et a quólibet álio malo. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || Through the intercession of Saint Blaise, bishop and martyr, may God deliver you from ailments of the throat and from every other evil. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Bread, Wine, Water and Fruit against Ailments of the Throat on the Feast of St. Blaise
+// ──────────────────────────────────────────────────────────────────────
+# bread-wine-st-blaise | Benedictio Panis, Vini, Aquæ et Fructuum contra Gutturis Ægritudinem in Festo S. Blasii | Blessing of Bread, Wine, Water and Fruit against Ailments of the Throat on the Feast of St. Blaise | Feasts of the Year | Appendix, Benedictiones non reservatæ, 8
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Salvátor mundi Deus, qui hodiérnam diem beatíssimi Blásii martyrio consecrásti, quique eídem inter céteras grátias, hanc prærogatívam contulísti, ut quoscúmque gútturis morbos tua virtúte curáret: ineffábilem misericórdiam tuam supplíciter exorámus, et pétimus; ut hos panes, vinum, aquam et fructus, quæ plebs fidélis tibi devóte hódie ad sanctificándum áttulit, tua pietáte bene✠dícere et sancti✠ficáre dignéris: ut, qui ex his gustáverint, ab omni gútturis plaga, et quávis ália ánimæ et córporis infirmitáte, méritis et intercessióne ejúsdem beáti Blásii Mártyris tui atque Pontíficis, plenam recípiant sanitátem: Qui vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || O God, Savior of the world, who consecrated this day by the martyrdom of most blessed Blaise, and on whom, among other graces, You bestowed this privilege, that by Your power he should cure all ailments of the throat: we humbly beseech and entreat Your ineffable mercy that in Your goodness You would deign to ✠ bless and ✠ sanctify these loaves, this wine, water, and fruit, which Your faithful people have devoutly brought to You today to be sanctified; so that those who taste of them may, by the merits and intercession of the same blessed Blaise, Your martyr and bishop, receive full health from every affliction of the throat and every other infirmity of soul and body. Who live and reign, God, for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.

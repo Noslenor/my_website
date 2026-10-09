@@ -1,0 +1,19 @@
+// SHARED TEXT: psalm-142
+// Inserted wherever a rite has the line  @psalm-142
+// Editing it here changes it everywhere it is used.
+h: Psalmus 142 || Psalm 142
+t: Dómine, exáudi oratiónem meam: áuribus pércipe obsecratiónem meam in veritáte tua: * exáudi me in tua justítia. || O Lord, hear my prayer; give ear to my supplication in Your truth; * hear me in Your justice.
+t: Et non intres in judícium cum servo tuo: * quia non justificábitur in conspéctu tuo omnis vivens. || And enter not into judgment with Your servant, * for in Your sight no man living shall be justified.
+t: Quia persecútus est inimícus ánimam meam: * humiliávit in terra vitam meam. || For the enemy has pursued my soul; * he has brought my life down to the earth.
+t: Collocávit me in obscúris sicut mórtuos sǽculi: * et anxiátus est super me spíritus meus, in me turbátum est cor meum. || He has made me dwell in darkness like those long dead; * my spirit is in anguish within me, my heart within me is troubled.
+t: Memor fui diérum antiquórum, meditátus sum in ómnibus opéribus tuis: * in factis mánuum tuárum meditábar. || I remembered the days of old, I meditated on all Your works; * I pondered the works of Your hands.
+t: Expándi manus meas ad te: * ánima mea sicut terra sine aqua tibi. || I stretched forth my hands to You; * my soul is like earth without water before You.
+t: Velóciter exáudi me, Dómine: * defécit spíritus meus. || Hear me speedily, O Lord; * my spirit has fainted away.
+t: Non avértas fáciem tuam a me: * et símilis ero descendéntibus in lacum. || Turn not Your face away from me, * lest I be like those who go down into the pit.
+t: Audítam fac mihi mane misericórdiam tuam: * quia in te sperávi. || Let me hear Your mercy in the morning, * for in You have I hoped.
+t: Notam fac mihi viam, in qua ámbulem: * quia ad te levávi ánimam meam. || Make known to me the way in which I should walk, * for I have lifted up my soul to You.
+t: Éripe me de inimícis meis, Dómine, ad te confúgi: * doce me fácere voluntátem tuam, quia Deus meus es tu. || Deliver me from my enemies, O Lord; to You have I fled. * Teach me to do Your will, for You are my God.
+t: Spíritus tuus bonus dedúcet me in terram rectam: * propter nomen tuum, Dómine, vivificábis me, in æquitáte tua. || Your good spirit shall lead me into the right land; * for Your name's sake, O Lord, You will quicken me in Your justice.
+t: Edúces de tribulatióne ánimam meam: * et in misericórdia tua dispérdes inimícos meos. || You will bring my soul out of trouble, * and in Your mercy You will destroy my enemies.
+t: Et perdes omnes, qui tríbulant ánimam meam: * quóniam ego servus tuus sum. || And You will cut off all who afflict my soul, * for I am Your servant.
+@gloria-patri

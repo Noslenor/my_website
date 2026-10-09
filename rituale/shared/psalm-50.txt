@@ -1,0 +1,5 @@
+// SHARED TEXT: psalm-50
+// Inserted wherever a rite has the line  @psalm-50
+// Editing it here changes it everywhere it is used.
+@psalm-50-without-gloria
+@gloria-patri

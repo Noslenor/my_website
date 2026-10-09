@@ -1,0 +1,34 @@
+// SHARED TEXT: psalm-117
+// Inserted wherever a rite has the line  @psalm-117
+// Editing it here changes it everywhere it is used.
+h: Psalmus 117 || Psalm 117
+t: Confitémini Dómino, quóniam bonus: * quóniam in sǽculum misericórdia ejus. || Give praise to the Lord, for He is good: * for His mercy endures for ever.
+t: Dicat nunc Israel quóniam bonus: * quóniam in sǽculum misericórdia ejus. || Let Israel now say that He is good: * that His mercy endures for ever.
+t: Dicat nunc domus Aaron: * quóniam in sǽculum misericórdia ejus. || Let the house of Aaron now say: * that His mercy endures for ever.
+t: Dicant nunc qui timent Dóminum: * quóniam in sǽculum misericórdia ejus. || Let those who fear the Lord now say: * that His mercy endures for ever.
+t: De tribulatióne invocávi Dóminum: * et exaudívit me in latitúdine Dóminus. || Out of my distress I called upon the Lord: * and the Lord heard me and set me in a broad place.
+t: Dóminus mihi adjútor: * non timébo quid fáciat mihi homo. || The Lord is my helper: * I will not fear what man can do to me.
+t: Dóminus mihi adjútor: * et ego despíciam inimícos meos. || The Lord is my helper: * and I shall look down upon my enemies.
+t: Bonum est confídere in Dómino, * quam confídere in hómine: || It is better to trust in the Lord * than to trust in man;
+t: Bonum est speráre in Dómino, * quam speráre in princípibus. || It is better to hope in the Lord * than to hope in princes.
+t: Omnes gentes circuiérunt me: * et in nómine Dómini quia ultus sum in eos. || All the nations surrounded me: * and in the name of the Lord I have taken vengeance on them.
+t: Circumdántes circumdedérunt me: * et in nómine Dómini quia ultus sum in eos. || They hemmed me in on every side: * and in the name of the Lord I have taken vengeance on them.
+t: Circumdedérunt me sicut apes, et exarsérunt sicut ignis in spinis: * et in nómine Dómini quia ultus sum in eos. || They surrounded me like bees, and they blazed up like fire among thorns: * and in the name of the Lord I have taken vengeance on them.
+t: Impúlsus evérsus sum ut cáderem: * et Dóminus suscépit me. || I was pushed and overturned so that I might fall: * but the Lord upheld me.
+t: Fortitúdo mea, et laus mea Dóminus: * et factus est mihi in salútem. || The Lord is my strength and my praise: * and He has become my salvation.
+t: Vox exsultatiónis, et salútis * in tabernáculis justórum. || The voice of rejoicing and of salvation * is in the dwellings of the just.
+t: Déxtera Dómini fecit virtútem: déxtera Dómini exaltávit me, * déxtera Dómini fecit virtútem. || The right hand of the Lord has shown its might: the right hand of the Lord has lifted me up, * the right hand of the Lord has shown its might.
+t: Non móriar, sed vivam: * et narrábo ópera Dómini. || I shall not die, but live: * and I shall tell the works of the Lord.
+t: Castígans castigávit me Dóminus: * et morti non trádidit me. || The Lord has chastised me sorely: * but He has not handed me over to death.
+t: Aperíte mihi portas justítiæ, ingréssus in eas confitébor Dómino: * hæc porta Dómini, justi intrábunt in eam. || Open to me the gates of justice; I will go in by them and give praise to the Lord: * this is the gate of the Lord; the just shall enter by it.
+t: Confitébor tibi quóniam exaudísti me: * et factus es mihi in salútem. || I will give You thanks, for You have heard me: * and You have become my salvation.
+t: Lápidem, quem reprobavérunt ædificántes: * hic factus est in caput ánguli. || The stone which the builders rejected: * has become the head of the corner.
+t: A Dómino factum est istud: * et est mirábile in óculis nostris. || This is the Lord's doing: * and it is wonderful in our eyes.
+t: Hæc est dies, quam fecit Dóminus: * exsultémus, et lætémur in ea. || This is the day which the Lord has made: * let us rejoice and be glad in it.
+t: O Dómine, salvum me fac, o Dómine, bene prosperáre: * benedíctus qui venit in nómine Dómini. || O Lord, save me; O Lord, grant prosperity: * blessed is He who comes in the name of the Lord.
+t: Benedíximus vobis de domo Dómini: * Deus Dóminus, et illúxit nobis. || We have blessed you from the house of the Lord: * the Lord is God, and He has shone upon us.
+t: Constitúite diem sollémnem in condénsis, * usque ad cornu altáris. || Appoint a solemn day with thick boughs, * even to the horn of the altar.
+t: Deus meus es tu, et confitébor tibi: * Deus meus es tu, et exaltábo te. || You are my God, and I will give You thanks: * You are my God, and I will exalt You.
+t: Confitébor tibi quóniam exaudísti me: * et factus es mihi in salútem. || I will give You thanks, for You have heard me: * and You have become my salvation.
+t: Confitémini Dómino quóniam bonus: * quóniam in sǽculum misericórdia ejus. || Give praise to the Lord, for He is good: * for His mercy endures for ever.
+@gloria-patri

@@ -1,0 +1,34 @@
+// SHARED TEXT: psalm-101
+// Inserted wherever a rite has the line  @psalm-101
+// Editing it here changes it everywhere it is used.
+h: Psalmus 101 || Psalm 101
+t: Dómine, exáudi oratiónem meam: * et clamor meus ad te véniat. || O Lord, hear my prayer, * and let my cry come unto You.
+t: Non avértas fáciem tuam a me: * in quacúmque die tríbulor, inclína ad me aurem tuam. || Turn not Your face away from me; * in whatever day I am in trouble, incline Your ear to me.
+t: In quacúmque die invocávero te, * velóciter exáudi me. || In whatever day I call upon You, * hear me speedily.
+t: Quia defecérunt sicut fumus dies mei: * et ossa mea sicut crémium aruérunt. || For my days have vanished like smoke, * and my bones are dried up like kindling.
+t: Percússus sum ut fœnum, et áruit cor meum: * quia oblítus sum comédere panem meum. || I am smitten like grass, and my heart is withered, * because I forgot to eat my bread.
+t: A voce gémitus mei * adhæsit os meum carni meæ. || Through the voice of my groaning * my bone has cleaved to my flesh.
+t: Símilis factus sum pellicáno solitúdinis: * factus sum sicut nyctícorax in domicílio. || I have become like a pelican of the wilderness; * I am like a night raven in the house.
+t: Vigilávi, * et factus sum sicut passer solitárius in tecto. || I have watched, * and have become like a sparrow alone on the housetop.
+t: Tota die exprobrábant mihi inimíci mei: * et qui laudábant me, advérsum me jurábant. || All the day long my enemies reproached me, * and those who praised me swore against me.
+t: Quia cínerem tamquam panem manducábam, * et potum meum cum fletu miscébam. || For I ate ashes like bread, * and mingled my drink with weeping,
+t: A fácie iræ et indignatiónis tuæ: * quia élevans allisísti me. || Because of Your anger and indignation; * for having lifted me up, You have cast me down.
+t: Dies mei sicut umbra declinavérunt: * et ego sicut fœnum árui. || My days have declined like a shadow, * and I am withered like grass.
+t: Tu autem, Dómine, in ætérnum pérmanes: * et memoriále tuum in generatiónem et generatiónem. || But You, O Lord, endure for ever, * and Your memory from generation to generation.
+t: Tu exsúrgens miseréberis Sion: * quia tempus miseréndi ejus, quia venit tempus. || You will arise and have mercy on Sion, * for it is time to have mercy on it, for the time has come.
+t: Quóniam placuérunt servis tuis lápides ejus: * et terræ ejus miserebúntur. || For its stones have pleased Your servants, * and they shall have pity on its dust.
+t: Et timébunt gentes nomen tuum, Dómine, * et omnes reges terræ glóriam tuam. || And the nations shall fear Your name, O Lord, * and all the kings of the earth Your glory.
+t: Quia ædificávit Dóminus Sion: * et vidébitur in glória sua. || For the Lord has built up Sion, * and He shall be seen in His glory.
+t: Respéxit in oratiónem humílium: * et non sprevit precem eórum. || He has regarded the prayer of the lowly, * and has not despised their petition.
+t: Scribántur hæc in generatióne áltera: * et pópulus, qui creábitur, laudábit Dóminum: || Let these things be written for another generation, * and the people yet to be created shall praise the Lord.
+t: Quia prospéxit de excélso sancto suo: * Dóminus de cælo in terram aspéxit: || For He has looked forth from His high sanctuary; * from heaven the Lord has looked upon the earth,
+t: Ut audíret gémitus compeditórum: * ut sólveret fílios interemptórum: || To hear the groans of those in fetters, * to release the children of the slain,
+t: Ut annúntient in Sion nomen Dómini: * et laudem ejus in Jerúsalem. || That they may declare the name of the Lord in Sion, * and His praise in Jerusalem,
+t: In conveniéndo pópulos in unum, * et reges ut sérviant Dómino. || When the peoples gather together, * and kings, to serve the Lord.
+t: Respóndit ei in via virtútis suæ: * Paucitátem diérum meórum núntia mihi. || He answered Him in the way of His strength: * Declare to me the fewness of my days.
+t: Ne révoces me in dimídio diérum meórum: * in generatiónem et generatiónem anni tui. || Do not call me away in the midst of my days; * Your years are from generation to generation.
+t: Inítio tu, Dómine, terram fundásti: * et ópera mánuum tuárum sunt cæli. || In the beginning, O Lord, You founded the earth, * and the heavens are the works of Your hands.
+t: Ipsi períbunt, tu autem pérmanes: * et omnes sicut vestiméntum veteráscent. || They shall perish, but You remain; * and all of them shall grow old like a garment.
+t: Et sicut opertórium mutábis eos, et mutabúntur: * tu autem idem ipse es, et anni tui non defícient. || And like a cloak You will change them, and they shall be changed; * but You are always the same, and Your years shall not fail.
+t: Fílii servórum tuórum habitábunt: * et semen eórum in sǽculum dirigétur. || The children of Your servants shall dwell secure, * and their offspring shall be established for ever.
+@gloria-patri

@@ -1,0 +1,11 @@
+// SHARED TEXT: psalm-66
+// Inserted wherever a rite has the line  @psalm-66
+// Editing it here changes it everywhere it is used.
+h: Psalmus 66 || Psalm 66
+t: Deus misereátur nostri, et benedícat nobis: * illúminet vultum suum super nos, et misereátur nostri. || May God have mercy on us and bless us; * may He make His face to shine upon us and have mercy on us.
+t: Ut cognoscámus in terra viam tuam, * in ómnibus géntibus salutáre tuum. || That we may know Your way upon earth, * Your salvation among all nations.
+t: Confiteántur tibi pópuli, Deus: * confiteántur tibi pópuli omnes. || Let the peoples praise You, O God; * let all the peoples praise You.
+t: Læténtur et exsúltent gentes: * quóniam júdicas pópulos in æquitáte, et gentes in terra dírigis. || Let the nations be glad and rejoice, * for You judge the peoples with equity and guide the nations upon earth.
+t: Confiteántur tibi pópuli, Deus, confiteántur tibi pópuli omnes: * terra dedit fructum suum. || Let the peoples praise You, O God, let all the peoples praise You; * the earth has yielded its fruit.
+t: Benedícat nos Deus, Deus noster, benedícat nos Deus: * et métuant eum omnes fines terræ. || May God, our God, bless us; may God bless us, * and may all the ends of the earth fear Him.
+@gloria-patri

@@ -1,0 +1,117 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Field crosses, St. John's bonfire, Assumption herbs, seeds (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Crosses to be Set Up in Fields, Vineyards, etc. (Finding of the Holy Cross)
+// ──────────────────────────────────────────────────────────────────────
+# field-crosses | Benedictio Crucium in Agris, Vineis, etc. Plantandarum | Blessing of Crosses to be Set Up in Fields, Vineyards, etc. (Finding of the Holy Cross) | Fields & Animals | Appendix, Benedictiones non reservatæ, 9
+r: Quæ fit in Festo Inventionis S. Crucis vel Dominica proxima. || Given on the feast of the Finding of the Holy Cross, or on the nearest Sunday.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, Pater totíus consolatiónis et pietátis, per unigéniti Fílii tui Dómini nostri Jesu Christi acerbíssimæ Passiónis méritum, quam pro nobis peccatóribus in ligno Crucis sustinére dignátus est: béne✠dic has Cruces, quas tui fidéles in hortis, víneis, agris, aliísve locis plantándas áfferunt, ut a prǽdiis quibus defíxæ fúerint, fragor absit grándinum, procélla túrbinum, ímpetus tempestátum, et omnis infestátio inimíci: quátenus eórum fructus ad maturitátem perdúcti, in tui nóminis honórem colligántur a sperántibus in virtúte sanctæ Crucis ejúsdem Fílii tui Dómini nostri Jesu Christi, qui tecum vivit et regnat in sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, Father of all consolation and mercy, by the merit of the most bitter Passion of Your only-begotten Son, our Lord Jesus Christ, which He deigned to endure for us sinners on the wood of the Cross: ✠ bless these crosses, which Your faithful bring to be set up in gardens, vineyards, fields, and other places, so that from the lands where they are planted may be kept away the crash of hail, the whirlwind's blast, the violence of storms, and every attack of the enemy; that their fruits, brought to ripeness, may be gathered in honor of Your name by those who hope in the power of the holy Cross of the same Son, our Lord Jesus Christ, who lives and reigns with You for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Bonfire on the Vigil of the Nativity of St. John the Baptist
+// ──────────────────────────────────────────────────────────────────────
+# bonfire-st-john | Benedictio Rogi in Vigilia Nativitatis S. Joannis Baptistæ | Blessing of the Bonfire on the Vigil of the Nativity of St. John the Baptist | Feasts of the Year | Appendix, Benedictiones non reservatæ, 10
+r: Quæ fit a Clero extra ecclesiam. || Given by the clergy outside the church.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus, Pater omnípotens, lumen indefíciens, qui es cónditor ómnium lúminum: novum hunc ignem sancti✠fica, et præsta; ut ad te, qui es lumen indefíciens, puris méntibus post hujus sǽculi calíginem perveníre valeámus. Per Christum, Dóminum nostrum. ℟. Amen. || O Lord God, Father almighty, unfailing light and maker of all lights: ✠ sanctify this new fire, and grant that after the darkness of this world we may come with pure minds to You, who are the unfailing light. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. Deinde a Clero cantetur sequens Hymnus: || And it is sprinkled with holy water. Then the clergy sing the following hymn:
+t: Ut queant laxis resonáre fibris / Mira gestórum fámuli tuórum, / Solve pollúti lábii reátum, / Sancte Joánnes. || That your servants may with loosened voices / sound forth the wonders of your deeds, / take away the guilt of our unclean lips, / O holy John.
+t: Núntius celso véniens Olýmpo, / Te patri magnum fore nascitúrum, / Nomen, et vitæ sériem geréndæ, / Ordine promit. || A messenger coming from high heaven / tells your father that you will be born great, / and sets out in order your name / and the course of your life.
+t: Ille promíssi dúbius supérni, / Pérdidit promptæ módulos loquélæ; / Sed reformásti génitus perémptæ / Organa vocis. || He, doubting the heavenly promise, / lost the ready use of speech; / but at your birth you restored / the powers of his lost voice.
+t: Ventris obstrúso récubans cubíli, / Sénseras Regem thálamo manéntem; / Hinc parens nati méritis utérque / Abdita pandit. || Lying in the hidden chamber of the womb, / you perceived the King abiding in His chamber; / and so, through the merits of their son, / both parents revealed hidden things.
+t: Sit decus Patri, genitǽque Proli, / Et tibi compar utriúsque virtus, / Spíritus semper, Deus unus, omni / Témporis ævo. Amen. || Glory be to the Father and to the begotten Son, / and to You, O Spirit, equal in power with both, / one God for ever, / through every age of time. Amen.
+v: Fuit homo missus a Deo. || There was a man sent from God,
+x: Cui nomen erat Joánnes. || Whose name was John.
+t: Orémus. || Let us pray.
+t: Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dírige in viam salútis ætérnæ. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who have made this day honorable for us by the birth of blessed John: give Your peoples the grace of spiritual joys, and direct the minds of all the faithful into the way of eternal salvation. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Herbs on the Feast of the Assumption
+// ──────────────────────────────────────────────────────────────────────
+# herbs-assumption | Benedictio Herbarum in Festo Assumptionis B. Mariæ V. | Blessing of Herbs on the Feast of the Assumption | Feasts of the Year | Appendix, Benedictiones non reservatæ, 11
+r: Absoluta aspersione, si Festum venerit in Dominica, alioquin immediate ante Missam, Sacerdos stans ante Altare, conversus ad populum tenentem herbas vel fructus, dicit voce intellegibili: || When the sprinkling is finished (if the feast falls on a Sunday), or otherwise immediately before Mass, the priest, standing before the altar and turned toward the people, who hold the herbs or fruits, says in an audible voice:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+h: Psalmus 64 || Psalm 64
+t: Te decet hymnus, Deus, in Sion: * et tibi reddétur votum in Jerúsalem. || A hymn befits You, O God, in Sion; * and a vow shall be paid to You in Jerusalem.
+t: Exáudi oratiónem meam: * ad te omnis caro véniet. || Hear my prayer; * all flesh shall come to You.
+t: Verba iniquórum prævaluérunt super nos: * et impietátibus nostris tu propitiáberis. || The words of the wicked have prevailed over us, * but You will pardon our transgressions.
+t: Beátus, quem elegísti, et assumpsísti: * inhabitábit in átriis tuis. || Blessed is he whom You have chosen and taken to Yourself; * he shall dwell in Your courts.
+t: Replébimur in bonis domus tuæ: * sanctum est templum tuum, mirábile in æquitáte. || We shall be filled with the good things of Your house; * holy is Your temple, wonderful in justice.
+t: Exáudi nos, Deus, salutáris noster, * spes ómnium fínium terræ, et in mari longe. || Hear us, O God our Savior, * the hope of all the ends of the earth and of those far off on the sea.
+t: Præparans montes in virtúte tua, accínctus poténtia: * qui contúrbas profúndum maris sonum flúctuum ejus. || You prepare the mountains by Your strength, girded with power; * You stir up the depth of the sea, the roar of its waves.
+t: Turbabúntur gentes, et timébunt qui hábitant términos a signis tuis: * éxitus matutíni, et véspere delectábis. || The nations shall be troubled, and those who dwell at the ends of the earth shall fear Your signs; * You shall make the going forth of the morning and the evening rejoice.
+t: Visitásti terram, et inebriásti eam: * multiplicásti locupletáre eam. || You have visited the earth and watered it abundantly; * You have greatly enriched it.
+t: Flumen Dei replétum est aquis, parásti cibum illórum: * quóniam ita est præparátio ejus. || The river of God is filled with water; You have prepared their food, * for so is its preparation.
+t: Rivos ejus inébria, multíplica genímina ejus: * in stillicídiis ejus lætábitur gérminans. || Fill its streams to overflowing, multiply its yield; * the sprouting seed shall rejoice in its showers.
+t: Benedíces corónæ anni benignitátis tuæ: * et campi tui replebúntur ubertáte. || You shall bless the crown of the year with Your goodness, * and Your fields shall be filled with plenty.
+t: Pinguéscent speciósa desérti: * et exsultatióne colles accingéntur. || The beautiful places of the wilderness shall grow rich, * and the hills shall be girded with gladness.
+t: Indúti sunt aríetes óvium, et valles abundábunt fruménto: * clamábunt, étenim hymnum dicent. || The rams of the flock are clothed, and the valleys shall abound with grain; * they shall shout, yes, they shall sing a hymn.
+t: Glória Patri. || Glory be to the Father.
+v: Dóminus dabit benignitátem. || The Lord will give His goodness,
+x: Et terra nostra dabit fructum suum. || And our earth shall yield its fruit.
+v: Rigans montes de superióribus suis. || You water the hills from Your upper rooms;
+x: De fructu óperum tuórum satiábitur terra. || The earth shall be filled with the fruit of Your works.
+v: Prodúcens fœnum juméntis. || Bringing forth grass for the cattle,
+x: Et herbam servitúti hóminum. || And plants for the service of men.
+v: Ut edúcas panem de terra. || That You may bring bread out of the earth,
+x: Et vinum lætíficet cor hóminis. || And that wine may gladden the heart of man.
+v: Ut exhílaret fáciem in óleo. || That he may make his face cheerful with oil,
+x: Et panis cor hóminis confírmet. || And that bread may strengthen man's heart.
+v: Misit verbum suum, et sanávit eos. || He sent His word and healed them,
+x: Et erípuit eos de ómnibus interitiónibus eórum. || And delivered them from all their destruction.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui cælum, terram, mare, visibília et invisibília verbo tuo ex níhilo creásti, quique herbas, arborésque ad usus hóminum animaliúmque terram gígnere, et unumquódque juxta seméntem in semetípso fructum habére præcepísti; atque non solum ut herbæ animántibus ad victum, sed ægris étiam corpóribus prodéssent ad medicaméntum, tua ineffábili pietáte concessísti: te súpplici mente et ore deprecámur, ut has divérsi géneris herbas et fructus tua cleméntia bene✠dícas, et supra naturálem a te índitam virtútem, eis benedictiónis tuæ novæ grátiam infúndas; ut ad usum homínibus et juméntis in nómine tuo applicátæ, ómnium morbórum et adversitátum efficiántur præsídium. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, who by Your word created out of nothing heaven, earth, and sea, things visible and invisible; who commanded the earth to bring forth plants and trees for the use of men and animals, each bearing fruit with its seed in itself; and who in Your ineffable goodness granted that plants should serve not only as food for living creatures but also as medicine for sick bodies: with humble heart and voice we beseech You that in Your mercy You would ✠ bless these herbs and fruits of various kinds, and pour into them, beyond the natural power You have given them, the grace of Your new blessing; so that, used in Your name for men and beasts, they may become a protection against all diseases and adversities. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui per Móysen fámulum tuum mandásti fíliis Israel, ut manípulos novórum frúctuum benedicéndos deférrent ad sacerdótes, tolleréntque fructus árboris pulchérrimæ, et lætaréntur coram te Dómino Deo suo: adésto propítius invocatiónibus nostris, et infúnde tuæ bene✠dictiónis abundántiam super nos, et super manípulos novárum frugum, novárum herbárum, et frúctuum collectiónem, quæ cum gratiárum actióne tibi repræsentámus, et in nómine tuo in hac sollemnitáte bene✠dícimus; et concéde, ut homínibus, pecóribus, pecúdibus et juméntis contra morbos, pestes, úlcera, malefícia, incantatiónes, venefícia serpéntum, et aliórum venenosórum animálium et bestiárum morsus, nec non quæcúmque venéna, remédium præstent; atque contra diabólicas illusiónes, et machinatiónes, et fraudes tutámen ferant, in quocúmque loco pósitum vel portátum aut hábitum áliquid ex eis fúerit: quátenus cum manípulis bonórum óperum, méritis beátæ Maríæ Vírginis, cujus assumptiónis festum cólimus, quo ipsa assúmpta est, súscipi mereámur. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who through Moses Your servant commanded the children of Israel to bring their sheaves of new fruits to the priests to be blessed, and to take the fruits of the fairest tree and rejoice before You, the Lord their God: graciously hear our prayers, and pour out the abundance of Your ✠ blessing upon us and upon these sheaves of new grain, new herbs, and the gathered fruits, which we present to You with thanksgiving and ✠ bless in Your name on this feast. Grant that they may be a remedy for men, flocks, herds, and beasts of burden against sickness, pestilence, sores, curses, spells, the poison of serpents and the bites of other venomous animals and beasts, and against every poison; and that they may be a safeguard against the illusions, schemes, and deceits of the devil, wherever any part of them is placed, carried, or kept; so that, with the sheaves of good works, by the merits of the Blessed Virgin Mary, the feast of whose Assumption we keep, we may be worthy to be taken up to where she has been assumed. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui virgam Jesse, Genetrícem Fílii tui Dómini nostri Jesu Christi, hodiérna die ad cælórum fastígia ídeo evexísti, ut per ejus suffrágia et patrocínia fructum ventris illíus, eúndem Fílium tuum, mortalitáti nostræ communicáres: te súpplices exorámus; ut ejúsdem Fílii tui virtúte, ejúsque Genetrícis glorióso patrocínio, istórum terræ frúctuum præsídiis per temporálem ad ætérnam salútem disponámur. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who on this day raised to the heights of heaven the rod of Jesse, the Mother of Your Son, our Lord Jesus Christ, so that through her prayers and patronage You might share with our mortal nature the fruit of her womb, Your same Son: we humbly beseech You that by the power of Your Son and the glorious patronage of His Mother, we may, with the help of these fruits of the earth, be made ready through temporal well-being for eternal salvation. Through the same Jesus Christ our Lord, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super has creatúras, et máneat semper. ℟. Amen. || And may the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon these creatures and remain for ever. ℟. Amen.
+r: Et aspergantur aqua benedicta, et thurificentur. || And they are sprinkled with holy water and incensed.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Seeds and Seedlings on the Feast of the Nativity of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# seeds-nativity-bvm | Benedictio Seminum et Segetum in Festo Nativitatis B. Mariæ Virg. | Blessing of Seeds and Seedlings on the Feast of the Nativity of the Blessed Virgin Mary | Fields & Animals | Appendix, Benedictiones non reservatæ, 12
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, sempitérne Deus: pétimus ac rogámus, ut hos fructus ségetum ac séminum tuis serénis óculis, hilaríque vultu aspícere dignéris: et sicut testátus es Móysi fámulo tuo in terra Ægýpti, dicens: Dic fíliis Israel, cum ingréssi fúerint terram promissiónis, quam eis dabo, ut primítias frúctuum suórum ófferant sacerdótibus, et erunt benedícti: sic et nos rogámus te, Dómine, ut per auxílium misericórdiæ tuæ emíttas super hunc fructum ségetum déxteræ tuæ bene✠dictiónem, quem ad exhibéndum proférre dignéris, ut non súbruat grando, nec aëris inundátio extérminet, sed semper incólumis permáneat, propter usum animárum et córporum, et ad bene abundántem et pleníssimam maturitátem perdúcere dignéris: Qui in Trinitáte perfécta vivis et regnas in sǽcula sæculórum. ℟. Amen. || Holy Lord, Father almighty, everlasting God, we beg and beseech You to look upon these seeds and seedlings with Your serene eyes and gracious countenance; and as You declared to Your servant Moses in the land of Egypt, saying, "Tell the children of Israel that when they have entered the land of promise which I will give them, they are to offer the first fruits of their harvest to the priests, and they shall be blessed," so we too ask You, O Lord, by the help of Your mercy, to send upon this growing crop the ✠ blessing of Your right hand; that You may deign to bring it forth, that hail may not beat it down nor floods destroy it, but that it may always remain unharmed for the needs of souls and bodies, and that You may bring it to rich and abundant ripeness. Who in perfect Trinity live and reign for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, cæléstis verbi seminátor et cultor, qui nostri cordis áream spiritálibus rastris exérces: adésto propítius précibus nostris, et super agros, quibus si fúerint sémina ínsita, tuam largam benedictiónem infúnde, ac ab eis omnem vim procellárum grátia tuæ defensiónis avérte: ut omnis hic fructus et tua bene✠dictióne repleátur, et ad hórrea sine impediménto pervéniat. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, sower and tender of the heavenly word, who work the field of our hearts with spiritual rakes: graciously hear our prayers, and pour out Your abundant blessing upon the fields in which the seeds are sown, and by the grace of Your protection turn away from them every violent storm; so that all this harvest may be filled with Your ✠ blessing and reach the barns without hindrance. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta, et, si fieri potest, thurificentur. || And they are sprinkled with holy water and, if possible, incensed.

@@ -1,0 +1,14 @@
+// SHARED TEXT: canticle-magnificat
+// Inserted wherever a rite has the line  @canticle-magnificat
+// Editing it here changes it everywhere it is used.
+h: Canticum Beátæ Maríæ Vírginis (Luc. 1, 46-55) || Canticle of the Blessed Virgin Mary (Luke 1:46-55)
+t: Magníficat * ánima mea Dóminum: || My soul * magnifies the Lord,
+t: Et exsultávit spíritus meus * in Deo, salutári meo. || And my spirit has rejoiced * in God my Savior.
+t: Quia respéxit humilitátem ancíllæ suæ: * ecce enim ex hoc beátam me dicent omnes generatiónes. || For He has regarded the lowliness of His handmaid; * for behold, from henceforth all generations shall call me blessed.
+t: Quia fecit mihi magna qui potens est: * et sanctum nomen ejus. || For He who is mighty has done great things for me, * and holy is His name.
+t: Et misericórdia ejus a progénie in progénies * timéntibus eum. || And His mercy is from generation to generation * on those who fear Him.
+t: Fecit poténtiam in bráchio suo: * dispérsit supérbos mente cordis sui. || He has shown might with His arm; * He has scattered the proud in the conceit of their heart.
+t: Depósuit poténtes de sede, * et exaltávit húmiles. || He has put down the mighty from their throne, * and has exalted the lowly.
+t: Esuriéntes implévit bonis: * et dívites dimísit inánes. || He has filled the hungry with good things, * and the rich He has sent away empty.
+t: Suscépit Israel, púerum suum, * recordátus misericórdiæ suæ. || He has received Israel His servant, * being mindful of His mercy,
+t: Sicut locútus est ad patres nostros, * Abraham, et sémini ejus in sǽcula. || As He spoke to our fathers, * to Abraham and to his seed for ever.

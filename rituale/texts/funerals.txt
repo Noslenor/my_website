@@ -1,0 +1,388 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Funerals (Tit. VI)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// On Funerals
+// ──────────────────────────────────────────────────────────────────────
+# funeral-rules | De Exsequiis | On Funerals | The Dying & the Dead | Tit. VI, cap. 1
+r: 1. Sacras cæremónias ac ritus, quibus ex antiquíssima traditióne et Summórum Pontíficum institútis sancta mater Ecclésia cathólica in filiórum suórum exséquiis uti solet, tamquam vera religiónis mystéria christianǽque pietátis signa, et fidélium mortuórum salubérrima suffrágia, Parochi summo stúdio serváre debent, atque usu retinére. || 1. The sacred ceremonies and rites which holy Mother the Catholic Church, by most ancient tradition and the ordinances of the Supreme Pontiffs, is accustomed to use in the funerals of her children, as true mysteries of religion, signs of Christian piety, and most wholesome suffrages for the faithful departed, pastors must observe with the greatest care and keep in use.
+r: 2. His ítaque præstándis, qua par est modéstia ac devotióne ita se habébunt, ut ad defunctórum salútem, simúlque ad vivórum pietátem, quemádmodum vere sunt, non ad quæstum ejúsmodi ritus sancti institúti esse videántur. || 2. In carrying them out, therefore, they shall conduct themselves with fitting modesty and devotion, so that these holy rites may be seen to have been instituted, as indeed they were, for the salvation of the dead and likewise for the piety of the living, and not for gain.
+r: 3. Nullum corpus sepeliátur, præsértim si mors repentína fúerit, nisi post cóngruum témporis intervállum, quod satis sit ad omnem prorsus de vero óbitu dubitatiónem tolléndam. || 3. No body is to be buried, especially if death was sudden, except after a suitable interval of time, sufficient to remove all doubt whatever about the reality of death.
+r: 4. Nisi gravis causa obstet, cadávera fidélium, ántequam tumuléntur, transferénda sunt e loco in quo reperiúntur, in ecclésiam, ubi funus, idest totus ordo exsequiárum quæ in probátis litúrgicis libris describúntur, persolvátur. || 4. Unless a grave cause prevents it, the bodies of the faithful, before they are buried, are to be brought from the place where they are found into the church, where the funeral, that is, the whole order of obsequies described in the approved liturgical books, is to be carried out.
+r: 5. Ecclésia in quam cadáver pro fúnere transférri debet, ex jure ordinário est ecclésia própriæ defúncti parœ́ciæ, nisi defúnctus áliam fúneris ecclésiam legítime elégerit, vel jure particulári áliter statuátur. || 5. The church to which the body must be brought for the funeral is by ordinary law the church of the deceased's own parish, unless the deceased has lawfully chosen another church for the funeral, or particular law provides otherwise.
+r: Si defúnctus plures habúerit parœ́cias próprias, ecclésia fúneris est ecclésia parœ́ciæ in cujus território decéssit. || If the deceased had several proper parishes, the church of the funeral is the church of the parish in whose territory he died.
+r: 6. In dúbio de jure alíus ecclésiæ, jus própriæ ecclésiæ parœciális semper prævalére debet. || 6. When the right of another church is doubtful, the right of the proper parish church must always prevail.
+r: 7. Quod antiquíssimi est institúti, illud, quantum fíeri póterit, retineátur, ut Missa, præsénte córpore defúncti, pro eo celebrétur, ántequam sepultúræ tradátur. || 7. The most ancient custom is to be kept as far as possible, namely that Mass be celebrated for the deceased, with the body present, before it is committed to burial.
+r: 8. Missa exsequiális pro defúnctis celebrári póterit, étiamsi Festum duplex vel dies Domínica occúrrerit; dúmmodo Missa conventuális vel parœciális, et Offícia divína non impediántur, magnáque diei celébritas non obstet, juxta rubrícas Missális. || 8. The funeral Mass for the dead may be celebrated even if a double feast or a Sunday occurs, provided the conventual or parish Mass and the Divine Offices are not hindered, and the great solemnity of the day does not prevent it, according to the rubrics of the Missal.
+r: 9. Districte prohibétur ne quis, sepultúræ vel exsequiárum seu anniversárii mortuórum causa, quidquam exígat ultra id quod in diœcesáno taxárum índice statúitur. || 9. It is strictly forbidden for anyone to demand anything, on account of burial, funeral, or anniversary of the dead, beyond what is laid down in the diocesan schedule of fees.
+r: 10. Cum autem antiquíssimi ritus ecclesiástici sit, céreos accénsos in exséquiis et funéribus deférre, cáveant Parochi aliíque Sacerdótes ne ejúsmodi ritus omittátur, ac ne quid aváre aut indígne in eo committátur. || 10. Since it is a most ancient rite of the Church to carry lighted candles at obsequies and funerals, pastors and other priests shall take care that this rite is not omitted, and that nothing is done in it out of avarice or unworthily.
+r: 11. Páuperes vero, quibus mórtuis nihil, aut tam parum súperest, ut consuétis impénsis humári non possint, gratis omníno ac decénter funeréntur et sepeliántur, cum exséquiis, secúndum litúrgicas leges et diœcesána statúta, præscríptis; ac débita lúmina suis impénsis, si opus sit, adhíbeant Sacerdótes, ad quos defúncti cura pértinet, vel áliqua pia confratérnitas, si sit, juxta loci consuetúdinem. || 11. The poor, however, who at death leave nothing, or so little that they cannot be buried at the usual expense, are to be given a funeral and buried entirely free of charge and with decency, with the obsequies prescribed by the liturgical laws and diocesan statutes; and if necessary the priests to whom the care of the deceased belongs, or some pious confraternity if there is one, shall provide the proper lights at their own expense, according to local custom.
+r: 12. Sacérdos, aut cujúsvis órdinis Cléricus defúnctus, véstibus suis communibus, usque ad talárem vestem inclusíve, tum désuper sacro vestítu sacerdotáli, vel clericáli, quem órdinis sui rátio depóscit, quantum fíeri potest, induátur; unúsquisque autem cum tonsúra et biréto. || 12. A deceased priest, or cleric of any order, is to be clothed in his ordinary garments up to and including the cassock, and over them, as far as possible, in the sacred priestly or clerical vesture which his order requires; each one, moreover, with the tonsure and biretta.
+r: 13. Sacérdos quidem super talárem vestem, amíctu, alba, cíngulo, manípulo, stola et cásula seu planéta colóris violácei sit indútus. || 13. A priest, over the cassock, is to be vested in amice, alb, cincture, maniple, stole, and chasuble or planeta of violet color.
+r: 14. Diáconus vero induátur amíctu, alba, cíngulo, manípulo, stola super húmerum sinístrum, quæ sub axílla déxtera annectátur, et dalmática violácei colóris. || 14. A deacon is to be vested in amice, alb, cincture, maniple, stole over the left shoulder fastened under the right arm, and a violet dalmatic.
+r: 15. Subdiáconus autem amíctu, alba, cíngulo, manípulo, et tunicélla colóris violácei. || 15. A subdeacon, in amice, alb, cincture, maniple, and a violet tunicle.
+r: 16. Alii prætérea inferióris órdinis Clérici superpellíceo supra vestem talárem ornári debent. || 16. Other clerics of lower order are to be clothed in a surplice over the cassock.
+r: 17. Láici cadáver, géneris aut dignitátis cujúsvis ille fúerit, Clérici ne déferant. || 17. Clerics are not to carry the body of a layman, whatever his birth or rank.
+r: 18. Córpora defunctórum in ecclésia ponénda sunt pédibus versus Altáre majus; vel si funeréntur in oratóriis, aut capéllis, ponántur cum pédibus versis ad illárum Altária: quod étiam pro situ et loco fiat in sepúlcro. Presbýteri vero hábeant caput versus Altáre. || 18. The bodies of the dead are to be placed in the church with the feet toward the high altar; or, if the funeral is held in oratories or chapels, with the feet turned toward their altars; and this is also to be done in the grave, as the situation and place allow. Priests, however, are to have the head toward the altar.
+r: 19. Pállia, aut ália Altáris ornaménta, ad ornátum féretri vel tumbæ ne adhibeántur. || 19. Altar cloths or other altar furnishings are not to be used to adorn the bier or the catafalque.
+r: 20. Cadávera fidélium sepeliénda sunt in cœmetério rite benedícto. Parœ́ciæ autem suum quǽque cœmetérium hábeant, nisi unum plúribus commúne ab Ordinário loci sit legítime constitútum. || 20. The bodies of the faithful are to be buried in a duly blessed cemetery. Each parish is to have its own cemetery, unless one common to several has been lawfully established by the local Ordinary.
+r: 21. Sepúlcra Sacerdótum et Clericórum cujuscúmque órdinis, ubi fíeri potest, a sepúlcris laicórum separáta sint, ac decentióre loco sita; prætérea, ubi id cómmodum fúerit, ália pro Sacerdótibus, ália pro inferióris órdinis Ecclésiæ minístris paréntur. || 21. The graves of priests and of clerics of any order are, where possible, to be separate from the graves of the laity and situated in a more honorable place; moreover, where convenient, some are to be prepared for priests and others for ministers of the Church of lower order.
+r: 22. In ecclésiis cadávera ne sepeliántur, nisi agátur de cadavéribus Episcopórum residentiálium, Abbátum vel Prælatórum nullíus in própria ecclésia sepeliéndis, vel Románi Pontíficis, regálium personárum aut S. R. E. Cardinálium. || 22. Bodies are not to be buried in churches, unless it is a question of the bodies of residential bishops, or of abbots or prelates nullius, to be buried in their own church, or of the Roman Pontiff, royal persons, or Cardinals of the Holy Roman Church.
+r: 23. Subtus altáre nullum sit recónditum cadáver; cadávera autem quæ prope altáre sepúlta forte sunt, distent ab eo saltem spátio unius metri; secus Missam in altári celebráre non licet, donec cadáver removeátur. || 23. No body may be placed beneath an altar; bodies that happen to be buried near an altar must be at least one meter away from it; otherwise it is not lawful to celebrate Mass at that altar until the body is removed.
+r: 24. Ceterum nemo christiánus in communióne fidélium defúnctus, extra ecclésiam, aut cœmetérium rite benedíctum sepelíri debet; sed si necéssitas cogat ex áliquo evéntu aliquándo ad tempus áliter fíeri, curétur, ut, quátenus fíeri possit, corpus in locum sacrum quamprímum transferátur; et intérim semper Crux cápiti illíus appóni debet, ad significándum illum in Christo quievísse. || 24. Moreover, no Christian who has died in the communion of the faithful ought to be buried outside a church or a duly blessed cemetery; but if necessity, through some circumstance, should at times compel otherwise for a while, care is to be taken that the body be transferred to a sacred place as soon as possible; and meanwhile a cross must always be placed at his head, to signify that he has fallen asleep in Christ.
+r: 25. Nullum porro cadáver perpétuæ sepultúræ ecclesiásticæ ubívis tráditum exhumáre licet, nisi de licéntia Ordinárii. || 25. Furthermore, it is not lawful to exhume any body committed anywhere to permanent ecclesiastical burial, except with the permission of the Ordinary.
+
+// ──────────────────────────────────────────────────────────────────────
+// Those to Whom Church Burial Is to Be Denied
+// ──────────────────────────────────────────────────────────────────────
+# burial-denied | De iis quibus neganda est ecclesiastica sepultura | Those to Whom Church Burial Is to Be Denied | The Dying & the Dead | Tit. VI, cap. 2
+r: 1. Ignoráre non debet Párochus, qui ab ecclesiástica sepultúra ipso jure sunt excludéndi, ne quemquam ad illam contra sacrórum Canónum decréta umquam admíttat. || 1. The pastor must not be ignorant of who are excluded from ecclesiastical burial by the law itself, so that he never admits anyone to it against the decrees of the sacred canons.
+r: 2. Ad sepultúram ecclesiásticam non sunt admitténdi qui sine Baptísmo decésserint. || 2. Those who have died without Baptism are not to be admitted to ecclesiastical burial.
+r: Catechúmeni, qui nulla sua culpa sine Baptísmo moriántur, baptizátis accenséndi sunt. || Catechumens who through no fault of their own die without Baptism are to be counted among the baptized.
+r: 3. Ecclesiástica sepultúra privántur, nisi ante mortem áliqua déderint pœniténtiæ signa: || 3. The following are deprived of ecclesiastical burial, unless before death they have given some signs of repentance:
+r: 1° Notórii apóstatæ a christiána fide, aut sectæ hæréticæ vel schismáticæ aut sectæ massónicæ aliísve ejúsdem géneris societátibus notórie addícti; || 1° Notorious apostates from the Christian faith, or those notoriously belonging to a heretical or schismatic sect, or to the Masonic sect or other societies of the same kind;
+r: 2° Excommunicáti vel interdícti post senténtiam condemnatóriam vel declaratóriam; || 2° Those excommunicated or interdicted after a condemnatory or declaratory sentence;
+r: 3° Qui se ipsi occíderint deliberáto consílio; || 3° Those who have killed themselves by deliberate design;
+r: 4° Mórtui in duéllo aut ex vúlnere inde reláto; || 4° Those who have died in a duel or from a wound received in one;
+r: 5° Qui mandáverint suum corpus crematióni tradi; || 5° Those who have ordered their body to be cremated;
+r: 6° Alii peccatóres públici et manifésti. || 6° Other public and manifest sinners.
+r: Occurrénte prædíctis in cásibus áliquo dúbio, consulátur, si tempus sinat, Ordinárius; permanénte dúbio, cadáver sepultúræ ecclesiásticæ tradátur, ita tamen ut removeátur scándalum. || If some doubt arises in the aforesaid cases, the Ordinary is to be consulted if time permits; if the doubt remains, the body is to be given ecclesiastical burial, but in such a way that scandal is removed.
+r: 4. Excluso ab ecclesiástica sepultúra denegánda quoque sunt tum quǽlibet Missa exsequiális, étiam anniversária, tum ália pública offícia funébria. || 4. To one excluded from ecclesiastical burial there must also be denied any funeral Mass, even on the anniversary, and any other public funeral services.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Order of Funerals
+// ──────────────────────────────────────────────────────────────────────
+# funeral | Exsequiarum Ordo | The Order of Funerals | The Dying & the Dead | Tit. VI, cap. 3
+r: 1. Constitúto témpore quo corpus ad ecclésiam deferéndum est, convocétur Clerus, et álii qui fúneri interésse debent, et in parœciálem vel in áliam ecclésiam, juxta loci consuetúdinem, órdine convéniant; ac, datis certis campánæ signis, eo modo et ritu quo in eo loco fíeri solet, Párochus, indútus superpellíceo et stola nigra, vel étiam pluviáli ejúsdem colóris, clérico præferénte Crucem et álio aquam benedíctam, ad domum defúncti una cum áliis procédit. Distribuúntur cérei et accendúntur intortícia. || 1. At the time appointed for the body to be brought to the church, the clergy and the others who are to take part in the funeral are called together, and they assemble in order in the parish church or in another church, according to local custom; and when the customary signals have been given with the bell, in the manner and rite usual in that place, the pastor, vested in surplice and black stole, or also in a cope of the same color, with a cleric carrying the cross before him and another the holy water, goes with the others to the house of the deceased. Candles are distributed and the torches are lit.
+r: Mox ordinátur procéssio, præcedéntibus laicórum confraternitátibus, si adsint: tum séquitur Clerus reguláris et sæculáris per órdinem; biníque procédunt, præláta Cruce, devóte Psalmos, ut infra, decantántes, Párocho præcedénte féretrum cum lumínibus; inde sequúntur álii funus comitántes, et pro defúncto Deum rite deprecántes sub siléntio. || Then the procession is formed, with the confraternities of laymen going first, if they are present; next follow the regular and secular clergy in order; and they go two by two, the cross being carried before them, devoutly singing the psalms as below, the pastor going before the bier with lights; after them follow the others accompanying the funeral, duly praying to God in silence for the deceased.
+r: 2. Párochus vero, ántequam cadáver efferátur, illud aspérgit aqua benedícta; mox dicit sine cantu Antíphonam: || 2. Before the body is carried out, the pastor sprinkles it with holy water; then he says, without chant, the antiphon:
+t: *Ant.* Si iniquitátes. || *Ant.* If You, O Lord, mark iniquities.
+h: Psalmus 129 || Psalm 129
+t: De profúndis clamávi ad te, Dómine: * Dómine, exáudi vocem meam. || Out of the depths I have cried to You, O Lord; * Lord, hear my voice.
+t: Fiant aures tuæ intendéntes, * in vocem deprecatiónis meæ. || Let Your ears be attentive * to the voice of my supplication.
+t: Si iniquitátes observáveris, Dómine: * Dómine, quis sustinébit? || If You, O Lord, mark iniquities, * Lord, who shall stand?
+t: Quia apud te propitiátio est: * et propter legem tuam sustínui te, Dómine. || For with You there is forgiveness, * and because of Your law I have waited for You, O Lord.
+t: Sustínuit ánima mea in verbo ejus: * sperávit ánima mea in Dómino. || My soul has relied on His word; * my soul has hoped in the Lord.
+t: A custódia matutína usque ad noctem: * speret Israël in Dómino. || From the morning watch even until night, * let Israel hope in the Lord.
+t: Quia apud Dóminum misericórdia: * et copiósa apud eum redémptio. || For with the Lord there is mercy, * and with Him plentiful redemption.
+t: Et ipse rédimet Israël, * ex ómnibus iniquitátibus ejus. || And He shall redeem Israel * from all its iniquities.
+t: Réquiem ætérnam * dona ei, Dómine. || Eternal rest * grant unto him (her), O Lord.
+t: Et lux perpétua * lúceat ei. || And let perpetual light * shine upon him (her).
+r: Si Exséquiæ fiant pro plúribus defúnctis, in hoc versu, et in ómnibus versículis et Oratiónibus, pro singulári ponátur númerus plurális, prætérquam in Oratióne Non intres, ut infra. || If the funeral is held for several deceased, in this verse and in all the versicles and prayers the plural is used in place of the singular, except in the prayer Non intres, as below.
+r: Deinde Párochus repétit Antíphonam totam: || Then the pastor repeats the whole antiphon:
+t: *Ant.* Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? || *Ant.* If You, O Lord, mark iniquities, Lord, who shall stand?
+r: Tum cadáver effértur, Parochúsque de domo procédens, statim gravi voce intónat Antíphonam: || Then the body is carried out, and the pastor, going forth from the house, at once intones in a grave voice the antiphon:
+t: *Ant.* Exsultábunt Dómino. || *Ant.* They shall rejoice in the Lord.
+r: Cantóres inchóant: || The cantors begin:
+t: Miserére mei, Deus. || Have mercy on me, O God.
+r: Clero alternátim prosequénte: || And the clergy continue in alternation:
+@psalm-50-without-gloria
+t: Réquiem ætérnam * dona ei, Dómine. || Eternal rest * grant unto him (her), O Lord.
+t: Et lux perpétua * lúceat ei. || And let perpetual light * shine upon him (her).
+r: Ac si longitúdo itíneris postuláverit, dicántur Psalmi Graduáles, Ad Dóminum cum tribulárer, etc., vel álii Psalmi ex Offício Defunctórum, et in fine cujuslíbet Psalmi dícitur: Réquiem ætérnam dona ei, Dómine, etc.; qui Psalmi devóte, distíncte, gravíque voce recitári debent usque ad ecclésiam. || And if the length of the way requires it, the Gradual Psalms are said, beginning Ad Dominum cum tribularer, etc., or other psalms from the Office of the Dead, and at the end of each psalm is said: Eternal rest grant unto him (her), O Lord, etc.; and these psalms are to be recited devoutly, distinctly, and in a grave voice all the way to the church.
+r: 3. Ad ingréssum ecclésiæ repétitur Antíphona: || 3. At the entrance of the church the antiphon is repeated:
+t: *Ant.* Exsultábunt Dómino ossa humiliáta. || *Ant.* The bones that were humbled shall rejoice in the Lord.
+r: Deínde, ecclésiam ingréssi, cantant Responsórium, Cantóre incipiénte et Clero alternátim respondénte, vidélicet: || Then, having entered the church, they sing the responsory, the cantor beginning and the clergy answering in alternation, namely:
+t: Subveníte, Sancti Dei, occúrrite, Angeli Dómini: * Suscipiéntes ánimam ejus: Offeréntes eam in conspéctu Altíssimi. || Come to his (her) aid, you Saints of God; hasten to meet him (her), you Angels of the Lord: * Receiving his (her) soul, offering it in the sight of the Most High.
+v: Suscípiat te Christus, qui vocávit te: et in sinum Abrahæ Angeli dedúcant te. || May Christ, who called you, receive you, and may the Angels lead you into Abraham's bosom.
+x: Suscipiéntes ánimam ejus: Offeréntes eam in conspéctu Altíssimi. || Receiving his (her) soul, offering it in the sight of the Most High.
+v: Réquiem ætérnam dona ei, Dómine: et lux perpétua lúceat ei. || Eternal rest grant unto him (her), O Lord, and let perpetual light shine upon him (her).
+x: Offeréntes eam in conspéctu Altíssimi. || Offering it in the sight of the Most High.
+r: 4. Depósito féretro in médio ecclésiæ, ita ut defúncti pedes, nisi fúerit Sacérdos, sint versus Altáre majus, si vero fúerit Sacérdos, caput sit versus ipsum Altáre, et céreis accénsis circa corpus, statim, nisi quid impédiat, dicátur Offícium Defunctórum, cum Invitatório, tribus Noctúrnis, et Láudibus, ut infra ponitur, et duplicéntur Antíphonæ. || 4. The bier having been set down in the middle of the church, so that the feet of the deceased, unless he was a priest, are toward the high altar, but if he was a priest, the head is toward the altar, and candles having been lit around the body, at once, unless something prevents it, the Office of the Dead is said, with the Invitatory, three Nocturns, and Lauds, as given below, and the antiphons are doubled.
+n: For the Office of the Dead (Matins and Lauds), see the rite "Office of the Dead" (Tit. VI, cap. 4).
+r: Si vero, deláto ad ecclésiam cadávere, statim persólvi non débeant Offícium et Missa, quæ sérius vel die sequénti habeántur, tunc, cantáto Responsório Subveníte, dicátur: Kýrie, eléison. Christe, eléison. Kýrie, eléison. Pater noster, etc., cum sequéntibus Versículis et Oratióne, ut infra num. 5, adhíbita conclusióne brevi Per Christum, Dóminum nostrum. ℟. Amen. Deinde: ℣. Réquiem ætérnam dona ei, Dómine. ℟. Et lux perpétua lúceat ei. ℣. Requiéscat in pace. ℟. Amen. || But if, when the body has been brought to the church, the Office and Mass are not to be performed at once, but later or on the following day, then, after the responsory Subvenite has been sung, there is said: Lord, have mercy. Christ, have mercy. Lord, have mercy. Our Father, etc., with the following versicles and prayer, as below in no. 5, using the short ending Through Christ our Lord. ℟. Amen. Then: ℣. Eternal rest grant unto him (her), O Lord. ℟. And let perpetual light shine upon him (her). ℣. May he (she) rest in peace. ℟. Amen.
+r: 5. Ad finem Offícii Defunctórum, post repetítam Antíphonam Cántici Benedíctus Ego sum resurréctio, etc. (vel post Noctúrnum vel Noctúrnos, si Laudes omittántur), dícitur flexis génibus (cantándo ut infra): || 5. At the end of the Office of the Dead, after the antiphon of the Benedictus, I am the resurrection, etc., has been repeated (or after the Nocturn or Nocturns, if Lauds are omitted), there is said kneeling (sung as below):
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: A porta ínferi. || From the gate of hell.
+x: Erue, Dómine, ánimam ejus. || Deliver his (her) soul, O Lord.
+v: Requiéscat in pace. || May he (she) rest in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Absólve, quǽsumus, Dómine, ánimam fámuli tui N. (fámulæ tuæ N.) ab omni vínculo delictórum: ut in resurrectiónis glória inter Sanctos et eléctos tuos resuscitátus (-a) respíret. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Absolve, we beseech You, O Lord, the soul of Your servant N. from every bond of sin, that, raised up in the glory of the resurrection, he (she) may live anew among Your Saints and elect. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Si defúnctus fúerit Sacérdos, post nomen próprium addátur vox Sacerdótis. || If the deceased was a priest, the word "Priest" is added after his proper name.
+r: Vel dicátur ália Orátio convéniens, ut infra inter Oratiónes pro defúnctis. || Or another suitable prayer may be said, as among the prayers for the dead below.
+r: Post Oratiónem, si hæc non dícitur immediáte ante Exséquias vel Missam vel Absolutiónem, adduntur ℣. Réquiem ætérnam et Requiéscant, ut infra. || After the prayer, if it is not said immediately before the funeral, the Mass, or the Absolution, the versicles Eternal rest and May they rest are added, as below.
+r: Omnes Oratiónes in Exséquiis et in Offício Defunctórum cantántur in tono feriáli, id est recto tono, vel in áltero tono feriáli ad líbitum. || All the prayers in the funeral rites and in the Office of the Dead are sung in the ferial tone, that is, on a monotone, or, at choice, in the other ferial tone.
+r: Conclúsio longa Oratiónum adhibétur tantúmmodo in Missa et Offício, extra vero semper brevis. || The long ending of the prayers is used only in the Mass and the Office; outside them the short ending is always used.
+r: 6. Dum in Offício dicúntur Laudes, Sacérdos cum Minístris parátur ad celebrándam Missam sollémnem pro defúncto, si tempus cóngruens sit, ut in die depositiónis in Missáli Románo. || 6. While Lauds are being said in the Office, the priest with the ministers vests to celebrate the solemn Mass for the deceased, if the time is suitable, as on the day of burial in the Roman Missal.
+r: 7. Finíta Missa, Célebrans, depósitis cásula seu planéta et manípulo in plano ad cornu Epístolæ, áccipit pluviále nigri colóris, Diácono et Subdiácono parátis remanéntibus, depósitis tamen manípulis. Tum Subdiáconus áccipit Crucem, et, præcedéntibus duóbus acólythis, uno cum thuríbulo et navícula incénsi, álio cum vase aquæ benedíctæ et aspersório, accédit ad féretrum et se sistit ad caput defúncti cum Cruce, médius inter duos acólythos seu ceroferários cum candelábris et candélis accénsis. Post eum omnes álii de Clero véniunt ordinátim in gradu suo cum candélis accénsis, et stant in circúitu féretri: último loco séquitur Célebrans cum Diácono a sinístris, et, facta prius reveréntia Altári, sistit se contra Crucem ad pedes defúncti, retro astántibus ei a sinístris duóbus acólythis, uno cum thuríbulo et navícula incénsi, áltero cum vase aquæ benedíctæ et aspersório. Tunc, Diácono tenénte librum, junctis mánibus absolúte dicit sequéntem Oratiónem (nulla númeri aut géneris facta mutatióne, étiamsi pro plúribus aut pro fémina dicátur): || 7. When Mass is finished, the celebrant, having laid aside the chasuble or planeta and the maniple at the Epistle side on the floor of the sanctuary, puts on a black cope, the deacon and subdeacon remaining vested, but having laid aside their maniples. Then the subdeacon takes the cross and, preceded by two acolytes, one with the thurible and incense boat, the other with the vessel of holy water and the sprinkler, goes to the bier and stands at the head of the deceased with the cross, between two acolytes or candle-bearers with candlesticks and lighted candles. After him all the others of the clergy come in order according to rank with lighted candles, and stand around the bier; last comes the celebrant with the deacon at his left, and, having first made a reverence to the altar, he stands facing the cross at the feet of the deceased, with the two acolytes standing behind him at his left, one with the thurible and incense boat, the other with the vessel of holy water and the sprinkler. Then, while the deacon holds the book, with hands joined he says without introduction the following prayer (making no change of number or gender, even if it is said for several or for a woman):
+t: Non intres in judícium cum servo tuo, Dómine, quia nullus apud te justificábitur homo, nisi per te ómnium peccatórum ei tribuátur remíssio. Non ergo eum, quǽsumus, tua judiciális senténtia premat, quem tibi vera supplicátio fídei christiánæ comméndat: sed, grátia tua illi succurrénte, mereátur evádere judícium ultiónis, qui dum víveret, insignítus est signáculo sanctæ Trinitátis: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Enter not into judgment with Your servant, O Lord, for no man shall be justified in Your sight unless through You he is granted the forgiveness of all his sins. Let not, therefore, we beseech You, the sentence of Your judgment weigh upon him whom the true supplication of Christian faith commends to You; but by the help of Your grace may he be found worthy to escape the judgment of vengeance, who while he lived was marked with the seal of the Holy Trinity. Who live and reign for ever and ever. ℟. Amen.
+r: 8. Deinde, Cantóre incipiénte, Clerus circúmstans cantat sequens Responsórium: || 8. Then, the cantor beginning, the clergy standing around sing the following responsory:
+t: Líbera me, Dómine, de morte ætérna, in die illa treménda: * Quando cæli movéndi sunt et terra: Dum véneris judicáre sǽculum per ignem. || Deliver me, O Lord, from everlasting death on that dreadful day, * when the heavens and the earth shall be moved, when You shall come to judge the world by fire.
+v: Tremens factus sum ego, et tímeo, dum discússio vénerit, atque ventúra ira. || I am made to tremble, and I fear, when the judgment shall come, and the wrath to come.
+x: Quando cæli movéndi sunt et terra. || When the heavens and the earth shall be moved.
+v: Dies illa, dies iræ, calamitátis et misériæ, dies magna et amára valde. || That day, a day of wrath, of calamity and misery, a great day and exceedingly bitter.
+x: Dum véneris judicáre sǽculum per ignem. || When You shall come to judge the world by fire.
+v: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
+r: Repet. Líbera me, Dómine, usque ad ℣. Tremens. || Repeat Deliver me, O Lord, as far as ℣. I am made to tremble.
+r: 9. Dum repétitur prædíctum Responsórium, Sacérdos, Diácono ministránte, áccipit incénsum de navícula et ponit in thuríbulum, benedícens illud more sólito. Finíto Responsório, Cantor cum primo Choro dicit: || 9. While the aforesaid responsory is being repeated, the priest, assisted by the deacon, takes incense from the boat and puts it into the thurible, blessing it in the usual way. When the responsory is finished, the cantor with the first choir says:
+t: Kýrie, eléison. || Lord, have mercy.
+r: Et secúndus Chorus respóndet: || And the second choir answers:
+t: Christe, eléison. || Christ, have mercy.
+r: Deinde omnes simul dicunt: || Then all say together:
+t: Kýrie, eléison. || Lord, have mercy.
+r: 10. Mox Sacérdos dicit alta voce: || 10. Then the priest says aloud:
+t: Pater noster. || Our Father.
+r: Et secréto continuátur ab ómnibus. Ipse intérim áccipit de manu Diáconi aspersórium aquæ benedíctæ, eodémque Diácono comitánte a déxteris et anteriórem fímbriam pluviális sublevánte, circúmiens féretrum, aspérgit corpus defúncti aqua benedícta, ter a parte sinístra cadáveris et ter a déxtera. Cum transit ante Altáre et ante Crucem, quæ est ex advérso, profúnde se inclínat, Diácono genuflecténte; si transit ante Sacraméntum, genufléctit. Deinde, revérsus ad locum suum, Diácono ministránte, áccipit thuríbulum, et eódem modo quo asperserat, circuit féretrum, et corpus incénsat; póstea, reddíto thuríbulo, stans in loco suo, Diácono librum apértum ante ipsum tenénte, junctis mánibus dicit: || And it is continued silently by all. Meanwhile he takes the sprinkler of holy water from the hand of the deacon and, the deacon accompanying him on the right and raising the front edge of the cope, he goes around the bier and sprinkles the body of the deceased with holy water, three times on the left side of the body and three times on the right. When he passes before the altar and before the cross, which is opposite, he bows profoundly, the deacon genuflecting; if he passes before the Blessed Sacrament, he genuflects. Then, having returned to his place, assisted by the deacon, he takes the thurible and goes around the bier in the same way as he sprinkled it, and incenses the body; afterwards, having handed back the thurible, standing in his place, with the deacon holding the open book before him, he says with hands joined:
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: A porta ínferi. || From the gate of hell.
+x: Erue, Dómine, ánimam ejus. || Deliver his (her) soul, O Lord.
+v: Requiéscat in pace. || May he (she) rest in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere: te súpplices exorámus pro ánima fámuli tui N. (fámulæ tuæ N.) quam hódie de hoc sǽculo migráre jussísti, ut non tradas eam in manus inimíci, neque obliviscáris in finem, sed júbeas eam a sanctis Angelis súscipi, et ad pátriam paradísi perdúci; ut, quia in te sperávit et crédidit, non pœnas inférni sustíneat, sed gáudia ætérna possídeat. Per Christum, Dóminum nostrum. ℟. Amen. || O God, whose property it is ever to have mercy and to spare, we humbly entreat You for the soul of Your servant N., whom You have this day called out of this world: that You would not deliver it into the hands of the enemy, nor forget it for ever, but command that it be received by the holy Angels and led to the homeland of paradise; that, since he (she) hoped and believed in You, he (she) may not suffer the pains of hell, but may possess everlasting joys. Through Christ our Lord. ℟. Amen.
+r: Si defúnctus fúerit Sacérdos, in Oratióne dicátur: pro ánima fámuli tui N. Sacerdótis, quam, etc. || If the deceased was a priest, there is said in the prayer: for the soul of Your servant N., Priest, whom, etc.
+r: 11. Finíta Oratióne, corpus defértur ad sepúlcrum, si tunc deferéndum sit; dum autem portátur, vel in eódem loco, si tunc non portétur, Clérici cantant Antíphonam: || 11. When the prayer is finished, the body is carried to the grave, if it is to be carried there at that time; and while it is being carried, or in the same place if it is not carried then, the clerics sing the antiphon:
+t: In paradísum dedúcant te Angeli: in tuo advéntu suscípiant te Mártyres, et perdúcant te in civitátem sanctam Jerúsalem. Chorus Angelórum te suscípiat, et cum Lázaro quondam páupere ætérnam hábeas réquiem. || May the Angels lead you into paradise; may the Martyrs receive you at your coming and lead you into the holy city Jerusalem. May the choir of Angels receive you, and with Lazarus, who once was poor, may you have eternal rest.
+r: 12. Cum autem pervénerit ad sepúlcrum, si non sit benedíctum, Sacérdos illud benédicit, dicens hanc Oratiónem: || 12. When they have arrived at the grave, if it is not blessed, the priest blesses it, saying this prayer:
+t: Orémus. || Let us pray.
+t: Deus, cujus miseratióne ánimæ fidélium requiéscunt, hunc túmulum bene✠dícere dignáre, eíque Angelum tuum sanctum députa custódem: et quorum quarúmque córpora hic sepeliúntur, ánimas eórum ab ómnibus absólve vínculis delictórum, ut in te semper cum Sanctis tuis sine fine læténtur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, by whose mercy the souls of the faithful find rest, graciously ✠ bless this grave, and appoint Your holy Angel as its guardian; and set free from every bond of sin the souls of all those whose bodies are buried here, that they may rejoice in You with Your Saints for ever without end. Through Christ our Lord. ℟. Amen.
+r: Si sepúlcrum pro uno tantum insérviat, dicátur: et cujus corpus hic sepelítur, ánimam ejus ... lætétur. || If the grave serves for one person only, there is said: and whose body is buried here, (set free) his (her) soul ... that he (she) may rejoice.
+r: 13. Dicta Oratióne, Sacérdos aqua benedícta aspérgat, deinde incénset corpus defúncti et túmulum. || 13. When the prayer has been said, the priest sprinkles the body of the deceased and the grave with holy water, and then incenses them.
+r: Quod si sepúlcrum jam sit benedíctum, omíttitur tum benedíctio sepúlcri, tum aspérsio et incensátio córporis ac túmuli. || But if the grave is already blessed, both the blessing of the grave and the sprinkling and incensing of the body and the grave are omitted.
+r: 14. Deinde, étiamsi corpus tunc ad sepultúram delátum non fúerit, Sacérdos prosequátur Offícium, ut infra, quod numquam omíttitur; et intónet Antíphonam: || 14. Then, even if the body has not at that time been carried to burial, the priest continues the service as below, which is never omitted; and he intones the antiphon:
+t: *Ant.* Ego sum. || *Ant.* I am.
+h: Canticum Zachariæ (Luc. 1, 68-79) || Canticle of Zachary (Luke 1:68-79)
+@canticle-benedictus
+t: Réquiem ætérnam * dona ei, Dómine. || Eternal rest * grant unto him (her), O Lord.
+t: Et lux perpétua * lúceat ei. || And let perpetual light * shine upon him (her).
+r: Et repétitur Antíphona: || And the antiphon is repeated:
+t: *Ant.* Ego sum resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet: et omnis qui vivit et credit in me, non moriétur in ætérnum. || *Ant.* I am the resurrection and the life; he who believes in Me, even if he die, shall live; and whoever lives and believes in Me shall never die.
+r: Póstea Sacérdos dicit: || Then the priest says:
+t: Kýrie, eléison. || Lord, have mercy.
+r: Chorus prosequitur: || The choir continues:
+t: Christe, eléison. Kýrie, eléison. || Christ, have mercy. Lord, have mercy.
+r: Sacérdos: || The priest:
+t: Pater noster. || Our Father.
+r: Intérim corpus, quin círcumeat, aspérgit. || Meanwhile he sprinkles the body, without going around it.
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: A porta ínferi. || From the gate of hell.
+x: Erue, Dómine, ánimam ejus. || Deliver his (her) soul, O Lord.
+v: Requiéscat in pace. || May he (she) rest in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Fac, quǽsumus, Dómine, hanc cum servo tuo defúncto (ancílla tua defúncta) misericórdiam, ut factórum suórum in pœnis non recípiat vicem, qui (quæ) tuam in votis ténuit voluntátem: ut, sicut hic eum (eam) vera fides junxit fidélium turmis; ita illic eum (eam) tua miserátio sóciet angélicis choris. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, O Lord, this mercy to Your departed servant, that he (she) who in desire held fast to Your will may not receive in punishment the requital of his (her) deeds; so that, as here below the true faith united him (her) to the company of the faithful, so there Your mercy may unite him (her) to the choirs of Angels. Through Christ our Lord. ℟. Amen.
+r: Deinde Célebrans, fáciens crucem manu déxtera super féretrum, dicit: || Then the celebrant, making the sign of the cross with his right hand over the bier, says:
+v: Réquiem ætérnam dona ei, Dómine. || Eternal rest grant unto him (her), O Lord.
+x: Et lux perpétua lúceat ei. || And let perpetual light shine upon him (her).
+v: Requiéscat in pace. || May he (she) rest in peace.
+x: Amen. || Amen.
+v: Anima ejus, et ánimæ ómnium fidélium defunctórum, per misericórdiam Dei requiéscant in pace. || May his (her) soul and the souls of all the faithful departed, through the mercy of God, rest in peace.
+x: Amen. || Amen.
+r: 15. Deinde cum a sepúlcro in ecclésiam vel ab ecclésia in sacristíam, præcedénte Cruce, revertúntur, Célebrans inchóat sine cantu Antíphonam Si iniquitátes, et cum Clero recitat Psalmum De profúndis, etc., ut supra. || 15. Then, as they return from the grave to the church, or from the church to the sacristy, with the cross going before, the celebrant begins without chant the antiphon Si iniquitates, and recites with the clergy the psalm De profundis, etc., as above.
+r: In fine Psalmi additur in número plurali: || At the end of the psalm there is added, in the plural:
+t: Réquiem ætérnam * dona eis, Dómine. || Eternal rest * grant unto them, O Lord.
+t: Et lux perpétua * lúceat eis. || And let perpetual light * shine upon them.
+r: Et ab ómnibus repétitur tota Antíphona: || And the whole antiphon is repeated by all:
+t: *Ant.* Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? || *Ant.* If You, O Lord, mark iniquities, Lord, who shall stand?
+r: Deinde in sacristía Sacérdos, ántequam paraméntis exuátur, dicit sequéntes Preces: || Then in the sacristy, before taking off the vestments, the priest says the following prayers:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: A porta ínferi. || From the gate of hell.
+x: Erue, Dómine, ánimas eórum. || Deliver their souls, O Lord.
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Fidélium, Deus, ómnium cónditor et redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, Creator and Redeemer of all the faithful, grant to the souls of Your servants and handmaids the remission of all their sins, that through our devout supplications they may obtain the pardon they have always desired. Who live and reign for ever and ever. ℟. Amen.
+v: Réquiem ætérnam dona eis, Dómine. || Eternal rest grant unto them, O Lord.
+x: Et lux perpétua lúceat eis. || And let perpetual light shine upon them.
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+r: 16. Si vero, ob rationábilem causam, ex. gr. ob témporis angústiam vel aliórum fúnerum instántem necessitátem, prædíctum Offícium Defunctórum cum tribus Noctúrnis et Láudibus dici non possit; depósito in ecclésia féretro cum córpore, dicátur saltem primum Noctúrnum cum Láudibus, vel étiam sine Láudibus, incipiéndo ab Invitatório Regem, cui ómnia vivunt. Et póstea ómnia ália dicántur, quæ supra præscrípta sunt dicénda post Offícium Defunctórum et Missam. || 16. If, however, for a reasonable cause, for example lack of time or the pressing need of other funerals, the aforesaid Office of the Dead with three Nocturns and Lauds cannot be said, then, the bier with the body having been set down in the church, at least the first Nocturn with Lauds is to be said, or even without Lauds, beginning with the Invitatory Regem, cui omnia vivunt. And afterwards everything else is said that is prescribed above to be said after the Office of the Dead and the Mass.
+r: 17. Quod si ob rationábilem causam ne unum quidem Noctúrnum sine Láudibus dici possit, áliæ prædíctæ preces et suffrágia numquam omittántur. || 17. And if for a reasonable cause not even one Nocturn without Lauds can be said, the other prayers and suffrages mentioned above are never to be omitted.
+r: 18. Missa vero, si hora sit cóngruens, ritu pro defúnctis, ut in die óbitus, præsénte córpore, ne omittátur, nisi obstet magna diei sollémnitas, aut áliqua nécessitas áliter suádeat: et post Missam fiat ut supra. || 18. The Mass, if the hour is suitable, in the rite for the dead as on the day of death, with the body present, is not to be omitted, unless the great solemnity of the day prevents it or some necessity counsels otherwise; and after the Mass everything is done as above.
+r: 19. Ritus supérius descríptus servándus est pro defúnctis adúltis, tam Cléricis quam láicis, étiam a Diácono Exséquias peragénte de Ordinárii loci vel Párochi licéntia, gravi de causa concedénda, quæ in casu necessitátis legítime præsúmitur. || 19. The rite described above is to be observed for deceased adults, clerics as well as laity, even by a deacon conducting the funeral with the permission of the local Ordinary or of the pastor, to be granted for a grave cause, which permission is lawfully presumed in a case of necessity.
+
+// ──────────────────────────────────────────────────────────────────────
+// Funeral Rites in the Absence of the Body, on the Third, Seventh, and Thirtieth Day, on the Anniversary, or on Another Day
+// ──────────────────────────────────────────────────────────────────────
+# funeral-absent-body | De Exsequiis absente defuncti corpore, sive in die tertio, septimo, trigesimo et anniversario, sive in alio die | Funeral Rites in the Absence of the Body, on the Third, Seventh, and Thirtieth Day, on the Anniversary, or on Another Day | The Dying & the Dead | Tit. VI, cap. 5
+r: 1. Quando faciéndæ sint Exséquiæ absénte córpore defúncti, in ecclésia dícitur pro témporis opportunitáte Offícium Defunctórum, cum uno vel tribus Noctúrnis et Láudibus, aut étiam sine Láudibus. Deinde celebrátur Missa sollémnis de Réquie, si juxta rubrícas Missális permittátur. || 1. When funeral rites are to be held in the absence of the body of the deceased, the Office of the Dead is said in the church, as time allows, with one or three Nocturns and Lauds, or even without Lauds. Then a solemn Requiem Mass is celebrated, if it is permitted according to the rubrics of the Missal.
+n: For the Office of the Dead, see the rite "Office of the Dead" (Tit. VI, cap. 4).
+r: Post Missam, Célebrans depónit planétam et manípulum in plano ad cornu Epístolæ, áccipit pluviále nigri colóris, et, præcedéntibus duóbus acólythis, uno cum navícula incénsi et thuríbulo, áltero cum vásculo aquæ benedíctæ et aspersório, post eos Subdiácono cum Cruce, et duóbus ceroferáriis cum lumináribus accénsis, et Clero, accédit cum Diácono a sinístris ad locum túmuli. Subdiáconus cum Cruce sistit se ad pedes túmuli seu lectícæ mortuórum contra Altáre, médius inter dictos acólythos tenéntes luminária; Célebrans vero ex ália parte in cápite loci inter Altáre et túmulum, aliquántulum versus cornu Epístolæ, ita ut Crucem Subdiáconi respíciat; a sinístris ejus Diáconus, et prope eum álii duo acólythi deferéntes thuríbulum et vas aquæ benedíctæ. Tunc, omíssa Oratióne Non intres, etc., a Clero circumstánte cantátur ℟. Líbera me, Dómine, etc., ut supra in Exsequiárum Órdine. Intérim ministrátur incénsum, benedícitur, et impónitur in thuríbulum. || After Mass the celebrant lays aside the planeta and maniple on the floor of the sanctuary at the Epistle side, puts on a black cope, and, preceded by two acolytes, one with the incense boat and thurible, the other with the vessel of holy water and the sprinkler, after them the subdeacon with the cross, and two candle-bearers with lighted candles, and the clergy, he goes with the deacon at his left to the place of the catafalque. The subdeacon with the cross stands at the foot of the catafalque or bier of the dead, facing the altar, between the said acolytes holding the lights; the celebrant stands on the other side, at the head of the place, between the altar and the catafalque, somewhat toward the Epistle side, so that he faces the subdeacon's cross; at his left is the deacon, and near him the other two acolytes carrying the thurible and the vessel of holy water. Then, the prayer Non intres, etc., being omitted, the clergy standing around sing the ℟. Deliver me, O Lord, etc., as above in the Order of Funerals. Meanwhile incense is presented, blessed, and put into the thurible.
+r: 2. Póstea dícitur: || 2. Afterwards there is said:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+r: Mox Sacérdos dicit: Pater noster, quod dum secréto continuátur, áccipit aspersórium, et círcuit túmulum aspérgens, atque incénsans eódem modo, ut supra dictum est. || Then the priest says: Our Father, and while it is continued silently, he takes the sprinkler and goes around the catafalque sprinkling it, and incensing it in the same manner, as was said above.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+r: Póstea dicit: || Then he says:
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: A porta ínferi. || From the gate of hell.
+x: Erue, Dómine, ánimam ejus (ánimas eórum). || Deliver his (her) soul (their souls), O Lord.
+v: Requiéscat (-ant) in pace. || May he (she) rest (may they rest) in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Absólve, quǽsumus, Dómine, ánimam fámuli tui N. (fámulæ tuæ N., vel ánimas famulórum tuórum N. et N., vel ánimas famulárum tuárum N. et N., vel ánimas famulórum famularúmque tuárum) ab omni vínculo delictórum: ut, in resurrectiónis glória, inter Sanctos et eléctos tuos resuscitátus (-a) respíret (resuscitáti vel resuscitátæ respírent). Per Christum, Dóminum nostrum. ℟. Amen. || Absolve, we beseech You, O Lord, the soul of Your servant N. (or the souls of Your servants N. and N., or the souls of Your handmaids N. and N., or the souls of Your servants and handmaids) from every bond of sin, that, raised up in the glory of the resurrection, he (she, they) may live anew among Your Saints and elect. Through Christ our Lord. ℟. Amen.
+r: Si defúnctus fúerit Sacérdos vel Episcopus, in Oratióne exprímitur nomen dignitátis. || If the deceased was a priest or a bishop, the title of his dignity is expressed in the prayer.
+r: Loco præcedéntis Oratiónis, Célebrans dícere potest Oratiónem, quæ dicta est in Missa, vel áliam conveniéntem, ut in Missáli, vel ut supra inter Oratiónes pro defúnctis, adhíbita tamen conclusióne brevi. || In place of the preceding prayer, the celebrant may say the prayer that was said at Mass, or another suitable one, as in the Missal or as above among the prayers for the dead, using however the short ending.
+r: Deinde Célebrans, fáciens crucem manu déxtera super túmulum, dicit: || Then the celebrant, making the sign of the cross with his right hand over the catafalque, says:
+v: Réquiem ætérnam dona ei (eis), Dómine. || Eternal rest grant unto him (her, them), O Lord.
+x: Et lux perpétua lúceat ei (eis). || And let perpetual light shine upon him (her, them).
+v: Requiéscat (-ant) in pace. || May he (she) rest (may they rest) in peace.
+x: Amen. || Amen.
+v: Anima ejus (Animæ eórum) et ánimæ ómnium fidélium defunctórum per misericórdiam Dei requiéscant in pace. || May his (her) soul (their souls) and the souls of all the faithful departed, through the mercy of God, rest in peace.
+x: Amen. || Amen.
+r: 3. Deinde cum in sacristíam, præcedénte Cruce, revertúntur, Célebrans inchóat sine cantu Antíphonam Si iniquitátes, et cum Clero récitat Psalmum De profúndis; póstea ab ómnibus repétitur Antíphona Si iniquitátes, et in sacristía dicúntur Preces, ut supra in Exsequiárum Órdine. || 3. Then, as they return to the sacristy with the cross going before, the celebrant begins without chant the antiphon Si iniquitates and recites with the clergy the psalm De profundis; afterwards the antiphon Si iniquitates is repeated by all, and in the sacristy the prayers are said, as above in the Order of Funerals.
+r: Quod si Absolútio facta fúerit pro ómnibus fidélibus defúnctis, Versus Animæ eórum, Antíphona Si iniquitátes et Psalmus cum Précibus non dicúntur. || But if the Absolution has been made for all the faithful departed, the verse Animae eorum, the antiphon Si iniquitates, and the psalm with the prayers are not said.
+r: 4. Prædíctus autem ritus servátur pro defúnctis adúltis, tam Cléricis quam láicis, quando Exséquiæ fiunt absénte defúncti córpore, sive in die tértio, séptimo, trigésimo et anniversário ab óbitu vel depositióne defúncti, sive in álio die. || 4. The aforesaid rite is observed for deceased adults, clerics as well as laity, when funeral rites are held in the absence of the body of the deceased, whether on the third, seventh, or thirtieth day or the anniversary of the death or burial of the deceased, or on another day.
+
+// ──────────────────────────────────────────────────────────────────────
+// On the Funerals of Little Children
+// ──────────────────────────────────────────────────────────────────────
+# funeral-children-rules | De Exsequiis Parvulorum | On the Funerals of Little Children | The Dying & the Dead | Tit. VI, cap. 6
+r: 1. In primis curent Párochi, ut, juxta vetústam et laudábilem ecclesiárum consuetúdinem, parvulórum corpúscula non sepeliántur in commúnibus et promíscuis cœmeteriórum sepultúris; sed ut pro illis in parœciálibus cœmetériis, quátenus cómmode fíeri potest, speciáles et separátos ab áliis lóculos et sepultúras hábeant, in quibus non sepeliántur nisi infántes vel púeri, qui ante usum ratiónis obíerint et baptizáti fúerint. || 1. First of all, pastors shall take care that, according to the ancient and praiseworthy custom of the churches, the little bodies of children are not buried in the common and mixed graves of the cemeteries; but that in parish cemeteries, as far as can conveniently be done, they have special places and graves set apart from the others, in which none are buried except infants or children who were baptized and died before the use of reason.
+r: 2. In fúnere parvulórum campánæ, si pulséntur, non sono lúgubri sed pótius festívo pulsári debent. || 2. At the funerals of little children, the bells, if they are rung, are to be rung not with a mournful but rather with a festive sound.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Order of Burying Little Children
+// ──────────────────────────────────────────────────────────────────────
+# funeral-children | Ordo Sepeliendi Parvulos | The Order of Burying Little Children | The Dying & the Dead | Tit. VI, cap. 7
+r: 1. Cum infans vel puer baptizátus defúnctus fúerit ante usum ratiónis, indúitur juxta ætátem, et impónitur ei coróna de flóribus, seu de herbis aromáticis et odoríferis, in signum integritátis carnis et virginitátis; Párochus autem, superpellíceo et stola alba indútus, et álii de Clero, si adsint, præcedénte Cruce, quæ sine hasta défertur, accédunt ad domum defúncti, cum clérico aspersórium deferénte. || 1. When a baptized infant or child has died before the use of reason, he is clothed according to his age, and a crown of flowers or of fragrant and sweet-smelling herbs is placed upon him, as a sign of the integrity of the flesh and of virginity. The pastor, vested in surplice and white stole, and the others of the clergy, if present, go to the house of the deceased, preceded by the cross, which is carried without its staff, with a cleric carrying the sprinkler.
+r: Sacérdos aspérgit corpus, deinde dicit: || The priest sprinkles the body, then says:
+t: *Ant.* Sit nomen Dómini. || *Ant.* Blessed be the name of the Lord.
+h: Psalmus 112 || Psalm 112
+t: Laudáte, púeri, Dóminum: * laudáte nomen Dómini. || Praise the Lord, you children; * praise the name of the Lord.
+t: Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum. || Blessed be the name of the Lord, * from this time forth and for evermore.
+t: A solis ortu usque ad occásum, * laudábile nomen Dómini. || From the rising of the sun to its setting, * the name of the Lord is worthy of praise.
+t: Excélsus super omnes gentes Dóminus, * et super cælos glória ejus. || The Lord is high above all nations, * and His glory above the heavens.
+t: Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et humília réspicit in cælo et in terra? || Who is like the Lord our God, who dwells on high, * and looks upon the lowly in heaven and on earth?
+t: Súscitans a terra ínopem, * et de stércore érigens páuperem: || Raising up the needy from the earth, * and lifting the poor out of the dunghill,
+t: Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui. || To seat him with princes, * with the princes of His people.
+t: Qui habitáre facit stérilem in domo, * matrem filiórum lætántem. || Who makes the barren woman dwell in her house, * the joyful mother of children.
+@gloria-patri
+t: *Ant.* Sit nomen Dómini benedíctum, ex hoc nunc et usque in sǽculum. || *Ant.* Blessed be the name of the Lord, from this time forth and for evermore.
+r: 2. Dum portátur corpus ad ecclésiam, dicátur Ps. 118 Beáti immaculáti; et, si tempus súperest, dici potest Ps. 148 Laudáte Dóminum de cælis; in fine autem utriúsque Psalmi dícitur: Glória Patri, etc. || 2. While the body is carried to the church, Psalm 118, Beati immaculati, is said; and if time remains, Psalm 148, Laudate Dominum de caelis, may be said; and at the end of each psalm is said: Glory be to the Father, etc.
+r: Cum pervénerint ad ecclésiam, dicátur: || When they have arrived at the church, there is said:
+t: *Ant.* Hic accípiet. || *Ant.* He shall receive.
+h: Psalmus 23 || Psalm 23
+t: Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo. || The earth is the Lord's and the fullness thereof, * the world and all who dwell in it.
+t: Quia ipse super mária fundávit eum: * et super flúmina præparávit eum. || For He has founded it upon the seas, * and established it upon the rivers.
+t: Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus? || Who shall ascend the mountain of the Lord? * Or who shall stand in His holy place?
+t: Innocens mánibus et mundo corde, qui non accépit in vano ánimam suam, * nec jurávit in dolo próximo suo. || The innocent of hands and clean of heart, who has not set his soul on vain things, * nor sworn deceitfully to his neighbor.
+t: Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo. || He shall receive a blessing from the Lord, * and mercy from God his Savior.
+t: Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob. || Such is the generation of those who seek Him, * who seek the face of the God of Jacob.
+t: Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ. || Lift up your gates, O princes, and be lifted up, O eternal gates, * and the King of glory shall enter in.
+t: Quis est iste Rex glóriæ? Dóminus fortis et potens: * Dóminus potens in prǽlio. || Who is this King of glory? The Lord, strong and mighty, * the Lord, mighty in battle.
+t: Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ. || Lift up your gates, O princes, and be lifted up, O eternal gates, * and the King of glory shall enter in.
+t: Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ. || Who is this King of glory? * The Lord of hosts, He is the King of glory.
+@gloria-patri
+t: *Ant.* Hic accípiet benedictiónem a Dómino, et misericórdiam a Deo salutári suo: quia hæc est generátio quæréntium Dóminum. || *Ant.* He shall receive a blessing from the Lord, and mercy from God his Savior; for this is the generation of those who seek the Lord.
+r: Póstea Sacérdos dicit: || Then the priest says:
+t: Kýrie, eléison. || Lord, have mercy.
+r: Chorus prosequitur: || The choir continues:
+t: Christe, eléison. Kýrie, eléison. || Christ, have mercy. Lord, have mercy.
+r: Sacérdos: || The priest:
+t: Pater noster *(secreto)* || Our Father *(silently)*
+r: Intérim corpus aspérgit. || Meanwhile he sprinkles the body.
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Me autem propter innocéntiam suscepísti. || But You have upheld me because of my innocence.
+x: Et confirmásti me in conspéctu tuo in ætérnum. || And have established me in Your sight for ever.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et mitíssime Deus, qui ómnibus párvulis renátis fonte baptísmatis, dum migrant a sǽculo, sine ullis eórum méritis vitam íllico largíris ætérnam, sicut ánimæ hujus párvuli (-læ) hódie crédimus te fecísse: fac nos, quǽsumus, Dómine, per intercessiónem beátæ Maríæ semper Vírginis et ómnium Sanctórum tuórum, hic purificátis tibi méntibus famulári, et in paradíso cum beátis párvulis perénniter sociári. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty and most gentle God, who to all little ones reborn in the font of baptism, when they pass from this world, at once grant eternal life without any merits of their own, as we believe You have done this day for the soul of this little child: grant us, we beseech You, O Lord, through the intercession of blessed Mary ever Virgin and of all Your Saints, to serve You here with purified minds, and to be joined for ever in paradise with the blessed little ones. Through Christ our Lord. ℟. Amen.
+r: Dum portátur ad túmulum, vel in eódem loco, si tunc non portétur, dícitur: || While he is being carried to the grave, or in the same place if he is not carried then, there is said:
+t: *Ant.* Júvenes. || *Ant.* Young men.
+h: Psalmus 148 || Psalm 148
+t: Laudáte Dóminum de cælis: * laudáte eum in excélsis. || Praise the Lord from the heavens; * praise Him in the heights.
+t: Laudáte eum, omnes Angeli ejus: * laudáte eum, omnes virtútes ejus. || Praise Him, all His Angels; * praise Him, all His hosts.
+t: Laudáte eum, sol et luna: * laudáte eum, omnes stellæ et lumen. || Praise Him, sun and moon; * praise Him, all you stars and light.
+t: Laudáte eum, cæli cælórum: * et aquæ omnes, quæ super cælos sunt, laudent nomen Dómini. || Praise Him, you heavens of heavens, * and let all the waters that are above the heavens praise the name of the Lord.
+t: Quia ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt. || For He spoke, and they were made; * He commanded, and they were created.
+t: Státuit ea in ætérnum, et in sǽculum sǽculi: * præcéptum pósuit, et non præteríbit. || He has established them for ever, and for ages of ages; * He has set a decree, and it shall not pass away.
+t: Laudáte Dóminum de terra, * dracónes, et omnes abyssi. || Praise the Lord from the earth, * you sea monsters and all the deeps;
+t: Ignis, grando, nix, glácies, spíritus procellárum: * quæ fáciunt verbum ejus: || Fire, hail, snow, ice, stormy winds, * which fulfill His word;
+t: Montes, et omnes colles: * ligna fructífera, et omnes cedri. || Mountains and all hills, * fruitful trees and all cedars;
+t: Béstiæ, et univérsa pécora: * serpéntes, et vólucres pennátæ: || Beasts and all cattle, * serpents and winged birds;
+t: Reges terræ, et omnes pópuli: * príncipes, et omnes júdices terræ. || Kings of the earth and all peoples, * princes and all judges of the earth;
+t: Júvenes, et vírgines: senes cum junióribus laudent nomen Dómini: * quia exaltátum est nomen ejus solíus. || Young men and maidens, the old with the young, let them praise the name of the Lord, * for His name alone is exalted.
+t: Conféssio ejus super cælum et terram: * et exaltávit cornu pópuli sui. || His praise is above heaven and earth, * and He has exalted the horn of His people.
+t: Hymnus ómnibus sanctis ejus: * fíliis Israël, pópulo appropinquánti sibi. || A hymn for all His saints, * for the children of Israel, the people that draws near to Him.
+@gloria-patri
+t: *Ant.* Júvenes et vírgines, senes cum junióribus laudent nomen Dómini. || *Ant.* Young men and maidens, the old with the young, let them praise the name of the Lord.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Sínite párvulos veníre ad me. || Let the little children come to Me.
+x: Tálium est enim regnum cælórum. || For of such is the kingdom of heaven.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, sanctæ puritátis amátor, qui ánimam hujus párvuli (-læ) ad cælórum regnum hódie misericórditer vocáre dignátus es: dignéris étiam, Dómine, ita nobíscum misericórditer ágere; ut méritis tuæ sanctíssimæ passiónis, et intercessióne beátæ Maríæ semper Vírginis et ómnium Sanctórum tuórum, in eódem regno nos cum ómnibus Sanctis et eléctis tuis semper fácias congaudére: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Almighty and everlasting God, lover of holy purity, who in Your mercy have deigned this day to call the soul of this little child to the kingdom of heaven: deign also, O Lord, to deal mercifully with us, that through the merits of Your most holy Passion and the intercession of blessed Mary ever Virgin and of all Your Saints, You may make us rejoice for ever in that same kingdom with all Your Saints and elect. Who live and reign for ever and ever. ℟. Amen.
+r: 3. Deinde Sacérdos corpus aspérgat aqua benedícta, et thurificet, simíliter et túmulum: póstea corpus sepeliátur. || 3. Then the priest sprinkles the body with holy water and incenses it, and likewise the grave; afterwards the body is buried.
+r: 4. Cum autem revertúntur a sepúlcro in ecclésiam, vel accédunt ad Altáre, dicátur: || 4. As they return from the grave to the church, or approach the altar, there is said:
+t: *Ant.* Benedícite Dóminum. || *Ant.* Bless the Lord.
+h: Canticum trium Puerorum (Dan. 3, 57-88 et 56) || Canticle of the Three Young Men (Dan. 3:57-88 and 56)
+t: Benedícite, ómnia ópera Dómini, Dómino: * laudáte et superexaltáte eum in sǽcula. || Bless the Lord, all you works of the Lord; * praise and exalt Him above all for ever.
+t: Benedícite, Angeli Dómini, Dómino: * benedícite, cæli, Dómino. || Bless the Lord, you Angels of the Lord; * bless the Lord, you heavens.
+t: Benedícite, aquæ omnes, quæ super cælos sunt, Dómino: * benedícite, omnes virtútes Dómini, Dómino. || Bless the Lord, all you waters that are above the heavens; * bless the Lord, all you powers of the Lord.
+t: Benedícite, sol et luna, Dómino: * benedícite, stellæ cæli, Dómino. || Bless the Lord, sun and moon; * bless the Lord, you stars of heaven.
+t: Benedícite, omnis imber et ros, Dómino: * benedícite, omnes spíritus Dei, Dómino. || Bless the Lord, every shower and dew; * bless the Lord, all you winds of God.
+t: Benedícite, ignis et æstus, Dómino: * benedícite, frigus et æstus, Dómino. || Bless the Lord, fire and heat; * bless the Lord, cold and heat.
+t: Benedícite, rores et pruína, Dómino: * benedícite, gelu et frigus, Dómino. || Bless the Lord, dews and hoarfrost; * bless the Lord, frost and cold.
+t: Benedícite, glácies et nives, Dómino: * benedícite, noctes et dies, Dómino. || Bless the Lord, ice and snow; * bless the Lord, nights and days.
+t: Benedícite, lux et ténebræ, Dómino: * benedícite, fúlgura et nubes, Dómino. || Bless the Lord, light and darkness; * bless the Lord, lightnings and clouds.
+t: Benedícat terra Dóminum: * laudet et superexáltet eum in sǽcula. || Let the earth bless the Lord; * let it praise and exalt Him above all for ever.
+t: Benedícite, montes et colles, Dómino: * benedícite, univérsa germinántia in terra, Dómino. || Bless the Lord, mountains and hills; * bless the Lord, all things that spring up on the earth.
+t: Benedícite, fontes, Dómino: * benedícite, mária et flúmina, Dómino. || Bless the Lord, you springs; * bless the Lord, seas and rivers.
+t: Benedícite, cete, et ómnia, quæ movéntur in aquis, Dómino: * benedícite, omnes vólucres cæli, Dómino. || Bless the Lord, you whales and all that move in the waters; * bless the Lord, all you birds of the air.
+t: Benedícite, omnes béstiæ et pécora, Dómino: * benedícite, fílii hóminum, Dómino. || Bless the Lord, all you beasts and cattle; * bless the Lord, you children of men.
+t: Benedícat Israël Dóminum: * laudet et superexáltet eum in sǽcula. || Let Israel bless the Lord; * let it praise and exalt Him above all for ever.
+t: Benedícite, sacerdótes Dómini, Dómino: * benedícite, servi Dómini, Dómino. || Bless the Lord, you priests of the Lord; * bless the Lord, you servants of the Lord.
+t: Benedícite, spíritus, et ánimæ justórum, Dómino: * benedícite, sancti, et húmiles corde, Dómino. || Bless the Lord, you spirits and souls of the just; * bless the Lord, you holy and humble of heart.
+t: Benedícite, Ananía, Azaría, Mísaël, Dómino: * laudáte et superexaltáte eum in sǽcula. || Bless the Lord, Ananias, Azarias, and Misael; * praise and exalt Him above all for ever.
+t: Benedicámus Patrem et Fílium cum Sancto Spíritu: * laudémus et superexaltémus eum in sǽcula. || Let us bless the Father and the Son with the Holy Spirit; * let us praise and exalt Him above all for ever.
+t: Benedíctus es, Dómine, in firmaménto cæli: * et laudábilis, et gloriósus, et superexaltátus in sǽcula. || Blessed are You, O Lord, in the firmament of heaven, * and worthy of praise, and glorious, and exalted above all for ever.
+t: *Ant.* Benedícite Dóminum, omnes elécti ejus: ágite dies lætítiæ, et confitémini illi. || *Ant.* Bless the Lord, all you His elect; keep days of gladness, and give praise to Him.
+r: Deinde ante Altáre dicit Sacérdos: || Then before the altar the priest says:
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui miro órdine Angelórum ministéria hominúmque dispénsas: concéde propítius; ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita nostra muniátur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who in a wonderful order dispose the ministries of Angels and of men, mercifully grant that our life on earth may be guarded by those who always stand ministering before You in heaven. Through Christ our Lord. ℟. Amen.
+r: 5. Ritus supérius descríptus servándus est étiam a Diácono eándem functiónem peragénte de Ordinárii loci vel Párochi licéntia, gravi de causa concedénda, quæ in casu necessitátis legítime præsúmitur. || 5. The rite described above is to be observed also by a deacon performing the same function with the permission of the local Ordinary or of the pastor, to be granted for a grave cause, which permission is lawfully presumed in a case of necessity.

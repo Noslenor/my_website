@@ -1,0 +1,292 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Appendix blessings 49-69
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Garment in Honor of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# garment-bvm | Benedictio Vestis in honorem beatæ Mariæ Virginis | Blessing of a Garment in Honor of the Blessed Virgin Mary | Sacramentals & Scapulars | Appendix, Benedictiones non reservatæ, 49
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, vestem istam, in honórem et sub protectióne beatíssimæ Vírginis Maríæ suméndam: et præsta per invocatiónem sancti tui nóminis; ut qui (quæ) eam indúerit, córporis sanitátem et ánimæ tutélam percípiat. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this garment, to be taken up in honor and under the protection of the most blessed Virgin Mary; and grant, through the invocation of Your holy name, that he (she) who puts it on may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Garment in Honor of the Blessed Virgin Mary or of a Canonized Saint
+// ──────────────────────────────────────────────────────────────────────
+# garment-bvm-saint | Benedictio Vestis in honorem beatæ Mariæ Virginis vel alicujus Sancti canonizati | Blessing of a Garment in Honor of the Blessed Virgin Mary or of a Canonized Saint | Sacramentals & Scapulars | Appendix, Benedictiones non reservatæ, 50
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui pro nostra salúte suscípiens humánam natúram, te vestiménto carnis indúere dignátus es, benedictióne sancta béne✠dic istud vestiméntum, quod pro grátiis tibi exsolvéndis cum omni devotióne sanctóque voto, ac veneratióne beatíssimæ Vírginis Maríæ (vel Sancti N. vel Sanctæ N.) fámulus tuus (fámula tua) super se susceptúrus (-a) est: infúnde in eum (eam), quǽsumus, tuam sanctam bene✠dictiónem; ut, cum primum indúerit hoc religiónis símile vestiméntum, intercedénte beatíssima Vírgine María (vel Sancto N. vel Sancta N.) descéndat super eum (eam) grátia tua, et prótegat eum (eam) ab omni malo mentis et córporis: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who for our salvation took on human nature and deigned to clothe Yourself in the garment of flesh, with Your holy blessing ✠ bless this garment, which Your servant is about to put on with all devotion and a holy vow, in thanksgiving to You and in veneration of the most blessed Virgin Mary (or of Saint N.). Pour into him (her), we pray, Your holy ✠ blessing, so that as soon as he (she) puts on this garment resembling a religious habit, Your grace may come down upon him (her) through the intercession of the most blessed Virgin Mary (or of Saint N.), and protect him (her) from every evil of mind and body: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Cincture in Honor of Our Lord Jesus Christ
+// ──────────────────────────────────────────────────────────────────────
+# cincture-our-lord | Benedictio Cinguli in honorem Domini nostri Jesu Christi | Blessing of a Cincture in Honor of Our Lord Jesus Christ | Sacramentals & Scapulars | Appendix, Benedictiones non reservatæ, 51
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui, ut servum redímeres, Fílium tuum per manus impiórum ligári voluísti: béne✠dic, quǽsumus, cíngulum istud; et præsta, ut fámulus tuus, qui (fámula tua, quæ) eo véluti sui córporis pœnitentiáli ligámine cingétur, vinculórum ejúsdem Dómini nostri Jesu Christi perpétuus exsístat amátor (perpétua exsístat amátrix), tuísque semper obséquiis se alligátum (-am) esse cognóscat. Per eúndem Dóminum. ℟. Amen. || O God, who to redeem the slave willed that Your Son be bound by the hands of the wicked: ✠ bless, we pray, this cincture; and grant that Your servant, who will be girded with it as with a penitential bond for his (her) body, may ever be a lover of the bonds of the same Lord Jesus Christ, and may know himself (herself) always bound to Your service. Through the same Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Cincture in Honor of the Blessed Virgin Mary or of a Canonized Saint
+// ──────────────────────────────────────────────────────────────────────
+# cincture-bvm-saint | Benedictio Cinguli in honorem beatæ Mariæ Virginis vel alicujus Sancti canonizati | Blessing of a Cincture in Honor of the Blessed Virgin Mary or of a Canonized Saint | Sacramentals & Scapulars | Appendix, Benedictiones non reservatæ, 52
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, béne✠dic, quǽsumus, hoc cíngulum, et præsta, ut, qui (quæ) illud gestáverit, beatíssimæ Vírginis Maríæ Matris tuæ (vel Sancti N., vel Sanctæ N.) protectióne munítus (-a) ab ómnibus perículis deféndi, atque ánimæ et córporis sanitátem percípere mereátur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, ✠ bless, we pray, this cincture, and grant that whoever wears it, fortified by the protection of the most blessed Virgin Mary, Your Mother (or of Saint N.), may be worthy to be defended from all dangers and to receive health of soul and body: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Linens for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# linens-sick | Benedictio Linteaminum pro Infirmis | Blessing of Linens for the Sick | The Sick | Appendix, Benedictiones non reservatæ, 53
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui per tactum fímbriæ vestimentórum tuórum mulíerem fluxu sánguinis laborántem, aliósque passim infírmos sanáre dignátus es, et per sudária, et semicínctia Apóstoli tui Pauli languóres et spíritus nequam ab infírmis eádem virtúte fugásti: præsta, quǽsumus; ut qui his vestiméntis, velis, et linteamínibus, quæ in tuo nómine bene✠dícimus, indúti vel opérti fúerint, sanitátem mentis et córporis percípere mereántur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who by the touch of the hem of Your garments deigned to heal the woman suffering from a flow of blood, and many other sick people everywhere, and who by the same power drove away illnesses and evil spirits from the sick through the handkerchiefs and aprons of Your Apostle Paul: grant, we pray, that those who are clothed or covered with these garments, cloths, and linens, which we ✠ bless in Your name, may be worthy to receive health of mind and body: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Litter for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# litter-sick | Benedictio Lecticæ pro Infirmis | Blessing of a Litter for the Sick | The Sick | Appendix, Benedictiones non reservatæ, 54
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, qui, dum peregrinabáris in terris, pertransíbas benefaciéndo et sanándo omnem languórem et omnem infirmitátem in pópulis, quique hóminem paralýticum, jacéntem in lecto, ad salútem mentis et córporis restituísti; réspice, quǽsumus, ad fidem et ad sensus commiseratiónis servórum tuórum, qui animáti spíritu veræ caritátis, qua tu eis exémplo præivísti, et quam in præcéptum traduxísti, vehículum hoc, ad instar léctuli artificióse éxstrui voluérunt eo fine, ut ad locum curatiónis vel aptíssime deférri possint quicúmque, aut vulnéribus sint affécti, aut quavis infirmitáte detineántur. Ægrótis ígitur, qui hoc componúntur vehículo, quod nunc in tui nóminis virtúte bene✠dícimus, esto, mitíssime Jesu, in itínere solácium, in perículis tutámen, in dolóribus refrigérium. Præsta, ut iídem, tuis Ángelis comitántibus, ad curatiónis sedem tranquíllo cursu pervéniant, ibíque prístinam sanitátem recúperent, eáque, te miseránte, per intercessiónem sanctíssimæ tuæ Matris Maríæ, percépta, abeúntes in domos suas, honoríficent te Deum verum: Qui cum Patre et Spíritu Sancto vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, who, while You journeyed upon earth, went about doing good and healing every sickness and every infirmity among the people, and who restored to health of mind and body the paralytic lying on his bed: look, we pray, upon the faith and the compassionate feelings of Your servants who, moved by the spirit of true charity, in which You went before them by Your example and which You made a commandment, have had this conveyance skillfully built in the likeness of a little bed, so that all who are afflicted with wounds or held fast by any infirmity may be carried most fittingly to a place of healing. Be, then, O most gentle Jesus, to the sick who are laid in this conveyance, which we now ✠ bless in the power of Your name, a comfort on the journey, a safeguard in dangers, and a relief in pain. Grant that, with Your Angels accompanying them, they may arrive by a peaceful course at the place of healing, and there recover their former health; and having received it through Your mercy and the intercession of Your most holy Mother Mary, may they go back to their homes and glorify You, the true God: who with the Father and the Holy Spirit live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Wine for the Sick
+// ──────────────────────────────────────────────────────────────────────
+# wine-sick | Benedictio Vini pro Infirmis | Blessing of Wine for the Sick | The Sick | Appendix, Benedictiones non reservatæ, 55
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, qui in Cana Galilǽæ ex aqua vinum fecísti: bene✠dícere et sancti✠ficáre dignéris hanc creatúram vini, quam ad sustentatiónem servórum tuórum tribuísti; ut, ubicúmque fusum fúerit, vel a quólibet potátum, divína opuléntiæ tuæ bene✠dictióne repleátur. || Lord Jesus Christ, Son of the living God, who at Cana in Galilee made wine from water: deign to ✠ bless and ✠ sanctify this creature of wine, which You have given for the sustenance of Your servants; that wherever it is poured out, or by whomever it is drunk, it may be filled with the divine ✠ blessing of Your abundance.
+t: Omnípotens sempitérne Deus, salus ætérna credéntium, exáudi nos pro fámulo tuo infírmo (fámula tua infírma, seu fámulis tuis infírmis) pro quo (qua, seu quibus) misericórdiæ tuæ implorámus auxílium; ut, réddita sibi sanitáte, gratiárum tibi in Ecclésia tua réferat (-ant) actiónes. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, eternal salvation of those who believe, hear us on behalf of Your sick servant (or servants), for whom we implore the help of Your mercy; that, health being restored, he (she, they) may give You thanks in Your Church. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur vinum aqua benedicta. || And the wine is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Any Medicine
+// ──────────────────────────────────────────────────────────────────────
+# medicine | Benedictio cujuscumque Medicinæ | Blessing of Any Medicine | The Sick | Appendix, Benedictiones non reservatæ, 56
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui mirabíliter hóminem creásti, et mirabílius reformásti, qui váriis infirmitátibus, quibus detinétur humána mortálitas, multíplici remédio succúrrere dignátus es: propítius esto invocatiónibus nostris, et sanctam tuam de cælis bene✠dictiónem super hanc medicínam infúnde, ut ille, qui eam súmpserit (illi, qui eam súmpserint), sanitátem mentis et córporis percípere mereátur (-ántur). Per Christum, Dóminum nostrum. ℟. Amen. || O God, who wonderfully created man and still more wonderfully restored him, and who have deigned to come to the aid of the many infirmities that beset our mortal nature with manifold remedies: be favorable to our prayers, and pour forth from heaven Your holy ✠ blessing upon this medicine, so that whoever takes it may be worthy to receive health of mind and body. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Bread and Cakes
+// ──────────────────────────────────────────────────────────────────────
+# bread-cakes | Benedictio Panis et Placentarum | Blessing of Bread and Cakes | Food & Drink | Appendix, Benedictiones non reservatæ, 57
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, panis Angelórum, panis vivus, et ætérnæ vitæ: bene✠dícere dignáre panem istum, sicut benedixísti quinque panes in desérto: ut omnes ex eo digne gustántes, inde córporis et ánimæ desiderábilem percípiant sanitátem: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, bread of Angels, living bread and bread of eternal life: deign to ✠ bless this bread, as You blessed the five loaves in the desert, so that all who worthily taste of it may receive from it the health of body and soul they long for: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Beer
+// ──────────────────────────────────────────────────────────────────────
+# beer | Benedictio Cerevisiæ | Blessing of Beer | Food & Drink | Appendix, Benedictiones non reservatæ, 58
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, creatúram istam cerevísiæ, quam ex ádipe fruménti prodúcere dignátus es: ut sit remédium salutáre humáno géneri: et præsta per invocatiónem nóminis tui sancti, ut, quicúmque ex ea bíberint, sanitátem córporis, et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this creature of beer, which You have deigned to bring forth from the fat of the grain, that it may be a healthful remedy for the human race; and grant, through the invocation of Your holy name, that all who drink of it may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Cheese or Butter
+// ──────────────────────────────────────────────────────────────────────
+# cheese-butter | Benedictio Casei vel Butyri | Blessing of Cheese or Butter | Food & Drink | Appendix, Benedictiones non reservatæ, 59
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dignáre, Dómine Deus omnípotens, bene✠dícere, et sancti✠ficáre hanc creatúram cásei (vel butýri), quam ex ádipe animálium prodúcere dignátus es: ut, quicúmque ex pópulis tuis fidélibus de eo coméderint, omni benedictióne cælésti, et grátia tua saturáti, repleántur in bonis. Per Christum, Dóminum nostrum. ℟. Amen. || Deign, O Lord God almighty, to ✠ bless and ✠ sanctify this creature of cheese (or butter), which You have deigned to bring forth from the richness of animals; so that whoever among Your faithful people eats of it may be filled with every heavenly blessing and with Your grace, and abound in good things. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Lard
+// ──────────────────────────────────────────────────────────────────────
+# lard | Benedictio Laridi | Blessing of Lard | Food & Drink | Appendix, Benedictiones non reservatæ, 60
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, creatúram istam láridi, ut sit remédium salutáre géneri humáno: et præsta per invocatiónem tui sancti nóminis; ut, quicúmque ex eo súmpserint, córporis sanitátem et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this creature of lard, that it may be a healthful remedy for the human race; and grant, through the invocation of Your holy name, that all who partake of it may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Fowl
+// ──────────────────────────────────────────────────────────────────────
+# fowl | Benedictio Volucrum | Blessing of Fowl | Food & Drink | Appendix, Benedictiones non reservatæ, 61
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, univérsæ cónditor natúræ, qui inter céteras diversárum creaturárum spécies, pro humáni géneris usu étiam volatílium genus ex aqua prodúcere dignátus es; de quibus Noe ex arca egrédiens holocáustum tibi plácitum óbtulit; et qui pópulo tuo ex Ægýpto edúcto per Móysen servum tuum, munda ab immúndis ségregans, ut de iis éderent, præcéptum dedísti: te súpplices rogámus, ut has mundárum ávium carnes bene✠dícere, et sancti✠ficáre dignéris; ut, quicúmque ex iis coméderint, benedictiónis tuæ abundántia repleántur, et ad ætérnæ vitæ páscua perveníre mereántur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, Creator of all nature, who among the many kinds of different creatures deigned to bring forth from the water the race of birds also for the use of mankind; of which Noah, coming out of the ark, offered You a pleasing holocaust; and who, when Your people had been led out of Egypt, gave them a commandment through Your servant Moses, separating the clean from the unclean, that they might eat of these: we humbly ask You to deign to ✠ bless and ✠ sanctify the flesh of these clean birds; so that all who eat of it may be filled with the abundance of Your blessing and be worthy to come to the pastures of eternal life. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Bees
+// ──────────────────────────────────────────────────────────────────────
+# bees | Benedictio Apum | Blessing of Bees | Fields & Animals | Appendix, Benedictiones non reservatæ, 62
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui creásti cælum et terram, et ómnia animália super ea et in eis exsisténtia, ut eis uteréntur hómines; quique jussísti per minístros sacrosánctæ Ecclésiæ céreos ex opéribus apum edúctos in templo, dum sacrum perágitur ministérium, in quo confícitur et súmitur sacrosánctum Corpus et Sanguis Jesu Christi, Fílii tui, accéndi: descéndat tua sancta bene✠díctio super has apes et hæc alveária; ut multíplicent, fructíficent et conservéntur ab ómnibus malis, ita ut fructus ex eis proveniéntes ad laudem tuam, Fílii et Spíritus Sancti, beatissimǽque Vírginis Maríæ dispenséntur. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Lord God almighty, who created heaven and earth and all the living things that dwell upon them and in them, that men might make use of them; and who commanded through the ministers of the most holy Church that candles made from the work of bees be lighted in the temple while the sacred ministry is carried out, in which the most holy Body and Blood of Jesus Christ, Your Son, is consecrated and received: may Your holy ✠ blessing come down upon these bees and these hives; that they may multiply, be fruitful, and be preserved from all harm, so that the fruits coming from them may be put to use for the praise of You, of the Son, and of the Holy Spirit, and of the most blessed Virgin Mary. Through the same Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Silkworms
+// ──────────────────────────────────────────────────────────────────────
+# silkworms | Benedictio Bombycum | Blessing of Silkworms | Fields & Animals | Appendix, Benedictiones non reservatæ, 63
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, ómnium creátor et rector, qui in animálium creatióne símilis suæ speciéi propagándæ virtútem contulísti, quǽsumus, ut hæc bómbycum sémina bene✠dícere, fovére ac multiplicáre tua pietáte dignéris, ut sancta altária tua, eórum opéribus adornáta, et fidéles tui eísdem fulgéntes, te, uti bonórum ómnium largitórem, toto corde gloríficent: Qui cum Unigénito tuo et Spíritu Sancto vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, Creator and Ruler of all things, who in creating the animals gave them the power to propagate their own kind: we pray that in Your goodness You would deign to ✠ bless, foster, and multiply these silkworm eggs, so that Your holy altars, adorned with their work, and Your faithful, made resplendent by the same, may glorify You with their whole heart as the giver of all good things: who with Your Only-begotten Son and the Holy Spirit live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Cattle and Herds
+// ──────────────────────────────────────────────────────────────────────
+# cattle-herds | Benedictio Pecorum et Armentorum | Blessing of Cattle and Herds | Fields & Animals | Appendix, Benedictiones non reservatæ, 64
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus, rex cæli et terræ, Verbum Patris, per quod ómnia facta sustentatióni nostræ trádita sunt, réspice, quǽsumus, humilitátem nostram: et sicut nostris labóribus et necessitátibus subventiónem tribuísti, ita tua benigníssima miseratióne, ac cælésti benedictióne, hæc pécora et arménta (hoc pecus et arméntum) bene✠dícere, tuéri, et custodíre, ac fámulis tuis cum temporáli provéntu grátiam perpétuam largíri dignéris; ut cum gratiárum actióne nomen sanctum tuum laudétur et glorificétur: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God, King of heaven and earth, Word of the Father, through whom all created things have been given for our sustenance: look, we pray, upon our lowliness; and as You have granted help in our labors and needs, so in Your most kind mercy and with heavenly blessing deign to ✠ bless, protect, and guard these cattle and herds (this beast and herd), and to grant Your servants lasting grace together with temporal increase; so that Your holy name may be praised and glorified with thanksgiving: who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Horses or Other Animals
+// ──────────────────────────────────────────────────────────────────────
+# horses-animals | Benedictio Equorum aliorumve Animalium | Blessing of Horses or Other Animals | Fields & Animals | Appendix, Benedictiones non reservatæ, 65
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, refúgium nostrum, et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, our refuge and our strength, You who are the very author of all devotion, be present to the devout prayers of Your Church, and grant that what we ask in faith we may effectually obtain. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui gloriósum beátum Antónium, váriis tentatiónibus probátum, inter mundi hujus túrbines illǽsum abíre fecísti: concéde fámulis tuis; ut et præcláro ipsíus proficiámus exémplo, et a præséntis vitæ perículis ejus méritis et intercessióne liberémur. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who caused the glorious blessed Anthony, tried by many temptations, to pass unharmed through the storms of this world: grant to us Your servants that we may profit by his shining example, and be delivered from the dangers of this present life by his merits and intercession. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Bene✠dictiónem tuam, Dómine, hæc animália accípiant: qua córpore salvéntur, et ab omni malo per intercessiónem beáti Antónii liberéntur. Per Christum, Dóminum nostrum. ℟. Amen. || May these animals receive Your ✠ blessing, O Lord, by which they may be kept safe in body and delivered from all evil through the intercession of blessed Anthony. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Animals Suffering from a Serious Illness
+// ──────────────────────────────────────────────────────────────────────
+# sick-animals | Benedictio Animalium gravi infirmitate laborantium | Blessing of Animals Suffering from a Serious Illness | Fields & Animals | Appendix, Benedictiones non reservatæ, 66
+r: Sacerdos superpelliceo et stola violacea indutus, dicit: || The priest, vested in surplice and violet stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, non secúndum peccáta nostra fácias nobis. || O Lord, deal not with us according to our sins.
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Hómines et juménta salvábis, Dómine. || Men and beasts You will save, O Lord.
+x: Quemádmodum multiplicásti misericórdiam tuam, Deus. || How You have multiplied Your mercy, O God.
+v: Aperis tu manum tuam. || You open Your hand.
+x: Et imples omne ánimal benedictióne. || And fill every living thing with blessing.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui labóribus hóminum étiam de mutis animálibus solácia subrogásti: súpplices te rogámus; ut, sine quibus non álitur humána condício, nostris fácias úsibus non períre. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who have provided relief for the labors of men even from dumb animals: we humbly ask You not to let perish, to our loss, those creatures without which the human condition is not sustained. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Misericórdiam tuam, Dómine, súpplices exorámus: ut hæc animália, quæ gravi infirmitáte vexántur, in nómine tuo, atque tuæ bene✠dictiónis virtúte sanéntur. Exstinguátur in eis omnis diabólica potéstas; et ne ultérius ægrótent, tu eis, Dómine, sis defénsio vitæ, et remédium sanitátis. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || We humbly implore Your mercy, O Lord, that these animals, which are afflicted with a grave illness, may be healed in Your name and by the power of Your ✠ blessing. Let every power of the devil be extinguished in them, and that they may sicken no more, be, O Lord, their defense of life and their remedy of health. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Avérte, quǽsumus, Dómine, a fidélibus tuis cuncta propítius flagélla; et morbórum in animália sæviéntium depélle perníciem; ut, quos mérito plectis dévios, fóveas tua miseratióne corréctos. Per Christum, Dóminum nostrum. ℟. Amen. || Graciously turn away, we pray, O Lord, every scourge from Your faithful, and drive away the ravages of the diseases raging among the animals; so that those whom You justly chastise when they go astray, You may cherish with Your mercy once they are corrected. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Another Blessing of Animals Suffering from a Serious Illness
+// ──────────────────────────────────────────────────────────────────────
+# sick-animals-another | Alia Benedictio Animalium gravi infirmitate laborantium | Another Blessing of Animals Suffering from a Serious Illness | Fields & Animals | Appendix, Benedictiones non reservatæ, 67
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Misericórdiam tuam, Dómine, súpplices exorámus: ut hæc animália, quæ gravi infirmitáte vexántur, in nómine tuo, atque tuæ bene✠dictiónis virtúte sanéntur. Exstinguátur in eis omnis diabólica potéstas; et ne ultérius ægrótent, tu eis, Dómine, sis defénsio vitæ, et remédium sanitátis. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || We humbly implore Your mercy, O Lord, that these animals, which are afflicted with a grave illness, may be healed in Your name and by the power of Your ✠ blessing. Let every power of the devil be extinguished in them, and that they may sicken no more, be, O Lord, their defense of life and their remedy of health. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Salt or Oats for Animals
+// ──────────────────────────────────────────────────────────────────────
+# salt-oats-animals | Benedictio Salis vel Avenæ pro Animalibus | Blessing of Salt or Oats for Animals | Fields & Animals | Appendix, Benedictiones non reservatæ, 68
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus, ómnium cónditor et conservátor, cujus in manu est ánima omnis vivéntis, et spíritus univérsæ carnis: exáudi, quǽsumus, tuórum fidélium preces, et hanc creatúram salis (vel avénæ) tua bene✠dictióne, tuǽque invisíbilis operatiónis virtúte perfúnde; ut animália, quæ necessitátibus humánis tribúere dignátus es, cum ex eo (ea) gustáverint, ab omni morbo illǽsa reddántur, et a malígni spíritus incúrsu, te protegénte, custodiántur. Per Christum, Dóminum nostrum. ℟. Amen. || O Lord God, Maker and Preserver of all things, in whose hand is the soul of every living thing and the breath of all flesh: hear, we pray, the prayers of Your faithful, and pour forth upon this creature of salt (or oats) Your ✠ blessing and the power of Your unseen working; so that the animals which You have deigned to grant for the needs of men, when they have tasted of it, may be kept unharmed by any disease, and under Your protection be guarded from the assault of the evil spirit. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Stable for Horses, Oxen, or Other Livestock
+// ──────────────────────────────────────────────────────────────────────
+# stable | Benedictio Stabuli equorum, boum aliorumve armentorum | Blessing of a Stable for Horses, Oxen, or Other Livestock | Fields & Animals | Appendix, Benedictiones non reservatæ, 69
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui Fílium tuum unigénitum, Redemptórem nostrum, in stábulo nasci, et inter duo animália in præsépio reclinári voluísti: béne✠dic, quǽsumus, hoc stábulum, et defénde illud ab omni nequítia vel versútia diabólicæ fraudis; ut juméntis, pecóribus, ceterísque animántibus efficiátur locus sanus, et ab omni impugnatióne secúrus. Et quóniam cognóvit bos possessórem suum, et ásinus præsépe dómini sui: misericórditer tríbue fámulis tuis, quos ad imáginem tuam creásti, paulo minus ab Ángelis minuísti, et sub quorum pédibus subjecísti oves et boves univérsas, ínsuper et pécora campi; ne comparéntur juméntis insipiéntibus, et ne fiant sicut equus et mulus, quibus non est intelléctus; sed te solum Deum auctórem bonórum ómnium agnóscant, et in servítio tuo fidéles persevérent, quátenus de percéptis munéribus tibi grátias exhibéntes, benefícia potióra percípere mereántur. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || O Lord God almighty, who willed that Your only-begotten Son, our Redeemer, be born in a stable and laid in a manger between two animals: ✠ bless, we pray, this stable, and defend it from all the wickedness and cunning of the devil's deceit; that it may become a healthy place for beasts of burden, cattle, and other animals, and be safe from every attack. And since the ox knows its owner and the ass its master's crib, mercifully grant to Your servants, whom You created in Your image, made a little less than the Angels, and under whose feet You placed all sheep and oxen, as well as the beasts of the field, that they may not be likened to senseless beasts, nor become like the horse and the mule which have no understanding; but may acknowledge You alone as God, the author of all good things, and persevere faithfully in Your service, so that, giving You thanks for the gifts they have received, they may be worthy to receive still greater benefits. Through the same Christ our Lord. ℟. Amen.
+r: Deinde, si tunc in stabulo congregata sint animalia, addere potest Sacerdos sequentes Orationes: Omnípotens sempitérne Deus, qui gloriósum, etc., et Benedictiónem tuam, etc., uti supra in Benedictione equorum aliorumve animalium. || Then, if the animals are gathered in the stable at the time, the priest may add the following prayers: Almighty, everlasting God, who caused the glorious, etc., and May these animals receive Your blessing, etc., as above in the Blessing of Horses or Other Animals.
+r: Postea aspergat aqua benedicta stabulum et animalia. || Afterwards he sprinkles the stable and the animals with holy water.

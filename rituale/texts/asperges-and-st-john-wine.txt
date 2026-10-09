@@ -1,0 +1,95 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  The Asperges; St. John's wine (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// The Sprinkling of the People with Holy Water on Sundays (Asperges)
+// ──────────────────────────────────────────────────────────────────────
+# asperges | Benedictio Populi cum Aqua Benedicta diebus Dominicis | The Sprinkling of the People with Holy Water on Sundays (Asperges) | Holy Water | Appendix, Benedictiones non reservatæ, 1
+r: Sacerdos celebraturus, indutus pluviali coloris Officio convenientis, accedit ad Altare, et ibi ad gradus cum Ministris genuflexus, etiam Tempore Paschali, accipit a Diacono aspersorium, et primo ter aspergit Altare, deinde se, et erectus Ministros, incipiens Antiphonam: Aspérges me. Et chorus prosequitur: Dómine, hyssópo, etc., ut infra. Interim Celebrans aspergit clerum, deinde populum, dicens submissa voce cum Ministris Psalmum Miserére mei, Deus. || The priest who is to celebrate, vested in a cope of the color proper to the Office, goes to the altar and, kneeling there on the steps with the ministers (even in Eastertide), receives the sprinkler from the deacon. He first sprinkles the altar three times, then himself, and then, standing, the ministers, intoning the antiphon "Sprinkle me." The choir continues "O Lord, with hyssop," etc., as below. Meanwhile the celebrant sprinkles the clergy and then the people, saying in a low voice with the ministers the psalm "Have mercy on me, O God."
+t: *Ant.* Aspérges me, Dómine, hyssópo, et mundábor: lavábis me, et super nivem dealbábor. || *Ant.* Sprinkle me, O Lord, with hyssop, and I shall be cleansed; wash me, and I shall be made whiter than snow.
+t: *Ps. 50, 3.* Miserére mei, Deus, secúndum magnam misericórdiam tuam. Glória Patri. || *Ps. 50, 3.* Have mercy on me, O God, according to Your great mercy. Glory be to the Father.
+r: Et repetitur Antiphona Aspérges me. Hæc Antiphona prædicto modo dicitur ad aspersionem aquæ benedictæ in Dominicis per totum annum: excepta Dominica de Passione, et Dominica Palmarum, in quibus non dicitur Glória Patri; sed post Psalmum Miserére repetitur immediate Antiphona Aspérges me. Excepto etiam Tempore Paschali, scilicet a Dominica Paschæ usque ad Pentecosten inclusive, quo tempore cantatur sequens Antiphona: || The antiphon "Sprinkle me" is repeated. This antiphon is said in this way at the sprinkling of holy water on Sundays throughout the year, except Passion Sunday and Palm Sunday, on which the "Glory be" is not said, but the antiphon is repeated immediately after the psalm "Have mercy." Eastertide is also excepted, that is, from Easter Sunday through Pentecost inclusive, during which the following antiphon is sung:
+t: *Ant.* Vidi aquam egrediéntem de templo, a látere dextro, allelúja: et omnes, ad quos pervénit aqua ista, salvi facti sunt, et dicent: allelúja, allelúja. || *Ant.* I saw water flowing from the temple, from its right side, alleluia; and all to whom that water came were saved, and they shall say: alleluia, alleluia.
+t: *Ps. 117, 1.* Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. Glória Patri. || *Ps. 117, 1.* Give praise to the Lord, for He is good; for His mercy endures for ever. Glory be to the Father.
+r: Repetitur Antiphona: Vidi aquam. In Dominica vero Trinitatis resumitur Antiphona Aspérges me, Dómine, etc., ut supra. In die sancto Paschæ, et Pentecostes, ubi est fons baptismalis, fit aspersio cum aqua pridie benedicta in fonte Baptismi, et ante infusionem Olei et Chrismatis accepta. Finita Antiphona supradicto modo, Sacerdos qui aspersit aquam, reversus ad Altare, stans ante gradus Altaris junctis manibus dicat: || The antiphon "I saw water" is repeated. On Trinity Sunday the antiphon "Sprinkle me, O Lord" is resumed, as above. On Easter Sunday and on Pentecost, where there is a baptismal font, the sprinkling is done with the water blessed in the font the day before and taken before the oil and chrism were poured in. When the antiphon has been finished as described, the priest who sprinkled the water returns to the altar and, standing before the altar steps with hands joined, says:
+v: Osténde nobis, Dómine, misericórdiam tuam. *(T. P.* Allelúja.*)* || Show us, O Lord, Your mercy. *(In Eastertide:* Alleluia.*)*
+x: Et salutáre tuum da nobis. *(T. P.* Allelúja.*)* || And grant us Your salvation. *(In Eastertide:* Alleluia.*)*
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Exáudi nos, Dómine sancte, Pater omnípotens, ætérne Deus: et míttere dignéris sanctum Angelum tuum de cælis; qui custódiat, fóveat, prótegat, vísitet, atque deféndat omnes habitántes in hoc habitáculo. Per Christum, Dóminum nostrum. ℟. Amen. || Hear us, holy Lord, Father almighty, everlasting God, and deign to send Your holy Angel from heaven to guard, cherish, protect, visit, and defend all who dwell in this house. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Wine on the Feast of St. John, Apostle and Evangelist
+// ──────────────────────────────────────────────────────────────────────
+# wine-st-john | Benedictio Vini in Festo S. Joannis Apostoli et Evangelistæ | Blessing of Wine on the Feast of St. John, Apostle and Evangelist | Feasts of the Year | Appendix, Benedictiones non reservatæ, 2
+r: In Festo sancti Joannis Ap. et Evang., expleta omnino Missa majore, hoc est post ultimum Evangelium, Sacerdos, retentis omnibus paramentis, excepto manipulo, vinum a populo oblatum, in memoriam et honorem S. Joannis, qui venenum innocue sumpsit, benedicit hoc modo: || On the feast of St. John, Apostle and Evangelist, when the principal Mass is completely finished, that is, after the last Gospel, the priest, keeping on all his vestments except the maniple, blesses the wine brought by the people in memory and honor of St. John, who drank poison without harm, in this way:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Bene✠dícere et conse✠cráre dignéris, Dómine Deus, déxtera tua hunc cálicem vini, et cujúslibet potus: et præsta; ut per mérita sancti Joánnis Apóstoli et Evangelístæ, omnes in te credéntes et de cálice isto bibéntes benedicántur, et protegántur. Et sicut beátus Joánnes de cálice bibens venénum, illǽsus omníno permánsit, ita omnes, hac die in honórem beáti Joánnis de cálice isto bibéntes, méritis ipsíus ab omni ægritúdine venéni, et nóxiis quibúsvis absolvántur, et córpore ac ánima se offeréntes, ab omni culpa liberéntur. Per Christum, Dóminum nostrum. ℟. Amen. || Deign, O Lord God, to ✠ bless and ✠ consecrate with Your right hand this cup of wine and of every drink; and grant that, through the merits of Saint John, Apostle and Evangelist, all who believe in You and drink from this cup may be blessed and protected. And as blessed John drank poison from the cup and remained entirely unharmed, so may all who on this day drink from this cup in honor of blessed John be freed by his merits from every sickness caused by poison and from all harmful things, and, offering themselves in body and soul, be delivered from all guilt. Through Christ our Lord. ℟. Amen.
+t: Béne✠dic, Dómine, hanc creatúram potus: ut sit remédium salutáre ómnibus suméntibus: et præsta per invocatiónem sancti nóminis tui; ut, quicúmque ex eo gustáverint, tam ánimæ quam córporis sanitátem te donánte percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this creature of drink, that it may be a saving remedy to all who take it; and grant, through the invocation of Your holy name, that whoever tastes of it may, by Your gift, receive health of soul as well as of body. Through Christ our Lord. ℟. Amen.
+t: Et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super hanc creatúram vini, et cujúslibet potus, et máneat semper. ℟. Amen. || And may the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon this creature of wine and of every drink, and remain for ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. Quod si benedictio illa fiat privatim extra Missam, Sacerdos, superpelliceo et stola indutus, eam conficiat modo superius tradito. || And it is sprinkled with holy water. If this blessing is given privately outside Mass, the priest, vested in surplice and stole, performs it in the manner given above.
+
+// ──────────────────────────────────────────────────────────────────────
+// Another Blessing of Wine on the Feast of St. John
+// ──────────────────────────────────────────────────────────────────────
+# wine-st-john-another | Alia Benedictio Vini in Festo S. Joannis Apostoli et Evangelistæ | Another Blessing of Wine on the Feast of St. John | Feasts of the Year | Appendix, Benedictiones non reservatæ, 3
+r: In fine Missæ post Evangelium sancti Joannis, In princípio erat Verbum, dicitur: || At the end of Mass, after the Gospel of St. John, "In the beginning was the Word," there is said:
+h: Psalmus 22 || Psalm 22
+t: Dóminus regit me, et nihil mihi déerit: * in loco páscuæ ibi me collocávit. || The Lord rules me, and I shall want nothing; * He has set me in a place of pasture.
+t: Super aquam refectiónis educávit me: * ánimam meam convértit. || He has brought me up on the water of refreshment; * He has restored my soul.
+t: Dedúxit me super sémitas justítiæ, * propter nomen suum. || He has led me on the paths of justice, * for His own name's sake.
+t: Nam, et si ambulávero in médio umbræ mortis, non timébo mala: * quóniam tu mecum es. || For though I should walk in the midst of the shadow of death, I will fear no evils, * for You are with me.
+t: Virga tua, et báculus tuus: * ipsa me consoláta sunt. || Your rod and Your staff, * they have comforted me.
+t: Parásti in conspéctu meo mensam, * advérsus eos, qui tríbulant me. || You have prepared a table before me * against those who afflict me.
+t: Impinguásti in óleo caput meum: * et calix meus inébrians quam præclárus est! || You have anointed my head with oil; * and my chalice which inebriates, how goodly it is!
+t: Et misericórdia tua subsequétur me * ómnibus diébus vitæ meæ. || And Your mercy will follow me * all the days of my life.
+t: Et ut inhábitem in domo Dómini, * in longitúdinem diérum. || And that I may dwell in the house of the Lord * unto length of days.
+t: Glória Patri. || Glory be to the Father.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from Your holy place.
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Nihil profíciat inimícus in eis. || Let the enemy have no power over them.
+x: Et fílius iniquitátis non appónat nocére eis. || And let the son of iniquity do nothing to harm them.
+v: Et si mortíferum quid bíberint. || And if they drink anything deadly,
+x: Non eis nocébit. || It shall not harm them.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, ætérne Deus: qui Fílium tuum tibi coætérnum et consubstantiálem de cælis descéndere, et de sacratíssima Vírgine María in hoc témpore plenitúdinis incarnári temporáliter voluísti, ut ovem pérditam et errántem quǽreret, et in húmeris própriis ad ovíle reportáret; nec non ut eum, qui in latrónes íncidit, a vúlnerum suórum dolóre, infúndens ipsi vinum et óleum, curáret; béne✠dic et sanctí✠fica hoc vinum: quod de vite in potum hóminum produxísti, et præsta: ut, quisquis in hac sacra sollemnitáte de eo súmpserit vel bíberit, salútem ánimæ et córporis consequátur: et si in peregrinatióne fúerit, ab eódem, tua grátia mediánte, confortétur; ut via ejus in omni prosperitáte dirigátur. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Holy Lord, Father almighty, everlasting God, who willed that Your Son, coeternal and consubstantial with You, should come down from heaven and in this fullness of time take flesh of the most holy Virgin Mary, to seek the lost and straying sheep and carry it back to the fold on His own shoulders, and to heal the man who fell among robbers of the pain of his wounds by pouring in wine and oil: ✠ bless and ✠ sanctify this wine, which You have brought forth from the vine for the drink of men; and grant that whoever takes or drinks of it on this holy feast may obtain health of soul and body; and that, if he is on a journey, he may be strengthened by it through Your grace, so that his way may be directed in all prosperity. Through the same Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui te vitem veram, et sanctos Apóstolos tuos pálmites appellári, et de ómnibus te diligéntibus víneam eléctam plantáre voluísti; béne✠dic hoc vinum, et virtútem ei tuæ benedictiónis infúnde: ut, quicúmque ex eo súmpserit vel bíberit, intercedénte dilécto discípulo tuo Joánne Apóstolo et Evangelísta, síngulis morbis et venénis pestíferis effugátis, sanitátem inde córporis et ánimæ consequátur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who willed to call Yourself the true vine and Your holy Apostles the branches, and to plant a chosen vineyard of all who love You: ✠ bless this wine and pour into it the power of Your blessing, so that whoever takes or drinks of it may, through the intercession of Your beloved disciple John, Apostle and Evangelist, be rid of every sickness and deadly poison and obtain health of body and soul. Who live and reign for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui humáno géneri panem in cibum, et vinum in potum procreásti, ut panis corpus confórtet, et vinum cor hóminis lætíficet; quique beáto Joánni prædilécto discípulo tuo tantam grátiam contulísti, ut non solum haustum venéni illǽsus eváderet, sed étiam in tua virtúte venéno prostrátos a morte resuscitáret: præsta ómnibus hoc vinum bibéntibus, ut spirituálem lætítiam et vitam cónsequi mereántur ætérnam. Per Dóminum. ℟. Amen. || O God, who created bread as food and wine as drink for mankind, that bread might strengthen the body and wine gladden the heart of man; and who gave such grace to blessed John, Your beloved disciple, that he not only escaped unharmed after drinking poison but even, by Your power, raised from death those laid low by poison: grant to all who drink this wine that they may be worthy to obtain spiritual joy and life everlasting. Through our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.

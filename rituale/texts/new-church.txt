@@ -1,0 +1,97 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessing a new church (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a New Church or Public Oratory
+// ──────────────────────────────────────────────────────────────────────
+# new-church | Ritus Benedicendi Novam Ecclesiam seu Oratorium Publicum | Blessing of a New Church or Public Oratory | Churches & Sacred Things | Tit. VIII, cap. 27
+r: 1. Sacerdos novam ecclesiam seu oratorium publicum de licentia Ordinarii benedicturus, ut ibi divinum Missæ sacrificium rite celebretur, amictu, alba, cingulo, stola ac pluviali albi coloris indutus, aliquot Clericis adhibitis, prælata Cruce media inter duos Clericos deferentes cereos accensos, mane procedit ad primariam ecclesiæ, vel oratorii januam: ubi stans capite aperto, conversus ad eam dicat absolute Orationem: || 1. The priest who, with the permission of the Ordinary, is to bless a new church or public oratory so that the divine Sacrifice of the Mass may lawfully be celebrated there, vested in amice, alb, cincture, stole, and white cope, and attended by several clerics, with the cross carried before him between two clerics bearing lighted candles, goes in the morning to the main door of the church or oratory. Standing there bareheaded and facing it, he says the following prayer without "Let us pray":
+t: Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et adjuvándo proséquere: ut cuncta nostra orátio et operátio a te semper incípiat, et per te cœpta finiátur. Per Christum, Dóminum nostrum. ℟. Amen. || Direct our actions, we beseech You, O Lord, by Your inspiration, and further them by Your help, that every prayer and work of ours may always begin with You and, begun through You, be brought to completion. Through Christ our Lord. ℟. Amen.
+r: 2. Deinde inchoat, Clero prosequente, Antiphonam: || 2. Then he intones the antiphon, and the clergy continue:
+t: *Ant.* Aspérges me, Dómine, hyssópo, et mundábor: lavábis me, et super nivem dealbábor. || *Ant.* You will sprinkle me, O Lord, with hyssop, and I shall be cleansed; You will wash me, and I shall be made whiter than snow.
+r: Et Clerus alternatim dicit Psalmum Miserére: in fine Glória Patri. || And the clergy say the psalm "Have mercy" in alternation, with the Glory be at the end.
+@psalm-50
+r: 3. Interim circumdant exterius ecclesiam (quæ intus debet esse vacua et nuda, et pariter Altaria nuda excluso populo, donec absoluta sit benedictio), et Sacerdos accepto aspergillo ex herba hyssopi, ad ejus dexteram se convertens, parietes ecclesiæ in superiori parte, et in fundamentis aqua benedicta aspergit, dicens: Aspérges me, etc. || 3. Meanwhile they go around the outside of the church (which inside should be empty and bare, the altars likewise bare, and the people kept out until the blessing is finished). The priest, taking a sprinkler made of hyssop and turning to his right, sprinkles the walls of the church with holy water, at the top and at the foundations, saying: "You will sprinkle me," etc.
+r: 4. Reversi ad locum, unde Processio initium habuit, repetita Antiphona a Clero, Sacerdos stans ut prius versus ad ecclesiam, dicit: || 4. When they have returned to the place where the procession began, and the clergy have repeated the antiphon, the priest, standing as before and facing the church, says:
+t: Orémus. || Let us pray.
+v: Flectámus génua. || Let us kneel.
+x: Leváte. || Arise.
+t: Dómine Deus, qui licet cælo et terra non capiáris, domum tamen dignáris habére in terris, ubi nomen tuum júgiter invocétur: locum hunc, quǽsumus, beátæ Maríæ semper Vírginis, et beáti N. *(nominando Sanctum vel Sanctam, in cujus honorem ac nomen benedicitur ecclesia)*, omniúmque Sanctórum intercedéntibus méritis, seréno pietátis tuæ intúitu vísita, et per infusiónem grátiæ tuæ ab omni inquinaménto purífica, purificatúmque consérva; et qui dilécti tui David devotiónem in fílii sui Salomónis ópere complevísti, in hoc ópere desidéria nostra perfícere dignéris, effugiántque omnes hinc nequítiæ spirituáles. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God, who, though heaven and earth cannot contain You, yet deign to have a house on earth where Your name may be called upon without ceasing: through the interceding merits of blessed Mary ever Virgin, of blessed N. *(naming the Saint in whose honor and name the church is blessed)*, and of all the Saints, visit this place, we beseech You, with the serene gaze of Your kindness; by the outpouring of Your grace cleanse it from every defilement and keep it clean; and as You brought to completion the devotion of Your beloved David in the work of his son Solomon, so deign to fulfill our desires in this work, and let all spiritual wickedness flee from here. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 5. Qua finita Oratione, omnes bini in ecclesiam intrant, et ad altare majus procedunt, Litanias ordinarias decantantes. || 5. When this prayer is finished, all enter the church two by two and go to the high altar, singing the ordinary Litany of the Saints.
+r: 6. Sacerdos coram altari genuflectit: cumque dictum fuerit: Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris. ℟. Te rogámus, audi nos, surgit Sacerdos, et intellegibili voce dicit: || 6. The priest kneels before the altar; and when "That You deign to grant eternal rest to all the faithful departed. ℟. We beseech You, hear us" has been sung, the priest rises and says in an audible voice:
+t: Ut hanc ecclésiam, et altáre hoc, ad honórem tuum, et nomen Sancti tui N., purgáre, et bene✠dícere dignéris. ℟. Te rogámus, audi nos. || That You deign to cleanse and ✠ bless this church and this altar, to Your honor and in the name of Your Saint N. ℟. We beseech You, hear us.
+r: Cum dicit benedícere, manu dextera benedicit ecclesiam et altare; deinde, ut prius, genuflectit donec perficiantur Litaniæ, et cantores prosequuntur: Ut nos exaudíre dignéris, etc. || As he says "bless," he blesses the church and the altar with his right hand; then he kneels again as before until the Litany is finished, and the cantors continue: "That You deign graciously to hear us," etc.
+n: The full Litany follows for convenience; the priest's petition above is inserted after the petition for the faithful departed.
+@litany-of-the-saints
+r: 7. Dicto ultimo Kýrie, eléison, Sacerdos stans dicit: || 7. When the last "Lord, have mercy" has been sung, the priest, standing, says:
+t: Orémus. || Let us pray.
+v: Flectámus génua. || Let us kneel.
+x: Leváte. || Arise.
+t: Præveniat nos, quǽsumus, Dómine, misericórdia tua: et, intercedéntibus ómnibus Sanctis tuis, voces nostras cleméntia tuæ propitiatiónis antícipet. Per Christum, Dóminum nostrum. ℟. Amen. || May Your mercy, we beseech You, O Lord, go before us, and through the intercession of all Your Saints may the kindness of Your favor anticipate our prayers. Through Christ our Lord. ℟. Amen.
+r: 8. Tum distans ab altari congruenti spatio genuflexus, et se signans, dicit: Deus, in adjutórium meum inténde; et statim surgit, Clero respondente: Dómine, ad adjuvándum me festína; ipse vero stans dicit: Glória Patri, et Fílio, et Spirítui Sancto. Chorus respondet: Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. || 8. Then, kneeling at a suitable distance from the altar and signing himself, he says: "O God, come to my assistance"; and he rises at once, the clergy answering: "O Lord, make haste to help me." Standing, he says: "Glory be to the Father, and to the Son, and to the Holy Spirit." The choir answers: "As it was in the beginning, is now, and ever shall be, world without end. Amen."
+v: Deus, in adjutórium meum inténde. || O God, come to my assistance.
+x: Dómine, ad adjuvándum me festína. || O Lord, make haste to help me.
+t: Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. || Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.
+r: 9. Postea Sacerdos dicit: || 9. Afterward the priest says:
+t: Orémus. || Let us pray.
+v: Flectámus génua. || Let us kneel.
+x: Leváte. || Arise.
+t: Omnípotens et miséricors Deus, qui Sacerdótibus tuis tantam præ céteris grátiam contulísti, ut quidquid in tuo nómine digne, perfectéque ab eis ágitur, a te fíeri credátur: quǽsumus imménsam cleméntiam tuam; ut quidquid modo visitatúri sumus, vísites, et quidquid benedictúri sumus, bene✠dícas: sitque ad nostræ humilitátis intróitum, Sanctórum tuórum méritis, fuga dæmonum, Ángeli pacis ingréssus. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty and merciful God, who have bestowed on Your priests a grace so far beyond others that whatever is done worthily and perfectly by them in Your name is believed to be done by You: we beseech Your boundless mercy that whatever we are now about to visit You may visit, and whatever we are about to bless You may ✠ bless; and that, at the entrance of our lowliness, through the merits of Your Saints, the demons may flee and the Angel of peace may enter. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 10. His dictis, inchoat, Clero prosequente, Antiphonam, et dicuntur tres Psalmi sequentes: || 10. When this has been said, he intones the antiphon, the clergy continuing, and the three following psalms are said:
+t: *Ant.* Bénedic, Dómine, domum istam nómini tuo ædificátam. || *Ant.* Bless, O Lord, this house built to Your name.
+h: Psalmus 119 || Psalm 119
+t: Ad Dóminum cum tribulárer clamávi: * et exaudívit me. || In my trouble I cried to the Lord, * and He heard me.
+t: Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa. || O Lord, deliver my soul from wicked lips * and from a deceitful tongue.
+t: Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam? || What shall be given to you, or what added to you, * against a deceitful tongue?
+t: Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis. || The sharp arrows of the mighty, * with coals that lay waste.
+t: Heu mihi, quia incolátus meus prolongátus est: habitávi cum habitántibus Cedar: * multum íncola fuit ánima mea. || Woe is me, that my sojourning is prolonged! I have dwelt with the inhabitants of Kedar; * my soul has long been a sojourner.
+t: Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis. || With those who hated peace I was peaceable; * when I spoke to them, they fought against me without cause.
+@gloria-patri
+h: Psalmus 120 || Psalm 120
+t: Levávi óculos meos in montes, * unde véniet auxílium mihi. || I have lifted up my eyes to the mountains, * from whence help shall come to me.
+t: Auxílium meum a Dómino, * qui fecit cælum et terram. || My help is from the Lord, * who made heaven and earth.
+t: Non det in commotiónem pedem tuum: * neque dormítet qui custódit te. || May He not suffer your foot to be moved, * nor may He slumber who keeps you.
+t: Ecce, non dormitábit neque dórmiet, * qui custódit Israël. || Behold, He shall neither slumber nor sleep, * who keeps Israel.
+t: Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam. || The Lord keeps you; the Lord is your protection * at your right hand.
+t: Per diem sol non uret te: * neque luna per noctem. || The sun shall not burn you by day, * nor the moon by night.
+t: Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus. || The Lord keeps you from all evil; * may the Lord keep your soul.
+t: Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum. || May the Lord keep your coming in and your going out, * from this time forth and for evermore.
+@gloria-patri
+h: Psalmus 121 || Psalm 121
+t: Lætátus sum in his, quæ dicta sunt mihi: * In domum Dómini íbimus. || I rejoiced at the things that were said to me: * We shall go into the house of the Lord.
+t: Stantes erant pedes nostri, * in átriis tuis, Jerúsalem. || Our feet were standing * in your courts, O Jerusalem.
+t: Jerúsalem, quæ ædificátur ut cívitas: * cujus participátio ejus in idípsum. || Jerusalem, which is built as a city, * whose parts are joined together in unity.
+t: Illuc enim ascendérunt tribus, tribus Dómini: * testimónium Israël ad confiténdum nómini Dómini. || For there the tribes went up, the tribes of the Lord, * the testimony of Israel, to praise the name of the Lord.
+t: Quia illic sedérunt sedes in judício, * sedes super domum David. || For there are set the seats of judgment, * the seats over the house of David.
+t: Rogáte quæ ad pacem sunt Jerúsalem: * et abundántia diligéntibus te. || Pray for the things that are for the peace of Jerusalem, * and abundance for those who love you.
+t: Fiat pax in virtúte tua: * et abundántia in túrribus tuis. || Let peace be in your strength, * and abundance in your towers.
+t: Propter fratres meos, et próximos meos, * loquébar pacem de te. || For the sake of my brethren and my neighbors * I spoke peace of you.
+t: Propter domum Dómini, Dei nostri, * quæsívi bona tibi. || For the sake of the house of the Lord our God * I have sought good things for you.
+@gloria-patri
+t: *Ant.* Bénedic, Dómine, domum istam nómini tuo ædificátam. || *Ant.* Bless, O Lord, this house built to Your name.
+r: 11. Interim aspergit interius parietes in parte superiori et inferiori, inchoans aspersionem a parte Evangelii, dicens: Aspérges me, etc. tum ad altare reversus, dicit: || 11. Meanwhile he sprinkles the inside walls, above and below, beginning on the Gospel side and saying: "You will sprinkle me," etc. Then, having returned to the altar, he says:
+t: Orémus. || Let us pray.
+v: Flectámus génua. || Let us kneel.
+x: Leváte. || Arise.
+t: Deus, qui loca nómini tuo dicánda sanctíficas, effúnde super hanc oratiónis domum grátiam tuam: ut ab ómnibus hic nomen tuum invocántibus auxílium tuæ misericórdiæ sentiátur. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who sanctify places to be dedicated to Your name, pour out Your grace upon this house of prayer, that all who call upon Your name here may feel the help of Your mercy. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 12. His peractis, dicitur Missa de Mysterio vel Sancto, in cujus honorem ecclesia est benedicta; sed, si occurrat Officium Missas votivas sollemnes pro re gravi excludens, dicitur Missa de die occurrenti, cum Commemoratione Titularis, juxta Missalis rubricas. || 12. When this is done, Mass is said of the mystery or Saint in whose honor the church has been blessed; but if the Office of the day excludes solemn votive Masses for a grave cause, the Mass of the day is said with a commemoration of the titular, according to the rubrics of the Missal.
+r: 13. Ecclesiæ vero cathedrales, et, quantum fieri potest, ecclesiæ collegiatæ, conventuales et parœciales, quamvis a simplici Sacerdote, ut supra, sint benedictæ, sollemniter tamen consecrandæ sunt. || 13. Cathedral churches, however, and as far as possible collegiate, conventual, and parish churches, even though they have been blessed by a simple priest as above, are nevertheless to be solemnly consecrated.
+r: 14. Oratoria privata seu domestica nec consecrari nec benedici possunt more ecclesiarum. || 14. Private or domestic oratories may be neither consecrated nor blessed in the manner of churches.

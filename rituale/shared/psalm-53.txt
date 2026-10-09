@@ -1,0 +1,12 @@
+// SHARED TEXT: psalm-53
+// Inserted wherever a rite has the line  @psalm-53
+// Editing it here changes it everywhere it is used.
+h: Psalmus 53 || Psalm 53
+t: Deus, in nómine tuo salvum me fac: * et in virtúte tua júdica me. || Save me, O God, by Your name, * and judge me in Your strength.
+t: Deus, exáudi oratiónem meam: * áuribus pércipe verba oris mei. || O God, hear my prayer; * give ear to the words of my mouth.
+t: Quóniam aliéni insurrexérunt advérsum me, et fortes quæsiérunt ánimam meam: * et non proposuérunt Deum ante conspéctum suum. || For strangers have risen up against me, and the mighty have sought my life; * they have not set God before their eyes.
+t: Ecce enim, Deus ádjuvat me: * et Dóminus suscéptor est ánimæ meæ. || For behold, God is my helper, * and the Lord is the upholder of my soul.
+t: Avérte mala inimícis meis: * et in veritáte tua dispérde illos. || Turn back the evil upon my enemies, * and in Your truth destroy them.
+t: Voluntárie sacrificábo tibi, * et confitébor nómini tuo, Dómine: quóniam bonum est: || Freely will I offer sacrifice to You, * and I will praise Your name, O Lord, for it is good;
+t: Quóniam ex omni tribulatióne eripuísti me: * et super inimícos meos despéxit óculus meus. || For You have delivered me out of every trouble, * and my eye has looked down upon my enemies.
+@gloria-patri

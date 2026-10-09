@@ -1,0 +1,55 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM · LIST OF TEXT FILES
+// The page loads these files from the rituale/texts folder, in this order.
+// Within each category of the contents menu, rites appear in this order.
+// To add a new file: create it in rituale/texts and add its name here.
+// To hide a file temporarily: put // in front of its name.
+// ══════════════════════════════════════════════════════════════════════
+
+litany-of-the-saints.txt                                  // The Litany of the Saints (Tit. X)
+baptism-of-children.txt                                   // The Rite of Baptism for Children (Tit. II)
+font-blessing-short-form.txt                              // Blessing of Baptismal Water, short form for missionaries (Appendix)
+font-blessing-full-form.txt                               // Blessing of the Font, full form (Tit. II, cap. 8)
+marriage-and-churching.txt                                // Marriage, the Nuptial Blessing, and Churching (Tit. VII and Appendix)
+marriage-general-rules.txt                                // General rules on Marriage (Tit. VII, cap. 1)
+blessings-general-rules-and-holy-water.txt                // General rules for blessings; Holy Water (Tit. VIII)
+blessings-candles-and-homes.txt                           // Candles, homes, places, bridal chamber (Tit. VIII)
+asperges-and-st-john-wine.txt                             // The Asperges; St. John's wine (Appendix)
+epiphany-and-st-blaise.txt                                // Epiphany blessings; St. Blaise (Appendix)
+field-crosses-herbs-seeds.txt                             // Field crosses, St. John's bonfire, Assumption herbs, seeds (Appendix)
+rosary-and-brown-scapular.txt                             // Rosaries and the Brown Scapular (Appendix)
+medals.txt                                                // Miraculous Medal and St. Benedict Medal (Appendix)
+cross-and-images.txt                                      // Crosses and sacred images (Tit. VIII)
+blessings-of-the-sick.txt                                 // Blessings of the sick (Appendix)
+mothers-and-children.txt                                  // Expectant mothers, infants, children (Appendix)
+ships-pilgrims-food.txt                                   // Ships, crops, pilgrims, Easter foods, bread, oil (Tit. VIII)
+vestments-and-altar-linens.txt                            // Vestments, altar linens, tabernacle (Tit. VIII)
+cornerstone.txt                                           // Laying a cornerstone (Tit. VIII)
+new-church.txt                                            // Blessing a new church (Tit. VIII)
+reconciling-churches-and-cemeteries.txt                   // Reconciling churches; cemeteries (Tit. VIII)
+peoples-fields-papal-blessing-absolution.txt              // Blessing peoples and fields; Papal Blessing; General Absolution (Tit. VIII)
+appendix-blessings-13-20.txt                              // Appendix blessings 13-20: organ, banner, bell, oratory, press, library, archive, school
+appendix-blessings-21-40.txt                              // Appendix blessings 21-40
+appendix-blessings-49-69.txt                              // Appendix blessings 49-69
+reserved-blessings-1.txt                                  // Reserved blessings, part 1 (Appendix)
+reserved-blessings-2.txt                                  // Reserved blessings, part 2 (Appendix)
+reserved-blessings-3.txt                                  // Reserved blessings, part 3 (Appendix)
+religious-orders-blessings-1.txt                          // Blessings proper to religious orders, part 1 (Appendix)
+religious-orders-blessings-2.txt                          // Blessings proper to religious orders, part 2 (Appendix)
+religious-orders-blessings-3.txt                          // Blessings proper to religious orders, part 3 (Appendix)
+religious-orders-blessings-4.txt                          // Blessings proper to religious orders, part 4 (Appendix)
+approved-blessings-converts-mixed-marriages.txt           // Approved blessings; receiving converts; marriage forms (Appendix)
+baptism-of-adults.txt                                     // Baptism of adults (Tit. II)
+baptism-supplying-ceremonies.txt                          // Supplying omitted ceremonies; Baptism by a bishop (Tit. II)
+penance-and-communion.txt                                 // Penance and Holy Communion (Tit. III-IV)
+extreme-unction-and-the-sick.txt                          // Extreme Unction; visiting the sick; helping the dying (Tit. V)
+commendation-of-the-soul.txt                              // Commendation of the Soul; at the moment of death (Tit. V)
+funerals.txt                                              // Funerals (Tit. VI)
+office-of-the-dead.txt                                    // The Office of the Dead (Tit. VI)
+processions-1.txt                                         // Processions, part 1 (Tit. IX)
+processions-2.txt                                         // Processions, part 2 (Tit. IX)
+litanies.txt                                              // Litanies of the Holy Name, Sacred Heart, Loreto, St. Joseph (Tit. X)
+exorcism.txt                                              // The Rite of Exorcism (Tit. XI)
+general-rubrics.txt                                       // General rubrics for the sacraments; rules on Baptism (Tit. I-II)
+confirmation-and-forty-hours.txt                          // Confirmation by a priest; Mass instructions; Forty Hours (Appendix)
+altars-and-parish-registers.txt                           // Re-consecrating altars; parish registers (Appendix; Tit. XII)

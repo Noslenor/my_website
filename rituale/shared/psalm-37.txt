@@ -1,0 +1,28 @@
+// SHARED TEXT: psalm-37
+// Inserted wherever a rite has the line  @psalm-37
+// Editing it here changes it everywhere it is used.
+h: Psalmus 37 || Psalm 37
+t: Dómine, ne in furóre tuo árguas me, * neque in ira tua corrípias me. || O Lord, rebuke me not in Your fury, * nor chastise me in Your wrath.
+t: Quóniam sagíttæ tuæ infíxæ sunt mihi: * et confirmásti super me manum tuam. || For Your arrows have pierced me, * and You have laid Your hand heavily upon me.
+t: Non est sánitas in carne mea a fácie iræ tuæ: * non est pax óssibus meis a fácie peccatórum meórum. || There is no health in my flesh because of Your wrath; * there is no peace in my bones because of my sins.
+t: Quóniam iniquitátes meæ supergréssæ sunt caput meum: * et sicut onus grave gravátæ sunt super me. || For my iniquities have gone over my head, * and like a heavy burden they weigh me down.
+t: Putruérunt et corrúptæ sunt cicatríces meæ, * a fácie insipiéntiæ meæ. || My sores are putrid and corrupt * because of my foolishness.
+t: Miser factus sum, et curvátus sum usque in finem: * tota die contristátus ingrediébar. || I am made wretched and bowed down to the end; * I went about sorrowful all the day.
+t: Quóniam lumbi mei impléti sunt illusiónibus: * et non est sánitas in carne mea. || For my loins are filled with mockery, * and there is no health in my flesh.
+t: Afflíctus sum, et humiliátus sum nimis: * rugiébam a gémitu cordis mei. || I am afflicted and humbled exceedingly; * I roared with the groaning of my heart.
+t: Dómine, ante te omne desidérium meum: * et gémitus meus a te non est abscónditus. || O Lord, all my desire is before You, * and my groaning is not hidden from You.
+t: Cor meum conturbátum est, derelíquit me virtus mea: * et lumen oculórum meórum, et ipsum non est mecum. || My heart is troubled, my strength has left me, * and the light of my eyes itself is not with me.
+t: Amíci mei, et próximi mei * advérsum me appropinquavérunt, et stetérunt. || My friends and my neighbors * have drawn near and stood against me.
+t: Et qui juxta me erant, de longe stetérunt: * et vim faciébant qui quærébant ánimam meam. || And those who were near me stood afar off; * and those who sought my life used violence.
+t: Et qui inquirébant mala mihi, locúti sunt vanitátes: * et dolos tota die meditabántur. || And those who sought evil for me spoke vain things, * and plotted deceits all the day.
+t: Ego autem tamquam surdus non audiébam: * et sicut mutus non apériens os suum. || But I, like a deaf man, heard not, * and was as a dumb man who opens not his mouth.
+t: Et factus sum sicut homo non áudiens: * et non habens in ore suo redargutiónes. || And I became as a man who does not hear, * and who has no reproofs in his mouth.
+t: Quóniam in te, Dómine, sperávi: * tu exáudies me, Dómine, Deus meus. || For in You, O Lord, have I hoped; * You will hear me, O Lord my God.
+t: Quia dixi: Nequándo supergáudeant mihi inimíci mei: * et dum commovéntur pedes mei, super me magna locúti sunt. || For I said: Let not my enemies rejoice over me; * for when my feet slipped, they spoke great things against me.
+t: Quóniam ego in flagélla parátus sum: * et dolor meus in conspéctu meo semper. || For I am ready for scourges, * and my sorrow is continually before me.
+t: Quóniam iniquitátem meam annuntiábo: * et cogitábo pro peccáto meo. || For I will declare my iniquity, * and I will think about my sin.
+t: Inimíci autem mei vivunt, et confirmáti sunt super me: * et multiplicáti sunt qui odérunt me iníque. || But my enemies live and are stronger than I, * and those who hate me wrongfully are multiplied.
+t: Qui retríbuunt mala pro bonis, detrahébant mihi: * quóniam sequébar bonitátem. || Those who render evil for good have slandered me, * because I followed goodness.
+t: Ne derelínquas me, Dómine, Deus meus: * ne discésseris a me. || Forsake me not, O Lord my God; * do not depart from me.
+t: Inténde in adjutórium meum, * Dómine, Deus salútis meæ. || Make haste to help me, * O Lord, the God of my salvation.
+@gloria-patri

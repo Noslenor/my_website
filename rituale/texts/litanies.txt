@@ -1,0 +1,297 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Litanies of the Holy Name, Sacred Heart, Loreto, St. Joseph (Tit. X)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Litany of the Most Holy Name of Jesus
+// ──────────────────────────────────────────────────────────────────────
+# litany-holy-name | Litaniæ Sanctissimi Nominis Jesu | Litany of the Most Holy Name of Jesus | Litanies & Prayers | Tit. X, cap. 1
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, eléison. || Christ, have mercy.
+t: Kýrie, eléison. || Lord, have mercy.
+t: Jesu, audi nos. || Jesus, hear us.
+t: Jesu, exáudi nos. || Jesus, graciously hear us.
+t: Pater de cælis, Deus, _miserére nobis._ || God the Father of heaven, _have mercy on us._
+t: Fili, Redémptor mundi, Deus, _miserére nobis._ || God the Son, Redeemer of the world, _have mercy on us._
+t: Spíritus Sancte, Deus, _miserére nobis._ || God the Holy Spirit, _have mercy on us._
+t: Sancta Trínitas, unus Deus, _miserére nobis._ || Holy Trinity, one God, _have mercy on us._
+t: Jesu, Fili Dei vivi, _miserére nobis._ || Jesus, Son of the living God, _have mercy on us._
+t: Jesu, splendor Patris, _miserére nobis._ || Jesus, splendor of the Father, _have mercy on us._
+t: Jesu, candor lucis ætérnæ, _miserére nobis._ || Jesus, brightness of eternal light, _have mercy on us._
+t: Jesu, rex glóriæ, _miserére nobis._ || Jesus, King of glory, _have mercy on us._
+t: Jesu, sol justítiæ, _miserére nobis._ || Jesus, Sun of justice, _have mercy on us._
+t: Jesu, Fili Maríæ Vírginis, _miserére nobis._ || Jesus, Son of the Virgin Mary, _have mercy on us._
+t: Jesu amábilis, _miserére nobis._ || Jesus, most lovable, _have mercy on us._
+t: Jesu admirábilis, _miserére nobis._ || Jesus, most wonderful, _have mercy on us._
+t: Jesu, Deus fortis, _miserére nobis._ || Jesus, mighty God, _have mercy on us._
+t: Jesu, pater futúri sǽculi, _miserére nobis._ || Jesus, Father of the world to come, _have mercy on us._
+t: Jesu, magni consílii ángele, _miserére nobis._ || Jesus, Angel of great counsel, _have mercy on us._
+t: Jesu potentíssime, _miserére nobis._ || Jesus, most mighty, _have mercy on us._
+t: Jesu patientíssime, _miserére nobis._ || Jesus, most patient, _have mercy on us._
+t: Jesu obœdientíssime, _miserére nobis._ || Jesus, most obedient, _have mercy on us._
+t: Jesu, mitis et húmilis corde, _miserére nobis._ || Jesus, meek and humble of heart, _have mercy on us._
+t: Jesu, amátor castitátis, _miserére nobis._ || Jesus, lover of chastity, _have mercy on us._
+t: Jesu, amátor noster, _miserére nobis._ || Jesus, lover of us, _have mercy on us._
+t: Jesu, Deus pacis, _miserére nobis._ || Jesus, God of peace, _have mercy on us._
+t: Jesu, auctor vitæ, _miserére nobis._ || Jesus, author of life, _have mercy on us._
+t: Jesu, exémplar virtútum, _miserére nobis._ || Jesus, model of virtues, _have mercy on us._
+t: Jesu, zelátor animárum, _miserére nobis._ || Jesus, zealous lover of souls, _have mercy on us._
+t: Jesu, Deus noster, _miserére nobis._ || Jesus, our God, _have mercy on us._
+t: Jesu, refúgium nostrum, _miserére nobis._ || Jesus, our refuge, _have mercy on us._
+t: Jesu, pater páuperum, _miserére nobis._ || Jesus, Father of the poor, _have mercy on us._
+t: Jesu, thesáure fidélium, _miserére nobis._ || Jesus, treasure of the faithful, _have mercy on us._
+t: Jesu, bone pastor, _miserére nobis._ || Jesus, good Shepherd, _have mercy on us._
+t: Jesu, lux vera, _miserére nobis._ || Jesus, true Light, _have mercy on us._
+t: Jesu, sapiéntia ætérna, _miserére nobis._ || Jesus, eternal Wisdom, _have mercy on us._
+t: Jesu, bónitas infiníta, _miserére nobis._ || Jesus, infinite Goodness, _have mercy on us._
+t: Jesu, via et vita nostra, _miserére nobis._ || Jesus, our Way and our Life, _have mercy on us._
+t: Jesu, gáudium Angelórum, _miserére nobis._ || Jesus, joy of the Angels, _have mercy on us._
+t: Jesu, rex Patriarchárum, _miserére nobis._ || Jesus, King of the Patriarchs, _have mercy on us._
+t: Jesu, magíster Apostolórum, _miserére nobis._ || Jesus, Master of the Apostles, _have mercy on us._
+t: Jesu, doctor Evangelistárum, _miserére nobis._ || Jesus, Teacher of the Evangelists, _have mercy on us._
+t: Jesu, fortitúdo Mártyrum, _miserére nobis._ || Jesus, strength of Martyrs, _have mercy on us._
+t: Jesu, lumen Confessórum, _miserére nobis._ || Jesus, light of Confessors, _have mercy on us._
+t: Jesu, púritas Vírginum, _miserére nobis._ || Jesus, purity of Virgins, _have mercy on us._
+t: Jesu, coróna Sanctórum ómnium, _miserére nobis._ || Jesus, crown of all Saints, _have mercy on us._
+t: Propítius esto, _parce nobis, Jesu._ || Be merciful, _spare us, O Jesus._
+t: Propítius esto, _exáudi nos, Jesu._ || Be merciful, _graciously hear us, O Jesus._
+t: Ab omni malo, _líbera nos, Jesu._ || From all evil, _deliver us, O Jesus._
+t: Ab omni peccáto, _líbera nos, Jesu._ || From all sin, _deliver us, O Jesus._
+t: Ab ira tua, _líbera nos, Jesu._ || From Your wrath, _deliver us, O Jesus._
+t: Ab insídiis diáboli, _líbera nos, Jesu._ || From the snares of the devil, _deliver us, O Jesus._
+t: A spíritu fornicatiónis, _líbera nos, Jesu._ || From the spirit of fornication, _deliver us, O Jesus._
+t: A morte perpétua, _líbera nos, Jesu._ || From everlasting death, _deliver us, O Jesus._
+t: A negléctu inspiratiónum tuárum, _líbera nos, Jesu._ || From neglect of Your inspirations, _deliver us, O Jesus._
+t: Per mystérium sanctæ incarnatiónis tuæ, _líbera nos, Jesu._ || By the mystery of Your holy Incarnation, _deliver us, O Jesus._
+t: Per nativitátem tuam, _líbera nos, Jesu._ || By Your Nativity, _deliver us, O Jesus._
+t: Per infántiam tuam, _líbera nos, Jesu._ || By Your infancy, _deliver us, O Jesus._
+t: Per diviníssimam vitam tuam, _líbera nos, Jesu._ || By Your most divine life, _deliver us, O Jesus._
+t: Per labóres tuos, _líbera nos, Jesu._ || By Your labors, _deliver us, O Jesus._
+t: Per agóniam et passiónem tuam, _líbera nos, Jesu._ || By Your agony and Passion, _deliver us, O Jesus._
+t: Per crucem et derelictiónem tuam, _líbera nos, Jesu._ || By Your Cross and dereliction, _deliver us, O Jesus._
+t: Per languóres tuos, _líbera nos, Jesu._ || By Your sufferings, _deliver us, O Jesus._
+t: Per mortem et sepultúram tuam, _líbera nos, Jesu._ || By Your death and burial, _deliver us, O Jesus._
+t: Per resurrectiónem tuam, _líbera nos, Jesu._ || By Your Resurrection, _deliver us, O Jesus._
+t: Per ascensiónem tuam, _líbera nos, Jesu._ || By Your Ascension, _deliver us, O Jesus._
+t: Per sanctíssimæ Eucharístiæ institutiónem tuam, _líbera nos, Jesu._ || By Your institution of the most holy Eucharist, _deliver us, O Jesus._
+t: Per gáudia tua, _líbera nos, Jesu._ || By Your joys, _deliver us, O Jesus._
+t: Per glóriam tuam, _líbera nos, Jesu._ || By Your glory, _deliver us, O Jesus._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Jesu._ || Lamb of God, who take away the sins of the world, _spare us, O Jesus._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Jesu._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Jesus._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis, Jesu._ || Lamb of God, who take away the sins of the world, _have mercy on us, O Jesus._
+t: Jesu, audi nos. || Jesus, hear us.
+t: Jesu, exáudi nos. || Jesus, graciously hear us.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Dómine Jesu Christe, qui dixísti: Pétite, et accipiétis; quǽrite, et inveniétis; pulsáte, et aperiétur vobis: quǽsumus, da nobis peténtibus diviníssimi tui amóris afféctum, ut te toto corde, ore et ópere diligámus, et a tua numquam laude cessémus. || Lord Jesus Christ, who said: Ask, and you shall receive; seek, and you shall find; knock, and it shall be opened to you: grant, we beseech You, to us who ask, the affection of Your most divine love, that we may love You with all our heart, in word and in deed, and never cease from praising You.
+t: Sancti Nóminis tui, Dómine, timórem páriter et amórem fac nos habére perpétuum: quia numquam tua gubernatióne destítuis, quos in soliditáte tuæ dilectiónis instítuis: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Make us, O Lord, to have at once a perpetual fear and love of Your holy Name: for You never fail to govern those whom You establish in the steadfastness of Your love: who live and reign for ever and ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Litany of the Sacred Heart of Jesus
+// ──────────────────────────────────────────────────────────────────────
+# litany-sacred-heart | Litaniæ de Sacro Corde Jesu | Litany of the Sacred Heart of Jesus | Litanies & Prayers | Tit. X, cap. 2
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, eléison. || Christ, have mercy.
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Pater de cælis, Deus, _miserére nobis._ || God the Father of heaven, _have mercy on us._
+t: Fili, Redémptor mundi, Deus, _miserére nobis._ || God the Son, Redeemer of the world, _have mercy on us._
+t: Spíritus Sancte, Deus, _miserére nobis._ || God the Holy Spirit, _have mercy on us._
+t: Sancta Trínitas, unus Deus, _miserére nobis._ || Holy Trinity, one God, _have mercy on us._
+t: Cor Jesu, Fílii Patris ætérni, _miserére nobis._ || Heart of Jesus, Son of the eternal Father, _have mercy on us._
+t: Cor Jesu, in sinu Vírginis Matris a Spíritu Sancto formátum, _miserére nobis._ || Heart of Jesus, formed by the Holy Spirit in the womb of the Virgin Mother, _have mercy on us._
+t: Cor Jesu, Verbo Dei substantiáliter unítum, _miserére nobis._ || Heart of Jesus, substantially united to the Word of God, _have mercy on us._
+t: Cor Jesu, majestátis infinítæ, _miserére nobis._ || Heart of Jesus, of infinite majesty, _have mercy on us._
+t: Cor Jesu, templum Dei sanctum, _miserére nobis._ || Heart of Jesus, holy temple of God, _have mercy on us._
+t: Cor Jesu, tabernáculum Altíssimi, _miserére nobis._ || Heart of Jesus, tabernacle of the Most High, _have mercy on us._
+t: Cor Jesu, domus Dei et porta cæli, _miserére nobis._ || Heart of Jesus, house of God and gate of heaven, _have mercy on us._
+t: Cor Jesu, fornax ardens caritátis, _miserére nobis._ || Heart of Jesus, burning furnace of charity, _have mercy on us._
+t: Cor Jesu, justítiæ et amóris receptáculum, _miserére nobis._ || Heart of Jesus, abode of justice and love, _have mercy on us._
+t: Cor Jesu, bonitáte et amóre plenum, _miserére nobis._ || Heart of Jesus, full of goodness and love, _have mercy on us._
+t: Cor Jesu, virtútum ómnium abyssus, _miserére nobis._ || Heart of Jesus, abyss of all virtues, _have mercy on us._
+t: Cor Jesu, omni laude digníssimum, _miserére nobis._ || Heart of Jesus, most worthy of all praise, _have mercy on us._
+t: Cor Jesu, rex et centrum ómnium córdium, _miserére nobis._ || Heart of Jesus, king and center of all hearts, _have mercy on us._
+t: Cor Jesu, in quo sunt omnes thesáuri sapiéntiæ et sciéntiæ, _miserére nobis._ || Heart of Jesus, in whom are all the treasures of wisdom and knowledge, _have mercy on us._
+t: Cor Jesu, in quo hábitat omnis plenitúdo divinitátis, _miserére nobis._ || Heart of Jesus, in whom dwells all the fullness of the Godhead, _have mercy on us._
+t: Cor Jesu, in quo Pater sibi bene complácuit, _miserére nobis._ || Heart of Jesus, in whom the Father is well pleased, _have mercy on us._
+t: Cor Jesu, de cujus plenitúdine omnes nos accépimus, _miserére nobis._ || Heart of Jesus, of whose fullness we have all received, _have mercy on us._
+t: Cor Jesu, desidérium cóllium æternórum, _miserére nobis._ || Heart of Jesus, desire of the everlasting hills, _have mercy on us._
+t: Cor Jesu, pátiens et multæ misericórdiæ, _miserére nobis._ || Heart of Jesus, patient and abounding in mercy, _have mercy on us._
+t: Cor Jesu, dives in omnes qui ínvocant te, _miserére nobis._ || Heart of Jesus, rich toward all who call upon You, _have mercy on us._
+t: Cor Jesu, fons vitæ et sanctitátis, _miserére nobis._ || Heart of Jesus, fountain of life and holiness, _have mercy on us._
+t: Cor Jesu, propitiátio pro peccátis nostris, _miserére nobis._ || Heart of Jesus, propitiation for our sins, _have mercy on us._
+t: Cor Jesu, saturátum oppróbriis, _miserére nobis._ || Heart of Jesus, filled with reproaches, _have mercy on us._
+t: Cor Jesu, attrítum propter scélera nostra, _miserére nobis._ || Heart of Jesus, bruised for our offenses, _have mercy on us._
+t: Cor Jesu, usque ad mortem obœdiens factum, _miserére nobis._ || Heart of Jesus, made obedient unto death, _have mercy on us._
+t: Cor Jesu, láncea perforátum, _miserére nobis._ || Heart of Jesus, pierced with a lance, _have mercy on us._
+t: Cor Jesu, fons totíus consolatiónis, _miserére nobis._ || Heart of Jesus, source of all consolation, _have mercy on us._
+t: Cor Jesu, vita et resurréctio nostra, _miserére nobis._ || Heart of Jesus, our life and resurrection, _have mercy on us._
+t: Cor Jesu, pax et reconciliátio nostra, _miserére nobis._ || Heart of Jesus, our peace and reconciliation, _have mercy on us._
+t: Cor Jesu, víctima peccatórum, _miserére nobis._ || Heart of Jesus, victim for sinners, _have mercy on us._
+t: Cor Jesu, salus in te sperántium, _miserére nobis._ || Heart of Jesus, salvation of those who hope in You, _have mercy on us._
+t: Cor Jesu, spes in te moriéntium, _miserére nobis._ || Heart of Jesus, hope of those who die in You, _have mercy on us._
+t: Cor Jesu, delíciæ Sanctórum ómnium, _miserére nobis._ || Heart of Jesus, delight of all the Saints, _have mercy on us._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Dómine._ || Lamb of God, who take away the sins of the world, _spare us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Dómine._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis._ || Lamb of God, who take away the sins of the world, _have mercy on us._
+v: Jesu, mitis et húmilis Corde. || Jesus, meek and humble of Heart.
+x: Fac cor nostrum secúndum Cor tuum. || Make our hearts like unto Your Heart.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Omnípotens sempitérne Deus, réspice in Cor dilectíssimi Fílii tui, et in laudes et satisfactiónes, quas in nómine peccatórum tibi persólvit, iísque misericórdiam tuam peténtibus tu véniam concéde placátus, in nómine ejúsdem Fílii tui Jesu Christi: Qui tecum vivit et regnat in sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, look upon the Heart of Your dearly beloved Son, and upon the praise and satisfaction which He offered You in the name of sinners; and, being appeased, grant pardon to those who seek Your mercy, in the name of the same Your Son Jesus Christ: who lives and reigns with You for ever and ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Litany of Loreto of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# litany-loreto | Litaniæ Lauretanæ Beatæ Mariæ Virginis | Litany of Loreto of the Blessed Virgin Mary | Litanies & Prayers | Tit. X, cap. 3
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, eléison. || Christ, have mercy.
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Pater de cælis, Deus, _miserére nobis._ || God the Father of heaven, _have mercy on us._
+t: Fili, Redémptor mundi, Deus, _miserére nobis._ || God the Son, Redeemer of the world, _have mercy on us._
+t: Spíritus Sancte, Deus, _miserére nobis._ || God the Holy Spirit, _have mercy on us._
+t: Sancta Trínitas, unus Deus, _miserére nobis._ || Holy Trinity, one God, _have mercy on us._
+t: Sancta María, _ora pro nobis._ || Holy Mary, _pray for us._
+t: Sancta Dei Génetrix, _ora pro nobis._ || Holy Mother of God, _pray for us._
+t: Sancta Virgo vírginum, _ora pro nobis._ || Holy Virgin of virgins, _pray for us._
+t: Mater Christi, _ora pro nobis._ || Mother of Christ, _pray for us._
+t: Mater divínæ grátiæ, _ora pro nobis._ || Mother of divine grace, _pray for us._
+t: Mater puríssima, _ora pro nobis._ || Mother most pure, _pray for us._
+t: Mater castíssima, _ora pro nobis._ || Mother most chaste, _pray for us._
+t: Mater invioláta, _ora pro nobis._ || Mother inviolate, _pray for us._
+t: Mater intemeráta, _ora pro nobis._ || Mother undefiled, _pray for us._
+t: Mater amábilis, _ora pro nobis._ || Mother most lovable, _pray for us._
+t: Mater admirábilis, _ora pro nobis._ || Mother most admirable, _pray for us._
+t: Mater boni Consílii, _ora pro nobis._ || Mother of good Counsel, _pray for us._
+t: Mater Creatóris, _ora pro nobis._ || Mother of our Creator, _pray for us._
+t: Mater Salvatóris, _ora pro nobis._ || Mother of our Savior, _pray for us._
+t: Virgo prudentíssima, _ora pro nobis._ || Virgin most prudent, _pray for us._
+t: Virgo veneránda, _ora pro nobis._ || Virgin most venerable, _pray for us._
+t: Virgo prædicánda, _ora pro nobis._ || Virgin most renowned, _pray for us._
+t: Virgo potens, _ora pro nobis._ || Virgin most powerful, _pray for us._
+t: Virgo clemens, _ora pro nobis._ || Virgin most merciful, _pray for us._
+t: Virgo fidélis, _ora pro nobis._ || Virgin most faithful, _pray for us._
+t: Spéculum justítiæ, _ora pro nobis._ || Mirror of justice, _pray for us._
+t: Sedes sapiéntiæ, _ora pro nobis._ || Seat of wisdom, _pray for us._
+t: Causa nostræ lætítiæ, _ora pro nobis._ || Cause of our joy, _pray for us._
+t: Vas spirituále, _ora pro nobis._ || Spiritual vessel, _pray for us._
+t: Vas honorábile, _ora pro nobis._ || Vessel of honor, _pray for us._
+t: Vas insígne devotiónis, _ora pro nobis._ || Singular vessel of devotion, _pray for us._
+t: Rosa mýstica, _ora pro nobis._ || Mystical rose, _pray for us._
+t: Turris Davídica, _ora pro nobis._ || Tower of David, _pray for us._
+t: Turris ebúrnea, _ora pro nobis._ || Tower of ivory, _pray for us._
+t: Domus áurea, _ora pro nobis._ || House of gold, _pray for us._
+t: Fœderis arca, _ora pro nobis._ || Ark of the covenant, _pray for us._
+t: Jánua cæli, _ora pro nobis._ || Gate of heaven, _pray for us._
+t: Stella matutína, _ora pro nobis._ || Morning star, _pray for us._
+t: Salus infirmórum, _ora pro nobis._ || Health of the sick, _pray for us._
+t: Refúgium peccatórum, _ora pro nobis._ || Refuge of sinners, _pray for us._
+t: Consolátrix afflictórum, _ora pro nobis._ || Comforter of the afflicted, _pray for us._
+t: Auxílium Christianórum, _ora pro nobis._ || Help of Christians, _pray for us._
+t: Regína Angelórum, _ora pro nobis._ || Queen of Angels, _pray for us._
+t: Regína Patriarchárum, _ora pro nobis._ || Queen of Patriarchs, _pray for us._
+t: Regína Prophetárum, _ora pro nobis._ || Queen of Prophets, _pray for us._
+t: Regína Apostolórum, _ora pro nobis._ || Queen of Apostles, _pray for us._
+t: Regína Mártyrum, _ora pro nobis._ || Queen of Martyrs, _pray for us._
+t: Regína Confessórum, _ora pro nobis._ || Queen of Confessors, _pray for us._
+t: Regína Vírginum, _ora pro nobis._ || Queen of Virgins, _pray for us._
+t: Regína Sanctórum ómnium, _ora pro nobis._ || Queen of all Saints, _pray for us._
+t: Regína sine labe origináli concépta, _ora pro nobis._ || Queen conceived without original sin, _pray for us._
+t: Regína sacratíssimi Rosárii, _ora pro nobis._ || Queen of the most holy Rosary, _pray for us._
+t: Regína pacis, _ora pro nobis._ || Queen of peace, _pray for us._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Dómine._ || Lamb of God, who take away the sins of the world, _spare us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Dómine._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis._ || Lamb of God, who take away the sins of the world, _have mercy on us._
+r: Pro témporis diversitáte hæc addi possunt: || According to the season, the following may be added:
+h: Ab Advéntu usque ad Nativitátem Dómini || From Advent until the Nativity of the Lord
+v: Ángelus Dómini nuntiávit Maríæ. || The Angel of the Lord declared unto Mary.
+x: Et concépit de Spíritu Sancto. || And she conceived of the Holy Spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Ángelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || O God, who willed that Your Word should take flesh in the womb of the blessed Virgin Mary at the message of an Angel: grant to Your suppliants that we, who believe her to be truly the Mother of God, may be helped by her intercession with You. Through the same Christ our Lord. ℟. Amen.
+h: A Nativitáte Dómini usque ad Purificatiónem B. M. V. || From the Nativity of the Lord until the Purification of the Blessed Virgin Mary
+v: Post partum, Virgo, invioláta permansísti. || After childbirth, O Virgin, you remained inviolate.
+x: Dei Génetrix, intercéde pro nobis. || Mother of God, intercede for us.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno géneri prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum. ℟. Amen. || O God, who by the fruitful virginity of blessed Mary bestowed upon the human race the rewards of eternal salvation: grant, we beseech You, that we may feel the intercession of her through whom we were found worthy to receive the Author of life, our Lord Jesus Christ, Your Son. ℟. Amen.
+h: A Purificatióne usque ad Pascha et post tempus Paschále usque ad Advéntum Dómini || From the Purification until Easter, and after Paschaltide until the Advent of the Lord
+v: Ora pro nobis, sancta Dei Génetrix. || Pray for us, O holy Mother of God.
+x: Ut digni efficiámur promissiónibus Christi. || That we may be made worthy of the promises of Christ.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et, gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia et ætérna pérfrui lætítia. Per Christum, Dóminum nostrum. ℟. Amen. || Grant, we beseech You, O Lord God, that we Your servants may enjoy lasting health of mind and body, and by the glorious intercession of blessed Mary ever Virgin, be delivered from present sorrow and enjoy everlasting gladness. Through Christ our Lord. ℟. Amen.
+h: Témpore Pascháli || In Paschaltide
+v: Gaude et lætáre, Virgo María, allelúja. || Rejoice and be glad, O Virgin Mary, alleluia.
+x: Quia surréxit Dóminus vere, allelúja. || For the Lord is truly risen, alleluia.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui per resurrectiónem Fílii tui, Dómini nostri Jesu Christi, mundum lætificáre dignátus es: præsta, quǽsumus; ut, per ejus Genetrícem Vírginem Maríam, perpétuæ capiámus gáudia vitæ. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || O God, who were pleased to gladden the world through the Resurrection of Your Son, our Lord Jesus Christ: grant, we beseech You, that through His Mother, the Virgin Mary, we may attain the joys of everlasting life. Through the same Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Litany of Saint Joseph
+// ──────────────────────────────────────────────────────────────────────
+# litany-st-joseph | Litaniæ de S. Joseph | Litany of Saint Joseph | Litanies & Prayers | Tit. X, cap. 4
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, eléison. || Christ, have mercy.
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Pater de cælis, Deus, _miserére nobis._ || God the Father of heaven, _have mercy on us._
+t: Fili, Redémptor mundi, Deus, _miserére nobis._ || God the Son, Redeemer of the world, _have mercy on us._
+t: Spíritus Sancte, Deus, _miserére nobis._ || God the Holy Spirit, _have mercy on us._
+t: Sancta Trínitas, unus Deus, _miserére nobis._ || Holy Trinity, one God, _have mercy on us._
+t: Sancta María, _ora pro nobis._ || Holy Mary, _pray for us._
+t: Sancte Joseph, _ora pro nobis._ || Saint Joseph, _pray for us._
+t: Proles David ínclita, _ora pro nobis._ || Illustrious offspring of David, _pray for us._
+t: Lumen Patriarchárum, _ora pro nobis._ || Light of the Patriarchs, _pray for us._
+t: Dei Genetrícis Sponse, _ora pro nobis._ || Spouse of the Mother of God, _pray for us._
+t: Custos pudíce Vírginis, _ora pro nobis._ || Chaste guardian of the Virgin, _pray for us._
+t: Fílii Dei nutrície, _ora pro nobis._ || Foster-father of the Son of God, _pray for us._
+t: Christi defénsor sédule, _ora pro nobis._ || Watchful defender of Christ, _pray for us._
+t: Almæ Famíliæ præses, _ora pro nobis._ || Head of the Holy Family, _pray for us._
+t: Joseph justíssime, _ora pro nobis._ || Joseph most just, _pray for us._
+t: Joseph castíssime, _ora pro nobis._ || Joseph most chaste, _pray for us._
+t: Joseph prudentíssime, _ora pro nobis._ || Joseph most prudent, _pray for us._
+t: Joseph fortíssime, _ora pro nobis._ || Joseph most valiant, _pray for us._
+t: Joseph obœdientíssime, _ora pro nobis._ || Joseph most obedient, _pray for us._
+t: Joseph fidelíssime, _ora pro nobis._ || Joseph most faithful, _pray for us._
+t: Spéculum patiéntiæ, _ora pro nobis._ || Mirror of patience, _pray for us._
+t: Amátor paupertátis, _ora pro nobis._ || Lover of poverty, _pray for us._
+t: Exémplar opíficum, _ora pro nobis._ || Model of workmen, _pray for us._
+t: Domésticæ vitæ decus, _ora pro nobis._ || Glory of home life, _pray for us._
+t: Custos vírginum, _ora pro nobis._ || Guardian of virgins, _pray for us._
+t: Familiárum cólumen, _ora pro nobis._ || Pillar of families, _pray for us._
+t: Solácium miserórum, _ora pro nobis._ || Solace of the wretched, _pray for us._
+t: Spes ægrotántium, _ora pro nobis._ || Hope of the sick, _pray for us._
+t: Patróne moriéntium, _ora pro nobis._ || Patron of the dying, _pray for us._
+t: Terror dæmonum, _ora pro nobis._ || Terror of demons, _pray for us._
+t: Protéctor sanctæ Ecclésiæ, _ora pro nobis._ || Protector of holy Church, _pray for us._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Dómine._ || Lamb of God, who take away the sins of the world, _spare us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Dómine._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis._ || Lamb of God, who take away the sins of the world, _have mercy on us._
+v: Constítuit eum dóminum domus suæ. || He made him lord of his house.
+x: Et príncipem omnis possessiónis suæ. || And ruler of all his possessions.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui ineffábili providéntia beátum Joseph sanctíssimæ Genetrícis tuæ sponsum elígere dignátus es: præsta, quǽsumus; ut, quem protectórem venerámur in terris, intercessórem habére mereámur in cælis: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, who in Your unspeakable providence were pleased to choose blessed Joseph as spouse of Your most holy Mother: grant, we beseech You, that we may be worthy to have him for our intercessor in heaven, whom we venerate as our protector on earth: who live and reign for ever and ever. ℟. Amen.

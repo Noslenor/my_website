@@ -1,0 +1,21 @@
+// SHARED TEXT: psalm-90
+// Inserted wherever a rite has the line  @psalm-90
+// Editing it here changes it everywhere it is used.
+h: Psalmus 90 || Psalm 90
+t: Qui hábitat in adjutório Altíssimi, * in protectióne Dei cæli commorábitur. || He who dwells in the help of the Most High * shall abide under the protection of the God of heaven.
+t: Dicet Dómino: Suscéptor meus es tu, et refúgium meum: * Deus meus sperábo in eum. || He shall say to the Lord: You are my protector and my refuge; * my God, in Him will I trust.
+t: Quóniam ipse liberávit me de láqueo venántium, * et a verbo áspero. || For He has delivered me from the snare of the hunters, * and from the harsh word.
+t: Scápulis suis obumbrábit tibi: * et sub pennis ejus sperábis. || He will overshadow you with His shoulders, * and under His wings you shall trust.
+t: Scuto circúmdabit te véritas ejus: * non timébis a timóre noctúrno, || His truth shall compass you with a shield; * you shall not be afraid of the terror of the night,
+t: A sagítta volánte in die, a negótio perambulánte in ténebris: * ab incúrsu, et dæmónio meridiáno. || Of the arrow that flies by day, of the business that walks about in the dark, * of invasion, or of the noonday devil.
+t: Cadent a látere tuo mille, et decem míllia a dextris tuis: * ad te autem non appropinquábit. || A thousand shall fall at your side, and ten thousand at your right hand; * but it shall not come near you.
+t: Verúmtamen óculis tuis considerábis: * et retributiónem peccatórum vidébis. || Yet with your eyes you shall look on, * and shall see the reward of the wicked.
+t: Quóniam tu es, Dómine, spes mea: * Altíssimum posuísti refúgium tuum. || For You, O Lord, are my hope; * you have made the Most High your refuge.
+t: Non accédet ad te malum: * et flagéllum non appropinquábit tabernáculo tuo. || No evil shall come near you, * nor shall the scourge approach your dwelling.
+t: Quóniam Angelis suis mandávit de te: * ut custódiant te in ómnibus viis tuis. || For He has given His Angels charge over you, * to keep you in all your ways.
+t: In mánibus portábunt te: * ne forte offéndas ad lápidem pedem tuum. || In their hands they shall bear you up, * lest you dash your foot against a stone.
+t: Super áspidem, et basilíscum ambulábis: * et conculcábis leónem et dracónem. || You shall walk upon the asp and the basilisk, * and you shall trample the lion and the dragon.
+t: Quóniam in me sperávit, liberábo eum: * prótegam eum, quóniam cognóvit nomen meum. || Because he has hoped in Me, I will deliver him; * I will protect him, because he has known My name.
+t: Clamábit ad me, et ego exáudiam eum: * cum ipso sum in tribulatióne: erípiam eum et glorificábo eum. || He shall cry to Me, and I will hear him; * I am with him in trouble; I will rescue him and glorify him.
+t: Longitúdine diérum replébo eum: * et osténdam illi salutáre meum. || With length of days I will fill him, * and I will show him My salvation.
+@gloria-patri

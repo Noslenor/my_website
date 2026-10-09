@@ -1,0 +1,33 @@
+// SHARED TEXT: hymn-te-deum
+// Inserted wherever a rite has the line  @hymn-te-deum
+// Editing it here changes it everywhere it is used.
+h: Hymnus Te Deum || The Hymn Te Deum
+t: Te Deum laudámus: * te Dóminum confitémur. || We praise You, O God; * we acknowledge You to be the Lord.
+t: Te ætérnum Patrem * omnis terra venerátur. || All the earth worships You, * the Father everlasting.
+t: Tibi omnes Ángeli, * tibi Cæli, et univérsæ Potestátes: || To You all the Angels, * to You the heavens and all the Powers,
+t: Tibi Chérubim et Séraphim * incessábili voce proclámant: || To You the Cherubim and Seraphim * cry out with unceasing voice:
+t: Sanctus, Sanctus, Sanctus * Dóminus Deus Sábaoth. || Holy, Holy, Holy * Lord God of hosts.
+t: Pleni sunt cæli et terra * majestátis glóriæ tuæ. || Heaven and earth are full * of the majesty of Your glory.
+t: Te gloriósus * Apostolórum chorus, || You the glorious * choir of the Apostles,
+t: Te Prophetárum * laudábilis númerus, || You the praiseworthy * company of the Prophets,
+t: Te Mártyrum candidátus * laudat exércitus. || You the white-robed army * of Martyrs praises.
+t: Te per orbem terrárum * sancta confitétur Ecclésia, || You throughout the whole world * the holy Church acknowledges:
+t: Patrem * imménsæ majestátis; || The Father * of boundless majesty;
+t: Venerándum tuum verum * et únicum Fílium; || Your adorable, true, * and only Son;
+t: Sanctum quoque * Paráclitum Spíritum. || And the Holy Spirit, * the Paraclete.
+t: Tu Rex glóriæ, * Christe. || You are the King of glory, * O Christ.
+t: Tu Patris * sempitérnus es Fílius. || You are the everlasting Son * of the Father.
+t: Tu, ad liberándum susceptúrus hóminem, * non horruísti Vírginis úterum. || You, when You took upon Yourself to deliver man, * did not shrink from the Virgin's womb.
+t: Tu, devícto mortis acúleo, * aperuísti credéntibus regna cælórum. || You, having overcome the sting of death, * opened the kingdom of heaven to believers.
+t: Tu ad déxteram Dei sedes, * in glória Patris. || You sit at the right hand of God, * in the glory of the Father.
+t: Judex créderis * esse ventúrus. || We believe that You will come * to be our Judge.
+t: Te ergo quǽsumus, tuis fámulis súbveni, * quos pretióso sánguine redemísti. || We therefore beseech You, help Your servants, * whom You have redeemed with Your precious blood.
+t: Ætérna fac cum Sanctis tuis * in glória numerári. || Make them to be numbered with Your Saints * in glory everlasting.
+t: Salvum fac pópulum tuum, Dómine, * et bénedic hereditáti tuæ. || Save Your people, O Lord, * and bless Your inheritance.
+t: Et rege eos, * et extólle illos usque in ætérnum. || Govern them, * and lift them up for ever.
+t: Per síngulos dies * benedícimus te; || Day by day * we bless You,
+t: Et laudámus nomen tuum in sǽculum, * et in sǽculum sǽculi. || And we praise Your name for ever, * and for ever and ever.
+t: Dignáre, Dómine, die isto * sine peccáto nos custodíre. || Deign, O Lord, this day * to keep us without sin.
+t: Miserére nostri, Dómine, * miserére nostri. || Have mercy on us, O Lord, * have mercy on us.
+t: Fiat misericórdia tua, Dómine, super nos, * quemádmodum sperávimus in te. || Let Your mercy, O Lord, be upon us, * as we have hoped in You.
+t: In te, Dómine, sperávi: * non confúndar in ætérnum. || In You, O Lord, have I hoped; * let me never be confounded.

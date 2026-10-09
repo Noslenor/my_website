@@ -1,0 +1,38 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessing of Baptismal Water, short form for missionaries (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Font or Baptismal Water (Shorter Form for Missionaries)
+// ──────────────────────────────────────────────────────────────────────
+# font-short | Benedictio Fontis seu Aquæ Baptismalis (formula brevior) | Blessing of the Font or Baptismal Water (Shorter Form for Missionaries) | Sacraments | Appendix, De Baptismo
+r: Hæc formula brevior pro benedictione Fontis seu Aquæ baptismalis, a Paulo Papa III Missionariis Peruanis apud Indos olim concessa, nonnisi in iis locis adhiberi potest, ad quæ speciali Apostolicæ Sedis indulto extensa fuit. || This shorter form for blessing the font or baptismal water, granted long ago by Pope Paul III to the missionaries in Peru among the Indians, may be used only in those places to which it has been extended by special indult of the Apostolic See.
+n: In the United States this form was extended to missionaries by the First Provincial Council of Baltimore with the approval of Pope Pius VIII, with the closing formula given at the end below.
+h: Exorcismus aquæ || Exorcism of the Water
+t: Exorcízo te, creatúra aquæ, in nómine Dei ✠ Patris omnipoténtis, et in nómine Jesu ✠ Christi, Fílii ejus, Dómini nostri, et in virtúte Spíritus ✠ Sancti. Exorcízo te, omnis virtus adversárii diáboli: ut omnis phantásia eradicétur, ac effugétur ab hac creatúra aquæ, et fiat fons aquæ saliéntis in vitam ætérnam: ut, qui ex ea baptizáti fúerint, fiant templum Dei vivi, et Spíritus Sanctus hábitet in eis, in remissiónem peccatórum: in nómine Dómini nostri Jesu Christi, qui ventúrus est judicáre vivos et mórtuos, et sǽculum per ignem. ℟. Amen. || I exorcise you, creature of water, in the name of God the ✠ Father almighty, and in the name of Jesus ✠ Christ, His Son, our Lord, and in the power of the Holy ✠ Spirit. I exorcise you, every power of the adversary, the devil, that every phantasm may be rooted out and driven away from this creature of water, and that it may become a fountain of water springing up into eternal life; so that those who are baptized in it may become a temple of the living God, and the Holy Spirit may dwell in them, for the remission of sins: in the name of our Lord Jesus Christ, who will come to judge the living and the dead and the world by fire. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, ætérne Deus, aquárum spirituálium sanctificátor, te supplíciter deprecámur: ut hoc ministérium humilitátis nostræ respícere dignéris, et super has aquas, abluéndis et vivificándis homínibus præparátas, Ángelum sanctitátis emíttas; ut peccátis prióris vitæ ablútis, reatúque detérso, purum sacráto Spirítui habitáculum regeneratiónibus procúret. Per Christum, Dóminum nostrum. ℟. Amen. || Holy Lord, Father almighty, eternal God, sanctifier of the spiritual waters, we humbly entreat You to look upon this ministry of our lowliness and to send the Angel of holiness upon these waters, prepared for the cleansing and quickening of men; that, the sins of their former life being washed away and their guilt wiped clean, he may make ready in those who are reborn a pure dwelling for the Holy Spirit. Through Christ our Lord. ℟. Amen.
+r: Sacerdos deinceps infundat Oleum Catechumenorum in aquam, in modum crucis, dicens: || The priest then pours Oil of Catechumens into the water in the form of a cross, saying:
+t: Conjúnctio Olei unctiónis, et aquæ Baptísmatis sanctificétur, et fecundétur. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || May this union of the oil of anointing and the water of Baptism be sanctified and made fruitful. In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+r: Deinde infundat Chrisma in aquam, in modum crucis, dicens: || Then he pours Chrism into the water in the form of a cross, saying:
+t: Conjúnctio Chrísmatis sanctificatiónis et Olei unctiónis et aquæ Baptísmatis sanctificétur, et fecundétur. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || May this union of the Chrism of sanctification, the oil of anointing, and the water of Baptism be sanctified and made fruitful. In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+h: Formula Concilii Baltimorensis || Closing Form of the Council of Baltimore
+r: Denique dicat Sacerdos, benedicens ipsam aquam: || Finally the priest says, blessing the water itself:
+t: Sanctificétur et fecundétur Fons iste, et ex eo renascéntes. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || May this font be sanctified and made fruitful, and those who are reborn from it. In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.

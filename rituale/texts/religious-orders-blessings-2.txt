@@ -1,0 +1,246 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Blessings proper to religious orders, part 2 (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Investiture with the Black Scapular of the Holy Cross and Passion of Our Lord Jesus Christ
+// ──────────────────────────────────────────────────────────────────────
+# passionist-scapular | Benedictio et Impositio Scapularis Nigri Ss. Crucis et Passionis D. N. J. C. | Blessing and Investiture with the Black Scapular of the Holy Cross and Passion of Our Lord Jesus Christ | Sacramentals & Scapulars | Appendix, Benedictiones propriæ (Congr. Clericorum Regularium Ss. Crucis et Passionis)
+r: Propria Congregationis Clericorum Regularium Sanctissimæ Crucis et Passionis D. N. J. C. || Proper to the Congregation of the Discalced Clerics of the Most Holy Cross and Passion of Our Lord Jesus Christ (Passionists).
+r: Sacerdos indutus superpelliceo et stola rubea, eo genuflexo, cui Scapulare est imponendum, dicere potest: || The priest, vested in surplice and red stole, while the one who is to receive the scapular kneels, may say:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui pro redemptióne mundi voluísti nasci, circumcídi, a Judǽis reprobári, a Juda traditóre ósculo tradi, vínculis alligári, sicut agnus ínnocens ad víctimam duci, atque conspéctibus Annæ, Cáiphæ, Piláti et Heródis indecénter offérri, a falsis téstibus accusári, flagéllis et oppróbriis vexári, sputis cónspui, spinis coronári, cólaphis cædi, arúndine pércuti, fácie velári, véstibus éxui, Cruci clavis affígi et láncea vulnerári: tu, Dómine, per has sanctíssimas pœnas tuas, et sanctam Crucem et mortem tuam, hujus fámuli tui (fámulæ tuæ) intelléctum illúmina, afféctum inflámma, ut caritátis tuæ dulcédine perfúsus (-a) lácrimas compunctiónis júgiter effúndat, totáque virtúte te díligat, et quæ tibi plácita sunt, tota dilectióne perfíciat: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who for the redemption of the world willed to be born, to be circumcised, to be rejected by the Jews, to be betrayed with a kiss by Judas the traitor, to be bound with chains, to be led like an innocent lamb to the slaughter, to be shamefully brought before the eyes of Annas, Caiaphas, Pilate, and Herod, to be accused by false witnesses, to be tormented with scourges and insults, to be spat upon, crowned with thorns, struck with blows, beaten with a reed, blindfolded, stripped of Your garments, nailed to the Cross, and pierced with a lance: do You, O Lord, by these Your most holy sufferings, and by Your holy Cross and death, enlighten the understanding and inflame the heart of this Your servant (handmaid), that, filled with the sweetness of Your love, he (she) may continually shed tears of compunction, love You with all his (her) strength, and with complete love carry out whatever is pleasing to You: who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Prædictæ tamen preces omitti possunt ad libitum. Deinde dicit: || The foregoing prayers, however, may be omitted at will. Then he says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc et usque in sǽculum. || Now and for ever.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui tégumen mortalitátis nostræ assúmere dignátus es: te humíliter deprecámur; ut hoc induméntum, quod in memóriam tuæ sanctíssimæ passiónis et mortis institútum fuit, bene✠dícere, et sancti✠ficáre dignéris; ut hic fámulus tuus qui (hæc fámula tua, quæ) ipsum gestáverit, ejúsdem Passiónis párticeps efféctus (-a), ætérnam glóriam tuam cónsequi mereátur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who deigned to take upon Yourself the garment of our mortality: we humbly beseech You to ✠ bless and ✠ sanctify this garment, which was instituted in memory of Your most holy passion and death, that this Your servant (handmaid) who wears it, being made a sharer in that same Passion, may be worthy to attain Your eternal glory: who live and reign for ever and ever. ℟. Amen.
+r: Mox Sacerdos sacrum Scapulare aspergit aqua benedicta, et illud imponit, dicens: || The priest then sprinkles the holy scapular with holy water and places it on the person, saying:
+t: Induat te Dóminus novum hóminem, ut hac lúgubri pæniténtiæ téssera munítus (-a) júgiter aspícias ad Jesum, quem manus impiórum confixérunt, et dóleas super eum, ut doléri solet in morte primogéniti. ℟. Amen. || May the Lord clothe you with the new man, that, protected by this mournful token of penance, you may ever look upon Jesus, whom the hands of the wicked have pierced, and mourn over Him as one mourns at the death of a firstborn son. ℟. Amen.
+r: Deinde subjungit: || Then he adds:
+t: Et ego ex facultáte mihi concéssa recípio te ad participatiónem ómnium bonórum spirituálium, quibus ex Apostólico privilégio gaudet Congregátio Sanctíssimæ Crucis et Passiónis Dómini nostri Jesu Christi. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || And I, by the faculty granted to me, receive you into participation in all the spiritual goods which the Congregation of the Most Holy Cross and Passion of our Lord Jesus Christ enjoys by Apostolic privilege. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: In fine tandem dicitur: || Finally, at the end, is said:
+t: Pássio Dómini nostri Jesu Christi sit semper in córdibus nostris. Amen. || May the Passion of our Lord Jesus Christ be always in our hearts. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Investiture with the Red Scapular of the Passion and of the Most Sacred Heart of Our Lord Jesus Christ and of the Most Loving and Compassionate Heart of the Blessed Virgin Mary Immaculate
+// ──────────────────────────────────────────────────────────────────────
+# red-scapular | Benedictio et Impositio Scapularis Rubri Passionis et Sacratissimi Cordis D. N. J. C. atque Cordis Amantissimi et Compatientis B. Mariæ Virg. Immaculatæ | Blessing and Investiture with the Red Scapular of the Passion and of the Most Sacred Heart of Our Lord Jesus Christ and of the Most Loving and Compassionate Heart of the Blessed Virgin Mary Immaculate | Sacramentals & Scapulars | Appendix, Benedictiones propriæ (Congr. Missionis)
+r: Propria Congregationis Missionis (Approbata a S. R. C. die 25 Junii 1847). || Proper to the Congregation of the Mission (approved by the Sacred Congregation of Rites, 25 June 1847).
+r: Genuflexo eo, qui suscepturus est Scapulare, Sacerdos, superpelliceo et stola rubra indutus, dicit: || While the one who is to receive the scapular kneels, the priest, vested in surplice and red stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui tégumen nostræ mortalitátis indúere dignátus, temetípsum exinanivísti, formam servi accípiens, et factus obœdiens usque ad mortem Crucis: tuæ largitátis cleméntiam humíliter implorámus, ut hoc genus vestiménti, quod in honórem et memóriam dolorosíssimæ Passiónis tuæ, tuíque sacratíssimi Cordis, necnon et Cordis amantíssimi ac compatiéntis immaculátæ Matris tuæ institútum fuit, atque ut illo indúti hæc mystéria devótius récolant, bene✠dícere dignéris; ut hic fámulus tuus, qui (hæc fámula tua, quæ) ipsum gestáverit, te quoque, per tua mérita et intercessiónem beatíssimæ Vírginis Maríæ, indúere mereátur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who, deigning to put on the garment of our mortality, emptied Yourself, taking the form of a servant and becoming obedient even unto death on the Cross: we humbly implore the mercy of Your bounty, that You would ✠ bless this kind of garment, which was instituted in honor and memory of Your most sorrowful Passion and of Your most Sacred Heart, and also of the most loving and compassionate Heart of Your immaculate Mother, so that those clothed with it may recall these mysteries more devoutly; that this Your servant (handmaid) who wears it may, through Your merits and the intercession of the most blessed Virgin Mary, be worthy also to put on You: who live and reign for ever and ever. ℟. Amen.
+r: Mox Sacerdos sacrum Scapulare aqua benedicta aspergit, et illud imponit, dicens: || The priest then sprinkles the holy scapular with holy water and places it on the person, saying:
+t: Accipe, caríssime frater (caríssima soror), hunc hábitum benedíctum, ut véterem hóminem exútus (-a) novúmque indútus (-a) ipsum digne pérferas, et ad vitam pervénias sempitérnam. Per Christum, Dóminum nostrum. ℟. Amen. || Receive, dearest brother (sister), this blessed habit, that, having put off the old man and put on the new, you may wear it worthily and come to life everlasting. Through Christ our Lord. ℟. Amen.
+r: Deinde subjungit: || Then he adds:
+t: Et ego, ex facultáte mihi concéssa, recípio te (vos) ad participatiónem ómnium bonórum spirituálium, quæ per Sanctæ Sedis Apostólicæ privilégium huic sancto scapulári, in grátiam Congregatiónis Missiónis, concéssa sunt. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || And I, by the faculty granted to me, receive you into participation in all the spiritual goods which have been granted to this holy scapular by privilege of the Holy Apostolic See, as a favor to the Congregation of the Mission. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Denique dicitur trina vice versiculus sequens: || Finally the following verse is said three times:
+t: Te ergo quǽsumus, tuis fámulis súbveni, quos pretióso sánguine redemísti. || We therefore beseech You, help Your servants, whom You have redeemed with Your precious blood.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Investiture with the Blue Scapular of the Immaculate Conception
+// ──────────────────────────────────────────────────────────────────────
+# blue-scapular | Benedictio et Impositio Scapularis Cærulei B. Mariæ Virg. Immaculatæ | Blessing and Investiture with the Blue Scapular of the Immaculate Conception | Sacramentals & Scapulars | Appendix, Benedictiones propriæ (Cler. Regul. Theatinorum)
+r: Propria Cler. Regul. Theatinorum. || Proper to the Theatine Clerics Regular.
+r: Qui suscepturus est Scapulare, genuflectit; et Sacerdos superpelliceo et stola alba indutus dicit: || The one who is to receive the scapular kneels, and the priest, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui tégumen nostræ mortalitátis indúere dignátus es, tuæ largitátis cleméntiam humíliter implorámus: ut hoc genus vestiménti, quod in honórem et memóriam Conceptiónis beátæ Maríæ Vírginis immaculátæ, nec non ut illo indúti exórent in hóminum pravórum morum reformatiónem, institútum fuit, bene✠dícere dignéris; ut hic fámulus tuus, qui eo usus fúerit (vel hæc fámula tua, quæ eo usa fúerit, vel hi fámuli tui, qui eo usi fúerint, vel hæ fámulæ tuæ, quæ eo usæ fúerint), eádem beáta María Vírgine intercedénte, te quoque indúere mereátur (-ántur): Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who deigned to put on the garment of our mortality, we humbly implore the mercy of Your bounty, that You would ✠ bless this kind of garment, which was instituted in honor and memory of the Conception of the immaculate Virgin Mary, and also so that those clothed with it might pray for the reformation of men of evil ways; that this Your servant who wears it (or this Your handmaid who wears it, or these Your servants, or these Your handmaids, who wear it), through the intercession of the same blessed Virgin Mary, may be worthy also to put on You: who live and reign for ever and ever. ℟. Amen.
+r: Postea Sacerdos nihil dicendo aspergit Scapulare (vel Scapularia) aqua benedicta: deinde illud (vel illa) imponit, cuilibet dicens: || Then the priest, saying nothing, sprinkles the scapular (or scapulars) with holy water; then he places it (or them) on each one, saying:
+t: Accipe, frater (soror), Scapuláre Conceptiónis beátæ Maríæ Vírginis immaculátæ: ut, ea intercedénte, véterem hóminem exútus (-a) et ab omni peccatórum inquinaménto mundátus (-a), ipsum pérferas sine mácula, et ad vitam pervénias sempitérnam. Per Christum, Dóminum nostrum. ℟. Amen. || Receive, brother (sister), the Scapular of the Conception of the immaculate Virgin Mary, that, through her intercession, having put off the old man and been cleansed from every stain of sin, you may wear it without stain and come to life everlasting. Through Christ our Lord. ℟. Amen.
+r: Postea subjungit: || Then he adds:
+t: Et ego, ex facultáte mihi concéssa, recípio te (vos) ad participatiónem bonórum ómnium spirituálium, quæ in Clericórum Regulárium Congregatióne ex grátia Dei fiunt, et quæ per Sanctæ Sedis Apostólicæ privilégium concéssa sunt. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || And I, by the faculty granted to me, receive you into participation in all the spiritual goods which by the grace of God are done in the Congregation of Clerics Regular, and which have been granted by privilege of the Holy Apostolic See. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Denique dicat trina vice, flexis genibus, Orationem sequentem vulgari sermone una cum adscripto (vel adscriptis): || Finally, kneeling, he says the following prayer three times in the vernacular together with the person (or persons) enrolled:
+t: Laudes ac grátiæ sint omni moménto sanctíssimo ac diviníssimo Sacraménto. || Praise and thanks be every moment to the most holy and most divine Sacrament.
+t: Et benedícta sit sancta et immaculáta Concéptio beatíssimæ Vírginis Maríæ, Matris Dei. || And blessed be the holy and immaculate Conception of the most blessed Virgin Mary, Mother of God.
+r: Hortetur fideles ut hæc elogia sæpe sæpius repetant ad indulgentias iis adnexas consequendas. (Decr. Pii VII, die 30 Junii 1818, Breve Leonis XIII, die 10 Sept. 1878, Decr. Pii X, die 10 Apr. 1913.) || He should exhort the faithful to repeat these praises again and again in order to gain the indulgences attached to them. (Decree of Pius VII, 30 June 1818; Brief of Leo XIII, 10 September 1878; Decree of Pius X, 10 April 1913.)
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Investiture with the Black Scapular of the Seven Sorrows of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# servite-scapular | Benedictio et Impositio Scapularis Nigri Septem Dolorum B. M. V. | Blessing and Investiture with the Black Scapular of the Seven Sorrows of the Blessed Virgin Mary | Sacramentals & Scapulars | Appendix, Benedictiones propriæ (Ord. Servorum B.M.V.)
+r: Propria Ordinis Servorum B. M. V. || Proper to the Order of Servants of the Blessed Virgin Mary (Servites).
+r: Suscepturus Habitum genuflectit; et Sacerdos, superpelliceo ac stola alba indutus, dicit: || The one who is to receive the habit kneels, and the priest, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui morte Unigéniti tui mundum collápsum restauráre dignátus es, ut nos a morte ætérna liberáres, et ad gáudia regni cæléstis perdúceres: réspice, quǽsumus, super hanc famíliam servórum tuórum, in nómine beatíssimæ Vírginis septem Dolóribus sáuciæ congregátam, de cujus grémio hic fámulus tuus (hæc fámula tua) esse cupit (vel hi fámuli tui esse cúpiunt); ut augeátur númerus tibi fidéliter serviéntium, et ómnibus sǽculi et carnis perturbatiónibus liberátus (liberáta vel liberáti) et a láqueis diáboli secúrus (secúra vel secúri) intercessióne ejúsdem beátæ Maríæ Vírginis, beatórum Augustíni et Philíppi ac septem nostrórum beatórum Patrum Ordinis Fundatórum, vera gáudia possídeat (-ant). Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who by the death of Your Only-begotten deigned to restore the fallen world, that You might free us from eternal death and lead us to the joys of the heavenly kingdom: look down, we beseech You, upon this family of Your servants, gathered in the name of the most blessed Virgin pierced by seven Sorrows, of whose company this Your servant (handmaid) desires to be (or these Your servants desire to be); that the number of those who serve You faithfully may be increased, and that he (she, they), freed from all the disturbances of the world and the flesh and safe from the snares of the devil, through the intercession of the same blessed Virgin Mary, of the blessed Augustine and Philip, and of our seven blessed Fathers, Founders of the Order, may possess true joys. Through the same Christ our Lord. ℟. Amen.
+r: Conversus ad Habitum super Altare positum, Sacerdos dicit: || Turning toward the habit placed upon the altar, the priest says:
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui tégumen nostræ mortalitátis indúere dignátus es, obsecrámus imménsam largitátis tuæ abundántiam: ut hoc genus vestimentórum, quod sancti Patres nostri, ad innocéntiæ humilitatísque indícium, in memóriam Septem Dolórum beátæ Vírginis Maríæ nos ferre sanxérunt, ita bene✠dícere dignéris; ut, qui (quæ) illis fúerit indútus (indúta vel fúerint indúti), córpore páriter et ánimo índuat (-ant) te Salvatórem nostrum: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who deigned to put on the garment of our mortality, we implore the boundless abundance of Your bounty, that You would so ✠ bless this kind of garment, which our holy Fathers decreed that we should wear as a sign of innocence and humility, in memory of the Seven Sorrows of the blessed Virgin Mary, that whoever is clothed with it may put on You, our Savior, in body and soul alike: who live and reign for ever and ever. ℟. Amen.
+r: Aspergit Habitum aqua benedicta, dicens: || He sprinkles the habit with holy water, saying:
+t: Aspérges me, Dómine, hyssópo et mundábor: lavábis me, et super nivem dealbábor. || You will sprinkle me with hyssop, O Lord, and I shall be cleansed; You will wash me, and I shall be made whiter than snow.
+r: Deinde benedicit coronam septem Dolorum B. Mariæ Virg., dicens: Orémus. Omnípotens et miséricors Deus, etc., ut infra (Benedictio Coronæ Septem Dolorum B. M. V.), et coronam aspergit aqua benedicta. || Then he blesses the chaplet of the Seven Sorrows of the Blessed Virgin Mary, saying: Let us pray. Almighty and merciful God, etc., as below (Blessing of the Chaplet of the Seven Sorrows), and sprinkles the chaplet with holy water.
+r: Mox Sacerdos imponit Habitum cuilibet coram se genuflexo, dicens: || Then the priest places the habit on each one kneeling before him, saying:
+t: Accipe, caríssime frater (caríssima soror), hábitum beátæ Maríæ Vírginis, singuláre signum servórum suórum, in memóriam septem Dolórum, quos ipsa in vita et morte Unigéniti Fílii sui sustínuit; ut ita indútus (-a), sub ejus patrocínio, perpétuo vivas. ℟. Amen. || Receive, dearest brother (sister), the habit of the blessed Virgin Mary, the special sign of her servants, in memory of the seven Sorrows which she endured in the life and death of her Only-begotten Son, that, so clothed, you may live for ever under her protection. ℟. Amen.
+r: Postea coronam porrigit, dicens: || Afterward he hands over the chaplet, saying:
+t: Accipe corónam beátæ Maríæ Vírginis in memóriam septem Dolórum suórum contéxtam, ut, dum eam ore laudáveris, ejus pœnas toto corde compatiáris. ℟. Amen. || Receive the chaplet of the blessed Virgin Mary, woven in memory of her seven Sorrows, that, while you praise her with your lips, you may share her sufferings with all your heart. ℟. Amen.
+r: Deinde personam benedicit, dicens: || Then he blesses the person, saying:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te (vos), et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of the Chaplet of the Seven Sorrows of the Blessed Virgin Mary
+// ──────────────────────────────────────────────────────────────────────
+# sorrows-crown | Benedictio Coronæ Septem Dolorum B. M. V. | Blessing of the Chaplet of the Seven Sorrows of the Blessed Virgin Mary | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Servorum B.M.V.)
+r: Propria ejusdem Ordinis. || Proper to the same Order (Servites).
+r: Sacerdos, superpelliceo ac stola alba indutus, dicit: || The priest, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, qui propter nímiam caritátem, qua dilexísti nos, Fílium tuum unigénitum, Dóminum nostrum Jesum Christum, pro redemptióne nostra de cælis ad terram descéndere, carnem suscípere, et crucis torméntum subíre voluísti: obsecrámus imménsam cleméntiam tuam; ut hanc corónam, in memóriam septem Dolórum Genetrícis Fílii tui ab Ecclésia tua fidéli dicátam, bene✠dícas, et sancti✠fices, et ei tantam Spíritus ✠ Sancti virtútem infúndas, ut, quicúmque eam recitáverit, ac secum portáverit, atque in domo sua reverénter tenúerit, ab omni hoste visíbili et invisíbili, semper et ubíque in hoc sǽculo liberétur, et in éxitu suo a beatíssima Vírgine María tibi, bonis opéribus coronátus, præsentári mereátur. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Almighty and merciful God, who, because of the exceeding love with which You loved us, willed that Your only-begotten Son, our Lord Jesus Christ, should come down from heaven to earth for our redemption, take flesh, and undergo the torment of the cross: we implore Your boundless mercy that You would ✠ bless and ✠ sanctify this chaplet, dedicated by Your faithful Church to the memory of the seven Sorrows of the Mother of Your Son, and pour into it such power of the Holy ✠ Spirit that whoever recites it, carries it with him, and keeps it reverently in his home, may be delivered always and everywhere in this world from every enemy, visible and invisible, and at his departure may be worthy to be presented to You, crowned with good works, by the most blessed Virgin Mary. Through the same Christ our Lord. ℟. Amen.
+r: Deinde Sacerdos aspergit coronam aqua benedicta. || Then the priest sprinkles the chaplet with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Shorter Form for Blessing the Chaplet of the Seven Sorrows
+// ──────────────────────────────────────────────────────────────────────
+# sorrows-crown-short | Formula Brevior Benedicendi Coronam Septem Dolorum B. M. V. | Shorter Form for Blessing the Chaplet of the Seven Sorrows | Proper to Religious Orders | Appendix, Benedictiones propriæ (Ord. Servorum B.M.V.)
+r: Propria ejusdem Ordinis (Approbata a S. R. C. die 11 Febr. 1925). || Proper to the same Order (approved by the Sacred Congregation of Rites, 11 February 1925).
+r: Hæc formula tantummodo privatim adhiberi potest, si quando, ratione circumstantiarum, valde incommodum sit longiorem adhibere. || This form may be used only privately, whenever, because of circumstances, it would be very inconvenient to use the longer one.
+t: Ad laudem et glóriam Deíparæ Vírginis Maríæ, in memóriam Dolórum quos ipsa in vita et morte ejúsdem Fílii sui Dómini nostri Jesu Christi sustínuit, bene✠dicátur et sancti✠ficétur hæc coróna: in nómine Patris, et Fílii, ✠ et Spíritus Sancti. Amen. || To the praise and glory of the Virgin Mary, Mother of God, in memory of the Sorrows which she endured in the life and death of her same Son, our Lord Jesus Christ, may this chaplet be ✠ blessed and ✠ sanctified: in the name of the Father, and of the Son, ✠ and of the Holy Spirit. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Another Blessing and Investiture with the Brown Scapular of Our Lady of Mount Carmel
+// ──────────────────────────────────────────────────────────────────────
+# brown-scapular-calced | Alia Benedictio et Impositio Scapularis B. M. V. de Monte Carmelo | Another Blessing and Investiture with the Brown Scapular of Our Lady of Mount Carmel | Sacramentals & Scapulars | Appendix, Benedictiones propriæ (Ord. Carmelitarum Calceatorum)
+r: Propria Ordinis Carmelitarum Calceatorum. || Proper to the Order of Calced Carmelites.
+r: Persona recipienda ad Habitum genuflexa, Sacerdos superpelliceo et stola alba indutus dicat: || The person to be received into the habit kneels, and the priest, vested in surplice and white stole, says:
+t: *Ant.* Suscépimus, Deus. || *Ant.* We have received, O God.
+h: Psalmus 47 || Psalm 47
+t: Magnus Dóminus, et laudábilis nimis * in civitáte Dei nostri, in monte sancto ejus. || Great is the Lord, and exceedingly to be praised * in the city of our God, on His holy mountain.
+t: Fundátur exsultatióne univérsæ terræ mons Sion, * látera Aquilónis, cívitas Regis magni. || Mount Sion is founded to the joy of the whole earth; * on the sides of the north is the city of the great King.
+t: Deus in dómibus ejus cognoscétur, * cum suscípiet eam. || In her houses God shall be known, * when He shall protect her.
+t: Quóniam ecce reges terræ congregáti sunt: * convenérunt in unum. || For behold, the kings of the earth assembled; * they gathered together.
+t: Ipsi vidéntes sic admiráti sunt, conturbáti sunt, commóti sunt: * tremor apprehéndit eos. || They saw, and so they were amazed, they were troubled, they were shaken; * trembling took hold of them.
+t: Ibi dolóres ut parturiéntis: * in spíritu veheménti cónteres naves Tharsis. || There were pangs as of a woman in labor; * with a violent wind You shall shatter the ships of Tharsis.
+t: Sicut audívimus, sic vídimus in civitáte Dómini virtútum, in civitáte Dei nostri: * Deus fundávit eam in ætérnum. || As we have heard, so have we seen in the city of the Lord of hosts, in the city of our God: * God has founded it for ever.
+t: Suscépimus, Deus, misericórdiam tuam, * in médio templi tui. || We have received Your mercy, O God, * in the midst of Your temple.
+t: Secúndum nomen tuum, Deus, sic et laus tua in fines terræ: * justítia plena est déxtera tua. || As is Your name, O God, so also is Your praise to the ends of the earth; * Your right hand is full of justice.
+t: Lætétur mons Sion, et exsúltent fíliæ Judæ, * propter judícia tua, Dómine. || Let Mount Sion rejoice, and the daughters of Juda be glad, * because of Your judgments, O Lord.
+t: Circúmdate Sion, et complectímini eam: * narráte in túrribus ejus. || Walk about Sion and encompass her; * tell of it in her towers.
+t: Pónite corda vestra in virtúte ejus: * et distribúite domos ejus, ut enarrétis in progénie áltera. || Set your hearts on her strength, * and consider her houses, that you may tell of it to another generation.
+t: Quóniam hic est Deus, Deus noster in ætérnum, et in sǽculum sǽculi: * ipse reget nos in sǽcula. || For this is God, our God for ever and for ages of ages; * He shall rule us for evermore.
+@gloria-patri
+h: Psalmus 132 || Psalm 132
+t: Ecce quam bonum, et quam jucúndum * habitáre fratres in unum: || Behold, how good and how pleasant it is * for brethren to dwell together in unity:
+t: Sicut unguéntum in cápite, * quod descéndit in barbam, barbam Aaron, || Like the ointment on the head, * that ran down upon the beard, the beard of Aaron,
+t: Quod descéndit in oram vestiménti ejus: * sicut ros Hermon, qui descéndit in montem Sion. || That ran down to the hem of his garment; * like the dew of Hermon, which comes down upon Mount Sion.
+t: Quóniam illic mandávit Dóminus benedictiónem, * et vitam usque in sǽculum. || For there the Lord has commanded blessing, * and life for evermore.
+@gloria-patri
+t: *Ant.* Suscépimus, Deus, misericórdiam tuam, in médio templi tui: secúndum nomen tuum, Deus, sic et laus tua in fines terræ: justítia plena est déxtera tua. || *Ant.* We have received Your mercy, O God, in the midst of Your temple; as is Your name, O God, so also is Your praise to the ends of the earth; Your right hand is full of justice.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvum (-am) fac servum tuum (ancíllam tuam). || Save Your servant (handmaid),
+x: Deus meus, sperántem in te. || Who hopes in You, O my God.
+v: Mitte ei, Dómine, auxílium de sancto. || Send him (her) help, O Lord, from Your holy place.
+x: Et de Sion tuére eum (eam). || And defend him (her) out of Sion.
+v: Nihil profíciat inimícus in eo (ea). || Let the enemy have no power over him (her).
+x: Et fílius iniquitátis non appónat nocére ei. || And let the son of iniquity do nothing to harm him (her).
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Suscípiat te Christus in número fidélium suórum, et nos licet indígni te suscípimus in oratiónibus nostris. Concédat tibi Deus per Unigénitum suum, mediatórem Dei et hóminum, tempus bene vivéndi, locum bene agéndi, constántiam bene perseverándi, et ad ætérnæ vitæ hereditátem felíciter perveniéndi. Et sicut nos hódie fratérna cáritas spirituáliter jungit in terris, ita divína píetas, quæ dilectiónis est auctrix et amátrix, nos cum fidélibus suis conjúngere dignétur in cælis. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || May Christ receive you into the number of His faithful, and we, though unworthy, receive you into our prayers. May God, through His Only-begotten, the mediator between God and men, grant you time to live well, a place to act well, constancy to persevere well, and a happy arrival at the inheritance of eternal life. And as fraternal charity unites us spiritually on earth today, so may the divine goodness, which is the source and lover of love, deign to unite us with His faithful in heaven. Through the same Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Adésto, Dómine, supplicatiónibus nostris et hunc fámulum tuum, quem (hanc fámulam tuam, quam) in tuo sancto nómine ad participatiónem ómnium bonórum spirituálium, et fraternitátem recípimus hujus sacræ Religiónis, beátæ Genetríci tuæ Vírgini et Matri Maríæ speciáliter dedicátæ, bene✠dícere dignéris: et præsta; ut te largiénte devótus (-a) in Ecclésia persístere váleat cum augménto virtútum: atque suffrágiis hujúsmodi sacri Ordinis adjútus (-a) vitam percípere mereátur ætérnam: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Be attentive, O Lord, to our supplications, and deign to ✠ bless this Your servant (handmaid), whom we receive in Your holy name into participation in all the spiritual goods and into the fraternity of this sacred Order, specially dedicated to Your blessed Mother, the Virgin and Mother Mary; and grant that by Your bounty he (she) may persevere devoutly in the Church with an increase of virtues, and, helped by the prayers of this sacred Order, may be worthy to receive eternal life: who live and reign for ever and ever. ℟. Amen.
+r: Deinde conversus ad Habitum dicat: || Then, turning toward the habit, he says:
+v: Osténde nobis, Dómine, misericórdiam tuam. || Show us, O Lord, Your mercy.
+x: Et salutáre tuum da nobis. || And grant us Your salvation.
+v: Dómine, Deus virtútum, convérte nos. || O Lord, God of hosts, convert us.
+x: Et osténde fáciem tuam, et salvi érimus. || And show us Your face, and we shall be saved.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Supplíciter te, Dómine, rogámus, ut super hunc hábitum servo tuo (ancíllæ tuæ) imponéndum bene✠díctio tua benígna descéndat, ut sit bene✠díctus, atque divína virtúte procul pellántur hóstium nostrórum visibílium et invisibílium tela nequíssima. ℟. Amen. || We humbly ask You, O Lord, that Your kindly ✠ blessing may come down upon this habit, which is to be placed upon Your servant (handmaid), that it may be ✠ blessed, and that by Your divine power the most wicked darts of our enemies, visible and invisible, may be driven far away. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Caput ómnium fidélium Deus, et humáni géneris Salvátor, hunc hábitum, quem propter tuum, tuǽque Genetrícis Vírginis Maríæ de Monte Carmélo amórem, atque devotiónem servus tuus est delatúrus (ancílla tua est delatúra), déxtera tua sancti✠fica; et hoc, quod per illud mýstice datur intéllegi, tua semper custódia, córpore et ánimo servétur: et ad remuneratiónem perpétuam cum Sanctis ómnibus felicíssime perducátur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, Head of all the faithful and Savior of the human race, with Your right hand ✠ sanctify this habit, which Your servant (handmaid) is about to wear for love of and devotion to You and Your Mother, the Virgin Mary of Mount Carmel; and may what is mystically signified by it be ever kept in body and soul under Your protection, and be most happily brought to its everlasting reward with all the Saints: who live and reign for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Creátor, Conservátor, et Salvátor ómnium, largítor humánæ salútis Deus, et dator grátiæ spirituális, bene✠dictiónem tuam super hunc hábitum immítte: ut, qui (quæ) eum gestáverit, cælésti virtúte munítus (-a) fidem íntegram, spem firmam, et caritátem desiderátam téneat, et a te numquam separári permíttas: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || O God, Creator, Preserver, and Savior of all, bestower of human salvation and giver of spiritual grace, send down Your ✠ blessing upon this habit, that whoever wears it, strengthened by heavenly power, may hold an unblemished faith, a firm hope, and the charity that is longed for, and that You may never permit him (her) to be separated from You: who live and reign for ever and ever. ℟. Amen.
+r: Deinde aspergat Habitum aqua benedicta, et postea ipsum imponat personæ recipiendæ (cuilibet separatim) dicens: || Then he sprinkles the habit with holy water, and afterward places it upon the person being received (upon each one separately), saying:
+t: Accipe vir devóte (múlier devóta) hunc hábitum benedíctum: precans sanctíssimam Vírginem, ut ejus méritis illum pérferas sine mácula, et te ab omni adversitáte deféndat, atque ad vitam perdúcat ætérnam. ℟. Amen. || Receive, devout man (woman), this blessed habit, praying the most holy Virgin that by her merits you may wear it without stain, and that she may defend you from all adversity and lead you to life eternal. ℟. Amen.
+r: Deinde dicat: || Then he says:
+t: Ego ex potestáte mihi trádita, et concéssa, suscípio ac recípio te ad participatiónem ómnium oratiónum, disciplinárum, precum, suffragiórum, eleemosynárum, jejuniórum, vigiliárum, Missárum, Horárum canonicárum ac ceterórum bonórum spirituálium, quæ passim die, noctúque, cooperánte misericórdia Jesu Christi, a Religiósis totíus nostræ sacræ Religiónis peragúntur. In nómine Patris, et Fílii, ✠ et Spíritus Sancti. ℟. Amen. || I, by the power handed down and granted to me, take up and receive you into participation in all the prayers, disciplines, petitions, suffrages, alms, fasts, vigils, Masses, canonical Hours, and other spiritual goods which, by the cooperating mercy of Jesus Christ, are performed day and night everywhere by the Religious of our whole sacred Order. In the name of the Father, and of the Son, ✠ and of the Holy Spirit. ℟. Amen.
+r: Postea signo crucis benedicens personam receptam dicat: || Afterward, blessing the person received with the sign of the cross, he says:
+t: Bene✠dícat te Cónditor cæli et terræ, Deus omnípotens, qui te elígere dignátus est ad beatíssimæ Vírginis Maríæ de Monte Carmélo Societátem et Confraternitátem: quam precámur, ut in hora óbitus tui cónterat caput serpéntis, qui tibi est adversárius, et tandem tamquam victor (victrix) palmam, et corónam sempitérnæ hereditátis consequáris. Per Christum, Dóminum nostrum. ℟. Amen. || May the Maker of heaven and earth, almighty God, ✠ bless you, who has deigned to choose you for the Society and Confraternity of the most blessed Virgin Mary of Mount Carmel; and we pray her that at the hour of your death she may crush the head of the serpent who is your adversary, and that at last, as a victor, you may obtain the palm and the crown of the everlasting inheritance. Through Christ our Lord. ℟. Amen.
+r: Deinde aspergatur persona aqua benedicta. Si plures simul recipiendi sint, mutetur numerus. || Then the person is sprinkled with holy water. If several are to be received together, the number is changed accordingly.
+r: Quando Habitus solummodo benedicendus erit, tunc benedictio incipit a ℣. Osténde nobis, Dómine, et concluditur cum Oratione Creátor, etc. || When the habit alone is to be blessed, the blessing begins at ℣. Show us, O Lord, and concludes with the prayer O God, Creator, etc.
+r: Omnibus expletis, Sacerdos Confratrem paucis sed efficacioribus verbis adhortetur ad caute, pie sancteque vivendum, ad onera omnia adimplenda tum generalia pro omnibus Confratribus, tum specialia pro iis, qui gaudere volunt privilegio, vulgo nuncupato "Sabbatino" (circa quæ eundem sufficienter instruat), atque ad Virginem Deiparam in posterum peculiaribus devotionis obsequiis assidue colendam, eamque veluti singularem ac dulcissimam Matrem filiali et sincero affectu prosequendam. || When all is finished, the priest, in a few but forceful words, exhorts the new member to live carefully, devoutly, and holily; to fulfill all the obligations, both the general ones binding all members of the Confraternity and the special ones binding those who wish to enjoy the privilege commonly called the "Sabbatine" (on which he should instruct him sufficiently); and henceforth to honor the Virgin Mother of God assiduously with special acts of devotion, and to cherish her with sincere filial affection as his own singular and most sweet Mother.
+
+// ──────────────────────────────────────────────────────────────────────
+// Shorter Form for Blessing and Investing with the Five Scapulars
+// ──────────────────────────────────────────────────────────────────────
+# five-scapulars | Formula Brevior Benedicendi et Imponendi Quinque Scapularia | Shorter Form for Blessing and Investing with the Five Scapulars | Sacramentals & Scapulars | Appendix, Benedictiones propriæ, 14
+r: Sanctissimæ Trinitatis, Passionis D. N. J. C., beatæ Mariæ Virginis sub respectivo titulo immaculatæ Conceptionis, Septem Dolorum et Montis Carmeli. || Of the Most Holy Trinity, of the Passion of our Lord Jesus Christ, and of the Blessed Virgin Mary under her respective titles of the Immaculate Conception, the Seven Sorrows, and Mount Carmel.
+r: Suscepturi Scapularia genuflectunt; et Sacerdos, superpelliceo ac stola alba indutus, dicit: || Those who are to receive the scapulars kneel, and the priest, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, ómnium caput fidélium, et humáni géneris Salvátor, qui tégumen nostræ mortalitátis indúere dignátus es: obsecrámus imménsam largitátis tuæ abundántiam, ut induménta hæc in obséquium sanctíssimæ Trinitátis institúta, nec non in honórem et memóriam dolorosíssimæ Passiónis tuæ, in honórem beatíssimæ Vírginis Matris tuæ sub título immaculátæ Conceptiónis, Septem Dolórum et Montis Carméli, ita bene✠dícere et sancti✠ficáre dignéris; ut, qui (quæ) ea assúmpserint, eádem Genetríce tua intercedénte, te quoque salutáre nostrum, córpore et ánima indúere mereántur: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Head of all the faithful and Savior of the human race, who deigned to put on the garment of our mortality: we implore the boundless abundance of Your bounty, that You would so ✠ bless and ✠ sanctify these garments, instituted in homage to the most holy Trinity, and also in honor and memory of Your most sorrowful Passion, and in honor of the most blessed Virgin, Your Mother, under the titles of the Immaculate Conception, the Seven Sorrows, and Mount Carmel, that those who take them up may, through the intercession of the same Mother of Yours, be worthy also to put on You, our salvation, in body and soul: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+r: Mox Sacerdos omnibus Scapularia singillatim imponat, ac deinde formulam proferat supra omnes simul. || Then the priest places the scapulars on each person one by one, and afterward pronounces the formula over all together.
+t: 1. Accípite hábitum Ordinis sanctíssimæ Trinitátis in fídei, spei, et caritátis augméntum, ut induátis novum hóminem, qui secúndum Deum creátus est in justítia et sanctitáte. || 1. Receive the habit of the Order of the most holy Trinity for the increase of faith, hope, and charity, that you may put on the new man, who is created according to God in justice and holiness.
+t: 2. Accípite scapuláre Passiónis Dómini nostri Jesu Christi, ut véterem hóminem exúti novúmque indúti, ipsum digne perferátis, et ad vitam perveniátis sempitérnam. || 2. Receive the scapular of the Passion of our Lord Jesus Christ, that, having put off the old man and put on the new, you may wear it worthily and come to life everlasting.
+t: 3. Accípite scapuláre devotórum beatíssimæ Maríæ Vírginis sine labe concéptæ, ut ejus intercessióne ab omni inquinaménto mundáti, ad vitam perveniátis ætérnam. || 3. Receive the scapular of the devotees of the most blessed Virgin Mary conceived without stain, that, cleansed from every defilement by her intercession, you may come to life eternal.
+t: 4. Accípite hábitum Servórum beatíssimæ Maríæ Vírginis septem Dolóres ejus devóte recoléntium, ut dolóres ipsos assídue recogitántes, Passiónem Dómini nostri Jesu Christi in corde et córpore vestro impréssam júgiter teneátis. || 4. Receive the habit of the Servants of the most blessed Virgin Mary who devoutly recall her seven Sorrows, that, constantly pondering those sorrows, you may ever keep the Passion of our Lord Jesus Christ impressed upon your heart and body.
+t: 5. Accípite hábitum Societátis et Confraternitátis beátæ Maríæ Vírginis de Monte Carmélo, precántes eándem sanctíssimam Vírginem, ut ejus méritis illum perferátis sine mácula et vos ab omni adversitáte deféndat atque ad vitam perdúcat ætérnam. || 5. Receive the habit of the Society and Confraternity of the blessed Virgin Mary of Mount Carmel, praying the same most holy Virgin that by her merits you may wear it without stain, and that she may defend you from all adversity and lead you to life eternal.
+t: Ego ex facultáte Apostólica mihi delegáta, recípio vos in participatiónem bonórum spirituálium horum Ordinum seu Congregatiónum et indulgentiárum, quæ per Sanctæ Sedis privilégia prædíctis scapuláribus concéssæ sunt. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || I, by the Apostolic faculty delegated to me, receive you into participation in the spiritual goods of these Orders or Congregations, and in the indulgences which have been granted to the aforesaid scapulars by privileges of the Holy See. In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from Your holy place.
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Esto eis, Dómine, turris fortitúdinis. || Be to them, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in eis. || Let the enemy have no power over them.
+x: Et fílius iniquitátis non appónat nocére eis. || And let the son of iniquity do nothing to harm them.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Adésto, Dómine, supplicatiónibus nostris, et quibus in tuo nómine sacros hábitus imposúimus, ita bene✠dícere dignéris, ut tuæ grátiæ cooperántes, vitam cónsequi mereántur ætérnam. Per Christum, Dóminum nostrum. ℟. Amen. || Be attentive, O Lord, to our supplications, and deign so to ✠ bless those on whom we have placed the sacred habits in Your name, that, cooperating with Your grace, they may be worthy to attain eternal life. Through Christ our Lord. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Formula recitetur numero singulari, si uni tantum personæ sint Scapularia imponenda. || The formula is recited in the singular if the scapulars are to be placed on only one person.

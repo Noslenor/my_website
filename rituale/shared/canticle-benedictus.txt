@@ -1,0 +1,15 @@
+// SHARED TEXT: canticle-benedictus
+// Inserted wherever a rite has the line  @canticle-benedictus
+// Editing it here changes it everywhere it is used.
+t: Benedíctus Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ: || Blessed be the Lord, the God of Israel, * for He has visited and wrought the redemption of His people;
+t: Et eréxit cornu salútis nobis: * in domo David, púeri sui. || And has raised up a horn of salvation for us * in the house of David His servant,
+t: Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus: || As He spoke by the mouth of His holy ones, * the prophets from of old:
+t: Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos: || Salvation from our enemies * and from the hand of all who hate us,
+t: Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti. || To show mercy to our fathers * and to remember His holy covenant,
+t: Jusjurándum, quod jurávit ad Ábraham, patrem nostrum, * datúrum se nobis: || The oath which He swore to Abraham our father, * that He would grant us
+t: Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi. || That, delivered from the hand of our enemies, * we might serve Him without fear,
+t: In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris. || In holiness and justice before Him * all our days.
+t: Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini paráre vias ejus: || And you, child, shall be called the Prophet of the Most High, * for you shall go before the face of the Lord to prepare His ways,
+t: Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum: || To give His people knowledge of salvation * in the forgiveness of their sins,
+t: Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto: || Through the tender mercy of our God, * by which the Dayspring from on high has visited us,
+t: Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis. || To shine on those who sit in darkness and in the shadow of death, * to guide our feet into the way of peace.

@@ -1,0 +1,345 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Confirmation by a priest; Mass instructions; Forty Hours (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Instruction for a Simple Priest Administering the Sacrament of Confirmation by Delegation of the Apostolic See
+// ──────────────────────────────────────────────────────────────────────
+# confirmation-priest-rules | Instructio pro simplici Sacerdote Sacramentum Confirmationis ex Sedis Apostolicæ delegatione administrante | Instruction for a Simple Priest Administering the Sacrament of Confirmation by Delegation of the Apostolic See | Sacraments | Appendix, De Confirmatione
+r: 1. Sacramentum Confirmationis conferri debet per manus impositionem cum unctione Chrismatis in fronte et per verba in pontificalibus libris ab Ecclesia probatis præscripta. || 1. The Sacrament of Confirmation must be conferred by the imposition of the hand together with the anointing with Chrism on the forehead, and by the words prescribed in the pontifical books approved by the Church.
+r: 2. Hoc Sacramentum, quod characterem imprimit, iterari nequit. || 2. This Sacrament, since it imprints a character, cannot be repeated.
+r: Si vero prudens dubium exsistat, num revera vel num valide collatum fuerit, sub condicione iterum conferatur. || But if a prudent doubt exists whether it was in fact conferred, or whether it was validly conferred, it is to be conferred again conditionally.
+r: 3. Chrisma, quod huic Sacramento administrando inservit, debet esse ab Episcopo benedictum Feria quinta in Cena Domini proxime superiore; neque adhibeatur vetus, nisi necessitas urgeat. || 3. The Chrism used in administering this Sacrament must have been blessed by the bishop on the most recent Thursday of the Lord's Supper; old Chrism is not to be used unless necessity requires it.
+r: Mox, deficienti oleo benedicto aliud oleum de olivis non benedictum adjiciatur, etiam iterato, minore tamen copia. || If the blessed oil is running short, other unblessed olive oil may be added to it, even repeatedly, but always in a smaller quantity.
+r: 4. Chrisma, in Sacramento Confirmationis adhibendum, debet esse ab Episcopo consecratum, etiamsi Sacramentum a Presbytero, ex jure vel ex Apostolico indulto, ministretur. || 4. The Chrism to be used in the Sacrament of Confirmation must have been consecrated by a bishop, even when the Sacrament is administered by a priest, whether by law or by Apostolic indult.
+r: Unctio autem ne fiat aliquo instrumento, sed ipsa Ministri manu capiti confirmandi rite imposita. || The anointing is not to be done with any instrument, but with the minister's own hand duly laid upon the head of the one to be confirmed.
+r: 5. Ordinarius Confirmationis Minister est solus Episcopus. || 5. The ordinary minister of Confirmation is the bishop alone.
+r: Extraordinarius Minister est Presbyter, cui vel jure communi vel peculiari Sedis Apostolicæ indulto ea facultas concessa sit. || The extraordinary minister is a priest to whom this faculty has been granted, either by the common law or by a particular indult of the Apostolic See.
+r: Hac facultate ipso jure gaudent, præter S. R. E. Cardinales, Abbas vel Prælatus nullius, Vicarius et Præfectus Apostolicus, qui tamen ea valide uti nequeunt, nisi intra fines sui territorii et durante munere tantum. || Besides the Cardinals of the Holy Roman Church, the following enjoy this faculty by the law itself: an abbot or prelate nullius, and a vicar apostolic and prefect apostolic; these, however, cannot use it validly except within the boundaries of their own territory and only while they hold office.
+r: Presbyter latini ritus cui, vi indulti, hæc facultas competat, Confirmationem valide confert solis fidelibus sui ritus, nisi in indulto aliud expresse cautum fuerit. || A priest of the Latin rite who has this faculty by virtue of an indult validly confers Confirmation only on the faithful of his own rite, unless the indult expressly provides otherwise.
+r: Nefas est Presbyteris ritus orientalis, qui facultate vel privilegio gaudent, Confirmationem una cum Baptismo infantibus sui ritus conferendi, eandem ministrare infantibus latini ritus. || Priests of an Eastern rite who enjoy the faculty or privilege of conferring Confirmation together with Baptism on infants of their own rite are forbidden to administer it to infants of the Latin rite.
+r: 6. Presbytero licet, si Apostolico locali privilegio sit munitus, in designato sibi territorio confirmare etiam extraneos, nisi id ipsorum Ordinarii expresse vetuerint. || 6. A priest who is furnished with a local Apostolic privilege may, within the territory assigned to him, confirm even persons from elsewhere, unless their own Ordinaries have expressly forbidden it.
+r: 7. Presbyter, privilegio Apostolico donatus, obligatione tenetur Sacramentum hoc illis, quorum in favorem est concessa facultas, rite et rationabiliter petentibus conferendi. || 7. A priest granted an Apostolic privilege is bound by obligation to confer this Sacrament on those in whose favor the faculty was granted, when they ask for it duly and reasonably.
+r: 8. Aquis Baptismi non ablutus valide confirmari nequit; præterea, ut quis licite et fructuose confirmetur, debet esse in statu gratiæ constitutus et, si usu rationis polleat, sufficienter instructus. || 8. One who has not been washed in the waters of Baptism cannot be validly confirmed; moreover, in order to be confirmed lawfully and fruitfully, a person must be in the state of grace and, if he has the use of reason, sufficiently instructed.
+r: 9. Quamquam hoc Sacramentum non est de necessitate medii ad salutem, nemini tamen licet, oblata occasione, illud neglegere; immo Parochi curent ut fideles ad illud opportuno tempore accedant. || 9. Although this Sacrament is not necessary for salvation as a means, no one may neglect it when the opportunity is offered; indeed pastors are to see to it that the faithful receive it at the proper time.
+r: 10. Licet Sacramenti Confirmationis administratio convenienter in Ecclesia Latina differatur ad septimum circiter ætatis annum, nihilominus etiam antea conferri potest, si infans in mortis periculo sit constitutus, vel Ministro id expedire, ob justas et graves causas, videatur. || 10. Although in the Latin Church the administration of the Sacrament of Confirmation is fittingly deferred until about the seventh year of age, it may nevertheless be conferred earlier if the infant is in danger of death, or if for just and grave reasons it seems expedient to the minister.
+r: 11. Confirmandi, si plures sint, adsint primæ manuum impositioni seu extensioni, nec nisi expleto ritu discedant. || 11. If there are several to be confirmed, they are to be present for the first imposition or extension of hands, and they are not to leave until the rite is finished.
+r: 12. Hoc Sacramentum quovis tempore conferri potest; maxime autem decet illud administrari in hebdomada Pentecostes. || 12. This Sacrament may be conferred at any time; but it is most fitting that it be administered during the week of Pentecost.
+r: 13. Licet proprius Confirmationis administrandæ locus ecclesia sit, ex causa tamen quam Minister justam ac rationabilem judicaverit, potest hoc Sacramentum in quolibet alio decenti loco conferri. || 13. Although the proper place for administering Confirmation is a church, for a cause which the minister judges just and reasonable this Sacrament may be conferred in any other fitting place.
+r: 14. Ex vetustissimo Ecclesiæ more, ut in Baptismo, ita etiam in Confirmatione adhibendus est patrinus, si haberi possit. || 14. According to the most ancient custom of the Church, a sponsor is to be employed in Confirmation as in Baptism, if one can be had.
+r: 15. Patrinus unum tantum confirmandum aut duos præsentet, nisi aliud justa de causa Ministro videatur. || 15. A sponsor is to present only one or two candidates, unless for a just cause the minister decides otherwise.
+r: Unus quoque pro singulis confirmandis sit patrinus. || There is also to be only one sponsor for each person to be confirmed.
+r: 16. Ut quis sit patrinus, oportet: || 16. For someone to be a sponsor, it is required that:
+r: 1° Sit ipse quoque confirmatus, rationis usum assecutus et intentionem habeat id munus gerendi. || 1° he himself be confirmed, have attained the use of reason, and have the intention of carrying out this office;
+r: 2° Nulli hæreticæ aut schismaticæ sectæ sit adscriptus, nec sententia condemnatoria vel declaratoria sit excommunicatus aut infamis infamia juris aut exclusus ab actibus legitimis, nec sit clericus depositus vel degradatus. || 2° he belong to no heretical or schismatic sect, and not be excommunicated, or infamous with infamy of law, or excluded from legal acts, by a condemnatory or declaratory sentence, nor be a deposed or degraded cleric;
+r: 3° Non sit pater, mater, conjux confirmandi. || 3° he not be the father, mother, or spouse of the one to be confirmed;
+r: 4° A confirmando ejusve parentibus vel tutoribus vel, hi si desint aut renuant, a Ministro vel a Parocho sit designatus. || 4° he be designated by the one to be confirmed, or by his parents or guardians, or, if these are lacking or refuse, by the minister or the pastor;
+r: 5° Confirmandum in ipso Confirmationis actu per se vel per procuratorem physice tangat. || 5° he physically touch the one being confirmed, in the very act of Confirmation, either personally or through a proxy.
+r: 17. Ut quis licite ad patrini munus admittatur, oportet: || 17. For someone to be lawfully admitted to the office of sponsor, it is required that:
+r: 1° Sit alius a patrino Baptismi, nisi rationabilis causa, judicio Ministri, aliud suadeat, aut statim post Baptismum legitime Confirmatio conferatur. || 1° he be someone other than the sponsor at Baptism, unless a reasonable cause, in the judgment of the minister, suggests otherwise, or Confirmation is lawfully conferred immediately after Baptism;
+r: 2° Sit ejusdem sexus ac confirmandus, nisi aliud Ministro in casibus particularibus ex rationabili causa videatur. || 2° he be of the same sex as the one to be confirmed, unless in particular cases the minister for a reasonable cause decides otherwise;
+r: 3° Decimum quartum suæ ætatis annum attigerit, nisi aliud justa de causa Ministro videatur. || 3° he have reached his fourteenth year of age, unless for a just cause the minister decides otherwise;
+r: 4° Non sit propter notorium delictum excommunicatus vel exclusus ab actibus legitimis vel infamis infamia juris, quin tamen sententia intercesserit, nec sit interdictus aut alias publice criminosus vel infamis infamia facti. || 4° he not be excommunicated, or excluded from legal acts, or infamous with infamy of law on account of a notorious offense, even though no sentence has been passed, nor be under interdict or otherwise a public criminal or infamous with infamy of fact;
+r: 5° Fidei rudimenta noverit. || 5° he know the rudiments of the faith;
+r: 6° In nulla religione sit novicius vel professus, nisi necessitas urgeat et expressa habeatur venia Superioris saltem localis. || 6° he be neither a novice nor a professed member in any religious institute, unless necessity requires it and the express permission of at least the local superior has been obtained;
+r: 7° In sacris ordinibus non sit constitutus, nisi accedat expressa Ordinarii proprii licentia. || 7° he not be in sacred orders, unless he has the express permission of his own Ordinary.
+r: 18. Ex valida Confirmatione oritur inter confirmatum et patrinum cognatio spiritualis, ex qua patrinus obligatione tenetur confirmatum perpetuo sibi commendatum habendi ejusque christianam educationem curandi. || 18. From a valid Confirmation there arises a spiritual relationship between the one confirmed and the sponsor, by which the sponsor is bound by obligation to regard the one confirmed as entrusted to him for ever and to look after his Christian upbringing.
+r: 19. Nomina Ministri, confirmatorum, parentum et patrinorum, diem ac locum Confirmationis Parochus inscribat in peculiari libro, præter adnotationem in libro baptizatorum. || 19. The pastor is to record in a special book the names of the minister, of those confirmed, of their parents and of the sponsors, and the day and place of the Confirmation, besides making a note in the baptismal register.
+r: 20. Si proprius confirmati Parochus præsens non fuerit, de collata Confirmatione Minister vel per se ipse vel per alium quamprimum eundem certiorem faciat. || 20. If the proper pastor of the one confirmed was not present, the minister, either personally or through another, is to inform him as soon as possible that the Confirmation has been conferred.
+r: 21. Ad collatam Confirmationem probandam, modo nemini fiat præjudicium, satis est unus testis omni exceptione major, vel ipsius confirmati jusjurandum, nisi confirmatus fuerit in infantili ætate. || 21. To prove that Confirmation has been conferred, provided no one is prejudiced thereby, one witness above all exception suffices, or the sworn statement of the one confirmed himself, unless he was confirmed in infancy.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Rite of Confirmation Administered by a Simple Priest by Delegation of the Apostolic See
+// ──────────────────────────────────────────────────────────────────────
+# confirmation-priest | Ritus Confirmationis a simplici Sacerdote ex Sedis Apostolicæ delegatione administrandæ | The Rite of Confirmation Administered by a Simple Priest by Delegation of the Apostolic See | Sacraments | Appendix, De Confirmatione
+r: Cum tempus advenerit, quo Sacerdos, utens facultate sibi ab Apostolica Sede, ut supra, tributa, administrare Confirmationem intendit, superpelliceo et stola, vel etiam pluviali albi coloris indutus, stans ante Altare versus ad populum hinc inde dispositum (masculis a dexteris, feminis vero a sinistris) circumstantes admoneat, quod nullus alius, nisi Episcopus, Confirmationis ordinarius Minister est; se vero collaturum esse illam jure per S. Sedem delegato. || When the time has come at which the priest, using the faculty granted him by the Apostolic See as above, intends to administer Confirmation, vested in surplice and stole, or also in a white cope, standing before the altar facing the people, who are arranged on either side (the men on the right, the women on the left), he admonishes those present that no one other than the bishop is the ordinary minister of Confirmation, but that he himself will confer it by a power delegated by the Holy See.
+r: Mox, si hujusmodi delegatio per indultum facta fuerit, delegationis Decretum lingua vernacula legatur alta et intellegibili voce; deinde Sacerdos moneat astantes, quod nullus confirmatus discedat, nisi benedictione accepta, quam ipse post omnium Confirmationem dabit. Item, quod infantes, si quos in prima ætate justa de causa confirmandos existimaverit, per patrinos teneantur in brachiis dexteris, et quod adulti ponant pedem suum super pedem dexterum patrini sui; vel patrinus ponat manum suam dexteram super humerum dexterum confirmandi, sive infantis sive adulti. || Then, if such delegation was made by indult, the decree of delegation is read in the vernacular in a loud and intelligible voice; next the priest admonishes those present that none of the confirmed should leave before receiving the blessing, which he will give after all have been confirmed. Likewise, that infants, if for a just cause he has judged that any should be confirmed in early infancy, are to be held by their sponsors on the right arm, and that adults are to place their foot on the right foot of their sponsor; or else the sponsor places his right hand on the right shoulder of the one to be confirmed, whether infant or adult.
+r: Hac altera monitione completa, pariter stans versa facie ad confirmandos, junctis ante pectus manibus, confirmandis vero genua flectentibus et manus ante pectus junctas tenentibus, dicit: || When this second admonition is finished, still standing and facing those to be confirmed, with his hands joined before his breast, while those to be confirmed kneel with their hands joined before their breast, he says:
+v: Spíritus Sanctus supervéniat in vos, et virtus Altíssimi custódiat vos a peccátis. ℟. Amen. || May the Holy Spirit come upon you, and may the power of the Most High keep you from sins. ℟. Amen.
+r: Deinde signans se a fronte ad pectus signo crucis, dicit: || Then, signing himself with the sign of the cross from forehead to breast, he says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: Tunc extensis versus confirmandos manibus, dicit: || Then, with his hands extended toward those to be confirmed, he says:
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui regeneráre dignátus es hos fámulos tuos ex aqua, et Spíritu Sancto, quique dedísti eis remissiónem ómnium peccatórum: emítte in eos septifórmem Spíritum tuum Sanctum Paráclitum de cælis. ℟. Amen. || Almighty, everlasting God, who have deigned to give new birth to these Your servants by water and the Holy Spirit, and have granted them the remission of all their sins: send forth upon them from heaven Your sevenfold Spirit, the Holy Paraclete. ℟. Amen.
+t: Spíritum sapiéntiæ, et intelléctus. ℟. Amen. || The Spirit of wisdom and of understanding. ℟. Amen.
+t: Spíritum consílii, et fortitúdinis. ℟. Amen. || The Spirit of counsel and of fortitude. ℟. Amen.
+t: Spíritum sciéntiæ, et pietátis. ℟. Amen. || The Spirit of knowledge and of piety. ℟. Amen.
+t: Adímple eos Spíritu timóris tui, et consígna eos signo Cru✠cis Christi, in vitam propitiátus ætérnam. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Fill them with the Spirit of Your fear, and, in Your mercy, seal them with the sign of the ✠ Cross of Christ unto life eternal. Through the same Jesus Christ, Your Son, our Lord, who lives and reigns with You in the unity of the same Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Postea Sacerdos confirmat illos per ordinem genuflexos, primo mares, secundo feminas. Uno ordine confirmato, illi surgunt, et alii genuflectunt, et confirmantur, et sic usque in finem. Inquirit autem singillatim de nomine cujuslibet confirmandi, sibi per patrinum vel matrinam flexis genibus præsentati, et summitate pollicis dexteræ manus Chrismate intincta, confirmat eum dicens: || Afterwards the priest confirms them in order as they kneel, first the males, then the females. When one row has been confirmed, they rise, and others kneel and are confirmed, and so on to the end. He asks the name of each one to be confirmed individually, as each is presented to him kneeling by the godfather or godmother, and, with the tip of the thumb of his right hand dipped in Chrism, he confirms him, saying:
+t: N., Signo te signo Cru✠cis *(quod dum dicit, imposita manu dextera super caput confirmandi, producit pollice signum crucis in fronte illius, deinde prosequitur:)* et confírmo te Chrísmate salútis. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || N., I sign you with the sign of the ✠ Cross *(while saying this, with his right hand laid on the head of the one to be confirmed, he traces the sign of the cross on his forehead with his thumb; then he continues:)* and I confirm you with the Chrism of salvation. In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+r: Et leviter eum in maxilla cædit, dicens: || And he strikes him lightly on the cheek, saying:
+t: Pax tecum. || Peace be with you.
+r: Ligantur mox vittis lineis recenter confirmatorum frontes. Quod sicubi hujusmodi vittæ non adhibeantur, Sacerdos, postquam frontes confirmandorum linierit sacro Chrismate, eas gossypio, postea comburendo, diligenter abstergat. || The foreheads of the newly confirmed are then bound with linen bands. Where such bands are not used, the priest, after anointing the foreheads of those being confirmed with sacred Chrism, carefully wipes them with cotton wool, which is afterwards to be burned.
+r: Omnibus confirmatis, Sacerdos tergit cum mica panis, et lavat pollicem et manus super pelvim; deinde aqua lotionis cum pane fundatur in piscinam sacrarii, in qua reponi debent etiam supradictorum gossypiorum cineres. || When all have been confirmed, the priest cleanses his thumb with a crumb of bread and washes his thumb and hands over a basin; then the water of the washing, together with the bread, is poured into the piscina of the sacristy, into which the ashes of the cotton wool mentioned above are also to be put.
+r: Interim dum lavat manus, si adsint ministri, cantatur, vel legitur ab iis sequens Antiphona; alias post lotionem ab ipso Sacerdote dicitur: || Meanwhile, while he washes his hands, if ministers are present, the following antiphon is sung or read by them; otherwise it is said by the priest himself after the washing:
+t: *Ant.* Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem. || *Ant.* Confirm, O God, what You have wrought in us, from Your holy temple, which is in Jerusalem.
+v: Glória Patri, et Fílio, et Spirítui Sancto: Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. || Glory be to the Father, and to the Son, and to the Holy Spirit: as it was in the beginning, is now, and ever shall be, world without end. Amen.
+r: Et repetitur Antiphona: || And the antiphon is repeated:
+t: *Ant.* Confírma hoc, Deus, etc. || *Ant.* Confirm, O God, etc.
+r: Qua repetita, Sacerdos stans versus ad Altare, junctis ante pectus manibus dicit: || When it has been repeated, the priest, standing facing the altar with his hands joined before his breast, says:
+v: Osténde nobis, Dómine, misericórdiam tuam. || Show us, O Lord, Your mercy.
+x: Et salutáre tuum da nobis. || And grant us Your salvation.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: Junctis vero adhuc ante pectus manibus, et omnibus confirmatis devote genua flectentibus, dicit: || With his hands still joined before his breast, and all the confirmed devoutly kneeling, he says:
+t: Orémus. || Let us pray.
+t: Deus, qui Apóstolis tuis Sanctum dedísti Spíritum, et per eos eorúmque successóres céteris fidélibus tradéndum esse voluísti: réspice propítius ad humilitátis nostræ famulátum, et præsta; ut eórum corda, quorum frontes sacro Chrísmate delinívimus, et signo sanctæ Crucis signávimus, idem Spíritus Sanctus in eis supervéniens, templum glóriæ suæ dignánter inhabitándo perfíciat: Qui cum Patre, et eódem Spíritu Sancto vivis et regnas Deus, in sǽcula sæculórum. ℟. Amen. || O God, who gave the Holy Spirit to Your Apostles, and willed that through them and their successors He should be handed on to the rest of the faithful: look graciously upon the service of our lowliness, and grant that the same Holy Spirit, coming down upon those whose foreheads we have anointed with sacred Chrism and signed with the sign of the holy Cross, may, by graciously dwelling in their hearts, make them a temple of His glory: who with the Father and the same Holy Spirit live and reign, God, for ever and ever. ℟. Amen.
+r: Deinde dicit: || Then he says:
+t: Ecce, sic benedicétur omnis homo, qui timet Dóminum. || Behold, thus shall every man be blessed who fears the Lord.
+r: Et vertens se ad confirmatos, ac faciens super eos signum crucis, dicit: || And turning to the confirmed, and making the sign of the cross over them, he says:
+t: Bene✠dícat vos Dóminus ex Sion, ut videátis bona Jerúsalem ómnibus diébus vitæ vestræ, et habeátis vitam ætérnam. ℟. Amen. || May the Lord ✠ bless you out of Sion, that you may see the good things of Jerusalem all the days of your life, and may have life everlasting. ℟. Amen.
+r: Absoluta hoc modo Confirmatione, Sacerdos sedens patrinos et matrinas monet, quod instruant filios suos bonis moribus, ut fugiant mala, et faciant bona; et doceant eos Credo in Deum, et Pater noster, et Ave Maria, quoniam ad hoc sunt obligati. || When the Confirmation has been completed in this way, the priest, seated, admonishes the godfathers and godmothers to train their spiritual children in good conduct, that they may shun evil and do good, and to teach them the Creed, the Our Father, and the Hail Mary, since they are obliged to do this.
+r: Hoc Sacramentum potest conferri minus sollemniter, et præsertim tunc, cum in privatis domibus, vel extra ecclesiam seu oratorium, pueris ægrotantibus conferendum est, vel etiam adultis, qui ad ecclesiam quacumque ex causa, legitima tamen, accedere nequeunt. In iis casibus Sacerdos ne omittat uti saltem stola, si superpelliceum habere non possit. Cavere etiam debet, ne coram hæreticis, aut schismaticis, et multo minus eis ministrantibus, confirmet. || This Sacrament may be conferred less solemnly, especially when it is to be conferred in private houses, or outside a church or oratory, on sick children, or also on adults who for any cause, provided it is legitimate, cannot come to the church. In such cases the priest should not fail to use at least a stole, if he cannot have a surplice. He must also take care not to confirm in the presence of heretics or schismatics, and much less with them assisting.
+
+// ──────────────────────────────────────────────────────────────────────
+// Instruction for a Priest Having the Faculty to Celebrate Mass Twice on the Same Day
+// ──────────────────────────────────────────────────────────────────────
+# mass-bination | Instructio pro Sacerdote facultatem habente bis Missam eadem die celebrandi | Instruction for a Priest Having the Faculty to Celebrate Mass Twice on the Same Day | Sacraments | Appendix, De sanctissima Eucharistia, I
+r: Instructio a S. R. C. edita die 11 Martii 1858. || Instruction issued by the Sacred Congregation of Rites on 11 March 1858.
+r: Quando Sacerdos eadem die duas Missas dissitis in locis celebrare debet, in prima, dum divinum Sanguinem sumit, eum diligentissime sorbeat. Exinde super corporale ponat Calicem et palla tegat, ac junctis manibus in medio Altari dicat: Quod ore súmpsimus, etc., et subinde admoto aquæ vasculo digitos lavet dicens: Corpus tuum, etc., et abstergat. || When a priest must celebrate two Masses on the same day in places distant from each other, in the first Mass, when he consumes the divine Blood, he is to drink it most carefully. Then he places the chalice on the corporal and covers it with the pall, and with hands joined in the middle of the altar says: "What we have taken with our mouth," etc.; and then, the little vessel of water being brought, he washes his fingers, saying: "May Your Body," etc., and dries them.
+r: Hisce peractis Calicem, super corporale manentem adhuc, deducta palla cooperiat, ceu mos est, scilicet primum purificatorio linteo, deinde patena ac palla, et demum velo. || This done, with the chalice still remaining on the corporal and the pall removed, he covers it in the usual way, that is, first with the purificator, then with the paten and pall, and finally with the veil.
+r: Post hæc Missam prosequatur, et completo ultimo Evangelio, rursus stet in medio Altaris, et detecto Calice, inspiciat, an aliquid divini Sanguinis nec ne ad imum se receperit, quod plerumque contingit. Quamvis enim sacræ species primum sedulo sorptæ sint, tamen, dum sumuntur, cum particulæ, quæ circum sunt, undequaque sursum deferantur, nonnisi deposito Calice ad imum redeunt. Si itaque divini Sanguinis gutta quædam supersit adhuc, ea rursus ac diligenter sorbeatur, et quidem ex eadem Calicis parte, qua ille primum est sumptus. Quod nullimode omittendum est, quia Sacrificium moraliter durat, et superexstantibus adhuc vini speciebus, ex divino præcepto compleri debet. || After this he continues the Mass, and when the last Gospel is finished he again stands in the middle of the altar and, uncovering the chalice, looks to see whether any of the divine Blood has gathered at the bottom, as usually happens. For although the sacred species were at first carefully drunk, yet while they are being consumed, the particles round about are carried upward on every side and only return to the bottom once the chalice has been set down. If, therefore, some drop of the divine Blood still remains, it is to be drunk again, carefully, and indeed from the same side of the chalice from which it was first consumed. This is by no means to be omitted, because the Sacrifice morally continues, and since the species of wine still remain, it must by divine precept be completed.
+r: Postmodum Sacerdos in ipsum Calicem tantum saltem aquæ fundat, quantum prius vini posuerat, eamque circumactam, ex eadem parte, qua sacrum Sanguinem biberat, in paratum vas demittat. Calicem subinde ipsum purificatorio linteo abstergat, ac demum cooperiat, uti alias fit, atque ab Altari discedat. || Afterwards the priest pours into the chalice at least as much water as he had previously put in of wine and, having swirled it round, pours it out into a prepared vessel from the same side from which he had drunk the sacred Blood. He then wipes the chalice with the purificator and finally covers it as is otherwise done, and leaves the altar.
+r: Depositis sacris vestibus, et gratiarum actione completa, aqua e Calice demissa, pro rerum adjunctis, vel ad diem crastinum servetur (si nempe eo rursus Sacerdos redeat, Missam habiturus) et in exsequenda purificatione in Calicem demittatur, vel gossypio aut stuppa absorpta comburatur, vel in sacrario, si sit, exsiccanda relinquatur, vel demittatur in piscinam. || When the sacred vestments have been put off and the thanksgiving completed, the water poured from the chalice, according to circumstances, is either kept until the next day (namely, if the priest is to return there to say Mass) and poured into the chalice at the ablution, or absorbed with cotton wool or tow and burned, or left to dry in the sacrarium, if there is one, or poured into the piscina.
+r: Cum autem Calix, quo Sacerdos primum est usus, purificatus jam sit, si illo ipso pro Missa altera indigeat, eum secum deferat: secus vero in altera Missa diverso Calice uti poterit. || Since the chalice which the priest used first has now been purified, if he needs that same one for the other Mass he takes it with him; otherwise he may use a different chalice in the other Mass.
+r: Quando vero Sacerdos eadem die duas Missas in eadem ecclesia offerre debet, se gerat uti supra dictum est, sed absoluta Missa quin Calicem purificet, si in ecclesia non sit sacristia, eum eodem modo super Altare relinquet; secus vero in sacristiam deferet, ibique super corporale vel pallam in aliquo loco decenti et clauso collocabit usque ad secundam Missam, in qua, cum eodem Calice uti debeat, illum rursus cum hostia consecranda secum deferet ad Altare, ac super corporale extensum reponet. || But when a priest must offer two Masses on the same day in the same church, he is to proceed as said above; but when the Mass is finished, without purifying the chalice, he leaves it on the altar in the same manner if the church has no sacristy; otherwise he carries it to the sacristy and places it there on a corporal or pall in some fitting and closed place until the second Mass, in which, since he must use the same chalice, he again carries it with him to the altar together with the host to be consecrated, and sets it on the spread corporal.
+r: Cum autem in secunda Missa Sacerdos ad Offertorium devenerit, ablato velo de Calice, hunc parumper versus cornu Epistolæ collocabit, sed non extra corporale; factaque hostiæ oblatione, non absterget Calicem purificatorio, sed eum intra corporale relinquens leviter elevabit, vinumque et aquam eidem caute infundet, ipsumque Calicem nullatenus ab intus abstersum more solito offeret. || When in the second Mass the priest reaches the Offertory, having removed the veil from the chalice, he places it a little toward the Epistle side, but not off the corporal; and after the offering of the host he does not wipe the chalice with the purificator, but, leaving it on the corporal, raises it slightly and carefully pours the wine and water into it, and offers the chalice in the usual way without having wiped it inside at all.
+
+// ──────────────────────────────────────────────────────────────────────
+// Instruction for a Priest of Weak Sight concerning the Celebration of Mass Granted Him by Apostolic Indult
+// ──────────────────────────────────────────────────────────────────────
+# mass-blind-priest | Instructio pro Sacerdote cæcutiente circa Missarum celebrationem eidem ex indulto Apostolico concessam | Instruction for a Priest of Weak Sight concerning the Celebration of Mass Granted Him by Apostolic Indult | Sacraments | Appendix, De sanctissima Eucharistia, II
+r: Instructio a S. R. C. edita die 12 Januarii 1921. || Instruction issued by the Sacred Congregation of Rites on 12 January 1921.
+h: 1. Prænotanda || 1. Preliminary Notes
+r: 1. Sacerdos cæcutiens seu tali visivæ potentiæ debilitate, sive accidentaliter sive habitualiter, laborans, ut legere possit nonnisi typos valde crassos, a Summo Pontifice seu Sacra Rituum Congregatione, nisi Episcopus Apostolica facultate fuerit munitus, dispensationem obtinere potest celebrandi, juxta normas inferius accuratius exponendas, aut Missam votivam de beata Maria Virgine aut Missam, quam vocant, cotidianam Defunctorum. || 1. A priest who is partially blind, or who suffers, whether temporarily or habitually, from such weakness of sight that he can read only very large type, may obtain from the Supreme Pontiff or the Sacred Congregation of Rites (unless the bishop has been furnished with an Apostolic faculty) a dispensation to celebrate, according to the norms set out more precisely below, either the votive Mass of the Blessed Virgin Mary or the so-called daily Mass for the Dead.
+r: 2. Condiciones vero in hujusmodi privilegii instrumento appositæ, non sunt meræ ritualitatis et styli, sed obligatoriæ in conscientia. || 2. The conditions attached in the document of such a privilege are not mere matters of formality and style, but are binding in conscience.
+r: 3. Si in privilegio dicatur: Dúmmodo Orátor non sit omnino cæcus, et interea plane cæcus evadat, tunc a celebrando Missam abstinere debet, donec novum indultum impetraverit; eoque obtento, sub gravi tenetur assistentia uti alterius Sacerdotis, quamvis forte hæc obligatio in indulto non expresse fuerit apposita. || 3. If the privilege says, "provided the petitioner is not totally blind," and meanwhile he becomes completely blind, he must abstain from celebrating Mass until he has obtained a new indult; and when this has been obtained, he is bound under grave obligation to use the assistance of another priest, even if perhaps this obligation was not expressly attached in the indult.
+h: 2. Regulæ circa Missam votivam de beata Maria Virgine || 2. Rules concerning the Votive Mass of the Blessed Virgin Mary
+h: I. Quæ Missa votiva de beata Maria Virgine sit dicenda || I. Which Votive Mass of the Blessed Virgin Mary Is to Be Said
+r: 1. Cæcutiens dispensatus dicat Missam inter votivas de beata Maria Virgine assignatas quintam, quovis anni tempore. || 1. A dispensed priest of weak sight is to say the fifth of the votive Masses assigned for the Blessed Virgin Mary, at any time of the year.
+r: 2. Si vero tantæ adhuc est potentiæ visivæ ut legere possit etiam alias quatuor Missas votivas de beata Maria Virgine in Missali cæcutientium pro diversitate Temporum exstantes, facultas ei sit, easdem celebrare juxta Temporum diversitatem. || 2. But if his sight is still strong enough for him to read also the other four votive Masses of the Blessed Virgin Mary found in the Missal for those of weak sight according to the different seasons, he has the faculty to celebrate them according to the difference of the seasons.
+h: II. Quando Missa votiva de beata Maria Virgine sit dicenda || II. When the Votive Mass of the Blessed Virgin Mary Is to Be Said
+r: 1. Missa votiva de beata Maria Virgine dici potest quovis anni tempore; dici vero debet omnibus et singulis diebus, in quibus non permittantur Missæ cotidianæ Defunctorum juxta Kalendarium ecclesiæ in qua Sacerdos cæcutiens celebrat; salvis tamen privilegiis ulterioribus circa Missas Defunctorum infra num. 3 expositis. || 1. The votive Mass of the Blessed Virgin Mary may be said at any time of the year; and it must be said on each and every day on which daily Masses for the Dead are not permitted according to the calendar of the church in which the priest of weak sight celebrates, without prejudice, however, to the further privileges concerning Masses for the Dead set out below in no. 3.
+r: 2. In Triduo sacro Majoris Hebdomadæ Sacerdos cæcutiens omnino a celebrando abstinebit. || 2. During the Sacred Triduum of Holy Week the priest of weak sight is to abstain from celebrating altogether.
+r: 3. In Festo Nativitatis Domini tres dicere potest Missas. || 3. On the feast of the Nativity of the Lord he may say three Masses.
+h: III. Quo ritu sit celebranda || III. With What Rite It Is to Be Celebrated
+r: 1. Si Missa votiva de beata Maria Virgine celebretur pro re gravi et publica simul causa, a Sacerdote cæcutiente semper dicuntur unica Oratio, Glória in excélsis, Credo, Præfatio in tono sollemni, Ite, Missa est, et ultimum Evangelium S. Joannis In princípio, etsi a Sacerdotibus non privilegiatis facienda esset illa die commemoratio, vel dicenda Collecta ab Ordinario imperata, vel dicendum in fine Evangelium Officii commemorati, juxta Rubricas. || 1. If the votive Mass of the Blessed Virgin Mary is celebrated for a grave matter that is also a public cause, the priest of weak sight always says a single Collect, the Gloria in excelsis, the Creed, the Preface in the solemn tone, Ite, Missa est, and the last Gospel of St. John, In principio, even if on that day priests not so privileged would have to make a commemoration, or say a Collect ordered by the Ordinary, or say at the end the Gospel of the Office commemorated, according to the rubrics.
+r: 2. In omnibus aliis casibus || 2. In all other cases:
+r: a) Dicitur Glória in excélsis: || a) The Gloria in excelsis is said:
+r: I. Quandocumque dicendum est in Missa diei currentis, juxta Kalendarium ecclesiæ in qua Missa celebratur. || I. Whenever it is to be said in the Mass of the current day, according to the calendar of the church in which the Mass is celebrated.
+r: II. In jubilæo propriæ ordinationis sacerdotalis. || II. On the jubilee of his own priestly ordination.
+r: III. Infra Octavas, etiam simplices, beatæ Mariæ Virginis, juxta Kalendarium ecclesiæ in qua Missa celebratur. || III. Within octaves, even simple ones, of the Blessed Virgin Mary, according to the calendar of the church in which the Mass is celebrated.
+r: IV. In sabbato. || IV. On Saturday.
+r: b) Ad Orationes quod attinet, hæc observanda sunt: || b) As regards the Collects, the following are to be observed:
+r: I. Secunda et tertia Oratio non adduntur, quandocumque Orationes de Tempore excluduntur a ritu Missæ diei currentis, juxta Kalendarium ecclesiæ in qua Missa celebratur. || I. The second and third Collects are not added whenever the Collects of the season are excluded from the rite of the Mass of the current day, according to the calendar of the church in which the Mass is celebrated.
+r: II. Secus tres dicantur Orationes, et quidem secunda de Spiritu Sancto, tertia contra persecutores Ecclesiæ vel pro Papa. || II. Otherwise three Collects are said: the second of the Holy Spirit, the third against the persecutors of the Church or for the Pope.
+r: c) Dicitur Credo: || c) The Creed is said:
+r: I. Quandocumque dicendum est in Missa diei occurrentis, juxta Kalendarium ecclesiæ in qua Missa celebratur. || I. Whenever it is to be said in the Mass of the occurring day, according to the calendar of the church in which the Mass is celebrated.
+r: II. In jubilæo propriæ ordinationis sacerdotalis. || II. On the jubilee of his own priestly ordination.
+r: d) In Præfatione dicitur Et te in veneratióne, præterquam in Festis et per Octavas, etiam simplices, beatæ Mariæ Virginis, in quibus Præfatio dicitur perinde ac si Missa de Festo vel de Octava celebraretur. || d) In the Preface, "Et te in veneratione" is said, except on feasts and during octaves, even simple ones, of the Blessed Virgin Mary, on which the Preface is said just as if the Mass of the feast or of the octave were being celebrated.
+r: e) Ultimum Evangelium semper est S. Joannis In princípio. || e) The last Gospel is always that of St. John, In principio.
+r: f) In oratoriis privatis, Kalendarium proprium Celebrantis tenet locum Kalendarii ecclesiæ in qua Missa celebratur; idque etiam circa Missam Defunctorum servabitur. || f) In private oratories, the celebrant's own calendar takes the place of the calendar of the church in which the Mass is celebrated; and this is also to be observed with regard to the Mass for the Dead.
+h: 3. Regulæ circa Missam Defunctorum || 3. Rules concerning the Mass for the Dead
+r: 1. Loco Missæ votivæ de beata Maria Virgine Sacerdos cæcutiens celebrare potest Missam cotidianam Defunctorum, cum vel sine cantu, ad normam Rubricarum de Missis Defunctorum, juxta Kalendarium ecclesiæ in qua celebrat. || 1. In place of the votive Mass of the Blessed Virgin Mary, the priest of weak sight may celebrate the daily Mass for the Dead, with or without chant, in accordance with the rubrics on Masses for the Dead, according to the calendar of the church in which he celebrates.
+r: 2. Hanc Missam celebrat etiam (et quidem ter, si placuerit) in Commemoratione Omnium Fidelium Defunctorum, in qua tamen unam tantum Orationem dicet, nempe Fidelium; servata (si bis vel ter hac die celebret) Constitutione Benedicti Papæ XV "Incruentum Altaris sacrificium", cujus vigore unam tantummodo Missam cuicumque maluerit applicare et pro ea stipem percipere valeat: alias vero Missas, nulla stipe percepta, pro omnibus fidelibus defunctis et ad mentem Summi Pontificis, prout ceteri Sacerdotes, applicet. || 2. He also celebrates this Mass (and indeed three times, if he wishes) on the Commemoration of All the Faithful Departed, in which, however, he says only one Collect, namely "Fidelium"; observing (if he celebrates twice or three times on this day) the Constitution of Pope Benedict XV "Incruentum Altaris sacrificium," by virtue of which he may apply only one Mass for whomever he wishes and receive a stipend for it, while he is to apply the other Masses, receiving no stipend, for all the faithful departed and for the intention of the Supreme Pontiff, as other priests do.
+r: 3. Unica Oratio in hac Missa dicitur, quandocumque hæc Missa cotidiana locum teneat Missæ in qua unica tantum Oratio, juxta Rubricas, dici debeat. Secus tres saltem Orationes dicantur: prima tamen et secunda Oratio variari poterunt, juxta peculiarem intentionem et applicationem Missæ. || 3. A single Collect is said in this Mass whenever this daily Mass takes the place of a Mass in which, according to the rubrics, only one Collect is to be said. Otherwise at least three Collects are to be said; the first and second Collects, however, may be varied according to the particular intention and application of the Mass.
+r: 4. Ad Sequentiam Dies iræ Sacerdos cæcutiens numquam tenetur. Attamen si Missam cantet, licet ipse Sequentiam non legat, Chorus eam cantare ne omittat. || 4. The priest of weak sight is never bound to the Sequence Dies iræ. But if he sings the Mass, although he himself does not read the Sequence, the choir is not to omit singing it.
+
+// ──────────────────────────────────────────────────────────────────────
+// Litanies, Prayers and Collects to Be Said at the Forty Hours' Exposition
+// ──────────────────────────────────────────────────────────────────────
+# forty-hours | Litaniæ, Preces et Orationes quæ dici debent in expositione XL Horarum | Litanies, Prayers and Collects to Be Said at the Forty Hours' Exposition | Litanies & Prayers | Appendix, Litaniæ in expositione XL Horarum
+r: Litaniæ, preces et orationes quæ dici debent in expositione XL Horarum in alma Urbe. || The litanies, prayers and collects which are to be said at the exposition of the Forty Hours in the gracious City of Rome.
+h: Litaniæ Sanctorum || The Litany of the Saints
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, eléison. || Christ, have mercy.
+t: Kýrie, eléison. || Lord, have mercy.
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Pater de cælis, Deus, _miserére nobis._ || God the Father of heaven, _have mercy on us._
+t: Fili, Redémptor mundi, Deus, _miserére nobis._ || God the Son, Redeemer of the world, _have mercy on us._
+t: Spíritus Sancte, Deus, _miserére nobis._ || God the Holy Spirit, _have mercy on us._
+t: Sancta Trínitas, unus Deus, _miserére nobis._ || Holy Trinity, one God, _have mercy on us._
+t: Sancta María, _ora pro nobis._ || Holy Mary, _pray for us._
+t: Sancta Dei Génetrix, _ora pro nobis._ || Holy Mother of God, _pray for us._
+t: Sancta Virgo vírginum, _ora pro nobis._ || Holy Virgin of virgins, _pray for us._
+t: Sancte Míchaël, _ora pro nobis._ || Saint Michael, _pray for us._
+t: Sancte Gábriel, _ora pro nobis._ || Saint Gabriel, _pray for us._
+t: Sancte Ráphaël, _ora pro nobis._ || Saint Raphael, _pray for us._
+t: Omnes sancti Ángeli et Archángeli, _oráte pro nobis._ || All you holy Angels and Archangels, _pray for us._
+t: Omnes sancti beatórum Spirítuum órdines, _oráte pro nobis._ || All you holy orders of blessed Spirits, _pray for us._
+t: Sancte Joánnes Baptísta, _ora pro nobis._ || Saint John the Baptist, _pray for us._
+t: Sancte Joseph, _ora pro nobis._ || Saint Joseph, _pray for us._
+t: Omnes sancti Patriárchæ et Prophétæ, _oráte pro nobis._ || All you holy Patriarchs and Prophets, _pray for us._
+t: Sancte Petre, _ora pro nobis._ || Saint Peter, _pray for us._
+t: Sancte Paule, _ora pro nobis._ || Saint Paul, _pray for us._
+t: Sancte Andréa, _ora pro nobis._ || Saint Andrew, _pray for us._
+t: Sancte Jacóbe, _ora pro nobis._ || Saint James, _pray for us._
+t: Sancte Joánnes, _ora pro nobis._ || Saint John, _pray for us._
+t: Sancte Thoma, _ora pro nobis._ || Saint Thomas, _pray for us._
+t: Sancte Jacóbe, _ora pro nobis._ || Saint James, _pray for us._
+t: Sancte Philíppe, _ora pro nobis._ || Saint Philip, _pray for us._
+t: Sancte Bartholomǽe, _ora pro nobis._ || Saint Bartholomew, _pray for us._
+t: Sancte Matthǽe, _ora pro nobis._ || Saint Matthew, _pray for us._
+t: Sancte Simon, _ora pro nobis._ || Saint Simon, _pray for us._
+t: Sancte Thaddǽe, _ora pro nobis._ || Saint Thaddeus, _pray for us._
+t: Sancte Matthía, _ora pro nobis._ || Saint Matthias, _pray for us._
+t: Sancte Bárnaba, _ora pro nobis._ || Saint Barnabas, _pray for us._
+t: Sancte Luca, _ora pro nobis._ || Saint Luke, _pray for us._
+t: Sancte Marce, _ora pro nobis._ || Saint Mark, _pray for us._
+t: Omnes sancti Apóstoli et Evangelístæ, _oráte pro nobis._ || All you holy Apostles and Evangelists, _pray for us._
+t: Omnes sancti Discípuli Dómini, _oráte pro nobis._ || All you holy Disciples of the Lord, _pray for us._
+t: Omnes sancti Innocéntes, _oráte pro nobis._ || All you holy Innocents, _pray for us._
+t: Sancte Stéphane, _ora pro nobis._ || Saint Stephen, _pray for us._
+t: Sancte Laurénti, _ora pro nobis._ || Saint Lawrence, _pray for us._
+t: Sancte Vincénti, _ora pro nobis._ || Saint Vincent, _pray for us._
+t: Sancti Fabiáne et Sebastiáne, _oráte pro nobis._ || Saints Fabian and Sebastian, _pray for us._
+t: Sancti Joánnes et Paule, _oráte pro nobis._ || Saints John and Paul, _pray for us._
+t: Sancti Cosma et Damiáne, _oráte pro nobis._ || Saints Cosmas and Damian, _pray for us._
+t: Sancti Gervási et Protási, _oráte pro nobis._ || Saints Gervase and Protase, _pray for us._
+t: Omnes sancti Mártyres, _oráte pro nobis._ || All you holy Martyrs, _pray for us._
+t: Sancte Silvéster, _ora pro nobis._ || Saint Sylvester, _pray for us._
+t: Sancte Gregóri, _ora pro nobis._ || Saint Gregory, _pray for us._
+t: Sancte Ambrósi, _ora pro nobis._ || Saint Ambrose, _pray for us._
+t: Sancte Augustíne, _ora pro nobis._ || Saint Augustine, _pray for us._
+t: Sancte Hierónyme, _ora pro nobis._ || Saint Jerome, _pray for us._
+t: Sancte Martíne, _ora pro nobis._ || Saint Martin, _pray for us._
+t: Sancte Nicoláe, _ora pro nobis._ || Saint Nicholas, _pray for us._
+t: Omnes sancti Pontífices et Confessóres, _oráte pro nobis._ || All you holy Bishops and Confessors, _pray for us._
+t: Omnes sancti Doctóres, _oráte pro nobis._ || All you holy Doctors, _pray for us._
+t: Sancte Antóni, _ora pro nobis._ || Saint Anthony, _pray for us._
+t: Sancte Benedícte, _ora pro nobis._ || Saint Benedict, _pray for us._
+t: Sancte Bernárde, _ora pro nobis._ || Saint Bernard, _pray for us._
+t: Sancte Domínice, _ora pro nobis._ || Saint Dominic, _pray for us._
+t: Sancte Francísce, _ora pro nobis._ || Saint Francis, _pray for us._
+t: Omnes sancti Sacerdótes et Levítæ, _oráte pro nobis._ || All you holy Priests and Levites, _pray for us._
+t: Omnes sancti Mónachi et Eremítæ, _oráte pro nobis._ || All you holy Monks and Hermits, _pray for us._
+t: Sancta María Magdaléna, _ora pro nobis._ || Saint Mary Magdalene, _pray for us._
+t: Sancta Ágatha, _ora pro nobis._ || Saint Agatha, _pray for us._
+t: Sancta Lúcia, _ora pro nobis._ || Saint Lucy, _pray for us._
+t: Sancta Agnes, _ora pro nobis._ || Saint Agnes, _pray for us._
+t: Sancta Cæcília, _ora pro nobis._ || Saint Cecilia, _pray for us._
+t: Sancta Catharína, _ora pro nobis._ || Saint Catherine, _pray for us._
+t: Sancta Anastásia, _ora pro nobis._ || Saint Anastasia, _pray for us._
+t: Omnes sanctæ Vírgines et Víduæ, _oráte pro nobis._ || All you holy Virgins and Widows, _pray for us._
+t: Omnes Sancti et Sanctæ Dei, _intercédite pro nobis._ || All you holy men and women, Saints of God, _intercede for us._
+t: Propítius esto, _parce nobis, Dómine._ || Be merciful, _spare us, O Lord._
+t: Propítius esto, _exáudi nos, Dómine._ || Be merciful, _graciously hear us, O Lord._
+t: Ab omni malo, _líbera nos, Dómine._ || From all evil, _deliver us, O Lord._
+t: Ab omni peccáto, _líbera nos, Dómine._ || From all sin, _deliver us, O Lord._
+t: Ab ira tua, _líbera nos, Dómine._ || From Your wrath, _deliver us, O Lord._
+t: Ab imminéntibus perículis, _líbera nos, Dómine._ || From impending dangers, _deliver us, O Lord._
+t: A flagéllo terræmótus, _líbera nos, Dómine._ || From the scourge of earthquake, _deliver us, O Lord._
+t: A peste, fame et bello, _líbera nos, Dómine._ || From plague, famine, and war, _deliver us, O Lord._
+t: A subitánea et improvísa morte, _líbera nos, Dómine._ || From sudden and unprovided death, _deliver us, O Lord._
+t: Ab insídiis diáboli, _líbera nos, Dómine._ || From the snares of the devil, _deliver us, O Lord._
+t: Ab ira, et ódio, et omni mala voluntáte, _líbera nos, Dómine._ || From anger, and hatred, and every evil will, _deliver us, O Lord._
+t: A spíritu fornicatiónis, _líbera nos, Dómine._ || From the spirit of fornication, _deliver us, O Lord._
+t: A fúlgure et tempestáte, _líbera nos, Dómine._ || From lightning and tempest, _deliver us, O Lord._
+t: A morte perpétua, _líbera nos, Dómine._ || From everlasting death, _deliver us, O Lord._
+t: Per mystérium sanctæ Incarnatiónis tuæ, _líbera nos, Dómine._ || Through the mystery of Your holy Incarnation, _deliver us, O Lord._
+t: Per advéntum tuum, _líbera nos, Dómine._ || Through Your coming, _deliver us, O Lord._
+t: Per nativitátem tuam, _líbera nos, Dómine._ || Through Your birth, _deliver us, O Lord._
+t: Per baptísmum et sanctum jejúnium tuum, _líbera nos, Dómine._ || Through Your baptism and holy fasting, _deliver us, O Lord._
+t: Per crucem et passiónem tuam, _líbera nos, Dómine._ || Through Your Cross and Passion, _deliver us, O Lord._
+t: Per mortem et sepultúram tuam, _líbera nos, Dómine._ || Through Your death and burial, _deliver us, O Lord._
+t: Per sanctam resurrectiónem tuam, _líbera nos, Dómine._ || Through Your holy resurrection, _deliver us, O Lord._
+t: Per admirábilem ascensiónem tuam, _líbera nos, Dómine._ || Through Your wonderful ascension, _deliver us, O Lord._
+t: Per advéntum Spíritus Sancti Parácliti, _líbera nos, Dómine._ || Through the coming of the Holy Spirit, the Paraclete, _deliver us, O Lord._
+t: In die judícii, _líbera nos, Dómine._ || In the day of judgment, _deliver us, O Lord._
+t: Peccatóres, _te rogámus, audi nos._ || We sinners, _we beseech You, hear us._
+t: Ut nobis parcas, _te rogámus, audi nos._ || That You spare us, _we beseech You, hear us._
+t: Ut nobis indúlgeas, _te rogámus, audi nos._ || That You pardon us, _we beseech You, hear us._
+t: Ut ad veram pœniténtiam nos perdúcere dignéris, _te rogámus, audi nos._ || That You deign to bring us to true repentance, _we beseech You, hear us._
+t: Ut Ecclésiam tuam sanctam régere et conserváre dignéris, _te rogámus, audi nos._ || That You deign to govern and preserve Your holy Church, _we beseech You, hear us._
+t: Ut Domnum Apostólicum et omnes ecclesiásticos órdines in sancta religióne conserváre dignéris, _te rogámus, audi nos._ || That You deign to preserve the Apostolic Lord and all ranks of the Church in holy religion, _we beseech You, hear us._
+t: Ut inimícos sanctæ Ecclésiæ humiliáre dignéris, _te rogámus, audi nos._ || That You deign to humble the enemies of holy Church, _we beseech You, hear us._
+t: Ut régibus et princípibus christiánis pacem et veram concórdiam donáre dignéris, _te rogámus, audi nos._ || That You deign to give peace and true concord to Christian kings and rulers, _we beseech You, hear us._
+t: Ut cuncto pópulo christiáno pacem et unitátem largíri dignéris, _te rogámus, audi nos._ || That You deign to grant peace and unity to all Christian people, _we beseech You, hear us._
+t: Ut omnes errántes ad unitátem Ecclésiæ revocáre, et infidéles univérsos ad Evangélii lumen perdúcere dignéris, _te rogámus, audi nos._ || That You deign to call back all who have strayed to the unity of the Church, and to lead all unbelievers to the light of the Gospel, _we beseech You, hear us._
+t: Ut nosmetípsos in tuo sancto servítio confortáre et conserváre dignéris, _te rogámus, audi nos._ || That You deign to strengthen and keep us in Your holy service, _we beseech You, hear us._
+t: Ut mentes nostras ad cæléstia desidéria érigas, _te rogámus, audi nos._ || That You lift up our minds to heavenly desires, _we beseech You, hear us._
+t: Ut ómnibus benefactóribus nostris sempitérna bona retríbuas, _te rogámus, audi nos._ || That You render eternal blessings to all our benefactors, _we beseech You, hear us._
+t: Ut ánimas nostras, fratrum, propinquórum et benefactórum nostrórum ab ætérna damnatióne erípias, _te rogámus, audi nos._ || That You deliver our souls and the souls of our brethren, relatives, and benefactors from eternal damnation, _we beseech You, hear us._
+t: Ut fructus terræ dare et conserváre dignéris, _te rogámus, audi nos._ || That You deign to give and preserve the fruits of the earth, _we beseech You, hear us._
+t: Ut ómnibus fidélibus defúnctis réquiem ætérnam donáre dignéris, _te rogámus, audi nos._ || That You deign to grant eternal rest to all the faithful departed, _we beseech You, hear us._
+t: Ut nos exaudíre dignéris, _te rogámus, audi nos._ || That You deign graciously to hear us, _we beseech You, hear us._
+t: Fili Dei, _te rogámus, audi nos._ || Son of God, _we beseech You, hear us._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Dómine._ || Lamb of God, who take away the sins of the world, _spare us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Dómine._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis._ || Lamb of God, who take away the sins of the world, _have mercy on us._
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+@psalm-69
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be unto us, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no advantage over us.
+x: Et fílius iniquitátis non appónat nocére nobis. || And let the son of iniquity have no power to harm us.
+v: Dómine, non secúndum peccáta nostra fácias nobis. || O Lord, deal not with us according to our sins.
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Orémus pro Pontífice nostro N. || Let us pray for our Pontiff N.
+x: Dóminus consérvet eum, et vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in ánimam inimicórum ejus. || May the Lord preserve him, and give him life, and make him blessed upon the earth, and not deliver him up to the will of his enemies.
+v: Orémus pro benefactóribus nostris. || Let us pray for our benefactors.
+x: Retribúere dignáre, Dómine, ómnibus nobis bona faciéntibus propter nomen tuum vitam ætérnam. Amen. || Deign, O Lord, to reward with eternal life all those who do us good for Your name's sake. Amen.
+v: Orémus pro fidélibus defúnctis. || Let us pray for the faithful departed.
+x: Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+v: Pro frátribus nostris abséntibus. || For our absent brethren.
+x: Salvos fac servos tuos, Deus meus, sperántes in te. || Save Your servants, O my God, who hope in You.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from the sanctuary.
+x: Et de Sion tuére eos. || And from Sion protect them.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui nobis sub Sacraménto mirábili passiónis tuæ memóriam reliquísti: tríbue, quǽsumus, ita nos Córporis et Sánguinis tui sacra mystéria venerári; ut redemptiónis tuæ fructum in nobis júgiter sentiámus. || O God, who under a wonderful Sacrament have left us a memorial of Your Passion: grant, we beseech You, that we may so venerate the sacred mysteries of Your Body and Blood, that we may continually feel within us the fruit of Your redemption.
+r: Ab Adventu usque ad Nativitatem Domini: || From Advent until the Nativity of the Lord:
+t: Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Ángelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. || O God, who willed that Your Word should take flesh in the womb of the Blessed Virgin Mary at the message of an Angel: grant to Your suppliants that we who believe her to be truly the Mother of God may be helped by her intercession with You.
+r: A Nativitate usque ad Purificationem: || From the Nativity until the Purification:
+t: Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno géneri prǽmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum. || O God, who by the fruitful virginity of Blessed Mary have bestowed upon mankind the rewards of eternal salvation: grant, we beseech You, that we may experience her intercession for us, through whom we were found worthy to receive the Author of life, our Lord Jesus Christ, Your Son.
+r: A Purificatione usque ad Pascha et post Tempus Paschale usque ad Adventum Domini: || From the Purification until Easter, and after Paschaltide until the Advent of the Lord:
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia. || Grant, we beseech You, O Lord God, that we Your servants may rejoice in lasting health of mind and body, and by the glorious intercession of Blessed Mary ever Virgin be delivered from present sorrow and enjoy eternal gladness.
+r: Tempore Paschali: || In Paschaltide:
+t: Deus, qui per resurrectiónem Fílii tui, Dómini nostri Jesu Christi, mundum lætificáre dignátus es: præsta, quǽsumus; ut, per ejus Genetrícem Vírginem Maríam, perpétuæ capiámus gáudia vitæ. || O God, who by the resurrection of Your Son, our Lord Jesus Christ, have deigned to fill the world with joy: grant, we beseech You, that through His Mother, the Virgin Mary, we may attain the joys of everlasting life.
+t: Omnípotens sempitérne Deus, miserére fámulo tuo Pontífici nostro N., et dírige eum secúndum tuam cleméntiam in viam salútis ætérnæ: ut, te donánte, tibi plácita cúpiat, et tota virtúte perfíciat. || Almighty, everlasting God, have mercy on Your servant N., our Pontiff, and direct him according to Your clemency in the way of eternal salvation, that by Your gift he may desire what is pleasing to You and accomplish it with all his strength.
+t: Deus, refúgium nostrum, et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. || O God, our refuge and strength, You who are Yourself the author of all godliness, hearken to the devout prayers of Your Church, and grant that what we ask in faith we may effectually obtain.
+t: Omnípotens, sempitérne Deus, qui vivórum domináris simul et mortuórum, omniúmque miseréris, quos tuos fide et ópere futúros esse prænóscis, te súpplices exorámus; ut, pro quibus effúndere preces decrévimus, quosque vel præsens sǽculum adhuc in carne rétinet, vel futúrum jam exútos córpore suscépit, intercedéntibus ómnibus Sanctis tuis, pietátis tuæ cleméntia ómnium delictórum suórum véniam consequántur. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, who hold dominion over the living and the dead alike, and have mercy on all whom You foreknow will be Yours by faith and works: we humbly entreat You that those for whom we have resolved to pour out our prayers, whether this present world still holds them in the flesh or the world to come has already received them freed from the body, may, through the intercession of all Your Saints, obtain by the clemency of Your goodness the pardon of all their sins. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Exáudiat nos omnípotens et miséricors Dóminus. || May the almighty and merciful Lord graciously hear us.
+x: Et custódiat nos semper. Amen. || And keep us always. Amen.
+v: Fidélium ánimæ per misericórdiam Dei requiéscant in pace. || May the souls of the faithful, through the mercy of God, rest in peace.
+x: Amen. || Amen.
+r: Vacante Apostolica Sede, loco invocationis Ut Domnum Apostólicum et omnes ecclesiásticos órdines, etc., dicatur: Ut omnes ecclesiásticos órdines, etc.; Versus autem Orémus pro Pontífice nostro N. cum suo Responsorio, et Oratio pro eodem Pontifice omittuntur. || While the Apostolic See is vacant, in place of the invocation "That You deign to preserve the Apostolic Lord and all ranks of the Church," etc., there is said: "That You deign to preserve all ranks of the Church," etc.; and the versicle "Let us pray for our Pontiff N." with its response, and the collect for the Pontiff, are omitted.

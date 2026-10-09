@@ -1,0 +1,151 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Reserved blessings, part 1 (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Water on the Vigil of the Epiphany of the Lord
+// ──────────────────────────────────────────────────────────────────────
+# epiphany-water | Benedictio Aquæ in Vigilia Epiphaniæ Domini | Blessing of Water on the Vigil of the Epiphany of the Lord | Holy Water | Appendix, Benedictiones reservatæ, 1
+h: Benedictiones reservatæ || Reserved Blessings
+h: I. Benedictiones faciendæ ab Ordinario vel ab ejus delegato || I. Blessings to be given by the Ordinary or by his delegate
+r: (Approbata a S. R. C. die 6 Dec. 1890) || (Approved by the Sacred Congregation of Rites, 6 December 1890)
+r: Statuta hora Sacerdos celebrans (tenens mitram, si sit Episcopus, quam ad Preces deponit) cum Diacono et Subdiacono, ille pluviali, isti dalmatica et tunicella induti albi coloris, præcedentibus Acolythis cum cereis accensis et Cruce (quæ ponuntur ad loca sua) aliisque de Clero, veniunt ad locum prope altare majus, ubi paratum est vas cum sale, et alveolus cum aqua. || At the appointed hour the celebrating priest (wearing the miter, if he is a bishop, which he lays aside for the Prayers), with the deacon and subdeacon, the former vested in a cope, the latter in dalmatic and tunicle, all of white color, preceded by acolytes with lighted candles and the cross (which are set in their places) and by others of the clergy, come to a place near the high altar, where a vessel with salt and a basin with water have been made ready.
+r: Primum, omnibus genuflectentibus, dicuntur cum cantu Litaniæ Sanctorum. || First, all kneeling, the Litany of the Saints is sung.
+@litany-of-the-saints-epiphany-form
+r: Nunc Celebrans surgit, et gradatim elevando vocem, canit: || Now the celebrant rises and, raising his voice by degrees, sings:
+t: Ut hanc Aquam bene✠dícere dignéris, _te rogámus, audi nos._ || That You deign to ✠ bless this Water, _we beseech You, hear us._
+t: Ut hanc Aquam bene✠dícere et sancti✠ficáre dignéris, _te rogámus, audi nos._ || That You deign to ✠ bless and ✠ sanctify this Water, _we beseech You, hear us._
+r: Cantores prosequuntur: || The cantors continue:
+@litany-epiphany-water-petitions
+r: Celebrans canendo dicit: Pater noster, quod secreto prosequitur usque ad || The celebrant sings "Our Father," and continues it silently until
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Deinde canuntur sequentes Psalmi. || Then the following psalms are sung.
+h: Psalmus 28 || Psalm 28
+t: Afférte Dómino, fílii Dei: * afférte Dómino fílios aríetum. || Bring to the Lord, O you children of God: * bring to the Lord the young of rams.
+t: Afférte Dómino glóriam et honórem, afférte Dómino glóriam nómini ejus: * adoráte Dóminum in átrio sancto ejus. || Bring to the Lord glory and honor; bring to the Lord glory to His name: * adore the Lord in His holy court.
+t: Vox Dómini super aquas, Deus majestátis intónuit: * Dóminus super aquas multas. || The voice of the Lord is upon the waters; the God of majesty has thundered: * the Lord is upon many waters.
+t: Vox Dómini in virtúte: * vox Dómini in magnificéntia. || The voice of the Lord is in power; * the voice of the Lord is in magnificence.
+t: Vox Dómini confringéntis cedros: * et confrínget Dóminus cedros Líbani: || The voice of the Lord breaks the cedars; * yes, the Lord shall break the cedars of Lebanon,
+t: Et commínuet eas tamquam vítulum Líbani: * et diléctus quemádmodum fílius unicórnium. || And shall shatter them like a calf of Lebanon, * and the beloved like the young of the unicorns.
+t: Vox Dómini intercidéntis flammam ignis: * vox Dómini concutiéntis desértum: et commovébit Dóminus desértum Cades. || The voice of the Lord divides the flame of fire; * the voice of the Lord shakes the desert, and the Lord shall shake the desert of Kadesh.
+t: Vox Dómini præparántis cervos, et revelábit condénsa: * et in templo ejus omnes dicent glóriam. || The voice of the Lord prepares the stags, and He will lay bare the thick woods: * and in His temple all shall speak His glory.
+t: Dóminus dilúvium inhabitáre facit: * et sedébit Dóminus Rex in ætérnum. || The Lord makes the flood His dwelling: * and the Lord shall sit as King for ever.
+t: Dóminus virtútem pópulo suo dabit: * Dóminus benedícet pópulo suo in pace. || The Lord will give strength to His people: * the Lord will bless His people with peace.
+@gloria-patri
+h: Psalmus 45 || Psalm 45
+t: Deus noster refúgium, et virtus: * adjútor in tribulatiónibus, quæ invenérunt nos nimis. || God is our refuge and strength: * a helper in the troubles that have greatly come upon us.
+t: Proptérea non timébimus dum turbábitur terra: * et transferéntur montes in cor maris. || Therefore we will not fear when the earth is shaken, * and the mountains are carried into the heart of the sea.
+t: Sonuérunt, et turbátæ sunt aquæ eórum: * conturbáti sunt montes in fortitúdine ejus. || Their waters roared and were troubled: * the mountains were shaken by His strength.
+t: Flúminis ímpetus lætíficat civitátem Dei: * sanctificávit tabernáculum suum Altíssimus. || The stream of the river makes glad the city of God: * the Most High has sanctified His tabernacle.
+t: Deus in médio ejus, non commovébitur: * adjuvábit eam Deus mane dilúculo. || God is in the midst of it; it shall not be moved: * God will help it at the break of dawn.
+t: Conturbátæ sunt gentes, et inclináta sunt regna: * dedit vocem suam, mota est terra. || The nations were troubled, and the kingdoms bowed down: * He uttered His voice, and the earth trembled.
+t: Dóminus virtútum nobíscum: * suscéptor noster Deus Jacob. || The Lord of hosts is with us: * the God of Jacob is our protector.
+t: Veníte, et vidéte ópera Dómini, quæ pósuit prodígia super terram: * áuferens bella usque ad finem terræ. || Come and behold the works of the Lord, what wonders He has wrought upon the earth: * making wars to cease even to the end of the earth.
+t: Arcum cónteret, et confrínget arma: * et scuta combúret igni. || He shall break the bow and shatter the weapons: * and the shields He shall burn in the fire.
+t: Vacáte, et vidéte quóniam ego sum Deus: * exaltábor in géntibus, et exaltábor in terra. || Be still, and see that I am God: * I will be exalted among the nations, and I will be exalted in the earth.
+t: Dóminus virtútum nobíscum: * suscéptor noster Deus Jacob. || The Lord of hosts is with us: * the God of Jacob is our protector.
+@gloria-patri
+h: Psalmus 146 || Psalm 146
+t: Laudáte Dóminum quóniam bonus est psalmus: * Deo nostro sit jucúnda, decóraque laudátio. || Praise the Lord, for a psalm is good: * to our God be joyful and fitting praise.
+t: Ædíficans Jerúsalem Dóminus: * dispersiónes Israélis congregábit. || The Lord builds up Jerusalem: * He will gather together the dispersed of Israel.
+t: Qui sanat contrítos corde: * et álligat contritiónes eórum. || He heals the broken of heart, * and binds up their wounds.
+t: Qui númerat multitúdinem stellárum: * et ómnibus eis nómina vocat. || He counts the multitude of the stars, * and calls them all by their names.
+t: Magnus Dóminus noster, et magna virtus ejus: * et sapiéntiæ ejus non est númerus. || Great is our Lord, and great is His power: * and of His wisdom there is no measure.
+t: Suscípiens mansuétos Dóminus: * humílians autem peccatóres usque ad terram. || The Lord lifts up the meek, * but brings sinners down even to the ground.
+t: Præcínite Dómino in confessióne: * psállite Deo nostro in cíthara. || Sing to the Lord with thanksgiving: * sing praise to our God upon the harp.
+t: Qui óperit cælum núbibus: * et parat terræ plúviam. || Who covers the heavens with clouds, * and prepares rain for the earth.
+t: Qui prodúcit in móntibus fænum: * et herbam servitúti hóminum. || Who makes grass to grow on the mountains, * and herbs for the service of men.
+t: Qui dat juméntis escam ipsórum: * et pullis corvórum invocántibus eum. || Who gives to the beasts their food, * and to the young ravens that call upon Him.
+t: Non in fortitúdine equi voluntátem habébit: * nec in tíbiis viri beneplácitum erit ei. || He takes no delight in the strength of the horse, * nor is He pleased with the legs of a man.
+t: Beneplácitum est Dómino super timéntes eum: * et in eis, qui sperant super misericórdia ejus. || The Lord takes pleasure in those who fear Him, * and in those who hope in His mercy.
+@gloria-patri
+r: Deinde Celebrans canendo dicit: || Then the celebrant sings:
+h: Exorcismus contra satanam et angelos apostaticos || Exorcism against Satan and the apostate angels
+t: Exorcizámus te, omnis immúnde spíritus, omnis satánica potéstas, omnis incúrsio infernális adversárii, omnis légio, omnis congregátio et secta diabólica, in nómine et virtúte Dómini nostri Jesu ✠ Christi, eradicáre et effugáre a Dei Ecclésia, ab ómnibus ad imáginem Dei cónditis ac pretióso divíni Agni sánguine redémptis ✠. Non ultra áudeas, serpens callidíssime, decípere humánum genus, Dei Ecclésiam pérsequi, ac Dei eléctos excútere et cribráre sicut tríticum ✠. Imperat tibi Deus altíssimus ✠, cui in magna tua supérbia te símilem habéri adhuc præsúmis; qui omnes hómines vult salvos fíeri, et ad agnitiónem veritátis veníre. Imperat tibi Deus Pater ✠. Imperat tibi Deus Fílius ✠. Imperat tibi Deus Spíritus Sanctus ✠. Imperat tibi majéstas Christi, ætérnum Dei Verbum caro factum ✠, qui pro salúte géneris nostri tua invídia pérditi, humiliávit semetípsum factus obédiens usque ad mortem; qui Ecclésiam suam ædificávit supra firmam petram, et portas ínferi advérsus eam numquam esse prævalitúras edíxit, et cum ea ipse permansúrus ómnibus diébus usque ad consummatiónem sǽculi. Imperat tibi sacraméntum Crucis ✠, omniúmque christiánæ fídei Mysteriórum virtus ✠. Imperat tibi excélsa Dei Génetrix Virgo María ✠, quæ superbíssimum caput tuum a primo instánti immaculátæ suæ conceptiónis in sua humilitáte contrívit. Imperat tibi fides Sanctórum Apostolórum Petri et Pauli, et ceterórum Apostolórum ✠. Imperat tibi Mártyrum sanguis, ac pia Sanctórum et Sanctárum ómnium intercéssio ✠. || We exorcise you, every unclean spirit, every satanic power, every incursion of the infernal adversary, every legion, every diabolical assembly and sect, in the name and by the power of our Lord Jesus ✠ Christ: be uprooted and driven out from the Church of God, and from all souls made in the image of God and redeemed by the precious Blood of the divine Lamb ✠. No longer dare, most cunning serpent, to deceive the human race, to persecute the Church of God, or to shake and sift the elect of God like wheat ✠. The most high God commands you ✠, He to whom in your great pride you still presume to hold yourself equal; He who wills all men to be saved and to come to the knowledge of the truth. God the Father commands you ✠. God the Son commands you ✠. God the Holy Spirit commands you ✠. The majesty of Christ commands you, the eternal Word of God made flesh ✠, who for the salvation of our race, lost through your envy, humbled Himself, becoming obedient even unto death; who built His Church upon the firm rock, and declared that the gates of hell would never prevail against her, and that He Himself would remain with her all days even to the end of the world. The sacred sign of the Cross commands you ✠, and the power of all the Mysteries of the Christian faith ✠. The exalted Mother of God, the Virgin Mary, commands you ✠, who by her lowliness crushed your most proud head from the first instant of her Immaculate Conception. The faith of the holy Apostles Peter and Paul and of the other Apostles commands you ✠. The blood of the Martyrs and the devout intercession of all holy men and women command you ✠.
+t: Ergo, draco maledícte et omnis légio diabólica, adjurámus te per Deum ✠ vivum, per Deum ✠ verum, per Deum ✠ sanctum, per Deum, qui sic diléxit mundum, ut Fílium suum unigénitum daret, ut omnis qui credit in eum non péreat, sed hábeat vitam ætérnam; cessa decípere humánas creatúras, eísque ætérnæ perditiónis venénum propináre: désine Ecclésiæ nocére, et ejus libertáti láqueos injícere. Vade, sátana, invéntor et magíster omnis falláciæ, hostis humánæ salútis. Da locum Christo, in quo nihil invenísti de opéribus tuis; da locum Ecclésiæ, uni, sanctæ, cathólicæ, et apostólicæ, quam Christus ipse acquisívit sánguine suo. Humiliáre sub poténti manu Dei; contremísce et éffuge, invocáto a nobis sancto et terríbili nómine Jesu, quem ínferi tremunt, cui Virtútes et Potestátes et Dominatiónes subjéctæ sunt; quem Chérubim et Séraphim indeféssis vócibus laudant, dicéntes: Sanctus, Sanctus, Sanctus Dóminus, Deus Sábaoth. || Therefore, accursed dragon and every diabolical legion, we adjure you by the ✠ living God, by the ✠ true God, by the ✠ holy God, by God who so loved the world that He gave His only-begotten Son, that whoever believes in Him may not perish but may have eternal life: cease to deceive human creatures and to pour out to them the poison of eternal perdition; cease to harm the Church and to lay snares for her freedom. Begone, Satan, inventor and master of all deceit, enemy of man's salvation. Give place to Christ, in whom you have found none of your works; give place to the Church, one, holy, catholic, and apostolic, which Christ Himself purchased with His Blood. Be humbled under the mighty hand of God; tremble and flee at the invocation by us of the holy and terrible name of Jesus, at which hell trembles, to whom the Virtues, Powers, and Dominations are subject; whom the Cherubim and Seraphim praise with unwearied voices, saying: Holy, Holy, Holy, Lord God of hosts.
+r: Postea a Cantoribus canitur: || Afterward the cantors sing:
+t: *Ant.* Hódie cælésti sponso juncta est Ecclésia, quóniam in Jordáne lavit Christus ejus crímina: currunt cum munéribus Magi ad regáles núptias, et ex aqua facto vino lætántur convívæ, allelúja. || *Ant.* Today the Church is joined to her heavenly Bridegroom, for in the Jordan Christ washed away her sins; the Magi hasten with gifts to the royal wedding, and the guests rejoice in the water made wine, alleluia.
+h: Canticum Zachariæ (Luc. 1, 68-79) || The Canticle of Zechariah (Luke 1:68-79)
+t: Benedíctus Dóminus, Deus Israël, * quia visitávit, et fecit redemptiónem plebis suæ: || Blessed be the Lord, the God of Israel, * for He has visited and wrought the redemption of His people,
+t: Et eréxit cornu salútis nobis: * in domo David, púeri sui. || And has raised up a horn of salvation for us * in the house of David His servant,
+t: Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus: || As He spoke by the mouth of His holy ones, * His prophets from of old:
+t: Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos: || Salvation from our enemies, * and from the hand of all who hate us,
+t: Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti. || To show mercy to our fathers, * and to remember His holy covenant,
+t: Jusjurándum, quod jurávit ad Abraham, patrem nostrum, * datúrum se nobis: || The oath which He swore to Abraham our father, * that He would grant us
+t: Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi. || That, delivered from the hand of our enemies, * we might serve Him without fear,
+t: In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris. || In holiness and justice before Him * all our days.
+t: Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini paráre vias ejus: || And you, child, shall be called the Prophet of the Most High: * for you shall go before the face of the Lord to prepare His ways,
+t: Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum: || To give His people knowledge of salvation * through the forgiveness of their sins,
+t: Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto: || Through the tender mercy of our God, * whereby the Dayspring from on high has visited us,
+t: Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis. || To shine on those who sit in darkness and in the shadow of death, * to guide our feet into the way of peace.
+@gloria-patri
+h: Vel Canticum B. Mariæ Virg. (Luc. 1, 46-55) || Or the Canticle of the Blessed Virgin Mary (Luke 1:46-55)
+t: Magníficat * ánima mea Dóminum: || My soul * magnifies the Lord,
+t: Et exsultávit spíritus meus * in Deo, salutári meo. || And my spirit has rejoiced * in God my Savior.
+t: Quia respéxit humilitátem ancíllæ suæ: * ecce enim, ex hoc beátam me dicent omnes generatiónes. || For He has regarded the lowliness of His handmaid; * for behold, from henceforth all generations shall call me blessed.
+t: Quia fecit mihi magna qui potens est: * et sanctum nomen ejus. || For He who is mighty has done great things for me, * and holy is His name.
+t: Et misericórdia ejus a progénie in progénies * timéntibus eum. || And His mercy is from generation to generation * on those who fear Him.
+t: Fecit poténtiam in bráchio suo: * dispérsit supérbos mente cordis sui. || He has shown might with His arm; * He has scattered the proud in the conceit of their heart.
+t: Depósuit poténtes de sede, * et exaltávit húmiles. || He has put down the mighty from their seat, * and has exalted the lowly.
+t: Esuriéntes implévit bonis: * et dívites dimísit inánes. || He has filled the hungry with good things, * and the rich He has sent away empty.
+t: Suscépit Israël, púerum suum, * recordátus misericórdiæ suæ. || He has taken up Israel His servant, * mindful of His mercy,
+t: Sicut locútus est ad patres nostros, * Abraham, et sémini ejus in sǽcula. || As He spoke to our fathers, * to Abraham and to his seed for ever.
+@gloria-patri
+r: Et repetitur Antiphona. || And the antiphon is repeated.
+t: *Ant.* Hódie cælésti sponso juncta est Ecclésia, quóniam in Jordáne lavit Christus ejus crímina: currunt cum munéribus Magi ad regáles núptias, et ex aqua facto vino lætántur convívæ, allelúja. || *Ant.* Today the Church is joined to her heavenly Bridegroom, for in the Jordan Christ washed away her sins; the Magi hasten with gifts to the royal wedding, and the guests rejoice in the water made wine, alleluia.
+r: Deinde Celebrans canit ut sequitur: || Then the celebrant sings as follows:
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur. Per eúndem Dóminum. ℟. Amen. || O God, who on this day revealed Your only-begotten Son to the nations by the guidance of a star, mercifully grant that we who already know You by faith may be led on to behold the beauty of Your majesty. Through the same Lord. ℟. Amen.
+r: Postea benedicit aquam: || Afterward he blesses the water:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+h: Exorcismus salis || Exorcism of the Salt
+t: Exorcízo te, creatúra salis, per Deum ✠ vivum, per Deum ✠ verum, per Deum ✠ sanctum, per Deum qui te per Eliséum prophétam in aquam mitti jussit, ut sanarétur sterílitas aquæ: ut efficiáris sal exorcizátum in salútem credéntium; et sis ómnibus suméntibus te sánitas ánimæ et córporis; et effúgiat, atque discédat a loco, in quo aspérsum fúeris, omnis phantásia, et nequítia, vel versútia diabólicæ fraudis, omnísque spíritus immúndus, adjurátus per eum, qui ventúrus est judicáre vivos et mórtuos et sǽculum per ignem. ℟. Amen. || I exorcise you, creature of salt, by the ✠ living God, by the ✠ true God, by the ✠ holy God, by God who commanded you to be cast into the water by the prophet Elisha, that its barrenness might be healed: that you may become exorcised salt for the salvation of believers; that you may be health of soul and body to all who take you; and that from the place where you are sprinkled every illusion and wickedness and cunning of the devil's deceit may flee and depart, together with every unclean spirit, adjured by Him who is to come to judge the living and the dead, and the world by fire. ℟. Amen.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Imménsam cleméntiam tuam, omnípotens ætérne Deus, humíliter implorámus, ut hanc creatúram salis, quam in usum géneris humáni tribuísti, bene✠dícere, et sancti✠ficáre tua pietáte dignéris: ut sit ómnibus suméntibus salus mentis et córporis; et quidquid ex eo tactum vel respérsum fúerit, cáreat omni immundítia, omníque impugnatióne spiritális nequítiæ. Per Dóminum. ℟. Amen. || Almighty, everlasting God, we humbly implore Your boundless mercy, that in Your goodness You would deign to ✠ bless and ✠ sanctify this creature of salt, which You have given for the use of mankind, so that it may be health of mind and body to all who take it; and that whatever is touched or sprinkled with it may be free from all uncleanness and from every attack of spiritual wickedness. Through our Lord. ℟. Amen.
+h: Exorcismus aquæ || Exorcism of the Water
+t: Exorcízo te, creatúra aquæ, in nómine Dei ✠ Patris omnipoténtis, et in nómine Jesu ✠ Christi Fílii ejus Dómini nostri, et in virtúte Spíritus ✠ Sancti: ut fias aqua exorcizáta ad effugándam omnem potestátem inimíci, et ipsum inimícum eradicáre et explantáre váleas cum ángelis suis apostáticis, per virtútem ejúsdem Dómini nostri Jesu Christi: qui ventúrus est judicáre vivos et mórtuos et sǽculum per ignem. ℟. Amen. || I exorcise you, creature of water, in the name of God the ✠ Father almighty, and in the name of Jesus ✠ Christ, His Son, our Lord, and in the power of the Holy ✠ Spirit: that you may become exorcised water to put to flight all the power of the enemy, and that you may be able to uproot and cast out the enemy himself with his apostate angels, by the power of the same Jesus Christ our Lord, who is to come to judge the living and the dead, and the world by fire. ℟. Amen.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui ad salútem humáni géneris, máxima quæque sacraménta in aquárum substántia condidísti: adésto propítius invocatiónibus nostris, et eleménto huic multímodis purificatiónibus præparáto, virtútem tuæ bene✠dictiónis infúnde; ut creatúra tua mystériis tuis sérviens, ad abigéndos dæmones, morbósque pelléndos, divínæ grátiæ sumat efféctum; ut, quidquid in dómibus vel in locis fidélium hæc unda respérserit, cáreat omni immundítia, liberétur a noxa: non illic resídeat spíritus péstilens, non aura corrúmpens: discédant omnes insídiæ laténtis inimíci: et si quid est, quod aut incolumitáti habitántium ínvidet aut quiéti, aspersióne hujus aquæ effúgiat; ut salúbritas per invocatiónem sancti tui nóminis expetíta ab ómnibus sit impugnatiónibus defénsa. Per Dóminum. ℟. Amen. || O God, who for the salvation of mankind have built the greatest mysteries upon the substance of water, graciously hear our prayers and pour forth the power of Your ✠ blessing upon this element, prepared by many kinds of purification; that this Your creature, serving Your mysteries, may receive the effect of divine grace to drive away demons and to dispel diseases; that whatever in the houses or places of the faithful this water shall sprinkle may be freed from all uncleanness and delivered from harm; let no pestilent spirit, no corrupting air, remain there; let all the snares of the hidden enemy depart; and if there is anything that envies the safety or the peace of those who dwell there, may it flee at the sprinkling of this water, so that the well-being sought through the invocation of Your holy name may be defended against every assault. Through our Lord. ℟. Amen.
+r: Hic ter mittit sal in aquam in modum crucis, dicendo semel sine cantu: || Here he puts the salt into the water three times in the form of a cross, saying once, without chant:
+t: Commíxtio salis et aquæ páriter fiat, in nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || May this mingling of salt and water be made together, in the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+r: Deinde canit: || Then he sings:
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, invíctæ virtútis auctor, et insuperábilis impérii rex, ac semper magníficus triumphátor: qui advérsæ dominatiónis vires réprimis: qui inimíci rugiéntis sævítiam súperas: qui hostíles nequítias poténter expúgnas: te, Dómine, treméntes et súpplices deprecámur ac pétimus: ut hanc creatúram salis et aquæ dignánter aspícias, benígnus illústres, pietátis tuæ rore sanctífices; ut, ubicúmque fúerit aspérsa, per invocatiónem sancti nóminis tui, omnis infestátio immúndi spíritus abigátur, terrórque venenósi serpéntis procul pellátur: et præséntia Sancti Spíritus nobis, misericórdiam tuam poscéntibus, ubíque adésse dignétur. Per Dóminum... in unitáte ejúsdem Spíritus. ℟. Amen. || O God, author of unconquerable power, King of an empire that cannot be overcome, and ever glorious in triumph: who restrain the forces of hostile dominion, who overcome the fury of the roaring enemy, who mightily vanquish wicked foes: trembling and suppliant we beseech and implore You, O Lord, that You would graciously look upon this creature of salt and water, kindly enlighten it, and sanctify it with the dew of Your goodness; so that wherever it is sprinkled, through the invocation of Your holy name, every assault of the unclean spirit may be driven off and the terror of the venomous serpent cast far away; and may the presence of the Holy Spirit deign to be with us everywhere as we ask for Your mercy. Through our Lord... in the unity of the same Holy Spirit. ℟. Amen.
+r: Expleta benedictione, per Celebrantem aspergitur populus aqua benedicta. || When the blessing is finished, the celebrant sprinkles the people with the blessed water.
+r: Tandem sollemniter canitur Hymnus: || Finally the hymn is sung solemnly:
+@hymn-te-deum
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, cujus misericórdiæ non est númerus, et bonitátis infinítus est thesáurus: piíssimæ Majestáti tuæ pro collátis donis grátias ágimus, tuam semper cleméntiam exorántes; ut, qui peténtibus postuláta concédis, eósdem non déserens, ad prǽmia futúra dispónas. Per Christum, Dóminum nostrum. ℟. Amen. || O God, whose mercies are without number and whose treasury of goodness is infinite, we give thanks to Your most gracious Majesty for the gifts You have bestowed, ever beseeching Your clemency, that You who grant the petitions of those who ask may not forsake them, but may prepare them for the rewards to come. Through Christ our Lord. ℟. Amen.
+r: Tandem a Celebrante, si sit Episcopus, impertitur populo Benedictio: qua completa, omnes revertuntur, uti venerunt. || Finally, if the celebrant is a bishop, he imparts the blessing to the people; when it is finished, all return as they came.
+r: Aqua benedicta, uti supra, dispensatur fidelibus, ut ea devote utantur in eorum cubiculis, et etiam pro infirmis. || The water blessed as above is distributed to the faithful, that they may use it devoutly in their homes and also for the sick.

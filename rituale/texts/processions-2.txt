@@ -1,0 +1,406 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Processions, part 2 (Tit. IX)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession to Ward Off a Storm
+// ──────────────────────────────────────────────────────────────────────
+# procession-storm | De Processione ad Repellendam Tempestatem | Procession to Ward Off a Storm | Processions | Tit. IX, cap. 8
+r: Pulsantur campanæ, et iis qui adesse possunt, in Ecclesia convocatis, dicuntur Litaniæ (pag. 104), in quibus bis dicitur: || The bells are rung, and when those who are able to be present have gathered in the church, the Litany of the Saints is said (see the Litany of the Saints), in which the following is said twice:
+t: A fúlgure et tempestáte, líbera nos, Dómine. || From lightning and tempest, deliver us, O Lord.
+r: In fine autem dicitur: || At the end is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+h: Psalmus 147 || Psalm 147
+t: Lauda, Jerúsalem, Dóminum: * lauda Deum tuum, Sion. || Praise the Lord, O Jerusalem; * praise your God, O Sion.
+t: Quóniam confortávit seras portárum tuárum: * benedíxit fíliis tuis in te. || For He has strengthened the bolts of your gates; * He has blessed your children within you.
+t: Qui pósuit fines tuos pacem: * et ádipe fruménti sátiat te. || He has set peace in your borders, * and fills you with the finest of wheat.
+t: Qui emíttit elóquium suum terræ: * velóciter currit sermo ejus. || He sends forth His word to the earth; * His command runs swiftly.
+t: Qui dat nivem sicut lanam: * nébulam sicut cínerem spargit. || He gives snow like wool; * He scatters mist like ashes.
+t: Mittit crystállum suam sicut buccéllas: * ante fáciem frígoris ejus quis sustinébit? || He sends His ice like morsels; * who can stand before His cold?
+t: Emíttet verbum suum, et liquefáciet ea: * flabit spíritus ejus, et fluent aquæ. || He will send forth His word and melt them; * His wind will blow, and the waters will flow.
+t: Qui annúntiat verbum suum Jacob: * justítias, et judícia sua Israël. || He declares His word to Jacob, * His statutes and His judgments to Israel.
+t: Non fecit táliter omni natióni: * et judícia sua non manifestávit eis. || He has not done so for any other nation, * nor has He made His judgments known to them.
+@gloria-patri
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Osténde nobis, Dómine, misericórdiam tuam. || Show us, O Lord, Your mercy.
+x: Et salutáre tuum da nobis. || And grant us Your salvation.
+v: Ádjuva nos, Deus, salutáris noster. || Help us, O God our Savior.
+x: Et propter glóriam nóminis tui, Dómine, líbera nos. || And for the glory of Your name, O Lord, deliver us.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no power over us.
+x: Et fílius iniquitátis non appónat nocére nobis. || And let the son of iniquity do nothing to harm us.
+v: Fiat misericórdia tua, Dómine, super nos. || Let Your mercy, O Lord, be upon us.
+x: Quemádmodum sperávimus in te. || As we have hoped in You.
+v: Salvum fac pópulum tuum, Dómine. || Save Your people, O Lord.
+x: Et bénedic hereditáti tuæ. || And bless Your inheritance.
+v: Non privábis bonis eos, qui ámbulant in innocéntia. || You will not deprive of good things those who walk in innocence.
+x: Dómine, Deus virtútum: beátus homo, qui sperat in te. || O Lord God of hosts, blessed is the man who hopes in You.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui culpa offénderis, pæniténtia placáris: preces pópuli tui supplicántis propítius réspice; et flagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte. || O God, who are offended by sin and appeased by penance, look graciously on the prayers of Your people who make supplication to You, and turn away the scourges of Your anger, which we deserve for our sins.
+t: A domo tua, quǽsumus, Dómine, spiritáles nequítiæ repellántur: et aëriárum discédat malígnitas tempestátum. || We beseech You, O Lord, let the spirits of wickedness be driven from Your house, and let the malice of the storms of the air depart.
+t: Omnípotens sempitérne Deus, parce metuéntibus, propitiáre supplícibus: ut post nóxios ignes núbium, et vim procellárum in matériam tránseat laudis comminátio tempestátum. || Almighty, everlasting God, spare those who fear, be merciful to those who entreat You, that after the harmful fires of the clouds and the violence of the tempests, the threat of the storms may be turned into an occasion of praise.
+t: Dómine Jesu, qui imperásti ventis et mari, et facta fuit tranquíllitas magna: exáudi preces famíliæ tuæ, et præsta; ut hoc signo sanctæ cru✠cis omnis discédat sævítia tempestátum. || Lord Jesus, who commanded the winds and the sea, and there came a great calm, hear the prayers of Your household, and grant that by this sign of the holy ✠ cross all the fury of the storms may depart.
+t: Omnípotens et miséricors Deus, qui nos et castigándo sanas, et ignoscéndo consérvas: præsta supplícibus tuis; ut et tranquillitátibus hujus optátæ consolatiónis lætémur, et dono tuæ pietátis semper utámur. Per Dóminum nostrum Jesum Christum, etc. ℟. Amen. || Almighty and merciful God, who both heal us by chastising and preserve us by pardoning, grant to Your suppliants that we may rejoice in the calm of this longed-for consolation and may ever make use of the gift of Your loving kindness. Through our Lord Jesus Christ, etc. ℟. Amen.
+r: Aspergatur aqua benedicta. || Holy water is sprinkled.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession in Time of Scarcity and Famine
+// ──────────────────────────────────────────────────────────────────────
+# procession-famine | De Processione Tempore Penuriæ et Famis | Procession in Time of Scarcity and Famine | Processions | Tit. IX, cap. 9
+r: Aguntur omnia, ut supra in Litaniis majoribus (pag. 296), usque ad finem Litaniarum, in quibus bis dicitur: || Everything is done as above in the Procession on the Greater Litanies (Tit. IX, cap. 4), until the end of the Litany of the Saints, in which the following is said twice:
+t: Ut fructus terræ dare, et conserváre dignéris: Te rogámus, audi nos. || That You would deign to give and preserve the fruits of the earth, we beseech You, hear us.
+r: In fine autem dicitur: || At the end is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Psalmus 22 Dóminus regit me, etc., ut supra (pag. 184). In fine Glória Patri. || Psalm 22, "The Lord rules me," etc., as above. At the end, Glory be to the Father.
+v: Dómine, non secúndum peccáta nostra fácias nobis. || O Lord, deal not with us according to our sins.
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Óculi ómnium in te sperant, Dómine. || The eyes of all hope in You, O Lord.
+x: Et tu das illis escam in témpore opportúno. || And You give them their food in due season.
+v: Meménto congregatiónis tuæ. || Remember Your congregation.
+x: Quam possedísti ab inítio. || Which You have possessed from the beginning.
+v: Dóminus dabit benignitátem. || The Lord will give goodness.
+x: Et terra nostra dabit fructum suum. || And our land will yield its fruit.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Ineffábilem nobis, Dómine, misericórdiam tuam cleménter osténde: ut simul nos et a peccátis ómnibus éxuas, et a pœnis, quas pro his merémur, erípias. || Show us mercifully, O Lord, Your unspeakable mercy, that You may at once strip us of all our sins and rescue us from the punishments we deserve for them.
+t: Da nobis, quǽsumus, Dómine, piæ supplicatiónis efféctum, et famem propitiátus avérte: ut mortálium corda cognóscant, et te indignánte tália flagélla prodíre, et te miseránte cessáre. || Grant us, we beseech You, O Lord, the fruit of our devout supplication, and graciously turn away famine, that the hearts of mortals may know that such scourges come forth when You are angered and cease when You show mercy.
+t: Pópulum tibi súbditum pro peccátis suis fame laborántem ad te, Dómine, convérte propítius: qui quæréntibus regnum tuum ómnia adjiciénda esse dixísti: Qui vivis et regnas cum Deo Patre, etc. ℟. Amen. || O Lord, graciously turn to Yourself Your subject people, who suffer famine because of their sins, You who said that all things would be added to those who seek Your kingdom: who live and reign with God the Father, etc. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession in Time of Mortality and Pestilence
+// ──────────────────────────────────────────────────────────────────────
+# procession-pestilence | De Processione Tempore Mortalitatis et Pestis | Procession in Time of Mortality and Pestilence | Processions | Tit. IX, cap. 10
+r: Aguntur omnia, ut supra in Litaniis majoribus (pag. 296), usque ad finem Litaniarum, in quibus bis dicitur: || Everything is done as above in the Procession on the Greater Litanies (Tit. IX, cap. 4), until the end of the Litany of the Saints, in which the following is said twice:
+t: A peste, fame et bello, líbera nos, Dómine. || From plague, famine and war, deliver us, O Lord.
+r: Et, cum dictum fuerit Ut ómnibus fidélibus defúnctis, etc., bis dicitur: || And when "That You would grant eternal rest to all the faithful departed," etc., has been said, the following is said twice:
+t: Ut a pestiléntiæ flagéllo nos liberáre dignéris: Te rogámus, audi nos. || That You would deign to deliver us from the scourge of pestilence, we beseech You, hear us.
+r: In fine autem dicitur: || At the end is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Psalmus 6 Dómine, ne in furóre tuo árguas me, ut supra (pag. 98). || Psalm 6, "O Lord, rebuke me not in Your anger," as above.
+v: Dómine, non secúndum peccáta nostra fácias nobis. || O Lord, deal not with us according to our sins.
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Ádjuva nos, Deus, salutáris noster. || Help us, O God our Savior.
+x: Et propter glóriam nóminis tui, Dómine, líbera nos. || And for the glory of Your name, O Lord, deliver us.
+v: Dómine, ne memíneris iniquitátum nostrárum antiquárum. || O Lord, remember not our former iniquities.
+x: Cito antícipent nos misericórdiæ tuæ, quia páuperes facti sumus nimis. || Let Your mercies speedily come to meet us, for we have become exceedingly poor.
+v: Ora pro nobis, sancte Sebastiáne. || Pray for us, Saint Sebastian.
+x: Ut digni efficiámur promissiónibus Christi. || That we may be made worthy of the promises of Christ.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Exáudi nos, Deus, salutáris noster: et intercedénte beáta et gloriósa Dei Genetríce María semper Vírgine, et beáto Sebastiáno Mártyre tuo, et ómnibus Sanctis, pópulum tuum ab iracúndiæ tuæ terróribus líbera, et misericórdiæ tuæ fac largitáte secúrum. || Hear us, O God our Savior, and through the intercession of the blessed and glorious Mary, Mother of God and ever Virgin, of blessed Sebastian Your Martyr, and of all the Saints, deliver Your people from the terrors of Your anger and make them secure through the bounty of Your mercy.
+t: Propitiáre, Dómine, supplicatiónibus nostris: et animárum et córporum medére languóribus; ut remissióne percépta, in tua semper benedictióne lætémur. || Be favorable, O Lord, to our supplications, and heal the sicknesses of our souls and bodies, that having received pardon we may ever rejoice in Your blessing.
+t: Da nobis, quǽsumus, Dómine, piæ petitiónis efféctum: et pestiléntiam mortalitatémque propitiátus avérte; ut mortálium corda cognóscant, et te indignánte tália flagélla prodíre, et te miseránte cessáre. Per Dóminum nostrum Jesum Christum, etc. ℟. Amen. || Grant us, we beseech You, O Lord, the fruit of our devout petition, and graciously turn away pestilence and mortality, that the hearts of mortals may know that such scourges come forth when You are angered and cease when You show mercy. Through our Lord Jesus Christ, etc. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession in Time of War
+// ──────────────────────────────────────────────────────────────────────
+# procession-war | De Processione Tempore Belli | Procession in Time of War | Processions | Tit. IX, cap. 11
+r: Peractis omnibus, ut supra in Litaniis majoribus (pag. 296), ad finem Litaniarum dicitur: || When everything has been done as above in the Procession on the Greater Litanies (Tit. IX, cap. 4), at the end of the Litany of the Saints is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+h: Psalmus 45 || Psalm 45
+t: Deus noster refúgium, et virtus: * adjútor in tribulatiónibus, quæ invenérunt nos nimis. || God is our refuge and strength, * a helper in the troubles that have greatly come upon us.
+t: Proptérea non timébimus dum turbábitur terra: * et transferéntur montes in cor maris. || Therefore we will not fear when the earth is shaken, * and the mountains are carried into the heart of the sea.
+t: Sonuérunt, et turbátæ sunt aquæ eórum: * conturbáti sunt montes in fortitúdine ejus. || Their waters roared and were troubled; * the mountains were shaken by His might.
+t: Flúminis ímpetus lætíficat civitátem Dei: * sanctificávit tabernáculum suum Altíssimus. || The stream of the river gladdens the city of God; * the Most High has sanctified His dwelling.
+t: Deus in médio ejus, non commovébitur: * adjuvábit eam Deus mane dilúculo. || God is in its midst, it shall not be moved; * God will help it at the break of dawn.
+t: Conturbátæ sunt gentes, et inclináta sunt regna: * dedit vocem suam, mota est terra. || The nations were troubled, and kingdoms bowed down; * He uttered His voice, and the earth was moved.
+t: Dóminus virtútum nobíscum: * suscéptor noster Deus Jacob. || The Lord of hosts is with us; * the God of Jacob is our protector.
+t: Veníte, et vidéte ópera Dómini, quæ pósuit prodígia super terram: * áuferens bella usque ad finem terræ. || Come and behold the works of the Lord, what wonders He has wrought upon the earth, * making wars to cease to the end of the earth.
+t: Arcum cónteret, et confrínget arma: * et scuta combúret igni. || He shall break the bow and shatter the weapons, * and burn the shields with fire.
+t: Vacáte, et vidéte quóniam ego sum Deus: * exaltábor in géntibus, et exaltábor in terra. || Be still and see that I am God; * I will be exalted among the nations, and I will be exalted in the earth.
+t: Dóminus virtútum nobíscum: * suscéptor noster Deus Jacob. || The Lord of hosts is with us; * the God of Jacob is our protector.
+@gloria-patri
+v: Exsúrge, Dómine, ádjuva nos. || Arise, O Lord, help us.
+x: Et líbera nos propter nomen tuum. || And deliver us for Your name's sake.
+v: Salvum fac pópulum tuum, Dómine. || Save Your people, O Lord.
+x: Deus meus, sperántem in te. || Who hope in You, O my God.
+v: Fiat pax in virtúte tua. || Let there be peace in Your strength.
+x: Et abundántia in túrribus tuis. || And abundance in Your towers.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be unto us, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Arcum cónteret, et confrínget arma. || He shall break the bow and shatter the weapons.
+x: Et scuta combúret igni. || And burn the shields with fire.
+v: Mitte nobis, Dómine, auxílium de sancto. || Send us help, O Lord, from the sanctuary.
+x: Et de Sion tuére nos. || And defend us out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, qui cónteris bella, et impugnatóres in te sperántium poténtia tuæ defensiónis expúgnas: auxiliáre fámulis tuis, implorántibus misericórdiam tuam; ut, inimicórum suórum feritáte depréssa, incessábili te gratiárum actióne laudémus. || O God, who crush wars and by the might of Your defense overthrow those who assail those who hope in You, help Your servants who implore Your mercy, that the savagery of their enemies being subdued, we may praise You with unceasing thanksgiving.
+t: Deus, a quo sancta desidéria, recta consília, et justa sunt ópera: da servis tuis illam, quam mundus dare non potest, pacem; ut et corda nostra mandátis tuis dédita, et hóstium subláta formídine, témpora sint tua protectióne tranquílla. || O God, from whom come holy desires, right counsels and just works, give to Your servants that peace which the world cannot give, that our hearts may be devoted to Your commandments, and that, the fear of enemies being removed, our times may be peaceful under Your protection.
+t: Hóstium nostrórum, quǽsumus, Dómine, elíde supérbiam: et eórum contumáciam déxteræ tuæ virtúte prostérne. Per Dóminum nostrum Jesum Christum, etc. ℟. Amen. || Crush the pride of our enemies, we beseech You, O Lord, and lay low their stubbornness by the power of Your right hand. Through our Lord Jesus Christ, etc. ℟. Amen.
+r: 2. Si vero bellum sit contra inimicos sanctæ Ecclesiæ, in Litaniis bis dicatur: || 2. If, however, the war is against the enemies of holy Church, the following is said twice in the Litany:
+t: Ut inimícos sanctæ Ecclésiæ humiliáre dignéris: Te rogámus, audi nos. || That You would deign to humble the enemies of holy Church, we beseech You, hear us.
+r: In fine autem dicitur: || At the end is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+h: Psalmus 78 || Psalm 78
+t: Deus, venérunt gentes in hereditátem tuam, polluérunt templum sanctum tuum: * posuérunt Jerúsalem in pomórum custódiam. || O God, the nations have come into Your inheritance; they have defiled Your holy temple; * they have made Jerusalem a shelter for keeping fruit.
+t: Posuérunt morticína servórum tuórum, escas volatílibus cæli: * carnes sanctórum tuórum béstiis terræ. || They have given the dead bodies of Your servants as food to the birds of the air, * the flesh of Your saints to the beasts of the earth.
+t: Effudérunt sánguinem eórum tamquam aquam in circúitu Jerúsalem: * et non erat qui sepelíret. || They have poured out their blood like water round about Jerusalem, * and there was none to bury them.
+t: Facti sumus oppróbrium vicínis nostris: * subsannátio et illúsio his, qui in circúitu nostro sunt. || We have become a reproach to our neighbors, * a scorn and derision to those round about us.
+t: Usquequo, Dómine, irascéris in finem: * accendétur velut ignis zelus tuus? || How long, O Lord, will You be angry for ever? * Shall Your zeal be kindled like a fire?
+t: Effúnde iram tuam in gentes, quæ te non novérunt: * et in regna, quæ nomen tuum non invocavérunt: || Pour out Your wrath upon the nations that have not known You, * and upon the kingdoms that have not called upon Your name;
+t: Quia comedérunt Jacob: * et locum ejus desolavérunt. || For they have devoured Jacob, * and laid waste his dwelling place.
+t: Ne memíneris iniquitátum nostrárum antiquárum, cito antícipent nos misericórdiæ tuæ: * quia páuperes facti sumus nimis. || Remember not our former iniquities; let Your mercies speedily come to meet us, * for we have become exceedingly poor.
+t: Ádjuva nos, Deus, salutáris noster: et propter glóriam nóminis tui, Dómine, líbera nos: * et propítius esto peccátis nostris, propter nomen tuum: || Help us, O God our Savior, and for the glory of Your name, O Lord, deliver us; * and forgive us our sins for Your name's sake;
+t: Ne forte dicant in géntibus: Ubi est Deus eórum? * et innotéscat in natiónibus coram óculis nostris. || Lest they should say among the nations, Where is their God? * And let it be made known among the nations before our eyes:
+t: Últio sánguinis servórum tuórum, qui effúsus est: * intróëat in conspéctu tuo gémitus compeditórum. || The vengeance for the blood of Your servants which has been shed. * Let the groaning of the prisoners come before You.
+t: Secúndum magnitúdinem bráchii tui, * pósside fílios mortificatórum. || According to the greatness of Your arm, * take possession of the children of those put to death.
+t: Et redde vicínis nostris séptuplum in sinu eórum: * impropérium ipsórum, quod exprobravérunt tibi, Dómine. || And render to our neighbors sevenfold into their bosom * the reproach with which they have reproached You, O Lord.
+t: Nos autem pópulus tuus, et oves páscuæ tuæ, * confitébimur tibi in sǽculum. || But we, Your people and the sheep of Your pasture, * will give praise to You for ever.
+t: In generatiónem et generatiónem * annuntiábimus laudem tuam. || From generation to generation * we will declare Your praise.
+@gloria-patri
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be unto us, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no power over us.
+x: Et fílius iniquitátis non appónat nocére nobis. || And let the son of iniquity do nothing to harm us.
+v: Hóstium nóminis tui, Dómine, elíde supérbiam. || Crush, O Lord, the pride of the enemies of Your name.
+x: Et eórum contumáciam déxteræ tuæ virtúte prostérne. || And lay low their stubbornness by the power of Your right hand.
+v: Fiant tamquam pulvis ante fáciem venti. || Let them be like dust before the wind.
+x: Et Ángelus Dómini persequátur eos. || And let the Angel of the Lord pursue them.
+v: Effúnde iram tuam in gentes, quæ te non novérunt. || Pour out Your wrath upon the nations that have not known You.
+x: Et in regna, quæ nomen tuum non invocavérunt. || And upon the kingdoms that have not called upon Your name.
+v: Mitte nobis, Dómine, auxílium de sancto. || Send us help, O Lord, from the sanctuary.
+x: Et de Sion tuére nos. || And defend us out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Da, quǽsumus, Ecclésiæ tuæ, miséricors Deus: ut Sancto Spíritu congregáta, hostíli nullátenus incursióne turbétur. || Grant to Your Church, we beseech You, merciful God, that, gathered together by the Holy Spirit, she may in no way be disturbed by the attack of her enemies.
+t: Deus, qui culpa offénderis, pæniténtia placáris: preces pópuli tui supplicántis propítius réspice: et flagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte. || O God, who are offended by sin and appeased by penance, look graciously on the prayers of Your people who make supplication to You, and turn away the scourges of Your anger, which we deserve for our sins.
+t: Omnípotens sempitérne Deus, in cujus manu sunt ómnium potestátes, et ómnium jura regnórum: réspice in auxílium Christianórum; ut hostes nostri, qui in sua feritáte confídunt, déxteræ tuæ poténtia conterántur. Per Dóminum nostrum, etc. ℟. Amen. || Almighty, everlasting God, in whose hand are the powers of all and the rights of all kingdoms, look down to the help of Christians, that our enemies, who trust in their own savagery, may be crushed by the might of Your right hand. Through our Lord, etc. ℟. Amen.
+v: Exáudiat nos Dóminus. || May the Lord hear us.
+x: Amen. || Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession in Any Tribulation
+// ──────────────────────────────────────────────────────────────────────
+# procession-tribulation | De Processione in Quacumque Tribulatione | Procession in Any Tribulation | Processions | Tit. IX, cap. 12
+r: Servatis omnibus, ut supra in Litaniis majoribus (pag. 296), finitisque Litaniis, dicitur: || Everything is observed as above in the Procession on the Greater Litanies (Tit. IX, cap. 4), and when the Litany of the Saints is finished, there is said:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Psalmus 19 Exáudiat te Dóminus, ut supra (pag. 115), cum Glória Patri, vel Psalmus 90 Qui hábitat, ut supra (pag. 118). || Psalm 19, "May the Lord hear you," as above, with the Glory be; or Psalm 90, "He who dwells," as above.
+r: Quo finito, dicitur: || When this is finished, there is said:
+v: Deus, refúgium nostrum et virtus. || O God, our refuge and strength.
+x: Adjútor in tribulatiónibus. || Our helper in troubles.
+v: Salvos fac servos tuos, Dómine. || Save Your servants, O Lord.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Sanctus Deus, Sanctus fortis, Sanctus immortális. || Holy God, Holy Mighty One, Holy Immortal One.
+x: Miserére nobis. || Have mercy on us.
+v: Ádjuva nos, Deus, salutáris noster. || Help us, O God our Savior.
+x: Et propter glóriam nóminis tui, Dómine, líbera nos. || And for the glory of Your name, O Lord, deliver us.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Ne despícias, omnípotens Deus, pópulum tuum in afflictióne clamántem: sed propter glóriam nóminis tui, tribulátis succúrre placátus. || Do not despise, almighty God, Your people crying out in affliction, but for the glory of Your name be appeased and come to the aid of the troubled.
+t: Ineffábilem misericórdiam tuam, Dómine, nobis cleménter osténde: ut simul nos et a peccátis ómnibus éxuas, et a pœnis, quas pro his merémur, erípias. || Show us mercifully, O Lord, Your unspeakable mercy, that You may at once strip us of all our sins and rescue us from the punishments we deserve for them.
+t: Concéde nos fámulos tuos, quǽsumus, Dómine Deus, perpétua mentis et córporis sanitáte gaudére: et gloriósa beátæ Maríæ semper Vírginis intercessióne, a præsénti liberári tristítia, et ætérna pérfrui lætítia. || Grant, we beseech You, O Lord God, that we Your servants may enjoy lasting health of mind and body, and through the glorious intercession of blessed Mary ever Virgin, be delivered from present sorrow and enjoy eternal gladness.
+t: Tribulatiónem nostram, quǽsumus, Dómine, propítius réspice: et iram tuæ indignatiónis, quam juste merémur, avérte. || Look graciously, we beseech You, O Lord, on our tribulation, and turn away the wrath of Your indignation, which we justly deserve.
+t: Deus, refúgium nostrum et virtus: adésto piis Ecclésiæ tuæ précibus, auctor ipse pietátis, et præsta; ut, quod fidéliter pétimus, efficáciter consequámur. Per Dóminum nostrum. ℟. Amen. || O God, our refuge and strength, be present to the devout prayers of Your Church, You who are Yourself the author of all devotion, and grant that what we ask in faith we may effectually obtain. Through our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession of Thanksgiving
+// ──────────────────────────────────────────────────────────────────────
+# procession-thanksgiving | De Processione pro Gratiarum Actione | Procession of Thanksgiving | Processions | Tit. IX, cap. 13
+r: Initio Processionis cantatur Hymnus: || At the beginning of the procession the hymn is sung:
+@hymn-te-deum
+r: 2. Deinde dici poterunt Psalmi, qui sequuntur: || 2. Then the following psalms may be said:
+h: Psalmus 65 || Psalm 65
+t: Jubiláte Deo, omnis terra, psalmum dícite nómini ejus: * date glóriam laudi ejus. || Shout joyfully to God, all the earth; sing a psalm to His name; * give glory to His praise.
+t: Dícite Deo: Quam terribília sunt ópera tua, Dómine! * in multitúdine virtútis tuæ mentiéntur tibi inimíci tui. || Say to God: How awesome are Your works, O Lord! * In the greatness of Your might Your enemies shall cringe before You.
+t: Omnis terra adóret te, et psallat tibi: * psalmum dicat nómini tuo. || Let all the earth worship You and sing to You; * let it sing a psalm to Your name.
+t: Veníte, et vidéte ópera Dei: * terríbilis in consíliis super fílios hóminum. || Come and see the works of God, * awesome in His counsels over the children of men.
+t: Qui convértit mare in áridam, in flúmine pertransíbunt pede: * ibi lætábimur in ipso. || He turned the sea into dry land; they passed through the river on foot; * there we shall rejoice in Him.
+t: Qui dominátur in virtúte sua in ætérnum, óculi ejus super gentes respíciunt: * qui exásperant non exalténtur in semetípsis. || He rules by His power for ever; His eyes look upon the nations; * let not the rebellious be exalted in themselves.
+t: Benedícite, gentes, Deum nostrum: * et audítam fácite vocem laudis ejus. || Bless our God, you nations, * and make the voice of His praise to be heard.
+t: Qui pósuit ánimam meam ad vitam: * et non dedit in commotiónem pedes meos. || He has set my soul in life, * and has not allowed my feet to be moved.
+t: Quóniam probásti nos, Deus: * igne nos examinásti, sicut examinátur argéntum. || For You have tested us, O God; * You have tried us by fire, as silver is tried.
+t: Induxísti nos in láqueum, posuísti tribulatiónes in dorso nostro: * imposuísti hómines super cápita nostra. || You brought us into the snare; You laid afflictions on our backs; * You set men over our heads.
+t: Transívimus per ignem et aquam: * et eduxísti nos in refrigérium. || We passed through fire and water, * and You brought us out into a place of refreshment.
+t: Introíbo in domum tuam in holocáustis: * reddam tibi vota mea, quæ distinxérunt lábia mea. || I will go into Your house with burnt offerings; * I will pay You my vows, which my lips uttered,
+t: Et locútum est os meum, * in tribulatióne mea. || And my mouth spoke * when I was in trouble.
+t: Holocáusta medulláta ófferam tibi cum incénso aríetum: * ófferam tibi boves cum hircis. || I will offer You burnt offerings of fatlings, with the smoke of rams; * I will offer You bullocks with goats.
+t: Veníte, audíte, et narrábo, omnes, qui timétis Deum, * quanta fecit ánimæ meæ. || Come and hear, all you who fear God, and I will tell * what great things He has done for my soul.
+t: Ad ipsum ore meo clamávi, * et exaltávi sub lingua mea. || I cried to Him with my mouth, * and extolled Him with my tongue.
+t: Iniquitátem si aspéxi in corde meo, * non exáudiet Dóminus. || If I had regarded iniquity in my heart, * the Lord would not hear me.
+t: Proptérea exaudívit Deus, * et atténdit voci deprecatiónis meæ. || Therefore God has heard me, * and has attended to the voice of my supplication.
+t: Benedíctus Deus, * qui non amóvit oratiónem meam, et misericórdiam suam a me. || Blessed be God, * who has not turned away my prayer, nor His mercy from me.
+@gloria-patri
+h: Psalmus 80 || Psalm 80
+t: Exsultáte Deo, adjutóri nostro: * jubiláte Deo Jacob. || Rejoice in God our helper; * shout for joy to the God of Jacob.
+t: Súmite psalmum, et date týmpanum: * psaltérium jucúndum cum cíthara. || Take up a psalm and bring the timbrel, * the pleasant psaltery with the harp.
+t: Buccináte in Neoménia tuba, * in insígni die sollemnitátis vestræ. || Blow the trumpet at the new moon, * on the notable day of your solemnity.
+t: Quia præcéptum in Israël est: * et judícium Deo Jacob. || For it is a statute in Israel, * and a judgment of the God of Jacob.
+t: Testimónium in Joseph pósuit illud, cum exíret de terra Ægýpti: * linguam, quam non nóverat, audívit. || He ordained it as a testimony in Joseph when he came out of the land of Egypt; * he heard a tongue which he did not know.
+t: Divértit ab onéribus dorsum ejus: * manus ejus in cóphino serviérunt. || He removed his back from the burdens; * his hands had served in the basket.
+t: In tribulatióne invocásti me, et liberávi te: * exaudívi te in abscóndito tempestátis: probávi te apud aquam contradictiónis. || You called upon Me in trouble, and I delivered you; * I heard you in the secret place of the storm; I tested you at the waters of contradiction.
+t: Audi, pópulus meus, et contestábor te: * Israël, si audíeris me, non erit in te deus recens, neque adorábis deum aliénum. || Hear, My people, and I will testify to you; * O Israel, if you will listen to Me, there shall be no new god among you, nor shall you worship a strange god.
+t: Ego enim sum Dóminus Deus tuus, qui edúxi te de terra Ægýpti: * diláta os tuum, et implébo illud. || For I am the Lord your God, who brought you out of the land of Egypt; * open wide your mouth, and I will fill it.
+t: Et non audívit pópulus meus vocem meam: * et Israël non inténdit mihi. || But My people did not hear My voice, * and Israel did not heed Me.
+t: Et dimísi eos secúndum desidéria cordis eórum, * ibunt in adinventiónibus suis. || So I let them go according to the desires of their heart; * they shall walk in their own devices.
+t: Si pópulus meus audísset me: * Israël si in viis meis ambulásset: || If My people had heard Me, * if Israel had walked in My ways,
+t: Pro níhilo fórsitan inimícos eórum humiliássem: * et super tribulántes eos misíssem manum meam. || I would quickly have humbled their enemies, * and laid My hand upon those who troubled them.
+t: Inimíci Dómini mentíti sunt ei: * et erit tempus eórum in sǽcula. || The enemies of the Lord have lied to Him, * and their time shall be for ever.
+t: Et cibávit eos ex ádipe fruménti: * et de petra, melle saturávit eos. || And He fed them with the finest of wheat, * and filled them with honey out of the rock.
+@gloria-patri
+h: Psalmus 95 || Psalm 95
+t: Cantáte Dómino cánticum novum: * cantáte Dómino, omnis terra. || Sing to the Lord a new song; * sing to the Lord, all the earth.
+t: Cantáte Dómino, et benedícite nómini ejus: * annuntiáte de die in diem salutáre ejus. || Sing to the Lord and bless His name; * proclaim His salvation from day to day.
+t: Annuntiáte inter gentes glóriam ejus, * in ómnibus pópulis mirabília ejus. || Declare His glory among the nations, * His wonders among all peoples.
+t: Quóniam magnus Dóminus, et laudábilis nimis: * terríbilis est super omnes deos. || For the Lord is great and exceedingly to be praised; * He is to be feared above all gods.
+t: Quóniam omnes dii géntium dæmónia: * Dóminus autem cælos fecit. || For all the gods of the nations are demons, * but the Lord made the heavens.
+t: Conféssio, et pulchritúdo in conspéctu ejus: * sanctimónia et magnificéntia in sanctificatióne ejus. || Praise and beauty are before Him; * holiness and majesty are in His sanctuary.
+t: Afférte Dómino, pátriæ géntium, afférte Dómino glóriam et honórem: * afférte Dómino glóriam nómini ejus. || Bring to the Lord, you families of the nations, bring to the Lord glory and honor; * bring to the Lord glory to His name.
+t: Tóllite hóstias, et introíte in átria ejus: * adoráte Dóminum in átrio sancto ejus. || Bring sacrifices and come into His courts; * adore the Lord in His holy court.
+t: Commoveátur a fácie ejus univérsa terra: * dícite in géntibus quia Dóminus regnávit. || Let all the earth tremble before Him; * say among the nations that the Lord has reigned.
+t: Etenim corréxit orbem terræ qui non commovébitur: * judicábit pópulos in æquitáte. || For He has set the world aright, and it shall not be moved; * He will judge the peoples with equity.
+t: Læténtur cæli, et exsúltet terra: commoveátur mare, et plenitúdo ejus: * gaudébunt campi, et ómnia quæ in eis sunt. || Let the heavens rejoice and the earth be glad; let the sea be moved, and all that fills it; * the fields and all that is in them shall be joyful.
+t: Tunc exsultábunt ómnia ligna silvárum a fácie Dómini, quia venit: * quóniam venit judicáre terram. || Then shall all the trees of the forest rejoice before the face of the Lord, because He comes, * for He comes to judge the earth.
+t: Judicábit orbem terræ in æquitáte, * et pópulos in veritáte sua. || He will judge the world with equity, * and the peoples in His truth.
+@gloria-patri
+h: Psalmus 99 || Psalm 99
+t: Jubiláte Deo, omnis terra: * servíte Dómino in lætítia. || Shout joyfully to God, all the earth; * serve the Lord with gladness.
+t: Introíte in conspéctu ejus, * in exsultatióne. || Come into His presence * with exultation.
+t: Scitóte quóniam Dóminus ipse est Deus: * ipse fecit nos, et non ipsi nos. || Know that the Lord is God; * He made us, and not we ourselves.
+t: Pópulus ejus, et oves páscuæ ejus: * introíte portas ejus in confessióne, átria ejus in hymnis: confitémini illi. || We are His people and the sheep of His pasture; * enter His gates with praise, His courts with hymns, and give glory to Him.
+t: Laudáte nomen ejus: quóniam suávis est Dóminus, in ætérnum misericórdia ejus, * et usque in generatiónem et generatiónem véritas ejus. || Praise His name, for the Lord is sweet; His mercy endures for ever, * and His truth from generation to generation.
+@gloria-patri
+h: Psalmus 102 || Psalm 102
+t: Bénedic, ánima mea, Dómino: * et ómnia, quæ intra me sunt, nómini sancto ejus. || Bless the Lord, O my soul, * and let all that is within me bless His holy name.
+t: Bénedic, ánima mea, Dómino: * et noli oblivísci omnes retributiónes ejus. || Bless the Lord, O my soul, * and do not forget all His benefits.
+t: Qui propitiátur ómnibus iniquitátibus tuis: * qui sanat omnes infirmitátes tuas. || He forgives all your iniquities; * He heals all your diseases.
+t: Qui rédimit de intéritu vitam tuam: * qui corónat te in misericórdia et miseratiónibus. || He redeems your life from destruction; * He crowns you with mercy and compassion.
+t: Qui replet in bonis desidérium tuum: * renovábitur ut áquilæ juvéntus tua: || He satisfies your desire with good things; * your youth shall be renewed like the eagle's.
+t: Fáciens misericórdias Dóminus: * et judícium ómnibus injúriam patiéntibus. || The Lord works mercies, * and justice for all who suffer wrong.
+t: Notas fecit vias suas Móysi, * fíliis Israël voluntátes suas. || He made known His ways to Moses, * His will to the children of Israel.
+t: Miserátor, et miséricors Dóminus: * longánimis, et multum miséricors. || The Lord is compassionate and merciful, * long-suffering and abounding in mercy.
+t: Non in perpétuum irascétur: * neque in ætérnum comminábitur. || He will not always be angry, * nor will He threaten for ever.
+t: Non secúndum peccáta nostra fecit nobis: * neque secúndum iniquitátes nostras retríbuit nobis. || He has not dealt with us according to our sins, * nor repaid us according to our iniquities.
+t: Quóniam secúndum altitúdinem cæli a terra: * corroborávit misericórdiam suam super timéntes se. || For as the heaven is high above the earth, * so has He confirmed His mercy toward those who fear Him.
+t: Quantum distat ortus ab occidénte: * longe fecit a nobis iniquitátes nostras. || As far as the east is from the west, * so far has He removed our iniquities from us.
+t: Quómodo miserétur pater filiórum, misértus est Dóminus timéntibus se: * quóniam ipse cognóvit figméntum nostrum. || As a father has compassion on his children, so has the Lord compassion on those who fear Him, * for He knows how we are formed.
+t: Recordátus est quóniam pulvis sumus: * homo, sicut fœnum dies ejus, tamquam flos agri sic efflorébit. || He remembers that we are dust; * man's days are like grass; like the flower of the field, so shall he flourish.
+t: Quóniam spíritus pertransíbit in illo, et non subsístet: * et non cognóscet ámplius locum suum. || For the wind shall pass over it, and it shall be gone, * and its place shall know it no more.
+t: Misericórdia autem Dómini ab ætérno, * et usque in ætérnum super timéntes eum. || But the mercy of the Lord is from everlasting * to everlasting upon those who fear Him,
+t: Et justítia illíus in fílios filiórum, * his qui servant testaméntum ejus: || And His justice to children's children, * to those who keep His covenant,
+t: Et mémores sunt mandatórum ipsíus, * ad faciéndum ea. || And remember His commandments * to do them.
+t: Dóminus in cælo parávit sedem suam: * et regnum ipsíus ómnibus dominábitur. || The Lord has prepared His throne in heaven, * and His kingdom shall rule over all.
+t: Benedícite Dómino, omnes Ángeli ejus: * poténtes virtúte, faciéntes verbum illíus, ad audiéndam vocem sermónum ejus. || Bless the Lord, all you His Angels, * mighty in strength, who do His word, hearkening to the voice of His command.
+t: Benedícite Dómino, omnes virtútes ejus: * minístri ejus, qui fácitis voluntátem ejus. || Bless the Lord, all you His hosts, * His ministers who do His will.
+t: Benedícite Dómino, ómnia ópera ejus: * in omni loco dominatiónis ejus, bénedic, ánima mea, Dómino. || Bless the Lord, all His works, * in every place of His dominion; bless the Lord, O my soul.
+@gloria-patri
+h: Psalmus 116 || Psalm 116
+t: Laudáte Dóminum, omnes gentes: * laudáte eum, omnes pópuli: || Praise the Lord, all you nations; * praise Him, all you peoples.
+t: Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum. || For His mercy is confirmed upon us, * and the truth of the Lord endures for ever.
+@gloria-patri
+h: Psalmus 148 || Psalm 148
+t: Laudáte Dóminum de cælis: * laudáte eum in excélsis. || Praise the Lord from the heavens; * praise Him in the heights.
+t: Laudáte eum, omnes Ángeli ejus: * laudáte eum, omnes virtútes ejus. || Praise Him, all His Angels; * praise Him, all His hosts.
+t: Laudáte eum, sol et luna: * laudáte eum, omnes stellæ et lumen. || Praise Him, sun and moon; * praise Him, all you stars and light.
+t: Laudáte eum, cæli cælórum: * et aquæ omnes, quæ super cælos sunt, laudent nomen Dómini. || Praise Him, you heavens of heavens, * and let all the waters above the heavens praise the name of the Lord.
+t: Quia ipse dixit, et facta sunt: * ipse mandávit, et creáta sunt. || For He spoke, and they were made; * He commanded, and they were created.
+t: Státuit ea in ætérnum, et in sǽculum sǽculi: * præcéptum pósuit, et non præteríbit. || He established them for ever and for ages of ages; * He gave a decree, and it shall not pass away.
+t: Laudáte Dóminum de terra, * dracónes, et omnes abýssi. || Praise the Lord from the earth, * you dragons and all the deeps;
+t: Ignis, grando, nix, glácies, spíritus procellárum: * quæ fáciunt verbum ejus: || Fire, hail, snow, ice, stormy winds, * which fulfill His word;
+t: Montes, et omnes colles: * ligna fructífera, et omnes cedri. || Mountains and all hills, * fruitful trees and all cedars;
+t: Béstiæ, et univérsa pécora: * serpéntes, et vólucres pennátæ: || Beasts and all cattle, * serpents and winged birds;
+t: Reges terræ, et omnes pópuli: * príncipes, et omnes júdices terræ. || Kings of the earth and all peoples, * princes and all judges of the earth;
+t: Júvenes, et vírgines: senes cum junióribus laudent nomen Dómini: * quia exaltátum est nomen ejus solíus. || Young men and maidens, the old with the young, let them praise the name of the Lord, * for His name alone is exalted.
+t: Conféssio ejus super cælum et terram: * et exaltávit cornu pópuli sui. || His praise is above heaven and earth, * and He has exalted the horn of His people.
+t: Hymnus ómnibus sanctis ejus: * fíliis Israël, pópulo appropinquánti sibi. || A hymn to all His saints, * to the children of Israel, a people drawing near to Him.
+@gloria-patri
+h: Psalmus 149 || Psalm 149
+t: Cantáte Dómino cánticum novum: * laus ejus in ecclésia sanctórum. || Sing to the Lord a new song; * let His praise be in the assembly of the saints.
+t: Lætétur Israël in eo, qui fecit eum: * et fílii Sion exsúltent in rege suo. || Let Israel rejoice in Him who made him, * and let the children of Sion exult in their King.
+t: Laudent nomen ejus in choro: * in týmpano, et psaltério psallant ei: || Let them praise His name in the dance; * let them sing to Him with timbrel and psaltery.
+t: Quia beneplácitum est Dómino in pópulo suo: * et exaltábit mansuétos in salútem. || For the Lord takes delight in His people, * and He will exalt the meek unto salvation.
+t: Exsultábunt sancti in glória: * lætabúntur in cubílibus suis. || The saints shall exult in glory; * they shall rejoice upon their beds.
+t: Exaltatiónes Dei in gútture eórum: * et gládii ancípites in mánibus eórum: || The high praises of God shall be in their mouths, * and two-edged swords in their hands,
+t: Ad faciéndam vindíctam in natiónibus: * increpatiónes in pópulis. || To execute vengeance upon the nations, * chastisements among the peoples;
+t: Ad alligándos reges eórum in compédibus: * et nóbiles eórum in mánicis férreis. || To bind their kings with fetters, * and their nobles with manacles of iron;
+t: Ut fáciant in eis judícium conscríptum: * glória hæc est ómnibus sanctis ejus. || To execute upon them the judgment that is written; * this glory is for all His saints.
+@gloria-patri
+h: Psalmus 150 || Psalm 150
+t: Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus. || Praise the Lord in His holy places; * praise Him in the firmament of His power.
+t: Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus. || Praise Him for His mighty deeds; * praise Him according to the abundance of His greatness.
+t: Laudáte eum in sono tubæ: * laudáte eum in psaltério, et cíthara. || Praise Him with the sound of the trumpet; * praise Him with psaltery and harp.
+t: Laudáte eum in týmpano, et choro: * laudáte eum in chordis, et órgano. || Praise Him with timbrel and dance; * praise Him with strings and pipe.
+t: Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis jubilatiónis: * omnis spíritus laudet Dóminum. || Praise Him with well-sounding cymbals; praise Him with cymbals of jubilation; * let every spirit praise the Lord.
+@gloria-patri
+r: Canticum Benedícite, ómnia ópera Dómini, ut supra (pag. 218). || The Canticle "Bless the Lord, all you works of the Lord," as above.
+r: Canticum Benedíctus Dóminus, Deus Israël, ut supra (pag. 209); in fine Glória Patri. || The Canticle "Blessed be the Lord, the God of Israel," as above; at the end, Glory be to the Father.
+r: 3. Hæc autem prædicta, prout longitudo itineris postulaverit, vel omnia, vel ex parte cantari possunt. || 3. All of the foregoing may be sung, either entirely or in part, as the length of the route may require.
+r: Deinde in ecclesia, ubi fit statio, ante Altare dicuntur sequentes Versus et Orationes. || Then in the church where the station is made, the following versicles and prayers are said before the altar.
+v: Benedíctus es, Dómine, Deus patrum nostrórum. || Blessed are You, O Lord, the God of our fathers.
+x: Et laudábilis, et gloriósus in sǽcula. || And worthy to be praised and glorified for ever.
+v: Benedicámus Patrem, et Fílium, cum Sancto Spíritu. || Let us bless the Father and the Son, with the Holy Spirit.
+x: Laudémus, et superexaltémus eum in sǽcula. || Let us praise and exalt Him above all for ever.
+v: Benedíctus es, Dómine, in firmaménto cæli. || Blessed are You, O Lord, in the firmament of heaven.
+x: Et laudábilis, et gloriósus, et superexaltátus in sǽcula. || And worthy to be praised, and glorified, and exalted above all for ever.
+v: Bénedic, ánima mea, Dómino. || Bless the Lord, O my soul.
+x: Et noli oblivísci omnes retributiónes ejus. || And do not forget all His benefits.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+h: Oratio || Prayer
+t: Deus, cujus misericórdiæ non est númerus, et bonitátis infinítus est thesáurus: piíssimæ Majestáti tuæ pro collátis donis grátias ágimus, tuam semper cleméntiam exorántes; ut, qui peténtibus postuláta concédis, eósdem non déserens, ad prǽmia futúra dispónas. || O God, whose mercy is without number and whose treasure of goodness is infinite, we give thanks to Your most gracious Majesty for the gifts You have bestowed, ever entreating Your clemency, that You who grant the petitions of those who ask may not forsake them, but dispose them for the rewards to come.
+t: Deus, qui corda fidélium Sancti Spíritus illustratióne docuísti: da nobis in eódem Spíritu recta sápere; et de ejus semper consolatióne gaudére. || O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that by the same Spirit we may be truly wise and ever rejoice in His consolation.
+t: Deus, qui néminem in te sperántem nímium afflígi permíttis, sed pium précibus præstas audítum: pro postulatiónibus nostris, votísque suscéptis grátias ágimus, te piíssime deprecántes; ut a cunctis semper muniámur advérsis. Per Dóminum. ℟. Amen. || O God, who permit no one who hopes in You to be afflicted beyond measure, but lend a kindly ear to their prayers, we give You thanks for having received our petitions and vows, most earnestly beseeching You that we may ever be defended against all adversity. Through our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Procession for the Translation of Sacred Relics
+// ──────────────────────────────────────────────────────────────────────
+# procession-relics | De Processione in Translatione Sacrarum Reliquiarum | Procession for the Translation of Sacred Relics | Processions | Tit. IX, cap. 14
+r: Ecclesia et viæ, per quas transeundum est, quantum fieri potest, decentius ornentur. Sacerdotes et Ministri vestibus induti albi vel rubei coloris, prout Sancti, quorum Reliquiæ transferuntur, exposcunt, et omnes cum luminaribus accensis procedant, decantantes Litanias (pag. 104) cum invocatione Sanctorum, quorum Reliquiæ deferuntur, et Hymnum Te Deum (pag. 316), et Psalmum Laudáte Dóminum de cælis (pag. 321) cum duobus sequentibus, et alios Psalmos et Hymnos de Proprio vel de Communi eorum Sanctorum, quorum Reliquiæ transferuntur. || The church and the streets through which the procession is to pass should be adorned as becomingly as possible. The priests and ministers are to be vested in white or red, as the Saints whose relics are being translated require, and all are to go in procession with lighted candles, singing the Litany of the Saints (see the Litany of the Saints) with the invocation of the Saints whose relics are being carried, the hymn Te Deum (see the Procession of Thanksgiving above), the psalm "Praise the Lord from the heavens" (Psalm 148, ibid.) with the two that follow, and other psalms and hymns from the Proper or the Common of the Saints whose relics are being translated.

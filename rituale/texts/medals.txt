@@ -1,0 +1,91 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Miraculous Medal and St. Benedict Medal (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Imposition of the Miraculous Medal
+// ──────────────────────────────────────────────────────────────────────
+# miraculous-medal | Benedictio et Impositio Sacri Numismatis B. M. V. Immaculatæ (Médaille miraculeuse) | Blessing and Imposition of the Miraculous Medal | Objects of Devotion | Appendix, Benedictiones propriæ (Congr. Missionis)
+r: Sacerdos benedicturus sacrum Numisma immaculatæ Virginis Mariæ Conceptionis, superpelliceo et stola alba indutus, dicit: || The priest who is to bless the sacred Medal of the Immaculate Conception of the Virgin Mary, vested in surplice and white stole, says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens et miséricors Deus, qui per multíplices immaculátæ Maríæ Vírginis apparitiónes in terris mirabília júgiter pro animárum salúte operári dignátus es: super hoc numísmatis signum, tuam bene✠dictiónem benígnus infúnde; ut pie hoc recoléntes ac devóte gestántes et illíus patrocínium séntiant et tuam misericórdiam consequántur. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty and merciful God, who through the many apparitions on earth of the immaculate Virgin Mary have deigned to work wonders continually for the salvation of souls: graciously pour Your ✠ blessing upon this medal, so that those who piously remember its meaning and devoutly wear it may feel her protection and obtain Your mercy. Through Christ our Lord. ℟. Amen.
+r: Deinde Numisma aspergit aqua benedicta, et ipsum postea imponens dicit, si uni tantum imponatur: || Then he sprinkles the medal with holy water, and afterward, placing it on the person, says, if it is given to one only:
+t: Accipe sanctum Numísma, gesta fidéliter, et digna veneratióne proséquere: ut piíssima et immaculáta cælórum Dómina te prótegat atque deféndat; et pietátis suæ prodígia rénovans, quæ a Deo supplíciter postuláveris, tibi misericórditer ímpetret, ut vivens ac móriens in matérno ejus ampléxu felíciter requiéscas. Amen. || Receive this holy medal; wear it faithfully and honor it with fitting reverence, so that the most loving and immaculate Queen of heaven may protect and defend you; and, renewing the wonders of her goodness, may mercifully obtain for you whatever you humbly ask of God, so that, living and dying, you may rest happily in her motherly embrace. Amen.
+r: Si vero pluribus imponatur, dicit: || If it is given to several, he says:
+t: Accípite sanctum Numísma, gestáte fidéliter, et digna veneratióne prosequímini: ut piíssima et immaculáta cælórum Dómina vos prótegat atque deféndat; et pietátis suæ prodígia rénovans, quæ a Deo supplíciter postulavéritis, vobis misericórditer ímpetret, ut vivéntes ac moriéntes in matérno ejus ampléxu felíciter requiescátis. Amen. || Receive this holy medal; wear it faithfully and honor it with fitting reverence, so that the most loving and immaculate Queen of heaven may protect and defend you; and, renewing the wonders of her goodness, may mercifully obtain for you whatever you humbly ask of God, so that, living and dying, you may rest happily in her motherly embrace. Amen.
+r: Inde prosequitur: || He then continues:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Regína sine labe origináli concépta. || Queen conceived without original sin,
+x: Ora pro nobis. || Pray for us.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui beatíssimam Vírginem Maríam matrem tuam ab orígine immaculátam innúmeris miráculis claréscere voluísti: concéde; ut ejúsdem patrocínium semper implorántes, gáudia consequámur ætérna: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who willed that the most blessed Virgin Mary, Your Mother, immaculate from her origin, should become renowned through countless miracles: grant that, always imploring her protection, we may attain everlasting joys. Who live and reign for ever and ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of St. Benedict Medals
+// ──────────────────────────────────────────────────────────────────────
+# st-benedict-medal | Benedictio Numismatum S. Benedicti | Blessing of St. Benedict Medals | Objects of Devotion | Appendix, Benedictiones propriæ (Ord. S. Benedicti)
+r: Sacerdos benedicturus numismata sancti Benedicti, dicit: || The priest who is to bless medals of St. Benedict says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+t: Exorcízo vos, numísmata, per Deum ✠ Patrem omnipoténtem, qui fecit cælum et terram, mare et ómnia, quæ in eis sunt. Omnis virtus adversárii, omnis exércitus diáboli, et omnis incúrsus, omne phantásma sátanæ, eradicáre et effugáre ab his numismátibus: ut fiant ómnibus, qui eis usúri sunt, salus mentis et córporis: in nómine Pa✠tris omnipoténtis, et Jesu ✠ Christi Fílii ejus, Dómini nostri, et Spíritus ✠ Sancti Parácliti, et in caritáte ejúsdem Dómini nostri Jesu Christi, qui ventúrus est judicáre vivos et mórtuos, et sǽculum per ignem. ℟. Amen. || I exorcise you, medals, by God the ✠ Father almighty, who made heaven and earth, the sea, and all that is in them. May every power of the adversary, every host of the devil, every assault and every phantom of Satan be uprooted and put to flight from these medals, so that they may be health of mind and body to all who will use them: in the name of the ✠ Father almighty, and of Jesus ✠ Christ, His Son, our Lord, and of the Holy ✠ Spirit, the Paraclete, and in the love of the same Jesus Christ our Lord, who is to come to judge the living and the dead, and the world by fire. ℟. Amen.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be to us, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Dóminus virtútem pópulo suo dabit. || The Lord will give strength to His people.
+x: Dóminus benedícet pópulum suum in pace. || The Lord will bless His people with peace.
+v: Mitte nobis, Dómine, auxílium de sancto. || Send us help, O Lord, from Your holy place.
+x: Et de Sion tuére nos. || And defend us out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus omnípotens, bonórum ómnium largítor, súpplices te rogámus, ut per intercessiónem sancti Benedícti, his sacris numismátibus, lítteris ac charactéribus a te designátis, tuam bene✠dictiónem infúndas: ut omnes, qui ea gestáverint ac bonis opéribus inténti fúerint, sanitátem mentis et córporis, et grátiam sanctificatiónis, atque indulgéntias (nobis) concéssas cónsequi mereántur; omnésque diáboli insídias et fraudes, per auxílium misericórdiæ tuæ, effúgere váleant, et in conspéctu tuo sancti et immaculáti appáreant. ℟. Amen. || Almighty God, giver of all good things, we humbly beseech You, through the intercession of Saint Benedict, to pour out Your ✠ blessing upon these sacred medals, marked with the letters and signs designated by You; so that all who wear them and devote themselves to good works may be worthy to obtain health of mind and body, the grace of sanctification, and the indulgences granted (to us); and that by the help of Your mercy they may escape all the snares and deceits of the devil, and appear holy and spotless in Your sight. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui voluísti pro totíus mundi redemptióne de Vírgine nasci, circumcídi, a Judǽis reprobári, Judæ ósculo tradi, vínculis alligári, spinis coronári, clavis perforári, inter latrónes crucifígi, láncea vulnerári, et tandem in Cruce mori: per hanc tuam sanctíssimam passiónem humíliter exóro; ut omnes diabólicas insídias et fraudes expéllas ab eo, qui nomen sanctum tuum, his lítteris ac charactéribus a te designátis, devóte invocáverit, et eum ad salútis portum perdúcere dignéris: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who for the redemption of the whole world willed to be born of a Virgin, to be circumcised, rejected by the Jews, betrayed by the kiss of Judas, bound with chains, crowned with thorns, pierced with nails, crucified between thieves, wounded with a lance, and at last to die on the Cross: by this Your most holy Passion I humbly pray that You would drive away all the snares and deceits of the devil from whoever devoutly calls on Your holy name with these letters and signs designated by You, and deign to bring him to the harbor of salvation. Who live and reign for ever and ever. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super hæc numísmata, ac ea gestántes, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon these medals and those who wear them, and remain for ever. ℟. Amen.
+r: Deinde Sacerdos aspergit numismata aqua benedicta. || Then the priest sprinkles the medals with holy water.
+h: Formula brevior benedicendi numismata S. Benedicti || Shorter form for blessing St. Benedict medals
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+r: Exorcízo vos, numísmata, etc., ut supra, usque ad Kýrie, eléison exclusive. || "I exorcise you, medals," etc., as above, up to "Lord, have mercy," exclusive.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus omnípotens, bonórum ómnium largítor, súpplices te rogámus, ut per intercessiónem sancti Benedícti his sacris numismátibus tuam bene✠dictiónem infúndas, ut omnes qui ea gestáverint ac bonis opéribus inténti fúerint, sanitátem mentis et córporis, et grátiam sanctificatiónis, atque indulgéntias (nobis) concéssas cónsequi mereántur, omnésque diáboli insídias et fraudes, per auxílium misericórdiæ tuæ, stúdeant devitáre et in conspéctu tuo sancti et immaculáti váleant apparére. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty God, giver of all good things, we humbly beseech You, through the intercession of Saint Benedict, to pour out Your ✠ blessing upon these sacred medals, so that all who wear them and devote themselves to good works may be worthy to obtain health of mind and body, the grace of sanctification, and the indulgences granted (to us); and that by the help of Your mercy they may strive to avoid all the snares and deceits of the devil, and be able to appear holy and spotless in Your sight. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.

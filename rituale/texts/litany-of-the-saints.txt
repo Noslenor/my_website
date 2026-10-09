@@ -1,0 +1,82 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  The Litany of the Saints (Tit. X)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// The Seven Penitential Psalms with the Litany of the Saints
+// ──────────────────────────────────────────────────────────────────────
+# litany-saints | Septem Psalmi Pœnitentiales cum Litaniis Sanctorum | The Seven Penitential Psalms with the Litany of the Saints | Litanies & Prayers | Tit. V, cap. 3
+r: Pro infirmis, dum sacro liniuntur Oleo, seu pro alia necessitate dicuntur flexis genibus. || They are said kneeling, for the sick while they are being anointed with the holy oil, or for any other need.
+n: Many other rites in this book call for "the ordinary Litany" (Litaniæ ordinariæ); this is the text meant. When a rite says the Litany is said without the prayers at the end, it ends at the final Kyrie.
+t: *Ant.* Ne reminiscáris. || *Ant.* Remember not.
+@psalm-6
+@psalm-31
+@psalm-37
+@psalm-50
+@psalm-101
+@psalm-129
+@psalm-142
+t: *Ant.* Ne reminiscáris, Dómine, delícta nostra, vel paréntum nostrórum: neque vindíctam sumas de peccátis nostris. || *Ant.* Remember not, O Lord, our offenses or those of our parents, and take not vengeance on our sins.
+@litany-of-the-saints
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+@psalm-69
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || O my God, who hope in You.
+v: Esto nobis, Dómine, turris fortitúdinis. || Be unto us, O Lord, a tower of strength
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in nobis. || Let the enemy have no power over us,
+x: Et fílius iniquitátis non appónat nocére nobis. || Nor the son of iniquity draw near to harm us.
+v: Dómine, non secúndum peccáta nostra fácias nobis. || O Lord, deal not with us according to our sins,
+x: Neque secúndum iniquitátes nostras retríbuas nobis. || Nor repay us according to our iniquities.
+v: Orémus pro Pontífice nostro N. || Let us pray for our Pope N.
+x: Dóminus consérvet eum, et vivíficet eum, et beátum fáciat eum in terra, et non tradat eum in ánimam inimicórum ejus. || May the Lord preserve him and give him life, make him blessed upon the earth, and not deliver him to the will of his enemies.
+v: Orémus pro benefactóribus nostris. || Let us pray for our benefactors.
+x: Retribúere dignáre, Dómine, ómnibus, nobis bona faciéntibus propter nomen tuum, vitam ætérnam. Amen. || Deign, O Lord, to reward with eternal life all who do good to us for Your name's sake. Amen.
+v: Orémus pro fidélibus defúnctis. || Let us pray for the faithful departed.
+x: Réquiem ætérnam dona eis, Dómine, et lux perpétua lúceat eis. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+v: Pro frátribus nostris abséntibus. || For our absent brethren.
+x: Salvos fac servos tuos, Deus meus, sperántes in te. || Save Your servants, O my God, who hope in You.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from the sanctuary,
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere: súscipe deprecatiónem nostram; ut nos, et omnes fámulos tuos, quos delictórum caténa constríngit, miserátio tuæ pietátis cleménter absólvat. || O God, whose nature it is always to have mercy and to spare, receive our petition, that the compassion of Your kindness may mercifully set free us and all Your servants who are bound by the chain of sin.
+t: Exáudi, quǽsumus, Dómine, súpplicum preces, et confiténtium tibi parce peccátis: ut páriter nobis indulgéntiam tríbuas benígnus et pacem. || Hear, we beseech You, O Lord, the prayers of Your suppliants, and spare the sins of those who confess to You, that in Your goodness You may grant us both pardon and peace.
+t: Ineffábilem nobis, Dómine, misericórdiam tuam cleménter osténde: ut simul nos et a peccátis ómnibus éxuas, et a pœnis, quas pro his merémur, erípias. || Mercifully show us, O Lord, Your unspeakable mercy, that You may both strip us of all our sins and deliver us from the punishments we deserve for them.
+t: Deus, qui culpa offénderis, pœniténtia placáris: preces pópuli tui supplicántis propítius réspice; et flagélla tuæ iracúndiæ, quæ pro peccátis nostris merémur, avérte. || O God, who are offended by sin and appeased by penance, graciously regard the prayers of Your people who entreat You, and turn away the scourges of Your anger, which we deserve for our sins.
+t: Omnípotens sempitérne Deus, miserére fámulo tuo Pontífici nostro N., et dírige eum secúndum tuam cleméntiam in viam salútis ætérnæ: ut, te donánte, tibi plácita cúpiat, et tota virtúte perfíciat. || Almighty, everlasting God, have mercy on Your servant N., our Pope, and in Your kindness guide him on the way of eternal salvation, that by Your gift he may desire what pleases You and accomplish it with all his strength.
+t: Deus, a quo sancta desidéria, recta consília et justa sunt ópera: da servis tuis illam, quam mundus dare non potest, pacem; ut et corda nostra mandátis tuis dédita, et hóstium subláta formídine, témpora sint, tua protectióne, tranquílla. || O God, from whom come holy desires, right counsels, and just works: give to Your servants that peace which the world cannot give, that our hearts may be devoted to Your commandments and, the fear of enemies being removed, our times may be peaceful under Your protection.
+t: Ure igne Sancti Spíritus renes nostros et cor nostrum, Dómine: ut tibi casto córpore serviámus, et mundo corde placeámus. || Inflame, O Lord, our hearts and our inmost being with the fire of the Holy Spirit, that we may serve You with a chaste body and please You with a clean heart.
+t: Fidélium, Deus, ómnium Cónditor et Redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur. || O God, Creator and Redeemer of all the faithful, grant to the souls of Your servants, men and women, the remission of all their sins, that through our devout prayers they may obtain the pardon they have always desired.
+t: Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni et adjuvándo proséquere: ut cuncta nostra orátio et operátio a te semper incípiat, et per te cœpta finiátur. || Direct our actions, we beseech You, O Lord, by Your inspiration, and further them by Your help, that every prayer and work of ours may always begin with You and, begun through You, be brought to completion.
+t: Omnípotens sempitérne Deus, qui vivórum domináris simul et mortuórum, omniúmque miseréris, quos tuos fide et ópere futúros esse prænóscis: te súpplices exorámus; ut, pro quibus effúndere preces decrévimus, quosque vel præsens sǽculum adhuc in carne rétinet, vel futúrum jam exútos córpore suscépit, intercedéntibus ómnibus Sanctis tuis, pietátis tuæ cleméntia, ómnium delictórum suórum véniam consequántur. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Almighty, everlasting God, who are Lord of the living and the dead, and have mercy on all whom You foreknow will be Yours by faith and works: we humbly entreat You that those for whom we have resolved to pour out our prayers, whether this present world still holds them in the flesh or the world to come has already received them freed from the body, may, through the intercession of all Your Saints and by the kindness of Your mercy, obtain pardon for all their sins. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+v: Exáudiat nos omnípotens et miséricors Dóminus. || May the almighty and merciful Lord graciously hear us.
+x: Amen. || Amen.
+v: Et fidélium ánimæ per misericórdiam Dei requiéscant in pace. || And may the souls of the faithful departed, through the mercy of God, rest in peace.
+x: Amen. || Amen.

@@ -1,0 +1,167 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Marriage, the Nuptial Blessing, and Churching (Tit. VII and Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// The Rite for Celebrating the Sacrament of Matrimony
+// ──────────────────────────────────────────────────────────────────────
+# marriage | Ritus Celebrandi Matrimonii Sacramentum | The Rite for Celebrating the Sacrament of Matrimony | Sacraments | Tit. VII, cap. 2
+r: 1. Parochus Matrimonio adfuturus, publicationibus factis ut dictum est, si nullum obstet legitimum impedimentum, in ecclesia, superpelliceo et stola alba indutus, adhibito uno saltem Clerico superpelliceo pariter induto, qui librum et vas aquæ benedictæ cum aspersorio deferat, coram duobus saltem testibus, virum et mulierem ante altare genuflexos, quos parentum vel propinquorum suorum præsentia cohonestari decet, de consensu in Matrimonium interroget, utrumque singillatim in hunc modum vulgari sermone: || 1. The pastor who is to assist at the marriage, the banns having been published as prescribed, and no lawful impediment standing in the way, vested in surplice and white stole in the church, and attended by at least one cleric likewise in surplice who carries the book and the vessel of holy water with the sprinkler, in the presence of at least two witnesses, questions the man and the woman, kneeling before the altar (whom the presence of their parents or relatives should honor), about their consent to marriage, each one separately, in the vernacular, in this manner:
+r: Et primo quidem sponsum interroget: || And first he questions the bridegroom:
+t: N., Vis accípere N., hic præséntem, in tuam legítimam uxórem juxta ritum sanctæ matris Ecclésiæ? || N., will you take N., here present, for your lawful wife, according to the rite of our holy Mother the Church?
+t: *Respondeat sponsus:* Volo. || *The bridegroom answers:* I will.
+r: 2. Mox Sacerdos sponsam interroget: || 2. Then the priest questions the bride:
+t: N., Vis accípere N., hic præséntem, in tuum legítimum marítum juxta ritum sanctæ matris Ecclésiæ? || N., will you take N., here present, for your lawful husband, according to the rite of our holy Mother the Church?
+t: *Respondeat sponsa:* Volo. || *The bride answers:* I will.
+r: Nec sufficit consensus unius, sed debet esse amborum, et expressus verbis, si loqui possint, aut, secus, æquipollentibus signis, sive fiat per se, sive per procuratorem. || The consent of one alone does not suffice; it must be the consent of both, expressed in words if they can speak, or otherwise by equivalent signs, whether given in person or through a proxy.
+r: Mutuo autem contrahentium consensu intellecto, Sacerdos jubeat eos invicem jungere dexteras, et dicat: || The mutual consent of the parties having been ascertained, the priest bids them join their right hands, and says:
+t: Ego conjúngo vos in matrimónium. In nómine Patris, ✠ et Fílii, et Spíritus Sancti. Amen. || I join you together in marriage. In the name of the Father, ✠ and of the Son, and of the Holy Spirit. Amen.
+r: Vel aliis utatur verbis juxta receptum uniuscujusque loci ritum. Postea eos aspergat aqua benedicta. Mox benedicat anulum, dicens: || Or he may use other words according to the accepted rite of each place. Then he sprinkles them with holy water. Next he blesses the ring, saying:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Bene✠dic, Dómine, ánulum hunc, quem nos in tuo nómine bene✠dícimus, ut, quæ eum gestáverit, fidelitátem íntegram suo sponso tenens, in pace et voluntáte tua permáneat atque in mútua caritáte semper vivat. Per Christum, Dóminum nostrum. ℟. Amen. || Bless ✠, O Lord, this ring, which we ✠ bless in Your name, so that she who wears it, keeping faith unbroken with her husband, may abide in peace and in Your will, and live always in mutual love. Through Christ our Lord. ℟. Amen.
+r: 3. Deinde Sacerdos aspergat anulum aqua benedicta; et sponsus acceptum anulum de manu Sacerdotis imponat in digito anulari sinistræ manus sponsæ, Sacerdote dicente: || 3. Then the priest sprinkles the ring with holy water; and the bridegroom, receiving the ring from the hand of the priest, places it on the ring finger of the bride's left hand, while the priest says:
+t: In nómine Patris, et Fílii, ✠ et Spíritus Sancti. Amen. || In the name of the Father, and of the Son, ✠ and of the Holy Spirit. Amen.
+r: Mox Sacerdos subjungat: || Then the priest adds:
+v: Confírma hoc, Deus, quod operátus es in nobis. || Confirm, O God, what You have wrought in us.
+x: A templo sancto tuo, quod est in Jerúsalem. || From Your holy temple, which is in Jerusalem.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants.
+x: Deus meus, sperántes in te. || Who hope in You, O my God.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from Your holy place.
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Esto eis, Dómine, turris fortitúdinis. || Be to them, O Lord, a tower of strength.
+x: A fácie inimíci. || Against the face of the enemy.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Réspice, quǽsumus, Dómine, super hos fámulos tuos: et institútis tuis, quibus propagatiónem humáni géneris ordinásti, benígnus assíste; ut, qui te auctóre jungúntur, te auxiliánte servéntur. Per Christum, Dóminum nostrum. ℟. Amen. || Look down, we beseech You, O Lord, upon these Your servants, and graciously uphold the institution You established for the continuance of the human race; so that those who are joined together by Your authority may be preserved by Your help. Through Christ our Lord. ℟. Amen.
+r: 4. His expletis, si benedicendæ sint nuptiæ, Parochus Missam pro Sponso et Sponsa, ut in Missali Romano, celebret, servatis omnibus quæ ibi præscribuntur. || 4. When this is finished, if the nuptial blessing is to be given, the pastor celebrates the Mass for the Bridegroom and Bride as in the Roman Missal, observing everything prescribed there.
+r: 5. Quando plures simul copulantur, accepto primum singulorum consensu, et rite celebratis singulis Matrimoniis, dictoque pro singulis a Parocho Ego conjúngo vos in matrimónium, etc., benedictiones anulorum et reliquæ benedictiones plurali numero semel fiunt. || 5. When several couples are married together, the consent of each couple is first received and each marriage duly celebrated, the pastor saying "I join you together in marriage," etc., for each; the blessings of the rings and the remaining blessings are then given once, in the plural.
+r: 6. Ceterum, sicubi aliæ laudabiles consuetudines et cæremoniæ in celebrando Matrimonii Sacramento adhibentur, eas convenit retineri. || 6. Moreover, wherever other praiseworthy customs and ceremonies are used in celebrating the Sacrament of Matrimony, it is fitting that they be retained.
+r: 7. Celebrato Matrimonio, Parochus vel qui ejus vices gerit, quamprimum describat in libro Matrimoniorum nomina conjugum ac testium, locum et diem celebrati Matrimonii, atque alia juxta formulam præscriptam; idque licet alius Sacerdos vel a se vel ab Ordinario delegatus Matrimonio adstiterit. Præterea Parochus in libro quoque Baptizatorum adnotet conjugem tali die in sua parœcia Matrimonium contraxisse. Quod si conjux alibi baptizatus fuerit, Matrimonii Parochus notitiam initi contractus ad Parochum Baptismi sive per se sive per Curiam episcopalem transmittat, ut Matrimonium in Baptizatorum librum referatur. || 7. After the marriage, the pastor or the one taking his place is to record as soon as possible in the marriage register the names of the spouses and the witnesses, the place and date of the marriage, and the other particulars according to the prescribed form; and this even if another priest, delegated by him or by the Ordinary, assisted at the marriage. The pastor is also to note in the baptismal register that the spouse contracted marriage in his parish on such a day. If the spouse was baptized elsewhere, the pastor of the marriage is to send notice of it to the pastor of the place of baptism, either directly or through the diocesan curia, so that the marriage may be entered in the baptismal register.
+h: Ex Missali Romano: Missa pro Sponso et Sponsa || From the Roman Missal: the Mass for the Bridegroom and Bride
+n: Note: these prayers come from the Roman Missal, not the Rituale. After the Our Father of the Mass, before "Deliver us, we beseech You," the priest turns to the bridegroom and bride kneeling before the altar and says over them the following prayers.
+t: Orémus. || Let us pray.
+t: Propitiáre, Dómine, supplicatiónibus nostris, et institútis tuis, quibus propagatiónem humáni géneris ordinásti, benígnus assíste: ut, quod te auctóre júngitur, te auxiliánte servétur. Per Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Be favorable, O Lord, to our prayers, and graciously uphold the institution You established for the continuance of the human race; so that what is joined together by Your authority may be preserved by Your help. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui potestáte virtútis tuæ de níhilo cuncta fecísti: qui, dispósitis universitátis exórdiis, hómini, ad imáginem Dei facto, ídeo inseparábile mulíeris adjutórium condidísti, ut femíneo córpori de viríli dares carne princípium, docens, quod ex uno placuísset ínstitui, numquam licére disjúngi: Deus, qui tam excellénti mystério conjugálem cópulam consecrásti, ut Christi et Ecclésiæ sacraméntum præsignáres in fœdere nuptiárum: Deus, per quem múlier júngitur viro, et socíetas principáliter ordináta ea benedictióne donátur, quæ sola nec per originális peccáti pœnam nec per dilúvii est abláta senténtiam: réspice propítius super hanc fámulam tuam, quæ maritáli jungénda consórtio, tua se éxpetit protectióne muníri: sit in ea jugum dilectiónis et pacis: fidélis et casta nubat in Christo, imitatríxque sanctárum permáneat feminárum: sit amábilis viro suo, ut Rachel: sápiens, ut Rebécca: longǽva et fidélis, ut Sara: nihil in ea ex áctibus suis ille auctor prævaricatiónis usúrpet: nexa fídei mandatísque permáneat: uni thoro juncta, contáctus illícitos fúgiat: múniat infirmitátem suam róbore disciplínæ: sit verecúndia gravis, pudóre venerábilis, doctrínis cæléstibus erudíta: sit fœcúnda in sóbole, sit probáta et ínnocens: et ad beatórum réquiem atque ad cæléstia regna pervéniat: et vídeant ambo fílios filiórum suórum, usque in tértiam et quartam generatiónem, et ad optátam pervéniant senectútem. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who by the might of Your power made all things out of nothing; who, when the beginnings of the universe had been set in order, made for man, created in the image of God, the inseparable help of woman, giving the woman's body its origin from the flesh of man, and teaching that what it had pleased You to form from one may never lawfully be separated: O God, who consecrated the union of marriage by so excellent a mystery that in the covenant of wedlock You foreshadowed the sacrament of Christ and the Church: O God, by whom woman is joined to man, and that partnership, ordained from the beginning, is endowed with the one blessing that was taken away neither by the penalty of original sin nor by the sentence of the flood: look kindly upon this Your handmaid, who, about to be joined in marriage, seeks to be strengthened by Your protection. May the yoke she bears be one of love and peace. Faithful and chaste, may she marry in Christ, and remain a follower of holy women. May she be beloved of her husband, like Rachel; wise, like Rebecca; long-lived and faithful, like Sarah. May the author of sin claim nothing in her by her deeds. May she remain bound to the faith and the commandments; united to one husband, may she shun all unlawful contact; may she fortify her weakness with the strength of discipline. May she be grave in modesty, honorable in purity, learned in heavenly doctrine. May she be fruitful in offspring; may she be approved and innocent, and come at last to the rest of the blessed and to the kingdom of heaven. And may they both see their children's children to the third and fourth generation, and reach the old age they desire. Through the same Jesus Christ our Lord, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+n: At the end of Mass, before the final blessing, the priest turns to the newly married and says:
+t: Deus Abraham, Deus Isaac, et Deus Jacob sit vobíscum: et ipse adímpleat benedictiónem suam in vobis: ut videátis fílios filiórum vestrórum usque ad tértiam et quartam generatiónem, et póstea vitam ætérnam habeátis sine fine: adjuvánte Dómino nostro Jesu Christo, qui cum Patre et Spíritu Sancto vivit et regnat Deus, per ómnia sǽcula sæculórum. ℟. Amen. || May the God of Abraham, the God of Isaac, and the God of Jacob be with you, and may He fulfill His blessing in you, so that you may see your children's children to the third and fourth generation, and afterward have life everlasting without end; by the help of our Lord Jesus Christ, who with the Father and the Holy Spirit lives and reigns, God, for ever and ever. ℟. Amen.
+n: The Missal then directs the priest to exhort the couple to remain faithful to one another and to live in the fear of the Lord, and to sprinkle them with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Nuptial Blessing outside Mass
+// ──────────────────────────────────────────────────────────────────────
+# nuptial-blessing-outside-mass | Benedictio Nuptialis extra Missam | The Nuptial Blessing outside Mass | Sacraments | Appendix, De Matrimonio, I
+r: Expleto ritu celebrandi Matrimonii sacramentum, post Orationem Réspice, etc., si permittatur benedictio nuptialis, sed non dicatur Missa, Sacerdos qui speciale indultum a Sancta Sede obtinuerit, ad neo-conjugatos conversus, dicit Psalmum sequentem: || When the rite of celebrating the Sacrament of Matrimony is finished, after the prayer "Look down," etc., if the nuptial blessing is permitted but Mass is not said, a priest who has obtained a special indult from the Holy See, turning to the newly married, says the following psalm:
+h: Psalmus 127 || Psalm 127
+t: Beáti omnes, qui timent Dóminum, * qui ámbulant in viis ejus. || Blessed are all who fear the Lord, * who walk in His ways.
+t: Labóres mánuum tuárum quia manducábis: * beátus es, et bene tibi erit. || For you shall eat the labors of your hands; * blessed are you, and it shall be well with you.
+t: Uxor tua sicut vitis abúndans, * in latéribus domus tuæ. || Your wife shall be like a fruitful vine * on the sides of your house.
+t: Fílii tui sicut novéllæ olivárum, * in circúitu mensæ tuæ. || Your children like olive shoots * round about your table.
+t: Ecce, sic benedicétur homo, * qui timet Dóminum. || Behold, thus shall the man be blessed * who fears the Lord.
+t: Benedícat tibi Dóminus ex Sion: * et vídeas bona Jerúsalem ómnibus diébus vitæ tuæ. || May the Lord bless you out of Sion, * and may you see the good things of Jerusalem all the days of your life.
+t: Et vídeas fílios filiórum tuórum, * pacem super Israel. || And may you see your children's children, * peace upon Israel.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Bene✠dic, Dómine, et réspice de cælis super hanc conjunctiónem: et sicut misísti sanctum Angelum tuum Raphaélem pacíficum ad Tobíam et Saram, fíliam Raguélis; ita dignéris, Dómine, míttere benedictiónem tuam super hos cónjuges, ut in tua benedictióne permáneant, in tua voluntáte persístant, et in tuo amóre vivant. Per Christum, Dóminum nostrum. ℟. Amen. || Bless ✠, O Lord, and look down from heaven upon this union; and as You sent Your holy Angel Raphael, the bringer of peace, to Tobias and Sara, the daughter of Raguel, so deign, O Lord, to send Your blessing upon this husband and wife, that they may abide in Your blessing, persevere in Your will, and live in Your love. Through Christ our Lord. ℟. Amen.
+r: Deinde elevatis manibus et extensis super capita eorum, ministro librum tenente, dicit: || Then, with hands raised and extended over their heads, the server holding the book, he says:
+t: Dóminus Deus omnípotens benedícat vos, impleátque benedictiónem in vobis, et videátis fílios filiórum vestrórum usque in tértiam et quartam generatiónem et progéniem, et ad optátam perveniátis senectútem. Per Christum, Dóminum nostrum. ℟. Amen. || May the Lord God almighty bless you and fulfill His blessing in you; may you see your children's children to the third and fourth generation and beyond, and reach the old age you desire. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Prayers over the Spouses when the Nuptial Blessing is not Permitted
+// ──────────────────────────────────────────────────────────────────────
+# prayers-over-spouses | Preces super Conjuges | Prayers over the Spouses when the Nuptial Blessing is not Permitted | Sacraments | Appendix, De Matrimonio, II
+r: Si sponsa sit vidua jam in primis nuptiis benedicta, vel etiam si prima vice nubat, sed tempore clauso, expleto ritu celebrandi Matrimonii sacramentum, post Orationem Réspice, etc., Sacerdos, qui speciale indultum a Sancta Sede obtinuerit, ad neo-conjugatos conversus, dicit Psalmum 127, Beáti omnes, ut supra, cum Glória Patri; deinde: || If the bride is a widow who already received the blessing at her first marriage, or if she is marrying for the first time but during the closed season, then after the rite of celebrating the Sacrament of Matrimony and the prayer "Look down," etc., a priest who has obtained a special indult from the Holy See, turning to the newly married, says Psalm 127, "Blessed are all," as above, with the Glory be; then:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Preténde, quǽsumus, Dómine, fidélibus tuis déxteram cæléstis auxílii, ut te toto corde perquírant, et quæ digne póstulant, assequántur. Per Christum, Dóminum nostrum. ℟. Amen. || Stretch forth, O Lord, we beseech You, the right hand of heavenly help to Your faithful, that they may seek You with all their heart and obtain what they worthily ask. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// The Blessing of a Mother after Childbirth (Churching)
+// ──────────────────────────────────────────────────────────────────────
+# churching | Benedictio Mulieris post Partum | The Blessing of a Mother after Childbirth (Churching) | Sacraments | Tit. VII, cap. 3
+r: 1. Si qua puerpera post partum, juxta piam ac laudabilem consuetudinem, ad ecclesiam venire voluerit, pro incolumitate sua Deo gratias actura, petieritque a Sacerdote benedictionem, ipse superpelliceo et stola alba indutus, cum ministro aspersorium deferente, ad fores ecclesiæ accedat, ubi illam foris ad limina genuflectentem et candelam accensam in manu tenentem, aqua benedicta aspergat, deinde dicat: || 1. If a mother after childbirth, following the pious and praiseworthy custom, wishes to come to the church to give thanks to God for her safe delivery, and asks the priest for a blessing, he, vested in surplice and white stole, with a server carrying the sprinkler, goes to the door of the church, where she kneels outside at the threshold holding a lighted candle in her hand. He sprinkles her with holy water and then says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+t: *Ant.* Hæc accípiet. || *Ant.* She shall receive.
+h: Psalmus 23 || Psalm 23
+t: Dómini est terra, et plenitúdo ejus: * orbis terrárum, et univérsi qui hábitant in eo. || The earth is the Lord's and the fullness thereof, * the world and all who dwell in it.
+t: Quia ipse super mária fundávit eum: * et super flúmina præparávit eum. || For He has founded it upon the seas, * and established it upon the rivers.
+t: Quis ascéndet in montem Dómini? * aut quis stabit in loco sancto ejus? || Who shall ascend the mountain of the Lord? * Or who shall stand in His holy place?
+t: Innocens mánibus et mundo corde, * qui non accépit in vano ánimam suam, nec jurávit in dolo próximo suo. || The innocent of hands and clean of heart, * who has not set his soul on vain things, nor sworn deceitfully to his neighbor.
+t: Hic accípiet benedictiónem a Dómino: * et misericórdiam a Deo, salutári suo. || He shall receive a blessing from the Lord, * and mercy from God his Savior.
+t: Hæc est generátio quæréntium eum, * quæréntium fáciem Dei Jacob. || Such is the generation of those who seek Him, * who seek the face of the God of Jacob.
+t: Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ. || Lift up your gates, O princes, and be lifted up, O eternal gates, * and the King of glory shall enter in.
+t: Quis est iste Rex glóriæ? * Dóminus fortis et potens: Dóminus potens in prǽlio. || Who is this King of glory? * The Lord, strong and mighty; the Lord, mighty in battle.
+t: Attóllite portas, príncipes, vestras, et elevámini, portæ æternáles: * et introíbit Rex glóriæ. || Lift up your gates, O princes, and be lifted up, O eternal gates, * and the King of glory shall enter in.
+t: Quis est iste Rex glóriæ? * Dóminus virtútum ipse est Rex glóriæ. || Who is this King of glory? * The Lord of hosts, He is the King of glory.
+t: Glória Patri. || Glory be to the Father.
+r: Et repetitur Antiphona: || And the antiphon is repeated:
+t: *Ant.* Hæc accípiet benedictiónem a Dómino, et misericórdiam a Deo, salutári suo: quia hæc est generátio quæréntium Dóminum. || *Ant.* She shall receive a blessing from the Lord, and mercy from God her Savior; for she is of the generation of those who seek the Lord.
+r: 2. Deinde porrigens ad manum mulieris extremam partem stolæ, ex humero sinistro pendentem, eam introducit in ecclesiam, dicens: || 2. Then, extending to the woman's hand the end of the stole hanging from his left shoulder, he leads her into the church, saying:
+t: Ingrédere in templum Dei, adóra Fílium beátæ Maríæ Vírginis, qui tibi fecunditátem tríbuit prolis. || Enter into the temple of God; adore the Son of the Blessed Virgin Mary, who has given you the blessing of a child.
+r: 3. Et ipsa, ingressa, genuflectit coram Altari et orat, gratias agens Deo de beneficiis sibi collatis; tunc Sacerdos dicit: || 3. Having entered, she kneels before the altar and prays, thanking God for the blessings bestowed on her; then the priest says:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvam fac ancíllam tuam, Dómine. || Save Your handmaid, O Lord.
+x: Deus meus, sperántem in te. || Who hopes in You, O my God.
+v: Mitte ei, Dómine, auxílium de sancto. || Send her help, O Lord, from Your holy place.
+x: Et de Sion tuére eam. || And defend her out of Sion.
+v: Nihil profíciat inimícus in ea. || Let the enemy have no power over her.
+x: Et fílius iniquitátis non appónat nocére ei. || And let the son of iniquity do nothing to harm her.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui per beátæ Maríæ Vírginis partum fidélium pariéntium dolóres in gáudium vertísti: réspice propítius super hanc fámulam tuam, ad templum sanctum tuum pro gratiárum actióne lætam accedéntem, et præsta; ut post hanc vitam, ejúsdem beátæ Maríæ méritis et intercessióne, ad ætérnæ beatitúdinis gáudia cum prole sua perveníre mereátur. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who through the child-bearing of the Blessed Virgin Mary have turned into joy the pains of the faithful in childbirth, look kindly upon this Your handmaid, who comes joyfully to Your holy temple to give thanks; and grant that after this life, by the merits and intercession of the same Blessed Mary, she may be worthy to attain, together with her child, the joys of everlasting happiness. Through Christ our Lord. ℟. Amen.
+r: 4. Deinde illam aspergit iterum aqua benedicta, dicens: || 4. Then he sprinkles her again with holy water, saying:
+t: Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et máneat semper. ℟. Amen. || May the peace and blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: 5. Prædicta benedictio mulieris post partum fieri debet a Parocho, si expetitus ipse fuerit: potest autem fieri a quocumque Sacerdote, si expetitus pariter fuerit, in quacumque ecclesia vel oratorio publico, certiore facto Superiore ecclesiæ. || 5. This blessing of a mother after childbirth should be given by the pastor if he is asked; but it may be given by any priest who is likewise asked, in any church or public oratory, the rector of the church having been informed.

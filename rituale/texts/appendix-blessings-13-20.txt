@@ -1,0 +1,151 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Appendix blessings 13-20: organ, banner, bell, oratory, press, library, archive, school
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of an Organ in a Church
+// ──────────────────────────────────────────────────────────────────────
+# organ | Benedictio Instrumentorum Organi in Ecclesia | Blessing of an Organ in a Church | Churches & Sacred Things | Appendix, Benedictiones non reservatæ, 13
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+h: Psalmus 150 || Psalm 150
+t: Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus. || Praise the Lord in His holy places; * praise Him in the firmament of His power.
+t: Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus. || Praise Him for His mighty deeds; * praise Him according to the multitude of His greatness.
+t: Laudáte eum in sono tubæ: * laudáte eum in psaltério, et cíthara. || Praise Him with sound of trumpet; * praise Him with psaltery and harp.
+t: Laudáte eum in týmpano, et choro: * laudáte eum in chordis, et órgano. || Praise Him with timbrel and choir; * praise Him with strings and organ.
+t: Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis jubilatiónis: * omnis spíritus laudet Dóminum. || Praise Him with well-tuned cymbals; praise Him with cymbals of joy. * Let every spirit praise the Lord.
+@gloria-patri
+v: Laudáte Dóminum in týmpano et choro. || Praise the Lord with timbrel and choir.
+x: Laudáte eum in chordis et órgano. || Praise Him with strings and organ.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui per Móysen fámulum tuum tubas ad canéndum super sacrifíciis, nómini tuo offeréndis, fácere præcepísti, quique per fílios Israël in tubis et cýmbalis laudem tui nóminis decantári voluísti: béne✠dic, quǽsumus, hoc instruméntum órgani, cúltui tuo dedicátum; et præsta, ut fidéles tui in cánticis spirituálibus jubilántes in terris, ad gáudia ætérna perveníre mereántur in cælis. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who through Your servant Moses commanded trumpets to be made for sounding over the sacrifices offered to Your name, and who willed that the praise of Your name be sung by the children of Israel with trumpets and cymbals: ✠ bless, we beseech You, this organ dedicated to Your worship; and grant that Your faithful, rejoicing on earth in spiritual songs, may be worthy to come to everlasting joys in heaven. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Processional Banner of Any Society
+// ──────────────────────────────────────────────────────────────────────
+# banner | Benedictio Vexilli Processionalis cujuslibet Societatis | Blessing of a Processional Banner of Any Society | Churches & Sacred Things | Appendix, Benedictiones non reservatæ, 14
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, cujus Ecclésia est véluti castrórum ácies ordináta: béne✠dic hoc vexíllum; ut omnes sub eo tibi Dómino Deo exercítuum militántes, per intercessiónem beáti N. (vel beátæ N.) inimícos suos visíbiles et invisíbiles in hoc sǽculo superáre, et post victóriam in cælis triumpháre mereántur. Per te, Jesu Christe: Qui vivis et regnas cum Deo Patre et Spíritu Sancto, in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, whose Church is like an army set in battle array: ✠ bless this banner, that all who serve under it as soldiers of You, the Lord God of hosts, may, through the intercession of blessed N., be worthy to overcome their enemies visible and invisible in this world, and after the victory to triumph in heaven. Through You, Jesus Christ, who live and reign with God the Father and the Holy Spirit for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Metal for a Bell While It Is Being Cast
+// ──────────────────────────────────────────────────────────────────────
+# bell-metal | Benedictio Metalli pro Campana, dum æs conflatur | Blessing of Metal for a Bell While It Is Being Cast | Churches & Sacred Things | Appendix, Benedictiones non reservatæ, 15
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, qui creatúris étiam inanimátis hunc honórem tríbuis, ut ad cultum tuum destinéntur: tuam, quǽsumus, bene✠dictiónem effúnde super hoc metállum; et præsta, ut, cum jam in rívulos ignítos prófluet, tua dirigénte déxtera et protegénte grátia, apte et conveniénter disponátur ad efformándum tintinnábulum, quo (efformánda tintinnábula, quibus) fidéles ad laudem et glóriam nóminis tui in ecclésia congregéntur. Per Christum, Dóminum nostrum. ℟. Amen. || O Lord God almighty, who grant even to lifeless creatures the honor of being set apart for Your worship: pour out, we beseech You, Your ✠ blessing upon this metal; and grant that, as it now flows in fiery streams, it may by the guidance of Your right hand and the protection of Your grace be fitly and properly formed into a bell (bells) by which the faithful may be gathered in church to the praise and glory of Your name. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. Postquam autem feliciter completum fuerit opus, Sacerdos dicit: || And it is sprinkled with holy water. When the work has been happily completed, the priest says:
+h: Psalmus 116 || Psalm 116
+t: Laudáte Dóminum, omnes gentes: * laudáte eum, omnes pópuli: || Praise the Lord, all you nations; * praise Him, all you peoples.
+t: Quóniam confirmáta est super nos misericórdia ejus: * et véritas Dómini manet in ætérnum. || For His mercy is confirmed upon us, * and the truth of the Lord remains for ever.
+@gloria-patri
+r: Postea adjungit Orationem sequentem: || Then he adds the following prayer:
+t: Orémus. || Let us pray.
+t: Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et adjuvándo proséquere: ut cuncta nostra orátio et operátio a te semper incípiat, et per te cœpta finiátur. Per Christum, Dóminum nostrum. ℟. Amen. || Direct our actions, we beseech You, O Lord, by Your inspiration, and further them by Your help, that every prayer and work of ours may always begin with You and, begun through You, be brought to completion. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Private or Domestic Oratory
+// ──────────────────────────────────────────────────────────────────────
+# private-oratory | Benedictio Oratorii Privati seu Domestici | Blessing of a Private or Domestic Oratory | Churches & Sacred Things | Appendix, Benedictiones non reservatæ, 16
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui loca nómini tuo dicánda sanctíficas, effúnde super hanc oratiónis domum grátiam tuam: ut ab ómnibus hic nomen tuum invocántibus auxílium tuæ misericórdiæ sentiátur. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, who sanctify places to be dedicated to Your name, pour out Your grace upon this house of prayer, that all who call upon Your name here may feel the help of Your mercy. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Printing House and Printing Presses
+// ──────────────────────────────────────────────────────────────────────
+# printing-press | Benedictio Officinæ Librariæ et Machinæ Typographicæ | Blessing of a Printing House and Printing Presses | Work & Travel | Appendix, Benedictiones non reservatæ, 17
+n: Approved by the Sacred Congregation of Rites, 12 May 1909.
+r: Sacerdos stans ad valvas, dicit: || The priest, standing at the door, says:
+t: Actiónes nostras, quǽsumus, Dómine, aspirándo prǽveni, et adjuvándo proséquere: ut cuncta nostra orátio et operátio a te semper incípiat, et per te cœpta finiátur. Per Christum, Dóminum nostrum. ℟. Amen. || Direct our actions, we beseech You, O Lord, by Your inspiration, and further them by Your help, that every prayer and work of ours may always begin with You and, begun through You, be brought to completion. Through Christ our Lord. ℟. Amen.
+r: Ingrediens dicit: || As he enters, he says:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: Deinde, dicens Antiphonam Aspérges me, Dómine, etc., varias officinæ partes aqua benedicta aspergit, usquedum perveniat ad aulam principalem ejusdem, ubi sistit et dicit: || Then, saying the antiphon "You will sprinkle me, O Lord," etc., he sprinkles the various parts of the works with holy water until he reaches its main hall, where he stops and says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui dixísti discípulis tuis: In quamcúmque domum intravéritis, salutáte eam, dicéntes: Pax huic dómui: véniat, quǽsumus, pax illa super hanc domum et officínam ad libros imprimméndos (evulgándos) præparátam, et super omnes degéntes in ea; et cunctos, Dómine, in ea laborántes ab omni calamitáte ánimæ et córporis erípere et liberáre dignéris; reple scriptóres, rectóres et operários spíritu sciéntiæ, consílii et fortitúdinis, et adímple eos spíritu timóris tui, ut mandáta Ecclésiæ fidéliter custodiéntes, tibi digne et próximo suo salutáriter váleant inservíre. Béne✠dic ergo, bone Jesu, qui es via, véritas et vita, hunc locum, et præsta, ut omnes illum inhabitántes, intercedénte gloriósa et immaculáta Vírgine matre tua María, ad immarcescíbilem glóriæ corónam felíciter pervéniant: Qui vivis et regnas Deus per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who said to Your disciples, "Into whatever house you enter, greet it, saying: Peace be to this house": may that peace come, we beseech You, upon this house and workshop prepared for printing (publishing) books, and upon all who are in it. Deign, O Lord, to rescue and deliver all who work here from every calamity of soul and body; fill the writers, managers, and workers with the spirit of knowledge, counsel, and fortitude, and fill them with the spirit of Your fear, so that, faithfully keeping the commandments of the Church, they may serve You worthily and their neighbor to his salvation. ✠ Bless therefore, good Jesus, who are the way, the truth, and the life, this place, and grant that all who dwell in it may, through the intercession of the glorious and immaculate Virgin Mary, Your Mother, happily attain the unfading crown of glory: who live and reign, God, for ever and ever. ℟. Amen.
+r: Deinde benedicit instrumenta et machinas, dicens: || Then he blesses the equipment and presses, saying:
+t: Orémus. || Let us pray.
+t: Deus, únice fons scientiárum, qui hóminum ingénium ita illumináre dignátus es, ut nova artificiósa instruménta invenírent ad páginas typis scribéndas; béne✠dic, quǽsumus, has máchinas (hanc máchinam), ut per libros ad utilitátem nostram prodeúntes nihil áliud te opitulánte discámus, præter sciéntiam tuam, quæ vere ducit ad vitam. Per Christum, Dóminum nostrum. ℟. Amen. || O God, sole fountain of all knowledge, who have deigned so to enlighten the minds of men that they have invented ingenious new instruments for printing pages with type: ✠ bless, we beseech You, these machines (this machine), that through the books they produce for our benefit we may, with Your help, learn nothing other than Your knowledge, which truly leads to life. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. Finita aspersione, Sacerdos dicit: || And they are sprinkled with holy water. When the sprinkling is finished, the priest says:
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Exáudi nos, Dómine sancte, Pater omnípotens, ætérne Deus; et míttere dignéris sanctum Ángelum tuum de cælis, qui custódiat, fóveat, prótegat, vísitet atque deféndat omnes in hac domo habitántes. Per Christum, Dóminum nostrum. ℟. Amen. || Hear us, holy Lord, Father almighty, everlasting God, and deign to send Your holy Angel from heaven to guard, cherish, protect, visit, and defend all who dwell in this house. Through Christ our Lord. ℟. Amen.
+r: Si benedicenda sit tantum officina libraria, omittitur secunda Oratio cum aspersione pro instrumentis et machinis. Quando autem benedicenda sint solummodo instrumenta vel machinæ, præmissis versiculis: Adjutórium nostrum, etc., et Dóminus vobíscum, etc., adhibetur tantum secunda Oratio cum aspersione. || If only the printing house is to be blessed, the second prayer with the sprinkling of the equipment and presses is omitted. If only the equipment or presses are to be blessed, the versicles "Our help," etc., and "The Lord be with you," etc., are said first, and then only the second prayer with the sprinkling.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Library
+// ──────────────────────────────────────────────────────────────────────
+# library | Benedictio Bibliothecæ | Blessing of a Library | Homes & Places | Appendix, Benedictiones non reservatæ, 18
+n: Approved by the Sacred Congregation of Rites, 23 July 1924.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, scientiárum Dóminus, bene✠dictiónem tuam super hanc bibliothécam benígnus infúnde; ut ipsa ab incéndiis aliísque perículis tuta consístat, et in dies congruénter augeátur, et omnes qui vel offícii vel studiórum ratióne huc convéniunt, in divinárum humanarúmque rerum sciéntia tuíque páriter dilectióne profíciant. Per Christum, Dóminum nostrum. ℟. Amen. || O God, Lord of all knowledge, graciously pour out Your ✠ blessing upon this library, that it may be kept safe from fire and other dangers and grow fittingly day by day; and that all who come here, whether for their work or for study, may advance in the knowledge of things divine and human and likewise in the love of You. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of an Archive
+// ──────────────────────────────────────────────────────────────────────
+# archive | Benedictio Archivi | Blessing of an Archive | Homes & Places | Appendix, Benedictiones non reservatæ, 19
+n: Approved by the Sacred Congregation of Rites, 23 July 1924.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, veritátis et justítiæ amátor, super hoc archívum, rerum gestárum documéntis juriúmque instruméntis a témporum hominúmque injúria servándis constrúctum, bene✠dictiónem tuam benígnus infúnde; ut ab incéndiis aliísque perículis tutum consístat, et omnes qui huc studiórum ratióne convéniunt, veritáti et justítiæ hauriéndæ fidéliter incúmbant, in tuíque dilectióne profíciant. Per Christum, Dóminum nostrum. ℟. Amen. || O God, lover of truth and justice, graciously pour out Your ✠ blessing upon this archive, built to preserve the records of history and the instruments of law from the injuries of time and men; that it may be kept safe from fire and other dangers, and that all who come here for study may apply themselves faithfully to drawing out truth and justice, and may advance in the love of You. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a School
+// ──────────────────────────────────────────────────────────────────────
+# school | Benedictio Domus Scholaris | Blessing of a School | Homes & Places | Appendix, Benedictiones non reservatæ, 20
+r: Sacerdos ingrediens aspergat cubicula aqua benedicta, dicens: || The priest, as he enters, sprinkles the rooms with holy water, saying:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui Apóstolis tuis præcepísti, ut, in quamcúmque domum intrárent, pacem illi adprecaréntur, sancti✠fica, quǽsumus, per ministérium nostrum hanc domum púeris (vel puéllis) educándis destinátam; effúnde super eam tuæ benedictiónis et pacis abundántiam, fiat eis salus, sicut dómui Zachǽi, te intránte, facta est; manda Ángelis tuis, ut eam custódiant, et ab ea omnem inimíci repéllant potestátem; reple docéntes in ea spíritu sciéntiæ, sapiéntiæ et timóris tui; discéntes cælésti grátia fove, ut, quæ salutáriter edocéntur, intelléctu cápiant, corde retíneant, ópere exsequántur; atque omnes habitatóres ejus virtútum ómnium opéribus tibi pláceant, ut in ætérnam domum in cælis aliquándo récipi mereántur. Per te, Jesu Christe, Salvátor mundi, qui vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who commanded Your Apostles to wish peace upon whatever house they entered: ✠ sanctify, we beseech You, through our ministry, this house set apart for the education of boys (or girls). Pour out upon it an abundance of Your blessing and peace; may salvation come to them as it came to the house of Zacchaeus when You entered it. Command Your Angels to guard it and to drive from it all the power of the enemy. Fill those who teach here with the spirit of knowledge, wisdom, and Your fear; strengthen the learners with heavenly grace, so that what they are taught for their salvation they may grasp with the mind, keep in the heart, and carry out in deed; and may all who dwell here please You by the works of every virtue, that they may one day be received into the eternal home in heaven. Through You, Jesus Christ, Savior of the world, who live and reign, God, for ever and ever. ℟. Amen.

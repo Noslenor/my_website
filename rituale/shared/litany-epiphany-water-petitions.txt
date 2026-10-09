@@ -1,0 +1,11 @@
+// SHARED TEXT: litany-epiphany-water-petitions
+// Inserted wherever a rite has the line  @litany-epiphany-water-petitions
+// Editing it here changes it everywhere it is used.
+t: Ut nos exaudíre dignéris, _te rogámus, audi nos._ || That You deign graciously to hear us, _we beseech You, hear us._
+t: Fili Dei, _te rogámus, audi nos._ || Son of God, _we beseech You, hear us._
+t: Agnus Dei, qui tollis peccáta mundi, _parce nobis, Dómine._ || Lamb of God, who take away the sins of the world, _spare us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _exáudi nos, Dómine._ || Lamb of God, who take away the sins of the world, _graciously hear us, O Lord._
+t: Agnus Dei, qui tollis peccáta mundi, _miserére nobis._ || Lamb of God, who take away the sins of the world, _have mercy on us._
+t: Christe, audi nos. || Christ, hear us.
+t: Christe, exáudi nos. || Christ, graciously hear us.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.

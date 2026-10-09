@@ -1,0 +1,516 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  The Office of the Dead (Tit. VI)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Office of the Dead: Vespers
+// ──────────────────────────────────────────────────────────────────────
+# office-dead-vespers | Officium Defunctorum: Ad Vesperas | Office of the Dead: Vespers | The Dying & the Dead | Tit. VI, cap. 4
+r: Dicitur in Choro in die depositionis et aliis diebus pro temporis opportunitate et ecclesiarum consuetudine. || It is said in choir on the day of burial and on other days as occasion offers and according to the custom of the churches.
+r: In die vero depositionis, in die post acceptum mortis nuntium, et tertio, septimo, trigesimo et anniversario, etiam late sumpto, et quoties sollemniter celebratur Officium, duplicantur Antiphonæ; et in fine omnium Psalmorum semper dicitur: Réquiem ætérnam * dona eis, Dómine. Et lux perpétua * lúceat eis; etiam si pro uno tantum fiat Officium. (Psalmi incipiuntur ut infra notatur, etiam quando non duplicantur Antiphonæ.) || On the day of burial, on the day after news of the death is received, on the third, seventh and thirtieth day and on the anniversary (even in the broad sense), and whenever the Office is celebrated solemnly, the antiphons are doubled; and at the end of every psalm there is always said: Eternal rest * grant unto them, O Lord. And let perpetual light * shine upon them; even if the Office is said for one person only. (The psalms are begun as noted below, even when the antiphons are not doubled.)
+h: Ad Vesperas || At Vespers
+r: Quoties Vesperæ vel delationem cadaveris ad ecclesiam ac Responsorium Subveníte, vel Officium diei currentis immediate non sequantur, dicitur secreto Pater noster et Ave, María; secus absolute incipitur a sequenti || Whenever Vespers does not immediately follow the bringing of the body to the church and the responsory "Come to his assistance," or the Office of the current day, the Our Father and Hail Mary are said silently; otherwise one begins directly with the following
+t: *Ant. 1* Placébo Dómino * in regióne vivórum. || *Ant. 1* I will please the Lord * in the land of the living.
+h: Psalmus 114 || Psalm 114
+t: Diléxi, quóniam exáudiet Dóminus * vocem oratiónis meæ. || I have loved, because the Lord will hear * the voice of my prayer.
+t: Quia inclinávit aurem suam mihi: * et in diébus meis invocábo. || For He has inclined His ear to me, * and in my days I will call upon Him.
+t: Circumdedérunt me dolóres mortis: * et perícula inférni invenérunt me. || The sorrows of death have encompassed me, * and the perils of hell have found me.
+t: Tribulatiónem et dolórem invéni: * et nomen Dómini invocávi. || I met with trouble and sorrow, * and I called upon the name of the Lord.
+t: O Dómine, líbera ánimam meam: miséricors Dóminus, et justus, * et Deus noster miserétur. || O Lord, deliver my soul. The Lord is merciful and just, * and our God shows mercy.
+t: Custódiens párvulos Dóminus: * humiliátus sum, et liberávit me. || The Lord keeps the little ones; * I was brought low, and He delivered me.
+t: Convértere, ánima mea, in réquiem tuam: * quia Dóminus benefécit tibi. || Return, O my soul, to your rest, * for the Lord has been good to you.
+t: Quia erípuit ánimam meam de morte: óculos meos a lácrimis, * pedes meos a lapsu. || For He has delivered my soul from death, my eyes from tears, * my feet from falling.
+t: Placébo Dómino * in regióne vivórum. || I will please the Lord * in the land of the living.
+r: In fine omnium Psalmorum dicitur: || At the end of all the psalms is said:
+@requiem-aeternam
+t: *Ant.* Placébo Dómino in regióne vivórum. || *Ant.* I will please the Lord in the land of the living.
+t: *Ant. 2* Heu me, * quia incolátus meus prolongátus est. || *Ant. 2* Woe is me, * that my sojourning is prolonged.
+h: Psalmus 119 || Psalm 119
+t: Ad Dóminum cum tribulárer clamávi: * et exaudívit me. || In my trouble I cried to the Lord, * and He heard me.
+t: Dómine, líbera ánimam meam a lábiis iníquis, * et a lingua dolósa. || O Lord, deliver my soul from wicked lips * and from a deceitful tongue.
+t: Quid detur tibi, aut quid apponátur tibi * ad linguam dolósam? || What shall be given to you, or what added to you, * against a deceitful tongue?
+t: Sagíttæ poténtis acútæ, * cum carbónibus desolatóriis. || The sharp arrows of the mighty, * with coals that lay waste.
+t: Heu mihi, quia incolátus meus prolongátus est: habitávi cum habitántibus Cedar: * multum íncola fuit ánima mea. || Woe is me, that my sojourning is prolonged! I have dwelt with the inhabitants of Cedar; * long has my soul been a sojourner.
+t: Cum his, qui odérunt pacem, eram pacíficus: * cum loquébar illis, impugnábant me gratis. || With those who hated peace I was peaceable; * when I spoke to them, they fought against me without cause.
+@requiem-aeternam
+t: *Ant.* Heu me! quia incolátus meus prolongátus est. || *Ant.* Woe is me, that my sojourning is prolonged!
+t: *Ant. 3* Dóminus * custódit te ab omni malo: custódiat ánimam tuam Dóminus. || *Ant. 3* The Lord * keeps you from all evil; may the Lord keep your soul.
+h: Psalmus 120 || Psalm 120
+t: Levávi óculos meos in montes, * unde véniet auxílium mihi. || I have lifted up my eyes to the mountains, * from where help shall come to me.
+t: Auxílium meum a Dómino, * qui fecit cælum et terram. || My help is from the Lord, * who made heaven and earth.
+t: Non det in commotiónem pedem tuum: * neque dormítet qui custódit te. || May He not suffer your foot to be moved, * nor may He slumber who keeps you.
+t: Ecce, non dormitábit neque dórmiet, * qui custódit Israel. || Behold, He shall neither slumber nor sleep, * who keeps Israel.
+t: Dóminus custódit te, Dóminus protéctio tua, * super manum déxteram tuam. || The Lord keeps you; the Lord is your protection * at your right hand.
+t: Per diem sol non uret te: * neque luna per noctem. || The sun shall not burn you by day, * nor the moon by night.
+t: Dóminus custódit te ab omni malo: * custódiat ánimam tuam Dóminus. || The Lord keeps you from all evil; * may the Lord keep your soul.
+t: Dóminus custódiat intróitum tuum, et éxitum tuum: * ex hoc nunc, et usque in sǽculum. || May the Lord keep your coming in and your going out, * from this time forth and for ever.
+@requiem-aeternam
+t: *Ant.* Dóminus custódit te ab omni malo: custódiat ánimam tuam Dóminus. || *Ant.* The Lord keeps you from all evil; may the Lord keep your soul.
+t: *Ant. 4* Si iniquitátes * observáveris, Dómine: Dómine, quis sustinébit? || *Ant. 4* If You, O Lord, * mark iniquities, Lord, who shall stand?
+@psalm-129-without-gloria
+@requiem-aeternam
+t: *Ant.* Si iniquitátes observáveris, Dómine: Dómine, quis sustinébit? || *Ant.* If You, O Lord, mark iniquities, Lord, who shall stand?
+t: *Ant. 5* Ópera * mánuum tuárum, Dómine, ne despícias. || *Ant. 5* The works * of Your hands, O Lord, do not despise.
+h: Psalmus 137 || Psalm 137
+t: Confitébor tibi, Dómine, in toto corde meo: * quóniam audísti verba oris mei. || I will give thanks to You, O Lord, with my whole heart, * for You have heard the words of my mouth.
+t: In conspéctu Angelórum psallam tibi: * adorábo ad templum sanctum tuum, et confitébor nómini tuo. || In the sight of the Angels I will sing praise to You; * I will worship toward Your holy temple and give glory to Your name.
+t: Super misericórdia tua, et veritáte tua: * quóniam magnificásti super omne, nomen sanctum tuum. || For Your mercy and for Your truth, * for You have magnified Your holy name above all.
+t: In quacúmque die invocávero te, exáudi me: * multiplicábis in ánima mea virtútem. || On whatever day I call upon You, hear me; * You shall increase strength in my soul.
+t: Confiteántur tibi, Dómine, omnes reges terræ: * quia audiérunt ómnia verba oris tui. || Let all the kings of the earth give thanks to You, O Lord, * for they have heard all the words of Your mouth.
+t: Et cantent in viis Dómini: * quóniam magna est glória Dómini. || And let them sing in the ways of the Lord, * for great is the glory of the Lord.
+t: Quóniam excélsus Dóminus, et humília réspicit: * et alta a longe cognóscit. || For the Lord is high, yet He looks upon the lowly, * and the lofty He knows from afar.
+t: Si ambulávero in médio tribulatiónis, vivificábis me: et super iram inimicórum meórum extendísti manum tuam, * et salvum me fecit déxtera tua. || Though I walk in the midst of trouble, You will give me life; against the wrath of my enemies You have stretched out Your hand, * and Your right hand has saved me.
+t: Dóminus retríbuet pro me: Dómine, misericórdia tua in sǽculum: * ópera mánuum tuárum ne despícias. || The Lord will repay for me. Your mercy, O Lord, endures for ever; * do not despise the works of Your hands.
+@requiem-aeternam
+t: *Ant.* Ópera mánuum tuárum, Dómine, ne despícias. || *Ant.* The works of Your hands, O Lord, do not despise.
+v: Audívi vocem de cælo dicéntem mihi. || I heard a voice from heaven saying to me:
+x: Beáti mórtui qui in Dómino moriúntur. || Blessed are the dead who die in the Lord.
+t: *Ad Magnificat, Ant.* Omne * quod dat mihi Pater, ad me véniet: et eum qui venit ad me, non ejíciam foras. || *Ant. at the Magnificat* All * that the Father gives Me shall come to Me; and him who comes to Me I will not cast out.
+@canticle-magnificat
+@requiem-aeternam
+t: *Ant.* Omne quod dat mihi Pater, ad me véniet: et eum qui venit ad me, non ejíciam foras. || *Ant.* All that the Father gives Me shall come to Me; and him who comes to Me I will not cast out.
+r: Preces infrascriptæ dicuntur flexis genibus, similiter et ad Laudes. || The following prayers are said kneeling; likewise at Lauds.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Sequens Psalmus Lauda, ánima mea non dicitur in die obitus seu depositionis defuncti, neque aliis diebus quibus Officium recitatur ritu duplici. || The following psalm, "Praise the Lord, O my soul," is not said on the day of death or burial of the deceased, nor on other days when the Office is recited with double rite.
+h: Psalmus 145 || Psalm 145
+t: Lauda, ánima mea, Dóminum: laudábo Dóminum in vita mea: * psallam Deo meo quámdiu fúero. || Praise the Lord, O my soul; I will praise the Lord in my life; * I will sing to my God as long as I shall be.
+t: Nolíte confídere in princípibus: * in fíliis hóminum, in quibus non est salus. || Put not your trust in princes, * in the children of men, in whom there is no salvation.
+t: Exíbit spíritus ejus, et revertétur in terram suam: * in illa die períbunt omnes cogitatiónes eórum. || His spirit shall go forth, and he shall return to his earth; * in that day all their thoughts shall perish.
+t: Beátus, cujus Deus Jacob adjútor ejus, spes ejus in Dómino Deo ipsíus: * qui fecit cælum et terram, mare, et ómnia, quæ in eis sunt. || Blessed is he who has the God of Jacob for his helper, whose hope is in the Lord his God, * who made heaven and earth, the sea, and all that is in them.
+t: Qui custódit veritátem in sǽculum, facit judícium injúriam patiéntibus: * dat escam esuriéntibus. || Who keeps truth for ever, who executes judgment for those who suffer wrong, * who gives food to the hungry.
+t: Dóminus solvit compedítos: * Dóminus illúminat cæcos. || The Lord sets the prisoners free; * the Lord gives light to the blind.
+t: Dóminus érigit elísos, * Dóminus díligit justos. || The Lord lifts up those who are cast down; * the Lord loves the just.
+t: Dóminus custódit ádvenas, pupíllum et víduam suscípiet: * et vias peccatórum dispérdet. || The Lord protects the strangers; He will uphold the orphan and the widow, * and the ways of sinners He will destroy.
+t: Regnábit Dóminus in sǽcula, Deus tuus, Sion, * in generatiónem et generatiónem. || The Lord shall reign for ever, your God, O Sion, * from generation to generation.
+@requiem-aeternam
+r: Deinde: || Then:
+v: A porta ínferi. || From the gate of hell
+x: Erue, Dómine, ánimam ejus (ánimas eórum). || Deliver his (her) soul (their souls), O Lord.
+v: Requiéscat (-ant) in pace. || May he (she, they) rest in peace.
+x: Amen. || Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+r: Dicitur Oratio conveniens ex iis, quæ sequuntur; deinde ℣. Réquiem ætérnam cum reliquis, ut infra. || A suitable prayer is said from those that follow; then ℣. Eternal rest with the rest, as below.
+h: In die depositionis defuncti Oratio || Prayer on the Day of Burial of the Deceased
+t: Absólve, quǽsumus, Dómine, ánimam fámuli tui N. (fámulæ tuæ N.), ut defúnctus (-a) sǽculo tibi vivat: et quæ per fragilitátem carnis humána conversatióne commísit, tu vénia misericordíssimæ pietátis abstérge. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Absolve, we beseech You, O Lord, the soul of Your servant N., that, having died to the world, he (she) may live to You; and whatever sins he (she) committed in human conduct through the frailty of the flesh, wipe away by the pardon of Your most merciful kindness. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Vel alia Oratio: || Or another prayer:
+t: Deus, cui próprium est miseréri semper et párcere, te súpplices exorámus pro ánima fámuli tui N. (fámulæ tuæ N.) quam hódie de hoc sǽculo migráre jussísti: ut non tradas eam in manus inimíci, neque obliviscáris in finem, sed júbeas eam a sanctis Angelis súscipi, et ad pátriam paradísi perdúci; ut, quia in te sperávit et crédidit, non pœnas inférni sustíneat, sed gáudia ætérna possídeat. Per Dóminum nostrum. || O God, whose property it is ever to have mercy and to spare, we humbly entreat You for the soul of Your servant N., whom You have today bidden to pass out of this world: do not deliver it into the hands of the enemy, nor forget it for ever, but command it to be taken up by the holy Angels and led to the homeland of paradise; that, since it hoped and believed in You, it may not suffer the pains of hell, but may possess eternal joys. Through our Lord.
+h: In die tertio, septimo et trigesimo depositionis defuncti Oratio || Prayer on the Third, Seventh and Thirtieth Day after Burial
+t: Quǽsumus, Dómine, ut ánimæ fámuli tui N. (fámulæ tuæ N.) cujus depositiónis diem tértium (vel séptimum, vel trigésimum) commemorámus, Sanctórum atque electórum tuórum largíri dignéris consórtium; et rorem misericórdiæ tuæ perénnem infúndas. Per Dóminum nostrum. || We beseech You, O Lord, that to the soul of Your servant N., the third (or seventh, or thirtieth) day of whose burial we commemorate, You would deign to grant the fellowship of Your Saints and elect, and pour upon it the unfailing dew of Your mercy. Through our Lord.
+h: In Anniversario Oratio || Prayer on the Anniversary
+t: Deus, indulgentiárum Dómine: da ánimæ fámuli tui N. (fámulæ tuæ N., vel animábus famulórum famularúmque tuárum), cujus (quorum) anniversárium depositiónis diem commemorámus, refrigérii sedem, quiétis beatitúdinem, et lúminis claritátem. Per Dóminum nostrum. || O God, Lord of pardon, grant to the soul of Your servant N. (or to the souls of Your servants), the anniversary of whose burial we commemorate, a place of refreshment, the happiness of rest, and the brightness of light. Through our Lord.
+h: Pro defuncto Summo Pontifice Oratio || Prayer for a Deceased Supreme Pontiff
+t: Deus, qui inter summos sacerdótes fámulum tuum N. ineffábili tua dispositióne connumerári voluísti: præsta, quǽsumus; ut, qui unigéniti Fílii tui vices in terris gerébat, sanctórum tuórum pontíficum consórtio perpétuo aggregétur. Per eúndem Dóminum nostrum. || O God, who by Your ineffable providence willed that Your servant N. should be numbered among the high priests, grant, we beseech You, that he who on earth held the place of Your only-begotten Son may be joined for ever to the company of Your holy pontiffs. Through the same our Lord.
+h: Pro defuncto Episcopo Oratio || Prayer for a Deceased Bishop
+t: Deus, qui inter apostólicos sacerdótes fámulum tuum N. (fámulos tuos N. et N.) pontificáli fecísti dignitáte vigére: præsta, quǽsumus; ut eórum quoque perpétuo aggregé(n)tur consórtio. Per Dóminum nostrum. || O God, who among the apostolic priests caused Your servant N. (Your servants N. and N.) to be honored with the dignity of a bishop, grant, we beseech You, that he (they) may also be joined for ever to their company. Through our Lord.
+r: Pro Episcopo Cardinali defuncto dicatur: fámulum tuum N. Epíscopum Cardinálem pontificáli fecísti dignitáte. || For a deceased Cardinal Bishop say: "caused Your servant N., Cardinal Bishop, to be honored with the dignity of a bishop."
+r: Pro Presbytero Cardinali, qui episcopali dignitate auctus fuerit: fámulum tuum N. Presbyterum Cardinálem pontificáli fecísti dignitáte. || For a Cardinal Priest who had been raised to episcopal dignity: "caused Your servant N., Cardinal Priest, to be honored with the dignity of a bishop."
+r: Pro Presbytero Cardinali, qui episcopali dignitate auctus non fuerit: fámulum tuum N. Presbyterum Cardinálem sacerdotáli fecísti dignitáte. || For a Cardinal Priest who had not been raised to episcopal dignity: "caused Your servant N., Cardinal Priest, to be honored with the dignity of the priesthood."
+r: Pro Diacono Cardinali, qui fuerit Sacerdos: fámulum tuum N. Diáconum Cardinálem sacerdotáli fecísti dignitáte. || For a Cardinal Deacon who was a priest: "caused Your servant N., Cardinal Deacon, to be honored with the dignity of the priesthood."
+r: Pro Diacono autem Cardinali, qui in ordine Presbyteratus non fuerit constitutus, dicatur Oratio Inclína, Dómine, quæ habetur paulo infra, hoc modo: ut ánimam fámuli tui N. Diáconi Cardinális, quam de hoc sǽculo, etc. || But for a Cardinal Deacon who had not been ordained to the priesthood, the prayer "Incline, O Lord," found a little below, is said in this way: "that the soul of Your servant N., Cardinal Deacon, whom from this world," etc.
+h: Pro defuncto Sacerdote Oratio || Prayer for a Deceased Priest
+t: Deus, qui inter apostólicos sacerdótes fámulum tuum N. (fámulos tuos N. et N.) sacerdotáli fecísti dignitáte vigére: præsta, quǽsumus; ut eórum quoque perpétuo aggregé(n)tur consórtio. Per Dóminum nostrum. || O God, who among the apostolic priests caused Your servant N. (Your servants N. and N.) to be honored with the dignity of the priesthood, grant, we beseech You, that he (they) may also be joined for ever to their company. Through our Lord.
+r: Item alia Oratio || Likewise another prayer
+t: Præsta, quǽsumus, Dómine: ut ánima fámuli tui N. Sacerdótis, quem, in hoc sǽculo commorántem, sacris munéribus decorásti, in cælésti sede gloriósa semper exsúltet. Per Dóminum nostrum. || Grant, we beseech You, O Lord, that the soul of Your servant N., priest, whom while he dwelt in this world You adorned with sacred office, may ever rejoice in glory in the heavenly seat. Through our Lord.
+h: Pro uno Defuncto Oratio || Prayer for One Deceased Man
+t: Inclína, Dómine, aurem tuam ad preces nostras, quibus misericórdiam tuam súpplices deprecámur: ut ánimam fámuli tui N., quam de hoc sǽculo migráre jussísti, in pacis ac lucis regióne constítuas, et Sanctórum tuórum júbeas esse consórtem. Per Dóminum nostrum. || Incline Your ear, O Lord, to the prayers with which we humbly entreat Your mercy: that You would establish in the region of peace and light the soul of Your servant N., whom You have bidden to pass out of this world, and command him to be a companion of Your Saints. Through our Lord.
+h: Pro una Defuncta Oratio || Prayer for One Deceased Woman
+t: Quǽsumus, Dómine, pro tua pietáte miserére ánimæ fámulæ tuæ N.: et a contágiis mortalitátis exútam, in ætérnæ salvatiónis partem restítue. Per Dóminum nostrum. || We beseech You, O Lord, in Your loving kindness have mercy on the soul of Your handmaid N.; and, freed from the contagions of mortality, restore her to a share in eternal salvation. Through our Lord.
+h: Pro defunctis fratribus, propinquis et benefactoribus Oratio || Prayer for Deceased Brethren, Relatives and Benefactors
+t: Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut nostræ congregatiónis fratres, propínquos et benefactóres, qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas. Per Dóminum nostrum. || O God, bestower of pardon and lover of human salvation, we beseech Your clemency that, through the intercession of blessed Mary ever Virgin and all Your Saints, You would grant the brethren of our community, our relatives and benefactors, who have passed out of this world, to come to the fellowship of everlasting blessedness. Through our Lord.
+h: Pro patre et matre Oratio || Prayer for Father and Mother
+t: Deus, qui nos patrem et matrem honoráre præcepísti: miserére cleménter animábus patris et matris meæ, eorúmque peccáta dimítte; meque eos in ætérnæ claritátis gáudio fac vidére. Per Dóminum nostrum. || O God, who have commanded us to honor father and mother, in Your clemency have mercy on the souls of my father and mother, forgive them their sins, and grant me to see them in the joy of eternal brightness. Through our Lord.
+r: Si Officium fit pro pluribus patribus et matribus, dicatur animábus paréntum nostrórum, et ubi dicitur meque, dicatur nosque. || If the Office is said for several fathers and mothers, say "the souls of our parents," and where "grant me" is said, say "grant us."
+r: Si pro patre tantum, dicatur ánimæ patris mei, vel nostri. || If for a father only, say "the soul of my (or our) father."
+r: Si pro matre tantum, dicatur ánimæ matris meæ, vel nostræ. || If for a mother only, say "the soul of my (or our) mother."
+h: In Officio pro Defunctis in genere Oratio || Prayer in the Office for the Dead in General
+t: Deus, qui inter apostólicos sacerdótes fámulos tuos pontificáli seu sacerdotáli fecísti dignitáte vigére: præsta, quǽsumus; ut eórum quoque perpétuo aggregéntur consórtio. || O God, who among the apostolic priests caused Your servants to be honored with the dignity of bishop or priest, grant, we beseech You, that they may also be joined for ever to their company.
+t: Deus, véniæ largítor et humánæ salútis amátor: quǽsumus cleméntiam tuam; ut nostræ congregatiónis fratres, propínquos et benefactóres, qui ex hoc sǽculo transiérunt, beáta María semper Vírgine intercedénte cum ómnibus Sanctis tuis, ad perpétuæ beatitúdinis consórtium perveníre concédas. || O God, bestower of pardon and lover of human salvation, we beseech Your clemency that, through the intercession of blessed Mary ever Virgin and all Your Saints, You would grant the brethren of our community, our relatives and benefactors, who have passed out of this world, to come to the fellowship of everlasting blessedness.
+t: Fidélium, Deus, ómnium cónditor et redémptor, animábus famulórum famularúmque tuárum remissiónem cunctórum tríbue peccatórum: ut indulgéntiam, quam semper optavérunt, piis supplicatiónibus consequántur: Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, Creator and Redeemer of all the faithful, grant to the souls of Your servants and handmaids the remission of all their sins, that through our devout supplications they may obtain the pardon they have always desired: who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Post Orationem dicitur (semper plurali numero): || After the prayer is said (always in the plural):
+v: Réquiem ætérnam dona eis, Dómine. || Eternal rest grant unto them, O Lord.
+x: Et lux perpétua lúceat eis. || And let perpetual light shine upon them.
+r: Deinde Cantores: || Then the cantors:
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Office of the Dead: Matins
+// ──────────────────────────────────────────────────────────────────────
+# office-dead-matins | Officium Defunctorum: Ad Matutinum | Office of the Dead: Matins | The Dying & the Dead | Tit. VI, cap. 4
+r: Quoties Matutinum vel delationem cadaveris ad ecclesiam ac Responsorium Subveníte, vel Matutinum et Laudes diei currentis immediate non sequatur, dicitur secreto Pater noster, Ave, María et Credo; secus absolute incipitur ab Invitatorio, vel ab Antiphona Nocturni. || Whenever Matins does not immediately follow the bringing of the body to the church and the responsory "Come to his assistance," or Matins and Lauds of the current day, the Our Father, Hail Mary and Creed are said silently; otherwise one begins directly with the Invitatory, or with the antiphon of the Nocturn.
+r: Sequens Invitatorium dicitur semper in Officio Defunctorum, quando persolvitur cum tribus Nocturnis, etiam sub ritu semiduplici, aut cum unico quidem Nocturno, sed sub ritu duplici. In reliquis vero casibus omittitur. || The following Invitatory is always said in the Office of the Dead when it is recited with three Nocturns, even under semidouble rite, or with only one Nocturn but under double rite. In other cases it is omitted.
+r: Nocturni enim inferius positi, præterquam in die Commemorationis Omnium Fidelium Defunctorum, omnes dici possunt vel etiam unus tantum, ita tamen, ut extra diem depositionis, in qua semper dicitur primus Nocturnus, Dominica, Feria II et V dicatur primus, Feria III et VI secundus, et Feria IV et Sabbato tertius Nocturnus. || For of the Nocturns given below, except on the day of the Commemoration of All the Faithful Departed, all may be said, or only one; in such a way, however, that apart from the day of burial (on which the first Nocturn is always said), on Sunday, Monday and Thursday the first is said, on Tuesday and Friday the second, and on Wednesday and Saturday the third Nocturn.
+h: Invitatorium || Invitatory
+t: Regem, cui ómnia vivunt, * Veníte, adorémus. || The King, for whom all things live, * come, let us adore.
+r: Chorus repetit: Regem, cui ómnia vivunt, * Veníte, adorémus. || The choir repeats: The King, for whom all things live, * come, let us adore.
+h: Psalmus 94 || Psalm 94
+t: Veníte, exsultémus Dómino, jubilémus Deo, salutári nostro: præoccupémus fáciem ejus in confessióne, et in psalmis jubilémus ei. || Come, let us rejoice in the Lord, let us shout for joy to God our Savior; let us come before His face with thanksgiving, and make a joyful noise to Him with psalms.
+t: Regem, cui ómnia vivunt, * Veníte, adorémus. || The King, for whom all things live, * come, let us adore.
+t: Quóniam Deus magnus Dóminus, et Rex magnus super omnes deos: quóniam non repéllet Dóminus plebem suam: quia in manu ejus sunt omnes fines terræ, et altitúdines móntium ipse cónspicit. || For the Lord is a great God and a great King above all gods; for the Lord will not cast off His people; for in His hand are all the ends of the earth, and the heights of the mountains He beholds.
+t: Veníte, adorémus. || Come, let us adore.
+t: Quóniam ipsíus est mare, et ipse fecit illud, et áridam fundavérunt manus ejus: veníte, adorémus, et procidámus ante Deum: plorémus coram Dómino, qui fecit nos, quia ipse est Dóminus, Deus noster; nos autem pópulus ejus, et oves páscuæ ejus. || For the sea is His, and He made it, and His hands formed the dry land. Come, let us adore and fall down before God; let us weep before the Lord who made us; for He is the Lord our God, and we are His people and the sheep of His pasture.
+t: Regem, cui ómnia vivunt, * Veníte, adorémus. || The King, for whom all things live, * come, let us adore.
+t: Hódie, si vocem ejus audiéritis, nolíte obduráre corda vestra, sicut in exacerbatióne secúndum diem tentatiónis in desérto: ubi tentavérunt me patres vestri, probavérunt et vidérunt ópera mea. || Today, if you shall hear His voice, harden not your hearts, as in the provocation, on the day of temptation in the wilderness, where your fathers tempted Me, put Me to the test, and saw My works.
+t: Veníte, adorémus. || Come, let us adore.
+t: Quadragínta annis próximus fui generatióni huic, et dixi: Semper hi errant corde; ipsi vero non cognovérunt vias meas: quibus jurávi in ira mea: Si introíbunt in réquiem meam. || Forty years I was close to this generation, and I said: These always err in heart; they have not known My ways; so I swore in My wrath that they shall not enter into My rest.
+t: Regem, cui ómnia vivunt, * Veníte, adorémus. || The King, for whom all things live, * come, let us adore.
+t: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
+t: Veníte, adorémus. || Come, let us adore.
+t: Regem, cui ómnia vivunt, * Veníte, adorémus. || The King, for whom all things live, * come, let us adore.
+h: In I Nocturno (Pro Dominica, Feria II et V) || First Nocturn (For Sunday, Monday and Thursday)
+t: *Ant. 1* Dírige, * Dómine, Deus meus, in conspéctu tuo viam meam. || *Ant. 1* Direct, * O Lord my God, my way in Your sight.
+h: Psalmus 5 || Psalm 5
+t: Verba mea áuribus pércipe, Dómine, * intéllege clamórem meum. || Give ear to my words, O Lord; * understand my cry.
+t: Inténde voci oratiónis meæ, * Rex meus et Deus meus. || Hearken to the voice of my prayer, * my King and my God.
+t: Quóniam ad te orábo: * Dómine, mane exáudies vocem meam. || For to You will I pray; * O Lord, in the morning You shall hear my voice.
+t: Mane astábo tibi et vidébo: * quóniam non Deus volens iniquitátem tu es. || In the morning I will stand before You and will see, * for You are not a God who wills iniquity.
+t: Neque habitábit juxta te malígnus: * neque permanébunt injústi ante óculos tuos. || Nor shall the wicked dwell near You, * nor shall the unjust abide before Your eyes.
+t: Odísti omnes, qui operántur iniquitátem: * perdes omnes, qui loquúntur mendácium. || You hate all who work iniquity; * You will destroy all who speak a lie.
+t: Virum sánguinum et dolósum abominábitur Dóminus: * ego autem in multitúdine misericórdiæ tuæ. || The bloody and deceitful man the Lord will abhor; * but I, in the multitude of Your mercy,
+t: Introíbo in domum tuam: * adorábo ad templum sanctum tuum in timóre tuo. || I will enter into Your house; * I will worship toward Your holy temple in Your fear.
+t: Dómine, deduc me in justítia tua: * propter inimícos meos dírige in conspéctu tuo viam meam. || Lead me, O Lord, in Your justice; * because of my enemies, direct my way in Your sight.
+t: Quóniam non est in ore eórum véritas: * cor eórum vanum est. || For there is no truth in their mouth; * their heart is vain.
+t: Sepúlcrum patens est guttur eórum, linguis suis dolóse agébant, * júdica illos, Deus. || Their throat is an open sepulcher; with their tongues they dealt deceitfully; * judge them, O God.
+t: Décidant a cogitatiónibus suis, secúndum multitúdinem impietátum eórum expélle eos, * quóniam irritavérunt te, Dómine. || Let them fall from their devices; according to the multitude of their wickedness cast them out, * for they have provoked You, O Lord.
+t: Et læténtur omnes, qui sperant in te, * in ætérnum exsultábunt: et habitábis in eis. || But let all who hope in You be glad; * they shall rejoice for ever, and You shall dwell in them.
+t: Et gloriabúntur in te omnes, qui díligunt nomen tuum, * quóniam tu benedíces justo. || And all who love Your name shall glory in You, * for You will bless the just.
+t: Dómine, ut scuto bonæ voluntátis tuæ * coronásti nos. || O Lord, as with a shield of Your good will * You have crowned us.
+@requiem-aeternam
+t: *Ant.* Dírige, Dómine, Deus meus, in conspéctu tuo viam meam. || *Ant.* Direct, O Lord my God, my way in Your sight.
+t: *Ant. 2* Convértere, Dómine, * et éripe ánimam meam, quóniam non est in morte qui memor sit tui. || *Ant. 2* Turn, O Lord, * and deliver my soul, for in death there is no one who is mindful of You.
+@psalm-6-without-gloria
+@requiem-aeternam
+t: *Ant.* Convértere, Dómine, et éripe ánimam meam, quóniam non est in morte qui memor sit tui. || *Ant.* Turn, O Lord, and deliver my soul, for in death there is no one who is mindful of You.
+t: *Ant. 3* Nequándo rápiat * ut leo ánimam meam, dum non est qui rédimat, neque qui salvum fáciat. || *Ant. 3* Lest at any time he seize * my soul like a lion, while there is none to redeem me nor to save me.
+h: Psalmus 7 || Psalm 7
+t: Dómine, Deus meus, in te sperávi: * salvum me fac ex ómnibus persequéntibus me, et líbera me. || O Lord my God, in You have I hoped; * save me from all who persecute me, and deliver me,
+t: Nequándo rápiat ut leo ánimam meam, * dum non est qui rédimat, neque qui salvum fáciat. || Lest at any time he seize my soul like a lion, * while there is none to redeem me nor to save me.
+t: Dómine, Deus meus, si feci istud, * si est iníquitas in mánibus meis: || O Lord my God, if I have done this, * if there is iniquity in my hands,
+t: Si réddidi retribuéntibus mihi mala, * décidam mérito ab inimícis meis inánis. || If I have repaid those who rendered me evil, * let me deservedly fall empty before my enemies.
+t: Persequátur inimícus ánimam meam, et comprehéndat, et concúlcet in terra vitam meam, * et glóriam meam in púlverem dedúcat. || Let the enemy pursue my soul and take it, and tread down my life on the earth, * and bring down my glory to the dust.
+t: Exsúrge, Dómine, in ira tua: * et exaltáre in fínibus inimicórum meórum. || Arise, O Lord, in Your anger, * and be exalted in the borders of my enemies.
+t: Et exsúrge, Dómine, Deus meus, in præcépto quod mandásti: * et synagóga populórum circúmdabit te. || And arise, O Lord my God, in the decree You have commanded, * and the assembly of the peoples shall surround You.
+t: Et propter hanc in altum regrédere: * Dóminus júdicat pópulos. || For their sakes return on high; * the Lord judges the peoples.
+t: Júdica me, Dómine, secúndum justítiam meam, * et secúndum innocéntiam meam super me. || Judge me, O Lord, according to my justice, * and according to my innocence within me.
+t: Consumétur nequítia peccatórum, et díriges justum, * scrutans corda et renes, Deus. || The wickedness of sinners shall be brought to an end, and You shall direct the just, * O God, who search hearts and reins.
+t: Justum adjutórium meum a Dómino, * qui salvos facit rectos corde. || Just is my help from the Lord, * who saves the upright of heart.
+t: Deus judex justus, fortis, et pátiens: * numquid iráscitur per síngulos dies? || God is a just judge, strong and patient; * is He angry every day?
+t: Nisi convérsi fuéritis, gládium suum vibrábit: * arcum suum teténdit, et parávit illum. || Unless you be converted, He will brandish His sword; * He has bent His bow and made it ready.
+t: Et in eo parávit vasa mortis: * sagíttas suas ardéntibus effécit. || And on it He has prepared the instruments of death; * He has made His arrows for the burning.
+t: Ecce, partúriit injustítiam: * concépit dolórem, et péperit iniquitátem. || Behold, he has been in labor with injustice; * he has conceived sorrow and brought forth iniquity.
+t: Lacum apéruit, et effódit eum: * et íncidit in fóveam quam fecit. || He has opened a pit and dug it, * and he has fallen into the hole he made.
+t: Convertétur dolor ejus in caput ejus: * et in vérticem ipsíus iníquitas ejus descéndet. || His sorrow shall be turned upon his own head, * and his iniquity shall come down upon his crown.
+t: Confitébor Dómino secúndum justítiam ejus: * et psallam nómini Dómini altíssimi. || I will give glory to the Lord according to His justice, * and will sing to the name of the Lord most high.
+@requiem-aeternam
+t: *Ant.* Nequándo rápiat ut leo ánimam meam, dum non est qui rédimat, neque qui salvum fáciat. || *Ant.* Lest at any time he seize my soul like a lion, while there is none to redeem me nor to save me.
+v: A porta ínferi. || From the gate of hell
+x: Erue, Dómine, ánimas eórum. || Deliver their souls, O Lord.
+r: Pater noster totum secreto. || The Our Father entirely in silence.
+r: Lectiones leguntur sine Absolutione, Benedictionibus et Titulo. || The lessons are read without Absolution, blessings, or title.
+h: Lectio I (Job 7, 16-21) || First Lesson (Job 7:16-21)
+t: Parce mihi, Dómine: nihil enim sunt dies mei. Quid est homo, quia magníficas eum? aut quid appónis erga eum cor tuum? Vísitas eum dilúculo, et súbito probas illum. Usquequo non parcis mihi, nec dimíttis me, ut glútiam salívam meam? Peccávi, quid fáciam tibi, o custos hóminum? Quare posuísti me contrárium tibi, et factus sum mihimetípsi gravis? Cur non tollis peccátum meum, et quare non aufers iniquitátem meam? Ecce nunc, in púlvere dórmiam: et si mane me quæsíeris, non subsístam. || Spare me, O Lord, for my days are nothing. What is man, that You should magnify him? or why do You set Your heart upon him? You visit him at dawn and suddenly You prove him. How long will You not spare me, nor let me alone so that I may swallow my spittle? I have sinned: what shall I do to You, O keeper of men? Why have You set me against You, so that I have become a burden to myself? Why do You not take away my sin, and why do You not remove my iniquity? Behold, now I shall sleep in the dust, and if You seek me in the morning, I shall not be.
+r: Lectiones terminantur sine Tu autem, vel alia conclusione. || The lessons end without "But You, O Lord" or any other conclusion.
+x: Credo quod Redémptor meus vivit, et in novíssimo die de terra surrectúrus sum: * Et in carne mea vidébo Deum Salvatórem meum. || I believe that my Redeemer lives, and on the last day I shall rise out of the earth: * And in my flesh I shall see God my Savior.
+v: Quem visúrus sum ego ipse, et non álius, et óculi mei conspectúri sunt. * Et in carne. || Whom I myself shall see, and not another, and my eyes shall behold. * And in my flesh.
+h: Lectio II (Job 10, 1-7) || Second Lesson (Job 10:1-7)
+t: Tædet ánimam meam vitæ meæ, dimíttam advérsum me elóquium meum, loquar in amaritúdine ánimæ meæ. Dicam Deo: Noli me condemnáre: índica mihi cur me ita júdices. Numquid bonum tibi vidétur, si calumniéris me et ópprimas me, opus mánuum tuárum, et consílium impiórum ádjuves? Numquid óculi cárnei tibi sunt: aut sicut videt homo, et tu vidébis? Numquid sicut dies hóminis dies tui, et anni tui sicut humána sunt témpora, ut quæras iniquitátem meam, et peccátum meum scrutéris? Et scias quia nihil ímpium fécerim, cum sit nemo qui de manu tua possit erúere. || My soul is weary of my life; I will let loose my speech against myself; I will speak in the bitterness of my soul. I will say to God: Do not condemn me; tell me why You judge me so. Does it seem good to You that You should accuse me falsely and oppress me, the work of Your own hands, and help the counsel of the wicked? Have You eyes of flesh, or do You see as man sees? Are Your days as the days of man, and Your years as the times of men, that You should search out my iniquity and inquire after my sin? And You know that I have done nothing wicked, though there is none who can deliver out of Your hand.
+x: Qui Lázarum resuscitásti a monuménto fœtidum: * Tu eis, Dómine, dona réquiem, et locum indulgéntiæ. || You who raised Lazarus, already decaying, from the tomb: * Grant them, O Lord, rest and a place of pardon.
+v: Qui ventúrus es judicáre vivos et mórtuos, et sǽculum per ignem. * Tu eis. || You who will come to judge the living and the dead, and the world by fire. * Grant them.
+h: Lectio III (Job 10, 8-12) || Third Lesson (Job 10:8-12)
+t: Manus tuæ fecérunt me, et plasmavérunt me totum in circúitu: et sic repénte præcípitas me? Meménto, quæso, quod sicut lutum féceris me, et in púlverem redúces me. Nonne sicut lac mulsísti me, et sicut cáseum me coagulásti? Pelle et cárnibus vestísti me: óssibus et nervis compegísti me. Vitam et misericórdiam tribuísti mihi, et visitátio tua custodívit spíritum meum. || Your hands have made me and fashioned me wholly round about; and do You so suddenly cast me down? Remember, I beseech You, that You made me as the clay, and You will bring me back into dust. Have You not poured me out like milk and curdled me like cheese? You have clothed me with skin and flesh; You have knit me together with bones and sinews. You have granted me life and mercy, and Your care has preserved my spirit.
+x: Dómine, quando véneris judicáre terram, ubi me abscóndam a vultu iræ tuæ? * Quia peccávi nimis in vita mea. || O Lord, when You come to judge the earth, where shall I hide myself from the face of Your wrath? * For I have sinned exceedingly in my life.
+v: Commíssa mea pavésco, et ante te erubésco: dum véneris judicáre, noli me condemnáre. * Quia peccávi. || I dread my misdeeds and blush before You; when You come to judge, do not condemn me. * For I have sinned.
+v: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. * Quia peccávi. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. * For I have sinned.
+r: Postea ad Laudes, ut infra, quando dicitur unum tantum Nocturnum. || Then Lauds follows, as below, when only one Nocturn is said.
+r: Si vero Laudes omnino omittantur, post III Responsorium dicuntur Pater noster et Preces, ut infra ad Laudes. || But if Lauds is omitted altogether, after the third responsory the Our Father and the prayers are said, as below at Lauds.
+h: In II Nocturno (Pro Feria III et VI) || Second Nocturn (For Tuesday and Friday)
+t: *Ant. 1* In loco páscuæ * ibi me collocávit. || *Ant. 1* In a place of pasture * there He has set me.
+h: Psalmus 22 || Psalm 22
+t: Dóminus regit me, et nihil mihi déerit: * in loco páscuæ ibi me collocávit. || The Lord rules me, and I shall want nothing; * in a place of pasture there He has set me.
+t: Super aquam refectiónis educávit me: * ánimam meam convértit. || He has brought me up beside the water of refreshment; * He has restored my soul.
+t: Dedúxit me super sémitas justítiæ, * propter nomen suum. || He has led me in the paths of justice * for His name's sake.
+t: Nam, et si ambulávero in médio umbræ mortis, non timébo mala: * quóniam tu mecum es. || For even though I walk in the midst of the shadow of death, I will fear no evil, * for You are with me.
+t: Virga tua, et báculus tuus: * ipsa me consoláta sunt. || Your rod and Your staff, * they have comforted me.
+t: Parásti in conspéctu meo mensam, * advérsus eos, qui tríbulant me. || You have prepared a table before me * against those who afflict me.
+t: Impinguásti in óleo caput meum: * et calix meus inébrians quam præclárus est! || You have anointed my head with oil, * and my cup that inebriates, how goodly it is!
+t: Et misericórdia tua subsequétur me * ómnibus diébus vitæ meæ: || And Your mercy shall follow me * all the days of my life,
+t: Et ut inhábitem in domo Dómini, * in longitúdinem diérum. || That I may dwell in the house of the Lord * unto length of days.
+@requiem-aeternam
+t: *Ant.* In loco páscuæ ibi me collocávit. || *Ant.* In a place of pasture there He has set me.
+t: *Ant. 2* Delícta * juventútis meæ, et ignorántias meas ne memíneris, Dómine. || *Ant. 2* The sins * of my youth and my ignorances remember not, O Lord.
+h: Psalmus 24 || Psalm 24
+t: Ad te, Dómine, levávi ánimam meam: * Deus meus, in te confído, non erubéscam. || To You, O Lord, have I lifted up my soul; * in You, my God, I trust; let me not be put to shame.
+t: Neque irrídeant me inimíci mei: * étenim univérsi, qui sústinent te, non confundéntur. || Neither let my enemies laugh at me, * for none who wait for You shall be confounded.
+t: Confundántur omnes iníqua agéntes * supervácue. || Let all be confounded * who act unjustly without cause.
+t: Vias tuas, Dómine, demónstra mihi: * et sémitas tuas édoce me. || Show me Your ways, O Lord, * and teach me Your paths.
+t: Dírige me in veritáte tua, et doce me: * quia tu es, Deus, salvátor meus, et te sustínui tota die. || Direct me in Your truth and teach me, * for You are God my Savior, and on You have I waited all the day.
+t: Reminíscere miseratiónum tuárum, Dómine, * et misericordiárum tuárum, quæ a sǽculo sunt. || Remember, O Lord, Your compassions * and Your mercies, which are from of old.
+t: Delícta juventútis meæ, * et ignorántias meas ne memíneris. || The sins of my youth * and my ignorances remember not.
+t: Secúndum misericórdiam tuam meménto mei tu: * propter bonitátem tuam, Dómine. || According to Your mercy remember me, * for Your goodness' sake, O Lord.
+t: Dulcis et rectus Dóminus: * propter hoc legem dabit delinquéntibus in via. || The Lord is sweet and upright; * therefore He will give a law to sinners in the way.
+t: Díriget mansuétos in judício: * docébit mites vias suas. || He will guide the meek in judgment; * He will teach the gentle His ways.
+t: Univérsæ viæ Dómini, misericórdia et véritas, * requiréntibus testaméntum ejus et testimónia ejus. || All the ways of the Lord are mercy and truth * to those who seek His covenant and His testimonies.
+t: Propter nomen tuum, Dómine, propitiáberis peccáto meo: * multum est enim. || For Your name's sake, O Lord, You will pardon my sin, * for it is great.
+t: Quis est homo qui timet Dóminum? * legem státuit ei in via, quam elégit. || Who is the man that fears the Lord? * He has appointed him a law in the way he has chosen.
+t: Anima ejus in bonis demorábitur: * et semen ejus hereditábit terram. || His soul shall dwell among good things, * and his seed shall inherit the land.
+t: Firmaméntum est Dóminus timéntibus eum: * et testaméntum ipsíus ut manifestétur illis. || The Lord is a firm support to those who fear Him, * and His covenant shall be made known to them.
+t: Oculi mei semper ad Dóminum: * quóniam ipse evéllet de láqueo pedes meos. || My eyes are ever toward the Lord, * for He shall pluck my feet out of the snare.
+t: Réspice in me, et miserére mei: * quia únicus et pauper sum ego. || Look upon me and have mercy on me, * for I am alone and poor.
+t: Tribulatiónes cordis mei multiplicátæ sunt: * de necessitátibus meis érue me. || The troubles of my heart are multiplied; * deliver me from my distresses.
+t: Vide humilitátem meam, et labórem meum: * et dimítte univérsa delícta mea. || See my abasement and my labor, * and forgive all my sins.
+t: Réspice inimícos meos quóniam multiplicáti sunt, * et ódio iníquo odérunt me. || Look upon my enemies, for they are multiplied, * and they have hated me with an unjust hatred.
+t: Custódi ánimam meam, et érue me: * non erubéscam quóniam sperávi in te. || Keep my soul and deliver me; * let me not be ashamed, for I have hoped in You.
+t: Innocéntes et recti adhæsérunt mihi: * quia sustínui te. || The innocent and the upright have clung to me, * because I have waited for You.
+t: Líbera, Deus, Israel, * ex ómnibus tribulatiónibus suis. || Deliver Israel, O God, * from all its troubles.
+@requiem-aeternam
+t: *Ant.* Delícta juventútis meæ et ignorántias meas ne memíneris, Dómine. || *Ant.* The sins of my youth and my ignorances remember not, O Lord.
+t: *Ant. 3* Credo vidére * bona Dómini in terra vivéntium. || *Ant. 3* I believe that I shall see * the good things of the Lord in the land of the living.
+h: Psalmus 26 || Psalm 26
+t: Dóminus illuminátio mea, et salus mea, * quem timébo? || The Lord is my light and my salvation; * whom shall I fear?
+t: Dóminus protéctor vitæ meæ, * a quo trepidábo? || The Lord is the protector of my life; * of whom shall I be afraid?
+t: Dum apprópiant super me nocéntes, * ut edant carnes meas: || While the wicked draw near against me * to devour my flesh,
+t: Qui tríbulant me inimíci mei, * ipsi infirmáti sunt, et cecidérunt. || My enemies who trouble me * have themselves grown weak and fallen.
+t: Si consístant advérsum me castra, * non timébit cor meum. || If armies in camp should stand together against me, * my heart shall not fear.
+t: Si exsúrgat advérsum me prǽlium, * in hoc ego sperábo. || If a battle should rise up against me, * in this will I be confident.
+t: Unam pétii a Dómino, hanc requíram, * ut inhábitem in domo Dómini ómnibus diébus vitæ meæ: || One thing I have asked of the Lord, this will I seek after: * that I may dwell in the house of the Lord all the days of my life,
+t: Ut vídeam voluptátem Dómini, * et vísitem templum ejus. || That I may see the delight of the Lord * and visit His temple.
+t: Quóniam abscóndit me in tabernáculo suo: * in die malórum protéxit me in abscóndito tabernáculi sui. || For He has hidden me in His tabernacle; * in the day of evils He has protected me in the secret place of His tabernacle.
+t: In petra exaltávit me: * et nunc exaltávit caput meum super inimícos meos. || He has exalted me upon a rock, * and now He has lifted up my head above my enemies.
+t: Circuívi, et immolávi in tabernáculo ejus hóstiam vociferatiónis: * cantábo, et psalmum dicam Dómino. || I have gone round and offered in His tabernacle a sacrifice of jubilation; * I will sing and recite a psalm to the Lord.
+t: Exáudi, Dómine, vocem meam, qua clamávi ad te: * miserére mei, et exáudi me. || Hear, O Lord, my voice with which I have cried to You; * have mercy on me and hear me.
+t: Tibi dixit cor meum, exquisívit te fácies mea: * fáciem tuam, Dómine, requíram. || My heart has said to You, my face has sought You; * Your face, O Lord, will I seek.
+t: Ne avértas fáciem tuam a me: * ne declínes in ira a servo tuo. || Turn not away Your face from me; * turn not aside in wrath from Your servant.
+t: Adjútor meus esto: * ne derelínquas me, neque despícias me, Deus, salutáris meus. || Be my helper; * forsake me not, nor despise me, O God my Savior.
+t: Quóniam pater meus, et mater mea dereliquérunt me: * Dóminus autem assúmpsit me. || For my father and my mother have forsaken me, * but the Lord has taken me up.
+t: Legem pone mihi, Dómine, in via tua: * et dírige me in sémitam rectam propter inimícos meos. || Set me a law, O Lord, in Your way, * and guide me in the right path because of my enemies.
+t: Ne tradíderis me in ánimas tribulántium me: quóniam insurrexérunt in me testes iníqui, * et mentíta est iníquitas sibi. || Deliver me not over to the will of those who trouble me, for unjust witnesses have risen up against me, * and iniquity has lied to itself.
+t: Credo vidére bona Dómini * in terra vivéntium. || I believe that I shall see the good things of the Lord * in the land of the living.
+t: Exspécta Dóminum, viríliter age: * et confortétur cor tuum, et sústine Dóminum. || Wait for the Lord, act manfully; * let your heart take courage, and wait for the Lord.
+@requiem-aeternam
+t: *Ant.* Credo vidére bona Dómini in terra vivéntium. || *Ant.* I believe that I shall see the good things of the Lord in the land of the living.
+v: Cóllocet eos Dóminus cum princípibus. || May the Lord set them with the princes,
+x: Cum princípibus pópuli sui. || With the princes of His people.
+r: Pater noster totum secreto. || The Our Father entirely in silence.
+h: Lectio IV (Job 13, 22-28) || Fourth Lesson (Job 13:22-28)
+t: Respónde mihi: quantas hábeo iniquitátes et peccáta, scélera mea et delícta osténde mihi. Cur fáciem tuam abscóndis, et arbitráris me inimícum tuum? Contra fólium, quod vento rápitur, osténdis poténtiam tuam, et stípulam siccam perséqueris. Scribis enim contra me amaritúdines, et consúmere me vis peccátis adulescéntiæ meæ. Posuísti in nervo pedem meum, et observásti omnes sémitas meas, et vestígia pedum meórum considerásti: qui quasi putrédo consuméndus sum, et quasi vestiméntum, quod coméditur a tínea. || Answer me: how many are my iniquities and sins? Show me my crimes and offenses. Why do You hide Your face and count me Your enemy? Against a leaf that is carried away by the wind You show Your power, and You pursue a dry straw. For You write bitter things against me, and would consume me for the sins of my youth. You have put my feet in the stocks, and have watched all my paths, and have marked the footsteps of my feet; I who am to be consumed like rottenness, and like a garment that is eaten by the moth.
+x: Meménto mei, Deus, quia ventus est vita mea: * Nec aspíciat me visus hóminis. || Remember me, O God, for my life is but wind: * And let not the sight of man behold me.
+v: De profúndis clamávi ad te, Dómine: Dómine, exáudi vocem meam. * Nec aspíciat. || Out of the depths I have cried to You, O Lord; Lord, hear my voice. * And let not.
+h: Lectio V (Job 14, 1-6) || Fifth Lesson (Job 14:1-6)
+t: Homo, natus de mulíere, brevi vivens témpore, replétur multis misériis. Qui quasi flos egréditur et contéritur, et fugit velut umbra, et numquam in eódem statu pérmanet. Et dignum ducis super hujuscémodi aperíre óculos tuos, et addúcere eum tecum in judícium? Quis potest fácere mundum de immúndo concéptum sémine? Nonne tu, qui solus es? Breves dies hóminis sunt, númerus ménsium ejus apud te est: constituísti términos ejus, qui præteríri non póterunt. Recéde páululum ab eo, ut quiéscat, donec optáta véniat, sicut mercennárii, dies ejus. || Man, born of woman, living for a short time, is filled with many miseries. He comes forth like a flower and is crushed, and flees like a shadow, and never continues in the same state. And do You think it fitting to open Your eyes upon such a one, and to bring him with You into judgment? Who can make clean one conceived of unclean seed? Is it not You, who alone are? The days of man are short, and the number of his months is with You; You have set his bounds, which cannot be passed. Depart a little from him, that he may rest, until his wished-for day comes, like that of a hireling.
+x: Hei mihi, Dómine, quia peccávi nimis in vita mea: quid fáciam miser? ubi fúgiam, nisi ad te, Deus meus? * Miserére mei, dum véneris in novíssimo die. || Woe is me, O Lord, for I have sinned exceedingly in my life! What shall I do, wretch that I am? Where shall I flee, but to You, my God? * Have mercy on me when You come on the last day.
+v: Anima mea turbáta est valde, sed tu, Dómine, succúrre ei. * Miserére. || My soul is sorely troubled; but You, O Lord, come to its aid. * Have mercy.
+h: Lectio VI (Job 14, 13-16) || Sixth Lesson (Job 14:13-16)
+t: Quis mihi hoc tríbuat, ut in inférno prótegas me, et abscóndas me, donec pertránseat furor tuus, et constítuas mihi tempus in quo recordéris mei? Putásne mórtuus homo rursum vivat? Cunctis diébus quibus nunc mílito, exspécto donec véniat immutátio mea. Vocábis me, et ego respondébo tibi: óperi mánuum tuárum pórriges déxteram. Tu quidem gressus meos dinumerásti, sed parce peccátis meis. || Who will grant me this, that You protect me in the netherworld and hide me until Your wrath passes, and appoint me a time when You will remember me? Shall a man who is dead live again, do you think? All the days in which I now serve as a soldier, I wait until my change comes. You shall call me, and I will answer You; to the work of Your hands You shall stretch out Your right hand. You have indeed numbered my steps, but spare my sins.
+x: Ne recordéris peccáta mea, Dómine, * Dum véneris judicáre sǽculum per ignem. || Remember not my sins, O Lord, * When You come to judge the world by fire.
+v: Dírige, Dómine, Deus meus, in conspéctu tuo viam meam. * Dum véneris. || Direct, O Lord my God, my way in Your sight. * When You come.
+v: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. * Dum véneris. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. * When You come.
+r: Postea ad Laudes, ut infra, quando dicitur unum tantum Nocturnum. || Then Lauds follows, as below, when only one Nocturn is said.
+r: Si vero Laudes omnino omittantur, post ultimum Responsorium dicuntur Pater noster et Preces, ut infra ad Laudes. || But if Lauds is omitted altogether, after the last responsory the Our Father and the prayers are said, as below at Lauds.
+h: In III Nocturno (Pro Feria IV et Sabbato) || Third Nocturn (For Wednesday and Saturday)
+t: *Ant. 1* Compláceat * tibi, Dómine, ut erípias me: Dómine, ad adjuvándum me réspice. || *Ant. 1* Be pleased, * O Lord, to deliver me; O Lord, look down to help me.
+h: Psalmus 39 || Psalm 39
+t: Exspéctans exspectávi Dóminum, * et inténdit mihi. || With expectation I have waited for the Lord, * and He was attentive to me.
+t: Et exaudívit preces meas: * et edúxit me de lacu misériæ, et de luto fæcis. || And He heard my prayers, * and brought me out of the pit of misery and the mire of dregs.
+t: Et státuit super petram pedes meos: * et diréxit gressus meos. || And He set my feet upon a rock, * and directed my steps.
+t: Et immísit in os meum cánticum novum, * carmen Deo nostro. || And He put a new canticle into my mouth, * a song to our God.
+t: Vidébunt multi, et timébunt: * et sperábunt in Dómino. || Many shall see and shall fear, * and they shall hope in the Lord.
+t: Beátus vir, cujus est nomen Dómini spes ejus: * et non respéxit in vanitátes et insánias falsas. || Blessed is the man whose hope is in the name of the Lord, * and who has not regarded vanities and lying follies.
+t: Multa fecísti tu, Dómine, Deus meus, mirabília tua: * et cogitatiónibus tuis non est qui símilis sit tibi. || Many are the wonders You have done, O Lord my God; * and in Your thoughts there is none like You.
+t: Annuntiávi et locútus sum: * multiplicáti sunt super númerum. || I have declared and spoken; * they are multiplied beyond number.
+t: Sacrifícium et oblatiónem noluísti: * aures autem perfecísti mihi. || Sacrifice and oblation You did not desire, * but You have opened my ears.
+t: Holocáustum et pro peccáto non postulásti: * tunc dixi: Ecce, vénio. || Burnt offering and sin offering You did not require; * then I said: Behold, I come.
+t: In cápite libri scriptum est de me ut fácerem voluntátem tuam: * Deus meus, vólui, et legem tuam in médio cordis mei. || In the head of the book it is written of me that I should do Your will; * O my God, I have desired it, and Your law in the midst of my heart.
+t: Annuntiávi justítiam tuam in ecclésia magna, * ecce, lábia mea non prohibébo: Dómine, tu scisti. || I have declared Your justice in the great assembly; * behold, I will not restrain my lips; O Lord, You know it.
+t: Justítiam tuam non abscóndi in corde meo: * veritátem tuam et salutáre tuum dixi. || I have not hidden Your justice within my heart; * I have spoken of Your truth and Your salvation.
+t: Non abscóndi misericórdiam tuam et veritátem tuam * a concílio multo. || I have not concealed Your mercy and Your truth * from the great council.
+t: Tu autem, Dómine, ne longe fácias miseratiónes tuas a me: * misericórdia tua et véritas tua semper suscepérunt me. || But You, O Lord, do not remove Your tender mercies far from me; * Your mercy and Your truth have always upheld me.
+t: Quóniam circumdedérunt me mala, quorum non est númerus: comprehendérunt me iniquitátes meæ, * et non pótui ut vidérem. || For evils without number have surrounded me; my iniquities have overtaken me, * and I was not able to see.
+t: Multiplicátæ sunt super capíllos cápitis mei: * et cor meum derelíquit me. || They are multiplied beyond the hairs of my head, * and my heart has failed me.
+t: Compláceat tibi, Dómine, ut éruas me: * Dómine, ad adjuvándum me réspice. || Be pleased, O Lord, to deliver me; * O Lord, look down to help me.
+t: Confundántur et revereántur simul, qui quærunt ánimam meam, * ut áuferant eam. || Let them be confounded and ashamed together who seek my soul * to take it away.
+t: Convertántur retrórsum, et revereántur * qui volunt mihi mala. || Let them be turned backward and put to shame * who wish me evil.
+t: Ferant conféstim confusiónem suam, * qui dicunt mihi: Euge, euge. || Let them suffer their confusion at once, * who say to me: Aha, aha.
+t: Exsúltent et læténtur super te omnes quæréntes te: * et dicant semper: Magnificétur Dóminus: qui díligunt salutáre tuum. || Let all who seek You rejoice and be glad in You, * and let those who love Your salvation say always: The Lord be magnified.
+t: Ego autem mendícus sum et pauper: * Dóminus sollícitus est mei. || But I am a beggar and poor; * the Lord is mindful of me.
+t: Adjútor meus, et protéctor meus tu es: * Deus meus, ne tardáveris. || You are my helper and my protector; * O my God, do not delay.
+@requiem-aeternam
+t: *Ant.* Compláceat tibi, Dómine, ut erípias me: Dómine, ad adjuvándum me réspice. || *Ant.* Be pleased, O Lord, to deliver me; O Lord, look down to help me.
+t: *Ant. 2* Sana, Dómine, * ánimam meam, quia peccávi tibi. || *Ant. 2* Heal, O Lord, * my soul, for I have sinned against You.
+h: Psalmus 40 || Psalm 40
+t: Beátus qui intéllegit super egénum et páuperem: * in die mala liberábit eum Dóminus. || Blessed is he who considers the needy and the poor; * the Lord will deliver him in the evil day.
+t: Dóminus consérvet eum, et vivíficet eum, et beátum fáciat eum in terra: * et non tradat eum in ánimam inimicórum ejus. || May the Lord preserve him and give him life, and make him blessed upon the earth, * and not deliver him to the will of his enemies.
+t: Dóminus opem ferat illi super lectum dolóris ejus: * univérsum stratum ejus versásti in infirmitáte ejus. || May the Lord bring him help on his bed of sorrow; * You have turned all his couch in his sickness.
+t: Ego dixi: Dómine, miserére mei: * sana ánimam meam, quia peccávi tibi. || I said: O Lord, have mercy on me; * heal my soul, for I have sinned against You.
+t: Inimíci mei dixérunt mala mihi: * Quando moriétur, et períbit nomen ejus? || My enemies have spoken evil against me: * When will he die, and his name perish?
+t: Et si ingrediebátur ut vidéret, vana loquebátur: * cor ejus congregávit iniquitátem sibi. || And if he came in to see me, he spoke vain things; * his heart gathered together iniquity for itself.
+t: Egrediebátur foras, * et loquebátur in idípsum. || He went out, * and spoke to the same purpose.
+t: Advérsum me susurrábant omnes inimíci mei: * advérsum me cogitábant mala mihi. || All my enemies whispered together against me; * against me they devised evils.
+t: Verbum iníquum constituérunt advérsum me: * Numquid qui dormit non adjíciet ut resúrgat? || They determined a wicked word against me: * Shall he who sleeps rise again no more?
+t: Etenim homo pacis meæ, in quo sperávi: * qui edébat panes meos, magnificávit super me supplantatiónem. || For even the man of my peace, in whom I trusted, * who ate my bread, has greatly exalted his treachery against me.
+t: Tu autem, Dómine, miserére mei, et resúscita me: * et retríbuam eis. || But You, O Lord, have mercy on me and raise me up, * and I will repay them.
+t: In hoc cognóvi quóniam voluísti me: * quóniam non gaudébit inimícus meus super me. || By this I have known that You favored me: * that my enemy shall not rejoice over me.
+t: Me autem propter innocéntiam suscepísti: * et confirmásti me in conspéctu tuo in ætérnum. || But You have upheld me because of my innocence, * and have established me in Your sight for ever.
+t: Benedíctus Dóminus, Deus Israel, a sǽculo et usque in sǽculum: * fiat, fiat. || Blessed be the Lord, the God of Israel, from everlasting to everlasting. * So be it, so be it.
+@requiem-aeternam
+t: *Ant.* Sana, Dómine, ánimam meam, quia peccávi tibi. || *Ant.* Heal, O Lord, my soul, for I have sinned against You.
+t: *Ant. 3* Sitívit * ánima mea ad Deum vivum: quando véniam, et apparébo ante fáciem Dómini? || *Ant. 3* My soul has thirsted * for the living God; when shall I come and appear before the face of the Lord?
+h: Psalmus 41 || Psalm 41
+t: Quemádmodum desíderat cervus ad fontes aquárum: * ita desíderat ánima mea ad te, Deus. || As the hart longs for the springs of water, * so my soul longs for You, O God.
+t: Sitívit ánima mea ad Deum fortem vivum: * quando véniam, et apparébo ante fáciem Dei? || My soul has thirsted for God, the strong, the living; * when shall I come and appear before the face of God?
+t: Fuérunt mihi lácrimæ meæ panes die ac nocte: * dum dícitur mihi cotídie: Ubi est Deus tuus? || My tears have been my bread day and night, * while it is said to me daily: Where is your God?
+t: Hæc recordátus sum, et effúdi in me ánimam meam: * quóniam transíbo in locum tabernáculi admirábilis, usque ad domum Dei. || These things I remembered, and poured out my soul within me; * for I shall go over into the place of the wonderful tabernacle, even to the house of God,
+t: In voce exsultatiónis, et confessiónis: * sonus epulántis. || With the voice of joy and praise, * the noise of one feasting.
+t: Quare tristis es, ánima mea? * et quare contúrbas me? || Why are you sad, O my soul, * and why do you trouble me?
+t: Spera in Deo, quóniam adhuc confitébor illi: * salutáre vultus mei, et Deus meus. || Hope in God, for I will yet give praise to Him, * the salvation of my countenance, and my God.
+t: Ad meípsum ánima mea conturbáta est: * proptérea memor ero tui de terra Jordánis, et Hermóniim a monte módico. || My soul is troubled within me; * therefore I will remember You from the land of the Jordan and of Hermon, from the little hill.
+t: Abyssus abyssum ínvocat, * in voce cataractárum tuárum. || Deep calls on deep * at the noise of Your floodgates.
+t: Omnia excélsa tua, et fluctus tui * super me transiérunt. || All Your heights and Your billows * have passed over me.
+t: In die mandávit Dóminus misericórdiam suam: * et nocte cánticum ejus. || In the daytime the Lord has commanded His mercy, * and in the night His song.
+t: Apud me orátio Deo vitæ meæ, * dicam Deo: Suscéptor meus es. || With me is prayer to the God of my life; * I will say to God: You are my support.
+t: Quare oblítus es mei? * et quare contristátus incédo, dum afflígit me inimícus? || Why have You forgotten me? * And why do I go mourning, while the enemy afflicts me?
+t: Dum confringúntur ossa mea, * exprobravérunt mihi qui tríbulant me inimíci mei. || While my bones are broken, * my enemies who trouble me have reproached me,
+t: Dum dicunt mihi per síngulos dies: Ubi est Deus tuus? * quare tristis es, ánima mea? et quare contúrbas me? || While they say to me day by day: Where is your God? * Why are you sad, O my soul, and why do you trouble me?
+t: Spera in Deo, quóniam adhuc confitébor illi: * salutáre vultus mei, et Deus meus. || Hope in God, for I will yet give praise to Him, * the salvation of my countenance, and my God.
+@requiem-aeternam
+t: *Ant.* Sitívit ánima mea ad Deum vivum: quando véniam, et apparébo ante fáciem Dómini? || *Ant.* My soul has thirsted for the living God; when shall I come and appear before the face of the Lord?
+v: Ne tradas béstiis ánimas confiténtes tibi. || Deliver not to the beasts the souls that praise You.
+x: Et ánimas páuperum tuórum ne obliviscáris in finem. || And forget not to the end the souls of Your poor.
+r: Pater noster totum secreto. || The Our Father entirely in silence.
+h: Lectio VII (Job 17, 1-3; 11-15) || Seventh Lesson (Job 17:1-3, 11-15)
+t: Spíritus meus attenuábitur, dies mei breviabúntur, et solum mihi súperest sepúlcrum. Non peccávi, et in amaritudínibus morátur óculus meus. Líbera me, Dómine, et pone me juxta te, et cujúsvis manus pugnet contra me. Dies mei transiérunt, cogitatiónes meæ dissipátæ sunt, torquéntes cor meum. Noctem vertérunt in diem, et rursum post ténebras spero lucem. Si sustinúero, inférnus domus mea est, et in ténebris stravi léctulum meum. Putrédini dixi: Pater meus es; mater mea, et soror mea, vérmibus. Ubi est ergo nunc præstolátio mea, et patiéntiam meam quis consíderat? || My spirit shall be wasted, my days shall be shortened, and only the grave remains for me. I have not sinned, and my eye dwells in bitterness. Deliver me, O Lord, and set me beside You, and let any man's hand fight against me. My days have passed away; my thoughts are scattered, tormenting my heart. They have turned night into day, and after darkness I hope for light again. If I wait, the netherworld is my house, and I have made my bed in darkness. I have said to rottenness: You are my father; to worms: my mother and my sister. Where then is now my expectation, and who considers my patience?
+x: Peccántem me cotídie, et non me pœniténtem, timor mortis contúrbat me: * Quia in inférno nulla est redémptio, miserére mei, Deus, et salva me. || Sinning daily and not repenting, the fear of death troubles me: * For in hell there is no redemption; have mercy on me, O God, and save me.
+v: Deus, in nómine tuo salvum me fac, et in virtúte tua líbera me. * Quia. || Save me, O God, by Your name, and deliver me in Your strength. * For in hell.
+h: Lectio VIII (Job 19, 20-27) || Eighth Lesson (Job 19:20-27)
+t: Pelli meæ, consúmptis cárnibus, adhǽsit os meum, et derelícta sunt tantúmmodo lábia circa dentes meos. Miserémini mei, miserémini mei, saltem vos, amíci mei, quia manus Dómini tétigit me. Quare persequímini me sicut Deus, et cárnibus meis saturámini? Quis mihi tríbuat ut scribántur sermónes mei? quis mihi det ut exaréntur in libro stilo férreo, et plumbi lámina, vel celte sculpántur in sílice? Scio enim quod redémptor meus vivit, et in novíssimo die de terra surrectúrus sum: et rursum circúmdabor pelle mea, et in carne mea vidébo Deum meum. Quem visúrus sum ego ipse, et óculi mei conspectúri sunt, et non álius: repósita est hæc spes mea in sinu meo. || My flesh being consumed, my bone has cleaved to my skin, and nothing but lips is left about my teeth. Have pity on me, have pity on me, at least you, my friends, for the hand of the Lord has touched me. Why do you persecute me as God does, and glut yourselves with my flesh? Who will grant me that my words may be written? Who will grant me that they may be inscribed in a book with an iron pen and on a plate of lead, or else be graven with a chisel in stone? For I know that my Redeemer lives, and on the last day I shall rise out of the earth; and I shall be clothed again with my skin, and in my flesh I shall see my God. Whom I myself shall see, and my eyes shall behold, and not another: this my hope is laid up in my bosom.
+x: Dómine, secúndum actum meum noli me judicáre: nihil dignum in conspéctu tuo egi: ídeo déprecor majestátem tuam, * Ut tu, Deus, déleas iniquitátem meam. || O Lord, judge me not according to my deeds; I have done nothing worthy in Your sight; therefore I implore Your majesty, * That You, O God, may blot out my iniquity.
+v: Amplius lava me, Dómine, ab injustítia mea, et a delícto meo munda me. * Ut tu. || Wash me yet more, O Lord, from my injustice, and cleanse me from my sin. * That You.
+h: Lectio IX (Job 10, 18-22) || Ninth Lesson (Job 10:18-22)
+t: Quare de vulva eduxísti me? qui útinam consúmptus essem, ne óculus me vidéret! Fuíssem quasi non essem, de útero translátus ad túmulum. Numquid non páucitas diérum meórum finiétur brevi? Dimítte ergo me, ut plangam páululum dolórem meum: ántequam vadam, et non revértar, ad terram tenebrósam et opértam mortis calígine: terram misériæ et tenebrárum, ubi umbra mortis, et nullus ordo, sed sempitérnus horror inhábitat. || Why did You bring me forth out of the womb? Would that I had been consumed, that no eye might see me! I should have been as if I had not been, carried from the womb to the grave. Will not the fewness of my days soon be ended? Let me alone, then, that I may lament my sorrow a little, before I go, and return no more, to a land that is dark and covered with the mist of death: a land of misery and darkness, where the shadow of death is, and no order, but everlasting horror dwells.
+r: Sequens Responsorium tunc ponitur, quando dictus fuerit tertius Nocturnus tantum pro Defunctis. || The following responsory is used when only the third Nocturn has been said for the dead.
+x: Líbera me, Dómine, de viis inférni, qui portas ǽreas confregísti, et visitásti inférnum, et dedísti eis lumen, ut vidérent te: * Qui erant in pœnis tenebrárum. || Deliver me, O Lord, from the ways of hell, You who broke the gates of brass, and visited hell, and gave them light that they might see You: * They who were in the pains of darkness.
+v: Clamántes et dicéntes: Advenísti, Redémptor noster. * Qui erant. || Crying out and saying: You have come, our Redeemer. * They who were.
+v: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. * Qui erant. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. * They who were.
+r: Sequens Responsorium ponitur loco præcedentis, quando tres Nocturni dicti fuerint pro Defunctis. || The following responsory is used in place of the preceding one when all three Nocturns have been said for the dead.
+x: Líbera me, Dómine, de morte ætérna, in die illa treménda: * Quando cæli movéndi sunt et terra: * Dum véneris judicáre sǽculum per ignem. || Deliver me, O Lord, from everlasting death on that dreadful day: * When the heavens and the earth shall be moved: * When You shall come to judge the world by fire.
+v: Tremens factus sum ego, et tímeo, dum discússio vénerit, atque ventúra ira. * Quando cæli movéndi sunt et terra. || I am made to tremble, and I fear, when the judgment shall come, and the wrath to come. * When the heavens and the earth shall be moved.
+v: Dies illa, dies iræ, calamitátis et misériæ, dies magna et amára valde. * Dum véneris judicáre sǽculum per ignem. || That day, a day of wrath, of calamity and misery, a great day and exceedingly bitter. * When You shall come to judge the world by fire.
+v: Réquiem ætérnam dona eis, Dómine: et lux perpétua lúceat eis. || Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.
+r: Repetitur Líbera me, Dómine, usque ad ℣. Tremens factus sum ego exclusive. || "Deliver me, O Lord" is repeated as far as the verse "I am made to tremble," exclusive.
+r: Deinde, si Laudes omnino omittantur, post ultimum Responsorium dicuntur Pater noster et Preces, ut infra ad Laudes. || Then, if Lauds is omitted altogether, after the last responsory the Our Father and the prayers are said, as below at Lauds.
+r: Si vero Matutinum, cum unico vel tribus Nocturnis, a Laudibus separetur, post ultimum Responsorium subjungitur: || But if Matins, with one or three Nocturns, is separated from Lauds, after the last responsory there is added:
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: Deinde dicitur Oratio (seu dicuntur Orationes) ut supra in Vesperis, additis sequentibus: || Then the prayer (or prayers) is said as above at Vespers, with the following added:
+v: Réquiem ætérnam dona eis, Dómine. || Eternal rest grant unto them, O Lord.
+x: Et lux perpétua lúceat eis. || And let perpetual light shine upon them.
+v: Requiéscant in pace. || May they rest in peace.
+x: Amen. || Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Office of the Dead: Lauds
+// ──────────────────────────────────────────────────────────────────────
+# office-dead-lauds | Officium Defunctorum: Ad Laudes | Office of the Dead: Lauds | The Dying & the Dead | Tit. VI, cap. 4
+r: Quoties Laudes a Matutino separentur, dicitur secreto Pater noster et Ave, María; secus absolute incipitur a sequenti || Whenever Lauds is separated from Matins, the Our Father and Hail Mary are said silently; otherwise one begins directly with the following
+t: *Ant. 1* Exsultábunt Dómino * ossa humiliáta. || *Ant. 1* The bones that were humbled * shall rejoice in the Lord.
+@psalm-50-without-gloria
+@requiem-aeternam
+t: *Ant.* Exsultábunt Dómino ossa humiliáta. || *Ant.* The bones that were humbled shall rejoice in the Lord.
+t: *Ant. 2* Exáudi, Dómine, * oratiónem meam: ad te omnis caro véniet. || *Ant. 2* Hear, O Lord, * my prayer; to You all flesh shall come.
+h: Psalmus 64 || Psalm 64
+t: Te decet hymnus, Deus, in Sion: * et tibi reddétur votum in Jerúsalem. || A hymn, O God, befits You in Sion, * and a vow shall be paid to You in Jerusalem.
+t: Exáudi oratiónem meam: * ad te omnis caro véniet. || Hear my prayer; * to You all flesh shall come.
+t: Verba iniquórum prævaluérunt super nos: * et impietátibus nostris tu propitiáberis. || The words of the wicked have prevailed over us, * but You will pardon our transgressions.
+t: Beátus, quem elegísti, et assumpsísti: * inhabitábit in átriis tuis. || Blessed is he whom You have chosen and taken to Yourself; * he shall dwell in Your courts.
+t: Replébimur in bonis domus tuæ: * sanctum est templum tuum, mirábile in æquitáte. || We shall be filled with the good things of Your house; * holy is Your temple, wonderful in justice.
+t: Exáudi nos, Deus, salutáris noster, * spes ómnium fínium terræ, et in mari longe. || Hear us, O God our Savior, * the hope of all the ends of the earth and of those far off on the sea.
+t: Præparans montes in virtúte tua, accínctus poténtia: * qui contúrbas profúndum maris sonum flúctuum ejus. || You who establish the mountains by Your strength, girded with power; * who stir up the depth of the sea, the roar of its waves.
+t: Turbabúntur gentes, et timébunt qui hábitant términos a signis tuis: * éxitus matutíni, et véspere delectábis. || The nations shall be troubled, and those who dwell at the ends of the earth shall fear at Your signs; * You make the outgoings of morning and evening to rejoice.
+t: Visitásti terram, et inebriásti eam: * multiplicásti locupletáre eam. || You have visited the earth and watered it abundantly; * You have greatly enriched it.
+t: Flumen Dei replétum est aquis, parásti cibum illórum: * quóniam ita est præparátio ejus. || The river of God is filled with water; You have prepared their food, * for so is its preparation.
+t: Rivos ejus inébria, multíplica genímina ejus: * in stillicídiis ejus lætábitur gérminans. || Fill up its streams, multiply its fruits; * the sprouting earth shall rejoice in its showers.
+t: Benedíces corónæ anni benignitátis tuæ: * et campi tui replebúntur ubertáte. || You will bless the crown of the year of Your goodness, * and Your fields shall be filled with plenty.
+t: Pinguéscent speciósa desérti: * et exsultatióne colles accingéntur. || The beautiful places of the wilderness shall grow fat, * and the hills shall be girded with joy.
+t: Indúti sunt aríetes óvium, et valles abundábunt fruménto: * clamábunt, étenim hymnum dicent. || The rams of the flock are clothed, and the valleys shall abound with grain; * they shall shout, yes, they shall sing a hymn.
+@requiem-aeternam
+t: *Ant.* Exáudi, Dómine, oratiónem meam: ad te omnis caro véniet. || *Ant.* Hear, O Lord, my prayer; to You all flesh shall come.
+t: *Ant. 3* Me suscépit * déxtera tua, Dómine. || *Ant. 3* Your right hand * has upheld me, O Lord.
+h: Psalmus 62 || Psalm 62
+t: Deus, Deus meus, * ad te de luce vígilo. || O God, my God, * to You I keep watch from the break of day.
+t: Sitívit in te ánima mea, * quam multipliciter tibi caro mea. || For You my soul has thirsted, * for You my flesh, in how many ways!
+t: In terra desérta, et ínvia, et inaquósa: sic in sancto appárui tibi, * ut vidérem virtútem tuam, et glóriam tuam. || In a desert land, pathless and without water, so have I come before You in the sanctuary, * to see Your power and Your glory.
+t: Quóniam mélior est misericórdia tua super vitas: * lábia mea laudábunt te. || For Your mercy is better than lives; * my lips shall praise You.
+t: Sic benedícam te in vita mea: * et in nómine tuo levábo manus meas. || Thus will I bless You all my life, * and in Your name I will lift up my hands.
+t: Sicut ádipe et pinguédine repleátur ánima mea: * et lábiis exsultatiónis laudábit os meum. || Let my soul be filled as with marrow and fatness, * and my mouth shall praise You with joyful lips.
+t: Si memor fui tui super stratum meum, in matutínis meditábor in te: * quia fuísti adjútor meus. || If I have remembered You upon my bed, I will meditate on You in the morning, * for You have been my helper.
+t: Et in velaménto alárum tuárum exsultábo, adhǽsit ánima mea post te: * me suscépit déxtera tua. || And under the covering of Your wings I will rejoice; my soul has clung to You; * Your right hand has upheld me.
+t: Ipsi vero in vanum quæsiérunt ánimam meam, introíbunt in inferióra terræ: * tradéntur in manus gládii, partes vúlpium erunt. || But they have sought my soul in vain; they shall go into the lower parts of the earth; * they shall be delivered into the hands of the sword; they shall be the portion of foxes.
+t: Rex vero lætábitur in Deo, laudabúntur omnes qui jurant in eo: * quia obstrúctum est os loquéntium iníqua. || But the king shall rejoice in God; all who swear by Him shall be praised, * for the mouth of those who speak wicked things is stopped.
+@requiem-aeternam
+t: *Ant.* Me suscépit déxtera tua, Dómine. || *Ant.* Your right hand has upheld me, O Lord.
+t: *Ant. 4* A porta ínferi * érue, Dómine, ánimam meam. || *Ant. 4* From the gate of hell * deliver my soul, O Lord.
+h: Canticum Ezechiæ (Is. 38, 10-20) || Canticle of Hezekiah (Isaiah 38:10-20)
+t: Ego dixi: In dimídio diérum meórum * vadam ad portas ínferi. || I said: In the midst of my days * I shall go to the gates of hell.
+t: Quæsívi resíduum annórum meórum. * Dixi: Non vidébo Dóminum Deum in terra vivéntium. || I sought for the remainder of my years. * I said: I shall not see the Lord God in the land of the living.
+t: Non aspíciam hóminem ultra, * et habitatórem quiétis. || I shall behold man no more, * nor the inhabitant of rest.
+t: Generátio mea abláta est, et convolúta est a me, * quasi tabernáculum pastórum. || My dwelling is taken away and rolled up from me * like a shepherd's tent.
+t: Præcísa est velut a texénte, vita mea: dum adhuc ordírer, succídit me: * de mane usque ad vésperam fínies me. || My life is cut off as by a weaver; while I was yet beginning, He cut me off; * from morning even to night You will make an end of me.
+t: Sperábam usque ad mane, * quasi leo sic contrívit ómnia ossa mea: || I hoped until morning; * like a lion, so has He broken all my bones.
+t: De mane usque ad vésperam fínies me: sicut pullus hirúndinis sic clamábo, * meditábor ut colúmba: || From morning even to night You will make an end of me. I will cry like a young swallow; * I will moan like a dove.
+t: Attenuáti sunt óculi mei, * suspiciéntes in excélsum: || My eyes are grown weak * with looking upward.
+t: Dómine, vim pátior, respónde pro me. * Quid dicam, aut quid respondébit mihi, cum ipse fécerit? || O Lord, I suffer violence; answer for me. * What shall I say, or what shall He answer me, when He Himself has done it?
+t: Recogitábo tibi omnes annos meos * in amaritúdine ánimæ meæ. || I will recount to You all my years * in the bitterness of my soul.
+t: Dómine, si sic vívitur, et in tálibus vita spíritus mei, corrípies me, et vivificábis me. * Ecce, in pace amaritúdo mea amaríssima: || O Lord, if man lives by such things, and the life of my spirit is in them, You will correct me and give me life. * Behold, in peace is my bitterness most bitter;
+t: Tu autem eruísti ánimam meam ut non períret: * projecísti post tergum tuum ómnia peccáta mea. || But You have delivered my soul so that it should not perish; * You have cast all my sins behind Your back.
+t: Quia non inférnus confitébitur tibi, neque mors laudábit te: * non exspectábunt qui descéndunt in lacum, veritátem tuam. || For hell shall not give You thanks, nor death praise You; * those who go down into the pit shall not look for Your truth.
+t: Vivens vivens ipse confitébitur tibi, sicut et ego hódie: * pater fíliis notam fáciet veritátem tuam. || The living, the living, he shall give thanks to You, as I do this day; * the father shall make Your truth known to the children.
+t: Dómine, salvum me fac, * et psalmos nostros cantábimus cunctis diébus vitæ nostræ in domo Dómini. || O Lord, save me, * and we will sing our psalms all the days of our life in the house of the Lord.
+@requiem-aeternam
+t: *Ant.* A porta ínferi érue, Dómine, ánimam meam. || *Ant.* From the gate of hell deliver my soul, O Lord.
+t: *Ant. 5* Omnis spíritus * laudet Dóminum. || *Ant. 5* Let every spirit * praise the Lord.
+h: Psalmus 150 || Psalm 150
+t: Laudáte Dóminum in sanctis ejus: * laudáte eum in firmaménto virtútis ejus. || Praise the Lord in His holy places; * praise Him in the firmament of His power.
+t: Laudáte eum in virtútibus ejus: * laudáte eum secúndum multitúdinem magnitúdinis ejus. || Praise Him for His mighty acts; * praise Him according to the abundance of His greatness.
+t: Laudáte eum in sono tubæ: * laudáte eum in psaltério, et cíthara. || Praise Him with the sound of the trumpet; * praise Him with psaltery and harp.
+t: Laudáte eum in týmpano, et choro: * laudáte eum in chordis, et órgano. || Praise Him with timbrel and choir; * praise Him with strings and organ.
+t: Laudáte eum in cýmbalis benesonántibus: laudáte eum in cýmbalis jubilatiónis: * omnis spíritus laudet Dóminum. || Praise Him on well-sounding cymbals; praise Him on cymbals of joy; * let every spirit praise the Lord.
+@requiem-aeternam
+t: *Ant.* Omnis spíritus laudet Dóminum. || *Ant.* Let every spirit praise the Lord.
+v: Audívi vocem de cælo dicéntem mihi. || I heard a voice from heaven saying to me:
+x: Beáti mórtui qui in Dómino moriúntur. || Blessed are the dead who die in the Lord.
+t: *Ad Benedictus, Ant.* Ego sum * resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet: et omnis qui vivit et credit in me, non moriétur in ætérnum. || *Ant. at the Benedictus* I am * the resurrection and the life; he who believes in Me, even if he die, shall live; and whoever lives and believes in Me shall never die.
+h: Canticum Zachariæ (Luc. 1, 68-79) || Canticle of Zechariah (Luke 1:68-79)
+@canticle-benedictus
+@requiem-aeternam
+t: *Ant.* Ego sum resurréctio et vita: qui credit in me, étiam si mórtuus fúerit, vivet: et omnis qui vivit et credit in me, non moriétur in ætérnum. || *Ant.* I am the resurrection and the life; he who believes in Me, even if he die, shall live; and whoever lives and believes in Me shall never die.
+r: Deinde flexis genibus: || Then, kneeling:
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+r: Psalmus 129, qui non dicitur in die obitus seu depositionis defuncti, neque aliis diebus quibus Officium recitatur ritu duplici. || Psalm 129, which is not said on the day of death or burial of the deceased, nor on other days when the Office is recited with double rite.
+@psalm-129-without-gloria
+@requiem-aeternam
+r: Deinde dicuntur Preces et Oratio sive Orationes Officio congruentes, ut supra in Vesperis. || Then the prayers and the prayer or prayers suited to the Office are said, as above at Vespers.
+r: In Exsequiis vero defuncti, præsente corpore, dicuntur in fine Laudum Preces et Oratio ut supra in Exsequiarum Ordine. || But at the funeral of the deceased, with the body present, at the end of Lauds the prayers and the prayer are said as above in the Order of Burial.

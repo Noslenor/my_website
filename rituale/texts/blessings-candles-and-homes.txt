@@ -1,0 +1,108 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Candles, homes, places, bridal chamber (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Candles
+// ──────────────────────────────────────────────────────────────────────
+# candles | Benedictio Candelarum | Blessing of Candles | Objects of Devotion | Tit. VIII, cap. 3
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, béne✠dic candélas istas supplicatiónibus nostris: infúnde eis, Dómine, per virtútem sanctæ Cru✠cis, benedictiónem cæléstem, qui eas ad repelléndas ténebras humáno géneri tribuísti; talémque benedictiónem signáculo sanctæ Cru✠cis accípiant, ut quibuscúmque locis accénsæ, sive pósitæ fúerint, discédant príncipes tenebrárum, et contremíscant, et fúgiant pávidi cum ómnibus minístris suis ab habitatiónibus illis, nec præsúmant ámplius inquietáre, aut molestáre serviéntes tibi omnipoténti Deo: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, ✠ bless these candles at our humble request. By the power of the holy ✠ Cross, O Lord, pour upon them a heavenly blessing, You who gave them to mankind to dispel the darkness; and may they receive such a blessing through the sign of the holy ✠ Cross that, wherever they are lighted or placed, the princes of darkness may depart, tremble, and flee in terror with all their ministers from those dwellings, and no longer presume to disturb or molest those who serve You, the almighty God, who live and reign for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Homes on Holy Saturday and during Eastertide
+// ──────────────────────────────────────────────────────────────────────
+# homes-easter | Benedictio Domorum in Sabbato Sancto et reliquo Tempore Paschali | Blessing of Homes on Holy Saturday and during Eastertide | Homes & Places | Tit. VIII, cap. 4
+r: 1. Parochus, seu alius Sacerdos de Parochi licentia, superpelliceo et stola alba indutus, cum ministro deferente vas aquæ benedictæ in Fonte baptismali, atque ante infusionem Olei et Chrismatis acceptæ, Sabbato Sancto visitat domos suæ parœciæ, aspergens eas eadem aqua benedicta. Ingrediens domum dicit: || 1. The pastor, or another priest with the pastor's permission, vested in surplice and white stole, with a server carrying a vessel of the water blessed in the baptismal font and taken before the pouring in of the oil and chrism, visits the homes of his parish on Holy Saturday, sprinkling them with this holy water. Entering the house, he says:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: 2. Deinde aspergens loca præcipua domus, et habitantes in ea, dicit Antiphonam: || 2. Then, sprinkling the principal rooms of the house and those who live there, he says the antiphon:
+t: *Ant.* Vidi aquam egrediéntem de templo, a látere dextro, allelúja: et omnes, ad quos pervénit aqua ista, salvi facti sunt, et dicent: allelúja, allelúja. || *Ant.* I saw water flowing from the temple, from its right side, alleluia; and all to whom that water came were saved, and they shall say: alleluia, alleluia.
+t: *Ps. 117, 1.* Confitémini Dómino, quóniam bonus: quóniam in sǽculum misericórdia ejus. || *Ps. 117, 1.* Give praise to the Lord, for He is good; for His mercy endures for ever.
+t: Glória Patri, etc. || Glory be to the Father, etc.
+r: Repetitur Antiphona: Vidi aquam, etc. Deinde dicit: || The antiphon "I saw water," etc., is repeated. Then he says:
+v: Osténde nobis, Dómine, misericórdiam tuam, allelúja. || Show us, O Lord, Your mercy, alleluia.
+x: Et salutáre tuum da nobis, allelúja. || And grant us Your salvation, alleluia.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Exáudi nos, Dómine sancte, Pater omnípotens, ætérne Deus: et sicut domos Hebræórum in éxitu de Ægýpto, agni sánguine linítas (quod pascha nostrum, in quo immolátus est Christus, figurábat), ab Angelo percutiénte custodísti; ita míttere dignéris sanctum Angelum tuum de cælis, qui custódiat, fóveat, prótegat, vísitet, atque deféndat omnes habitántes in hoc habitáculo. Per eúndem Christum, Dóminum nostrum. ℟. Amen. || Hear us, holy Lord, Father almighty, everlasting God; and as You protected from the destroying Angel the houses of the Hebrews that were marked with the blood of the lamb at the departure from Egypt (a figure of our Pasch, in which Christ was sacrificed), so deign to send Your holy Angel from heaven to guard, cherish, protect, visit, and defend all who dwell in this house. Through the same Christ our Lord. ℟. Amen.
+r: 3. Ritus superius descriptus adhibetur, etiamsi benedictio domorum fiat alia die intra Tempus Paschale pro locorum consuetudine. || 3. The rite described above is used even if, according to local custom, the blessing of homes takes place on another day within Eastertide.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Homes outside Eastertide
+// ──────────────────────────────────────────────────────────────────────
+# homes | Benedictio Domorum extra Tempus Paschale | Blessing of Homes outside Eastertide | Homes & Places | Tit. VIII, cap. 5
+r: 1. Parochus, seu alius Sacerdos, volens aliquam particularem domum, vel generaliter domos fidelium, extra Tempus Paschale aspergere aqua benedicta, ingrediens domum dicit: || 1. The pastor, or another priest, wishing to sprinkle with holy water a particular house, or the homes of the faithful generally, outside Eastertide, says on entering the house:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: 2. Deinde loca præcipua domus aspergendo, dicit Antiphonam: || 2. Then, sprinkling the principal rooms of the house, he says the antiphon:
+t: *Ant.* Aspérges me, Dómine, hyssópo, et mundábor: lavábis me, et super nivem dealbábor. || *Ant.* Sprinkle me, O Lord, with hyssop, and I shall be cleansed; wash me, and I shall be made whiter than snow.
+t: *Ps. 50, 3.* Miserére mei, Deus, secúndum magnam misericórdiam tuam. Glória Patri, etc. || *Ps. 50, 3.* Have mercy on me, O God, according to Your great mercy. Glory be to the Father, etc.
+r: Et repetitur Antiphona: Aspérges me, etc. || And the antiphon "Sprinkle me," etc., is repeated.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Exáudi nos, Dómine sancte, Pater omnípotens, ætérne Deus: et míttere dignéris sanctum Angelum tuum de cælis, qui custódiat, fóveat, prótegat, vísitet, atque deféndat omnes habitántes in hoc habitáculo. Per Christum, Dóminum nostrum. ℟. Amen. || Hear us, holy Lord, Father almighty, everlasting God, and deign to send Your holy Angel from heaven to guard, cherish, protect, visit, and defend all who dwell in this house. Through Christ our Lord. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Place or a House
+// ──────────────────────────────────────────────────────────────────────
+# place-or-house | Benedictio Loci vel Domus | Blessing of a Place or a House | Homes & Places | Tit. VIII, cap. 6
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, Deus omnípotens, locum istum (vel domum istam): ut sit in eo (ea) sánitas, cástitas, victória, virtus, humílitas, bónitas, et mansuetúdo, plenitúdo legis, et gratiárum áctio Deo Patri, et Fílio, et Spirítui Sancto; et hæc benedíctio máneat super hunc locum (vel super hanc domum) et super habitántes in eo (ea) nunc et in ómnia sǽcula sæculórum. ℟. Amen. || ✠ Bless, O Lord God almighty, this place (or this house), that in it there may be health, chastity, victory, strength, humility, goodness and gentleness, the fullness of the law, and thanksgiving to God the Father, and to the Son, and to the Holy Spirit; and may this blessing remain upon this place (or this house) and upon those who dwell in it, now and for all ages. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Another Blessing of a House
+// ──────────────────────────────────────────────────────────────────────
+# house-another | Alia Benedictio Domus | Another Blessing of a House | Homes & Places | Tit. VIII, cap. 7
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Te Deum Patrem omnipoténtem supplíciter exorámus pro hac domo, et habitatóribus ejus, ac rebus: ut eam bene✠dícere, et sancti✠ficáre, ac bonis ómnibus ampliáre dignéris: tríbue eis, Dómine, de rore cæli abundántiam, et de pinguédine terræ vitæ substántiam, et desidéria voti eórum ad efféctum tuæ miseratiónis perdúcas. Ad intróitum ergo nostrum bene✠dícere, et sancti✠ficáre dignéris hanc domum, sicut benedícere dignátus es domum Abraham, Isaac, et Jacob: et intra paríetes domus istíus Angeli tuæ lucis inhábitent, eámque, et ejus habitatóres custódiant. Per Christum, Dóminum nostrum. ℟. Amen. || We humbly beseech You, God the Father almighty, for this house, its inhabitants, and its goods: that You would deign to ✠ bless and ✠ sanctify it and enrich it with every good thing. Grant them, O Lord, abundance from the dew of heaven and the substance of life from the fatness of the earth, and bring the desires of their prayers to fulfillment through Your mercy. At our coming in, then, deign to ✠ bless and ✠ sanctify this house, as You deigned to bless the house of Abraham, Isaac, and Jacob; and within the walls of this house may the Angels of Your light dwell, and guard it and those who live in it. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Bridal Chamber
+// ──────────────────────────────────────────────────────────────────────
+# bridal-chamber | Benedictio Thalami | Blessing of a Bridal Chamber | Homes & Places | Tit. VIII, cap. 8
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, thálamum hunc: ut omnes habitántes in eo, in tua pace consístant, et in tua voluntáte permáneant, et senéscant, et multiplicéntur in longitúdinem diérum, et ad regna cælórum pervéniant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this bridal chamber, that all who dwell in it may abide in Your peace and persevere in Your will, may grow old and be multiplied in length of days, and come at last to the kingdom of heaven. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.

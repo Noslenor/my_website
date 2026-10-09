@@ -1,0 +1,228 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Ships, crops, pilgrims, Easter foods, bread, oil (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Ship
+// ──────────────────────────────────────────────────────────────────────
+# ship | Benedictio Navis | Blessing of a Ship | Work & Travel | Tit. VIII, cap. 9
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Propitiáre, Dómine, supplicatiónibus nostris, et béne✠dic navem istam déxtera tua sancta et omnes qui in ea vehéntur, sicut dignátus es benedícere arcam Noe ambulántem in dilúvio: pórrige eis, Dómine, déxteram tuam, sicut porrexísti beáto Petro ambulánti supra mare; et mitte sanctum Ángelum tuum de cælis, qui líberet, et custódiat eam semper a perículis univérsis, cum ómnibus quæ in ea erunt: et fámulos tuos, repúlsis adversitátibus, portu semper optábili, cursúque tranquíllo tueáris, transactísque, ac recte perféctis negótiis ómnibus, iteráto témpore ad própria cum omni gáudio revocáre dignéris: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Be favorable, O Lord, to our prayers, and with Your holy right hand ✠ bless this ship and all who will sail in it, as You deigned to bless the ark of Noah as it moved upon the flood. Stretch out Your right hand to them, O Lord, as You stretched it out to blessed Peter walking upon the sea; and send Your holy Angel from heaven to deliver and guard it always from every danger, together with all that will be in it. Protect Your servants, driving away all adversity, with an ever-welcome harbor and a calm voyage; and when all their business has been rightly accomplished, deign in due time to bring them home again with all joy: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Crops and Vineyards
+// ──────────────────────────────────────────────────────────────────────
+# crops-vineyards | Benedictio super Fruges et Vineas | Blessing of Crops and Vineyards | Fields & Animals | Tit. VIII, cap. 10
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Orámus pietátem tuam, omnípotens Deus, ut has primítias creatúræ tuæ, quas áëris et plúviæ temperaménto nutríre dignátus es, bene✠dictiónis tuæ imbre perfúndas, et fructus terræ tuæ usque ad maturitátem perdúcas. Tríbue quoque pópulo tuo de tuis munéribus tibi semper grátias ágere; ut a fertilitáte terræ esuriéntium ánimas bonis ómnibus affluéntibus répleas, et egénus et pauper laudent nomen glóriæ tuæ. Per Christum, Dóminum nostrum. ℟. Amen. || We entreat Your loving kindness, almighty God, that You would pour the shower of Your ✠ blessing upon these first-fruits of Your creation, which You have deigned to nourish with the gentle balance of air and rain, and bring the fruits of Your earth to ripeness. Grant also to Your people always to give You thanks for Your gifts; that from the fruitfulness of the earth You may fill the souls of the hungry with an abundance of all good things, and the needy and the poor may praise the name of Your glory. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Pilgrims Setting Out for the Holy Places
+// ──────────────────────────────────────────────────────────────────────
+# pilgrims-departing | Benedictio Peregrinorum ad Loca Sancta Prodeuntium | Blessing of Pilgrims Setting Out for the Holy Places | Work & Travel | Tit. VIII, cap. 11
+r: Peregrini ad loca sancta profecturi, antequam discedant, juxta veteris Ecclesiæ institutum, curent accipere patentes seu commendatitias litteras a suo Ordinario, seu Parocho. Quibus obtentis, et rebus suis dispositis, facta peccatorum suorum confessione, audiunt Missam, in qua dicitur Oratio pro peregrinantibus, ad instar Collectæ pro re gravi imperatæ, et Sanctissimam Eucharistiam devote suscipiunt. Expleta Missa, Sacerdos super eos genuflexos dicit sequentes Preces: || Pilgrims about to set out for the holy places should, before they depart and according to the ancient custom of the Church, take care to obtain letters patent or letters of recommendation from their Ordinary or their pastor. Having obtained these and set their affairs in order, they confess their sins, hear Mass, in which the prayer for travelers is said in the manner of a collect ordered for a grave cause, and devoutly receive the Most Holy Eucharist. When Mass is finished, the priest says the following prayers over them as they kneel:
+t: *Ant.* In viam pacis. || *Ant.* Into the way of peace.
+h: Canticum Zachariæ (Luc. 1, 68-79) || The Canticle of Zachary (Luke 1:68-79)
+t: Benedíctus Dóminus, Deus Israël: * quia visitávit, et fecit redemptiónem plebis suæ: || Blessed be the Lord, the God of Israel, * for He has visited and wrought the redemption of His people;
+t: Et eréxit cornu salútis nobis: * in domo David, púeri sui. || And has raised up a horn of salvation for us * in the house of David His servant,
+t: Sicut locútus est per os sanctórum, * qui a sǽculo sunt, prophetárum ejus: || As He spoke by the mouth of His holy ones, * the prophets from of old:
+t: Salútem ex inimícis nostris, * et de manu ómnium, qui odérunt nos: || Salvation from our enemies * and from the hand of all who hate us,
+t: Ad faciéndam misericórdiam cum pátribus nostris: * et memorári testaménti sui sancti. || To show mercy to our fathers * and to remember His holy covenant,
+t: Jusjurándum, quod jurávit ad Ábraham, patrem nostrum, * datúrum se nobis: || The oath which He swore to Abraham our father, * that He would grant us
+t: Ut sine timóre, de manu inimicórum nostrórum liberáti, * serviámus illi. || That, delivered from the hand of our enemies, * we might serve Him without fear,
+t: In sanctitáte, et justítia coram ipso, * ómnibus diébus nostris. || In holiness and justice before Him * all our days.
+t: Et tu, puer, Prophéta Altíssimi vocáberis: * præíbis enim ante fáciem Dómini paráre vias ejus: || And you, child, shall be called the Prophet of the Most High, * for you shall go before the face of the Lord to prepare His ways,
+t: Ad dandam sciéntiam salútis plebi ejus: * in remissiónem peccatórum eórum: || To give His people knowledge of salvation * in the forgiveness of their sins,
+t: Per víscera misericórdiæ Dei nostri: * in quibus visitávit nos, óriens ex alto: || Through the tender mercy of our God, * by which the Dayspring from on high has visited us,
+t: Illumináre his, qui in ténebris, et in umbra mortis sedent: * ad dirigéndos pedes nostros in viam pacis. || To shine on those who sit in darkness and in the shadow of death, * to guide our feet into the way of peace.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: *Ant.* In viam pacis et prosperitátis dírigat vos omnípotens et miséricors Dóminus: et Ángelus Ráphaël comitétur vobíscum in via, ut cum pace, salúte, et gáudio revertámini ad própria. || *Ant.* May the almighty and merciful Lord guide you into the way of peace and prosperity, and may the Angel Raphael accompany you on the way, so that you may return home in peace, health, and joy.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvos fac servos tuos. || Save Your servants,
+x: Deus meus, sperántes in te. || O my God, who hope in You.
+v: Mitte eis, Dómine, auxílium de sancto. || Send them help, O Lord, from the sanctuary,
+x: Et de Sion tuére eos. || And defend them out of Sion.
+v: Esto eis, Dómine, turris fortitúdinis. || Be unto them, O Lord, a tower of strength
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in eis. || Let the enemy have no power over them,
+x: Et fílius iniquitátis non appónat nocére eis. || Nor the son of iniquity draw near to harm them.
+v: Benedíctus Dóminus die cotídie. || Blessed be the Lord day by day.
+x: Prósperum iter fáciat nobis Deus salutárium nostrórum. || May God, our salvation, make our journey prosperous.
+v: Vias tuas, Dómine, demónstra nobis. || Show us Your ways, O Lord,
+x: Et sémitas tuas édoce nos. || And teach us Your paths.
+v: Útinam dirigántur viæ nostræ. || O that our ways may be directed
+x: Ad custodiéndas justificatiónes tuas. || To keep Your statutes.
+v: Erunt prava in dirécta. || The crooked shall be made straight,
+x: Et áspera in vias planas. || And the rough ways plain.
+v: Ángelis suis Deus mandávit de te. || God has given His angels charge over you,
+x: Ut custódiant te in ómnibus viis tuis. || To keep you in all your ways.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui fílios Israël per maris médium sicco vestígio ire fecísti, quique tribus Magis iter ad te stella duce pandísti: tríbue eis, quǽsumus, iter prósperum, tempúsque tranquíllum; ut Ángelo tuo sancto cómite, ad eum, quo pergunt, locum, ac demum ad ætérnæ salútis portum felíciter váleant perveníre. || O God, who made the children of Israel pass dry-shod through the midst of the sea, and who opened to the three Magi the way to You by the guidance of a star: grant them, we beseech You, a prosperous journey and peaceful weather; that with Your holy Angel as their companion they may happily reach the place to which they are going, and at last the harbor of eternal salvation.
+t: Deus, qui Ábraham púerum tuum de Ur Chaldæórum edúctum, per omnes suæ peregrinatiónis vias illǽsum custodísti: quǽsumus, ut hos fámulos tuos custodíre dignéris; esto eis, Dómine, in procínctu suffrágium, in via solátium, in æstu umbráculum, in plúvia et frígore teguméntum, in lassitúdine vehículum, in adversitáte præsídium, in lúbrico báculus, in naufrágio portus: ut te duce, quo tendunt, próspere pervéniant, et demum incólumes ad própria revertántur. || O God, who led Your servant Abraham out of Ur of the Chaldeans and kept him unharmed in all the ways of his pilgrimage: we beseech You to deign to guard these Your servants. Be to them, O Lord, a support when they set out, a comfort on the way, a shade in the heat, a shelter in rain and cold, a carriage in weariness, a defense in adversity, a staff on slippery ground, a harbor in shipwreck; so that under Your guidance they may happily reach their destination and at last return home unharmed.
+t: Adésto, quǽsumus, Dómine, supplicatiónibus nostris: et viam famulórum tuórum in salútis tuæ prosperitáte dispóne; ut inter omnes viæ et vitæ hujus varietátes tuo semper protegántur auxílio. || Be attentive, we beseech You, O Lord, to our prayers, and order the way of Your servants in the prosperity of Your salvation; that amid all the changes of this journey and of this life they may ever be protected by Your help.
+t: Præsta, quǽsumus, omnípotens Deus: ut família tua per viam salútis incédat; et beáti Joánnis Præcursóris hortaménta sectándo, ad eum, quem prædíxit, secúra pervéniat, Dóminum nostrum Jesum Christum, Fílium tuum. || Grant, we beseech You, almighty God, that Your family may walk in the way of salvation; and that, following the exhortations of blessed John the Forerunner, they may come safely to Him whom he foretold, our Lord Jesus Christ, Your Son.
+t: Exáudi, Dómine, preces nostras, et iter famulórum tuórum propítius comitáre, atque misericórdiam tuam, sicut ubíque es, ita ubíque largíre: quátenus a cunctis adversitátibus tua opitulatióne defénsi, gratiárum tibi réferant actiónem. Per Christum, Dóminum nostrum. ℟. Amen. || Hear our prayers, O Lord, and graciously accompany the journey of Your servants; and as You are everywhere, so everywhere bestow Your mercy; that, defended from all adversity by Your help, they may render You thanks. Through Christ our Lord. ℟. Amen.
+t: Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, et máneat semper. ℟. Amen. || May the peace and blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. Quod si unus sit peregrinaturus, Preces dicantur in numero singulari: ac si Sacerdos ipse, qui benedicit, sit socius peregrinationis, eas dicat in persona prima numeri pluralis, quatenus congruere videbitur. || And they are sprinkled with holy water. If only one person is going on pilgrimage, the prayers are said in the singular; and if the priest who gives the blessing is himself a companion on the pilgrimage, he says them in the first person plural, so far as seems fitting.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Pilgrims after Their Return
+// ──────────────────────────────────────────────────────────────────────
+# pilgrims-returning | Benedictio Peregrinorum post Reditum | Blessing of Pilgrims after Their Return | Work & Travel | Tit. VIII, cap. 12
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+t: *Ant.* Ecce, sic benedicétur homo, qui timet Dóminum. || *Ant.* Behold, thus shall the man be blessed who fears the Lord.
+h: Psalmus 127 || Psalm 127
+t: Beáti omnes, qui timent Dóminum, * qui ámbulant in viis ejus. || Blessed are all who fear the Lord, * who walk in His ways.
+t: Labóres mánuum tuárum quia manducábis: * beátus es, et bene tibi erit. || For you shall eat the labors of your hands; * blessed are you, and it shall be well with you.
+t: Uxor tua sicut vitis abúndans, * in latéribus domus tuæ. || Your wife shall be like a fruitful vine * on the sides of your house.
+t: Fílii tui sicut novéllæ olivárum, * in circúitu mensæ tuæ. || Your children like olive shoots * round about your table.
+t: Ecce, sic benedicétur homo, * qui timet Dóminum. || Behold, thus shall the man be blessed * who fears the Lord.
+t: Benedícat tibi Dóminus ex Sion: * et vídeas bona Jerúsalem ómnibus diébus vitæ tuæ. || May the Lord bless you out of Sion, * and may you see the good things of Jerusalem all the days of your life.
+t: Et vídeas fílios filiórum tuórum, * pacem super Israël. || And may you see your children's children, * peace upon Israel.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: *Ant.* Ecce, sic benedicétur homo, qui timet Dóminum. || *Ant.* Behold, thus shall the man be blessed who fears the Lord.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Benedícti, qui véniunt in nómine Dómini. || Blessed are they who come in the name of the Lord.
+x: Benedícti vos a Dómino, qui fecit cælum et terram. || Blessed are you by the Lord, who made heaven and earth.
+v: Réspice, Dómine, in servos tuos, et in ópera tua. || Look, O Lord, upon Your servants and upon Your works,
+x: Et dírige eos in viam mandatórum tuórum. || And guide them in the way of Your commandments.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Largíre, quǽsumus, Dómine, fámulis tuis indulgéntiam placátus et pacem: ut páriter ab ómnibus mundéntur offénsis, et secúra tibi mente desérviant. || Graciously grant to Your servants, O Lord, we beseech You, pardon and peace, that they may be cleansed from all their offenses and serve You with a quiet mind.
+t: Omnípotens sempitérne Deus, nostrórum témporum vitǽque dispósitor, fámulis tuis contínuæ tranquillitátis largíre subsídium: ut, quos incólumes própriis labóribus reddidísti, tua fácias protectióne secúros. || Almighty, everlasting God, who order our times and our lives, grant Your servants the help of lasting peace; that those whom You have restored unharmed to their own labors You may make secure under Your protection.
+t: Deus, humílium visitátor, qui nos fratérna dilectióne consoláris: præténde societáti nostræ grátiam tuam; ut per eos, in quibus hábitas, tuum in nobis sentiámus advéntum. Per Dóminum nostrum Jesum Christum. ℟. Amen. || O God, who visit the lowly and console us with brotherly love: extend Your grace to our fellowship, that through those in whom You dwell we may feel Your coming among us. Through our Lord Jesus Christ. ℟. Amen.
+t: Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super vos, et máneat semper. ℟. Amen. || May the peace and blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Lamb (at Easter)
+// ──────────────────────────────────────────────────────────────────────
+# easter-lamb | Benedictio Agni | Blessing of Lamb (at Easter) | Food & Drink | Tit. VIII, cap. 13
+n: Chapters 13–18 are grouped in the Rituale under the heading "Blessings of Foods, especially at Easter."
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, qui per fámulum tuum Móysen, in liberatióne pópuli tui de Ægýpto, agnum occídi jussísti in similitúdinem Dómini nostri Jesu Christi, et utrósque postes domórum de sánguine ejúsdem agni perúngi præcepísti: tu bene✠dícere, et sanctificáre dignéris hanc creatúram carnis, quam nos fámuli tui ad laudem tuam súmere desiderámus, per resurrectiónem ejúsdem Dómini nostri Jesu Christi: Qui tecum vivit et regnat in sǽcula sæculórum. ℟. Amen. || O God, who through Your servant Moses, at the deliverance of Your people from Egypt, commanded a lamb to be slain as a figure of our Lord Jesus Christ, and ordered both doorposts of the houses to be anointed with its blood: deign to ✠ bless and sanctify this meat, which we Your servants desire to eat to Your praise, through the resurrection of the same Lord Jesus Christ, who lives and reigns with You for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Eggs
+// ──────────────────────────────────────────────────────────────────────
+# easter-eggs | Benedictio Ovorum | Blessing of Eggs | Food & Drink | Tit. VIII, cap. 14
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Subvéniat, quǽsumus, Dómine, tuæ bene✠dictiónis grátia huic ovórum creatúræ: ut cibus salúbris fiat fidélibus tuis, in tuárum gratiárum actióne suméntibus, ob resurrectiónem Dómini nostri Jesu Christi: Qui tecum vivit et regnat in sǽcula sæculórum. ℟. Amen. || May the grace of Your ✠ blessing, we beseech You, O Lord, come upon these eggs, that they may be wholesome food for Your faithful who eat them in thanksgiving for the resurrection of our Lord Jesus Christ, who lives and reigns with You for ever and ever. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Bread
+// ──────────────────────────────────────────────────────────────────────
+# bread | Benedictio Panis | Blessing of Bread | Food & Drink | Tit. VIII, cap. 15
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, panis Angelórum, panis vivus ætérnæ vitæ, bene✠dícere dignáre panem istum, sicut benedixísti quinque panes in desérto: ut omnes ex eo gustántes, inde córporis et ánimæ percípiant sanitátem: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, bread of Angels, living bread of eternal life, deign to ✠ bless this bread as You blessed the five loaves in the desert, that all who taste of it may receive from it health of body and soul: who live and reign for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Another Blessing of Bread
+// ──────────────────────────────────────────────────────────────────────
+# bread-another | Alia Benedictio Panis | Another Blessing of Bread | Food & Drink | Tit. VIII, cap. 16
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine sancte, Pater omnípotens, ætérne Deus, bene✠dícere dignéris hunc panem tua sancta spirituáli benedictióne: ut sit ómnibus suméntibus salus mentis et córporis; atque contra omnes morbos, et univérsas inimicórum insídias tutámen. Per Dóminum nostrum Jesum Christum, Fílium tuum, panem vivum, qui de cælo descéndit, et dat vitam et salútem mundo: et tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Holy Lord, Father almighty, everlasting God, deign to ✠ bless this bread with Your holy, spiritual blessing, that it may be for all who eat it health of mind and body, and a protection against all sickness and every snare of the enemy. Through our Lord Jesus Christ, Your Son, the living bread who came down from heaven and gives life and salvation to the world, and who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of New Fruits
+// ──────────────────────────────────────────────────────────────────────
+# new-fruits | Benedictio Novorum Fructuum | Blessing of New Fruits | Food & Drink | Tit. VIII, cap. 17
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, hos novos fructus N., et præsta: ut, qui ex eis in tuo sancto nómine vescéntur, córporis et ánimæ salúte potiántur. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, these new fruits N., and grant that those who eat of them in Your holy name may obtain health of body and soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergantur aqua benedicta. || And they are sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Any Kind of Food
+// ──────────────────────────────────────────────────────────────────────
+# any-food | Benedictio ad quodcumque Comestibile | Blessing of Any Kind of Food | Food & Drink | Tit. VIII, cap. 18
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, creatúram istam N., ut sit remédium salutáre géneri humáno: et præsta per invocatiónem sancti nóminis tui: ut quicúmque ex ea sumpserint, córporis sanitátem, et ánimæ tutélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this creature N., that it may be a saving remedy for mankind; and grant, through the invocation of Your holy name, that all who partake of it may receive health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Oil
+// ──────────────────────────────────────────────────────────────────────
+# oil | Benedictio Olei | Blessing of Oil | General | Tit. VIII, cap. 19
+n: This is a blessing of ordinary olive oil for the devotional use of the faithful; it is not one of the holy oils consecrated by the bishop on Holy Thursday.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+h: Exorcismus || Exorcism
+t: Exorcízo te, creatúra ólei, per Deum ✠ Patrem omnipoténtem, qui fecit cælum et terram, mare, et ómnia, quæ in eis sunt. Omnis virtus adversárii, omnis exércitus diáboli, et omnis incúrsus, omne phantásma sátanæ eradicáre, et effugáre ab hac creatúra ólei, ut fiat ómnibus, qui eo usúri sunt, salus mentis et córporis, in nómine Dei ✠ Patris omnipoténtis, et Jesu ✠ Christi Fílii ejus Dómini nostri, et Spíritus ✠ Sancti Parácliti, et in caritáte ejúsdem Dómini nostri Jesu Christi, qui ventúrus est judicáre vivos et mórtuos, et sǽculum per ignem. ℟. Amen. || I exorcise you, creature of oil, by God the ✠ Father almighty, who made heaven and earth and the sea and all that is in them. May all the power of the adversary, all the host of the devil, every assault and every phantom of Satan be uprooted and put to flight from this creature of oil, that it may become for all who use it health of mind and body, in the name of God the ✠ Father almighty, and of Jesus ✠ Christ His Son our Lord, and of the Holy ✠ Spirit the Paraclete, and in the love of the same Lord Jesus Christ, who will come to judge the living and the dead and the world by fire. ℟. Amen.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Deus omnípotens, cui astat exércitus Angelórum cum tremóre, quorum servítium spirituále cognóscitur, dignáre respícere, bene✠dícere, et sancti✠ficáre hanc creatúram ólei, quam ex olivárum succo eduxísti, et ex eo infírmos inúngi mandásti, quátenus sanitáte percépta, tibi Deo vivo et vero grátias ágerent: præsta, quǽsumus; ut hi, qui hoc óleo, quod in tuo nómine bene✠dícimus, usi fúerint, ab omni languóre, omníque infirmitáte, atque cunctis insídiis inimíci liberéntur, et cunctæ adversitátes separéntur a plásmate tuo, quod pretióso sánguine Fílii tui redemísti, ut numquam lædátur a morsu antíqui serpéntis. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God almighty, before whom the hosts of Angels stand in awe, and whose spiritual service is acknowledged, deign to look upon, ✠ bless, and ✠ sanctify this creature of oil, which You have drawn from the juice of olives and with which You commanded the sick to be anointed, so that, having recovered their health, they might give thanks to You, the living and true God. Grant, we beseech You, that those who use this oil, which we ✠ bless in Your name, may be delivered from all weakness, from every illness, and from all the snares of the enemy; and may every adversity be kept far from Your creature, whom You have redeemed by the precious blood of Your Son, that he may never be harmed by the bite of the ancient serpent. Through the same Jesus Christ, Your Son, our Lord, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Et aspergatur aqua benedicta. || And it is sprinkled with holy water.

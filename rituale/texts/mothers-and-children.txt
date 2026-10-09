@@ -1,0 +1,187 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Expectant mothers, infants, children (Appendix)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of an Expectant Mother in Danger of Childbirth
+// ──────────────────────────────────────────────────────────────────────
+# pregnant-woman | Benedictio Mulieris Prægnantis in periculis partus | Blessing of an Expectant Mother in Danger of Childbirth | Mothers & Children | Appendix, Benedictiones non reservatæ, 44
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Salvam fac ancíllam tuam. || Save Your handmaid,
+x: Deus meus, sperántem in te. || O my God, who hopes in You.
+v: Esto illi, Dómine, turris fortitúdinis. || Be unto her, O Lord, a tower of strength
+x: A fácie inimíci. || Against the face of the enemy.
+v: Nihil profíciat inimícus in ea. || Let the enemy have no power over her,
+x: Et fílius iniquitátis non appónat nocére ei. || Nor the son of iniquity draw near to harm her.
+v: Mitte ei, Dómine, auxílium de sancto. || Send her help, O Lord, from the sanctuary,
+x: Et de Sion tuére eam. || And defend her out of Sion.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui dedísti fámulis tuis in confessióne veræ fídei ætérnæ Trinitátis glóriam agnóscere, et in poténtia majestátis adoráre unitátem: quǽsumus; ut ejúsdem fídei firmitáte hæc fámula tua N. ab ómnibus semper muniátur advérsis. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty, everlasting God, who have granted to Your servants, in the confession of the true faith, to acknowledge the glory of the eternal Trinity and to adore the Unity in the power of Your majesty: we beseech You that by steadfastness in this same faith this Your servant N. may ever be protected against all adversity. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Deus, ómnium Creátor, fortis et terríbilis, justus et miséricors, qui solus bonus et pius es; qui de omni malo liberásti Israel, fáciens tibi patres nostros diléctos, et sanctificásti eos manu Spíritus tui; qui gloriósæ Vírginis Maríæ corpus et ánimam, ut dignum Fílii tui habitáculum éffici mererétur, Spíritu Sancto cooperánte præparásti; qui Joánnem Baptístam Spíritu Sancto replésti, et in útero matris exsultáre fecísti: áccipe sacrifícium cordis contríti, ac fervens desidérium fámulæ tuæ N. humíliter supplicántis pro conservatióne prolis, quam ei dedísti concípere: custódi partem tuam, et ab omni dolo et injúria duri hostis defénde; ut obstetricánte manu misericórdiæ tuæ fetus ejus ad lucem próspere véniat, ac sanctæ generatióni servétur, tibíque in ómnibus júgiter desérviat, et vitam cónsequi mereátur ætérnam. Per eúndem Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God, Creator of all things, strong and terrible, just and merciful, who alone are good and kind; who delivered Israel from every evil, making our fathers Your beloved, and sanctified them by the hand of Your Spirit; who by the cooperation of the Holy Spirit prepared the body and soul of the glorious Virgin Mary to become a worthy dwelling for Your Son; who filled John the Baptist with the Holy Spirit and made him leap in his mother's womb: accept the sacrifice of a contrite heart and the fervent desire of Your servant N., who humbly entreats You for the preservation of the child You have granted her to conceive. Guard what is Your own, and defend it from every deceit and injury of the harsh enemy, so that by the helping hand of Your mercy her child may come happily to the light, be kept for holy rebirth, serve You always in all things, and be worthy to attain eternal life. Through the same Jesus Christ, Your Son, our Lord, who lives and reigns with You in the unity of the same Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Deinde mulier aspergatur aqua benedicta, et mox dicatur: || Then the woman is sprinkled with holy water, and immediately the following is said:
+@psalm-66
+v: Benedicámus Patrem, et Fílium, cum Sancto Spíritu. || Let us bless the Father and the Son, with the Holy Spirit.
+x: Laudémus et superexaltémus eum in sǽcula. || Let us praise and exalt Him above all for ever.
+v: Ángelis suis Deus mandávit de te. || God has given His angels charge over you,
+x: Ut custódiant te in ómnibus viis tuis. || To keep you in all your ways.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Vísita, quǽsumus, Dómine, habitatiónem istam, et omnes insídias inimíci ab ea, et a præsénti fámula tua N. longe repélle: Ángeli tui sancti hábitent in ea, qui eam et ejus prolem in pace custódiant, et benedíctio tua sit super eam semper. Salva eos, omnípotens Deus, et lucem eis tuam concéde perpétuam. Per Christum, Dóminum nostrum. ℟. Amen. || Visit, we beseech You, O Lord, this dwelling, and drive far from it and from Your servant N. here present all the snares of the enemy. May Your holy Angels dwell herein to keep her and her child in peace, and may Your blessing be always upon her. Save them, almighty God, and grant them Your everlasting light. Through Christ our Lord. ℟. Amen.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et prolem tuam, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and your child and remain for ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of an Infant
+// ──────────────────────────────────────────────────────────────────────
+# infant | Benedictio Infantis | Blessing of an Infant | Mothers & Children | Appendix, Benedictiones non reservatæ, 45
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Deus noster miserétur. || Our God is merciful,
+x: Custódiens párvulos Dóminus. || The Lord keeps the little ones.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, qui ante ómnia sǽcula génitus, in témpore tamen infans esse voluísti, et hujus ætátis díligis innocéntiam; qui párvulos tibi oblátos amánter compléxus es, iísque benedixísti: infántem istum (infántes istos) prǽveni in benedictiónibus dulcédinis, et præsta, ne malítia mutet intelléctum ejus (eórum): eíque (eísque) concéde, ut profíciens (proficiéntes) ætáte, sapiéntia et grátia, tibi semper placére váleat (váleant): Qui vivis et regnas cum Deo Patre in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, begotten before all ages, who nevertheless willed to become an infant in time, and who love the innocence of this age; who lovingly embraced and blessed the little ones brought to You: go before this infant (these infants) with the blessings of Your sweetness, and grant that malice may not change his (their) understanding; and grant that, advancing in age, wisdom, and grace, he (they) may always be pleasing to You: who live and reign with God the Father in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: Deinde Sacerdos infantem (vel infantes) aspergat aqua benedicta, dicens: || Then the priest sprinkles the infant (or infants) with holy water, saying:
+t: Pax et benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te (vos), et máneat semper. ℟. Amen. || May the peace and blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of a Child, to Obtain God's Mercy upon Him
+// ──────────────────────────────────────────────────────────────────────
+# boy | Benedictio Pueri ad obtinendam super ipsum misericordiam Dei | Blessing of a Child, to Obtain God's Mercy upon Him | Mothers & Children | Appendix, Benedictiones non reservatæ, 46
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, qui dixísti: Sínite párvulos veníre ad me, tálium est enim regnum cælórum; super hunc púerum tuum virtútem bene✠dictiónis tuæ infúnde, ac ad Ecclésiæ et paréntum illíus fidem ac devotiónem réspice; ut virtúte ac sapiéntia apud Deum et hómines profíciens, ad optátam pervéniat senectútem, et salútem consequátur ætérnam: Qui vivis et regnas in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, who said, "Let the little children come to Me, for of such is the kingdom of heaven": pour out the power of Your ✠ blessing upon this child of Yours, and look upon the faith and devotion of the Church and of his parents; that, growing in virtue and wisdom before God and men, he may reach the old age he longs for and attain eternal salvation: who live and reign for ever and ever. ℟. Amen.
+h: Psalmus 112 || Psalm 112
+t: Laudáte, púeri, Dóminum: * laudáte nomen Dómini. || Praise the Lord, you children; * praise the name of the Lord.
+t: Sit nomen Dómini benedíctum, * ex hoc nunc, et usque in sǽculum. || Blessed be the name of the Lord, * from this time forth and for evermore.
+t: A solis ortu usque ad occásum, * laudábile nomen Dómini. || From the rising of the sun to its setting, * the name of the Lord is worthy of praise.
+t: Excélsus super omnes gentes Dóminus, * et super cælos glória ejus. || The Lord is high above all nations, * and His glory above the heavens.
+t: Quis sicut Dóminus, Deus noster, qui in altis hábitat, * et humília réspicit in cælo et in terra? || Who is like the Lord our God, who dwells on high, * and looks upon the lowly in heaven and on earth?
+t: Súscitans a terra ínopem, * et de stércore érigens páuperem: || Raising up the needy from the earth, * and lifting the poor out of the dunghill,
+t: Ut cóllocet eum cum princípibus, * cum princípibus pópuli sui. || To seat him with princes, * with the princes of His people.
+t: Qui habitáre facit stérilem in domo, * matrem filiórum lætántem. || Who makes the barren woman dwell in her house, * the joyful mother of children.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Children, Especially When Presented in Church
+// ──────────────────────────────────────────────────────────────────────
+# children-church | Benedictio Puerorum, cum præsertim in ecclesia præsentantur | Blessing of Children, Especially When Presented in Church | Mothers & Children | Appendix, Benedictiones non reservatæ, 47
+r: Die et hora constitutis, pueri conveniant in ecclesiam, quos ibi a parentibus vel magistris associari maxime deceret, ut in silentio et modestia facilius se componant. Quibus per ordinem dispositis, et pueris a puellis, si adsint, separatis, Sacerdos ad ipsos accedat, et brevissimo ac simplici sermone eos alloquatur, prout opportunum sibi visum fuerit. || At the appointed day and hour the children gather in the church, where it is most fitting that they be accompanied by their parents or teachers, so that they may more easily keep silence and good order. When they have been arranged in order, the boys separated from the girls if both are present, the priest comes to them and addresses them in a very short and simple talk, as he sees fit.
+r: Deinde stans versus eos dicat: || Then, standing facing them, he says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+t: *Ant.* Laudáte, púeri, Dóminum: laudáte nomen Dómini. || *Ant.* Praise the Lord, you children; praise the name of the Lord.
+r: Psalmus 112, incipitur a secundo versu: Sit nomen Dómini (ut in Benedictione Pueri supra). Et repetitur Antiphona. Qui Psalmus cum sua Antiphona, si paucis tantum, aut minus sollemniter conferatur Benedictio, omitti poterit. || Psalm 112 is said, beginning from the second verse, "Blessed be the name of the Lord" (as in the Blessing of a Child above), and the antiphon is repeated. If the blessing is given to only a few, or less solemnly, the psalm with its antiphon may be omitted.
+r: Finito Psalmo et repetita Antiphona, Sacerdos dicit: || When the psalm is finished and the antiphon repeated, the priest says:
+v: Sínite párvulos veníre ad me. || Let the little children come to Me.
+x: Tálium est enim regnum cælórum. || For of such is the kingdom of heaven.
+v: Ángeli eórum. || Their Angels
+x: Semper vident fáciem Patris. || Always behold the face of the Father.
+v: Nihil profíciat inimícus in eis. || Let the enemy have no power over them,
+x: Et fílius iniquitátis non appónat nocére eis. || Nor the son of iniquity draw near to harm them.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, qui párvulos tibi oblátos et ad te veniéntes compléxus es, manúsque super illos impónens benedixísti eis, atque dixísti: Sínite párvulos veníre ad me, et nolíte prohibére eos, tálium est enim regnum cælórum, et Ángeli eórum semper vident fáciem Patris mei; réspice, quǽsumus, ad puerórum (puellárum) præséntium innocéntiam, et ad eórum (eárum) paréntum devotiónem, et cleménter eos (eas) hódie per ministérium nostrum béne✠dic; ut in tua grátia et misericórdia semper profíciant, te sápiant, te díligant, te tímeant, et mandáta tua custódiant, et ad finem optátum felíciter pervéniant: per te, Salvátor mundi, qui cum Patre et Spíritu Sancto vivis et regnas Deus in sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, who embraced the little ones brought to You and coming to You, and laying Your hands upon them blessed them, saying, "Let the little children come to Me, and do not forbid them, for of such is the kingdom of heaven, and their Angels always behold the face of My Father": look, we beseech You, upon the innocence of these children here present and upon the devotion of their parents, and through our ministry graciously ✠ bless them this day; that they may ever grow in Your grace and mercy, may know You, love You, fear You, and keep Your commandments, and may happily reach the end they long for: through You, Savior of the world, who with the Father and the Holy Spirit live and reign, God, for ever and ever. ℟. Amen.
+n: The words in parentheses are used if only girls are present.
+t: Orémus. || Let us pray.
+t: Defénde, quǽsumus, Dómine, beáta María semper Vírgine intercedénte, istam ab omni adversitáte famíliam: et toto corde tibi prostrátam, ab hóstium propítius tuére cleménter insídiis. Per Christum, Dóminum nostrum. ℟. Amen. || Defend, we beseech You, O Lord, through the intercession of blessed Mary ever Virgin, this family from all adversity; and as they bow before You with all their heart, graciously protect them in Your kindness from the snares of the enemy. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui ineffábili providéntia sanctos Ángelos tuos ad nostram custódiam míttere dignáris: largíre supplícibus tuis; et eórum semper protectióne deféndi, et ætérna societáte gaudére. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who in Your unspeakable providence deign to send Your holy Angels to guard us: grant to Your suppliants that we may always be defended by their protection and rejoice in their company for ever. Through Christ our Lord. ℟. Amen.
+r: Postea manu dextera producens signum crucis super pueros, benedicit eos, dicens: || Then, making the sign of the cross over the children with his right hand, he blesses them, saying:
+t: Benedícat vos Deus, et custódiat corda vestra et intellegéntias vestras, Pater, et Fílius, ✠ et Spíritus Sanctus. ℟. Amen. || May God bless you and keep your hearts and minds, the Father, and the Son, ✠ and the Holy Spirit. ℟. Amen.
+r: Deinde aspergat pueros aqua benedicta. || Then he sprinkles the children with holy water.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing of Sick Children
+// ──────────────────────────────────────────────────────────────────────
+# sick-children | Benedictio Puerorum Ægrotantium | Blessing of Sick Children | Mothers & Children | Appendix, Benedictiones non reservatæ, 48
+r: Pueri infirmi, qui ad hunc usum rationis pervenerunt, ut ipsis præberi possit Sacramentum Extremæ Unctionis, iis adjuventur exhortationibus et precibus, quæ describuntur in hoc Rituali Romano, ubi agitur de visitatione et cura infirmorum, prout feret temporis opportunitas, et eorundem ægrotantium status. Verum pro ceteris junioribus pueris infirmis adhiberi possunt sequentes preces. || Sick children who have reached such use of reason that Extreme Unction may be given them are to be helped with the exhortations and prayers described in this Roman Ritual for the visitation and care of the sick, as time and the state of the sick allow. For other, younger sick children, the following prayers may be used.
+r: Sacerdos infirmi cubiculum ingressus, primum dicit: || The priest, entering the sick child's room, first says:
+v: Pax huic dómui. || Peace be to this house.
+x: Et ómnibus habitántibus in ea. || And to all who dwell in it.
+r: Mox infirmum et lectum ejus et cubiculum aspergit, nihil dicens. Deinde dicit Psalmum 112 Laudáte, púeri, Dóminum (ut in Benedictione Pueri supra), cum Glória Patri in fine. || Then he sprinkles the sick child, the bed, and the room, saying nothing. Then he says Psalm 112, "Praise the Lord, you children" (as in the Blessing of a Child above), with the Glory be at the end.
+r: Postea dicit: || Afterward he says:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Deus noster miserétur. || Our God is merciful,
+x: Custódiens párvulos Dóminus. || The Lord keeps the little ones.
+v: Sínite párvulos veníre ad me. || Let the little children come to Me.
+x: Tálium est enim regnum cælórum. || For of such is the kingdom of heaven.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto You.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui cuncta adoléscunt, et per quem adúlta firmántur: exténde déxteram tuam super hunc fámulum tuum (hanc fámulam tuam), in ténera ætáte languéntem: quátenus vigóre sanitátis recépto, ad annórum pervéniat plenitúdinem, et tibi fidéle, gratúmque obséquium indesinénter præstet ómnibus diébus vitæ suæ. Per Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, by whom all things grow and by whom what has grown is made strong: stretch forth Your right hand over this Your servant, who lies ill at a tender age; that, regaining vigor and health, he (she) may reach the fullness of years and render You faithful and pleasing service unceasingly all the days of his (her) life. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus misericordiárum, et Deus totíus consolatiónis, qui creatúræ tuæ multíplici pietáte cónsulens, non solum ánimæ, sed ipsi córpori curatiónis grátiam benígnus infúndis: hunc párvulum infírmum (hanc párvulam infírmam) a lecto ægritúdinis erígere, et Ecclésiæ tuæ sanctæ, suísque paréntibus incólumem restitúere dignéris; ut cunctis prolongátæ sibi vitæ diébus, grátia et sapiéntia coram te et homínibus profíciens, in justítia et sanctitáte tibi sérviat, et débitas misericórdiæ tuæ réferat gratiárum actiónes. Per Christum, Dóminum nostrum. ℟. Amen. || God of mercies and God of all consolation, who in Your manifold kindness provide for Your creatures and graciously pour out the grace of healing not only upon the soul but upon the body as well: deign to raise this sick little one from the bed of sickness and restore him (her) unharmed to Your holy Church and to his (her) parents; that, growing in grace and wisdom before You and men all the days of the life prolonged for him (her), he (she) may serve You in justice and holiness and render due thanks to Your mercy. Through Christ our Lord. ℟. Amen.
+t: Orémus. || Let us pray.
+t: Deus, qui miro órdine Angelórum ministéria hominúmque dispénsas: concéde propítius; ut, a quibus tibi ministrántibus in cælo semper assístitur, ab his in terra vita hujus púeri (puéllæ) muniátur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who in wondrous order assign the ministries of Angels and of men: mercifully grant that the life of this boy (girl) on earth may be protected by those who ever stand ministering before You in heaven. Through Christ our Lord. ℟. Amen.
+r: Completa Oratione ultima, Sacerdos imponit dexteram manum super caput infirmi, et dicit: || When the last prayer is finished, the priest lays his right hand upon the head of the sick child and says:
+t: Super ægros manus impónent, et bene habébunt. Jesus, Maríæ Fílius, mundi salus et Dóminus, méritis et intercessióne sanctórum Apostolórum suórum Petri et Pauli, et ómnium Sanctórum, sit tibi clemens et propítius. Amen. || They shall lay their hands upon the sick, and they shall recover. May Jesus, Son of Mary, Lord and Savior of the world, through the merits and intercession of His holy Apostles Peter and Paul and of all the Saints, be kind and merciful to you. Amen.
+r: Quod sequitur Evangelium, pro temporis opportunitate et pro ægrotantis pueri parentum desiderio, Sacerdotis arbitrio dici poterit. || The following Gospel may be said at the priest's discretion, as time allows and as the parents of the sick child desire.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+v: Inítium sancti Evangélii secúndum Joánnem. || The beginning of the holy Gospel according to John.
+x: Glória tibi, Dómine. || Glory to You, O Lord.
+r: Dum Sacerdos dicit Inítium, etc. facit signum crucis de more super se in fronte, ore et pectore; similiter super puerum infirmum, si non possit se signare. || While the priest says "The beginning," etc., he makes the sign of the cross in the usual way on his forehead, lips, and breast, and likewise over the sick child if the child cannot sign himself.
+t: In princípio erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. Hoc erat in princípio apud Deum. Ómnia per ipsum facta sunt: et sine ipso factum est nihil, quod factum est: in ipso vita erat, et vita erat lux hóminum: et lux in ténebris lucet, et ténebræ eam non comprehendérunt. Fuit homo missus a Deo, cui nomen erat Joánnes. Hic venit in testimónium, ut testimónium perhibéret de lúmine, ut omnes créderent per illum. Non erat ille lux, sed ut testimónium perhibéret de lúmine. Erat lux vera, quæ illúminat omnem hóminem veniéntem in hunc mundum. In mundo erat, et mundus per ipsum factus est, et mundus eum non cognóvit. In própria venit, et sui eum non recepérunt. Quotquot autem recepérunt eum, dedit eis potestátem fílios Dei fíeri, his, qui credunt in nómine ejus: qui non ex sanguínibus, neque ex voluntáte carnis, neque ex voluntáte viri, sed ex Deo nati sunt. *(Hic genuflectitur)* Et Verbum caro factum est, et habitávit in nobis: et vídimus glóriam ejus, glóriam quasi Unigéniti a Patre, plenum grátiæ et veritátis. || In the beginning was the Word, and the Word was with God, and the Word was God. He was in the beginning with God. All things were made through Him, and without Him was made nothing that was made. In Him was life, and the life was the light of men; and the light shines in the darkness, and the darkness did not comprehend it. There was a man sent from God, whose name was John. He came as a witness, to bear witness to the light, that all might believe through him. He was not the light, but was to bear witness to the light. That was the true light, which enlightens every man coming into this world. He was in the world, and the world was made through Him, and the world did not know Him. He came unto His own, and His own did not receive Him. But to as many as received Him He gave the power to become children of God, to those who believe in His name: who were born not of blood, nor of the will of the flesh, nor of the will of man, but of God. *(Here all genuflect)* And the Word was made flesh, and dwelt among us; and we saw His glory, the glory as of the Only-begotten of the Father, full of grace and truth.
+x: Deo grátias. || Thanks be to God.
+r: Postea benedicens puerum infirmum, subjungit, dicens: || Then, blessing the sick child, he adds:
+t: Benedíctio Dei omnipoténtis, Patris, et Fílii, ✠ et Spíritus Sancti, descéndat super te, et máneat semper. ℟. Amen. || May the blessing of almighty God, the Father, and the Son, ✠ and the Holy Spirit, come down upon you and remain for ever. ℟. Amen.
+r: Deinde aspergit eum aqua benedicta. Si sint plures infirmi in eodem cubiculo vel loco, Preces et Orationes prædictæ dicuntur super eos in numero plurali. || Then he sprinkles the child with holy water. If there are several sick children in the same room or place, the foregoing prayers are said over them in the plural.
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing for Any Object
+// ──────────────────────────────────────────────────────────────────────
+# ad-omnia | Benedictio ad Omnia | Blessing for Any Object | General | Appendix, Benedictiones non reservatæ, 70
+r: Hæc benedictionis formula adhiberi potest a quovis Sacerdote pro omnibus rebus, quarum specialis benedictio in hoc Rituali non habetur. || This form of blessing may be used by any priest for all things that have no special blessing in this Ritual.
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cujus verbo sanctificántur ómnia, bene✠dictiónem tuam effúnde super creatúram istam (creatúras istas): et præsta; ut, quisquis ea (eis) secúndum legem et voluntátem tuam cum gratiárum actióne usus fúerit, per invocatiónem sanctíssimi nóminis tui, córporis sanitátem, et ánimæ tutélam, te auctóre, percípiat. Per Christum, Dóminum nostrum. ℟. Amen. || O God, by whose word all things are made holy, pour out Your ✠ blessing upon this creature (these creatures), and grant that whoever uses it (them) with thanksgiving, according to Your law and will, may, by the invocation of Your most holy name, receive through You health of body and protection of soul. Through Christ our Lord. ℟. Amen.
+r: Et aspergatur (vel aspergantur) aqua benedicta. || And it is (or they are) sprinkled with holy water.

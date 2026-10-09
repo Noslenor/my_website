@@ -1,0 +1,104 @@
+// ══════════════════════════════════════════════════════════════════════
+// RITUALE ROMANUM  ·  Laying a cornerstone (Tit. VIII)
+// One of the text files read by the page rituale-romanum.html.
+// Full editing guide: rituale/README.md
+//
+// HOW EACH LINE WORKS   (Latin on the left of ||, English on the right)
+//   # id | Latin title | English title | Category | Reference   ← starts a new rite
+//   r:  rubric (instructions, shown in red)
+//   t:  text that is said or sung (prayers, psalm verses, antiphons)
+//   h:  small heading inside a rite
+//   v:  versicle (℣)            x:  response (℟)
+//   n:  note in English only (no || needed)
+//   @name   inserts a shared text from rituale/shared/name.txt
+//   //      lines starting with two slashes are notes for editors; never shown
+//
+// SYMBOLS:  ✠ sign of the cross (use the same number in Latin and English)
+//           *words*  red italic (small rubric inside a line)
+//           _words_  plain italic
+//           " * "    the pause in a psalm verse (asterisk with spaces)
+// ══════════════════════════════════════════════════════════════════════
+
+// ──────────────────────────────────────────────────────────────────────
+// Blessing and Laying of the Cornerstone of a Church
+// ──────────────────────────────────────────────────────────────────────
+# cornerstone | Ritus Benedicendi et Imponendi Primarium Lapidem pro Ecclesia ædificanda | Blessing and Laying of the Cornerstone of a Church | Churches & Sacred Things | Tit. VIII, cap. 26
+r: 1. Nulla ecclesia ædificetur sine expresso Ordinarii loci consensu scriptis dato, quem tamen Vicarius Generalis præstare nequit sine mandato speciali. Si Sacerdos, ejus ædificationis primarium lapidem benedicendi potestatem habens ab Ordinario, ejusmodi functionem peragat, hunc ritum servabit. || 1. No church is to be built without the express written consent of the local Ordinary, which the Vicar General may not give without a special mandate. If a priest who has received from the Ordinary the faculty to bless the cornerstone of such a building performs this function, he shall observe the following rite.
+r: 2. Pridie quam primarius lapis benedicatur, ligneam Crucem in loco, ubi debet esse Altare, figat ipse, vel alius Sacerdos. Sequenti vero die lapis in ecclesiæ fundatione ponendus, qui debet esse quadratus, et angularis, benedicatur hoc modo. || 2. On the day before the cornerstone is blessed, he himself or another priest sets up a wooden cross on the spot where the altar is to be. On the following day the stone to be laid in the foundation of the church, which should be square and a corner stone, is blessed in this manner.
+r: 3. Sacerdos indutus amictu, alba, cingulo, stola et pluviali albi coloris, adhibitis aliquot Clericis, sal et aquam benedicit, nisi prius in promptu habeat aquam jam benedictam, ordinaria benedictione, et interim, dum cantatur a Clericis Antiphona cum Psalmo sequenti, aspergit locum, ubi Crux posita est, aqua benedicta. || 3. The priest, vested in amice, alb, cincture, stole, and white cope, and attended by several clerics, blesses salt and water (unless he already has water blessed with the ordinary blessing at hand); and meanwhile, while the clerics sing the following antiphon and psalm, he sprinkles with holy water the place where the cross has been set up.
+t: *Ant.* Signum salútis pone, Dómine Jesu Christe, in loco isto: et non permíttas introíre Ángelum percutiéntem. || *Ant.* Set the sign of salvation, Lord Jesus Christ, in this place, and do not allow the destroying Angel to enter.
+h: Psalmus 83 || Psalm 83
+t: Quam dilécta tabernácula tua, Dómine virtútum! * concupíscit, et déficit ánima mea in átria Dómini. || How lovely are Your dwellings, O Lord of hosts! * My soul longs and faints for the courts of the Lord.
+t: Cor meum, et caro mea * exsultavérunt in Deum vivum. || My heart and my flesh * have rejoiced in the living God.
+t: Étenim passer invénit sibi domum: * et turtur nidum sibi, ubi ponat pullos suos. || For the sparrow has found herself a house, * and the turtledove a nest where she may lay her young:
+t: Altária tua, Dómine virtútum: * Rex meus, et Deus meus. || Your altars, O Lord of hosts, * my King and my God.
+t: Beáti, qui hábitant in domo tua, Dómine: * in sǽcula sæculórum laudábunt te. || Blessed are they who dwell in Your house, O Lord; * they shall praise You for ever and ever.
+t: Beátus vir, cujus est auxílium abs te: * ascensiónes in corde suo dispósuit, in valle lacrimárum in loco, quem pósuit. || Blessed is the man whose help is from You; * he has set ascents in his heart, in the vale of tears, in the place which He has appointed.
+t: Étenim benedictiónem dabit legislátor, ibunt de virtúte in virtútem: * vidébitur Deus deórum in Sion. || For the lawgiver shall give a blessing; they shall go from strength to strength; * the God of gods shall be seen in Sion.
+t: Dómine, Deus virtútum, exáudi oratiónem meam: * áuribus pércipe, Deus Jacob. || O Lord God of hosts, hear my prayer; * give ear, O God of Jacob.
+t: Protéctor noster, áspice, Deus: * et réspice in fáciem Christi tui. || Behold, O God our protector, * and look upon the face of Your Anointed.
+t: Quia mélior est dies una in átriis tuis * super míllia. || For better is one day in Your courts * than a thousand elsewhere.
+t: Elégi abjéctus esse in domo Dei mei: * magis quam habitáre in tabernáculis peccatórum. || I have chosen to be lowly in the house of my God * rather than to dwell in the tents of sinners.
+t: Quia misericórdiam, et veritátem díligit Deus: * grátiam et glóriam dabit Dóminus. || For God loves mercy and truth; * the Lord will give grace and glory.
+t: Non privábit bonis eos, qui ámbulant in innocéntia: * Dómine virtútum, beátus homo, qui sperat in te. || He will not deprive of good things those who walk in innocence. * O Lord of hosts, blessed is the man who hopes in You.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: *Ant.* Signum salútis pone, Dómine Jesu Christe, in loco isto: et non permíttas introíre Ángelum percutiéntem. || *Ant.* Set the sign of salvation, Lord Jesus Christ, in this place, and do not allow the destroying Angel to enter.
+r: 4. Finito Psalmo, Sacerdos versus ad locum a se aspersum, dicit: || 4. When the psalm is finished, the priest, turning toward the place he has sprinkled, says:
+t: Orémus. || Let us pray.
+t: Dómine Deus, qui licet cælo et terra non capiáris, domum tamen dignáris habére in terris, ubi nomen tuum júgiter invocétur; locum hunc, quǽsumus, beátæ Maríæ semper Vírginis, et beáti N. *(nominando Sanctum vel Sanctam, in cujus honorem ac nomen fundabitur ecclesia)*, omniúmque Sanctórum intercedéntibus méritis, seréno pietátis tuæ intúitu vísita, et per infusiónem grátiæ tuæ ab omni inquinaménto purífica, purificatúmque consérva; et qui dilécti tui David devotiónem in fílii sui Salomónis ópere complevísti, in hoc ópere desidéria nostra perfícere dignéris, effugiántque omnes hinc nequítiæ spirituáles. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O Lord God, who, though heaven and earth cannot contain You, yet deign to have a house on earth where Your name may be called upon without ceasing: through the interceding merits of blessed Mary ever Virgin, of blessed N. *(naming the Saint in whose honor and name the church will be founded)*, and of all the Saints, visit this place, we beseech You, with the serene gaze of Your kindness; by the outpouring of Your grace cleanse it from every defilement and keep it clean; and as You brought to completion the devotion of Your beloved David in the work of his son Solomon, so deign to fulfill our desires in this work, and let all spiritual wickedness flee from here. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: 5. Postea stans benedicit primarium lapidem, dicens: || 5. Then, standing, he blesses the cornerstone, saying:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Sit nomen Dómini benedíctum. || Blessed be the name of the Lord.
+x: Ex hoc nunc et usque in sǽculum. || From this time forth and for evermore.
+v: Lápidem, quem reprobavérunt ædificántes. || The stone which the builders rejected
+x: Hic factus est in caput ánguli. || Has become the head of the corner.
+v: Tu es Petrus. || You are Peter,
+x: Et super hanc petram ædificábo Ecclésiam meam. || And upon this rock I will build My Church.
+t: Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. || Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.
+t: Orémus. || Let us pray.
+t: Dómine Jesu Christe, Fili Dei vivi, qui es verus omnípotens Deus, splendor, et imágo ætérni Patris, et vita ætérna: qui es lapis anguláris de monte sine mánibus abscíssus, et immutábile fundaméntum: hunc lápidem collocándum in tuo nómine confírma; et tu, qui es princípium et finis, in quo princípio Deus Pater ab inítio cuncta creávit, sis, quǽsumus, princípium, et increméntum, et consummátio ipsíus óperis, quod debet ad laudem et glóriam tui nóminis inchoári: Qui cum Patre et Spíritu Sancto vivis et regnas Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Lord Jesus Christ, Son of the living God, true and almighty God, the brightness and image of the eternal Father, and eternal life; You who are the corner stone cut from the mountain without hands, and the unchangeable foundation: make firm this stone that is to be laid in Your name; and You, who are the beginning and the end, the Beginning in whom God the Father created all things at the first, be, we beseech You, the beginning, the growth, and the completion of this work, which is to be begun for the praise and glory of Your name: who with the Father and the Holy Spirit live and reign, God, for ever and ever. ℟. Amen.
+r: 6. Tunc aspergit lapidem ipsum aqua benedicta, et, accepto cultro, per singulas partes sculpit in eo signum crucis, dicens: || 6. Then he sprinkles the stone with holy water and, taking a knife, cuts the sign of the cross on each of its sides, saying:
+t: In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || In the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit. ℟. Amen.
+r: Quo facto dicit: || When this is done he says:
+t: Orémus. || Let us pray.
+t: Béne✠dic, Dómine, creatúram istam lápidis, et præsta per invocatiónem sancti tui nóminis: ut, quicúmque ad hanc ecclésiam ædificándam pura mente auxílium déderint, córporis sanitátem, et ánimæ medélam percípiant. Per Christum, Dóminum nostrum. ℟. Amen. || ✠ Bless, O Lord, this stone, and grant through the invocation of Your holy name that all who with a pure intention give their help toward building this church may receive health of body and healing of soul. Through Christ our Lord. ℟. Amen.
+r: 7. Postea dicantur Litaniæ ordinariæ sine Orationibus in fine positis. || 7. Then the ordinary Litany of the Saints is said, without the prayers placed at its end.
+@litany-of-the-saints
+r: Quibus dictis, parato cæmento, et cæmentario assistente, Sacerdos inchoat, Clericis prosequentibus, Antiphonam: || When the Litany is finished, the mortar having been prepared and the mason standing by, the priest begins the antiphon, and the clerics continue:
+t: *Ant.* Mane surgens Jacob, erigébat lápidem in títulum: fundens óleum désuper, votum vovit Dómino: Vere locus iste sanctus est, et ego nesciébam. || *Ant.* Rising in the morning, Jacob set up the stone as a monument, pouring oil upon it; he made a vow to the Lord: Truly this place is holy, and I knew it not.
+h: Psalmus 126 || Psalm 126
+t: Nisi Dóminus ædificáverit domum, * in vanum laboravérunt qui ædíficant eam. || Unless the Lord builds the house, * they labor in vain who build it.
+t: Nisi Dóminus custodíerit civitátem, * frustra vígilat qui custódit eam. || Unless the Lord guards the city, * he watches in vain who guards it.
+t: Vanum est vobis ante lucem súrgere: * súrgite postquam sedéritis, qui manducátis panem dolóris. || It is vain for you to rise before light; * rise after you have rested, you who eat the bread of sorrow.
+t: Cum déderit diléctis suis somnum: * ecce heréditas Dómini fílii: merces, fructus ventris. || For He gives sleep to His beloved; * behold, children are the inheritance of the Lord, the fruit of the womb a reward.
+t: Sicut sagíttæ in manu poténtis: * ita fílii excussórum. || Like arrows in the hand of a mighty man, * so are the children of the young.
+t: Beátus vir qui implévit desidérium suum ex ipsis: * non confundétur cum loquétur inimícis suis in porta. || Blessed is the man whose desire is fulfilled with them; * he shall not be put to shame when he speaks with his enemies in the gate.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+r: 8. Quo dicto, Sacerdos stans ponit ipsum primarium lapidem in fundamento, vel saltem illum tangit, dicens: || 8. When the psalm is finished, the priest, standing, places the cornerstone in the foundation, or at least touches it, saying:
+t: In fide Jesu Christi collocámus lápidem istum primárium in hoc fundaménto, in nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti: ut vígeat vera fides hic, et timor Dei, fratérnaque diléctio; et sit hic locus destinátus oratióni, et ad invocándum, et laudándum nomen ejúsdem Dómini nostri Jesu Christi, qui cum Patre et Spíritu Sancto vivit et regnat Deus, per ómnia sǽcula sæculórum. ℟. Amen. || In the faith of Jesus Christ we lay this cornerstone in this foundation, in the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit, that here true faith may flourish, and the fear of God, and brotherly love; and that this place may be set apart for prayer and for calling upon and praising the name of the same our Lord Jesus Christ, who with the Father and the Holy Spirit lives and reigns, God, for ever and ever. ℟. Amen.
+r: 9. Interim cæmentarius aptat ipsum lapidem cum cæmento: postea Sacerdos spargit super lapidem aquam benedictam, dicens: || 9. Meanwhile the mason sets the stone in mortar; then the priest sprinkles holy water upon the stone, saying:
+t: Aspérges me, Dómine, hyssópo, et mundábor: lavábis me, et super nivem dealbábor. || You will sprinkle me, O Lord, with hyssop, and I shall be cleansed; You will wash me, and I shall be made whiter than snow.
+r: Deinde dicitur totus Psalmus Miserére mei, Deus, cum Glória Patri. || Then the whole psalm "Have mercy on me, O God" is said, with the Glory be.
+@psalm-50
+r: Quo dicto, Sacerdos spargit aquam benedictam per omnia fundamenta, si sunt aperta: si vero non sunt aperta, circuit aspergendo fundamenta ecclesiæ designata, hoc modo. Incipiens aspergere, inchoat, Clero prosequente, Antiphonam: || After this the priest sprinkles holy water over all the foundations, if they are open; if they are not open, he goes around sprinkling the marked-out foundations of the church in this manner. As he begins to sprinkle, he intones the antiphon, and the clergy continue:
+t: *Ant.* O quam metuéndus est locus iste! Vere non est hic áliud, nisi domus Dei, et porta cæli. || *Ant.* How awesome is this place! Truly this is none other than the house of God and the gate of heaven.
+h: Psalmus 86 || Psalm 86
+t: Fundaménta ejus in móntibus sanctis: * díligit Dóminus portas Sion super ómnia tabernácula Jacob. || Its foundations are upon the holy mountains; * the Lord loves the gates of Sion above all the dwellings of Jacob.
+t: Gloriósa dicta sunt de te, * cívitas Dei. || Glorious things are said of you, * O city of God.
+t: Memor ero Rahab, et Babylónis * sciéntium me. || I will be mindful of Rahab and of Babylon, * who know me.
+t: Ecce alienígenæ, et Tyrus, et pópulus Æthíopum, * hi fuérunt illic. || Behold, the foreigners, and Tyre, and the people of the Ethiopians: * these were there.
+t: Numquid Sion dicet: Homo, et homo natus est in ea: * et ipse fundávit eam Altíssimus? || Shall it not be said of Sion: This man and that man was born in her, * and the Most High Himself has founded her?
+t: Dóminus narrábit in scriptúris populórum, et príncipum: * horum, qui fuérunt in ea. || The Lord shall tell in His record of peoples and of princes * of those who have been in her.
+t: Sicut lætántium ómnium * habitátio est in te. || The dwelling in you * is as of all who rejoice.
+t: Glória Patri, et Fílio, * et Spirítui Sancto. || Glory be to the Father, and to the Son, * and to the Holy Spirit.
+t: Sicut erat in princípio, et nunc, et semper, * et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, * world without end. Amen.
+t: *Ant.* O quam metuéndus est locus iste! Vere non est hic áliud, nisi domus Dei, et porta cæli. || *Ant.* How awesome is this place! Truly this is none other than the house of God and the gate of heaven.
+r: 10. Interim aspergendo procedit usque ad fundamenta aperta, seu designata, et repetita Antiphona a Clero, Sacerdos stans dicit: || 10. Meanwhile he proceeds, sprinkling, as far as the open or marked-out foundations; and when the clergy have repeated the antiphon, the priest, standing, says:
+t: Orémus. || Let us pray.
+v: Flectámus génua. || Let us kneel.
+x: Leváte. || Arise.
+t: Omnípotens et miséricors Deus, qui Sacerdótibus tuis tantam præ céteris grátiam contulísti, ut quidquid in tuo nómine digne, perfectéque ab eis ágitur, a te fíeri credátur: quǽsumus imménsam cleméntiam tuam; ut quidquid modo visitatúri sumus, vísites; et quidquid benedictúri sumus, bene✠dícas; sitque ad nostræ humilitátis intróitum, Sanctórum tuórum méritis, fuga dæmonum, Ángeli pacis ingréssus. Per Christum, Dóminum nostrum. ℟. Amen. || Almighty and merciful God, who have bestowed on Your priests a grace so far beyond others that whatever is done worthily and perfectly by them in Your name is believed to be done by You: we beseech Your boundless mercy that whatever we are now about to visit You may visit, and whatever we are about to bless You may ✠ bless; and that, at the entrance of our lowliness, through the merits of Your Saints, the demons may flee and the Angel of peace may enter. Through Christ our Lord. ℟. Amen.
+t: Deus, qui ex ómnium cohabitatióne Sanctórum ætérnum majestáti tuæ condis habitáculum: da ædificatióni tuæ increménta cæléstia; ut, quod te jubénte fundátur, te largiénte perficiátur. Per Christum, Dóminum nostrum. ℟. Amen. || O God, who from the fellowship of all the Saints build an eternal dwelling for Your majesty: give heavenly increase to this building of Yours, that what is founded at Your command may by Your bounty be brought to completion. Through Christ our Lord. ℟. Amen.

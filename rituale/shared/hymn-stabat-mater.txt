@@ -1,0 +1,13 @@
+// SHARED TEXT: hymn-stabat-mater
+// Inserted wherever a rite has the line  @hymn-stabat-mater
+// Editing it here changes it everywhere it is used.
+t: Stabat Mater dolorósa / Juxta Crucem lacrimósa, / Dum pendébat Fílius. || The sorrowful Mother stood / weeping beside the Cross / while her Son was hanging there.
+t: Cujus ánimam geméntem, / Contristátam et doléntem, / Pertransívit gládius. || Through her soul, groaning, / saddened and grieving, / the sword had passed.
+t: O quam tristis et afflícta / Fuit illa benedícta / Mater Unigéniti! || O how sad and how afflicted / was that blessed / Mother of the Only-begotten!
+t: Quæ mærébat, et dolébat, / Pia Mater, dum vidébat / Nati pœnas ínclyti. || She mourned and grieved, / the loving Mother, as she beheld / the torments of her glorious Son.
+t: Quis est homo, qui non fleret, / Matrem Christi si vidéret / In tanto supplício? || Who is the man who would not weep / if he saw the Mother of Christ / in such great anguish?
+t: Quis non posset contristári, / Christi Matrem contemplári / Doléntem cum Fílio? || Who could keep from sorrowing / to behold the Mother of Christ / suffering with her Son?
+t: Pro peccátis suæ gentis / Vidit Jesum in torméntis, / Et flagéllis súbditum. || For the sins of His own people / she saw Jesus in torments / and subjected to the scourges.
+t: Vidit suum dulcem Natum / Moriéndo desolátum, / Dum emísit spíritum. || She saw her own sweet Son / dying, forsaken, / as He gave up His spirit.
+t: Eja Mater, fons amóris, / Me sentíre vim dolóris / Fac, ut tecum lúgeam. || O Mother, fountain of love, / make me feel the force of your sorrow, / that I may mourn with you.
+t: Fac, ut árdeat cor meum / In amándo Christum Deum, / Ut sibi compláceam. Amen. || Grant that my heart may burn / in loving Christ my God, / that I may be pleasing to Him. Amen.

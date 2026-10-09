@@ -1,0 +1,21 @@
+// SHARED TEXT: psalm-118-part-1
+// Inserted wherever a rite has the line  @psalm-118-part-1
+// Editing it here changes it everywhere it is used.
+h: Psalmus 118, i || Psalm 118, i
+t: Beáti immaculáti in via: * qui ámbulant in lege Dómini. || Blessed are the undefiled in the way, * who walk in the law of the Lord.
+t: Beáti, qui scrutántur testimónia ejus: * in toto corde exquírunt eum. || Blessed are they who search His testimonies; * they seek Him with their whole heart.
+t: Non enim qui operántur iniquitátem, * in viis ejus ambulavérunt. || For those who work iniquity * have not walked in His ways.
+t: Tu mandásti * mandáta tua custodíri nimis. || You have commanded * that Your commandments be kept most diligently.
+t: Útinam dirigántur viæ meæ, * ad custodiéndas justificatiónes tuas! || O that my ways may be directed * to keep Your statutes!
+t: Tunc non confúndar, * cum perspéxero in ómnibus mandátis tuis. || Then I shall not be put to shame, * when I look into all Your commandments.
+t: Confitébor tibi in directióne cordis: * in eo quod dídici judícia justítiæ tuæ. || I will praise You with uprightness of heart, * when I have learned the judgments of Your justice.
+t: Justificatiónes tuas custódiam: * non me derelínquas usquequáque. || I will keep Your statutes; * do not utterly forsake me.
+t: In quo córrigit adolescéntior viam suam? * in custodiéndo sermónes tuos. || How shall a young man correct his way? * By keeping Your words.
+t: In toto corde meo exquisívi te: * ne repéllas me a mandátis tuis. || With my whole heart I have sought You; * do not let me stray from Your commandments.
+t: In corde meo abscóndi elóquia tua: * ut non peccem tibi. || I have hidden Your words in my heart, * that I may not sin against You.
+t: Benedíctus es, Dómine: * doce me justificatiónes tuas. || Blessed are You, O Lord; * teach me Your statutes.
+t: In lábiis meis, * pronuntiávi ómnia judícia oris tui. || With my lips * I have declared all the judgments of Your mouth.
+t: In via testimoniórum tuórum delectátus sum, * sicut in ómnibus divítiis. || I have delighted in the way of Your testimonies, * as in all riches.
+t: In mandátis tuis exercébor: * et considerábo vias tuas. || I will meditate on Your commandments, * and I will consider Your ways.
+t: In justificatiónibus tuis meditábor: * non oblivíscar sermónes tuos. || I will ponder Your statutes; * I will not forget Your words.
+@gloria-patri
