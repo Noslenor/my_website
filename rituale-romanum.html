@@ -71,7 +71,7 @@
 
   /* ── 2c. Sidebar (contents menu on the left) ─────────────────────── */
   aside { position: sticky; top: 0; height: 100vh; overflow: auto; border-right: 1px solid var(--line); background: var(--page); padding: 18px 14px 40px; }
-  .brand { font-size: 1.6rem; font-weight: 600; letter-spacing: .3px; color: var(--accent); line-height: 1.1; }
+  .brand { display: block; text-decoration: none; font-size: 1.6rem; font-weight: 600; letter-spacing: .3px; color: var(--accent); line-height: 1.1; }   /* the title is also a link to the welcome page */
   .brand small { display: block; font-family: Inter, sans-serif; font-size: .72rem; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin-top: 4px; font-weight: 500; }
   .back { font-size: .8rem; color: var(--muted); text-decoration: none; display: inline-block; margin: 6px 0 14px; }
   .search { width: 100%; border: 1px solid var(--line); background: var(--paper); border-radius: 10px; padding: 8px 11px; font-size: .9rem; }
@@ -91,6 +91,8 @@
   .seg button[aria-pressed="true"] { background: var(--ink); color: var(--page); }
   .btn { border: 1px solid var(--line); background: var(--page); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: .82rem; }
   .menu-btn { display: none; }
+  .bar-left { display: inline-flex; gap: 8px; }
+  .btn.home { text-decoration: none; color: var(--ink); }   /* the Home button: back to the welcome page */
 
   /* ── 2e. A rite: title, two columns, and each kind of line ─────────
      .r = rubric   .h = heading   .t = text   .v = versicle   .x = response   .n = English note */
@@ -166,14 +168,17 @@
 <div class="shell">
   <!-- Sidebar: title, link home, search box, contents menu -->
   <aside id="side" aria-label="Contents">
-    <div class="brand">Rituale Romanum<small>Latin · English</small></div>
+    <a class="brand" href="#" title="Back to the welcome page">Rituale Romanum<small>Latin · English</small></a>
     <input class="search ui" id="q" type="search" placeholder="Search Latin or English…" aria-label="Search the rites">
     <nav class="toc" id="toc"></nav>
   </aside>
   <!-- Main area: buttons at the top, then the rite being read -->
   <main>
     <div class="bar ui">
-      <button class="btn menu-btn" id="menuBtn" aria-controls="side">☰ Contents</button>
+      <div class="bar-left">
+        <button class="btn menu-btn" id="menuBtn" aria-controls="side">☰ Contents</button>
+        <a class="btn home" href="#" title="Back to the welcome page">⌂ Home</a>
+      </div>
       <div class="seg" role="group" aria-label="Language">
         <button data-view="both" aria-pressed="true">Latin &amp; English</button>
         <button data-view="la" aria-pressed="false">Latin</button>
@@ -332,7 +337,7 @@
       <h1 lang="la">${esc(r.la)}</h1><div class="sub">${esc(r.en)}</div>
       <div class="rows ${view === 'both' ? '' : 'only-' + view}"><div class="colhead la ui">Latin</div><div class="colhead en ui">English</div>
       ${r.b.map(blockHTML).join('')}</div></article>
-      <div class="pager">${prev ? `<a href="#${prev.id}">← ${esc(prev.en)}</a>` : '<span></span>'}${next ? `<a href="#${next.id}">${esc(next.en)} →</a>` : ''}</div>`;
+      <div class="pager">${prev ? `<a href="#${prev.id}">← ${esc(prev.en)}</a>` : '<span></span>'}<a href="#">⌂ Home</a>${next ? `<a href="#${next.id}">${esc(next.en)} →</a>` : '<span></span>'}</div>`;
   }
 
 
