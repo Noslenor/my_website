@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<!--
+  ════════════════════════════════════════════════════════════════════════
+  DELIVERANCE PRAYER GUIDE · The Five Keys
+  A ministry aid following the Five Keys model (Repentance & Faith,
+  Forgiveness, Renunciation, Authority, the Father's Blessing) taught in
+  Neal Lozano's book "Unbound". All summaries, questions, prayers and the
+  renunciation list here are written fresh for this page; they are not
+  copied from the book.
+
+  WHERE THINGS ARE
+    PART 1  Page setup
+    PART 2  Styles (colors near the top)
+    PART 3  Page skeleton (tabs and panels)
+    PART 4  CONTENT YOU CAN EDIT
+              4a  Before you begin: session steps and cautions
+              4b  The Five Keys: summary, questions, prayers
+              4c  Other prayers (opening, protection, closing)
+              4d  Renunciation list (categories and words)
+              4e  Aftercare
+    PART 5  Program (tabs, search, session builder, printing)
+
+  Every prayer has an English line (en) and a Spanish line (es).
+  Write ___ where a name or word is filled in during the session.
+  ════════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<!-- ═══ PART 1 · PAGE SETUP ═══════════════════════════════════════════ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deliverance Prayer Guide</title>
+<meta name="description" content="A ministry guide to deliverance prayer using the Five Keys, with renunciation lists and prayers in English and Spanish.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- ═══ PART 2 · STYLES ════════════════════════════════════════════════ -->
+<style>
+  /* ── Colors: change here, applies everywhere ── */
+  :root {
+    --paper: #f5f1ea; --page: #fffdf9; --ink: #26231f; --muted: #6e665c; --line: #e4dccf;
+    --accent: #2f4f7f;      /* deep blue: titles, buttons */
+    --accent-ink: #ffffff;
+    --gold: #b0802a;        /* key numbers */
+    --red: #a3221b;         /* cautions, instructions */
+    --sel: #e3ebf7;         /* selected words */
+    --shadow: 0 1px 2px rgba(40,30,10,.06), 0 8px 26px rgba(40,30,10,.07);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #14161a; --page: #1d2026; --ink: #e9e5dd; --muted: #a29b90; --line: #343842;
+      --accent: #8fb0e6; --accent-ink: #14161a; --gold: #e0b45e; --red: #ef8a80; --sel: #2a3a55;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 26px rgba(0,0,0,.35); }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.55 "EB Garamond", Georgia, serif; }
+  button, input, textarea, select { font: inherit; color: inherit; }
+  .ui, button, input, textarea, nav { font-family: Inter, system-ui, -apple-system, sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 22px 16px 80px; }
+
+  /* ── Header and tabs ── */
+  header h1 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.3rem); color: var(--accent); font-weight: 600; line-height: 1.1; }
+  header p { margin: 4px 0 0; color: var(--muted); font-style: italic; }
+  .bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin: 16px 0; }
+  nav.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+  nav.tabs button, .seg button, .btn { border: 1px solid var(--line); background: var(--page); border-radius: 999px; padding: 6px 13px; cursor: pointer; font-size: .85rem; }
+  nav.tabs button[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--page); }
+  .seg button { border: 0; border-radius: 0; }
+  .seg button[aria-pressed="true"] { background: var(--ink); color: var(--page); }
+  .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+  /* ── Cards and text blocks ── */
+  .card { background: var(--page); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); padding: 22px 24px; margin-bottom: 16px; }
+  .card h2 { margin: 0 0 6px; color: var(--accent); font-weight: 600; font-size: 1.5rem; line-height: 1.2; }
+  .card h3 { margin: 18px 0 6px; font-family: Inter, sans-serif; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .card p { margin: 6px 0; }
+  .card ul, .card ol { margin: 6px 0; padding-left: 1.3em; }
+  .card li { margin: 3px 0; }
+  .keynum { display: inline-grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--gold); color: #fff; font-family: Inter, sans-serif; font-weight: 600; font-size: .95rem; margin-right: 8px; vertical-align: 3px; }
+  .lead { font-size: 1.08rem; }
+  .caution { border-left: 4px solid var(--red); background: var(--paper); border-radius: 8px; padding: 10px 14px; margin: 10px 0; font-family: Inter, sans-serif; font-size: .88rem; }
+  .caution b { color: var(--red); }
+  .note { color: var(--muted); font-family: Inter, sans-serif; font-size: .85rem; }
+
+  /* ── Prayers (English / Spanish) ── */
+  .prayer { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 10px 0; background: var(--paper); }
+  .prayer .title { font-family: Inter, sans-serif; font-size: .78rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+  .prayer .who { font-family: Inter, sans-serif; font-size: .75rem; color: var(--red); font-style: italic; margin-bottom: 4px; }
+  .prayer .en, .prayer .es { margin: 4px 0; }
+  .prayer .es { color: var(--muted); font-style: italic; }
+  body.lang-en .prayer .es, body.lang-es .prayer .en { display: none; }
+  body.lang-es .prayer .es { color: var(--ink); font-style: normal; }
+  .blank { border-bottom: 1px dashed var(--muted); padding: 0 1.2em; }
+
+  /* ── Renunciation list ── */
+  .search { width: 100%; border: 1px solid var(--line); background: var(--page); border-radius: 10px; padding: 9px 12px; font-size: .95rem; margin-bottom: 8px; }
+  .cat { margin: 16px 0 6px; }
+  .cat h3 { margin: 0 0 2px; font-family: Inter, sans-serif; font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+  .cat .hint { font-family: Inter, sans-serif; font-size: .8rem; color: var(--muted); margin-bottom: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); background: var(--page); border-radius: 999px; padding: 5px 11px; cursor: pointer; font-family: Inter, sans-serif; font-size: .85rem; line-height: 1.25; text-align: left; }
+  .chip small { color: var(--muted); }
+  .chip[aria-pressed="true"] { background: var(--sel); border-color: var(--accent); }
+  .chip.mine { border-style: dashed; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .row input[type=text] { flex: 1 1 160px; border: 1px solid var(--line); background: var(--page); border-radius: 10px; padding: 7px 10px; font-size: .9rem; min-width: 0; }
+  .sticky { position: sticky; bottom: 10px; z-index: 5; display: flex; justify-content: space-between; align-items: center; gap: 10px; background: var(--accent); color: var(--accent-ink); border-radius: 999px; padding: 8px 10px 8px 18px; box-shadow: var(--shadow); font-family: Inter, sans-serif; font-size: .9rem; margin-top: 14px; }
+  .sticky .btn { background: var(--page); color: var(--ink); white-space: nowrap; }
+  .sticky > span { white-space: nowrap; }
+  @media (max-width: 640px) { .sticky { padding: 6px 6px 6px 14px; font-size: .82rem; } .sticky .btn { padding: 6px 10px; } }
+  .mylist { list-style: none; padding: 0; margin: 8px 0 0; font-family: Inter, sans-serif; font-size: .88rem; }
+  .mylist li { display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px solid var(--line); padding: 4px 0; }
+  .mylist button { border: 0; background: none; color: var(--red); cursor: pointer; }
+  .toggle { font-family: Inter, sans-serif; font-size: .85rem; display: inline-flex; gap: 6px; align-items: center; }
+
+  /* ── Session sheet ── */
+  .sheet ol { padding-left: 1.4em; }
+  .sheet li { margin: 6px 0; }
+  .sheet .item-x { border: 0; background: none; color: var(--muted); cursor: pointer; font-size: .85rem; padding: 0 4px; }
+  .empty { color: var(--muted); font-family: Inter, sans-serif; font-size: .9rem; }
+
+  [hidden] { display: none !important; }
+
+  /* ── Phones ── */
+  @media (max-width: 640px) {
+    body { font-size: 17px; }
+    .card { padding: 18px 16px; border-radius: 12px; }
+  }
+
+  /* ── Printing: prints only the session sheet when "Print sheet" is used ── */
+  @media print {
+    body { background: #fff; color: #000; font-size: 12pt; }
+    header, .bar, .noprint, .sticky { display: none !important; }
+    .card { box-shadow: none; border: 0; padding: 0; }
+    body.print-sheet .panel:not(#p-session) { display: none !important; }
+    body.print-sheet #p-session { display: block !important; }
+    .prayer { background: none; }
+  }
+</style>
+</head>
+<body class="lang-both">
+
+<!-- ═══ PART 3 · PAGE SKELETON ═════════════════════════════════════════ -->
+<div class="wrap">
+  <header>
+    <h1>Deliverance Prayer Guide</h1>
+    <p>The Five Keys, with prayers in English and Spanish</p>
+  </header>
+
+  <div class="bar">
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button role="tab" data-tab="begin" aria-selected="true">Before you begin</button>
+      <button role="tab" data-tab="keys" aria-selected="false">The Five Keys</button>
+      <button role="tab" data-tab="renounce" aria-selected="false">Renunciations</button>
+      <button role="tab" data-tab="prayers" aria-selected="false">Prayers</button>
+      <button role="tab" data-tab="session" aria-selected="false">Session sheet</button>
+      <button role="tab" data-tab="after" aria-selected="false">Aftercare</button>
+    </nav>
+    <div class="seg" role="group" aria-label="Prayer language">
+      <button data-lang="both" aria-pressed="true">EN + ES</button>
+      <button data-lang="en" aria-pressed="false">English</button>
+      <button data-lang="es" aria-pressed="false">Español</button>
+    </div>
+  </div>
+
+  <section class="panel" id="p-begin"></section>
+  <section class="panel" id="p-keys" hidden></section>
+  <section class="panel" id="p-renounce" hidden>
+    <div class="card">
+      <h2>Renunciations</h2>
+      <p class="lead">Tap the areas that came up while listening. They gather on the Session sheet as prayers for the person to say aloud.</p>
+      <div class="row noprint" style="margin:10px 0">
+        <label class="toggle"><input type="checkbox" id="spiritOf"> Say “the spirit of …” (e.g. “I renounce the spirit of fear”)</label>
+      </div>
+      <input class="search" id="q" type="search" placeholder="Search the list (English or Spanish)…" aria-label="Search the renunciation list">
+      <div id="cats"></div>
+      <div class="cat noprint">
+        <h3>My own additions</h3>
+        <div class="hint">Words you add here are saved only in this browser, on this device, and appear in the list above under “My additions”.</div>
+        <div class="row">
+          <input type="text" id="addEn" placeholder="English (e.g. fear of heights)">
+          <input type="text" id="addEs" placeholder="Español con artículo (ej. el miedo a las alturas)">
+          <button class="btn" id="addBtn">Add</button>
+        </div>
+        <ul class="mylist" id="myList"></ul>
+      </div>
+      <div class="sticky noprint"><span id="selCount">0 selected</span><span><button class="btn" id="clearSel">Clear</button> <button class="btn" id="toSheet">Sheet →</button></span></div>
+    </div>
+  </section>
+  <section class="panel" id="p-prayers" hidden></section>
+  <section class="panel" id="p-session" hidden>
+    <div class="card sheet">
+      <h2>Session sheet</h2>
+      <p class="note noprint">Nothing on this sheet is saved; it clears when the page is closed. Names typed here stay on this device and are never sent anywhere.</p>
+      <h3>1 · Forgiveness</h3>
+      <div class="row noprint">
+        <input type="text" id="fWho" placeholder="Whom to forgive (e.g. my father)">
+        <input type="text" id="fWhat" placeholder="For what (e.g. never being there)">
+        <button class="btn" id="fAdd">Add</button>
+      </div>
+      <div id="fList"></div>
+      <h3>2 · Renunciations</h3>
+      <div id="rList"></div>
+      <h3>3 · Authority</h3>
+      <div id="aBlock"></div>
+      <div class="row noprint" style="margin-top:16px">
+        <button class="btn primary" id="printSheet">Print sheet</button>
+        <button class="btn" id="clearSheet">Clear sheet</button>
+      </div>
+    </div>
+  </section>
+  <section class="panel" id="p-after" hidden></section>
+
+  <p class="note" style="margin-top:28px">A personal ministry aid following the Five Keys model taught in Neal Lozano, <i>Unbound: A Practical Guide to Deliverance</i> (Chosen Books). The summaries, questions, prayers and lists on this page are written for it and are not taken from the book; read the book for the full teaching.</p>
+</div>
+
+<script>
+/* ════════════════════════════════════════════════════════════════════════
+   PART 4 · CONTENT YOU CAN EDIT
+   ════════════════════════════════════════════════════════════════════════ */
+
+/* ── 4a. BEFORE YOU BEGIN ──────────────────────────────────────────────
+   steps:    the shape of a session, in order
+   cautions: shown in red boxes                                            */
+const BEGIN = {
+  intro: 'Deliverance in this model is not a battle between the minister and the enemy. It is a conversation that helps the person bring each area of bondage to Jesus and, with His authority, choose freedom. The minister listens, guides, and prays; the person speaks the key prayers in their own voice.',
+  steps: [
+    ['Prepare', 'Pray beforehand. Minister in pairs where possible (never alone with someone of the opposite sex). Choose a private, calm place and allow enough time. Have holy water and a crucifix at hand if you wish.'],
+    ['Welcome and consent', 'Explain simply what will happen, that it is gentle, and that the person stays in charge of what they share. Promise confidentiality, with its limits (see cautions below).'],
+    ['Open in prayer', 'Invite the Holy Spirit, ask for protection, and place the time under the Lordship of Jesus (see Prayers).'],
+    ['Listen to the story', 'Ask what they would like Jesus to do for them. Listen for wounds, sins, lies believed, patterns, and when the trouble began. Take short notes of names, hurts, and words to renounce.'],
+    ['Walk through the Five Keys', 'Repentance & Faith → Forgiveness → Renunciation → Authority → the Father’s Blessing. Use the Session sheet to keep the forgiveness and renunciation lists in order.'],
+    ['Close', 'Thank God, ask the Holy Spirit to fill every area that was freed, and bless the person (see Prayers).'],
+    ['Aftercare', 'Point them to the sacraments, prayer, Scripture and community, and offer a follow-up (see Aftercare).']
+  ],
+  cautions: [
+    ['Possession is rare', 'This kind of prayer addresses oppression and bondage in a person’s life. Signs that may point to possession (aversion or violent reaction to sacred things, unexplained knowledge, strength beyond nature, speaking unknown languages) call for the diocesan exorcist. Solemn exorcism requires the bishop’s permission (Code of Canon Law, can. 1172). The full Rite of Exorcism is in the Rituale Romanum on this site.'],
+    ['Who commands', 'Lay ministers do not command spirits in another person; they guide the person to renounce and to pray in Jesus’ name, and they pray in supplication (CDF letter Inde ab aliquot annis, 1985). A priest may pray the simple prayers of deliverance with authority.'],
+    ['Mental health', 'Prayer does not replace medical or psychological care. If someone speaks of thoughts of suicide or self-harm, make sure they are safe and connected to professional help today (in the U.S., call or text 988).'],
+    ['Abuse', 'If someone discloses abuse of a minor or a vulnerable adult, follow your diocese’s safe-environment and reporting policies.'],
+    ['Confession', 'Serious sins that surface belong in the Sacrament of Penance, which can follow or be offered during the session.']
+  ],
+  listening: [
+    'What would you like Jesus to do for you today?',
+    'When did this begin? What was happening in your life at that time?',
+    'Who has hurt you? Whom do you find it hard to forgive?',
+    'Is there anything you need to confess or turn away from?',
+    'Have you ever been involved in fortune-telling, spiritism, witchcraft, New Age or other occult practices? Has anyone in your family?',
+    'Do you see the same struggles in your parents or grandparents?',
+    'Have you ever made a vow such as “I will never…” or “I will always…”?',
+    'What do you believe about yourself in your worst moments? Where did you learn that?',
+    'What do you believe God thinks of you?'
+  ]
+};
+
+/* ── 4b. THE FIVE KEYS ────────────────────────────────────────────────
+   For each key: name, summary, notes (list), questions (list), prayers.
+   A prayer: { title, who, en, es }.  "who" says who says it.               */
+const KEYS = [
+  {
+    name: 'Repentance and Faith',
+    summary: 'Freedom begins with turning from sin and turning toward Jesus. The person chooses again, in their own words, to belong to Him and to trust Him with every area of life, including the areas that are about to be brought into the light.',
+    notes: [
+      'Invite a renewal of baptismal faith: rejecting Satan and his works, and believing in Father, Son and Holy Spirit.',
+      'Repentance is a decision, not a feeling. Help the person name specific sins rather than speak only in general terms.',
+      'Where grave sin is named, offer the Sacrament of Penance.'
+    ],
+    questions: ['Do you want to give Jesus every part of your life, including this area?', 'Is there anything you need to turn away from today?'],
+    prayers: [
+      { title: 'Prayer of repentance and faith', who: 'The person prays, repeating after the minister:',
+        en: 'Lord Jesus, I believe that You are the Son of God, that You died for my sins and rose from the dead. I turn away from my sins, especially ___. I choose You as my Lord and Savior. I give You every part of my life. Fill me with Your Holy Spirit. Amen.',
+        es: 'Señor Jesús, creo que Tú eres el Hijo de Dios, que moriste por mis pecados y resucitaste de entre los muertos. Me aparto de mis pecados, especialmente ___. Te escojo como mi Señor y Salvador. Te entrego cada parte de mi vida. Lléname de tu Espíritu Santo. Amén.' },
+      { title: 'Renewal of baptismal promises (short form)', who: 'The minister asks; the person answers “I do.”',
+        en: 'Do you reject Satan, and all his works, and all his empty promises? — I do. Do you believe in God the Father, in Jesus Christ His only Son, and in the Holy Spirit? — I do.',
+        es: '¿Renuncias a Satanás, a todas sus obras y a todas sus seducciones? — Sí, renuncio. ¿Crees en Dios Padre, en Jesucristo su único Hijo, y en el Espíritu Santo? — Sí, creo.' }
+    ]
+  },
+  {
+    name: 'Forgiveness',
+    summary: 'Unforgiveness gives the enemy a foothold. Forgiveness is a choice to release the person who hurt us to God and to give up the right to punish them. It does not excuse the wrong, require trust, or mean the hurt did not matter.',
+    notes: [
+      'Help the person be specific: the name, what was done, and how it made them feel.',
+      'Forgiveness can be chosen before feelings follow. Encourage them to say it even if they do not feel it yet.',
+      'Include forgiving oneself where there is self-hatred, and letting go of resentment toward God.',
+      'Add each name to the Session sheet so none is missed.'
+    ],
+    questions: ['Who has hurt you? What did they do?', 'How did that make you feel? What did you come to believe because of it?', 'Is there anyone you are still angry with, including yourself or God?'],
+    prayers: [
+      { title: 'Forgiving someone', who: 'The person prays, for each name:',
+        en: 'In the name of Jesus, I choose to forgive ___ for ___, and for making me feel ___. I release them to You, Lord. I give up my right to hold this against them. Bless them, and heal my heart. Amen.',
+        es: 'En el nombre de Jesús, decido perdonar a ___ por ___, y por hacerme sentir ___. Lo (la) pongo en tus manos, Señor. Renuncio a mi derecho de guardarle rencor. Bendícelo(a), y sana mi corazón. Amén.' },
+      { title: 'Forgiving oneself', who: 'The person prays:',
+        en: 'Lord, You have forgiven me. In Your name I choose to forgive myself for ___. I let go of condemning myself and I receive Your mercy. Amen.',
+        es: 'Señor, Tú me has perdonado. En tu nombre decido perdonarme a mí mismo(a) por ___. Dejo de condenarme y recibo tu misericordia. Amén.' },
+      { title: 'Releasing resentment toward God', who: 'The person prays:',
+        en: 'Father, I have been angry with You because ___. I let go of that anger and I choose to trust You. Amen.',
+        es: 'Padre, he estado enojado(a) contigo porque ___. Suelto ese enojo y decido confiar en Ti. Amén.' }
+    ]
+  },
+  {
+    name: 'Renunciation',
+    summary: 'To renounce is to refuse, out loud and by name, every agreement with sin, lies, and evil spirits that has taken hold. What was allowed in by choice, wound, or agreement is now rejected by choice, in the name of Jesus.',
+    notes: [
+      'Renounce specifically: name the fear, the lie, the practice, the vow. The Renunciations tab has an organized list.',
+      'Renounce any involvement in occult practices, by the person or done over them.',
+      'Renounce inner vows and lies believed, then replace each lie with the truth.',
+      'Generational patterns can be renounced: “I renounce the pattern of ___ in my family line.”'
+    ],
+    questions: ['What has been controlling or tormenting you?', 'What lies have you believed about yourself, others, or God?', 'Have you made any vows or agreements you need to break?'],
+    prayers: [
+      { title: 'Renouncing', who: 'The person says, for each area:',
+        en: 'In the name of Jesus, I renounce ___.',
+        es: 'En el nombre de Jesús, renuncio a ___.' },
+      { title: 'Renouncing occult involvement', who: 'The person says:',
+        en: 'Lord, I confess that I took part in ___. I ask Your forgiveness. In the name of Jesus, I renounce all involvement with it, and every spirit connected with it.',
+        es: 'Señor, confieso que participé en ___. Te pido perdón. En el nombre de Jesús, renuncio a toda participación en eso, y a todo espíritu relacionado con eso.' },
+      { title: 'Breaking an inner vow', who: 'The person says:',
+        en: 'In the name of Jesus, I renounce the vow I made that I would ___. I give this area of my life to You, Lord.',
+        es: 'En el nombre de Jesús, renuncio al voto que hice de ___. Te entrego esta área de mi vida, Señor.' },
+      { title: 'Renouncing a lie and receiving the truth', who: 'The person says:',
+        en: 'In the name of Jesus, I renounce the lie that ___. I receive the truth that ___.',
+        es: 'En el nombre de Jesús, renuncio a la mentira de que ___. Recibo la verdad de que ___.' }
+    ]
+  },
+  {
+    name: 'Authority',
+    summary: 'Every baptized Christian shares in Christ’s victory. Having repented, forgiven and renounced, the person takes their stand in Jesus’ authority and tells the spirits they have renounced to leave.',
+    notes: [
+      'In this model the person exercises the authority over their own life; the minister prays with them and supports them.',
+      'Keep it calm. Shouting is not needed; authority comes from Christ, not from volume.',
+      'If there is a reaction, return to the first keys: often an area of unforgiveness or renunciation has been missed.',
+      'See the caution in “Before you begin” about who commands.'
+    ],
+    questions: ['Have we renounced everything that came up?', 'Is there anything else the Lord is showing you?'],
+    prayers: [
+      { title: 'Taking authority', who: 'The person says:',
+        en: 'In the name of Jesus Christ, I command every spirit I have renounced to leave me now. I belong to Jesus. You have no right to me. Go, in the name of Jesus.',
+        es: 'En el nombre de Jesucristo, ordeno a todo espíritu al que he renunciado que se vaya de mí ahora. Yo pertenezco a Jesús. No tienes ningún derecho sobre mí. Vete, en el nombre de Jesús.' },
+      { title: 'Prayer of the minister (supplication)', who: 'The minister prays:',
+        en: 'Lord Jesus, by the power of Your Cross and Resurrection, set ___ free from every spirit they have renounced. Let nothing remain that is not of You. Amen.',
+        es: 'Señor Jesús, por el poder de tu Cruz y Resurrección, libera a ___ de todo espíritu al que ha renunciado. Que no quede nada que no sea tuyo. Amén.' }
+    ]
+  },
+  {
+    name: 'The Father’s Blessing',
+    summary: 'Freedom is completed by receiving the Father’s love. The places that were emptied are filled with the truth of who the person is: a beloved son or daughter of God. The minister speaks blessing over them, listening for what the Father wants to say.',
+    notes: [
+      'Ask the Holy Spirit what the Father wants this person to know, and speak it simply.',
+      'Bless the person’s identity, not only their behavior: chosen, loved, wanted, delighted in.',
+      'Speak the truths that answer the specific lies renounced.',
+      'Scriptures to draw on: Isaiah 43:1–4; Jeremiah 31:3; Zephaniah 3:17; Psalm 139:13–14; Romans 8:15–16; Ephesians 1:3–6; 1 John 3:1.'
+    ],
+    questions: ['What do you sense the Father saying to you right now?'],
+    prayers: [
+      { title: 'Blessing from the Father', who: 'The minister prays over the person:',
+        en: 'Father, pour out Your love on ___. Let them know they are Your beloved son (daughter), chosen and wanted, created with joy. Fill every place that has been set free with Your Holy Spirit, Your peace and Your truth. ___, the Father delights in you. You belong to Him. Amen.',
+        es: 'Padre, derrama tu amor sobre ___. Que sepa que es tu hijo(a) amado(a), escogido(a) y deseado(a), creado(a) con alegría. Llena con tu Espíritu Santo, tu paz y tu verdad cada lugar que ha sido liberado. ___, el Padre se deleita en ti. Le perteneces. Amén.' }
+    ]
+  }
+];
+
+/* ── 4c. OTHER PRAYERS ────────────────────────────────────────────────── */
+const PRAYERS = [
+  { title: 'Opening prayer', who: 'The minister prays:',
+    en: 'Father, we come to You in the name of Jesus. Come, Holy Spirit; lead this time and show us what You want to heal. We place ___ and everyone here under the protection of the Precious Blood of Jesus. Mary, our Mother, St. Michael, and our guardian angels, pray for us and stand with us. Amen.',
+    es: 'Padre, venimos a Ti en el nombre de Jesús. Ven, Espíritu Santo; guía este momento y muéstranos lo que quieres sanar. Ponemos a ___ y a todos los presentes bajo la protección de la Preciosa Sangre de Jesús. María, nuestra Madre, San Miguel y nuestros ángeles de la guarda, rueguen por nosotros y acompáñennos. Amén.' },
+  { title: 'Prayer to St. Michael the Archangel', who: 'All pray together:',
+    en: 'St. Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do thou, O Prince of the heavenly host, by the power of God, cast into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.',
+    es: 'San Miguel Arcángel, defiéndenos en la batalla. Sé nuestro amparo contra la perversidad y asechanzas del demonio. Que Dios manifieste sobre él su poder, es nuestra humilde súplica. Y tú, Príncipe de la Milicia Celestial, con el poder que Dios te ha conferido, arroja al infierno a Satanás y a los demás espíritus malignos que vagan por el mundo para la perdición de las almas. Amén.' },
+  { title: 'When something resists', who: 'The minister prays quietly:',
+    en: 'Lord Jesus, show us what is still holding on. Is there someone to forgive, a sin to confess, or something to renounce? Give ___ courage to bring it into Your light. Amen.',
+    es: 'Señor Jesús, muéstranos lo que todavía se aferra. ¿Hay alguien a quien perdonar, un pecado que confesar o algo a lo que renunciar? Dale a ___ valor para traerlo a tu luz. Amén.' },
+  { title: 'Infilling of the Holy Spirit', who: 'The minister prays:',
+    en: 'Holy Spirit, come and fill every place in ___ that has been set free. Bring Your love, joy, peace and self-control where there was fear, sadness and bondage. Amen.',
+    es: 'Espíritu Santo, ven y llena cada lugar en ___ que ha sido liberado. Trae tu amor, alegría, paz y dominio propio donde había miedo, tristeza y esclavitud. Amén.' },
+  { title: 'Closing prayer and blessing', who: 'The minister (a priest may give the blessing):',
+    en: 'Father, thank You for Your mercy and for the freedom You have given today. Seal what You have done, and keep ___ in Your peace. May almighty God bless you, the Father, and the Son, ✠ and the Holy Spirit. Amen.',
+    es: 'Padre, gracias por tu misericordia y por la libertad que nos has dado hoy. Sella lo que has hecho y guarda a ___ en tu paz. Que Dios todopoderoso te bendiga, el Padre, el Hijo ✠ y el Espíritu Santo. Amén.' },
+  { title: 'Daily prayer for the person afterward', who: 'For the person to pray at home:',
+    en: 'Lord Jesus, I belong to You. Today I choose to trust You, to forgive, and to walk in Your truth. I renounce every lie and every fear that comes against me. Fill me with Your Holy Spirit. Mary, my Mother, keep me close to your Son. Amen.',
+    es: 'Señor Jesús, te pertenezco. Hoy decido confiar en Ti, perdonar y caminar en tu verdad. Renuncio a toda mentira y a todo miedo que venga contra mí. Lléname de tu Espíritu Santo. María, Madre mía, guárdame cerca de tu Hijo. Amén.' }
+];
+
+/* ── 4d. RENUNCIATION LIST ───────────────────────────────────────────────
+   Each category: name, hint, mode, items.
+   mode decides how the prayer is phrased on the Session sheet:
+     'spirit'       "I renounce (the spirit of) fear"   (the checkbox adds "the spirit of")
+     'involvement'  "I renounce all involvement with tarot cards"
+     'plain'        "I renounce inner vows"
+   Each item: [English, Spanish WITH its article (el/la/los/las)].
+   To add a word for everyone, add a line here. To add one only for yourself,
+   use "My own additions" on the page.                                       */
+const RENOUNCE = [
+  { name: 'Fear', hint: 'Often rooted in early insecurity, trauma, or a frightening event.', mode: 'spirit', items: [
+    ['fear', 'el miedo'], ['anxiety', 'la ansiedad'], ['worry', 'la preocupación'], ['panic', 'el pánico'], ['terror', 'el terror'],
+    ['dread', 'el temor'], ['fear of rejection', 'el miedo al rechazo'], ['fear of abandonment', 'el miedo al abandono'],
+    ['fear of failure', 'el miedo al fracaso'], ['fear of death', 'el miedo a la muerte'], ['fear of what others think', 'el miedo al qué dirán'],
+    ['fear of the future', 'el miedo al futuro'], ['fear of sickness', 'el miedo a la enfermedad'], ['fear of God’s punishment', 'el miedo al castigo de Dios'],
+    ['insecurity', 'la inseguridad'], ['timidity', 'la timidez'] ] },
+  { name: 'Rejection and identity', hint: 'Listen for “I don’t belong”, “I’m not enough”, “nobody wants me”.', mode: 'spirit', items: [
+    ['rejection', 'el rechazo'], ['self-rejection', 'el autorrechazo'], ['self-hatred', 'el autodesprecio'], ['abandonment', 'el abandono'],
+    ['loneliness', 'la soledad'], ['isolation', 'el aislamiento'], ['shame', 'la vergüenza'], ['false guilt', 'la falsa culpa'],
+    ['condemnation', 'la condenación'], ['worthlessness', 'la desvalorización'], ['inferiority', 'la inferioridad'], ['inadequacy', 'la insuficiencia'],
+    ['perfectionism', 'el perfeccionismo'], ['comparison', 'la comparación'], ['people-pleasing', 'la necesidad de agradar'],
+    ['orphan heart', 'la orfandad espiritual'], ['insignificance', 'la insignificancia'] ] },
+  { name: 'Anger and unforgiveness', hint: 'Renounce these after forgiving the people involved.', mode: 'spirit', items: [
+    ['unforgiveness', 'la falta de perdón'], ['resentment', 'el resentimiento'], ['bitterness', 'la amargura'], ['anger', 'la ira'], ['rage', 'la furia'],
+    ['hatred', 'el odio'], ['revenge', 'la venganza'], ['judging others', 'el juicio contra los demás'], ['criticism', 'la crítica'], ['contempt', 'el desprecio'],
+    ['violence', 'la violencia'], ['jealousy', 'los celos'], ['envy', 'la envidia'], ['strife', 'la discordia'] ] },
+  { name: 'Heaviness and despair', hint: 'If someone speaks of suicide or self-harm, make sure they are safe and connected to professional help today.', mode: 'spirit', items: [
+    ['sadness', 'la tristeza'], ['unresolved grief', 'el duelo no resuelto'], ['heaviness', 'el abatimiento'], ['discouragement', 'el desánimo'],
+    ['hopelessness', 'la desesperanza'], ['despair', 'la desesperación'], ['self-pity', 'la autocompasión'], ['apathy', 'la apatía'],
+    ['confusion', 'la confusión'], ['torment', 'el tormento'], ['death', 'la muerte'], ['suicide', 'el suicidio'] ] },
+  { name: 'Pride and control', hint: 'Often a self-protection that grew out of being hurt.', mode: 'spirit', items: [
+    ['pride', 'el orgullo'], ['arrogance', 'la arrogancia'], ['control', 'el control'], ['manipulation', 'la manipulación'], ['domination', 'la dominación'],
+    ['intimidation', 'la intimidación'], ['rebellion', 'la rebeldía'], ['stubbornness', 'la terquedad'], ['self-sufficiency', 'la autosuficiencia'],
+    ['vanity', 'la vanidad'], ['competition', 'la competencia'] ] },
+  { name: 'Deception and unbelief', hint: 'Pair each with the truth it denies.', mode: 'spirit', items: [
+    ['lying', 'la mentira'], ['deception', 'el engaño'], ['unbelief', 'la incredulidad'], ['doubt', 'la duda'], ['skepticism', 'el escepticismo'],
+    ['double-mindedness', 'la doblez'], ['legalism', 'el legalismo'], ['cynicism', 'el cinismo'], ['mockery', 'la burla'], ['blasphemy', 'la blasfemia'] ] },
+  { name: 'Impurity', hint: 'Keep this part brief and discreet; serious sins belong in Confession.', mode: 'spirit', items: [
+    ['lust', 'la lujuria'], ['pornography', 'la pornografía'], ['sexual fantasy', 'las fantasías sexuales'], ['masturbation', 'la masturbación'],
+    ['fornication', 'la fornicación'], ['adultery', 'el adulterio'], ['seduction', 'la seducción'], ['sexual shame', 'la vergüenza sexual'],
+    ['ungodly soul ties', 'los lazos impíos del alma'] ] },
+  { name: 'Addiction and compulsion', hint: 'Prayer goes hand in hand with practical help and accountability.', mode: 'spirit', items: [
+    ['addiction', 'la adicción'], ['alcohol abuse', 'el abuso del alcohol'], ['drug abuse', 'el abuso de drogas'], ['gluttony', 'la gula'],
+    ['compulsion', 'la compulsión'], ['escapism', 'la evasión'], ['gambling', 'las apuestas'], ['workaholism', 'la adicción al trabajo'],
+    ['sloth', 'la pereza'], ['greed', 'la avaricia'], ['materialism', 'el materialismo'] ] },
+  { name: 'Occult and false spirituality', hint: 'Ask about the person and the family. Encourage removing related objects from the home.', mode: 'involvement', items: [
+    ['fortune-telling', 'la adivinación'], ['tarot cards', 'las cartas del tarot'], ['astrology and horoscopes', 'la astrología y los horóscopos'],
+    ['palm reading', 'la lectura de la mano'], ['psychics and mediums', 'los videntes y los médiums'], ['spiritism and séances', 'el espiritismo y las sesiones espiritistas'],
+    ['the Ouija board', 'la tabla ouija'], ['witchcraft', 'la brujería'], ['spells and hexes', 'los hechizos y los maleficios'], ['curses', 'las maldiciones'],
+    ['Santería', 'la santería'], ['“limpias” (ritual cleansings)', 'las limpias'], ['Santa Muerte', 'la Santa Muerte'],
+    ['New Age practices', 'las prácticas de la Nueva Era'], ['energy healing (e.g. Reiki)', 'la sanación energética (por ejemplo, el reiki)'],
+    ['crystals, amulets and charms', 'los cristales, los amuletos y los talismanes'], ['spirit guides', 'los guías espirituales'],
+    ['secret-society oaths (e.g. Freemasonry)', 'los juramentos de sociedades secretas (por ejemplo, la masonería)'],
+    ['satanism', 'el satanismo'], ['occult books, games and media', 'los libros, los juegos y los medios ocultistas'] ] },
+  { name: 'Words, vows and family patterns', hint: 'Use the specific words the person spoke or heard where you can.', mode: 'plain', items: [
+    ['inner vows (“I will never…”)', 'los votos internos («nunca voy a…»)'], ['curses I spoke over myself', 'las maldiciones que pronuncié contra mí mismo(a)'],
+    ['curses spoken over me', 'las maldiciones pronunciadas contra mí'], ['agreements with lies', 'los acuerdos con mentiras'],
+    ['generational patterns in my family', 'los patrones generacionales de mi familia'], ['ungodly promises and pacts', 'las promesas y los pactos impíos'] ] }
+];
+
+/* ── 4e. AFTERCARE ───────────────────────────────────────────────────── */
+const AFTER = {
+  intro: 'Freedom received is freedom to be kept. Help the person build a life that stays close to Jesus.',
+  points: [
+    ['Sacraments', 'Regular Confession and the Eucharist; a renewed devotion to Mass.'],
+    ['Daily prayer', 'A short daily prayer of belonging to Jesus (see Prayers), the Rosary, and time with Scripture.'],
+    ['Truth for lies', 'Write down each lie renounced with the truth that replaces it, and read the truths aloud daily.'],
+    ['Resist quickly', 'When old thoughts or fears return, renounce them at once in Jesus’ name and turn back to Him; returning thoughts are not a sign that nothing happened.'],
+    ['Clean house', 'Remove occult objects, charms and media from the home; ask for a house blessing.'],
+    ['Community', 'Stay connected to a parish, a prayer group, a friend who will pray for them.'],
+    ['Practical help', 'Counseling, recovery groups, medical care, or spiritual direction where needed.'],
+    ['Follow-up', 'Offer another session; some areas come to light only later.']
+  ]
+};
+
+/* ════════════════════════════════════════════════════════════════════════
+   PART 5 · PROGRAM
+   ════════════════════════════════════════════════════════════════════════ */
+(function () {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+                  set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+  const blanks = s => esc(s).replace(/___/g, '<span class="blank"></span>');
+
+  function prayerHTML(p) {
+    return `<div class="prayer"><div class="title">${esc(p.title)}</div>${p.who ? `<div class="who">${esc(p.who)}</div>` : ''}
+      <p class="en" lang="en">${blanks(p.en)}</p><p class="es" lang="es">${blanks(p.es)}</p></div>`;
+  }
+
+  /* ── Fill the static panels from the content in Part 4 ── */
+  $('p-begin').innerHTML = `<div class="card"><h2>Before you begin</h2><p class="lead">${esc(BEGIN.intro)}</p>
+      <h3>The shape of a session</h3><ol>${BEGIN.steps.map(([t, d]) => `<li><b>${esc(t)}.</b> ${esc(d)}</li>`).join('')}</ol>
+      <h3>Listening questions</h3><ul>${BEGIN.listening.map(q => `<li>${esc(q)}</li>`).join('')}</ul></div>
+    <div class="card"><h2>Cautions</h2>${BEGIN.cautions.map(([t, d]) => `<div class="caution"><b>${esc(t)}.</b> ${esc(d)}${t === 'Possession is rare' ? ' <a href="rituale-romanum.html#exorcism-rite">Open the Rite of Exorcism</a>.' : ''}</div>`).join('')}</div>`;
+
+  $('p-keys').innerHTML = KEYS.map((k, i) => `<div class="card"><h2><span class="keynum">${i + 1}</span>${esc(k.name)}</h2>
+      <p class="lead">${esc(k.summary)}</p>
+      <h3>Guidance</h3><ul>${k.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
+      <h3>Questions to ask</h3><ul>${k.questions.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
+      <h3>Prayers</h3>${k.prayers.map(prayerHTML).join('')}</div>`).join('');
+
+  $('p-prayers').innerHTML = `<div class="card"><h2>Prayers</h2>${PRAYERS.map(prayerHTML).join('')}</div>`;
+
+  $('p-after').innerHTML = `<div class="card"><h2>Aftercare</h2><p class="lead">${esc(AFTER.intro)}</p>
+      <ul>${AFTER.points.map(([t, d]) => `<li><b>${esc(t)}.</b> ${esc(d)}</li>`).join('')}</ul>
+      ${prayerHTML(PRAYERS[PRAYERS.length - 1])}</div>`;
+
+  /* ── Tabs ── */
+  function showTab(name) {
+    document.querySelectorAll('nav.tabs button').forEach(b => b.setAttribute('aria-selected', b.dataset.tab === name));
+    document.querySelectorAll('.panel').forEach(p => p.hidden = p.id !== 'p-' + name);
+    if (name === 'session') renderSheet();
+    store.set('dpg.tab', name);
+    window.scrollTo(0, 0);
+  }
+  document.querySelector('nav.tabs').onclick = e => { const b = e.target.closest('[data-tab]'); if (b) showTab(b.dataset.tab); };
+
+  /* ── Language (EN + ES / English / Español) ── */
+  function setLang(l) {
+    document.body.classList.remove('lang-both', 'lang-en', 'lang-es'); document.body.classList.add('lang-' + l);
+    document.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === l));
+    store.set('dpg.lang', l); renderSheet();
+  }
+  document.querySelector('.seg').onclick = e => { const b = e.target.closest('[data-lang]'); if (b) setLang(b.dataset.lang); };
+
+  /* ── Renunciation list ── */
+  // "My own additions" are kept in this browser only.
+  let mine = []; try { mine = JSON.parse(store.get('dpg.mine') || '[]'); } catch (e) { mine = []; }
+  const allCats = () => mine.length ? RENOUNCE.concat([{ name: 'My additions', hint: 'Saved in this browser only. Remove them under “My own additions” below.', mode: 'spirit', items: mine, mine: true }]) : RENOUNCE;
+  const selected = new Map();   // key -> { en, es, mode }
+  const keyOf = (c, it) => c.name + '|' + it[0];
+  const norm = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+  function renderCats() {
+    const q = norm($('q').value.trim());
+    $('cats').innerHTML = allCats().map(c => {
+      const items = c.items.filter(it => !q || norm(it[0] + ' ' + it[1]).includes(q));
+      if (!items.length) return '';
+      return `<div class="cat"><h3>${esc(c.name)}</h3><div class="hint">${esc(c.hint)}</div><div class="chips">${items.map(it => {
+        const k = keyOf(c, it);
+        return `<button class="chip${c.mine ? ' mine' : ''}" data-k="${esc(k)}" aria-pressed="${selected.has(k)}">${esc(it[0])} <small lang="es">· ${esc(it[1])}</small></button>`;
+      }).join('')}</div></div>`;
+    }).join('') || '<p class="empty">Nothing matches that search. You can add it under “My own additions”.</p>';
+    $('selCount').textContent = selected.size + ' selected';
+  }
+  $('cats').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if (!b) return;
+    const k = b.dataset.k;
+    if (selected.has(k)) selected.delete(k);
+    else { const [cn, en] = [k.slice(0, k.indexOf('|')), k.slice(k.indexOf('|') + 1)]; const c = allCats().find(x => x.name === cn); const it = c.items.find(x => x[0] === en); selected.set(k, { en: it[0], es: it[1], mode: c.mode }); }
+    b.setAttribute('aria-pressed', selected.has(k)); $('selCount').textContent = selected.size + ' selected';
+  });
+  function renderMine() {
+    $('myList').innerHTML = mine.map((x, i) => `<li><span>${esc(x[0])} <span class="note">· ${esc(x[1])}</span></span><button data-m="${i}">remove</button></li>`).join('');
+  }
+  $('myList').addEventListener('click', e => {
+    const b = e.target.closest('[data-m]'); if (!b) return;
+    const [en] = mine[+b.dataset.m]; mine.splice(+b.dataset.m, 1); store.set('dpg.mine', JSON.stringify(mine));
+    selected.delete('My additions|' + en); renderCats(); renderMine();
+  });
+  $('q').addEventListener('input', renderCats);
+  $('addBtn').onclick = () => {
+    const en = $('addEn').value.trim(), es = $('addEs').value.trim(); if (!en) return;
+    mine.push([en, es || en]); store.set('dpg.mine', JSON.stringify(mine)); $('addEn').value = $('addEs').value = ''; renderCats(); renderMine();
+  };
+  $('clearSel').onclick = () => { selected.clear(); renderCats(); };
+  $('toSheet').onclick = () => showTab('session');
+  $('spiritOf').checked = store.get('dpg.spirit') === '1';
+  $('spiritOf').onchange = () => store.set('dpg.spirit', $('spiritOf').checked ? '1' : '0');
+
+  /* ── Phrasing a renunciation in English and Spanish ── */
+  const bare = es => es.replace(/^(el|la|los|las)\s+/i, '');
+  const withA = es => es.replace(/^el\s+/i, 'al ').replace(/^(la|los|las)\s+/i, m => 'a ' + m);
+  function renounceLine(it) {
+    const spirit = $('spiritOf').checked && it.mode === 'spirit';
+    if (it.mode === 'involvement') return {
+      en: `In the name of Jesus, I renounce all involvement with ${it.en}.`,
+      es: `En el nombre de Jesús, renuncio a toda participación en ${it.es}.` };
+    return spirit
+      ? { en: `In the name of Jesus, I renounce the spirit of ${it.en}.`, es: `En el nombre de Jesús, renuncio al espíritu de ${bare(it.es)}.` }
+      : { en: `In the name of Jesus, I renounce ${it.en}.`, es: `En el nombre de Jesús, renuncio ${withA(it.es)}.` };
+  }
+
+  /* ── Session sheet (kept only while the page is open) ── */
+  const forgive = [];
+  $('fAdd').onclick = () => {
+    const who = $('fWho').value.trim(), what = $('fWhat').value.trim(); if (!who) return;
+    forgive.push({ who, what }); $('fWho').value = $('fWhat').value = ''; renderSheet();
+  };
+  function line(en, es) { return `<p class="en" lang="en">${esc(en)}</p><p class="es" lang="es">${esc(es)}</p>`; }
+  function renderSheet() {
+    $('fList').innerHTML = forgive.length ? `<ol>${forgive.map((f, i) => `<li><div class="prayer">${line(
+        `In the name of Jesus, I choose to forgive ${f.who}${f.what ? ' for ' + f.what : ''}. I release them to You, Lord.`,
+        `En el nombre de Jesús, decido perdonar a ${f.who}${f.what ? ' por ' + f.what : ''}. Lo (la) pongo en tus manos, Señor.`)}
+        <button class="item-x noprint" data-f="${i}">remove</button></div></li>`).join('')}</ol>`
+      : '<p class="empty">Add the people to forgive above, one at a time.</p>';
+    const items = [...selected.values()];
+    $('rList').innerHTML = items.length ? `<ol>${items.map(it => { const l = renounceLine(it); return `<li><div class="prayer">${line(l.en, l.es)}</div></li>`; }).join('')}</ol>`
+      : '<p class="empty">Choose areas on the Renunciations tab.</p>';
+    $('aBlock').innerHTML = prayerHTML(KEYS[3].prayers[0]) + prayerHTML(KEYS[4].prayers[0]);
+  }
+  $('fList').addEventListener('click', e => { const b = e.target.closest('[data-f]'); if (b) { forgive.splice(+b.dataset.f, 1); renderSheet(); } });
+  $('clearSheet').onclick = () => { forgive.length = 0; selected.clear(); renderCats(); renderSheet(); };
+  $('printSheet').onclick = () => { document.body.classList.add('print-sheet'); window.print(); };
+  window.addEventListener('afterprint', () => document.body.classList.remove('print-sheet'));
+
+  /* ── Start ── */
+  renderCats(); renderMine();
+  setLang(store.get('dpg.lang') || 'both');
+  showTab(store.get('dpg.tab') || 'begin');
+})();
+</script>
+</body>
+</html>
