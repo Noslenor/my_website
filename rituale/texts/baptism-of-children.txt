@@ -77,7 +77,7 @@ r: 15. Deinde Sacerdos intingit pollicem in oleo Catechumenorum, et infantem ung
 t: (Use the Latin) Ego te línio ✠ óleo salútis in Christo Jesu, Dómino nostro, ut hábeas vitam ætérnam. ℟. Amen. || (Use the Latin) I anoint you ✠ with the oil of salvation in Christ Jesus our Lord, that you may have life everlasting. ℟. Amen.
 r: 16. Subinde pollicem, et inuncta loca abstergit bombacio, vel re simili. || 16. He then wipes his thumb and the anointed places with cotton or something similar.
 h: Stolam Albi || White Stole
-h: Within the Baptistery
+h: Intra Baptisterium || Within the Baptistery
 r: 17. Stans ibidem extra cancellos deponit stolam violaceam, et sumit stolam albi coloris. Tunc ingreditur Baptisterium, in quod intrat etiam patrinus cum infante. Sacerdos ad Fontem interrogat, expresso nomine, baptizandum (singulos baptizandos), patrino respondente: || 17. Standing there outside the railing, he lays aside the violet stole and takes a white one. He then enters the baptistery, into which the godparent also enters with the child. At the font the priest questions the one to be baptized (each one), calling him by name, the godparent answering:
 t: N., Credis in Deum Patrem omnipoténtem, Creatórem cæli et terræ? ℟. Credo. || N., do you believe in God, the Father almighty, Creator of heaven and earth? ℟. I do believe.
 t: Credis in Jesum Christum, Fílium ejus únicum, Dóminum nostrum, natum, et passum? ℟. Credo. || Do you believe in Jesus Christ, His only Son, our Lord, who was born into this world and who suffered? ℟. I do believe.
@@ -85,7 +85,7 @@ t: Credis et in Spíritum Sanctum, sanctam Ecclésiam cathólicam, Sanctórum co
 r: 18. Subinde, expresso nomine baptizandi, Sacerdos dicit (singulariter singulis): || 18. Then, naming the one to be baptized, the priest says (to each individually):
 t: N., Vis baptizári? || N., do you wish to be baptized?
 t: *Respondet patrinus:* Volo. || *The godparent answers:* I do.
-h: The Baptism
+h: Baptismus || The Baptism
 r: 19. Tunc patrino, vel matrina, vel utroque (si ambo admittantur) infantem tenente, Sacerdos vasculo, seu urceolo accipit aquam baptismalem, et eam ter fundit super caput infantis in modum crucis, et simul verba proferens, semel tantum distincte, et attente, dicit (singulariter singulis): || 19. Then, while the godfather or godmother, or both (if both are admitted), hold the child, the priest takes baptismal water in a small vessel or pitcher and pours it three times on the child's head in the form of a cross, at the same time saying the words once only, distinctly and attentively (to each individually):
 t: (Must use the Latin) N., Ego te baptízo in nómine Patris, *(fundit primo)* et Fílii, *(fundit secundo)* et Spíritus ✠ Sancti. *(fundit tertio)* || (Must use the Latin) N., I baptize you in the name of the Father, *(he pours the first time)* and of the Son, *(he pours the second time)* and of the Holy ✠ Spirit. *(he pours the third time)*
 r: 20. Ubi autem est consuetudo baptizandi per immersionem, Sacerdos accipit infantem, et, advertens ne lædatur, caute immergit, et trina immersione baptizat, et semel tantum dicit: || 20. Where the custom is to baptize by immersion, the priest takes the child and, taking care that it is not harmed, carefully immerses it, baptizing it by a threefold immersion, and says only once:
@@ -93,7 +93,7 @@ t: (Must use the Latin) N., Ego te baptízo in nómine Pa✠tris, et Fí✠lii, 
 r: 21. Mox patrinus, vel matrina, vel uterque simul infantem de sacro Fonte levant, suscipientes illum de manu Sacerdotis. || 21. Then the godfather or godmother, or both together, raise the child from the sacred font, receiving it from the hand of the priest.
 r: 22. Si vero dubitetur, an infans fuerit baptizatus, utatur hac forma: || 22. If there is doubt whether the child has already been baptized, this form is used:
 t: (Must use the Latin) N., Si non es baptizátus (-a), ego te baptízo in nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. || (Must use the Latin) N., if you are not baptized, I baptize you in the name of the ✠ Father, and of the ✠ Son, and of the Holy ✠ Spirit.
-h: Anointing with Chrism
+h: Unctio Chrismatis || Anointing with Chrism
 r: 23. Deinde intingit pollicem in sacro Chrismate, et ungit infantem in summitate capitis in modum crucis, dicens (singulariter singulis): || 23. Then he dips his thumb in the holy chrism and anoints the child on the crown of the head in the form of a cross, saying (to each individually):
 t: (Must use the Latin) Deus omnípotens, Pater Dómini nostri Jesu Christi, qui te regenerávit ex aqua et Spíritu Sancto, quique dedit tibi remissiónem ómnium peccatórum, *(hic inungit)* ipse te líniat ✠ Chrísmate salútis in eódem Christo Jesu Dómino nostro in vitam ætérnam. ℟. Amen. || (Must use the Latin) May almighty God, the Father of our Lord Jesus Christ, who has given you new birth by water and the Holy Spirit and has granted you the forgiveness of all your sins, *(here he anoints)* Himself anoint you ✠ with the chrism of salvation in the same Christ Jesus our Lord unto life everlasting. ℟. Amen.
 t: *Sacerdos:* Pax tibi. ℟. Et cum spíritu tuo. || *Priest:* Peace be with you. ℟. And with your spirit.
