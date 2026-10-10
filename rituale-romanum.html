@@ -107,7 +107,7 @@
   .rows.only-la .colhead.en, .rows.only-en .colhead.la { display: none; }
   .row { display: contents; }
   .row > div { padding: 5px 0; }
-  .la { font-feature-settings: "liga", "dlig"; }
+  .la { font-feature-settings: "liga" 1, "dlig" 0, "hist" 0; }   /* normal letters only: the font's "dlig" feature would print u as v (Spiritvs) */
   .r > div { color: var(--rubric); font-size: .92rem; font-style: italic; }
   .h > div { font-weight: 600; font-size: 1.12rem; padding-top: 16px; color: var(--accent); font-variant: small-caps; letter-spacing: .03em; }
   .v > div, .x > div { padding: 1px 0; }
