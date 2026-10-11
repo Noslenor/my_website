@@ -116,6 +116,60 @@ r: Absoluta hoc modo Confirmatione, Sacerdos sedens patrinos et matrinas monet, 
 r: Hoc Sacramentum potest conferri minus sollemniter, et præsertim tunc, cum in privatis domibus, vel extra ecclesiam seu oratorium, pueris ægrotantibus conferendum est, vel etiam adultis, qui ad ecclesiam quacumque ex causa, legitima tamen, accedere nequeunt. In iis casibus Sacerdos ne omittat uti saltem stola, si superpelliceum habere non possit. Cavere etiam debet, ne coram hæreticis, aut schismaticis, et multo minus eis ministrantibus, confirmet. || This Sacrament may be conferred less solemnly, especially when it is to be conferred in private houses, or outside a church or oratory, on sick children, or also on adults who for any cause, provided it is legitimate, cannot come to the church. In such cases the priest should not fail to use at least a stole, if he cannot have a surplice. He must also take care not to confirm in the presence of heretics or schismatics, and much less with them assisting.
 
 // ──────────────────────────────────────────────────────────────────────
+// Confirmation of the Sick in Danger of Death
+// ──────────────────────────────────────────────────────────────────────
+# confirmation-sick | Ritus Confirmationis Ægrotantium in Periculo Mortis | Confirmation of the Sick in Danger of Death | Sacraments | S. C. de Disciplina Sacramentorum, Decree “Spiritus Sancti munera,” September 14, 1946
+r: || When the sacrament of confirmation is administered to a dying person by a priest, in virtue of an apostolic indult extended to pastors and others by the Sacred Congregation for the Discipline of the Sacraments on September 14, 1946, the following is the rite. *White stole.*
+r: 1. Cum tempus advenerit, quo Sacerdos, utens facultate sibi ab Apostolica Sede, ut supra, tributa, administrare Confirmationem ægrotanti in periculo mortis constituto intendit, saltem stola, si superpelliceum habere non possit, indutus, circumstantes admoneat, quod nullus alius, nisi Episcopus, Confirmationis ordinarius minister est; se vero collaturum esse illam jure per Sanctam Sedem delegato. Cavere debet ne coram hæreticis aut schismaticis, et multo minus eis ministrantibus, confirmet. || On the occasion when a priest is to administer confirmation, in virtue of an apostolic indult, to a sick person who is in danger of death, he vests in surplice and white stole or at least puts on a white stole, if no surplice can be obtained. The priest should explain to those present that the bishop alone is the ordinary minister of confirmation and that he confers the sacrament by reason of a right delegated by the Holy See. He must avoid confirming in the presence of heretics or schismatics, much less with them as servers.
+r: 2. Dein moneat patrinum (vel matrinam), ut ponat manum suam dexteram super humerum dexterum confirmandi, sive infantis, sive adulti. || Next the priest directs the sponsor to place his or her right hand upon the right shoulder of the infant or adult to be confirmed.
+r: 3. Stans igitur versa facie ad confirmandum, junctis ante pectus manibus, dicit: || Then, standing with his face to the candidate, with his hands joined before his breast, the priest says:
+v: Spíritus Sanctus supervéniat in te, et virtus Altíssimi custódiat te a peccátis. || May the Holy Spirit come down upon you and may the power of the Most High keep you from sin.
+x: Amen. || Amen.
+r: 4. Deinde, signans se a fronte ad pectus signo crucis, dicit: || Next, making the large sign of the cross upon himself, he says:
+v: Adjutórium nostrum in nómine Dómini. || Our help is in the name of the Lord.
+x: Qui fecit cælum et terram. || Who made heaven and earth.
+v: Dómine, exáudi oratiónem meam. || Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to you.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: 5. Tunc, extensis versus confirmandum manibus, dicit: || Then, with his hands extended toward the one to be confirmed, the priest says:
+t: Orémus. || Let us pray.
+t: Omnípotens sempitérne Deus, qui regeneráre dignátus es hunc fámulum tuum (hanc fámulam tuam) ex aqua et Spíritu Sancto, quique dedísti ei remissiónem ómnium peccatórum: emítte in eum (eam) septifórmem Spíritum Sanctum Paráclitum de cælis. ℟. Amen. || Almighty, everlasting God, you have given a new birth in water and the Holy Spirit to this your servant and have granted him (her) the forgiveness of all his (her) sins. Send forth upon him (her) the sevenfold Holy Spirit, the Paraclete from heaven. ℟. Amen.
+v: Spíritum sapiéntiæ et intelléctus. || The spirit of wisdom and understanding.
+x: Amen. || Amen.
+v: Spíritum consílii et fortitúdinis. || The spirit of counsel and fortitude.
+x: Amen. || Amen.
+v: Spíritum sciéntiæ et pietátis. || The spirit of knowledge and piety.
+x: Amen. || Amen.
+t: Adímple eum (eam) Spíritu timóris tui, et consígna eum (eam) signo Cru✠cis Christi, in vitam propitiátus ætérnam. Per eúndem Dóminum nostrum Jesum Christum, Fílium tuum: Qui tecum vivit et regnat in unitáte ejúsdem Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || Fill him (her) with the Spirit of your fear, and seal him (her) with the sign of the cross ✠ of Christ, that in your kindness he (she) may have life everlasting. Through the same Jesus Christ, your Son, our Lord, who lives and reigns with you in the unity of the same Holy Spirit, God, forever and ever. ℟. Amen.
+r: 6. Postea Sacerdos inquirit de nomine confirmandi, et, summitate pollicis dexteræ manus chrismate intincta, confirmat eum, dicens: || After this prayer the priest asks the name of the candidate and then, dipping the tip of his right thumb in the chrism, confirms him, saying:
+t: (Must use the Latin) N., Signo te signo Cru✠cis *(quod dum dicit, imposita manu dextera super caput confirmandi, producit pollice signum crucis in fronte illius, deinde prosequitur:)* et confírmo te Chrísmate salútis. In nómine Pa✠tris, et Fí✠lii, et Spíritus ✠ Sancti. ℟. Amen. || (Must use the Latin) N., I sign you with the sign of the cross ✠ and I confirm you with the chrism of salvation. In the name of the Father ✠, and of the Son ✠, and of the Holy ✠ Ghost. ℟. Amen.
+r: || In the act of confirming, the priest should be careful to impose his right hand upon the head of the candidate, while with his thumb he makes the sign of the cross with chrism on the candidate's forehead, saying the above form. At the appointed places he makes three signs of the cross over the newly confirmed, saying In nómine... Then the priest gives the newly confirmed the kiss of peace:
+r: Et leviter eum in maxilla cædit, dicens: || The priest strikes the person lightly on the (left) cheek, saying:
+t: Pax tecum. || Peace be with you.
+r: 7. Sacerdos postquam frontem confirmandi linierit sacro chrismate, eam gossypio diligenter abstergat. Tergit postea cum mica panis, et lavat pollicem et manus super pelvim; deinde aquam lotionis cum pane et gossypio in vase mundo reponat et ad ecclesiam postea deferat, comburat, cineresque projiciat in sacrarium. || After the priest has anointed the person's forehead with sacred chrism, he wipes it carefully with cotton. Then he wipes his own thumb and hands with bread and washes them over a basin. He places the water used for the washing, together with the bread and cotton, in a clean vessel which he afterward carries to the church. The water is poured in the sacrarium, and the bread and cotton are burned, with the ashes also placed in the sacrarium.
+r: 8. Post lotionem ab ipso Sacerdote dicitur antiphona: || After washing his hands, the priest says the antiphon:
+t: *Ant.* Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem. || *Ant.* Confirm, O God, what you have wrought in us, from your holy temple, which is in Jerusalem.
+v: Glória Patri, et Fílio, et Spirítui Sancto. || Glory be to the Father, and to the Son, and to the Holy Ghost.
+x: Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen. || As it was in the beginning, is now, and ever shall be, world without end. Amen.
+r: Et repetitur antiphona: || And the antiphon is repeated:
+t: *Ant.* Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Jerúsalem. || *Ant.* Confirm, O God, what you have wrought in us, from your holy temple, which is in Jerusalem.
+r: 9. Qua repetita, Sacerdos stans versus infirmum, junctis ante pectus manibus, dicit: || After the repetition of the antiphon, the priest, facing the sick person, with his hands joined before his breast, says:
+v: Osténde nobis, Dómine, misericórdiam tuam. || Show us, Lord, your mercy.
+x: Et salutáre tuum da nobis. || And grant us your salvation.
+v: Dómine, exáudi oratiónem meam. || Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come to you.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+r: Junctis vero adhuc ante pectus manibus, dicit: || With his hands still joined before his breast, he says:
+t: Orémus. || Let us pray.
+t: Deus, qui Apóstolis tuis Sanctum dedísti Spíritum, et per eos eorúmque successóres céteris fidélibus tradéndum esse voluísti: réspice propítius ad humilitátis nostræ famulátum, et præsta; ut ejus cor, cujus frontem sacro Chrísmate delinívimus, et signo sanctæ Crucis signávimus, idem Spíritus Sanctus in eo supervéniens, templum glóriæ suæ dignánter inhabitándo perfíciat: Qui cum Patre, et eódem Spíritu Sancto vivis et regnas Deus, in sǽcula sæculórum. ℟. Amen. || O God, you gave the Holy Spirit to your apostles and willed that through them and their successors he should be given to the rest of the faithful. Look with favor upon our lowly service and grant that the same Holy Spirit, coming down into the heart of him (her) whose forehead we have anointed with the sign of the holy cross and dwelling there, may make it the temple of his glory. Who with the Father and the same Holy Spirit lives and reigns forever and ever. ℟. Amen.
+r: 10. Deinde dicit: || Then the priest says:
+t: Ecce sic benedicétur omnis homo, qui timet Dóminum. || See how that man will be blessed who fears the Lord.
+r: Et vertens se ad confirmatum, ac faciens super eum signum crucis, dicit: || Facing the newly confirmed person and making the sign of the cross over him, the priest says:
+t: Bene✠dícat te Dóminus ex Sion, ut vídeas bona Jerúsalem ómnibus diébus vitæ tuæ, et hábeas vitam ætérnam. ℟. Amen. || From Sion may the Lord bless ✠ you, that you may see the prosperity of Jerusalem all the days of your life and may have life everlasting. ℟. Amen.
+
+// ──────────────────────────────────────────────────────────────────────
 // Instruction for a Priest Having the Faculty to Celebrate Mass Twice on the Same Day
 // ──────────────────────────────────────────────────────────────────────
 # mass-bination | Instructio pro Sacerdote facultatem habente bis Missam eadem die celebrandi | Instruction for a Priest Having the Faculty to Celebrate Mass Twice on the Same Day | Sacraments | Appendix, De sanctissima Eucharistia, I
