@@ -107,7 +107,7 @@
   .rows.only-la .colhead.en, .rows.only-en .colhead.la { display: none; }
   .row { display: contents; }
   .row > div { padding: 5px 0; }
-  .la { font-feature-settings: "liga" 1, "dlig" 0, "hist" 0; }   /* normal letters only: the font's "dlig" feature would print u as v (Spiritvs) */
+  .la { font-feature-settings: "liga"; }   /* Note: Latin cells are deliberately NOT tagged lang="la": with that tag this font prints u as v (Spiritvs) */
   .r > div { color: var(--rubric); font-size: .92rem; font-style: italic; }
   .h > div { font-weight: 600; font-size: 1.12rem; padding-top: 16px; color: var(--accent); font-variant: small-caps; letter-spacing: .03em; }
   .v > div, .x > div { padding: 1px 0; }
@@ -328,13 +328,13 @@
   function blockHTML([k, la, en]) {
     if (k === 'n') return `<div class="n ui">${fmt(en)}</div>`;
     const pre = k === 'v' ? '<span class="sym">℣.</span> ' : k === 'x' ? '<span class="sym">℟.</span> ' : '';
-    return `<div class="row ${k}"><div class="la" lang="la">${pre}${fmt(la)}</div><div class="en">${pre}${fmt(en)}</div></div>`;
+    return `<div class="row ${k}"><div class="la">${pre}${fmt(la)}</div><div class="en">${pre}${fmt(en)}</div></div>`;
   }
   // A whole rite with its title and the previous/next links at the bottom.
   function riteHTML(r) {
     const i = RITES.indexOf(r), prev = RITES[i - 1], next = RITES[i + 1];
     return `<article class="rite"><div class="ref ui">${esc(r.cat)} · Rituale Romanum, ${esc(r.ref)}</div>
-      <h1 lang="la">${esc(r.la)}</h1><div class="sub">${esc(r.en)}</div>
+      <h1>${esc(r.la)}</h1><div class="sub">${esc(r.en)}</div>
       <div class="rows ${view === 'both' ? '' : 'only-' + view}"><div class="colhead la ui">Latin</div><div class="colhead en ui">English</div>
       ${r.b.map(blockHTML).join('')}</div></article>
       <div class="pager">${prev ? `<a href="#${prev.id}">← ${esc(prev.en)}</a>` : '<span></span>'}<a href="#">⌂ Home</a>${next ? `<a href="#${next.id}">${esc(next.en)} →</a>` : '<span></span>'}</div>`;
@@ -345,7 +345,7 @@
      The paragraphs between <p> and </p> below can be edited like ordinary text. */
   function introHTML() {
     const counts = {}; RITES.forEach(r => counts[r.cat] = (counts[r.cat] || 0) + 1);
-    return `<section class="intro"><h1 lang="la">Rituale Romanum</h1><div class="sub" style="font-style:italic;color:var(--muted);font-size:1.2rem;margin-bottom:12px">The rites and blessings of the Roman Ritual, in Latin with an English translation</div>
+    return `<section class="intro"><h1>Rituale Romanum</h1><div class="sub" style="font-style:italic;color:var(--muted);font-size:1.2rem;margin-bottom:12px">The rites and blessings of the Roman Ritual, in Latin with an English translation</div>
       <div class="grid-cats">${cats.map(c => `<a href="#${RITES.find(r => r.cat === c).id}"><b>${esc(c)}</b><span>${counts[c]} ${counts[c] === 1 ? 'rite' : 'rites'}</span></a>`).join('')}</div>
       <h2 style="color:var(--accent);font-weight:600">About this edition</h2>
 
@@ -374,7 +374,7 @@
     for (const c of cats) {
       const list = RITES.filter(r => r.cat === c && match(r));
       if (!list.length) continue;
-      html += `<div class="cat ui">${esc(c)}</div>` + list.map(r => `<a href="#${r.id}" aria-current="${r.id === cur}"><span class="la" lang="la">${esc(r.la)}</span><span class="en">${esc(r.en)}</span></a>`).join('');
+      html += `<div class="cat ui">${esc(c)}</div>` + list.map(r => `<a href="#${r.id}" aria-current="${r.id === cur}"><span class="la">${esc(r.la)}</span><span class="en">${esc(r.en)}</span></a>`).join('');
     }
     $('toc').innerHTML = html || '<div class="none ui">No rites match that search.</div>';
   }
