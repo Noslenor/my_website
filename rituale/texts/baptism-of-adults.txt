@@ -137,14 +137,7 @@ r: 9. Hic in modum crucis halat in faciem ipsius, et dicit: || 9. He breathes in
 t: N., Accipe Spíritum bonum per istam insufflatiónem, et Dei bene✠dictiónem. Pax tibi. ℟. Et cum spíritu tuo. || N., through this rite of breathing upon you, receive the good Spirit and the blessing ✠ of God. Peace be to you. ℟. And with your spirit.
 r: 10. Deinde pollice facit crucem in ejus fronte, et in pectore, dicens: || 10. Then with his thumb he makes a cross on the catechumen's forehead and on his breast, saying:
 t: N., Accipe signum crucis tam in fron✠te, quam in cor✠de: sume fidem cæléstium præceptórum. Talis esto móribus, ut templum Dei jam esse possis: ingressúsque (ingréssaque) Ecclésiam Dei, evasísse te láqueos mortis, lætus (-a) agnósce. || N., receive the mark of the cross on your ✠ forehead and within your ✠ heart. Embrace the faith with its divine teachings. So live that you will indeed be a temple of God. Having entered into the Church of God, be happy in knowing that you have escaped the snares of death.
-r: Et si Catechumenus venerit de gentilitatis errore, seu de ethnicis et idololatris, Sacerdos dicat: || And if the catechumen has come from the error of paganism, that is, from the heathen and idolaters, the priest says:
-t: Horrésce idóla, réspue simulácra. || Abhor idols, reject images.
-r: Si ex Hebræis, dicat: || If from the Jews, he says:
-t: Horrésce Judáicam perfídiam, réspue Hebráicam superstitiónem. || Abhor Jewish unbelief, reject Hebrew superstition.
-r: Si ex Mahumetanis, dicat: || If from the Mohammedans, he says:
-t: Horrésce Mahuméticam perfídiam, réspue pravam sectam infidelitátis. || Abhor Mohammedan unbelief, reject the perverse sect of infidelity.
-r: Si ex Hæreticis, et in ejus Baptismo debita forma servata non sit, dicat: || If from the heretics, and the proper form was not observed in his Baptism, he says:
-t: Horrésce hæréticam pravitátem, réspue nefárias sectas impiórum N. *(exprimens proprio nomine sectam de qua venit.)* || Abhor heretical depravity, reject the wicked sects of the impious N. *(naming by its proper name the sect from which he comes.)*
+n: The older editions of the Rituale add here a short formula (“Horrésce…”) for converts from paganism, Judaism, Islam, or heresy. It is not printed in the 1962 parish ritual, which passes directly from this signing to “Inde prosequitur.”
 r: Inde prosequitur: || Then the priest continues:
 t: Cole Deum Patrem omnipoténtem, et Jesum Christum, Fílium ejus únicum, Dóminum nostrum, qui ventúrus est judicáre vivos et mórtuos, et sǽculum per ignem. ℟. Amen. || Worship only God, the Father almighty, and Jesus Christ, his only Son, our Lord, who will come to judge the living and the dead and the world by fire. ℟. Amen.
 t: Orémus. *(In plurali pro pluribus.)* || Let us pray.
