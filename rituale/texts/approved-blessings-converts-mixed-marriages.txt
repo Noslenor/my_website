@@ -310,6 +310,36 @@ t: || I firmly hold that Purgatory exists and that the souls detained there can 
 t: || I profess firmly that the images of Jesus Christ and of the Mother of God, ever Virgin, as well as of all the saints, should be given due honor and veneration. I also affirm that Jesus Christ left to the Church the faculty to grant Indulgences and that their use is most salutary to the Christian people. I recognize the Holy, Roman, Catholic and Apostolic Church as the mother and teacher of all the Churches and I promise and swear true obedience to the Roman Pontiff, successor of Saint Peter, Prince of the Apostles, and Vicar of Jesus Christ.
 t: || Besides I accept, without hesitation, and profess all that has been handed down, defined and declared by the Sacred Canons and by the general Councils, especially by the Sacred Council of Trent and by the Vatican General Council, and in a special manner concerning the primacy and infallibility of the Roman Pontiff. At the same time I condemn and reprove all that the Church has condemned and reproved.
 t: || This same Catholic Faith, outside of which nobody can be saved, which I now freely profess and to which I truly adhere, the same I promise and swear to maintain and profess, with the help of God, entire, inviolate and with firm constancy until the last breath of life; and I shall strive, as far as possible, that this same Faith shall be held, taught and publicly professed by all those who depend on me and by those of whom I shall have charge. So help me God and these Holy Gospels.
+h: || The Profession of Faith — Alternative Version
+r: || The following version of the profession of faith is used in some places for uneducated persons and for those who would find the longer text difficult to understand.
+t: || I, N., touching with my hand God's holy Gospels, enlightened by divine grace, profess the faith which the Catholic, Apostolic Roman Church teaches. I believe that Church to be the one true Church, which Jesus Christ founded on earth: to which I submit with all my heart.
+t: || I believe in God, the Father almighty, creator of heaven and earth; and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried. He descended into hell; the third day he arose again from the dead; he ascended into heaven, sitteth at the right hand of God, the Father almighty; thence he shall come to judge the living and the dead. I believe in the Holy Ghost, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.
+t: || I believe that seven sacraments were instituted by Jesus Christ for the salvation of mankind: namely, Baptism, Confirmation, Holy Eucharist, Penance, Extreme Unction, Holy Orders, and Matrimony.
+t: || I believe that the Pope, the Bishop of Rome, is the Vicar of Jesus Christ on earth, that he is the supreme visible head of the whole Church, and that he teaches infallibly what we must believe and do to be saved.
+t: || I also believe everything which the Holy, Catholic, Apostolic and Roman Church defines and declares we must believe. I adhere to her with all my heart, and I reject every error and schism which she condemns. So help me God and these his Holy Gospels which I touch with my hand.
+r: || After the profession of faith the convert remains kneeling and the priest, still seated, says the psalm Miserere or the De profundis with the Gloria Patri at the end.
+@psalm-50
+r: || *Or:*
+@psalm-129
+r: || Then the priest stands and says:
+t: Kýrie, eléison. Christe, eléison. Kýrie, eléison. || Lord, have mercy. Christ, have mercy. Lord, have mercy.
+t: Pater noster *(secreto usque ad)* || Our Father *(silently until)*
+v: Et ne nos indúcas in tentatiónem. || And lead us not into temptation.
+x: Sed líbera nos a malo. || But deliver us from evil.
+v: Salvum fac servum tuum (ancíllam tuam). || Save your servant (handmaid),
+x: Deus meus, sperántem in te. || O my God, who hopes in you.
+v: Dómine, exáudi oratiónem meam. || O Lord, hear my prayer.
+x: Et clamor meus ad te véniat. || And let my cry come unto you.
+v: Dóminus vobíscum. || The Lord be with you.
+x: Et cum spíritu tuo. || And with your spirit.
+t: Orémus. || Let us pray.
+t: Deus, cui próprium est miseréri semper et párcere: súscipe deprecatiónem nostram, ut hunc fámulum tuum (hanc fámulam tuam), quem (quam) excommunicatiónis caténa constríngit, miserátio tuæ pietátis cleménter absólvat. Per Dóminum nostrum Jesum Christum Fílium tuum: Qui tecum vivit et regnat in unitáte Spíritus Sancti Deus, per ómnia sǽcula sæculórum. ℟. Amen. || O God, whose nature it is always to have mercy and to spare, receive our petition, that this your servant, bound by the chain of excommunication, may be mercifully set free by your loving compassion. Through our Lord Jesus Christ, your Son, who lives and reigns with you in the unity of the Holy Spirit, God, for ever and ever. ℟. Amen.
+r: || The priest, seated, pronounces the absolution from excommunication as follows, inserting the word forsan if in doubt that the excommunication was incurred:
+t: (Must use the Latin) Auctoritáte apostólica, qua fungor in hac parte, absólvo te a vínculo excommunicatiónis quam (forsan) incurrísti, et restítuo te sacrosánctis Ecclésiæ sacraméntis, communióni et unitáti fidélium in nómine Patris, et Fílii, ✠ et Spíritus Sancti. Amen. || (Must use the Latin) By the apostolic authority which I exercise here, I absolve you from the bond of excommunication which you have (perhaps) incurred, and I restore you to the holy sacraments of the Church, to the communion and unity of the faithful, in the name of the Father, and of the Son, ✠ and of the Holy Spirit. Amen.
+r: || Then the priest imposes some salutary penance, such as prayers or a visit to a church.
+r: || Finally the ceremonies of baptism are supplied (see “Supplying the Ceremonies Omitted in the Baptism of an Adult”), unless for a reasonable cause the local Ordinary permits their omission.
+r: || The convert, having been absolved in the external forum from the censure of excommunication, may now be absolved from his sins by any confessor. He should then receive the sacrament of confirmation and receive holy Communion.
+r: || Converts under fourteen years of age do not make the formal profession of faith or abjuration given above, nor are they absolved from censure. If they have reached the age of reason, they should make a simple profession of faith, for example, by reciting the Apostles' Creed.
 
 // ──────────────────────────────────────────────────────────────────────
 // The Rite for Celebrating the Sacrament of Matrimony (with Vernacular Forms)
