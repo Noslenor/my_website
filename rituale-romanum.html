@@ -287,7 +287,8 @@
       if (!current) { problems.push(`${where}: this line comes before any rite heading (# ...)`); continue; }
       const [, kind, body] = m;
       if (kind === 'n') { current.b.push(['n', '', body.trim()]); continue; }
-      const split = body.indexOf(' || ');
+      const split = body.startsWith('|| ') ? -1 : body.indexOf(' || ');   // a line may start with "|| " when there is English only
+      if (body.startsWith('|| ')) { current.b.push([kind, '', body.slice(3).trim()]); continue; }
       if (split < 0) { problems.push(`${where}: missing " || " between the Latin and the English`); continue; }
       const la = body.slice(0, split).trim(), en = body.slice(split + 4).trim();
       const crossesLa = (la.match(/✠/g) || []).length, crossesEn = (en.match(/✠/g) || []).length;

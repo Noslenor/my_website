@@ -45,6 +45,7 @@ n: A note shown in English only.
 | `v:` | Versicle | Begins with ℣. |
 | `x:` | Response | Begins with ℟. |
 | `n:` | Note in English only (no `\|\|` needed) | Grey box across both columns |
+| `t: \|\| text` | Any line may start with `\|\| ` when the book prints English only | Empty Latin column |
 | `@name` | Inserts a shared text from `shared/name.txt` (e.g. `@psalm-50`, `@gloria-patri`) | The whole psalm, hymn or litany |
 | `//` | A note for editors; never shown on the page | Hidden |
 
