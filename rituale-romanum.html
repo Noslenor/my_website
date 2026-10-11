@@ -329,6 +329,7 @@
   function blockHTML([k, la, en]) {
     if (k === 'n') return `<div class="n ui">${fmt(en)}</div>`;
     const pre = k === 'v' ? '<span class="sym">℣.</span> ' : k === 'x' ? '<span class="sym">℟.</span> ' : '';
+    if (!la) return `<div class="row ${k}"><div class="en" style="grid-column:1/-1">${pre}${fmt(en)}</div></div>`;   // English-only line (no Latin in the book): use the full width
     return `<div class="row ${k}"><div class="la">${pre}${fmt(la)}</div><div class="en">${pre}${fmt(en)}</div></div>`;
   }
   // A whole rite with its title and the previous/next links at the bottom.
